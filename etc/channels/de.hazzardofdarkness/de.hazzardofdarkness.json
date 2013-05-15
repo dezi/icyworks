@@ -1,0 +1,245 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://87.230.57.21:6666",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Hazzard of Darkness - ",
+    "subDomaine":"hazzardofdarkness",
+    "relayDisabled":false,
+    "rank":1027,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Hazzard of Darkness - das etwas andere Dark Radio.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1616_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1616_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1616_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Hazzard of Darkness - das etwas andere Dark Radio.",
+    "metaDataUrl":"http://87.230.57.21:6666",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":192,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://87.230.57.21:6666",
+    "displaySubDomaine":"hazzardofdarkness",
+    "recentTitles":
+    [
+      "VITER - Cold And Frozen",
+      "Mob Research - Manufactured Terror",
+      "The Nine Tears - Undressed Of Flesh",
+      "Psycho Luna - Blätter",
+      "O. Children - Heels",
+      "Kirlian Camera - Eclipse",
+      "Otto Dix - AOUM",
+      "NamNamBulu - Faces (WHS Remix)",
+      "Rename - You Don\'T Deserve My Love (Dj Ram Mix)",
+      "Scream Silence - The Faint",
+      "Nick Cave And The Bad Seeds - Do You Love Me?",
+      "Diorama - Blessed",
+      "State of the Union - Mankind",
+      "Anterior - Days of Deliverance",
+      "In the Nursery - Soeurette",
+      "Area24 - Call On Me",
+      "Richthofen - Hart am Wind",
+      "Heimataerde - Gotteskrieger",
+      "Passionworks - Angels Crossing",
+      "IAMX - Spit It Out",
+      "The Cranberries - Zombie",
+      "Accessory - Ewigkeit",
+      "Hanzel und Gretyl - Mein Kommandant",
+      "Grendel - Chemicals And Circuitry",
+      "Miss Construction - Electro Beast (Remixed By Dolls Of Pain)",
+      "Ingrimm - Ad Bestias",
+      "Cardillac Complex - Died By Your Hands",
+      "Garden Of Delight - Relation Of Light To Shadow",
+      "Tocotronic vs Console - Freiburg V30 (Club Europe)",
+      "The Vision Bleak - Evil Is Of Old Date",
+      "Arch Enemy - Aces High",
+      "Paradise Lost - Last Regret",
+      "Godgory - Resurrection",
+      "Panic Lift - Everything I Have",
+      "Absent One - Hollywood",
+      "Faun - Unicorne",
+      "Michael Garrison - Take A Chance",
+      "Radio HaZZard of Darkness - mit der besten Musik aus der Schwarzen Szene (04-1)",
+      "-La Magra- - God Is Dead",
+      "As I Lay Dying - The Darkest Nights",
+      "Iris - Annie Would I Lie To You (Rmx)",
+      "Asgard - Ch. IV Drachenfels",
+      "Boytronic - Pioneers (Are Marching On)",
+      "Psychema - You",
+      "Analogue Brain - There Must Be More",
+      "AC/DC - Back In Black",
+      "KASH - Feuermord",
+      "Mind Destruction - Run Machine",
+      "Mantus - Groesser als die Sonne",
+      "Sub Division - Love Assassin",
+      "Dawnfine - Shine",
+      "Orchestral Manoeuvres In The Dark - Electricity",
+      "In Flames - Cloud Connected",
+      "Oliver Lieb feat. Klaus Kinski - Jesus ist da"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.hazzardofdarkness.com",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1616_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1616_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1616,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1616_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1616_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1616_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Alternative, Electro",
+      "_city":"Berlin",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Hazzard of Darkness",
+    "picture3Url":"",
+    "streamUrl":"http://87.230.57.21:6666",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1616_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1616_5.gif",
+    "subdomain":"hazzardofdarkness",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":382,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.230.57.21:6666",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://87.230.57.21:6666",
+        "idBroadcast":1616,
+        "bitRate":192
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

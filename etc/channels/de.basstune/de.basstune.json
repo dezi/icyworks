@@ -1,0 +1,241 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dsl.basstune.de:8200",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"BassTune",
+    "subDomaine":"basstune",
+    "relayDisabled":false,
+    "rank":494,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Dance, Trance, Techno & House.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3674_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3674_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/3674_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Dance, Trance, Techno & House.",
+    "metaDataUrl":"http://dsl.basstune.de:8200",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dsl.basstune.de:8200",
+    "displaySubDomaine":"basstune",
+    "recentTitles":
+    [
+      "Maroon 5 feat. Wiz Khalifa - Payphone",
+      "Die Atzen feat. Nena - Strobo Pop",
+      "DJ Sequenza - Tricky Tricky 2009",
+      "Der Hollander - Das Rote Pferd",
+      "Britney Spears - Hold It Against Me ",
+      "Bob Sinclar feat. Pitbull - Rock The Boat",
+      "Avril Lavigne - What The Hell",
+      "Don Omar Ft. Lucenzo - Danza Kuduro",
+      "Selena Gomez - Naturally",
+      "Inna - Love",
+      "Cascada - Evacuate The Dancefloor",
+      "Usher - DJ Got Us Falling In Love Again",
+      "Kris Mctwain - Stuck On Replay",
+      "Arianna - Ich Denke Oft An Dich",
+      "Loreen - Euphoria",
+      "Feenixpawl  Ivan Gough feat. Georgi Kay - In My Mind",
+      "Culcha Candela - Monsta",
+      "Seaside Clubbers - Twist",
+      "Tacabro - Tacata",
+      "Sunset Project - Welcome Back",
+      "Italobrothers - Love Is On Fire",
+      "Megastylez - Gonna Be So Happy",
+      "Paul Dave feat. Jonny Rose  Chris Reeder - Party Like An Animal",
+      "Nick Dacota - Time X",
+      "Brooklyn Bounce - Bass, Beats  Melody Reloaded",
+      "Master Blaster - Until The End",
+      "Raven And Kleekamp - Not Afraid",
+      "Daniel Hoppe - Star",
+      "Jasper - Big Deal",
+      "Drillheadz - Ab geht die Post",
+      "Azuro Feat. Elly - Toca Me",
+      "Kelly Clarkson - Stronger (What Doesn\'t Kill You)",
+      "Bulldozer - Can You Feel The Vibe",
+      "Dan Winter - Party Jump",
+      "Liz Meyer - Without You",
+      "Black Eyed Peas - I Gotta Feeling",
+      "Manian feat. Aila - Desenchantee",
+      "Mike Nero - Believe",
+      "Tom Hangs Feat. Shermanoloy - Blessed",
+      "Groove Coverage Feat. Rameez - Think About the Way",
+      "Steve Buzz - Monsterize",
+      "E-Partment Feat. Kandy - Hang On",
+      "BassTune - In the Mix XIX",
+      "Klaas Meets Haddaway - What Is Love",
+      "Airbeat One Project - Airbeat Army",
+      "Novaspace - Dancing Into Danger",
+      "Picco  Falk on Air - Higher",
+      "Tiesto  Mark Knight Feat. Dino - Beautiful World",
+      "Vinylshakerz - Rainbow",
+      "Kian Keen - Follow Me"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.basstune.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3674_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3674_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3674,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3674_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3674_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3674_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Internetradio",
+      "_country":"Deutschland",
+      "_genre":"Dance, Techno",
+      "_city":"Neustadt in Holstein",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"BassTune",
+    "picture3Url":"",
+    "streamUrl":"http://dsl.basstune.de:8200",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3674_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3674_5.jpeg",
+    "subdomain":"basstune",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2835,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dsl.basstune.de:8200",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://dsl.basstune.de:8200",
+        "idBroadcast":3674,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

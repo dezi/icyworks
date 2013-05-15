@@ -1,0 +1,1597 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701519",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363882885/radio/spass5/wdr5_spass5_20130321_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 21.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699570",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363277055/radio/spass5/wdr5_spass5_20130314_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 14.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697830",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362670951/radio/spass5/wdr5_spass5_20130307_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 07.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696014",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362067394/radio/spass5/wdr5_spass5_20130228_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 28.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694439",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361463092/radio/spass5/wdr5_spass5_20130221_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 21.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692522",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360858559/radio/spass5/wdr5_spass5_20130214_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 14.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690563",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 07.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688646",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359648272/radio/spass5/wdr5_spass5_20130131_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 31.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686853",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359042221/radio/spass5/wdr5_spass5_20130124_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 24.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685034",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358440628/radio/spass5/wdr5_spass5_20130117_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 17.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683032",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357832746/radio/spass5/wdr5_spass5_20130110_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 10.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681343",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357229008/radio/spass5/wdr5_spass5_20130103_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 03.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679870",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356625333/radio/spass5/wdr5_spass5_20121227_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 27.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678551",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356019186/radio/spass5/wdr5_spass5_20121220_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 20.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17676472",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1355414705/radio/spass5/wdr5_spass5_20121213_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 13.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17674386",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354809785/radio/spass5/wdr5_spass5_20121206_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 06.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17671634",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354206744/radio/spass5/wdr5_spass5_20121129_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 29.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17669187",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1353599064/radio/spass5/wdr5_spass5_20121122_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 22.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667118",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1352994909/radio/spass5/wdr5_spass5_20121115_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 15.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17664058",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1352390684/radio/spass5/wdr5_spass5_20121108_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 08.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17628625",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1351176058/radio/spass5/wdr5_spass5_20121025_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 25.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17615995",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1350896073/radio/spass5/wdr5_spass5_20121018_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 18.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17580744",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1349967957/radio/spass5/wdr5_spass5_20121011_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 11.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17554754",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1349362414/radio/spass5/wdr5_spass5_20121004_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 04.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17532306",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1348760343/radio/spass5/wdr5_spass5_20120927_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 27.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17511211",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1348153295/radio/spass5/wdr5_spass5_20120920_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 20.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17487255",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1347548039/radio/spass5/wdr5_spass5_20120913_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 13.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17285553",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1346943382/radio/spass5/wdr5_spass5_20120906_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 06.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16996777",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1346339867/radio/spass5/wdr5_spass5_20120830_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 30.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16778875",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1345734303/radio/spass5/wdr5_spass5_20120823_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 23.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16567906",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1345129704/radio/spass5/wdr5_spass5_20120816_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 16.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16553021",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1344523888/radio/spass5/wdr5_spass5_20120809_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 09.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16540311",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1343920022/radio/spass5/wdr5_spass5_20120802_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 02.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16525671",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1343315435/radio/spass5/wdr5_spass5_20120726_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 26.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16507501",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1342710156/radio/spass5/wdr5_spass5_20120719_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 19.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16481545",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1342105607/radio/spass5/wdr5_spass5_20120712_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 12.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16466308",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1341502519/radio/spass5/wdr5_spass5_20120705_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 05.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16438176",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1340895773/radio/spass5/wdr5_spass5_20120628_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 28.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16421663",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1340290693/radio/spass5/wdr5_spass5_20120621_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 21.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16399160",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1339685703/radio/spass5/wdr5_spass5_20120614_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 14.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16358403",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1338476539/radio/spass5/wdr5_spass5_20120531_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 31.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16341818",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1337872090/radio/spass5/wdr5_spass5_20120524_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 24.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16306230",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1336662805/radio/spass5/wdr5_spass5_20120510_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 10.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16264065",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1336058067/radio/spass5/wdr5_spass5_20120503_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 03.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16231760",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1335453183/radio/spass5/wdr5_spass5_20120426_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 26.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16210246",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1334858312/radio/spass5/wdr5_spass5_20120419_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 19.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16177976",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1334243183/radio/spass5/wdr5_spass5_20120412_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 12.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16153730",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1333706141/radio/spass5/wdr5_spass5_20120405_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 05.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16140414",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1333032950/radio/spass5/wdr5_spass5_20120329_2330.mp3",
+      "testResult":null,
+      "name":"WDR 5 Spaß 5: Sendung vom 29.03.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"WDR 5 - Spaß5",
+    "subDomaine":"spass5",
+    "relayDisabled":false,
+    "rank":2249,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das WDR 5 Satiremagazin lotst mit Kabarettisten und Komikern durch den Wahnsinn der Woche. Wilfried Schmickler, Dieter Nuhr und Fritz Eckenga: Diese und andere Profis für aktuelle politische Satire und gehobenen Blödsinn sind Stammgäste bei Spaß 5. Das Beste aus dem WDR 5 Scherzbergwerk.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3709_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3709_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das WDR 5 Satiremagazin lotst mit Kabarettisten und Komikern durch den Wahnsinn der Woche. Das Beste aus dem WDR 5 Scherzbergwerk.",
+    "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 21.03.2013",
+        "episode":0,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (Zypern); Tom Beinlich: TV Royal; Detlef Gröning:  Auf den Spuren des Papstes; Richard Berkowski: Volksnaher Papst; Tobias Brodowy: Gaucksches Entspannungstraining; Richard Berkowski: Deals vor Gericht; Christoph Tiemann: Zeitumstellung in Kasachstan; René Steinberg: VdL (Frühling) © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363882885/radio/spass5/wdr5_spass5_20130321_2330.mp3",
+        "published":"Thu, 21 Mar 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12065213
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 14.03.2013",
+        "episode":1,
+        "description":"Spaß 5 mit Maria Grund-Scholer und folgenden Beiträgen: Tobias Brodowy: Besuch in der Sixtinischen Kapelle - René Steinberg: Die von der Leyens und das Küchenkonklave - Volker Pispers : Arm aber sexy - Uli Winters: Peers Wahlkampfteam  - Tobias Brodowy: Die fabelhafte Welt der FDP - Uli Winters: Tim Mahlzeit: 30 Jahre Grüne - Onkel Fisch: Die wundervolle Grüne Welt - Tom Beinlich Schnee - Axel Naumer und Maria Grund-Scholer: Angie telefoniert   © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363277055/radio/spass5/wdr5_spass5_20130314_2330.mp3",
+        "published":"Thu, 14 Mar 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11629461
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 07.03.2013",
+        "episode":2,
+        "description":"Moderation: Dominik Mercks / Richard Berkowski: Frühling im Gartencenter / Fritz Eckenga: Möbel-Matthes (Frühlingsbote) / Arnulf Rating: Boni für Banker / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (CeBIT) / Tom Beinlich: Die Grünen / Nils Heinrich: Homo-Ehe / Uli Winters: Tim Mahlzeit (Neuer Papst) / Tobias Brodowy: Lebensmittelpunkt der Skandale. © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362670951/radio/spass5/wdr5_spass5_20130307_2330.mp3",
+        "published":"Thu, 07 Mar 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12488947
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 28.02.2013",
+        "episode":3,
+        "description":"David Rother: Moderation / Dietmar Wischmeyer: Ratzis letzter Tag / Tobias Brodowy: Katecheten-Umschau (Pille danach) / Tom Beinlich: Vatikan / Fritz Eckenga: Möbel-Matthes (Skandale) / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Clowns) / Tom Beinlich: Italien / Onkel Fisch: 50 Shades Of Grau / Volker Pispers: Schlechte Zeiten für Konservative / Uwe Rössler: Papst@Klavier (My Way) © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362067394/radio/spass5/wdr5_spass5_20130228_2330.mp3",
+        "published":"Thu, 28 Feb 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12070519
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 21.02.2013",
+        "episode":4,
+        "description":"David Rother: Moderation / Tobias Brodowy: Amazons Leiharbeiter / Martin Kissel: Tagesschau-Remix (Mehrpferdsteuer) / Markus Hennig: Los Galoppos - Pferdewochen bei McDonald´s / Tobias Brodowy: Pferd aufm Herd / Dietmar Wischmeyer: Fertiglasagne / Tom Beinlich: Musikstile im Plagiatsvergleich / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Stoiber und Raab) / Tobias Brodowy: Neue Apple-Uhr / Axel Naumer: Leopard-Werbung / Nico Rau: Passagierstreik © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361463092/radio/spass5/wdr5_spass5_20130221_2330.mp3",
+        "published":"Thu, 21 Feb 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12756841
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 14.02.2013",
+        "episode":5,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (Papst); Christoph Tiemann: Papst-Nachfolge; Thomas Pigor: Ich sag nix; René Steinberg: Von der Leyens (Schavan); Volker Pispers: Belästigung; Tom Beinlich: Vergnügungspark Nordkorea; Tobias Brodowy: Fleischatlas, Tom Beinlich: Heino © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360858559/radio/spass5/wdr5_spass5_20130214_2330.mp3",
+        "published":"Thu, 14 Feb 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12003131
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 07.02.2013",
+        "episode":6,
+        "description":"Moderation: Maria Grund-Scholer / Uli Winters: Peer und Angie privat: Schach mit Dame / Dora Cohnen: Sexismusdebatte Collage / Tom Beinlich: Byschkek Institut für plastinierten Karneval / Volker Pispers: Progromstimmung / Tom Beinlich: Humorplastinat: küssen macht blind / René Steinberg: Iraner im Weltall / Tom Beinlich: Vergleich Niederlande- WDR / Uli Winters: Tim Mahlzeit: Willem / Tobias Brodowy: Hitlers Ein-Knopp-Kaffemaschine / Axel Naumer: Angie Telefoniert: Dr. Schawan © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "published":"Thu, 07 Feb 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11769095
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 31.01.2013",
+        "episode":7,
+        "description":"Moderation: Hartmut Krause / Tobias Mann - Brüderle und der Sexismus / Dietmar Wischmeyer - Das Urweltmonster / Onkel Fisch - elitepolitiker.de / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Mursi / Fritz Eckenga - Möbel-Matthes: Stimmungsprüfer / Tobias Brodowy - Markencheck Kirche / Henning Bornemann - Space Night © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359648272/radio/spass5/wdr5_spass5_20130131_2330.mp3",
+        "published":"Thu, 31 Jan 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12439999
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 24.01.2013",
+        "episode":8,
+        "description":"Spaß 5 mit Maria Grund-Scholer und folgenden Beiträgen: Wilfried Schmickler: Landtagswahl in Niedersachsen - René Steinberg: Das Schloss Niedersachsen  - Dietmar Wischmeyer: Das Brüderle - Fritz Eckenga: Sprachkritiker zum Unwort des Jahres - Onkel Fisch: Film-Trailer zu Lance Armstrong-Beichte - Christoph Tiemann: Katholische Krankenhäuser und neue Ideen - Tom Beinlich: Die Deutsch-Französische Freundschaft - Axel Naumer und Maria-Grund-Scoler: Angie telefoniert    © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359042221/radio/spass5/wdr5_spass5_20130124_2330.mp3",
+        "published":"Thu, 24 Jan 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11290049
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 17.01.2013",
+        "episode":9,
+        "description":"Moderation: Michael Lohse; Axel Naumer: Angie telefoniert (Mali); Dietmar Wischmeyer: Das neue Berlin; Stephan Fritzsche: McAllister; Axel Naumer: Who’s next bei Oprah?; Tom Beinlich: Großbaustellen;Wilfried Schmickler: Fleischatlas 2013; Richard Berkowski: Steinbrück ins Dschungelcamp; René Steinberg: Von der Leyens (Winter); Stephan Fritzsche: Vorsicht vor gefälschten Grippeviren © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358440628/radio/spass5/wdr5_spass5_20130117_2330.mp3",
+        "published":"Thu, 17 Jan 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12008725
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 10.01.2013",
+        "episode":10,
+        "description":"Moderation: Dominik Mercks / Tobias Mann: Eine Lanze für Steinbrück / Uli Winters: Steinbrücks Geburtstags-Interview / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Prozente) / Wilfried Schmickler: Königsmördertreffen / Onkel Fisch: 50 Shades of Grau / Tobias Brodowy: 150 Jahre U-Bahn / Tom Beinlich: Flughafen Berliner Art / Thomas Pigor: Airport Berlin. © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357832746/radio/spass5/wdr5_spass5_20130110_2330.mp3",
+        "published":"Thu, 10 Jan 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12618539
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 03.01.2013",
+        "episode":11,
+        "description":"David Rother: Moderation / Rainald Grebe: Silvester / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Kanzlergehalt) / Henning Bornemann: Der kleine und jetzt auch noch nette Diktator / Markus Hennig: Cliff-Fall, der Schnarchbuster / Tom Beinlich: Das Dosenpfand / Onkel Fisch: Ziemlich beste Pfründe / Tom Beinlich: Jahreshoroskop © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357229008/radio/spass5/wdr5_spass5_20130103_2330.mp3",
+        "published":"Thu, 03 Jan 2013 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12731637
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 27.12.2012",
+        "episode":12,
+        "description":"Michael Lohse: Moderation; René Steinberg: Von der Leyens; Tobias Brodowy: Hotline zur Euro-Apokalypse; Axel Naumer: Schmidt bei Maischberger; Tom Beinlich: Alles über Strom; Stephan Fritzsche: Besuch bei El Sawahiri; Christoph Tiemann: Wladimir Putin, Uli Winters: Angie und Peer privat © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356625333/radio/spass5/wdr5_spass5_20121227_2330.mp3",
+        "published":"Thu, 27 Dec 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12575955
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 20.12.2012",
+        "episode":13,
+        "description":"David Rother: Moderation / Tom Beinlich: Weltuntergang / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (2586) / Tobias Mann: Finanz-Rocker / Dietmar Wischmeyer: Weihnachtsgrüße / Lars Reichow: Berlusconi / Stephan Fritzsche: Waffenrechtsverschärfung / Onkel Fisch: Auf der schwäbsche Eisenbahne / LaLeLu: Der Maja-Weltuntergang © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356019186/radio/spass5/wdr5_spass5_20121220_2330.mp3",
+        "published":"Thu, 20 Dec 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12090367
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 13.12.2012",
+        "episode":14,
+        "description":"Moderation: Maria Grund-Scholer / René Steinberg: Schloss Koalitionsstein: Parteitag / Uli Winters: Steinbrück PK / H.G.Butzko: SPD Steinbrück / René Steinberg:Die von der Leyens: Wutanfall / Uli Winters: Interview mit Peer / Tobias Mann: Der Papst twittert / Tom Beinlich: Jahresrückschauen / Axel Naumer: Angie telefoniert: Datenklau / © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1355414705/radio/spass5/wdr5_spass5_20121213_2330.mp3",
+        "published":"Thu, 13 Dec 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12054391
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 06.12.2012",
+        "episode":15,
+        "description":"Moderation: Dominik Mercks / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Parteitag) / René Steinberg: Die von der Leyens (Weihnachtsgeschichte) / Stephan Fritzsche: Klimakonferenzen der Zukunft / Stefan Reusch: Deutsche Waffenexporte / Tobias Brodowy: Studentenwohnungen / Christoph Tiemann: Die Geschichte der SMS / Tom Beinlich: Ulrich Wickert / Martin Kissel: Tagesschau-Remix (Krippenplätze). © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354809785/radio/spass5/wdr5_spass5_20121206_2330.mp3",
+        "published":"Thu, 06 Dec 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12422687
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 29.11.2012",
+        "episode":16,
+        "description":"Moderation: Hartmut Krause / Tom Beinlich - Adventskalender / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Weltklimakonferenz / Volker Pispers - Spinner / Stephan Fritzsche - Strompreisfaktoren / Tobias Brodowy - Abwrackprämie für Kühlschränke / Henning Bornemann - Aktenzeichen XY: Wo ist Schäubles Handy? / Onkel Fisch - Peer geht klingeln / Urs von Wulfen - Streit um die Hobbit-Rechte © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354206744/radio/spass5/wdr5_spass5_20121129_2330.mp3",
+        "published":"Thu, 29 Nov 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12674557
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 22.11.2012",
+        "episode":17,
+        "description":"Spaß 5 heute mit Maria Grund-Scholer und folgenden Beiträgen: Nurh am Leben von Dieter Nuhr, Roth-Grün von Volker Pispers, Berichte von morgen zum thema NRW-Polizei muß sparen von Matthias Piecha, Bundeskaufsucht von Tobias Brodowy, Ein \"Steinbrückstatement\" von Uli Winters, \"Billig-Billy\" von Wilfried Schmickler, Weltfernsehtag von Tom  Beinlich sowie Angie telefoniert  von Axel Naumer mit Maria Grund-Scholer als Angie - Redaktion Anja Iven © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1353599064/radio/spass5/wdr5_spass5_20121122_2330.mp3",
+        "published":"Thu, 22 Nov 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11914623
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 15.11.2012",
+        "episode":18,
+        "description":"Moderation: Hartmut Krause / Volker Pispers - Skandal um General / Onkel Fisch - Wahlen neben der Wahl / Christoph Tiemann - United Bundesländer / Maria Grund-Scholer+Axel Naumer - Angie telefoniert: Termine / Tom Beinlich - Absolute Mehrheit / Henning Bornemann - Forrest Lanz / Uli Winters - Karnevals-Hits © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1352994909/radio/spass5/wdr5_spass5_20121115_2330.mp3",
+        "published":"Thu, 15 Nov 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12346989
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 08.11.2012",
+        "episode":19,
+        "description":"Moderation: Dominik Mercks / Tom Beinlich: Die Wahlnacht im TV / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (US-Wahl) / Thomas Pigor: Wer wird Präsident? / Christoph Tiemann: Der perfekte Sturm / Volker Pispers: Ausschussware / Stephan Fritzsche: Peer Robin Steinhood / Onkel Fisch: Monopolis © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1352390684/radio/spass5/wdr5_spass5_20121108_2330.mp3",
+        "published":"Thu, 08 Nov 2012 23:30:00 +0100",
+        "bitRate":64,
+        "contentLength":12261695
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 25.10.2012",
+        "episode":20,
+        "description":"Moderation:Maria Grund-Scholer / Uli Winters: Peer und Angie Nebeneinkünfte / Henning Bornemann: Fast Vogel des Jahres / Fritz Eckenga: Möbel Mathes: Dopingsünder / Tom Beinlich: Alles über Strom / Detlev Gröning: Die Berater kommen / Christoph Tiemann: Bilder aus Rotterdam / Tom Beinlich: Der nächste Quotenknaller / Axel Naumer: Angie telefoniert: Draghi © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1351176058/radio/spass5/wdr5_spass5_20121025_2330.mp3",
+        "published":"Thu, 25 Oct 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12302991
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 18.10.2012",
+        "episode":21,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (Schäubles Vorschläge); Henning Bornemann: Rainer Maria Cron live aus Brüssel; Tom Beinlich: Belgien; Axel Naumer: Nobelpreis-Schalte nach Oggersheim; Tobias Brodowy: Steinbrücks Schachregeln; Peter Saurbier: Obamas Blues; Dietmar Wischmeyer: Sprung aus den Wolken; Richard Berkowski: Vollbrots Stromspartipp; Henning Bornemann: Ring of Fire © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1350896073/radio/spass5/wdr5_spass5_20121018_2330.mp3",
+        "published":"Thu, 18 Oct 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12871123
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 11.10.2012",
+        "episode":22,
+        "description":"Moderation: David Rother / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Griechenland) / Fritz Eckenga: Positive Nachrichten aus Athen / Tom Beinlich: Der Nobelpreis / Axel Naumer: Die zentralen Forderungen des Kandidaten Steinbrück / Uli Winters: Peer Lustig / Tom Beinlich: Wladimir Putin 60 / Onkel Fisch: Rap-Battle Romney vs. Obama / Henning Bornemann: Im Cockpit wird geröchelt © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1349967957/radio/spass5/wdr5_spass5_20121011_2330.mp3",
+        "published":"Thu, 11 Oct 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12707617
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 04.10.2012",
+        "episode":23,
+        "description":"Moderation: David Rother / mit Beiträgen vonHenning Bornemann: Steinbrück-Biografie / Axel Naumer: Steinbrück-Sprüche / Florian Schröder: SPD-Masochismus / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (US-TV-Duell) / Dietmar Wischmeyer: Wessis über Ossis / Ossis über Wessis / Tobias Brodowy: Ex-Communication-Hotline / Niko Spieß: Bond am Ballermann / Markus Hennig: \"Wetten, dass...\" Ministerpräsidentenwette © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1349362414/radio/spass5/wdr5_spass5_20121004_2330.mp3",
+        "published":"Thu, 04 Oct 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12842871
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 27.09.2012",
+        "episode":24,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (Kohl); Richard Berkowski: Betreungsrente; René Steinberg: Von der Leyens - Herdprämie; Stephan Fritzsche: Hartzons in Griechenland; Stefan Sichermann: Erschöpfte Islamisten; Tom Beinlich: Religionen und Humor; Wilfried Schmickler: Neukölln ist überall; Christoph Tiemann: Zweistaatenlösung für die USA; Thomas Pigor: Airport Berlin © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1348760343/radio/spass5/wdr5_spass5_20120927_2330.mp3",
+        "published":"Thu, 27 Sep 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12628785
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 20.09.2012",
+        "episode":25,
+        "description":"Moderation: Hartmut Krause / Onkel Fisch - Szenen einer Ehe mit Jesus / Maria Grund-Scholer - Gratulationsrede für Schäuble / Onkel Fisch - ESM-Song / Lars Reichow - Ärzte-Revolte im Weinkeller / Uli Winters - Google / Jörg Eilts - Umfrage: Sex am Arbeitsplatz / Henning Bornemann - Neue Tagesschau-Melodie / Maria Grund-Scholer+Axel Naumer - Angie telefoniert: Armut © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1348153295/radio/spass5/wdr5_spass5_20120920_2330.mp3",
+        "published":"Thu, 20 Sep 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12174259
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 13.09.2012",
+        "episode":26,
+        "description":"Moderation: David Rother / Henning Bornemann: Rettungsschirm-Erklärer / Axel Naumer, Maria Grund-Scholer: Angie telefonieren (Urteile) / Dietmar Wischmeyer: Bettina Wulff / Richard Berkowski: MAD und NSU / Horst Evers: Altersvorsorge / Tom Beinlich: Keinflughafenberliner / Onkel Fisch: Iranische Übersetzungsschule / Martin Kissel: Tagesschau-Remix (Ärztestreik) © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1347548039/radio/spass5/wdr5_spass5_20120913_2330.mp3",
+        "published":"Thu, 13 Sep 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12840267
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 06.09.2012",
+        "episode":27,
+        "description":"Moderation: Hartmut Krause / Onkel Fisch  - Sklaverei in Griechenland / Maria Grund-Scholer+Axel Naumer  - Angie telefoniert: Zusatzrente / Stephan Fritzsche - EU-Kommissar Oettinger zu Fragen der Gegenwart: Angie nach Brüssel? / Matthias Brodowy - Das Parteiprogramm der FDP / Henning Bornemann - Streik bei der Lufthansa / Axel Naumer - Bettinas Buch / David Rother+Hartmut Krause - 5 letzte Sätze auf der Auto-Black-Box / Dieter Nuhr - Alles sicher / Richard Berkowski - Kommando Birne © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1346943382/radio/spass5/wdr5_spass5_20120906_2330.mp3",
+        "published":"Thu, 06 Sep 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11989381
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 30.08.2012",
+        "episode":28,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (China); Volker Pispers: Zuspitzung; Axel Naumer: Biographical Gertrud Höhler; René Steinberg: Die von der Leyens; Onkel Fisch: Dr. Summer; Onkel Fisch: Woody Allen; Stephan Fritzsche: Wulff und Glaesecke;  Tom Beinlich: Nacktheit © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1346339867/radio/spass5/wdr5_spass5_20120830_2330.mp3",
+        "published":"Thu, 30 Aug 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12253141
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 23.08.2012",
+        "episode":29,
+        "description":"Moderation: Hartmut Krause / Jörg Eilts - Hitze-Collage / Henning Bornemann - Wann wird’s mal wieder richtig Sommerloch? / Wilfried Schmickler - Hitze / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Besucher / Onkel Fisch - Büro-Gefühle / Dietmar Wischmeyer - Wowi, die Schmeißfliege / Markus Hennig - Deutschland wohin? / Stephan Fritzsche - Öttinger zu Grundfragen der Gegenwart: Hartz IV RWE? © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1345734303/radio/spass5/wdr5_spass5_20120823_2330.mp3",
+        "published":"Thu, 23 Aug 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10382409
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 16.08.2012",
+        "episode":30,
+        "description":"Moderation: David Rother / Henning Bornemann: Troika / Axel Naumer: Die wichtigsten Aussagen von Helmut Schmidt bei Maischberger / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Mensaessen) / Tom Beinlich: Hartz-Reformen / René Steinberg: Geheimdienstsache Fußball / Tom Beinlich: Berlin, immer zu spät / Axel Naumer: Paul-Ryan-Air / Tobias Brodowy: Gamescom vor 50 Jahren © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1345129704/radio/spass5/wdr5_spass5_20120816_2330.mp3",
+        "published":"Thu, 16 Aug 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11884121
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 09.08.2012",
+        "episode":31,
+        "description":"David Rother: Moderation / Stenkelfeld: Auf dem Herbstmarkt / Axel Naumer: Gesamtexperte Euro-Krise / Maria Grund-Scholer, Axel Naumer: Angie telefoniert (Parlamente) / Uli Winters: Google Guts / Nils Heinrich: Extremismustest / Axel Naumer: Steuerabkommen mit der Schweiz / Hermann Hesse: Doktor Ling © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1344523888/radio/spass5/wdr5_spass5_20120809_2330.mp3",
+        "published":"Thu, 09 Aug 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12720127
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 02.08.2012",
+        "episode":32,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (Euro retten); Henning Bornemann: Griechen und Unterbewusstsein; Maria Grund-Scholer: Lammerich; Tobias Brodowy: Hotline Euroapokalypse; Stephan Fritzsche: Stanley Kubicki; Richard Berkowski: Maaßens erster Arbeitstag; Axel Naumer: Leopard-Werbung; Henning Bornemann: Wann wird’s mal wieder richtig Sommerloch? © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1343920022/radio/spass5/wdr5_spass5_20120802_2330.mp3",
+        "published":"Thu, 02 Aug 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11496597
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 26.07.2012",
+        "episode":33,
+        "description":"Michael Lohse: Moderation; Tom Beinlich: Überhangmandate; Stephan Fritzsche: Marie-Elisabeth-Lüders-Haus; Tom Beinlich: Bayreuth für Einsteiger; Axel Naumer: Angie telefoniert (Bayreuth); Tom Beinlich: Politikerbrillen; Richard Berkowski: Transplan Express; René Steinberg: Von der Leyens (Olympiavorbereitung) © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1343315435/radio/spass5/wdr5_spass5_20120726_2330.mp3",
+        "published":"Thu, 26 Jul 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10975857
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 19.07.2012",
+        "episode":34,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (ESM-Abstimmung); Henning Bornemann: Karlsruhe wartet; Stephan Fritzsche: Steuerdaten-CD; Dietmar Wischmeyer: Horst Seehofer; Stephan Fritzsche: Beckenbauer zur Korruptionsaffäre; Detlef Gröning: Tagebuch eines FIFA-Funktionärs; Berkwoski: Angie-PK (Beschneidung); Tom Beinlich: David Hasselhoff © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1342710156/radio/spass5/wdr5_spass5_20120719_2330.mp3",
+        "published":"Thu, 19 Jul 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11873047
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 12.07.2012",
+        "episode":35,
+        "description":"Moderation: Hartmut Krause / Markus Hennig - Rolling-Stones-Museum / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Stones / Richard Berkowski - Die Stones beim Herbstfest der Volksmusik / Henning Bornemann - Der Alk: As Beers Go By / Uli Winters - DSDS: Dieter und Thomas suchen den Super-Stone / Maria Grund-Scholer - Angie an der Bar: Beatles oder Stones © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1342105607/radio/spass5/wdr5_spass5_20120712_2330.mp3",
+        "published":"Thu, 12 Jul 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11153803
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 05.07.2012",
+        "episode":36,
+        "description":"David Rother: Moderation / Markus Hennig: Hör mal, wer da schreddert / Henning Bornemann: Old Schredderhand / René Steinberg: Gottesteilchen / Tom Beinlich: Finanzkrise sexy machen / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Rückspiel gegen Monti) / Fritz Eckenga: Das Bayern-Gen / Onkel Fisch: Sammer-Time / Stephan Fritzsche: Die Wahrheit über die Stones (Mick Jagger) © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1341502519/radio/spass5/wdr5_spass5_20120705_2330.mp3",
+        "published":"Thu, 05 Jul 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10859935
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 28.06.2012",
+        "episode":37,
+        "description":"Spaß 5 heute mit Maria Grund-Scholer und Beiträgen von Peter Zudeick: Wochenrückblick - Nils Heinrich :Böses Erwachen - Kim Ly Lam: Fußballcollage - René Steinberg: Schloss Koalitionsstein - Onkel Fisch: Bushido und sein Bike - Tom Beinlich: Waldis EM Club - Dietmar Wischmeier: Jogi Löw - Onkel Fisch: Song zum Halbfinale - Axel Naumer mit Maria Grund-Scholer: Angie telefoniert © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1340895773/radio/spass5/wdr5_spass5_20120628_2330.mp3",
+        "published":"Thu, 28 Jun 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11332923
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 21.06.2012",
+        "episode":38,
+        "description":"Moderation: Hartmut Krause / Henning Bornemann - Gedicht aus Berlin: Vor dem Viertelfinale / Tobias Mann - BILD / Rene Steinberg - McCartneys Senioren-Hits / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Nicht zum Umweltgipfel / Tobias Brodowy - Glücksucht-Notfall-Hotline / Stephan Fritzsche - Oettinger zu Grundfragen der Gegenwart: Atomklage / Onkel Fisch - Der Gigant unter den Metaphysikern / Fritz Eckenga - Und jetzt also gegen die Griechen © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1340290693/radio/spass5/wdr5_spass5_20120621_2330.mp3",
+        "published":"Thu, 21 Jun 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11937729
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 14.06.2012",
+        "episode":39,
+        "description":"Moderation: Hartmut Krause / Onkel Fisch - Der realistische EM-Song: Schwarz und Weiß (und ein bisschen vorsichtig) / Dietmar Wischmeyer - Betreuungsgeld / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Holland(e)-Spiele / Tom Beinlich - Der Dax / Richard Berkowski - Schufacebook / Hartmut Grawe - Schleckerfrauen - Powerfrauen / Dieter Nuhr - Missionare / Nils Heinrich - Autos © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1339685703/radio/spass5/wdr5_spass5_20120614_2330.mp3",
+        "published":"Thu, 14 Jun 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12593207
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 31.05.2012",
+        "episode":40,
+        "description":"Moderation: David Rother / Onkel Fisch: \"Jain!\" von Fettes Portfolio / Stephan Fritzsche: Kita Zappelphilipp / Detlev Gröning: Grass dichtet wieder (Diesmal: Bußgeldkatalog) / Onkel Fisch: Facebook voll auf CNN / Stephan Fritzsche: Sarrazin auf Provokatour / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Gauck in Israel) / Tom Beinlich: GEZ vs. Kirchensteuer / Tobias Brodowy: Anonymous-Hacker © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1338476539/radio/spass5/wdr5_spass5_20120531_2330.mp3",
+        "published":"Thu, 31 May 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12027687
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 24.05.2012",
+        "episode":41,
+        "description":"Moderation: Hartmut Krause / Dieter Hildebrandt - Die Deutschen und die Doktoren / Rene Steinberg - Hohe Tiere suchen ein Zuhause / Becker+Jünemann - Frühstückspause: Uneitle Frauen / Tom Beinlich - Generalsekretäre/ Olaf Schubert - Griechenland / Volker Pispers - Siechenland / Tobias Brodowy - Poesie-Album-Aktie / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Abschied von Röttgen / Martin Kissel - Tagesschau-Remix: Flughafen Berlin © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1337872090/radio/spass5/wdr5_spass5_20120524_2330.mp3",
+        "published":"Thu, 24 May 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12068955
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 10.05.2012",
+        "episode":42,
+        "description":"Moderation: David Rother / Tom Beinlich: Berlin, die verspätete Stadt / Onkel Fisch: Röttgen heute hier, morgen dort / Wilfried Schmickler: Wahl / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Hollande) / Tom Beinlich: Griechenland / Tobias Brodowy: Zwangsarbeiterprodukte bei Ikea / Tobias Brodowy: Ramsauers Verzögerungstaktik beim Nachtflugverbot © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1336662805/radio/spass5/wdr5_spass5_20120510_2330.mp3",
+        "published":"Thu, 10 May 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10476749
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 03.05.2012",
+        "episode":43,
+        "description":"Michael Lohse: Moderation; Wilfried Schmickler: TV-Duell NRW; Axel Naumer: Angie telefoniert (Wahl-Planspiele); Tom Beinlich: Länderporträt Schleswig-Holstein; Onkel Fisch: Wahlwerbung Penatenpartei; Onkel Fisch: Platinis Werbung; Moritz Netenjakob: Schostakowitsch; Stephan Fritzsche: Interview mit neuem Al Kaida Chef; Onkel Fisch: Schweiz; Onkel Fisch: Coffeeshop © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1336058067/radio/spass5/wdr5_spass5_20120503_2330.mp3",
+        "published":"Thu, 03 May 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12003281
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 26.04.2012",
+        "episode":44,
+        "description":"Moderation: David Rother / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Betreuungsgeld) / Onkel Fisch: Piratenpartei Griechenland /  Onkel Fisch: Formel 1 in Bahrain / Tom Beinlich: ARD-Talkshows / Rainer Dachselt: Til Schweigers Tatort-Ideen / Henning Bornemann: Maulkorb im Bundestag © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1335453183/radio/spass5/wdr5_spass5_20120426_2330.mp3",
+        "published":"Thu, 26 Apr 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":9604063
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 19.04.2012",
+        "episode":45,
+        "description":"Moderation: Hartmut Krause / Christoph Wiesel - Piraten-Collage / Tom Beinlich - Die Piraten / Volker Pispers - Freibeuter / Tobias Brodowy - Datenbrillen-Notfallhotline / Axel Naumer+Maria Grund-Scholer - Angie telefoniert: Rederecht / Wilfried Schmickler - Koran geschenkt / Richard Berkowski - Koran-Verteilung / Dietmar Wischmeyer - Unerwünschte Segnungen / Christoph Tiemann - Frauenquote / Martin Kissel - Tagesschau-Remix: Erster Zoff bei den Piraten © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1334858312/radio/spass5/wdr5_spass5_20120419_2330.mp3",
+        "published":"Thu, 19 Apr 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11867431
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 12.04.2012",
+        "episode":46,
+        "description":"Moderation: Michael Lohse, Lafontaine (Tom Beinlich), Angie telefoniert (Axel Naumer), Penaten-Partei (Onkel Fisch), Grassgedicht (Thomas Pigor), Segen des Alters (Dietmar Wischmeyer), Pendlerpauschalenvorhersage (Richard Berkowski), Rock´n´Rollfeld Vol.I (Tobias Brodowy), My heart will go on (Onkel Fisch) © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1334243183/radio/spass5/wdr5_spass5_20120412_2330.mp3",
+        "published":"Thu, 12 Apr 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12788571
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 05.04.2012",
+        "episode":47,
+        "description":"Moderation: David Rother / Axel Naumer, Maria Grund-Scholer: Angie telefoniert (Grass) / Rainer Dachselt: Ahmadi-Net / Tom Beinlich: Die Schweiz / Onkel Fisch: Lynchbook / Tom Beinlich: NRW-Hansestädte / Onkel Fisch: Das Benzin-Spiel / Markus Hennig: Fluglärm-Ausstieg / Stephan Fritzsche: Dioxin-Eier / Urs von Wulfen: China-Weine © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1333706141/radio/spass5/wdr5_spass5_20120405_2330.mp3",
+        "published":"Thu, 05 Apr 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":12674635
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Spaß 5: Sendung vom 29.03.2012",
+        "episode":48,
+        "description":"Michael Lohse: Moderation; Axel Naumer: Angie telefoniert (Fiskalpakt); Adrian Engels: Röttgen heute hier morgen dort; Tom Beinlich: Lafontaine; Volker Pispers: Untiefen; René Steinberg: Schloss Koalitionsstein (Piraten); Dietmar Wischmeyer: Der neue Präsident; René Steinberg: Sarkos offenes Mikro; Tom Beinlich: Karl May; Tim Mahlzeit: Grillen 2012 © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1333032950/radio/spass5/wdr5_spass5_20120329_2330.mp3",
+        "published":"Thu, 29 Mar 2012 23:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11606177
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast.wdr.de/radio/spass5.xml",
+    "displaySubDomaine":"spass5",
+    "recentTitles":
+    [
+      "WDR 5 Spaß 5: Sendung vom 21.03.2013",
+      "WDR 5 Spaß 5: Sendung vom 14.03.2013",
+      "WDR 5 Spaß 5: Sendung vom 07.03.2013",
+      "WDR 5 Spaß 5: Sendung vom 28.02.2013",
+      "WDR 5 Spaß 5: Sendung vom 21.02.2013",
+      "WDR 5 Spaß 5: Sendung vom 14.02.2013",
+      "WDR 5 Spaß 5: Sendung vom 07.02.2013",
+      "WDR 5 Spaß 5: Sendung vom 31.01.2013",
+      "WDR 5 Spaß 5: Sendung vom 24.01.2013",
+      "WDR 5 Spaß 5: Sendung vom 17.01.2013",
+      "WDR 5 Spaß 5: Sendung vom 10.01.2013",
+      "WDR 5 Spaß 5: Sendung vom 03.01.2013",
+      "WDR 5 Spaß 5: Sendung vom 27.12.2012",
+      "WDR 5 Spaß 5: Sendung vom 20.12.2012",
+      "WDR 5 Spaß 5: Sendung vom 13.12.2012",
+      "WDR 5 Spaß 5: Sendung vom 06.12.2012",
+      "WDR 5 Spaß 5: Sendung vom 29.11.2012",
+      "WDR 5 Spaß 5: Sendung vom 22.11.2012",
+      "WDR 5 Spaß 5: Sendung vom 15.11.2012",
+      "WDR 5 Spaß 5: Sendung vom 08.11.2012",
+      "WDR 5 Spaß 5: Sendung vom 25.10.2012",
+      "WDR 5 Spaß 5: Sendung vom 18.10.2012",
+      "WDR 5 Spaß 5: Sendung vom 11.10.2012",
+      "WDR 5 Spaß 5: Sendung vom 04.10.2012",
+      "WDR 5 Spaß 5: Sendung vom 27.09.2012",
+      "WDR 5 Spaß 5: Sendung vom 20.09.2012",
+      "WDR 5 Spaß 5: Sendung vom 13.09.2012",
+      "WDR 5 Spaß 5: Sendung vom 06.09.2012",
+      "WDR 5 Spaß 5: Sendung vom 30.08.2012",
+      "WDR 5 Spaß 5: Sendung vom 23.08.2012",
+      "WDR 5 Spaß 5: Sendung vom 16.08.2012",
+      "WDR 5 Spaß 5: Sendung vom 09.08.2012",
+      "WDR 5 Spaß 5: Sendung vom 02.08.2012",
+      "WDR 5 Spaß 5: Sendung vom 26.07.2012",
+      "WDR 5 Spaß 5: Sendung vom 19.07.2012",
+      "WDR 5 Spaß 5: Sendung vom 12.07.2012",
+      "WDR 5 Spaß 5: Sendung vom 05.07.2012",
+      "WDR 5 Spaß 5: Sendung vom 28.06.2012",
+      "WDR 5 Spaß 5: Sendung vom 21.06.2012",
+      "WDR 5 Spaß 5: Sendung vom 14.06.2012",
+      "WDR 5 Spaß 5: Sendung vom 31.05.2012",
+      "WDR 5 Spaß 5: Sendung vom 24.05.2012",
+      "WDR 5 Spaß 5: Sendung vom 10.05.2012",
+      "WDR 5 Spaß 5: Sendung vom 03.05.2012",
+      "WDR 5 Spaß 5: Sendung vom 26.04.2012",
+      "WDR 5 Spaß 5: Sendung vom 19.04.2012",
+      "WDR 5 Spaß 5: Sendung vom 12.04.2012",
+      "WDR 5 Spaß 5: Sendung vom 05.04.2012",
+      "WDR 5 Spaß 5: Sendung vom 29.03.2012"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Das WDR 5 Satiremagazin lotst mit Kabarettisten und Komikern durch den Wahnsinn der Woche. Wilfried Schmickler, Dieter Nuhr und Fritz Eckenga: Diese und andere Profis für aktuelle politische Satire und gehobenen Blödsinn sind Stammgäste bei Spaß 5. Selbstverständlich meldet sich auch die Kanzlerin immer wieder mit ihrer \"Angie Late Night\" zu Wort - in dieser kompakten, knappen halben Stunde vom Besten aus dem WDR 5 Scherzbergwerk.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.wdr.de/radio/home/podcasts/channelausspielung.phtml?channel=spass5",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3709_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3709_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3709,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3709_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3709_5_1.png",
+    "author":"",
+    "title":"Spaß5 im WDR 5-Radio zum Mitnehmen",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3709_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Comedy",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"WDR 5 - Spaß5",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/spass5.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3709_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3709_5.gif",
+    "subdomain":"spass5",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2388178,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360191730/radio/spass5/wdr5_spass5_20130207_2330.mp3",
+        "idBroadcast":3709,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://78.46.48.172:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"FloatStylez.FM Dance - ",
+    "subDomaine":"floatstylezfmdance",
+    "relayDisabled":false,
+    "rank":2210,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Hier wird man 24h mit den Leckerbissen der Hands Up/Dance Szene verwöhnt.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9915_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9915_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9915_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Hier wird man 24h mit den Leckerbissen der Hands Up/Dance Szene verwöhnt.",
+    "metaDataUrl":"http://78.46.48.172:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://78.46.48.172:8000/",
+    "displaySubDomaine":"floatstylezfmdance",
+    "recentTitles":
+    [
+      "Stacccato  Rainy - Move Your Body 2011",
+      "Brooklyn Bounce  Disc - The Music`s Got Me",
+      "Crasherz - Set Me Free (DJ Lain Remix)",
+      "Chris Frame - Flashback (DJ THT Remix)",
+      "ItaloBrothers - Luminous Intensity (Extended Mix)",
+      "Belmond  Parker - Give Me Chords",
+      "N- Finity - Every Teardrop Is A Waterfall (Sunray Mix)",
+      "Kimura  Tube Tonic - Love Divided",
+      "Tale  Dutch - Love Life (Dj Tht Remix)",
+      "Jan Van Bass 10 - All The Right Moves (Handsup Mix)",
+      "Rushroom - Better Off Alone",
+      "Rivendell feat. Cruncher - Sexy Bitch (Original Mix)",
+      "Mick Lion - Moves Like Jagger (Sunray and Phillerz  Remix)",
+      "ThomTree - When the Sun Comes Out (Justin Corza meets Greg Blast Remix)",
+      "DJ Dean, Kolja Beckmann - Eternal Peace (R.Gee  TeCay Remix)",
+      "Hardcharger vs. Aurora - Once Upon a Time",
+      "2-4 Grooves Feat. Reki D. - Relax (Topmodelz RMX)",
+      "Jay Outback feat. Ron Ravolta - All Night Long (Predancer Remix)",
+      "Pulsedriver feat. Jonny Rose - Take It Home",
+      "Basslovers United feat. L.I.M. - Falling in Love (Ced Tecknoboy Remix)",
+      "ThomTree feat. Rebecca -  Need You To Be Here (",
+      "Empyre One vs. Energ!z - Rebel Yell (Empyre One Club Mix)",
+      "Jens O. - Somebody (Club Mix)",
+      "Empyre One - Moonlight Shadow 2k12 (G4bby feat. BazzBoyz Remix)",
+      "Ryan Thistlebeck vs. Rainy - Getaway (Zooland Bootleg Mix)",
+      "Punkrockerz - Punk Rock Song (Sunset Project Remix)",
+      "Giga Dance, Rainy - Like an Angel (Raindropz! Remix)",
+      "Dancefloor Kingz - Me and You (Manox Remix)",
+      "Klubbingman feat. Beatrix Delgado - Revolution Reloaded 2K13 (Mix by RainDropz!)",
+      "Clubsukkerz Vs. Vinylrockerz - Nick Of Time (Bb-Project Hands Up Club Mix)",
+      "Andrew Spencer - Give It Up (Game of Love) [Vanilla Kiss Remix]",
+      "Ole Dansk - U Can Run",
+      "Italobrothers - My Life Is a Party (Extended Mix)",
+      "Airbeat One Project - Turn Up the Party (G4bby feat. BazzBoyz Remix)",
+      "Dj Shog - Stranger On This Planet (The Hitmen Remix)",
+      "Alexandra Damiani vs. Savage - Don`t Cry Tonight (KlubbDropz! Feat. AlexKea Remix)",
+      "Mario Lopez - Topmodel (Topmodelz Remix)",
+      "Nova Scotia ft Jenny Johnston - Kaliedoscope Skies (Original Mix)",
+      "Seaside Clubbers - 1000 Dezibel (M Ace Edit)",
+      "Alex M - Greatest DJ (Danceboy Remix)",
+      "Justin Corsa Greg Blast Meets Addicted Craze - Could It Be Love (Topmodelz Remix)",
+      "Clubfreakz - Rising High (Raindropz! Remix)",
+      "Basslovers United - Basket Case (Extended Mix)",
+      "Manox - Autumn Shine (Dancefloor Kingz Remix)",
+      "Crystal Rock feat. Gemma.B - Dreams Alive (Dale  Harms Remix)",
+      "Trashfunk Rockerz - Word Up (MaLu Project Remix)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.floatstylez.fm/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9915_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9915_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9915,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9915_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9915_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9915_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Handsup",
+      "_city":"Frankfurt",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"FloatStylez.FM Dance",
+    "picture3Url":"",
+    "streamUrl":"http://78.46.48.172:8000/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9915_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9915_5.jpeg",
+    "subdomain":"floatstylezfmdance",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":9675,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://78.46.48.172:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://78.46.48.172:8000/",
+        "idBroadcast":9915,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

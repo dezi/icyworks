@@ -1,0 +1,959 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702530",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700975",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130315-1525-3443.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699225",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130308-1553-5142.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697475",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130301-1629-5742.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695649",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130222-1701-2142.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692815",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130214-1436-2442.mp3",
+      "testResult":null,
+      "name":"Echo der Welt 10.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692165",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130208-1541-4042.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690186",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130201-1435-3542.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688280",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130125-1601-4142.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686436",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130118-1545-0542.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684655",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130111-1603-2142.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682656",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130104-1618-2942.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681087",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121228-1356-1142.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679603",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121221-1429-4542.mp3",
+      "testResult":null,
+      "name":"ECHO DER  WELT   - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678158",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121214-1743-0149.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT  - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17676104",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121207-1608-3042.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672401",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121130-1656-0001.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17669924",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121123-1643-5301.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667756",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121116-1644-3201.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17665053",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121109-1429-3401.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17656541",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121102-1416-3201.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17643553",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121026-1534-1101.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17643554",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121019-1425-1201.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17643555",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121012-1451-4001.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17643556",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121005-1525-0501.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17643557",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20120928-1349-4901.mp3",
+      "testResult":null,
+      "name":"ECHO DER WELT - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17643565",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2988/AU-20120803-1454-1201.mp3",
+      "testResult":null,
+      "name":"Echo der Welt - Das Auslandsmagazin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Das Auslandsmagazin von NDR Info.",
+    "seoTitle":"NDR Info - Echo der Welt",
+    "subDomaine":"echoderwelt",
+    "relayDisabled":false,
+    "rank":1823,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das wöchentliche Auslandsmagazin bei NDR Info.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3762_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3762_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/3762_6.gif",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das wöchentliche Auslandsmagazin bei NDR Info.",
+    "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":0,
+        "description":"Waffengesetze in den USA/ US-Lehren aus Irak-Krieg für Syrien/Zerstörtes WeltkKulturerbe  in Timbuktu / Sri Lankas Killing Fields / Staudamm Mekong",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "published":"Sun, 24 Mar 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":1,
+        "description":"Mali: Reise zum Mittelpunkt des Krieges / Irak: Zehn Jahre nach dem US-Angriff / Osterinsel: Das eigene Radio / Madagaskar: Deutsche Brüder sammeln afrikanische Märchen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130315-1525-3443.mp3",
+        "published":"Sun, 17 Mar 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":2,
+        "description":"Unbequemer Zeuge: Der Fotograf von My Lai / Syrien:  Zwei Jahre Bürgerkrieg / Iran: Die erste  Menschenrechtserklärung  / China: Besuch einer Kung-Fu-Schule",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130308-1553-5142.mp3",
+        "published":"Sun, 10 Mar 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":3,
+        "description":"Demokratie in Kenia? / Zivilehe im Libanon / Hochsee-Fischerei vor Afrika /  Computerspiele in China / Reisefreiheit in Kuba",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130301-1629-5742.mp3",
+        "published":"Sun, 03 Mar 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":4,
+        "description":"Italien: Spuren der Krise in Modena / Irak: Syrisch-kurdische Flüchtlinge / Myanmar: Luftangriffe im Kachin-Konflikt / Australien: Führerschein für Ureinwohner",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130222-1701-2142.mp3",
+        "published":"Sun, 24 Feb 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Echo der Welt 10.02.2013",
+        "episode":5,
+        "description":"Echo der Welt am Sonntag, 17. Februar 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130214-1436-2442.mp3",
+        "published":"Sun, 17 Feb 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":6,
+        "description":"Boat People aus Myanmar / Chinesische Investoren in Kamerun /  Deutscher Torwart im Fußball-Mutterland / Libanon : Zum Heiraten ins Ausland / Wiener Hofreitschule",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130208-1541-4042.mp3",
+        "published":"Sun, 10 Feb 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":7,
+        "description":"Beobachtungen in Pakistan / Lage der syrischen Flüchtlinge / Die Afrikanische Union sucht nach gemeinsamer Stärke / Das Ende des amerikanischen Traums",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130201-1435-3542.mp3",
+        "published":"Sun, 03 Feb 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":8,
+        "description":"Pakistan: Wer hat die Macht? / Thailand: Strafen für Beleidigung / Deutschland: Machtergreifung Hitlers / Rumänien: Zwangsprostitution / Südafrika: Weinbauern streiken",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130125-1601-4142.mp3",
+        "published":"Sun, 27 Jan 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":9,
+        "description":"USA: Niedergang der Wirtschaft zeigt sich an Detroit/ Manila: Vom Leben philipinischer Seeleute/ Tansania: Der Kampf um Gold/ Zentralamerika: Jugendbanden in Honduras",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130118-1545-0542.mp3",
+        "published":"Sun, 20 Jan 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":10,
+        "description":"Ghana: Elektroschrott aus aller Welt/ Neu Delhi: Nach der Vergewaltigung/ Haiti: Nach dem Wirbelsturm/ Obdachlosigkeit in Russland/ Giglio: Ein Jahr nach der Havarie",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130111-1603-2142.mp3",
+        "published":"Sun, 13 Jan 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":11,
+        "description":"Saudi Arabien: Junge Äthiopierinnen ohne Rechte / Tansania: Wilderei / Iran: Armenische Christen / China: Konflikt mit den Nachbarn / USA: Nachgespielter Bürgerkrieg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130104-1618-2942.mp3",
+        "published":"Sun, 06 Jan 2013 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":12,
+        "description":"Hauptstadt des Verbrechens / Multikulti mit Hindernissen / Syrischer Jahresrückblick / Internationale Schutztruppen verlassen Ost-Timor",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121228-1356-1142.mp3",
+        "published":"Sun, 30 Dec 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER  WELT   - Das Auslandsmagazin",
+        "episode":13,
+        "description":"Verbrecher zu Pfarrer / Durch Versöhnung zur Macht / Ewige Baustelle / Armut ist teuer",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121221-1429-4542.mp3",
+        "published":"Sun, 23 Dec 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT  - Das Auslandsmagazin",
+        "episode":14,
+        "description":"Flüchtlingswelle aus Syrien / Deutsche Auswanderer auf Madagascar / Amerikaner entdecken  ihr Umweltbewusstsein / Musikmetropole Seattle",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121214-1743-0149.mp3",
+        "published":"Sun, 16 Dec 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":15,
+        "description":"Kenia: Vom Viehhüter zum Fischer/ Südafrika: Investitionsobjekt Büffel/ Afghanistan: Kampf gegen Schlafmohnanbau/ Myanmar: Die Medien nach Aufhebung der Zensur",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121207-1608-3042.mp3",
+        "published":"Sun, 09 Dec 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":16,
+        "description":"Israel-Gaza: Waffenstillstand / Afghanistan: Musikszene in Kabul / Aserbaidschan: Öl / China: \"Grüne Stadt\" Peking / USA: Vom Ende des Papiers",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121130-1656-0001.mp3",
+        "published":"Sun, 02 Dec 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":17,
+        "description":"Naher Osten: Zündeln am Pulverfass / Afghanistan: Eröffnung der ersten Bowlingbahn / Slowakei: Kulturhauptstadt / Kenia: Eine Bayerin betreut Aidswaisen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121123-1643-5301.mp3",
+        "published":"Sun, 25 Nov 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":18,
+        "description":"Aluksne in Lettland: Friedhofsfest/ Südafrika: Weiße ziehen in Townships/ Los Angeles: Nebeneinander der Kulturen/ Kaschmir: Begehrte Skiregion/ Tischsitten in China",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121116-1644-3201.mp3",
+        "published":"Sun, 18 Nov 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":19,
+        "description":"China: Kluft zwischen Arm und Reich/ Estland: Amputierter Tiger/ Arabische Welt: Kampf um Gleichberechtigung der Frauen/ Australien: Great Barrier Reef verfällt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121109-1429-3401.mp3",
+        "published":"Sun, 11 Nov 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":20,
+        "description":"USA: Hurrican \"Sandy\" als Wahlkampfhelfer /  German Town Saxonburg / Pakistan: Woher kommt der Amerika-Hass ? /  Walfang / Österreich: Nonseum und Einzelsockenwandertag",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121102-1416-3201.mp3",
+        "published":"Sun, 04 Nov 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":21,
+        "description":"China: Reiche wandern aus/ Kolumbien: Indios zwischen Guerilla und Militär/ Argentiniens Segelschulschiff beschlagnahmt/ Kalifornien: Bekehrung im Knast",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121026-1534-1101.mp3",
+        "published":"Sun, 28 Oct 2012 13:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":22,
+        "description":"Unabhängigkeitskampf der Schotten / Gegen das Vergessen / Kondomfabrik am Amazonas / Indianer feiern erste katholische Heilige / Heavy-Metall-Kreuzfahrt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121019-1425-1201.mp3",
+        "published":"Sun, 21 Oct 2012 14:30:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":23,
+        "description":"Marseille: Reportage aus einer Cité/ Thailand: Gesetz gegen Majestätsbeleidigung/ Montenegro: Kritischer Journalismus/ Brasilien: Gegen Monsanto/ Hollywood im Wahlkampf",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121012-1451-4001.mp3",
+        "published":"Fri, 12 Oct 2012 13:30:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":24,
+        "description":"Togo: Opposition wächst / Malawi: Hungersnot / Entwicklungshilfe: Ausbeutung durch Mikrokredite / Zypern: Künstler kämpfen für Vereinigung / Argentinien: Tangostar mit 84",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20121005-1525-0501.mp3",
+        "published":"Sun, 07 Oct 2012 13:30:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"ECHO DER WELT - Das Auslandsmagazin",
+        "episode":25,
+        "description":"Pakistan: Lage der Christen nach Schmäh-Film / Syrien: Zeit der Angst, Situation aus Sicht einer deutschen Journalistin / Israel: Pilgertour im Heiligen Land / Namibia: Wanderung mit Buschmännern",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20120928-1349-4901.mp3",
+        "published":"Sun, 30 Sep 2012 13:30:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Echo der Welt - Das Auslandsmagazin",
+        "episode":26,
+        "description":"Argentinien:Sprühflugzeuge vergiften Menschen /Israel: rechtlos/ Höllentrip Salang-Tunnel/Spanien:Krise lockt Rückwanderer nach Hause/Tsunami-Müll bedroht Tierwelt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20120803-1454-1201.mp3",
+        "published":"Sun, 05 Aug 2012 13:30:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.ndr.de/info/podcast2988.xml",
+    "displaySubDomaine":"echoderwelt",
+    "recentTitles":
+    [
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "Echo der Welt 10.02.2013",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER  WELT   - Das Auslandsmagazin",
+      "ECHO DER WELT  - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "ECHO DER WELT - Das Auslandsmagazin",
+      "Echo der Welt - Das Auslandsmagazin"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Das Auslandsmagazin von NDR Info.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.ndr.de/info/podcast2988.html",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3762_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3762_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3762,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3762_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3762_5_1.png",
+    "author":"",
+    "title":"Podcast Info Echo der Welt",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3762_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Nachrichten",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Hamburg",
+      "_family":"NDR Info",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"NDR Info - Echo der Welt",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/echoderwelt.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3762_4_1.png",
+    "sampleRate":48000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3762_5.gif",
+    "subdomain":"echoderwelt",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "id":2461049,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2988/AU-20130322-1615-5042.mp3",
+        "idBroadcast":3762,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

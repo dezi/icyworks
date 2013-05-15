@@ -1,0 +1,243 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streams.321stream.de:9668",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio PearlOfMusic - Radio Pearl of Music, ",
+    "subDomaine":"radiopearlofmusic",
+    "relayDisabled":false,
+    "rank":2363,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio PearlOfMusic - immer der beste Sound aus Electro, Industrial, Rock, Metal & Goth.\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10454_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10454_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10454_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Radio PearlOfMusic - immer der beste Sound aus Electro, Industrial, Rock, Metal & Goth.",
+    "metaDataUrl":"http://streams.321stream.de:9668",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://admin.321stream.de/tunein.php/kd226/playlist.pls",
+    "displaySubDomaine":"radiopearlofmusic",
+    "recentTitles":
+    [
+      "Second Version - Und dann kamst du [klM]",
+      "Deine Lakaien - Ulysses (Extended) [fRJ]",
+      "Foggy - Come (into My Dreams) [emC]",
+      "Grendel - Timewave Zero [klc]",
+      "Xotox - Roboterkrieg (Remix by SITD) [emz]",
+      "Destroid - Revolution [ePo]",
+      "Unique Strain - Traumwelt (feat. Andy Langbrandtner) [jAx]",
+      "Panzar AG - Machinegun Gogo [ee4]",
+      "[X]-Rx - Untot [kvc]",
+      "Hocico - Without A God Soman Remix [eku]",
+      "Waves Under Water - Red Red Star [jzN]",
+      "Carved Souls - Dream Of You [kl7]",
+      "Unitary - Calm [kkU]",
+      "Accessory - Shout It Out [kw0]",
+      "SITD - tarnfarbe [kw1]",
+      "I Am Jen - Broken In The Right Places [eml]",
+      "Ladytron - Tomorrow [kvl]",
+      "Front Line Assembly - Angriff [jA0]",
+      "Front Line Assembly - Buried Alive [ePp]",
+      "Void Kampf - Spiegel Mann [jB1]",
+      "X-Fusion - Holy Grail [jzm]",
+      "In Flames - Drifter [hTw]",
+      "Rotersand - War on Error (Declaration) [kvp]",
+      "Pearl Of Music - Jingle 1 German [e2E]",
+      "Terrolokaust - No Control [jBb]",
+      "The Prayer - Das Gespenst (Ghostbuster Mix) [khA]",
+      "Combichrist - Get Out Of My Head [kvE]",
+      "Funker Vogt - The State Within [kvV]",
+      "RIOTLEGION - The Legion [j7A]",
+      "Concise feat. Flaque/Concise - hypnotize [jzB]",
+      "And One - Shouts Of Joy (Club Mix) [klp]",
+      "Grendel - Harsh Generation [emq]",
+      "Pearl Of Music - Jingle 5 German [e2R]",
+      "SITD - state of tyranny [klo]",
+      "Multiplex - After One [ekV]",
+      "Nachtmahr - Tanz Des Blutes [kvs]",
+      "Pearl Of Music - Jingle 4 German [e2J]",
+      "Homo Futura - Links-Rechts [jzr]",
+      "Faderhead - Escape From The Machine [jzZ]",
+      "Wumpscut - My Dear Ghoul [ekp]",
+      "Combichrist - 02 - All Pain Is Gone [fNJ]",
+      "Welle Erdball - Deutsche Liebe (C=64) [jyB]",
+      "Stormtrooperz - Coming Back (D-Ranged Remix) [el5]",
+      "Destroid - Cover Your Ears [eks]",
+      "Eisbrecher - Eisbrecher - Amok (Renegade of Noise Remix) [jAn]",
+      "RIOTLEGION - Top Notch Beating [j7D]",
+      "Project Pitchfork - Run for Cover [jzg]",
+      "Die Krupps - Industrie-Mädchen [kls]",
+      "SITD - Rot V1.0 [kwb]",
+      "In Strict Confidence - Ewige Nacht [jB7]",
+      "Die Funkhausgruppe - Die Physiker [jzo]",
+      "Funker Vogt - Lügner (Rearranged) - Funker Vogt - Lügner (Rearranged) [eeK]"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-pearlofmusic.com",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10454_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10454_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10454,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10454_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10454_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10454_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Musik",
+      "_country":"Deutschland",
+      "_genre":"Eklektisch, Electro",
+      "_city":"",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio PearlOfMusic",
+    "picture3Url":"",
+    "streamUrl":"http://admin.321stream.de/tunein.php/kd226/playlist.pls",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10454_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10454_5.jpeg",
+    "subdomain":"radiopearlofmusic",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458101,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streams.321stream.de:9668",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streams.321stream.de:9668",
+        "idBroadcast":10454,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

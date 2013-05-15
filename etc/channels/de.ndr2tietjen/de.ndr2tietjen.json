@@ -1,0 +1,1423 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702507",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen: Katharina Saalfrank",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700945",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130316-1218-1742.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Konstantin Wecker",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699198",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130309-1230-1643.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 10.03.2013: Karl Dall",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697451",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130302-0757-0542.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 03.03.13: Max Raabe",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695626",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130223-1230-5142.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Django Asül",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692795",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130216-1244-1442.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Kirsten Bruhn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692141",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130209-1208-0742.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Samuel Finzi",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690163",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130202-1348-3242.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Christian Brückner",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688254",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130126-1234-5142.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Oliver Welke",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686412",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130119-0815-5842.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am: Jörg Schüttauf",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684625",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130112-1036-4942.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Achill Moser",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682629",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130105-0838-2542.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 06.01.13: Josefine Preuss",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678132",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121216-1254-5842.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 16.12.12: Johann Lafer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17676080",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121208-1020-2842.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Rüdiger Hoffmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672397",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121201-1314-5101.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Corny Littmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17669920",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121124-1009-3401.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Claus Kleber",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667748",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121117-1552-4101.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: John Neumeier",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17665049",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121111-0813-1401.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Matthias Steiner",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17656424",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121102-1823-5401.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Matze Knop",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17638040",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121027-0918-0801.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: David Garrett",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619323",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121020-1405-3901.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Chin Meyer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619324",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121013-0815-2301.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Kaya Yanar",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619325",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121006-1745-1801.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Cornelia Funke",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619326",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120930-1228-0901.mp3",
+      "testResult":null,
+      "name":"Tietjen talkt mit Gerlinde Kaltenbrunner",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619327",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120922-1555-2101.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Kostja Ullmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619328",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120915-1209-0701.mp3",
+      "testResult":null,
+      "name":"Daniel Brühl bei Tietjen talkt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619329",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120908-1221-3301.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Florian Langenscheidt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619330",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120901-0806-2801.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 02.09.12: Caroline Peters",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619331",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120825-1001-2201.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 26.08.12: Gayle Tufts",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619332",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120818-0826-0101.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt am 19.08.12: Alexander Bommes",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619334",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120804-1243-4201.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Kai Diekmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619336",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120623-1259-5901.mp3",
+      "testResult":null,
+      "name":"Hera Lind bei Tietjen talkt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619337",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120616-1243-2301.mp3",
+      "testResult":null,
+      "name":"Tietjen talkt: Dietrich Grönemeyer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619339",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120602-1320-3601.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Bärbel Schäfer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619340",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120526-1334-4201.mp3",
+      "testResult":null,
+      "name":"Waldemar Hartmann bei Tietjen talkt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619341",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120519-1229-3001.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Markus Maria Profitlich",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619342",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120513-0853-0601.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Wolfgang Niedecken",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619343",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120505-1233-2601.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Joachim Król",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619344",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120428-0815-0101.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Guido Cantz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619345",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120421-0841-3601.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: August Zirner",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619346",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120416-0918-1901.mp3",
+      "testResult":null,
+      "name":"Zu Gast bei Tietjen talkt: Dieter Pfaff",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619347",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120406-1011-4001.mp3",
+      "testResult":null,
+      "name":"Der Graf zu Gast bei Tietjen talkt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619348",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120401-0645-0501.mp3",
+      "testResult":null,
+      "name":"Peter Heinrich Brix bei Tietjen talkt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Bettina Tietjen bittet jeden Sonntag einen prominenten Gast zum Frühstückstalk auf NDR 2.",
+    "seoTitle":"NDR 2 - Tietjen talkt",
+    "subDomaine":"ndr2tietjen",
+    "relayDisabled":false,
+    "rank":1887,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Bettina Tietjen bittet jeden Sonntag einen prominenten Gast zum Frühstückstalk auf NDR 2.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9290_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9290_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9290_6.gif",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Bettina Tietjen bittet jeden Sonntag einen prominenten Gast zum Frühstückstalk auf NDR 2.",
+    "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen: Katharina Saalfrank",
+        "episode":0,
+        "description":"Sieben Jahre Fernseh-Erzieherin mit Pöbeleien und stiller Treppe haben sie berühmt gemacht. Jetzt hat Katharina Saalfrank ein Buch über das Ende der Erziehung geschrieben",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "published":"Sun, 24 Mar 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Konstantin Wecker",
+        "episode":1,
+        "description":"Höhen und Tiefen, Sturm und Drang, Wut und Zärtlichkeit - Konstantin Wecker ist nichts Menschliches fremd, sein künstlerisches Werk belegt das seit Jahrzehnten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130316-1218-1742.mp3",
+        "published":"Sun, 17 Mar 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 10.03.2013: Karl Dall",
+        "episode":2,
+        "description":"Eigentlich wollte sich Comedy-Urgestein Karl Dall schon in die wohlverdiente Blödler-Rente begeben. Jetzt gibt er nochmal den \"Opa\" auf der Bühne",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130309-1230-1643.mp3",
+        "published":"Sun, 10 Mar 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 03.03.13: Max Raabe",
+        "episode":3,
+        "description":"\"Kein Schwein ruft mich an\" war sein Durchbruch-Hit. Max Raabe wiederbelebt die Schlager-Klassiker der 20er- und 30er-Jahre und hat jetzt seines zweites Album im Rennen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130302-0757-0542.mp3",
+        "published":"Sun, 03 Mar 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Django Asül",
+        "episode":4,
+        "description":"Ein Türke, geboren in Niederbayern, zuhause auf allen Kaberettbühnen Deutschlands - Django Asül freut sich über ein treue Fangemeinde.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130223-1230-5142.mp3",
+        "published":"Sun, 24 Feb 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Kirsten Bruhn",
+        "episode":5,
+        "description":"Ein Unfall mit anschließender Querschnittlähmung zwingt Kirsten Bruhn mit 19 ihr Leben neu zu beginnen. Mit 43 holt sie das dritte Mal Olympia-Gold beim Schwimmen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130216-1244-1442.mp3",
+        "published":"Sun, 17 Feb 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Samuel Finzi",
+        "episode":6,
+        "description":"Die Karriere in Deutschland ist für den bulgarischen Schauspiel-Star schon die zweite. Die Rolle des Tristan in Til Schweigers \"Kokowääh\" auch.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130209-1208-0742.mp3",
+        "published":"Sun, 10 Feb 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Christian Brückner",
+        "episode":7,
+        "description":"Die deutsche Stimme von Robert de Niro gehört seit Jahrzehnten zu Deutschlands Sprecher-Elite. Allein in seinem eigenen Verlag sind über 150 Hörbücher erschienen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130202-1348-3242.mp3",
+        "published":"Sun, 03 Feb 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Oliver Welke",
+        "episode":8,
+        "description":"Er kann witzig, sportlich und freundlich und deshalb ist Oliver Welke sowohl als Moderator beim Fußball als auch als Anchor der Comedy \"heuteshow\" schwer angesagt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130126-1234-5142.mp3",
+        "published":"Sun, 27 Jan 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am: Jörg Schüttauf",
+        "episode":9,
+        "description":"Rumpelstilzchen war seine erste Rolle. Inzwischen ist der Chemnitzer eine gefragter Schauspieler, hat unter anderem im \"Tatort\" ermittelt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130119-0815-5842.mp3",
+        "published":"Sun, 20 Jan 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Achill Moser",
+        "episode":10,
+        "description":"Weil ihm schon das Kinderzimmer zu klein war, hat es den Hamburger Achill Moser durch inzwischen 27 große Wüsten der Erde getrieben. Immer allein, immer zu Fuß.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130112-1036-4942.mp3",
+        "published":"Sun, 13 Jan 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 06.01.13: Josefine Preuss",
+        "episode":11,
+        "description":"Zehn Jahren Berufs-Teenager: Der \"Türkisch für Anfänger\"-Star Josefine Preuss freut sich umso mehr über eine große Erwachsenen-Rolle im ZDF-Epos \"Hotel Adlon\".",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130105-0838-2542.mp3",
+        "published":"Sun, 06 Jan 2013 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 16.12.12: Johann Lafer",
+        "episode":12,
+        "description":"Der vielfach preisgekrönte Spitzenkoch kümmert sich nicht nur um sein Restaurant und seine Fernsehshows, er engagiert sich auch für gesunde Schulkost.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121216-1254-5842.mp3",
+        "published":"Sun, 16 Dec 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Rüdiger Hoffmann",
+        "episode":13,
+        "description":"Als Rüdiger Hoffmann in den sehr frühen 80ern seine erste Sketch-Truppe durchs Land führte, war Comedy noch ein Fremdwort. Heute wird der Altmeister schon parodiert.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121208-1020-2842.mp3",
+        "published":"Sun, 09 Dec 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Corny Littmann",
+        "episode":14,
+        "description":"Die Hamburger Reeperbahn wäre ohne Künstler und Kult(ur)-Manager Corny Littmann und sein Schmidt-Theater nur der halbe Spaß.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121201-1314-5101.mp3",
+        "published":"Sun, 02 Dec 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Claus Kleber",
+        "episode":15,
+        "description":"Fast 20 Jahre war Claus Kleber Amerika-Korrespondent, jetzt ist er heute-journal-Moderator und aktuell erscheint sein Buch über die Folgen des Klimawandels.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121124-1009-3401.mp3",
+        "published":"Sun, 25 Nov 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: John Neumeier",
+        "episode":16,
+        "description":"Fast 40 Dienstjahre wirkt der weltweit renommierte Ballett-Tänzer, Choreograph und Intendant John Neumeier in Hamburg.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121117-1552-4101.mp3",
+        "published":"Sun, 18 Nov 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Matthias Steiner",
+        "episode":17,
+        "description":"Bettina Tietjen wird von ihrem heutigen Gast auf den Arm genommen:  Matthias Steiner, Super-Schwergewichts-Olympia-Sieger 2008!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121111-0813-1401.mp3",
+        "published":"Sun, 11 Nov 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Matze Knop",
+        "episode":18,
+        "description":"Kein Beckenbauer, kein Bohlen, kein Löw und kein Gottschalk ist vor seinen Parodien sicher - Matze Knop bespaßt erfolgreich mit Comedy-Kopien.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121102-1823-5401.mp3",
+        "published":"Sun, 04 Nov 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: David Garrett",
+        "episode":19,
+        "description":"David Garrett wird im Kindesalter zum Klassikstar und Wundergeiger. Erst spät löst er sich vom Einfluss seiner Eltern und findet seinen Weg auch in der Pop-Musik.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121027-0918-0801.mp3",
+        "published":"Sun, 28 Oct 2012 12:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Chin Meyer",
+        "episode":20,
+        "description":"Er hat die Lücke gefunden - Kabarettist macht sich lustig, worüber die meisten sich vor allem Sorgen machen: Euros, Krisen, Rettungsschirme und alltägliche Monetarien.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121020-1405-3901.mp3",
+        "published":"Sun, 21 Oct 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Kaya Yanar",
+        "episode":21,
+        "description":"Der deutsch-türkische Komödiant Kaya Yanar versucht sich nach erfolgreichen Bühnen- und TV-Shows mit einem klamaukigen Kino-Film.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121013-0815-2301.mp3",
+        "published":"Sun, 14 Oct 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Cornelia Funke",
+        "episode":22,
+        "description":"Bestseller - Autorin  Cornelia Funke ist zu Gast bei Bettina Tietjen in der NDR 2 - Talksendung \"Tietjen talkt.\"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20121006-1745-1801.mp3",
+        "published":"Sun, 07 Oct 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Tietjen talkt mit Gerlinde Kaltenbrunner",
+        "episode":23,
+        "description":"Die Österreicherin Gerlinde Kaltenbrunner hat als erste Frau alle vierzehn 8000er-Berge ohne Zuhilfenahme von Flaschensauerstoff bestiegen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120930-1228-0901.mp3",
+        "published":"Sun, 30 Sep 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Kostja Ullmann",
+        "episode":24,
+        "description":"Mit fast 17 Jahren Film- und Fernseherfahrung ist der 28-jährige Schauspieler Kostja Ullmann schon ein \"alter\" Hase im Geschäft.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120922-1555-2101.mp3",
+        "published":"Sun, 23 Sep 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Daniel Brühl bei Tietjen talkt",
+        "episode":25,
+        "description":"Einiger der weniger deutschen Weltstars flaniert in seinem Buch \"Ein Tag in Barcelona\" durch seine Geburtsstadt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120915-1209-0701.mp3",
+        "published":"Sun, 16 Sep 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Florian Langenscheidt",
+        "episode":26,
+        "description":"Der Urenkel des Wörterbuch-Verlegers Langenscheidt hat von experimenteller Musik bis zu großen Kinderhilfsprojekten viele Wege zum Glück beschritten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120908-1221-3301.mp3",
+        "published":"Sun, 09 Sep 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 02.09.12: Caroline Peters",
+        "episode":27,
+        "description":"Ein Stadtkind als Landei, eine Kriminalkommissarin als Dorfpolizistin - Caroline Peters erreicht mit der Krimi-Comedy-Serie \"Mord mit Aussicht\" Traumquoten im Ersten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120901-0806-2801.mp3",
+        "published":"Sun, 02 Sep 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 26.08.12: Gayle Tufts",
+        "episode":28,
+        "description":"Mit Charme, Stimme und einer originellen Deutsch-Englisch-Mischung mischt Gayle Tufts seit 20 Jahren Show-, Comedy- und Kaberettbühnen auf.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120825-1001-2201.mp3",
+        "published":"Sun, 26 Aug 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt am 19.08.12: Alexander Bommes",
+        "episode":29,
+        "description":"Der Überflieger aus Kiel holt sich nach dem \"Hamburg-Journal\", dem \"Sportclub\" und der \"Sportschau\" jetzt auch als Quiz- und Olympia-Moderator die Goldmedaille.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120818-0826-0101.mp3",
+        "published":"Sun, 19 Aug 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Kai Diekmann",
+        "episode":30,
+        "description":"Seine Schlagzeilen entscheiden Schicksale - der BILD-Chefredakteur Kai Diekmann lebt souverän mit heftiger Kritik und liebevoll mit vier Kindern.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120804-1243-4201.mp3",
+        "published":"Sun, 05 Aug 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Hera Lind bei Tietjen talkt",
+        "episode":31,
+        "description":"Erst eine kometenhafte Autoren-Karriere, dann ein harscher Absturz nach der Trennung vom Vater ihrer vier Kinder - jetzt ist Hera Lind zurück in den Bestseller-Listen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120623-1259-5901.mp3",
+        "published":"Sun, 24 Jun 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Tietjen talkt: Dietrich Grönemeyer",
+        "episode":32,
+        "description":"Neugierig und experimentierfreudig und oft im Clinch mit Kollegen: Prof. Dietrich Grönemeyer schreibt neben seiner medizinischen Forschungen trotzdem noch Kinderbücher.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120616-1243-2301.mp3",
+        "published":"Sun, 17 Jun 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Bärbel Schäfer",
+        "episode":33,
+        "description":"Nach über 1.500 täglichen Talkshows hat Bärbel Schäfer vor allem als Buchautorin großen Erfolg.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120602-1320-3601.mp3",
+        "published":"Sun, 03 Jun 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Waldemar Hartmann bei Tietjen talkt",
+        "episode":34,
+        "description":"Nach Jahrzehnten am direkt am Ball macht Waldemar Hartmann auch als Entertainer, Comedian und Buchautor eine munter-rundliche Figur.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120526-1334-4201.mp3",
+        "published":"Sun, 27 May 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Markus Maria Profitlich",
+        "episode":35,
+        "description":"Der muntere Rundliche unter den deutschen Top-Comedians hat ein puppenlustiges Tagebuch über seine Kindheit und Jugend geschrieben.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120519-1229-3001.mp3",
+        "published":"Sun, 20 May 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Wolfgang Niedecken",
+        "episode":36,
+        "description":"Der kultige Kölsch-Rocker hat seinen Schlaganfall unbeschadet überstanden und tourt mit einem Lebenswerk-Echo im Gepäck wieder durch Deutschland.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120513-0853-0601.mp3",
+        "published":"Sun, 13 May 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Joachim Król",
+        "episode":37,
+        "description":"Mit Kino-Hits wie \"Wir können auch anders\" oder \"Der bewegte Mann\" wurde Joachim Król in den 90ern zum Star. Aktuell glänzt er als Tatort-Kommissar und im Kino.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120505-1233-2601.mp3",
+        "published":"Sun, 06 May 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Guido Cantz",
+        "episode":38,
+        "description":"Der wasserstoffblonde Kölner hat sich vom Büttenredner zum Fernsehmoderator gemausert und ist seit einem Jahr Herr über \"Verstehn Sie Spaß?\".",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120428-0815-0101.mp3",
+        "published":"Sun, 29 Apr 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: August Zirner",
+        "episode":39,
+        "description":"In den USA geboren, in Österreich ausgebildet in Deutschland verheiratet und Vater von vier Kindern - August Zirner hat in über 120 Filmen mitgespielt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120421-0841-3601.mp3",
+        "published":"Sun, 22 Apr 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zu Gast bei Tietjen talkt: Dieter Pfaff",
+        "episode":40,
+        "description":"Ein Unikum in der deutschen Fernsehlandschaft, das seine Erfolgsfiguren \"Sperling\", \"Bloch\" und \"Der Dicke\" selbst erfand, um sich als seriöser Schauspieler zu behaupten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120416-0918-1901.mp3",
+        "published":"Sun, 15 Apr 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Graf zu Gast bei Tietjen talkt",
+        "episode":41,
+        "description":"Keine weiß, wie er richtig heißt, wie alt er ist und ob er Frau und Kind hat. Aber alle kaufen seine Platten und reagieren tief bewegt auf seine pathosgeladenen Texte.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120406-1011-4001.mp3",
+        "published":"Sun, 08 Apr 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Peter Heinrich Brix bei Tietjen talkt",
+        "episode":42,
+        "description":"Norddeutscher geht\'s fast nicht, deshalb ist der gelernte Landwirt Peter Heinrich Brix auch so erfolgreich in typisch norddeutschen Rollen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20120401-0645-0501.mp3",
+        "published":"Sun, 01 Apr 2012 12:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.ndr.de/ndr2/podcast2970.xml",
+    "displaySubDomaine":"ndr2tietjen",
+    "recentTitles":
+    [
+      "Zu Gast bei Tietjen: Katharina Saalfrank",
+      "Zu Gast bei Tietjen talkt: Konstantin Wecker",
+      "Zu Gast bei Tietjen talkt am 10.03.2013: Karl Dall",
+      "Zu Gast bei Tietjen talkt am 03.03.13: Max Raabe",
+      "Zu Gast bei Tietjen talkt: Django Asül",
+      "Zu Gast bei Tietjen talkt: Kirsten Bruhn",
+      "Zu Gast bei Tietjen talkt: Samuel Finzi",
+      "Zu Gast bei Tietjen talkt: Christian Brückner",
+      "Zu Gast bei Tietjen talkt: Oliver Welke",
+      "Zu Gast bei Tietjen talkt am: Jörg Schüttauf",
+      "Zu Gast bei Tietjen talkt: Achill Moser",
+      "Zu Gast bei Tietjen talkt am 06.01.13: Josefine Preuss",
+      "Zu Gast bei Tietjen talkt am 16.12.12: Johann Lafer",
+      "Zu Gast bei Tietjen talkt: Rüdiger Hoffmann",
+      "Zu Gast bei Tietjen talkt: Corny Littmann",
+      "Zu Gast bei Tietjen talkt: Claus Kleber",
+      "Zu Gast bei Tietjen talkt: John Neumeier",
+      "Zu Gast bei Tietjen talkt: Matthias Steiner",
+      "Zu Gast bei Tietjen talkt: Matze Knop",
+      "Zu Gast bei Tietjen talkt: David Garrett",
+      "Zu Gast bei Tietjen talkt: Chin Meyer",
+      "Zu Gast bei Tietjen talkt: Kaya Yanar",
+      "Zu Gast bei Tietjen talkt: Cornelia Funke",
+      "Tietjen talkt mit Gerlinde Kaltenbrunner",
+      "Zu Gast bei Tietjen talkt: Kostja Ullmann",
+      "Daniel Brühl bei Tietjen talkt",
+      "Zu Gast bei Tietjen talkt: Florian Langenscheidt",
+      "Zu Gast bei Tietjen talkt am 02.09.12: Caroline Peters",
+      "Zu Gast bei Tietjen talkt am 26.08.12: Gayle Tufts",
+      "Zu Gast bei Tietjen talkt am 19.08.12: Alexander Bommes",
+      "Zu Gast bei Tietjen talkt: Kai Diekmann",
+      "Hera Lind bei Tietjen talkt",
+      "Tietjen talkt: Dietrich Grönemeyer",
+      "Zu Gast bei Tietjen talkt: Bärbel Schäfer",
+      "Waldemar Hartmann bei Tietjen talkt",
+      "Zu Gast bei Tietjen talkt: Markus Maria Profitlich",
+      "Zu Gast bei Tietjen talkt: Wolfgang Niedecken",
+      "Zu Gast bei Tietjen talkt: Joachim Król",
+      "Zu Gast bei Tietjen talkt: Guido Cantz",
+      "Zu Gast bei Tietjen talkt: August Zirner",
+      "Zu Gast bei Tietjen talkt: Dieter Pfaff",
+      "Der Graf zu Gast bei Tietjen talkt",
+      "Peter Heinrich Brix bei Tietjen talkt"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Bettina Tietjen bittet jeden Sonntag einen prominenten Gast zum Frühstückstalk auf NDR 2.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.ndr.de/meinnorden/mitnehmen/podcast/podcasts101_page-1.html",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9290_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9290_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9290,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9290_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9290_5_1.png",
+    "author":"",
+    "title":"Bettina Tietjen",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9290_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Hamburg",
+      "_family":"NDR2",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"NDR 2 - Tietjen talkt",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/ndr2tietjen.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9290_4_1.png",
+    "sampleRate":48000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9290_5.jpeg",
+    "subdomain":"ndr2tietjen",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "id":2461039,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2970/AU-20130323-1214-3742.mp3",
+        "idBroadcast":9290,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

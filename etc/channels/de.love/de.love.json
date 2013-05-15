@@ -1,0 +1,238 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/love",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":2,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Love",
+    "subDomaine":"love",
+    "relayDisabled":false,
+    "rank":542,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"So klingt die Liebe. Die schönsten Love Songs auf radio.de. Frühlingsgefühle exklusiv für Ihre Ohren.\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3100_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3100_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"So klingt die Liebe. Die schönsten Love Songs auf radio.de. Frühlingsgefühle exklusiv für Ihre Ohren.\r\n",
+    "metaDataUrl":"http://dude.mp3streams.net/love",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/love",
+    "displaySubDomaine":"love",
+    "recentTitles":
+    [
+      "Robbie Williams - If It\'s Hurting You",
+      "Justin Timberlake - Lovestoned",
+      "Revolverheld - Mit dir chillen",
+      "Huey Lewis & Gwyneth Paltrow - Cruisin\'",
+      "Torun Eriksen - Fever Skin",
+      "Amos Lee - Arms Of A Woman",
+      "Neil Young - Only Love Can Break Your Heart",
+      "Katie Melua - Nine Million Bicycles",
+      "Svhne Mannheims - Zurueck Zu Dir",
+      "Freundeskreis - Mit Dir",
+      "Marvin Gaye - Let\'s Get It On",
+      "Elvis Presley - Don\'t",
+      "Michael Buble - I\'m Your Man",
+      "Molly Johnson - Let\'s do it",
+      "Norah Jones - Don\'t Know Why",
+      "Die Drzte - 1",
+      "Incubus - Southern Girl",
+      "Sheryl Crow - Strong Enough",
+      "Smokey Robinson - Cruisin\'",
+      "Silbermond - Das Beste",
+      "Sade - Kiss Of Life",
+      "Norah Jones - Be My Somebody",
+      "Barry White - Midnight And You",
+      "Die Toten Hosen - Alles Aus Liebe",
+      "Spearhead - Love Is Da Shit",
+      "Lionel Richie - Hello",
+      "Seal - Kiss From A Rose",
+      "Sunrise Avenue - heal me",
+      "Einst|rzende Neubauten - Stella Maris (Meret Becker & Blixa Bargeld)",
+      "Klee - Mit Dir",
+      "Juli - Regen Und Meer",
+      "Marvin Gaye - Sexual Healing",
+      "Raul Midsn - Waited All My Life",
+      "Ich + Ich - Du Erinnerst Mich An Liebe",
+      "Various Artists - Silva Screen Records - The Godfather - Love Theme from the Godfather - Nino Rota",
+      "VIRGINIA JETZT! - DAS GANZ NORMALE LEBEN",
+      "James Blunt - You\'re Beautiful",
+      "Joy Denalane - Sometimes Love",
+      "van morrison - the way the young lover do",
+      "Percy Sledge - When A Man Loves A Woman",
+      "Amy Winehouse - Me & Mr Jones",
+      "Jan Delay - F|r Immer Und Dich",
+      "Lyambiko - The Nearness Of You",
+      "Ohio Players - Ohio Players - A Thing Called Love",
+      "Take That - Patience",
+      "Ray Charles - Here We Go Again (with norah jones)",
+      "Rio Reiser - Ich Werde Dich Lieben"
+    ],
+    "idType":2,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3100_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3100_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3100,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3100_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3100_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3100_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Love-Songs",
+      "_country":"Deutschland",
+      "_genre":"70er, 80er",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Love",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/love",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3100_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3100_5.jpeg",
+    "subdomain":"love",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":2206,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/love",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/love",
+        "idBroadcast":3100,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

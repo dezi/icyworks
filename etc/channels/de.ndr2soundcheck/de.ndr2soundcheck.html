@@ -1,0 +1,3029 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+NDR 2 Soundcheck Live Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="NDR 2 Soundcheck Live (128kbps) - Diese NDR 2 Sendung bringt zwei Stunden Infos rund um die regionale, nationale und internationale Konzert-Szene. " />
+<meta property="og:title" content="NDR 2 Soundcheck Live"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/6711_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://ndr2soundcheck.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://ndr2soundcheck.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366770998283" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366770998283" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://ndr2soundcheck.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "ndr2soundcheck",
+	
+	pageRequestUrl : "http://ndr2soundcheck.radio.de/broadcast_info.jsf",
+	pageDomain : "ndr2soundcheck.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"","author":"","stream":"http://ndr-ndrloop15-hi-mp3.akacast.akamaistream.net/7/763/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop15_hi_mp3","testResult":null,"name":"","advertisement":false,"audioAdId":"","streamFormat":"ICECAST","type":"STREAM","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":1,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"","seoTitle":"NDR 2 Soundcheck Live","subDomaine":"ndr2soundcheck","relayDisabled":false,"rank":2230,"playableStateString":"FREE","idTeaser":0,"description":"Diese NDR 2 Sendung bringt zwei Stunden Infos rund um die regionale, nationale und internationale Konzert-Szene. ","picture2TransUrl":"http://static.radio.de/images/broadcasts/6711_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/6711_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Diese NDR 2 Sendung bringt zwei Stunden Infos rund um die regionale, nationale und internationale Konzert-Szene. ","metaDataUrl":"http://ndr-ndrloop15-hi-mp3.akacast.akamaistream.net/7/763/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop15_hi_mp3","podcastUrls":[],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.ndr.de/resources/metadaten/audio/m3u/ndrloop15.m3u","displaySubDomaine":"ndr2soundcheck","recentTitles":[],"idType":1,"descriptionPodcast":"","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.ndr2.de/media/webradiosoundchecklive100.html","advertising":true,"picture1Url":"http://static.radio.de/images/broadcasts/6711_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/6711_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":6711,"picture1TransUrl":"http://static.radio.de/images/broadcasts/6711_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/6711_5_1.png","author":"","title":"","picture4Url":"http://static.radio.de/images/broadcasts/6711_4.jpeg","picture6Set":false,"tagsForDisplay":{"_type":"Webradio","_topic":"Livemusik","_country":"Deutschland","_genre":"Livemusik, Pop","_city":"Hamburg","_family":"NDR2","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"NDR 2 Soundcheck Live","picture3Url":"","streamUrl":"http://www.ndr.de/resources/metadaten/audio/m3u/ndrloop15.m3u","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/6711_4_1.png","sampleRate":48000,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/6711_5.jpeg","subdomain":"ndr2soundcheck","streamUrls":[{"sampleRate":48000,"id":2461038,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://ndr-ndrloop15-hi-mp3.akacast.akamaistream.net/7/763/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop15_hi_mp3","streamFormat":"ICECAST","streamUrl":"http://ndr-ndrloop15-hi-mp3.akacast.akamaistream.net/7/763/160823/v1/gnl.akacast.akamaistream.net/ndr_ndrloop15_hi_mp3","idBroadcast":6711,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"ndr2soundcheck", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"6711", play:"ndr2soundcheck"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("9"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Livemusik:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndr2soundcheck"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("29"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Livemusik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("91"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("4"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/ndr2soundcheck/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „NDR 2 Soundcheck Live“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/6711_4.jpeg" alt="NDR 2 Soundcheck Live" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("9"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Livemusik:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndr2soundcheck"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("29"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Livemusik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("91"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("4"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">NDR 2 Soundcheck Live</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Hamburg,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.ndr2.de/media/webradiosoundchecklive100.html'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „NDR 2 Soundcheck Live“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Diese NDR 2 Sendung bringt zwei Stunden Infos rund um die regionale, nationale und internationale Konzert-Szene. 
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„NDR 2 Soundcheck Live“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'6711', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">2</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">4</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'6711', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star4-0"
+stars="4-0"
+title="„NDR 2 Soundcheck Live“ bewerten?"
+content="4.0">
+</a>
+<span class="big-rate-text">NDR 2 Soundcheck Live&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „NDR 2 Soundcheck Live“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„NDR 2 Soundcheck Live“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „NDR 2 Soundcheck Live“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-alive.radio.de'}" bcastid="7261" title="„laut.fm/alive“ hören" id="currentlyPlayedStation_7261">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7261_1.gif" alt="„laut.fm/alive“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://infoconcertbestof.radio.de'}" bcastid="1439" title="„Info Concert Radio - Best Of Live“ hören" id="currentlyPlayedStation_1439">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1439_1.gif" alt="„Info Concert Radio - Best Of Live“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2neuemusik.radio.de'}" bcastid="6714" title="„NDR 2 Soundcheck - Neue Musik“ hören" id="currentlyPlayedStation_6714">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6714_1.jpeg" alt="„NDR 2 Soundcheck - Neue Musik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-festivalisten.radio.de'}" bcastid="5748" title="„laut.fm/festivalisten“ hören" id="currentlyPlayedStation_5748">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5748_1.gif" alt="„laut.fm/festivalisten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://antenneclassicrock.radio.de'}" bcastid="9126" title="„ANTENNE BAYERN - Classic Rock Live“ hören" id="currentlyPlayedStation_9126">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9126_1.jpeg" alt="„ANTENNE BAYERN - Classic Rock Live“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2rock.radio.de'}" bcastid="6715" title="„NDR 2 Rock“ hören" id="currentlyPlayedStation_6715">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6715_1.jpeg" alt="„NDR 2 Rock“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2musikszene.radio.de'}" bcastid="6713" title="„NDR 2 Soundcheck Musikszene Deutschland“ hören" id="currentlyPlayedStation_6713">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6713_1.jpeg" alt="„NDR 2 Soundcheck Musikszene Deutschland“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2milestones.radio.de'}" bcastid="6712" title="„NDR 2 Soundcheck Milestones“ hören" id="currentlyPlayedStation_6712">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6712_1.jpeg" alt="„NDR 2 Soundcheck Milestones“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrhamburgsounds.radio.de'}" bcastid="6710" title="„NDR 90,3 Hamburg Sounds“ hören" id="currentlyPlayedStation_6710">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6710_1.jpeg" alt="„NDR 90,3 Hamburg Sounds“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2easysounds.radio.de'}" bcastid="6717" title="„NDR 2 Easy Sounds“ hören" id="currentlyPlayedStation_6717">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6717_1.jpeg" alt="„NDR 2 Easy Sounds“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://energylivehits.radio.de'}" bcastid="8536" title="„ENERGY Live Hits“ hören" id="currentlyPlayedStation_8536">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8536_1.png" alt="„ENERGY Live Hits“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://infoconcertalternative.radio.de'}" bcastid="4383" title="„Info Concert Radio - Alternative“ hören" id="currentlyPlayedStation_4383">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4383_1.gif" alt="„Info Concert Radio - Alternative“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://livesong-radio.radio.de'}" bcastid="3141" title="„DIE NEUE 107.7 LIVESONG-RADIO“ hören" id="currentlyPlayedStation_3141">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3141_1.jpeg" alt="„DIE NEUE 107.7 LIVESONG-RADIO“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrinfojazznacht.radio.de'}" bcastid="6719" title="„NDR Info - Jazz Nacht“ hören" id="currentlyPlayedStation_6719">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6719_1.jpeg" alt="„NDR Info - Jazz Nacht“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2stefanie.radio.de'}" bcastid="7562" title="„NDR 2 - Fruhstuck bei Stefanie“ hören" id="currentlyPlayedStation_7562">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7562_1.jpeg" alt="„NDR 2 - Fruhstuck bei Stefanie“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-alive.radio.de'}" bcastid="7261" title="„laut.fm/alive“ hören" id="currentlyPlayedStation2_7261">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7261_1.gif" alt="„laut.fm/alive“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://infoconcertbestof.radio.de'}" bcastid="1439" title="„Info Concert Radio - Best Of Live“ hören" id="currentlyPlayedStation2_1439">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1439_1.gif" alt="„Info Concert Radio - Best Of Live“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2neuemusik.radio.de'}" bcastid="6714" title="„NDR 2 Soundcheck - Neue Musik“ hören" id="currentlyPlayedStation2_6714">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6714_1.jpeg" alt="„NDR 2 Soundcheck - Neue Musik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-festivalisten.radio.de'}" bcastid="5748" title="„laut.fm/festivalisten“ hören" id="currentlyPlayedStation2_5748">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5748_1.gif" alt="„laut.fm/festivalisten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://antenneclassicrock.radio.de'}" bcastid="9126" title="„ANTENNE BAYERN - Classic Rock Live“ hören" id="currentlyPlayedStation2_9126">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9126_1.jpeg" alt="„ANTENNE BAYERN - Classic Rock Live“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2rock.radio.de'}" bcastid="6715" title="„NDR 2 Rock“ hören" id="currentlyPlayedStation2_6715">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6715_1.jpeg" alt="„NDR 2 Rock“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2musikszene.radio.de'}" bcastid="6713" title="„NDR 2 Soundcheck Musikszene Deutschland“ hören" id="currentlyPlayedStation2_6713">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6713_1.jpeg" alt="„NDR 2 Soundcheck Musikszene Deutschland“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2milestones.radio.de'}" bcastid="6712" title="„NDR 2 Soundcheck Milestones“ hören" id="currentlyPlayedStation2_6712">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6712_1.jpeg" alt="„NDR 2 Soundcheck Milestones“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrhamburgsounds.radio.de'}" bcastid="6710" title="„NDR 90,3 Hamburg Sounds“ hören" id="currentlyPlayedStation2_6710">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6710_1.jpeg" alt="„NDR 90,3 Hamburg Sounds“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2easysounds.radio.de'}" bcastid="6717" title="„NDR 2 Easy Sounds“ hören" id="currentlyPlayedStation2_6717">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6717_1.jpeg" alt="„NDR 2 Easy Sounds“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://energylivehits.radio.de'}" bcastid="8536" title="„ENERGY Live Hits“ hören" id="currentlyPlayedStation2_8536">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8536_1.png" alt="„ENERGY Live Hits“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://infoconcertalternative.radio.de'}" bcastid="4383" title="„Info Concert Radio - Alternative“ hören" id="currentlyPlayedStation2_4383">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4383_1.gif" alt="„Info Concert Radio - Alternative“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://livesong-radio.radio.de'}" bcastid="3141" title="„DIE NEUE 107.7 LIVESONG-RADIO“ hören" id="currentlyPlayedStation2_3141">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3141_1.jpeg" alt="„DIE NEUE 107.7 LIVESONG-RADIO“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrinfojazznacht.radio.de'}" bcastid="6719" title="„NDR Info - Jazz Nacht“ hören" id="currentlyPlayedStation2_6719">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6719_1.jpeg" alt="„NDR Info - Jazz Nacht“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2stefanie.radio.de'}" bcastid="7562" title="„NDR 2 - Fruhstuck bei Stefanie“ hören" id="currentlyPlayedStation2_7562">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7562_1.jpeg" alt="„NDR 2 - Fruhstuck bei Stefanie“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_7261" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/alive“ hören" linkobject="{'url':'http://lautfm-alive.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/alive“ hören" href="http://lautfm-alive.radio.de">laut.fm/alive</a></span>
+<span class="title_7261 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1439" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Info Concert Radio - Best Of Live“ hören" linkobject="{'url':'http://infoconcertbestof.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Info Concert Radio - Best Of Live“ hören" href="http://infoconcertbestof.radio.de">Info Concert Radio - Best Of Live</a></span>
+<span class="title_1439 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Frankreich 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6714" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 Soundcheck - Neue Musik“ hören" linkobject="{'url':'http://ndr2neuemusik.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 Soundcheck - Neue Musik“ hören" href="http://ndr2neuemusik.radio.de">NDR 2 Soundcheck - Neue Musik</a></span>
+<span class="title_6714 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5748" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/festivalisten“ hören" linkobject="{'url':'http://lautfm-festivalisten.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/festivalisten“ hören" href="http://lautfm-festivalisten.radio.de">laut.fm/festivalisten</a></span>
+<span class="title_5748 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9126" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ANTENNE BAYERN - Classic Rock Live“ hören" linkobject="{'url':'http://antenneclassicrock.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ANTENNE BAYERN - Classic Rock Live“ hören" href="http://antenneclassicrock.radio.de">ANTENNE BAYERN - Classic Rock Live</a></span>
+<span class="title_9126 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6715" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 Rock“ hören" linkobject="{'url':'http://ndr2rock.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 Rock“ hören" href="http://ndr2rock.radio.de">NDR 2 Rock</a></span>
+<span class="title_6715 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6713" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 Soundcheck Musikszene Deutschland“ hören" linkobject="{'url':'http://ndr2musikszene.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 Soundcheck Musikszene Deutschland“ hören" href="http://ndr2musikszene.radio.de">NDR 2 Soundcheck Musikszene Deutschland</a></span>
+<span class="title_6713 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6712" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 Soundcheck Milestones“ hören" linkobject="{'url':'http://ndr2milestones.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 Soundcheck Milestones“ hören" href="http://ndr2milestones.radio.de">NDR 2 Soundcheck Milestones</a></span>
+<span class="title_6712 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6710" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 90,3 Hamburg Sounds“ hören" linkobject="{'url':'http://ndrhamburgsounds.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 90,3 Hamburg Sounds“ hören" href="http://ndrhamburgsounds.radio.de">NDR 90,3 Hamburg Sounds</a></span>
+<span class="title_6710 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6717" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 Easy Sounds“ hören" linkobject="{'url':'http://ndr2easysounds.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 Easy Sounds“ hören" href="http://ndr2easysounds.radio.de">NDR 2 Easy Sounds</a></span>
+<span class="title_6717 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8536" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ENERGY Live Hits“ hören" linkobject="{'url':'http://energylivehits.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ENERGY Live Hits“ hören" href="http://energylivehits.radio.de">ENERGY Live Hits</a></span>
+<span class="title_8536 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4383" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Info Concert Radio - Alternative“ hören" linkobject="{'url':'http://infoconcertalternative.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Info Concert Radio - Alternative“ hören" href="http://infoconcertalternative.radio.de">Info Concert Radio - Alternative</a></span>
+<span class="title_4383 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Frankreich 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3141" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DIE NEUE 107.7 LIVESONG-RADIO“ hören" linkobject="{'url':'http://livesong-radio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DIE NEUE 107.7 LIVESONG-RADIO“ hören" href="http://livesong-radio.radio.de">DIE NEUE 107.7 LIVESONG-RADIO</a></span>
+<span class="title_3141 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6719" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Jazz Nacht“ hören" linkobject="{'url':'http://ndrinfojazznacht.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Jazz Nacht“ hören" href="http://ndrinfojazznacht.radio.de">NDR Info - Jazz Nacht</a></span>
+<span class="title_6719 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7562" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 - Fruhstuck bei Stefanie“ hören" linkobject="{'url':'http://ndr2stefanie.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 - Fruhstuck bei Stefanie“ hören" href="http://ndr2stefanie.radio.de">NDR 2 - Fruhstuck bei Stefanie</a></span>
+<span class="title_7562 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Selbstanzeige</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<div id="broadcast-info-broadcast-family">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+<div id="broadcast-info-broadcast-family-loading" class="content-headline-loader"></div>
+<p class="h3">
+Weitere Inhalte
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="content-list">
+
+<div class="content-list-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row1"  editobject="{editIconId : 'edit-icon-2262-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_2262">
+
+
+
+<a class="content-list-favorite"
+title="„NDR 2“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=1&loaderId=broadcast-info-broadcast-family-loading&broadcastId=2262', 
+							account:'', 
+							broadcastId:'2262',
+							targetClass:'listfavorite_2262',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://ndr2.radio.de'}" class="content-list-image js-link" rowId="row1" title="„NDR 2“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/2262_6.png" alt="NDR 2" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://ndr2.radio.de'}" class="js-link" rowId="row1" title="„NDR 2“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://ndr2.radio.de" rowId="row1" title="„NDR 2“ hören">NDR 2</a>
+<span>
+
+Aus Deutschland: 
+
+Mainstream, Pop
+
+
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Der NDR 2 live Stream bietet neben den schönsten Pop-Hits  regelmäßige Nachrichten, den NDR 2 Verkehr und so schöne Sendungen wie Frühstück bei Stefanie.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_2262 showPrefix ">
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-2262" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row2"  editobject="{editIconId : 'edit-icon-9286-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_9286">
+
+
+
+<a class="content-list-favorite"
+title="„NDR 2 - Bahn-Reisen“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=2&loaderId=broadcast-info-broadcast-family-loading&broadcastId=9286', 
+							account:'', 
+							broadcastId:'9286',
+							targetClass:'listfavorite_9286',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://ndr2bahnreisen.radio.de'}" class="content-list-image js-link" rowId="row2" title="„NDR 2 - Bahn-Reisen“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/9286_6.gif" alt="NDR 2 - Bahn-Reisen" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://ndr2bahnreisen.radio.de'}" class="js-link" rowId="row2" title="„NDR 2 - Bahn-Reisen“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://ndr2bahnreisen.radio.de" rowId="row2" title="„NDR 2 - Bahn-Reisen“ hören">NDR 2 - Bahn-Reisen</a>
+<span>
+
+Aus Deutschland: 
+
+Podcast
+, 
+Reisen
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Der Podcast Bahn-Reisen von NDR 2 ist der kleine Urlaub zum Hören mit Tipps vom Fincadorf auf Mallorca bis zur Spezialität &#034;Rattenschwänze&#034; in Hameln.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_9286 showPrefix content-list-podcast">
+
+
+Folge: Schwere volle Batterie
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-9286" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row3"  editobject="{editIconId : 'edit-icon-9287-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_9287">
+
+
+
+<a class="content-list-favorite"
+title="„NDR 2 - Buchtipp“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=3&loaderId=broadcast-info-broadcast-family-loading&broadcastId=9287', 
+							account:'', 
+							broadcastId:'9287',
+							targetClass:'listfavorite_9287',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://ndr2buchtipp.radio.de'}" class="content-list-image js-link" rowId="row3" title="„NDR 2 - Buchtipp“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/9287_6.gif" alt="NDR 2 - Buchtipp" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://ndr2buchtipp.radio.de'}" class="js-link" rowId="row3" title="„NDR 2 - Buchtipp“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://ndr2buchtipp.radio.de" rowId="row3" title="„NDR 2 - Buchtipp“ hören">NDR 2 - Buchtipp</a>
+<span>
+
+Aus Deutschland: 
+
+Podcast
+, 
+Kultur, Literatur
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Die Redaktion von NDR 2 geht wöchentlich die Bestsellerlisten durch und stellt jeden Sonntag die Neueinsteiger vor.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_9287 showPrefix content-list-podcast">
+
+
+Folge: &#034;Herzblut&#034; von Volker Klüpfel und Michael Kobr
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-9287" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row4"  editobject="{editIconId : 'edit-icon-3738-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3738">
+
+
+
+<a class="content-list-favorite"
+title="„NDR 2 - Der Film der Woche“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=4&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3738', 
+							account:'', 
+							broadcastId:'3738',
+							targetClass:'listfavorite_3738',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://filmderwoche.radio.de'}" class="content-list-image js-link" rowId="row4" title="„NDR 2 - Der Film der Woche“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3738_6.gif" alt="NDR 2 - Der Film der Woche" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://filmderwoche.radio.de'}" class="js-link" rowId="row4" title="„NDR 2 - Der Film der Woche“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://filmderwoche.radio.de" rowId="row4" title="„NDR 2 - Der Film der Woche“ hören">NDR 2 - Der Film der Woche</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Film und Fernsehen
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Das ganz große Kino: Ob hochkarätig besetzter Hollywood-Streifen oder genialer Geheimtipp - wenn etwas Vielversprechendes anläuft, ist es der Film der Woche.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3738 showPrefix content-list-podcast">
+
+
+Folge: Die Filme der Woche (KW 13/2013)
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3738" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row5"  editobject="{editIconId : 'edit-icon-3740-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3740">
+
+
+
+<a class="content-list-favorite"
+title="„NDR 2 - Der Startalk zum Film der Woche“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=5&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3740', 
+							account:'', 
+							broadcastId:'3740',
+							targetClass:'listfavorite_3740',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://startalkfilm.radio.de'}" class="content-list-image js-link" rowId="row5" title="„NDR 2 - Der Startalk zum Film der Woche“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3740_6.gif" alt="NDR 2 - Der Startalk zum Film der Woche" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://startalkfilm.radio.de'}" class="js-link" rowId="row5" title="„NDR 2 - Der Startalk zum Film der Woche“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://startalkfilm.radio.de" rowId="row5" title="„NDR 2 - Der Startalk zum Film der Woche“ hören">NDR 2 - Der Startalk zum Film der Woche</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Film und Fernsehen, Interview
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Wer könnte besser von aktuellen Kino-Highlights berichten als die Promis, die daran beteiligt waren? Deshalb gibt&#039;s bei NDR 2 den Startalk zum Film der Woche.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3740 showPrefix content-list-podcast">
+
+
+Folge: Startalk Bruce Willis
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3740" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+</div>
+<div class="content-list-pageitems">
+5 |
+<a class="change-list-size-15" title="15 Sender pro Seite anzeigen">15</a> |
+<a class="change-list-size-25" title="25 Sender pro Seite anzeigen">25</a> |
+<a class="change-list-size-50" title="50 Sender pro Seite anzeigen">50</a>
+</div>
+</div>
+
+
+
+</div>
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „NDR 2 Soundcheck Live“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Livemusik" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Livemusik suchen" tag="Livemusik">Livemusik</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Hamburg" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Hamburg suchen" tag="Hamburg">Hamburg</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NDR2" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach NDR2 suchen" tag="NDR2">NDR2</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Pop" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Pop suchen" tag="Pop">Pop</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Konzert" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Konzert suchen" tag="Konzert">Konzert</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Live" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Live suchen" tag="Live">Live</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NDR" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach NDR suchen" tag="NDR">NDR</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „NDR 2 Soundcheck Live“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'6711', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „NDR 2 Soundcheck Live“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://ndr2soundcheck.radio.de" class="js-link-external" linkobject="{'url':'http://ndr2soundcheck.radio.de'}" title="„NDR 2 Soundcheck Live“ hören" target="_blank">
+http://ndr2soundcheck.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fndr2soundcheck.radio.de&amp;notes=&amp;tags=&amp;title=NDR 2 Soundcheck Live;'}" class="icon-delicious js-link-external" title="„NDR 2 Soundcheck Live“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fndr2soundcheck.radio.de&amp;bm_notice=&amp;bm_description=NDR 2 Soundcheck Live&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„NDR 2 Soundcheck Live“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fndr2soundcheck.radio.de&amp;title=NDR 2 Soundcheck Live'}" class="icon-stumble js-link-external" title="„NDR 2 Soundcheck Live“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fndr2soundcheck.radio.de&amp;bodytext=&amp;tags=&amp;title=NDR 2 Soundcheck Live'}" class="icon-digg js-link-external" title="„NDR 2 Soundcheck Live“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fndr2soundcheck.radio.de&amp;title=NDR 2 Soundcheck Live&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„NDR 2 Soundcheck Live“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+
+
+NDR 2 Soundcheck Live Internetradio kostenlos hören und vieles mehr. radio.de bietet Ihnen die ganze Welt des Webradio mit ein paar Klicks. Finden Sie die Sender die zu Ihnen passen und erweitern Sie Ihren Horizont mit Radiosendern wie NDR 2 Soundcheck Live und weiteren Favoriten.
+
+
+
+							
+							
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Webradio
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("9"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Livemusik:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndr2soundcheck"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("29"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Livemusik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("91"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("4"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">NDR 2 Soundcheck Live</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-alive.radio.de/" class="channel-link" title="„laut.fm/alive“ hören">
+<span class="broadcast-name">laut.fm/alive</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://infoconcertbestof.radio.de/" class="channel-link" title="„Info Concert Radio - Best Of Live“ hören">
+<span class="broadcast-name">Info Concert Radio - Best Of Live</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2neuemusik.radio.de/" class="channel-link" title="„NDR 2 Soundcheck - Neue Musik“ hören">
+<span class="broadcast-name">NDR 2 Soundcheck - Neue Musik</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-festivalisten.radio.de/" class="channel-link" title="„laut.fm/festivalisten“ hören">
+<span class="broadcast-name">laut.fm/festivalisten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://antenneclassicrock.radio.de/" class="channel-link" title="„ANTENNE BAYERN - Classic Rock Live“ hören">
+<span class="broadcast-name">ANTENNE BAYERN - Classic Rock Live</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2rock.radio.de/" class="channel-link" title="„NDR 2 Rock“ hören">
+<span class="broadcast-name">NDR 2 Rock</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2musikszene.radio.de/" class="channel-link" title="„NDR 2 Soundcheck Musikszene Deutschland“ hören">
+<span class="broadcast-name">NDR 2 Soundcheck Musikszene Deutschland</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2milestones.radio.de/" class="channel-link" title="„NDR 2 Soundcheck Milestones“ hören">
+<span class="broadcast-name">NDR 2 Soundcheck Milestones</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndrhamburgsounds.radio.de/" class="channel-link" title="„NDR 90,3 Hamburg Sounds“ hören">
+<span class="broadcast-name">NDR 90,3 Hamburg Sounds</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2easysounds.radio.de/" class="channel-link" title="„NDR 2 Easy Sounds“ hören">
+<span class="broadcast-name">NDR 2 Easy Sounds</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("9"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Livemusik:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndr2soundcheck"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("29"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Livemusik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("91"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("4"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("9"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Livemusik:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndr2soundcheck"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("29"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Livemusik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("91"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("4"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("9"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Livemusik:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndr2soundcheck"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("29"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Livemusik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("91"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("4"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,2460 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+LandesWelle Thüringen Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="LandesWelle Thueringen (128kbps) - Die meiste Abwechslung mit den besten Songs aller Zeiten! Das ist LandesWelle - Thüringens
+Rock &amp; Pop Radio - ein Programm von Thüringern für Thüringer." />
+<meta property="og:title" content="LandesWelle Thueringen"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/2253_4.gif"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://landeswelle.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://landeswelle.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366772740254" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366772740254" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://landeswelle.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "landeswelle",
+	
+	pageRequestUrl : "http://landeswelle.radio.de/broadcast_info.jsf",
+	pageDomain : "landeswelle.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"","author":"","stream":"http://stream.hoerradar.de/lwtmp3","testResult":null,"name":"","advertisement":false,"audioAdId":"","streamFormat":"ICECAST","type":"STREAM","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":1,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"","seoTitle":"LandesWelle Thüringen","subDomaine":"landeswelle","relayDisabled":false,"rank":189,"playableStateString":"FREE","idTeaser":0,"description":"Die meiste Abwechslung mit den besten Songs aller Zeiten! Das ist LandesWelle - Thüringens\r\nRock & Pop Radio - ein Programm von Thüringern für Thüringer.","picture2TransUrl":"http://static.radio.de/images/broadcasts/2253_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/2253_3_1.png","longitude":11.03333,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/2253_6.gif","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Die meiste Abwechslung mit den besten Songs aller Zeiten! Das ist LandesWelle - Thüringens\r\nRock & Pop Radio - ein Programm von Thüringern für Thüringer.","metaDataUrl":"http://stream.hoerradar.de/lwtmp3","podcastUrls":[],"latitude":50.98333,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.landeswelle.de/stream/lwtmp3.m3u","displaySubDomaine":"landeswelle","recentTitles":[],"idType":1,"descriptionPodcast":"","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.landeswelle.de","advertising":true,"picture1Url":"http://static.radio.de/images/broadcasts/2253_1.gif","picture6TransUrl":"http://static.radio.de/images/broadcasts/2253_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":2253,"picture1TransUrl":"http://static.radio.de/images/broadcasts/2253_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/2253_5_1.png","author":"","title":"","picture4Url":"http://static.radio.de/images/broadcasts/2253_4.gif","picture6Set":true,"tagsForDisplay":{"_type":"Radiosender","_topic":"","_country":"Deutschland","_genre":"80er, 90er","_city":"Erfurt","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"LandesWelle Thueringen","picture3Url":"","streamUrl":"http://www.landeswelle.de/stream/lwtmp3.m3u","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/2253_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/2253_5.gif","subdomain":"landeswelle","streamUrls":[{"sampleRate":44100,"id":2460625,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://stream.hoerradar.de/lwtmp3","streamFormat":"ICECAST","streamUrl":"http://stream.hoerradar.de/lwtmp3","idBroadcast":2253,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f06a 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"landeswelle", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"2253", play:"landeswelle"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("76"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("80er:90er:Mainstream:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("landeswelle"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("10"));
+document.write ("&amp;age_70_79=" + escape("-8"));
+document.write ("&amp;age_10_13=" + escape("-1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("24"));
+document.write ("&amp;age_50_59=" + escape("76"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("74"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-26"));
+document.write ("&amp;age_20_29=" + escape("27"));
+document.write ("&amp;age_60_69=" + escape("-51"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/landeswelle/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „LandesWelle Thueringen“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/2253_4.gif" alt="LandesWelle Thueringen" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("76"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("80er:90er:Mainstream:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("landeswelle"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("10"));
+document.write ("&amp;age_70_79=" + escape("-8"));
+document.write ("&amp;age_10_13=" + escape("-1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("24"));
+document.write ("&amp;age_50_59=" + escape("76"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("74"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-26"));
+document.write ("&amp;age_20_29=" + escape("27"));
+document.write ("&amp;age_60_69=" + escape("-51"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">LandesWelle Thueringen</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Erfurt,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.landeswelle.de'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „LandesWelle Thueringen“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Die meiste Abwechslung mit den besten Songs aller Zeiten! Das ist LandesWelle - Thüringens
+Rock &amp; Pop Radio - ein Programm von Thüringern für Thüringer.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„LandesWelle Thueringen“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'2253', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">36</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">4.31</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'2253', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star4-0"
+stars="4-0"
+title="„LandesWelle Thueringen“ bewerten?"
+content="4.30555555555556">
+</a>
+<span class="big-rate-text">LandesWelle Thueringen&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „LandesWelle Thueringen“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„LandesWelle Thueringen“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „LandesWelle Thueringen“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://antennethueringen.radio.de'}" bcastid="2108" title="„ANTENNE THÜRINGEN“ hören" id="currentlyPlayedStation_2108">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2108_1.jpeg" alt="„ANTENNE THÜRINGEN“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mdrthueringen.radio.de'}" bcastid="2256" title="„MDR THUERINGEN“ hören" id="currentlyPlayedStation_2256">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2256_1.jpeg" alt="„MDR THUERINGEN“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://thueringen80er.radio.de'}" bcastid="9351" title="„ANTENNE THÜRINGEN - 80er“ hören" id="currentlyPlayedStation_9351">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9351_1.jpeg" alt="„ANTENNE THÜRINGEN - 80er“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiotop40.radio.de'}" bcastid="2239" title="„radio TOP 40“ hören" id="currentlyPlayedStation_2239">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2239_1.jpeg" alt="„radio TOP 40“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://thueringenyesterhits.radio.de'}" bcastid="9350" title="„ANTENNE THÜRINGEN - Yesterhits“ hören" id="currentlyPlayedStation_9350">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9350_1.jpeg" alt="„ANTENNE THÜRINGEN - Yesterhits“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mdrjump.radio.de'}" bcastid="1661" title="„MDR JUMP“ hören" id="currentlyPlayedStation_1661">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1661_1.png" alt="„MDR JUMP“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://thueringenrock.radio.de'}" bcastid="9349" title="„ANTENNE THÜRINGEN - Rock“ hören" id="currentlyPlayedStation_9349">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9349_1.jpeg" alt="„ANTENNE THÜRINGEN - Rock“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiopsr.radio.de'}" bcastid="2237" title="„RADIO PSR“ hören" id="currentlyPlayedStation_2237">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2237_1.jpeg" alt="„RADIO PSR“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiosaw80er.radio.de'}" bcastid="2238" title="„radio SAW 80er“ hören" id="currentlyPlayedStation_2238">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2238_1.jpeg" alt="„radio SAW 80er“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiobrocken.radio.de'}" bcastid="1835" title="„Radio Brocken“ hören" id="currentlyPlayedStation_1835">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1835_1.jpeg" alt="„Radio Brocken“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mdrinfo.radio.de'}" bcastid="1729" title="„MDR INFO“ hören" id="currentlyPlayedStation_1729">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1729_1.gif" alt="„MDR INFO“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://rsasachsen.radio.de'}" bcastid="2228" title="„R.SA Mit Boettcher & Fischer“ hören" id="currentlyPlayedStation_2228">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2228_1.gif" alt="„R.SA Mit Boettcher & Fischer“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://890rtl.radio.de'}" bcastid="1394" title="„89.0 RTL“ hören" id="currentlyPlayedStation_1394">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1394_1.jpeg" alt="„89.0 RTL“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ostseewelle.radio.de'}" bcastid="2409" title="„Ostseewelle HIT-RADIO“ hören" id="currentlyPlayedStation_2409">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2409_1.gif" alt="„Ostseewelle HIT-RADIO“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiosaw.radio.de'}" bcastid="10336" title="„radio SAW“ hören" id="currentlyPlayedStation_10336">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10336_1.jpeg" alt="„radio SAW“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://antennethueringen.radio.de'}" bcastid="2108" title="„ANTENNE THÜRINGEN“ hören" id="currentlyPlayedStation2_2108">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2108_1.jpeg" alt="„ANTENNE THÜRINGEN“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mdrthueringen.radio.de'}" bcastid="2256" title="„MDR THUERINGEN“ hören" id="currentlyPlayedStation2_2256">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2256_1.jpeg" alt="„MDR THUERINGEN“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://thueringen80er.radio.de'}" bcastid="9351" title="„ANTENNE THÜRINGEN - 80er“ hören" id="currentlyPlayedStation2_9351">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9351_1.jpeg" alt="„ANTENNE THÜRINGEN - 80er“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiotop40.radio.de'}" bcastid="2239" title="„radio TOP 40“ hören" id="currentlyPlayedStation2_2239">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2239_1.jpeg" alt="„radio TOP 40“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://thueringenyesterhits.radio.de'}" bcastid="9350" title="„ANTENNE THÜRINGEN - Yesterhits“ hören" id="currentlyPlayedStation2_9350">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9350_1.jpeg" alt="„ANTENNE THÜRINGEN - Yesterhits“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mdrjump.radio.de'}" bcastid="1661" title="„MDR JUMP“ hören" id="currentlyPlayedStation2_1661">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1661_1.png" alt="„MDR JUMP“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://thueringenrock.radio.de'}" bcastid="9349" title="„ANTENNE THÜRINGEN - Rock“ hören" id="currentlyPlayedStation2_9349">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9349_1.jpeg" alt="„ANTENNE THÜRINGEN - Rock“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiopsr.radio.de'}" bcastid="2237" title="„RADIO PSR“ hören" id="currentlyPlayedStation2_2237">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2237_1.jpeg" alt="„RADIO PSR“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiosaw80er.radio.de'}" bcastid="2238" title="„radio SAW 80er“ hören" id="currentlyPlayedStation2_2238">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2238_1.jpeg" alt="„radio SAW 80er“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiobrocken.radio.de'}" bcastid="1835" title="„Radio Brocken“ hören" id="currentlyPlayedStation2_1835">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1835_1.jpeg" alt="„Radio Brocken“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mdrinfo.radio.de'}" bcastid="1729" title="„MDR INFO“ hören" id="currentlyPlayedStation2_1729">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1729_1.gif" alt="„MDR INFO“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://rsasachsen.radio.de'}" bcastid="2228" title="„R.SA Mit Boettcher & Fischer“ hören" id="currentlyPlayedStation2_2228">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2228_1.gif" alt="„R.SA Mit Boettcher & Fischer“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://890rtl.radio.de'}" bcastid="1394" title="„89.0 RTL“ hören" id="currentlyPlayedStation2_1394">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1394_1.jpeg" alt="„89.0 RTL“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ostseewelle.radio.de'}" bcastid="2409" title="„Ostseewelle HIT-RADIO“ hören" id="currentlyPlayedStation2_2409">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2409_1.gif" alt="„Ostseewelle HIT-RADIO“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiosaw.radio.de'}" bcastid="10336" title="„radio SAW“ hören" id="currentlyPlayedStation2_10336">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10336_1.jpeg" alt="„radio SAW“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_2108" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ANTENNE THÜRINGEN“ hören" linkobject="{'url':'http://antennethueringen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ANTENNE THÜRINGEN“ hören" href="http://antennethueringen.radio.de">ANTENNE THÜRINGEN</a></span>
+<span class="title_2108 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2256" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„MDR THUERINGEN“ hören" linkobject="{'url':'http://mdrthueringen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„MDR THUERINGEN“ hören" href="http://mdrthueringen.radio.de">MDR THUERINGEN</a></span>
+<span class="title_2256 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9351" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ANTENNE THÜRINGEN - 80er“ hören" linkobject="{'url':'http://thueringen80er.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ANTENNE THÜRINGEN - 80er“ hören" href="http://thueringen80er.radio.de">ANTENNE THÜRINGEN - 80er</a></span>
+<span class="title_9351 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2239" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„radio TOP 40“ hören" linkobject="{'url':'http://radiotop40.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„radio TOP 40“ hören" href="http://radiotop40.radio.de">radio TOP 40</a></span>
+<span class="title_2239 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9350" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ANTENNE THÜRINGEN - Yesterhits“ hören" linkobject="{'url':'http://thueringenyesterhits.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ANTENNE THÜRINGEN - Yesterhits“ hören" href="http://thueringenyesterhits.radio.de">ANTENNE THÜRINGEN - Yesterhits</a></span>
+<span class="title_9350 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1661" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„MDR JUMP“ hören" linkobject="{'url':'http://mdrjump.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„MDR JUMP“ hören" href="http://mdrjump.radio.de">MDR JUMP</a></span>
+<span class="title_1661 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9349" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ANTENNE THÜRINGEN - Rock“ hören" linkobject="{'url':'http://thueringenrock.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ANTENNE THÜRINGEN - Rock“ hören" href="http://thueringenrock.radio.de">ANTENNE THÜRINGEN - Rock</a></span>
+<span class="title_9349 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2237" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„RADIO PSR“ hören" linkobject="{'url':'http://radiopsr.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„RADIO PSR“ hören" href="http://radiopsr.radio.de">RADIO PSR</a></span>
+<span class="title_2237 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2238" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„radio SAW 80er“ hören" linkobject="{'url':'http://radiosaw80er.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„radio SAW 80er“ hören" href="http://radiosaw80er.radio.de">radio SAW 80er</a></span>
+<span class="title_2238 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  GLORIA ESTEFAN & MIAMI SOUND MACHINE - DR.BEAT | radio SAW-80er </span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1835" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio Brocken“ hören" linkobject="{'url':'http://radiobrocken.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio Brocken“ hören" href="http://radiobrocken.radio.de">Radio Brocken</a></span>
+<span class="title_1835 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  GRENADE - BRUNO MARS</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1729" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„MDR INFO“ hören" linkobject="{'url':'http://mdrinfo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„MDR INFO“ hören" href="http://mdrinfo.radio.de">MDR INFO</a></span>
+<span class="title_1729 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2228" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„R.SA Mit Boettcher & Fischer“ hören" linkobject="{'url':'http://rsasachsen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„R.SA Mit Boettcher & Fischer“ hören" href="http://rsasachsen.radio.de">R.SA Mit Boettcher & Fischer</a></span>
+<span class="title_2228 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1394" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„89.0 RTL“ hören" linkobject="{'url':'http://890rtl.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„89.0 RTL“ hören" href="http://890rtl.radio.de">89.0 RTL</a></span>
+<span class="title_1394 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2409" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Ostseewelle HIT-RADIO“ hören" linkobject="{'url':'http://ostseewelle.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Ostseewelle HIT-RADIO“ hören" href="http://ostseewelle.radio.de">Ostseewelle HIT-RADIO</a></span>
+<span class="title_2409 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_10336" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„radio SAW“ hören" linkobject="{'url':'http://radiosaw.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„radio SAW“ hören" href="http://radiosaw.radio.de">radio SAW</a></span>
+<span class="title_10336 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „LandesWelle Thueringen“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/80er" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach 80er suchen" tag="80er">80er</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/90er" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach 90er suchen" tag="90er">90er</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Pop" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Pop suchen" tag="Pop">Pop</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Erfurt" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Erfurt suchen" tag="Erfurt">Erfurt</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Mainstream" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Mainstream suchen" tag="Mainstream">Mainstream</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Thüringen" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Thüringen suchen" tag="Thüringen">Thüringen</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/70er" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach 70er suchen" tag="70er">70er</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „LandesWelle Thueringen“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'2253', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „LandesWelle Thueringen“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://landeswelle.radio.de" class="js-link-external" linkobject="{'url':'http://landeswelle.radio.de'}" title="„LandesWelle Thueringen“ hören" target="_blank">
+http://landeswelle.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Flandeswelle.radio.de&amp;notes=&amp;tags=&amp;title=LandesWelle Thueringen;'}" class="icon-delicious js-link-external" title="„LandesWelle Thueringen“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Flandeswelle.radio.de&amp;bm_notice=&amp;bm_description=LandesWelle Thueringen&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„LandesWelle Thueringen“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Flandeswelle.radio.de&amp;title=LandesWelle Thueringen'}" class="icon-stumble js-link-external" title="„LandesWelle Thueringen“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Flandeswelle.radio.de&amp;bodytext=&amp;tags=&amp;title=LandesWelle Thueringen'}" class="icon-digg js-link-external" title="„LandesWelle Thueringen“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Flandeswelle.radio.de&amp;title=LandesWelle Thueringen&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„LandesWelle Thueringen“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+
+
+LandesWelle Thueringen Internetradio kostenlos hören und vieles mehr. radio.de bietet Ihnen die ganze Welt des Webradio mit ein paar Klicks. Finden Sie die Sender die zu Ihnen passen und erweitern Sie Ihren Horizont mit Radiosendern wie LandesWelle Thueringen und weiteren Favoriten.
+
+
+
+							
+							
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Radiosender
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 Stream 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("76"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("80er:90er:Mainstream:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("landeswelle"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("10"));
+document.write ("&amp;age_70_79=" + escape("-8"));
+document.write ("&amp;age_10_13=" + escape("-1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("24"));
+document.write ("&amp;age_50_59=" + escape("76"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("74"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-26"));
+document.write ("&amp;age_20_29=" + escape("27"));
+document.write ("&amp;age_60_69=" + escape("-51"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">LandesWelle Thueringen</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://antennethueringen.radio.de/" class="channel-link" title="„ANTENNE THÜRINGEN“ hören">
+<span class="broadcast-name">ANTENNE THÜRINGEN</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://mdrthueringen.radio.de/" class="channel-link" title="„MDR THUERINGEN“ hören">
+<span class="broadcast-name">MDR THUERINGEN</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://thueringen80er.radio.de/" class="channel-link" title="„ANTENNE THÜRINGEN - 80er“ hören">
+<span class="broadcast-name">ANTENNE THÜRINGEN - 80er</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radiotop40.radio.de/" class="channel-link" title="„radio TOP 40“ hören">
+<span class="broadcast-name">radio TOP 40</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://thueringenyesterhits.radio.de/" class="channel-link" title="„ANTENNE THÜRINGEN - Yesterhits“ hören">
+<span class="broadcast-name">ANTENNE THÜRINGEN - Yesterhits</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://mdrjump.radio.de/" class="channel-link" title="„MDR JUMP“ hören">
+<span class="broadcast-name">MDR JUMP</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://thueringenrock.radio.de/" class="channel-link" title="„ANTENNE THÜRINGEN - Rock“ hören">
+<span class="broadcast-name">ANTENNE THÜRINGEN - Rock</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radiopsr.radio.de/" class="channel-link" title="„RADIO PSR“ hören">
+<span class="broadcast-name">RADIO PSR</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radiosaw80er.radio.de/" class="channel-link" title="„radio SAW 80er“ hören">
+<span class="broadcast-name">radio SAW 80er</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radiobrocken.radio.de/" class="channel-link" title="„Radio Brocken“ hören">
+<span class="broadcast-name">Radio Brocken</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("76"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("80er:90er:Mainstream:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("landeswelle"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("10"));
+document.write ("&amp;age_70_79=" + escape("-8"));
+document.write ("&amp;age_10_13=" + escape("-1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("24"));
+document.write ("&amp;age_50_59=" + escape("76"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("74"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-26"));
+document.write ("&amp;age_20_29=" + escape("27"));
+document.write ("&amp;age_60_69=" + escape("-51"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("76"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("80er:90er:Mainstream:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("landeswelle"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("10"));
+document.write ("&amp;age_70_79=" + escape("-8"));
+document.write ("&amp;age_10_13=" + escape("-1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("24"));
+document.write ("&amp;age_50_59=" + escape("76"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("74"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-26"));
+document.write ("&amp;age_20_29=" + escape("27"));
+document.write ("&amp;age_60_69=" + escape("-51"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("76"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("80er:90er:Mainstream:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("landeswelle"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("10"));
+document.write ("&amp;age_70_79=" + escape("-8"));
+document.write ("&amp;age_10_13=" + escape("-1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("24"));
+document.write ("&amp;age_50_59=" + escape("76"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("74"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-26"));
+document.write ("&amp;age_20_29=" + escape("27"));
+document.write ("&amp;age_60_69=" + escape("-51"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

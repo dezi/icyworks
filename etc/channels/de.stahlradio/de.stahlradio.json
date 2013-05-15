@@ -1,0 +1,247 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus18.leonex.de:22810",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Stahlradio - Louder Than Hell - Metal und Punk, ",
+    "subDomaine":"stahlradio",
+    "relayDisabled":false,
+    "rank":995,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Louder than Hell! Stahlradio aus Hamburg bringt Metal und Punk vom Allerfeinsten. Also hoch mit den Lautstärkereglern und weg mit den Zopfgummis!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10416_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10416_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10416_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Louder than Hell! Stahlradio aus Hamburg bringt Metal und Punk vom Allerfeinsten.",
+    "metaDataUrl":"http://streamplus18.leonex.de:22810",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":192,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://login.streamplus.de/player.php?spt=7593.m3u",
+    "displaySubDomaine":"stahlradio",
+    "recentTitles":
+    [
+      "Exodus - Funeral Hymn",
+      "Freedom Call - Magic Moments",
+      "Napalm Death - Think Tank Trials",
+      "Sham 69 - Hurry up Harry",
+      "Uriah Heep - Wake The Sleeper",
+      "The Used - Blood On My Hands (Album Version)",
+      "In Flames - Another Day In Quicksand",
+      "Emil Bulls - Here Comes the Fire",
+      "Legion of the Damned - Werewolf Corpse",
+      "Wolfchant - The Betrayal",
+      "Meshuggah - Do Not Look Down",
+      "Chrome Division - Ghost Riders In The Sky",
+      "Fleshgod Apocalypse - The Violation",
+      "Excrementory Grindfuckers - Burner",
+      "Undertow - Code-X",
+      "Hot Water Music - Jack of All Trades",
+      "Accept - Time Machine",
+      "Demonaz - All Blackened Sky",
+      "Prong - Keep On Living In Pain",
+      "Crematory/Revolution - Greed",
+      "Eschenbach - Hassliebe",
+      "Kontrust - Adrenalin",
+      "Linkin Park - Victimized",
+      "As Blood Runs Black - Legacy",
+      "Traeos - Ever Sea Born",
+      "J.R. Blackmore - Moments Of Magic (feat. Steven Mageney)",
+      "Whitechapel - Faces",
+      "In Flames - Cloud Connected live!",
+      "Exodus - Good Riddance",
+      "Motoerhead - Terminal Show",
+      "The Oz - Gambler",
+      "Anthrax - Refuse to Be Denied",
+      "Thrudvangar - Thodhild`s Gunst",
+      "Perkele - Heads heid high",
+      "Warrel Dane - Patterns",
+      "In Flames - Deliver Us",
+      "Bon Jovi - Livin` on a Prayer",
+      "Bad Religion - Anesthesia",
+      "Meshuggah - Sovereigns Morbitity",
+      "Job For A Cowboy - Constitutional Masturbation",
+      "Dimmu Borgir - Blessings Upon The Throne Of Tyranny",
+      "Legion of the Damned - Taste of the Whip",
+      "Human Fortress - The Wizard",
+      "M.A.D. - The Warrior",
+      "Coal Chamber - El Cu Cuy",
+      "Sabaton - Long Live The King",
+      "Amon Amarth - Varyags Of Miklagaard",
+      "Those Dancing Days - Fuckarias",
+      "Metallica - Hate Train",
+      "PAGAN ALTAR - Judgement of the Dead",
+      "Sabaton - In The Army Now (Bonus Track)",
+      "Mustasch - Your Father Must Be Proud Of You",
+      "Tenacious D - Roadie",
+      "Various Artists - Rudolph the Red Nosed Reindeer",
+      "Heathen - Bloodkult",
+      "Mnemic - I` ve Been You"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.stahlradio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10416_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10416_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10416,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10416_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10416_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10416_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Hard Rock, Metal",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Stahlradio",
+    "picture3Url":"",
+    "streamUrl":"http://login.streamplus.de/player.php?spt=7593.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10416_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10416_5.jpeg",
+    "subdomain":"stahlradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2411420,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus18.leonex.de:22810",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus18.leonex.de:22810",
+        "idBroadcast":10416,
+        "bitRate":192
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

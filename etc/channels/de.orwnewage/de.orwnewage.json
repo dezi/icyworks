@@ -1,0 +1,238 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://srv20.tmsrv.de:9310",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Osiriens Radio World - New Age (Esoterik), ORW - ",
+    "subDomaine":"orwnewage",
+    "relayDisabled":false,
+    "rank":1656,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Musik zum Entspannen nach einem stressigen Tag. Lasst euch mitreißen in eine schöne und ruhige Welt, in der Vögel zwitschern und ihr das Wasser plätschern hört. Einfach relaxen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/14805_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/14805_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/14805_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Lasst euch mitreißen in eine schöne und ruhige Welt, in der Vögel zwitschern und ihr das Wasser plätschern hört. Einfach relaxen.",
+    "metaDataUrl":"http://srv20.tmsrv.de:9310",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":320,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://srv20.tmsrv.de:9310",
+    "displaySubDomaine":"orwnewage",
+    "recentTitles":
+    [
+      "Clifford White - Hera - Goddess Of Women And Marriage",
+      "Enigma - The Child In Us",
+      "Era - Journey To Shambala",
+      "Bandari - Slow Motion",
+      "Sarah Brightman - Breathe Me",
+      "Andre Rieu - I Dreamed A Dream",
+      "Oliver Shanti - Sangha Way Of Life",
+      "Klangwelt - Bed of Clouds",
+      "Bandari - Angeles",
+      "Jean Michel Jarre - Oxygene 2",
+      "The Cruexshadows - And I Believe",
+      "Enigma - Responsorium I",
+      "Sarah Brightman - Ave Maria",
+      "Die Priester - Hallelujah",
+      "Die Priester - Rex Gloriae, Neue Welt",
+      "Douglas Spotted Eagle - Dance",
+      "Sarah Brightman - Lento E Largo From Symphony No.3, Op.36 (Symphony Of Sorrowful Songs)",
+      "Bandari - The Deep Blue Sea",
+      "Guiseppe Verdi - Vorspiel Zu La Traviata",
+      "Clifford White - Demeter - Goddess Of The Earth And Fertility",
+      "Seay - All Around the World",
+      "Klang Maler - Dreamlight",
+      "Mars lasar - Wilderness trail",
+      "Terry Oldfield - Transcending Time And Space",
+      "Schiller - Salton sea",
+      "Mike Oldfield - Sentinel",
+      "Dancing Fantasy - Big Light",
+      "Andre Rieu - You Raise Me Up",
+      "Stephen Parsick - The Keeper Of Time",
+      "Palash - Eastern Call",
+      "Leo Rojas - Chariots Of Fire",
+      "Enigma - Eppur Si Muove",
+      "Michael Hirte - Stay",
+      "Mike Oldfield - Spirit Dance",
+      "Fous De La Mer - Asi Vas",
+      "Klang Maler - Bilder einer Ausstellung",
+      "Gregorian - Last Unicorn",
+      "Peter Kater - Coventry Carol",
+      "Unheilig - Schutzengel (Orchester Version)",
+      "Enigma - Knocking On Forbidden Doors",
+      "David Garrett - Ode to Joy (Featuring the European Community Choir)",
+      "Deep Imagination - Creatures",
+      "Medwyn Goodall - Temple Journey",
+      "Joerg Strawe - Elektron",
+      "Mike Oldfield - Mont St Michel",
+      "Ahneemah - Tower Of Stone",
+      "Maitreya - Tibet"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://osiriens-radio-world.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/14805_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/14805_6_1.png",
+    "imported":true,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":14805,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/14805_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/14805_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/14805_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Ambient, Easy Listening",
+      "_city":"",
+      "_family":"Osiriens Radio World",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Osiriens Radio World - New Age (Esoterik)",
+    "picture3Url":"",
+    "streamUrl":"http://srv20.tmsrv.de:9310",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/14805_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/14805_5.jpeg",
+    "subdomain":"orwnewage",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":14455,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://srv20.tmsrv.de:9310",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://srv20.tmsrv.de:9310",
+        "idBroadcast":14805,
+        "bitRate":320
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

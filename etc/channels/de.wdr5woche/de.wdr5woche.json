@@ -1,0 +1,1568 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701468",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364023521/radio/wochenrueck/wdr5_wochenrueck_20130323_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699538",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363413697/radio/wochenrueck/wdr5_wochenrueck_20130316_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695967",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362202668/radio/wochenrueck/wdr5_wochenrueck_20130302_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694389",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361599279/radio/wochenrueck/wdr5_wochenrueck_20130223_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692482",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360993475/radio/wochenrueck/wdr5_wochenrueck_20130216_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690517",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 09.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688610",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359782270/radio/wochenrueck/wdr5_wochenrueck_20130202_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686790",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359177075/radio/wochenrueck/wdr5_wochenrueck_20130126_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 26.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686791",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358862615/radio/wochenrueck/wdr5_wochenrueck_20130119_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 19.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682976",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357970851/radio/wochenrueck/wdr5_wochenrueck_20130112_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 12.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681308",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357366858/radio/wochenrueck/wdr5_wochenrueck_20130105_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 05.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682977",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357562708/radio/wochenrueck/wdr5_jahresrueck_20121231_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 31.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679833",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356758109/radio/wochenrueck/wdr5_wochenrueck_20121229_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 29.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679834",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356602757/radio/wochenrueck/wdr5_wochenrueck_20121222_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 22.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17676439",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1355565074/radio/wochenrueck/wdr5_wochenrueck_20121215_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 15.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17674348",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354944131/radio/wochenrueck/wdr5_wochenrueck_20121208_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 08.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672001",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354347229/radio/wochenrueck/wdr5_wochenrueck_20121201_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 01.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17671201",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354186348/radio/wochenrueck/wdr5_wochenrueck_20121124_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 24.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17664474",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1352527610/radio/wochenrueck/wdr5_wochenrueck_20121110_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 10.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17656017",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1352020855/radio/wochenrueck/wdr5_wochenrueck_20121104_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 04.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17646344",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1351693316/radio/wochenrueck/wdr5_wochenrueck_20121027_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 27.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17609054",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1350707915/radio/wochenrueck/wdr5_wochenrueck_20121020_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 20.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17585797",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1350104322/radio/wochenrueck/wdr5_wochenrueck_20121013_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 13.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17560545",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1349501293/radio/wochenrueck/wdr5_wochenrueck_20121006_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 06.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17536584",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1348899166/radio/wochenrueck/wdr5_wochenrueck_20120929_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 29.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17515035",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1348290236/radio/wochenrueck/wdr5_wochenrueck_20120922_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 22.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17490749",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1347695455/radio/wochenrueck/wdr5_wochenrueck_20120915_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 15.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17342568",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1347088263/radio/wochenrueck/wdr5_wochenrueck_20120908_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 08.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17044672",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1346479420/radio/wochenrueck/wdr5_wochenrueck_20120901_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 01.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16819858",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1345870544/radio/wochenrueck/wdr5_wochenrueck_20120825_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 25.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16542981",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1344058262/radio/wochenrueck/wdr5_wochenrueck_20120804_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 04.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16530236",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1343452147/radio/wochenrueck/wdr5_wochenrueck_20120728_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 28.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16512078",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1342844471/radio/wochenrueck/wdr5_wochenrueck_20120721_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 21.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16485489",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1342238776/radio/wochenrueck/wdr5_wochenrueck_20120714_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 14.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16469918",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1341635056/radio/wochenrueck/wdr5_wochenrueck_20120707_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 07.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16440602",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1341030136/radio/wochenrueck/wdr5_wochenrueck_20120630_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 30.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16424929",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1340428511/radio/wochenrueck/wdr5_wochenrueck_20120623_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16402935",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1339823136/radio/wochenrueck/wdr5_wochenrueck_20120616_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16394691",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1339597985/radio/wochenrueck/wdr5_wochenrueck_20120602_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.06.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16346238",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1338008204/radio/wochenrueck/wdr5_wochenrueck_20120526_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 26.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16328557",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1337401574/radio/wochenrueck/wdr5_wochenrueck_20120519_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 19.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16309633",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1336802051/radio/wochenrueck/wdr5_wochenrueck_20120512_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 12.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16279524",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1336194735/radio/wochenrueck/wdr5_wochenrueck_20120505_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 05.05.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16238132",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1335799177/radio/wochenrueck/wdr5_wochenrueck_20120428_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 28.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16213852",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1334983152/radio/wochenrueck/wdr5_wochenrueck_20120421_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 21.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16184977",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1334380851/radio/wochenrueck/wdr5_wochenrueck_20120414_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 14.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16155985",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1333782066/radio/wochenrueck/wdr5_wochenrueck_20120407_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 07.04.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16073464",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1333170466/radio/wochenrueck/wdr5_wochenrueck_20120331_0900.mp3",
+      "testResult":null,
+      "name":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 31.03.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"WDR 5 - Der satirische Wochenrückblick",
+    "subDomaine":"wdr5woche",
+    "relayDisabled":false,
+    "rank":2215,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3711_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3711_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. ",
+    "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.03.2013",
+        "episode":0,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364023521/radio/wochenrueck/wdr5_wochenrueck_20130323_0900.mp3",
+        "published":"Sat, 23 Mar 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":2225708
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.03.2013",
+        "episode":1,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363413697/radio/wochenrueck/wdr5_wochenrueck_20130316_0900.mp3",
+        "published":"Sat, 16 Mar 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1580492
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.03.2013",
+        "episode":2,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362202668/radio/wochenrueck/wdr5_wochenrueck_20130302_0900.mp3",
+        "published":"Sat, 02 Mar 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1678876
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.02.2013",
+        "episode":3,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361599279/radio/wochenrueck/wdr5_wochenrueck_20130223_0900.mp3",
+        "published":"Sat, 23 Feb 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1655788
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.02.2013",
+        "episode":4,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360993475/radio/wochenrueck/wdr5_wochenrueck_20130216_0900.mp3",
+        "published":"Sat, 16 Feb 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1601708
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 09.02.2013",
+        "episode":5,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "published":"Sat, 09 Feb 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1689484
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.02.2013",
+        "episode":6,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359782270/radio/wochenrueck/wdr5_wochenrueck_20130202_0900.mp3",
+        "published":"Sat, 02 Feb 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1624172
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 26.01.2013",
+        "episode":7,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359177075/radio/wochenrueck/wdr5_wochenrueck_20130126_0900.mp3",
+        "published":"Sat, 26 Jan 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1643932
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 19.01.2013",
+        "episode":8,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358862615/radio/wochenrueck/wdr5_wochenrueck_20130119_0900.mp3",
+        "published":"Sat, 19 Jan 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1615228
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 12.01.2013",
+        "episode":9,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357970851/radio/wochenrueck/wdr5_wochenrueck_20130112_0900.mp3",
+        "published":"Sat, 12 Jan 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1641852
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 05.01.2013",
+        "episode":10,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357366858/radio/wochenrueck/wdr5_wochenrueck_20130105_0900.mp3",
+        "published":"Sat, 05 Jan 2013 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1681164
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 31.12.2012",
+        "episode":11,
+        "description":"Der satirische Jahresrückblick 2012. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357562708/radio/wochenrueck/wdr5_jahresrueck_20121231_0900.mp3",
+        "published":"Mon, 31 Dec 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":14160124
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 29.12.2012",
+        "episode":12,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356758109/radio/wochenrueck/wdr5_wochenrueck_20121229_0900.mp3",
+        "published":"Sat, 29 Dec 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1587772
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 22.12.2012",
+        "episode":13,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356602757/radio/wochenrueck/wdr5_wochenrueck_20121222_0900.mp3",
+        "published":"Sat, 22 Dec 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1692188
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 15.12.2012",
+        "episode":14,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1355565074/radio/wochenrueck/wdr5_wochenrueck_20121215_0900.mp3",
+        "published":"Sat, 15 Dec 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1662860
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 08.12.2012",
+        "episode":15,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354944131/radio/wochenrueck/wdr5_wochenrueck_20121208_0900.mp3",
+        "published":"Sat, 08 Dec 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1626668
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 01.12.2012",
+        "episode":16,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354347229/radio/wochenrueck/wdr5_wochenrueck_20121201_0900.mp3",
+        "published":"Sat, 01 Dec 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1631660
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 24.11.2012",
+        "episode":17,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354186348/radio/wochenrueck/wdr5_wochenrueck_20121124_0900.mp3",
+        "published":"Sat, 24 Nov 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1606076
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 10.11.2012",
+        "episode":18,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1352527610/radio/wochenrueck/wdr5_wochenrueck_20121110_0900.mp3",
+        "published":"Sat, 10 Nov 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1639564
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 04.11.2012",
+        "episode":19,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1352020855/radio/wochenrueck/wdr5_wochenrueck_20121104_0900.mp3",
+        "published":"Sun, 04 Nov 2012 09:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1643308
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 27.10.2012",
+        "episode":20,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1351693316/radio/wochenrueck/wdr5_wochenrueck_20121027_0900.mp3",
+        "published":"Sat, 27 Oct 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1628124
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 20.10.2012",
+        "episode":21,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1350707915/radio/wochenrueck/wdr5_wochenrueck_20121020_0900.mp3",
+        "published":"Sat, 20 Oct 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1673676
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 13.10.2012",
+        "episode":22,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1350104322/radio/wochenrueck/wdr5_wochenrueck_20121013_0900.mp3",
+        "published":"Sat, 13 Oct 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1700508
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 06.10.2012",
+        "episode":23,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1349501293/radio/wochenrueck/wdr5_wochenrueck_20121006_0900.mp3",
+        "published":"Sat, 06 Oct 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1618972
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 29.09.2012",
+        "episode":24,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1348899166/radio/wochenrueck/wdr5_wochenrueck_20120929_0900.mp3",
+        "published":"Sat, 29 Sep 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1597964
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 22.09.2012",
+        "episode":25,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1348290236/radio/wochenrueck/wdr5_wochenrueck_20120922_0900.mp3",
+        "published":"Sat, 22 Sep 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1723180
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 15.09.2012",
+        "episode":26,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1347695455/radio/wochenrueck/wdr5_wochenrueck_20120915_0900.mp3",
+        "published":"Sat, 15 Sep 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1620428
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 08.09.2012",
+        "episode":27,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1347088263/radio/wochenrueck/wdr5_wochenrueck_20120908_0900.mp3",
+        "published":"Sat, 08 Sep 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1688652
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 01.09.2012",
+        "episode":28,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1346479420/radio/wochenrueck/wdr5_wochenrueck_20120901_0900.mp3",
+        "published":"Sat, 01 Sep 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1664940
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 25.08.2012",
+        "episode":29,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1345870544/radio/wochenrueck/wdr5_wochenrueck_20120825_0900.mp3",
+        "published":"Sat, 25 Aug 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1622508
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 04.08.2012",
+        "episode":30,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1344058262/radio/wochenrueck/wdr5_wochenrueck_20120804_0900.mp3",
+        "published":"Sat, 04 Aug 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1650172
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 28.07.2012",
+        "episode":31,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1343452147/radio/wochenrueck/wdr5_wochenrueck_20120728_0900.mp3",
+        "published":"Sat, 28 Jul 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1633948
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 21.07.2012",
+        "episode":32,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1342844471/radio/wochenrueck/wdr5_wochenrueck_20120721_0900.mp3",
+        "published":"Sat, 21 Jul 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1611068
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 14.07.2012",
+        "episode":33,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1342238776/radio/wochenrueck/wdr5_wochenrueck_20120714_0900.mp3",
+        "published":"Sat, 14 Jul 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1605660
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 07.07.2012",
+        "episode":34,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1341635056/radio/wochenrueck/wdr5_wochenrueck_20120707_0900.mp3",
+        "published":"Sat, 07 Jul 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1636652
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 30.06.2012",
+        "episode":35,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1341030136/radio/wochenrueck/wdr5_wochenrueck_20120630_0900.mp3",
+        "published":"Sat, 30 Jun 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1649756
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.06.2012",
+        "episode":36,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1340428511/radio/wochenrueck/wdr5_wochenrueck_20120623_0900.mp3",
+        "published":"Sat, 23 Jun 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1530780
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.06.2012",
+        "episode":37,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1339823136/radio/wochenrueck/wdr5_wochenrueck_20120616_0900.mp3",
+        "published":"Sat, 16 Jun 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1672220
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.06.2012",
+        "episode":38,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1339597985/radio/wochenrueck/wdr5_wochenrueck_20120602_0900.mp3",
+        "published":"Sat, 02 Jun 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1620844
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 26.05.2012",
+        "episode":39,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1338008204/radio/wochenrueck/wdr5_wochenrueck_20120526_0900.mp3",
+        "published":"Sat, 26 May 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1663900
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 19.05.2012",
+        "episode":40,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1337401574/radio/wochenrueck/wdr5_wochenrueck_20120519_0900.mp3",
+        "published":"Sat, 19 May 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1655788
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 12.05.2012",
+        "episode":41,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1336802051/radio/wochenrueck/wdr5_wochenrueck_20120512_0900.mp3",
+        "published":"Sat, 12 May 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1597964
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 05.05.2012",
+        "episode":42,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1336194735/radio/wochenrueck/wdr5_wochenrueck_20120505_0900.mp3",
+        "published":"Sat, 05 May 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1615020
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 28.04.2012",
+        "episode":43,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1335799177/radio/wochenrueck/wdr5_wochenrueck_20120428_0900.mp3",
+        "published":"Sat, 28 Apr 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1649340
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 21.04.2012",
+        "episode":44,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1334983152/radio/wochenrueck/wdr5_wochenrueck_20120421_0900.mp3",
+        "published":"Sat, 21 Apr 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1646012
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 14.04.2012",
+        "episode":45,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1334380851/radio/wochenrueck/wdr5_wochenrueck_20120414_0900.mp3",
+        "published":"Sat, 14 Apr 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1667228
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 07.04.2012",
+        "episode":46,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1333782066/radio/wochenrueck/wdr5_wochenrueck_20120407_0900.mp3",
+        "published":"Sat, 07 Apr 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1617932
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Der Satirische Wochenrückblick: Sendung vom 31.03.2012",
+        "episode":47,
+        "description":"Das politische Wochengeschehen - respektlos und treffend formuliert durch den Kakao gezogen. Unbarmherzig, unfair, unglaublich. - Autor: Peter Zudeick © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1333170466/radio/wochenrueck/wdr5_wochenrueck_20120331_0900.mp3",
+        "published":"Sat, 31 Mar 2012 09:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1665356
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast.wdr.de/radio/wochenrueck.xml",
+    "displaySubDomaine":"wdr5woche",
+    "recentTitles":
+    [
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.03.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.03.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.03.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.02.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.02.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 09.02.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.02.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 26.01.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 19.01.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 12.01.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 05.01.2013",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 31.12.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 29.12.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 22.12.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 15.12.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 08.12.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 01.12.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 24.11.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 10.11.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 04.11.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 27.10.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 20.10.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 13.10.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 06.10.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 29.09.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 22.09.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 15.09.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 08.09.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 01.09.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 25.08.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 04.08.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 28.07.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 21.07.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 14.07.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 07.07.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 30.06.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.06.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 16.06.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 02.06.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 26.05.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 19.05.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 12.05.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 05.05.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 28.04.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 21.04.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 14.04.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 07.04.2012",
+      "WDR 5 Der Satirische Wochenrückblick: Sendung vom 31.03.2012"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Das politische Wochengeschehen -  respektlos, aber treffend formuliert. Fair, aber ziemlich unbarmherzig.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.wdr.de/radio/home/podcasts/channelausspielung.phtml?channel=wochenrueck",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3711_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3711_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3711,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3711_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3711_5_1.png",
+    "author":"",
+    "title":"Der satirische Wochenrückblick von Peter Zudeick im WDR 5-Radio zum Mitnehmen",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3711_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Comedy, Gesellschaft",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"WDR 5 - Der satirische Wochenrückblick",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/wdr5woche.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3711_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3711_5.gif",
+    "subdomain":"wdr5woche",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2388172,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360422558/radio/wochenrueck/wdr5_wochenrueck_20130209_0900.mp3",
+        "idBroadcast":3711,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://s8.pop-stream.de:8510",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio-Trance-Nation, Radio Trance Nation, Radio Trancenation, radio trancenation - ",
+    "subDomaine":"trance-nation",
+    "relayDisabled":false,
+    "rank":1903,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio-Trance-Nation. Feel the energy of sound!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10847_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10847_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10847_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Radio-Trance-Nation. Feel the energy of sound!",
+    "metaDataUrl":"http://s8.pop-stream.de:8510",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://s8.pop-stream.de:8510",
+    "displaySubDomaine":"trance-nation",
+    "recentTitles":
+    [
+      "Michael Wendler - Piloten Wie Wir  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Stefano Prada Feat. Saporo - Ole  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Peter Wackel - Vollgas  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Axel Fischer - Amsterdam  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Nic - Ich Dreh Den Mond In Deine Richtung  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Diana Sorbello - Mamma Maria  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Chris Winters - Ueber Den Wolken (DJ Extended)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "DJ Mape und Die Funtastikos - Ringelschwanztanz (Lowq)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "MAN, FRED! - Herzdame (Das Happy End)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "DJ Oetzi - Sweet Caroline  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Chris Roberts - Wann Liegen Wir Uns Wieder In Den Armen, Barbara  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Christian Anders - Ruby 2010  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Leon Cortez - Ich Schick\' Ein Sos Zum Himmel  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Andy Theke - Es Gibt Kein Bier Auf Hawai  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Andreas Martin - Ich Fang\' Dir Den Mond (DJ Mix)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Juergen Drews - Ueber Uns Ist Nur Der Himmel  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Juergen Drews - Ich Bau Dir Ein Schloss  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Antonia Aus Tirol - Traenen Luegen Nicht 2010 (Lowq)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Kaboom - Word Of Mouth  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Axel Fischer - Traum Von Afrika  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Andreas Martin - Aber Dich Gibt\'s Nur Einmal Fuer Mich  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Lollies - Endlich Wieder Nuechtern (...Das Muessen Wir Feiern)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Die Schlagermafia - Flieg Junger Adler  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Nico Gemba - Dieses Lied Ist Fuer Dich  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Zwini - Der Weg Zum Glueck Geht Durch Die Hoelle  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Michael Wendler - Freitag Nacht  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Thomas André - Fuer Alle Ewigkeit  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Olaf Henning - Cowboy und Indianer (Wir Holen Den Cup Nach Haus)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Destivo - Basta Basta  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Enjoy The Music - Schland O Schland  *((¯`»._.« Kurt  »._.«´¯))*",
+      "Colonia Deejays - Ein Echter Pirat (Lowq)  *((¯`»._.« Kurt  »._.«´¯))*",
+      "DJ Ronny - Die Fischer Von San Juan  *((¯`»._.« Lionfire  »._.«´¯))*",
+      "Andy Theke - Es Gibt Kein Bier Auf Hawai  *((¯`»._.« Lionfire  »._.«´¯))*",
+      "Frank Zander - Hier kommt Kurt  *((¯`»._.« Lionfire  »._.«´¯))*",
+      "06 - STARZ ANGELS feat PINK - So What",
+      "02. Topmodelz - I Wanna Dance",
+      "10 - STARZ ANGELS feat LADY GAGA - Just dance"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-trance-nation.eu",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10847_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10847_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10847,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10847_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10847_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10847_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Dance, Gothic",
+      "_city":"Hannover",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio-Trance-Nation",
+    "picture3Url":"",
+    "streamUrl":"http://s8.pop-stream.de:8510",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10847_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10847_5.jpeg",
+    "subdomain":"trance-nation",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":9161,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://s8.pop-stream.de:8510",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://s8.pop-stream.de:8510",
+        "idBroadcast":10847,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

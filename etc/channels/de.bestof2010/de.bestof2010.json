@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/bestof2010",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Best of 2010, charts 2010, hits,",
+    "subDomaine":"bestof2010",
+    "relayDisabled":false,
+    "rank":1528,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die besten, schönsten und größten Hits des Jahres, alle vereint auf unserem exklusiven Sender Best of 2010. Von WM Hits bis zur Chartspitze ist alles aus den Hitlisten dabei.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9483_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9483_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9483_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die besten, schönsten und größten Hits des Jahres, alle vereint auf unserem exklusiven Sender Best of 2010.",
+    "metaDataUrl":"http://dude.mp3streams.net/bestof2010",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/bestof2010",
+    "displaySubDomaine":"bestof2010",
+    "recentTitles":
+    [
+      "Katy Perry Feat. Snoop Dogg - California Gurls (Featuring Snoop Dogg)",
+      "Iyaz - Replay",
+      "Katy Perry Feat. Snoop Dogg - California Gurls",
+      "Robbie Williams & Gary Barlow - Shame",
+      "Cheryl Cole - Fight For This Love",
+      "Velile & Safri Duo - Helele (Safri Duo Single Mix)",
+      "Taio Cruz Feat. Ludacris - Break Your Heart",
+      "Basta - Gimme Hope Joachim",
+      "Madcon - Glow",
+      "Fettes Brot - Jein..",
+      "Jason Derulo - Whatcha Say",
+      "Xavier Naidoo - Bitte Hvr Nicht Auf Zu Trdumen",
+      "Medina - You And I (Radio Edit)",
+      "Shakira - Waka Waka (This Time For Africa)",
+      "Die Fantastischen Vier - Gebt Uns Ruhig Die Schuld",
+      "Culcha Candela - Move It",
+      "Taio Cruz Feat. Ludacris - Break Your Heart (Radio Edit)",
+      "Rihanna - Only Girl (In The World)",
+      "Swedish House Mafia Feat. Pharrell - One (Your Name) [Feat. Pharrell] {Radio Edit}",
+      "Usher Feat. Pitbull - DJ Got Us Fallin\' In Love",
+      "Kylie Minogue - All The Lovers",
+      "Train - Hey",
+      "Adam Lambert - Whataya Want From Me",
+      "Aloe Blacc - I Need A Dollar",
+      "OneRepublic - Marchin On [Patriot Remix]",
+      "Keri Hilson - I Like",
+      "Jessy Matador - Allez Ola Oli",
+      "Stromae - Alors On Danse (Radio Edit)",
+      "Martin Solveig & Dragonette - Hello",
+      "Monrose - Like A Lady",
+      "Dominik B|chele - Closer To Heaven",
+      "Scooter - Stuck On Replay (Radio Edit)",
+      "Edward Maya Feat. Vika Jigulina - Stereo Love",
+      "Lady Gaga - Alejandro",
+      "Ich + Ich - Pflaster",
+      "Velile & Safri Duo - Helele",
+      "Tinie Tempah Feat. Eric Turner - Written In The Stars (Featuring Eric Turner) (UK Radio Version)",
+      "Culcha Candela - Eiskalt",
+      "Yolanda Be Cool & DCUP - We No Speak Americano",
+      "Nena - In Meinem Leben (Radio Version)",
+      "Aura Dione - I Will Love You Monday (365)",
+      "David Guetta Feat. Kid Cudi - Memories",
+      "Marit Larsen - Under The Surface",
+      "The Gossip - Heavy Cross",
+      "Die Atzen - Frauenarzt & Manny Marc - Disco Pogo",
+      "Bushido Feat. Kay One - Fackeln Im Wind",
+      "a-Ha - Butterfly",
+      "Unheilig - Geboren Um Zu Leben",
+      "Timbaland Feat. Nelly Furtado & SoShy - Morning After Dark",
+      "Revolverheld - Spinner",
+      "James Blunt - Stay The Night"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9483_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9483_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9483,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9483_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9483_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9483_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Pop",
+      "_city":"Hamburg",
+      "_family":"bestof",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Best of 2010",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/bestof2010",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9483_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9483_5.jpeg",
+    "subdomain":"bestof2010",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":8053,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/bestof2010",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/bestof2010",
+        "idBroadcast":9483,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://realfm.ham-radio-op.net:8000",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Real FM",
+    "subDomaine":"realfm",
+    "relayDisabled":false,
+    "rank":1447,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Heißester HipHop ist hier programmbestimmend. R\'n\'B und Black reihen sich ab und zu ein.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4842_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4842_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Heißester HipHop ist hier programmbestimmend. R\'n\'B und Black reihen sich ab und zu ein.",
+    "metaDataUrl":"http://realfm.ham-radio-op.net:8000",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":80,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://realfm.ham-radio-op.net:8000",
+    "displaySubDomaine":"realfm",
+    "recentTitles":
+    [
+      "Notorious B.I.G. - Juicy",
+      "Chakuza - Eure Kinder (Feat. Bushido)",
+      "Fard - Like This - Fard / Redman",
+      "Yung Berg ft. Trey Songz - Gets Down",
+      "Dr. Dre  Ed Lover - Back Up Off Me",
+      "The Opposites Ft Dio Willie Wartaal - Dom, Lomp,  Famous",
+      "02 - 02 Sektenmuzik - Freitag der ",
+      "Samy Deluxe - Poesie Album",
+      "Jan Delay - Im Arsch (Feat. Udo Lindenberg)",
+      "V Factory - Lights Camera Action (Prod. by Timbaland)",
+      "Fard - Hakuna Matata",
+      "50 Cent - 2 Step Remix (feat. Sky Balla)",
+      "Brothers Keepers - Adriano (Letzte Warnung)",
+      "ABS - Null-8-15",
+      "Samy Deluxe feat. Jan Delay - Grüne Brille",
+      "Xavier Naidoo - Alles Kann Besser Werden",
+      "SALT N PEPA - Push It",
+      "V3RB - Tiger",
+      "Natasha Bedingfield - Single",
+      "Busta Rhymes - Fire It Up(Knight Rider Remix)",
+      "Styles P - How We Live",
+      "Flume - Holdin On",
+      "50 Cent, Lloyd Banks  Marquis - These Niggas Ain\'t Hood ",
+      "DiverSe - Young, Fresh,  New Feat Melodiq Prod By Zo!",
+      "Groove Coverage - Moonlight Shadow",
+      "C:\\Dokumente und Einstellungen\\Radio\\Desktop\\38 Real FM Jingles neu beschriftet für Non-Stop\\92 - New - real fm number one hip hop station.mp3",
+      "John Cena - The Time Is Now",
+      "JR  PH7 - Who Want What (feat. Freeway, Saigon  Ras Kass) CLEAN",
+      "Lil John - Damn",
+      "NWA - Straight Outta Compton",
+      "Bounty Killer - Look Into My Eyes",
+      "Kein Künstler - eloquence / match nul",
+      "Rap Pack - Scheinwerfer feat toadie",
+      "V3RB - New Birth feat. Alex Chadwick",
+      "37.dmx - Slippin (Dirty Version)",
+      "Black Eyed Peas - Don\'t Phunk With My Heart",
+      "The Cat Empire - Brighter Than Gold",
+      "P-Diddy ft. Nicole Scherzinger  - P Diddy Feat Nicole Scherzinger - Come To Me",
+      "Blaze - Koma RMX (feat. Jonesmann, Favorite  Vega)",
+      "outcast - Throw your hands in the air",
+      "Kein Künstler - ASD / African Riddim",
+      "dead prez - Hip-Hop (RBG Mix)",
+      "Chris Brown feat. Benny Benassi (Best-Muzon.ru) - Beautiful People (Radio Edit)",
+      "? - Talib Kweli / Cold Rain",
+      "Kniffler\'s Mum - Truth",
+      "Fard - Reich  Schön",
+      "Olly Murs feat. Rizzle Kicks - Heart Skips A Beat (Radio Edit) ",
+      "Yoshi - The Black Plague",
+      "GZA, Method Man, U-God, Raekwon  RZA - Da N (Rmx)",
+      "Timbaland Ft. Justin  Jay-Z - Give It To Me (CN REMIX)",
+      "FenaxiZ - Full Circle (prod. Incise) (clean edit)",
+      "Jeremih ft. Juelz  Santana  P - Imma Star VPX",
+      "Kool Savas - Wherever I go [Kool Savas feat. Julez Santana]",
+      "Yung Joc - I Know You See It",
+      "D:\\real fm\\Gecheckt 03.03.2013 unbekannte Künstler\\Juellz - JEWELZ\\Juellz - JEWELZ - 11 LOVE  HATE feat. Scheme  Gianluca del Re (prod. TCustomz).mp3",
+      "Varyus Waise f/ Lyrical Blades, Outsider and Tough Dumplin - Red Stripe Music"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1.2999999523163,
+    "streamContentFormat":"MP3",
+    "link":"http://real.fm.gd/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4842_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4842_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4842,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4842_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4842_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4842_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Hip-Hop",
+      "_city":"Ockenheim",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Real FM",
+    "picture3Url":"",
+    "streamUrl":"http://realfm.ham-radio-op.net:8000",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4842_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4842_5.jpeg",
+    "subdomain":"realfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":4057,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://realfm.ham-radio-op.net:8000",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://realfm.ham-radio-op.net:8000",
+        "idBroadcast":4842,
+        "bitRate":80
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

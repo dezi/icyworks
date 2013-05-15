@@ -1,0 +1,1046 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704019",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+      "testResult":null,
+      "name":"Der verlorene Albert",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704020",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1650_2c1ce49a.mp3",
+      "testResult":null,
+      "name":"Kluge Stammzellen - Der menschliche Körper bildet rote und weiße Blutkörperchen je nach Bedarf",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704021",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1645_6c1c9ca7.mp3",
+      "testResult":null,
+      "name":"Die ersten Fischköche - Neues Analyseverfahren ermöglicht Nachweis organischer Reste in ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704022",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1640_cc1bb98a.mp3",
+      "testResult":null,
+      "name":"Muskelstrecken vor dem Schlupf - Paläontologen klären erstmals Embryologie von Dinosauriern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704023",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1636_cc16e96f.mp3",
+      "testResult":null,
+      "name":"Gewitterwolke mit Gammastrahlen - Ob atmosphärische Gammastrahlenausbrüche eine Gefahr für den ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704024",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 11.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704025",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1453_4bda041c.mp3",
+      "testResult":null,
+      "name":"\"Hochschullandschaft nicht kaputtsparen\" - Cottbuser wehren sich gegen Zusammenlegung ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704026",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1449_9bd93162.mp3",
+      "testResult":null,
+      "name":"Internationalisierungstudie EUA",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704027",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1442_4bd80d59.mp3",
+      "testResult":null,
+      "name":"Mathe-Nachhilfe für Meisterstudenten - Neues Projekt unterstützt Studierende ohne Abitur",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704028",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1437_8bd65478.mp3",
+      "testResult":null,
+      "name":"Breite statt Elite - fzs-Vorstand fordert Umgestaltung der Studienfinanzierung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704029",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1435_fbd442cb.mp3",
+      "testResult":null,
+      "name":"Campus & Karriere 11.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704030",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1657_7e8cadc8.mp3",
+      "testResult":null,
+      "name":"Die Formeln des Herrn Lagrangia",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704031",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1648_98e0a90d.mp3",
+      "testResult":null,
+      "name":"Resistente Darmbakterien - ESBL-Bildner sind immer häufiger auch bei gesunden Menschen zu finden",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704032",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1642_c8e01c5a.mp3",
+      "testResult":null,
+      "name":"Innovationen made in Germany - Bundesforschungsministerin Wanka stellt Zwischenbilanz der ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704033",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1636_e8df9165.mp3",
+      "testResult":null,
+      "name":"Schadstoff Kunststoff - Strategien der EU gegen Plastikmüll im Meer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704034",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1635_68dbbcf9.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 10.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704035",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1458_48b801a5.mp3",
+      "testResult":null,
+      "name":"Uni Amoklauf in Texas",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704036",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1453_88b7522b.mp3",
+      "testResult":null,
+      "name":"Elternarbeit für gerechte Bildungschancen / Gespräch König",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704037",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1447_78b60135.mp3",
+      "testResult":null,
+      "name":"Ausländische Studierende werden zur Kasse gebeten - Leipziger Hochschule für Musik und Theater ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704038",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1442_28b50583.mp3",
+      "testResult":null,
+      "name":"Studiengebühren durch die Hintertür - Kritik am neuen Hochschulgesetz in Bayern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704039",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1438_78b409dc.mp3",
+      "testResult":null,
+      "name":"Modellrechnung CHE/ Interview Ziegele",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704040",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1435_e8b2d29a.mp3",
+      "testResult":null,
+      "name":"Campus & Karriere 10.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704041",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1657_3e897149.mp3",
+      "testResult":null,
+      "name":"Das Loch im Orion",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704042",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1650_b5ad1df9.mp3",
+      "testResult":null,
+      "name":"Doch keine Giftstoffe im Bubble Tea - Modegetränk enthält nach neuen Analysen aber oft ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704043",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1645_e5acc7d4.mp3",
+      "testResult":null,
+      "name":"Sicherer Organtransport - Maschine aus Oxford hält Spenderleber außerhalb des Körpers am Leben",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704044",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1640_c5ac884d.mp3",
+      "testResult":null,
+      "name":"Seeigel im Stresstest - Die Tiere können sich überraschend schnell an die Ozeanversauerung anpassen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704045",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1636_c527de2e.mp3",
+      "testResult":null,
+      "name":"Tierische Navigationskünstler - Monarchfalter finden auch ohne innere Karte ihr Ziel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704046",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1636_a5ac43a7.mp3",
+      "testResult":null,
+      "name":"Wie orientieren sich Monarchfalter?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704047",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1635_45a3737f.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 09.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704048",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1456_657b23ef.mp3",
+      "testResult":null,
+      "name":"Serie: Doppelabi - Prüfungsstress",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"Themenpodcast Wissenschaft und Bildung",
+    "seoTitle":"Deutschlandfunk - Wissenschaft und Bildung - d-radio, Deutschlandradio Kultur, DLF, Deutschlandfunk",
+    "subDomaine":"dlfwissbildung",
+    "relayDisabled":false,
+    "rank":2214,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Der Themenpodcast \"Bildung und Wissenschaft\" von Deutschlandradio bietet täglich neue Beiträge. Er speist sich aus Beiträgen der Sendungen Forschung Aktuell, Wissenschaft im Brennpunkt, Campus & Karriere.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4081_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4081_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/4081_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Der Themenpodcast \"Bildung und Wissenschaft\" von Deutschlandradio bietet täglich neue Beiträge.\r\n",
+    "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Der verlorene Albert",
+        "episode":0,
+        "description":"<img src=\"http://www.dradio.de/images/93245/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Ein wahrer Meister der visuellen Himmelsbeobachtung war der Wiener Astronom Johann Palisa. Er hat 122 Asteroiden mit dem Auge am Teleskop entdeckt - so viele wie kein anderer.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "published":"Thu, 11 Apr 2013 14:57:44 GMT",
+        "bitRate":64,
+        "contentLength":1094080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kluge Stammzellen - Der menschliche Körper bildet rote und weiße Blutkörperchen je nach Bedarf",
+        "episode":1,
+        "description":"<img src=\"http://www.dradio.de/images/71064/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Blutzellen können ihre Aufgaben im Sauerstofftransport oder beim Wundverschluss nur für einige Tage wahrnehmen. Der Körper ist also auf ständigen Nachschub angewiesen. Wie eine Studie in \"Nature\" erläutert, produziert dieser aber nicht jeden Tag die gleiche Menge der verschiedenen Blutkörperchen. Vielmehr stellt er sich auf den aktuellen Bedarf ein. <br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1650_2c1ce49a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1650_2c1ce49a.mp3",
+        "published":"Thu, 11 Apr 2013 14:50:21 GMT",
+        "bitRate":64,
+        "contentLength":2148224
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die ersten Fischköche - Neues Analyseverfahren ermöglicht Nachweis organischer Reste in ...",
+        "episode":2,
+        "description":"<img src=\"http://www.dradio.de/images/91334/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Töpferei wurde vor mehr als 15.000 Jahren im Osten Asiens erfunden. Wofür genau die Menschen damals die gebrannten Tongefäße nutzten, konnten Archäologen bisher nicht herausfinden. Ein internationales Forscherteam hat dieses Rätsel nun gelöst. <br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1645_6c1c9ca7.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1645_6c1c9ca7.mp3",
+        "published":"Thu, 11 Apr 2013 14:45:52 GMT",
+        "bitRate":64,
+        "contentLength":1945632
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Muskelstrecken vor dem Schlupf - Paläontologen klären erstmals Embryologie von Dinosauriern",
+        "episode":3,
+        "description":"<img src=\"http://www.dradio.de/images/22864/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im Jahr 2005 stellte der Dinosaurierspezialist Robert Reisz im Fachmagazin \"Nature\" das älteste Dinosauriergelege der Welt vor. Nun erscheint dieser Fund regelrecht unspektakulär - angesichts dessen, was Reisz heute präsentiert hat. <br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1640_cc1bb98a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1640_cc1bb98a.mp3",
+        "published":"Thu, 11 Apr 2013 14:40:18 GMT",
+        "bitRate":64,
+        "contentLength":2204176
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gewitterwolke mit Gammastrahlen - Ob atmosphärische Gammastrahlenausbrüche eine Gefahr für den ...",
+        "episode":4,
+        "description":"<img src=\"http://www.dradio.de/images/81894/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Einer gängigen Hypothese zufolge entstehen Gammastrahlenausbrüche, wenn einem massereichen Stern der Brennstoff ausgeht und er unter seinem eigenen Gewicht zusammenstürzt. Inzwischen ist jedoch klar: Gammastrahlenausbrüche sind kein reines Weltraumphänomen. Es gibt sie auch auf der Erde. \n<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1636_cc16e96f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1636_cc16e96f.mp3",
+        "published":"Thu, 11 Apr 2013 14:36:52 GMT",
+        "bitRate":64,
+        "contentLength":2518256
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 11.04.2013, komplette Sendung",
+        "episode":5,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "published":"Thu, 11 Apr 2013 14:35:17 GMT",
+        "bitRate":64,
+        "contentLength":11912992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Hochschullandschaft nicht kaputtsparen\" - Cottbuser wehren sich gegen Zusammenlegung ...",
+        "episode":6,
+        "description":"<img src=\"http://www.dradio.de/images/93304/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Zum ersten Juli sollen die Brandenburgische Technische Universität Cottbus und die Hochschule Lausitz in einer neuen Universität aufgehen. Doch in der Lausitz regt sich heftiger Widerstand gegen die geplante Fusion. Nach einer Volksinitiative ist nun ein Volksbegehren gestartet.<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1453_4bda041c.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1453_4bda041c.mp3",
+        "published":"Thu, 11 Apr 2013 12:53:00 GMT",
+        "bitRate":64,
+        "contentLength":2180464
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Internationalisierungstudie EUA",
+        "episode":7,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1449_9bd93162.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1449_9bd93162.mp3",
+        "published":"Thu, 11 Apr 2013 12:49:00 GMT",
+        "bitRate":64,
+        "contentLength":2024256
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Mathe-Nachhilfe für Meisterstudenten - Neues Projekt unterstützt Studierende ohne Abitur",
+        "episode":8,
+        "description":"<img src=\"http://www.dradio.de/images/45297/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Studieren geht auch ohne Abi - zum Beispiel mit einem Meisterbrief. Doch beim Ingenieursstudium können fehlende Mathematikkenntnisse einen Knackpunkt bilden. Das Onlineprojekt \"Rechenbrücke\" soll hier helfen.<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1442_4bd80d59.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1442_4bd80d59.mp3",
+        "published":"Thu, 11 Apr 2013 12:42:00 GMT",
+        "bitRate":64,
+        "contentLength":2018640
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Breite statt Elite - fzs-Vorstand fordert Umgestaltung der Studienfinanzierung",
+        "episode":9,
+        "description":"<img src=\"http://www.dradio.de/images/17459/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Eliteförderung hält Katharina Mahrt, Vorstand des Freien Zusammenschlusses von Studierendenschaften, nicht für sinnvoll. \"Die Mittel für die Hochschulen sollten nicht willkürlich auf einen Bereich konzentriert werden\", fordert sie, sondern allen Studierenden zugutekommen.<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1437_8bd65478.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1437_8bd65478.mp3",
+        "published":"Thu, 11 Apr 2013 12:37:00 GMT",
+        "bitRate":64,
+        "contentLength":2285088
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Campus & Karriere 11.04.2013, komplette Sendung",
+        "episode":10,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1435_fbd442cb.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1435_fbd442cb.mp3",
+        "published":"Thu, 11 Apr 2013 12:35:00 GMT",
+        "bitRate":64,
+        "contentLength":8728720
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Formeln des Herrn Lagrangia",
+        "episode":11,
+        "description":"<img src=\"http://www.dradio.de/images/93244/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute vor 200 Jahren starb in Paris Giuseppe Luigi Lagrangia - besser bekannt als Joseph Louis de Lagrange. Dass dieser große Mathematiker aus Turin stammt, wird oft vergessen.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1657_7e8cadc8.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1657_7e8cadc8.mp3",
+        "published":"Wed, 10 Apr 2013 14:57:48 GMT",
+        "bitRate":64,
+        "contentLength":1094080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Resistente Darmbakterien - ESBL-Bildner sind immer häufiger auch bei gesunden Menschen zu finden",
+        "episode":12,
+        "description":"<img src=\"http://www.dradio.de/images/46408/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Immer mehr Bakterien sind resistent gegen Antibiotika. Auch scheinbar harmlose Infektionskrankheiten sind dadurch schwieriger zu therapieren. Eine relativ neue Resistenzeigenschaft ist die Bildung von ESBL. Bundesweit gibt es deshalb Forschungsprojekte zu diesen multiresistenten Keimen.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1648_98e0a90d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1648_98e0a90d.mp3",
+        "published":"Wed, 10 Apr 2013 14:48:43 GMT",
+        "bitRate":64,
+        "contentLength":2172352
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Innovationen made in Germany - Bundesforschungsministerin Wanka stellt Zwischenbilanz der ...",
+        "episode":13,
+        "description":"<img src=\"http://www.dradio.de/images/90727/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">\"Hightech-Strategie 2020\" heißt eine Initiative der Bundesregierung mit dem Ziel, Deutschlands Innovationskraft in wichtigen Zukunftsfeldern zu stärken. Rund 27 Milliarden Euro ließ sich die Regierung das Programm von 2010 bis 2013 kosten. In Berlin hat Bundesforschungsministerin Johanna Wanka dem Kabinett erste Ergebnisse vorgestellt.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1642_c8e01c5a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1642_c8e01c5a.mp3",
+        "published":"Wed, 10 Apr 2013 14:42:30 GMT",
+        "bitRate":64,
+        "contentLength":3308864
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schadstoff Kunststoff - Strategien der EU gegen Plastikmüll im Meer",
+        "episode":14,
+        "description":"<img src=\"http://www.dradio.de/images/93270/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Abfall aus Kunststoff richtet in den Weltmeeren große Schäden an. Auf der ersten europäischen Konferenz zur Eindämmung und Vermeidung von Meeresmüll in Berlin suchen Experten und Politiker nach einer Gegenstrategie.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1636_e8df9165.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1636_e8df9165.mp3",
+        "published":"Wed, 10 Apr 2013 14:36:55 GMT",
+        "bitRate":64,
+        "contentLength":3046992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 10.04.2013, komplette Sendung",
+        "episode":15,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1635_68dbbcf9.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1635_68dbbcf9.mp3",
+        "published":"Wed, 10 Apr 2013 14:35:56 GMT",
+        "bitRate":64,
+        "contentLength":11865568
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Uni Amoklauf in Texas",
+        "episode":16,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1458_48b801a5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1458_48b801a5.mp3",
+        "published":"Wed, 10 Apr 2013 12:58:00 GMT",
+        "bitRate":64,
+        "contentLength":651872
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Elternarbeit für gerechte Bildungschancen / Gespräch König",
+        "episode":17,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1453_88b7522b.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1453_88b7522b.mp3",
+        "published":"Wed, 10 Apr 2013 12:53:00 GMT",
+        "bitRate":64,
+        "contentLength":2242240
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ausländische Studierende werden zur Kasse gebeten - Leipziger Hochschule für Musik und Theater ...",
+        "episode":18,
+        "description":"<img src=\"http://www.dradio.de/images/47577/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Studierende der Leipziger Hochschule für Musik und Theater (HMT), die nicht aus der EU stammen, müssen ab Herbst eine Gebühr von 1800 Euro pro Semester zahlen. Laut Rektorat sollen mit dem Geld Dozentenhonorare finanziert werden. In der Studentenschaft ist man besorgt.\n<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1447_78b60135.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1447_78b60135.mp3",
+        "published":"Wed, 10 Apr 2013 12:47:00 GMT",
+        "bitRate":64,
+        "contentLength":1833312
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Studiengebühren durch die Hintertür - Kritik am neuen Hochschulgesetz in Bayern",
+        "episode":19,
+        "description":"<img src=\"http://www.dradio.de/images/89786/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Studiengebühren sind fast überall in Deutschland Vergangenheit. Um die Gelder für Unis und Hochschulen trotzdem fließen zu lassen, setzen manche Wissenschaftsministerien auf versteckte Gebühren oder Sondervorschriften. Auch in Bayern ist man kreativ.<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1442_28b50583.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1442_28b50583.mp3",
+        "published":"Wed, 10 Apr 2013 12:42:00 GMT",
+        "bitRate":64,
+        "contentLength":2070640
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Modellrechnung CHE/ Interview Ziegele",
+        "episode":20,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1438_78b409dc.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1438_78b409dc.mp3",
+        "published":"Wed, 10 Apr 2013 12:38:00 GMT",
+        "bitRate":64,
+        "contentLength":1474928
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Campus & Karriere 10.04.2013, komplette Sendung",
+        "episode":21,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1435_e8b2d29a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1435_e8b2d29a.mp3",
+        "published":"Wed, 10 Apr 2013 12:35:00 GMT",
+        "bitRate":64,
+        "contentLength":8639280
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Das Loch im Orion",
+        "episode":22,
+        "description":"<img src=\"http://www.dradio.de/images/92932/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Gegen 22 Uhr ist das Wintersternbild Orion schon weit nach Westen gerückt und neigt sich allmählich seinem Untergang zu. Unterhalb der markanten drei Gürtelsterne erkennt man in einem Fernglas den berühmten Orion-Nebel, der als Sternentstehungsregion gilt.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1657_3e897149.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1657_3e897149.mp3",
+        "published":"Tue, 09 Apr 2013 14:57:37 GMT",
+        "bitRate":64,
+        "contentLength":1091376
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Doch keine Giftstoffe im Bubble Tea - Modegetränk enthält nach neuen Analysen aber oft ...",
+        "episode":23,
+        "description":"<img src=\"http://www.dradio.de/images/84478/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Bunt und süß ist Bubble Tea - und giftig, stellten jedenfalls Forscher der RWTH Aachen einst fest. Eine neue Untersuchung zeigt: Gesundheitsschädliche Stoffe sind in dem stark gezuckerten Mixgetränk wohl doch nicht enthalten. Dafür aber eine andere Zutat, die die Wissenschaftler überraschte: Süßstoff.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1650_b5ad1df9.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1650_b5ad1df9.mp3",
+        "published":"Tue, 09 Apr 2013 14:50:31 GMT",
+        "bitRate":64,
+        "contentLength":1891344
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Sicherer Organtransport - Maschine aus Oxford hält Spenderleber außerhalb des Körpers am Leben",
+        "episode":24,
+        "description":"<img src=\"http://www.dradio.de/images/82882/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Bislang wurden Spenderlebern nach der Entnahme für den Transport heruntergekühlt - eine Prozedur, die vor allem Fettlebern nicht gut überstehen. Etliche Organe gehen deshalb verloren. Ein neuer Apparat setzt nun auf ein anderes Konzept: Er gaukelt der Leber vor, sich noch im Körper zu befinden.<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1645_e5acc7d4.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1645_e5acc7d4.mp3",
+        "published":"Tue, 09 Apr 2013 14:45:06 GMT",
+        "bitRate":64,
+        "contentLength":2355184
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Seeigel im Stresstest - Die Tiere können sich überraschend schnell an die Ozeanversauerung anpassen",
+        "episode":25,
+        "description":"<img src=\"http://www.dradio.de/images/93218/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Wenn der Kohlendioxidgehalt in der Luft steigt, erhöht sich auch der Säuregrad im Meerwasser. Darunter leiden wiederum Schalentiere und Stachelhäuter, da die Säure den Kalk ihres Panzers angreift. Eine Ausnahme scheinen allerdings Seeigel zu sein. Die Tiere können sich recht gut an niedrige pH-Werte anpassen  zumindest manchmal. <br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1640_c5ac884d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1640_c5ac884d.mp3",
+        "published":"Tue, 09 Apr 2013 14:40:36 GMT",
+        "bitRate":64,
+        "contentLength":1937104
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Tierische Navigationskünstler - Monarchfalter finden auch ohne innere Karte ihr Ziel",
+        "episode":26,
+        "description":"<img src=\"http://www.dradio.de/images/93210/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Jedes Jahr im Herbst ziehen die nordamerikanischen Monarchfalter zu Millionen in ihr Winterquartier nach Mexiko. Am Ende dieser bis zu 4000 Kilometer langen Reise finden sie ihr Ziel immer nahezu genau. Wie ihnen das gelingt, konnte jetzt ein internationales Forscherteam klären. <br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1636_c527de2e.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1636_c527de2e.mp3",
+        "published":"Tue, 09 Apr 2013 14:36:43 GMT",
+        "bitRate":64,
+        "contentLength":2098928
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wie orientieren sich Monarchfalter?",
+        "episode":27,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1636_a5ac43a7.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1636_a5ac43a7.mp3",
+        "published":"Tue, 09 Apr 2013 14:36:13 GMT",
+        "bitRate":64,
+        "contentLength":2367664
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 09.04.2013, komplette Sendung",
+        "episode":28,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1635_45a3737f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1635_45a3737f.mp3",
+        "published":"Tue, 09 Apr 2013 14:35:33 GMT",
+        "bitRate":64,
+        "contentLength":11677120
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Serie: Doppelabi - Prüfungsstress",
+        "episode":29,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Campus & Karriere<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1456_657b23ef.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1456_657b23ef.mp3",
+        "published":"Tue, 09 Apr 2013 12:56:00 GMT",
+        "bitRate":64,
+        "contentLength":1400256
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+    "displaySubDomaine":"dlfwissbildung",
+    "recentTitles":
+    [
+      "Der verlorene Albert",
+      "Kluge Stammzellen - Der menschliche Körper bildet rote und weiße Blutkörperchen je nach Bedarf",
+      "Die ersten Fischköche - Neues Analyseverfahren ermöglicht Nachweis organischer Reste in ...",
+      "Muskelstrecken vor dem Schlupf - Paläontologen klären erstmals Embryologie von Dinosauriern",
+      "Gewitterwolke mit Gammastrahlen - Ob atmosphärische Gammastrahlenausbrüche eine Gefahr für den ...",
+      "Forschung aktuell 11.04.2013, komplette Sendung",
+      "\"Hochschullandschaft nicht kaputtsparen\" - Cottbuser wehren sich gegen Zusammenlegung ...",
+      "Internationalisierungstudie EUA",
+      "Mathe-Nachhilfe für Meisterstudenten - Neues Projekt unterstützt Studierende ohne Abitur",
+      "Breite statt Elite - fzs-Vorstand fordert Umgestaltung der Studienfinanzierung",
+      "Campus & Karriere 11.04.2013, komplette Sendung",
+      "Die Formeln des Herrn Lagrangia",
+      "Resistente Darmbakterien - ESBL-Bildner sind immer häufiger auch bei gesunden Menschen zu finden",
+      "Innovationen made in Germany - Bundesforschungsministerin Wanka stellt Zwischenbilanz der ...",
+      "Schadstoff Kunststoff - Strategien der EU gegen Plastikmüll im Meer",
+      "Forschung aktuell 10.04.2013, komplette Sendung",
+      "Uni Amoklauf in Texas",
+      "Elternarbeit für gerechte Bildungschancen / Gespräch König",
+      "Ausländische Studierende werden zur Kasse gebeten - Leipziger Hochschule für Musik und Theater ...",
+      "Studiengebühren durch die Hintertür - Kritik am neuen Hochschulgesetz in Bayern",
+      "Modellrechnung CHE/ Interview Ziegele",
+      "Campus & Karriere 10.04.2013, komplette Sendung",
+      "Das Loch im Orion",
+      "Doch keine Giftstoffe im Bubble Tea - Modegetränk enthält nach neuen Analysen aber oft ...",
+      "Sicherer Organtransport - Maschine aus Oxford hält Spenderleber außerhalb des Körpers am Leben",
+      "Seeigel im Stresstest - Die Tiere können sich überraschend schnell an die Ozeanversauerung anpassen",
+      "Tierische Navigationskünstler - Monarchfalter finden auch ohne innere Karte ihr Ziel",
+      "Wie orientieren sich Monarchfalter?",
+      "Forschung aktuell 09.04.2013, komplette Sendung",
+      "Serie: Doppelabi - Prüfungsstress"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dradio.de/dlf/sendungen/dlfpodcast/665956/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4081_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4081_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4081,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4081_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4081_5_1.png",
+    "author":"",
+    "title":"Deutschlandradio Logo",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4081_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Bildung, Wissenschaft",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Deutschlandfunk - Wissenschaft und Bildung",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/dlfwissbildung.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4081_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4081_5.jpeg",
+    "subdomain":"dlfwissbildung",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463270,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1657_de8f3ff5.mp3",
+        "idBroadcast":4081,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

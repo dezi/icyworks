@@ -1,0 +1,238 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.meine-neue-welle.de/dnw_128.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"die neue welle",
+    "subDomaine":"dieneuewelle",
+    "relayDisabled":false,
+    "rank":120,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Der beste Musikmix aus 4 Jahrzehnten!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1528_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1528_3_1.png",
+    "longitude":8.38583,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Der beste Musikmix aus 4 Jahrzehnten!",
+    "metaDataUrl":"http://stream.meine-neue-welle.de/dnw_128.mp3",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.00472,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.meine-neue-welle.de/dnw_128.mp3",
+    "displaySubDomaine":"dieneuewelle",
+    "recentTitles":
+    [
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - NEW ORDER - BLUE MONDAY - Der Vielfalt Feierabend mit Kevin Gerwin",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - THE RASMUS - IN THE SHADOWS - Der Vielfalt Feierabend mit Kevin Gerwin",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - GLORIA GAYNOR - I WILL SURVIVE - Der Vielfalt Feierabend mit Kevin Gerwin",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - MICHAEL JACKSON - BLACK OR WHITE - Der Vielfalt Feierabend mit Kevin Gerwin",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - U2 - I STILL HAVEN\'T FOUND WHAT I\'M LOOKING FOR - Der Vielfalt Feierabend mit Kevin Gerwin",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - Aktuell",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - MIKE & THE MECHANICS - ALL I NEED IS A MIRACLE - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - QUEEN - RADIO GA GA - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - NO DOUBT/GWEN STEFANI - DON\'T SPEAK - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - GENESIS - LAND OF CONFUSION - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - RIHANNA - DIAMONDS - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - SUZANNE VEGA - LUKA - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - AC/DC - HELLS BELLS - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - KERI HILSON - I LIKE - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - DIRE STRAITS - SULTANS OF SWING - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - ACE OF BASE - ALL THAT SHE WANTS - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - FALCO - DER KOMMISSAR - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - URIAH HEEP - LADY IN BLACK - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - ONE REPUBLIC - ALL THE RIGHT MOVES - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - BUGGLES - VIDEO KILLED THE RADIO STAR - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - KATE YANAI - SUMMER DREAMING (BACARDI FEELING) - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - HAROLD FALTERMEYER - AXEL F. - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - THE SCRIPT - HALL OF FAME - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - GUNS N\' ROSES - SWEET CHILD O\' MINE - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - U2 - WITH OR WITHOUT YOU - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - KT TUNSTALL - SUDDENLY I SEE - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - BACHMAN-TURNER OVERDRIVE - YOU AIN\'T SEEN NOTHING YET - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - ERIC CLAPTON - LAYLA (UNPLUGGED) - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - FRANCE GALL - ELLA ELLE L\'A - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - A-HA - SUMMER MOVED ON - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - RIO REISER - KÖNIG VON DEUTSCHLAND - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - MICHAEL JACKSON - HEAL THE WORLD - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - MIKE OLDFIELD/MAGGIE REILLY - MOONLIGHT SHADOW - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - PINK - TRY - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - SHANNON - LET THE MUSIC PLAY - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - MARC COHN - WALKING IN MEMPHIS - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - GENESIS - MAMA (edit) - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - NICKELBACK - ROCKSTAR - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - GERRY RAFFERTY - BAKER STREET - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - MR. BIG - TO BE WITH YOU - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - NENA - IRGENDWIE",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - EROS RAMAZOTTI - PIU\' BELLA COSA - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - SUPERTRAMP - GIVE A LITTLE BIT - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - TINA TURNER - GOLDENEYE - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - SURVIVOR - BURNING HEART - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - EMELI SANDE - READ ALL ABOUT IT (PT. III) - Der Mehr Musik Arbeitstag mit Eva",
+      "die neue welle - Der beste Musikmix aus 4 Jahrzehnten! - TEARS FOR FEARS - SHOUT - Der Mehr Musik Arbeitstag mit Eva"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"http://static.radio.de/images/broadcasts/1528_2.png",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.meine-neue-welle.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1528_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1528_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1528,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1528_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1528_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1528_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Classic Rock, Pop",
+      "_city":"Karlsruhe",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Die Neue Welle",
+    "picture3Url":"http://static.radio.de/images/broadcasts/1528_3.png",
+    "streamUrl":"http://stream.meine-neue-welle.de/dnw_128.mp3",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":true,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1528_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":true,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1528_5.jpeg",
+    "subdomain":"dieneuewelle",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":240,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.meine-neue-welle.de/dnw_128.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.meine-neue-welle.de/dnw_128.mp3",
+        "idBroadcast":1528,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://gffstream.ic.llnwd.net/stream/gffstream_w11a",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://gffstream.ic.llnwd.net/stream/gffstream_w11b",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Bayern 2, Bayern Zwei, Reportagen ",
+    "subDomaine":"bayern2",
+    "relayDisabled":false,
+    "rank":116,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Bayern 2 – Grenzenlos hören. Reportagen, Hörspiele auf höchstem Niveau, Features renommierter Autoren und Literatur als Hörgenuss. In unseren Magazinen informieren wir aktuell und umfassend über alle wichtigen Ereignisse, wir beleuchten deren Hintergründe und Ursachen und helfen unserem Publikum, schwierige Zusammenhänge in einer komplexen Welt zu verstehen.\r\n      		\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2246_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2246_3_1.png",
+    "longitude":11.57549,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2246_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Bayern 2 – Grenzenlos hören. Reportagen, Hörspiele auf höchstem Niveau, Features renommierter Autoren und Literatur als Hörgenuss.\r\n",
+    "metaDataUrl":"http://gffstream.ic.llnwd.net/stream/gffstream_w11a",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":48.13743,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://streams.br-online.de/bayern2_2.m3u",
+    "displaySubDomaine":"bayern2",
+    "recentTitles":
+    [
+      "#",
+      "Newsletter zum Programm von morgen: www.bayern2.de",
+      "Sendungen zum Nachhören - Podcasts unter www.bayern2.de",
+      "Magazine, Reportagen, Gespräche, Hörspiele - das ist Bayern 2",
+      "radioWissen am Nachmittag - mehr unter www.bayern2.de",
+      "Bayern 2 - Playlisten unter www.bayern2.de",
+      "Bayern 2 - Gespräche, Menschen, Meinungen, Hintergründe",
+      "+++ Karlsruhe erlaubt Anti-Terror-Datei mit Einschränkungen",
+      "+++ Achtstöckiges Gebäude mit Textilfabrik in Bangladesch eingestürzt",
+      "Ashanthi - Sandawathuzen",
+      "Breitengrad - mehr unter www.bayern2.de",
+      "Ranidu Lankage - Ahankare Nagara",
+      "Rambari - Lahiru Perera",
+      "Breitengrad - Sri Lankas zweites Gesicht",
+      "Gespräch mit Cornelia Zetzsche",
+      "+++ Achtstöckigen Gebäude mit Textilfabrik in Bangladesch eingestürzt",
+      "Heimat weltweit - regionalZeit unter www.bayern2.de",
+      "Bayern 2 - regionalZeit",
+      "Spider Murphy Gang - Unterm Kastanienbaum",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:56 Uhr",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:53 Uhr",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:50 Uhr",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:48 Uhr",
+      "Stefan Dettl - Bamba",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:44 Uhr",
+      "Babyleiche 2 - angebliche Angehörige",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:40 Uhr",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:36 Uhr",
+      "Konstantin Wecker - So a saudummer dog",
+      "Sie hören das Regionalprogramm von Bayern 2 um 13:32 Uhr",
+      "I Muvrini - Li Dà",
+      "radioWelt - mehr unter www.bayern2.de",
+      "Arlo Guthrie - Darkest hour",
+      "Diskutieren Sie mit unter 0800 - 94 95 95 5 gebührenfrei",
+      "Notizbuch - mehr unter www.bayern2.de",
+      "Charles Pasi - Old lady Paris",
+      "Ratgeber Hundenase - Immer der richtige Riecher",
+      "Anajo - Stadt der Frisuren",
+      "Service - Haare färben",
+      "k.d. lang and the Siss Boom Bang - Sing it Loud",
+      "Service - Vom Umgang mit Lärmschäden",
+      "Malia - I believe in roses",
+      "Gespräch mit Parfumeur Mark Buxton"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.bayern2.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2246_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2246_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2246,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2246_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2246_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2246_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Jazz, Volksmusik",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Bayern 2",
+    "picture3Url":"",
+    "streamUrl":"http://streams.br-online.de/bayern2_2.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2246_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2246_5.jpeg",
+    "subdomain":"bayern2",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458701,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://gffstream.ic.llnwd.net/stream/gffstream_w11a",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://gffstream.ic.llnwd.net/stream/gffstream_w11a",
+        "idBroadcast":2246,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":2458702,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://gffstream.ic.llnwd.net/stream/gffstream_w11b",
+        "idBroadcast":2246,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

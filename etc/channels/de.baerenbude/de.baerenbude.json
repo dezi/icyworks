@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704405",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Kuschelbären brauchen keinen neuen Babysitter (20.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704391",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363939364/radio/baerenbude/wdr5_kuschelbaeren_20130418_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Sauwetter (18.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704392",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363939520/radio/baerenbude/wdr5_kuschelbaeren_20130416_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Kleine Störung (16.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704393",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363700886/radio/baerenbude/wdr5_kuschelbaeren_20130413_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Kochen (13.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704394",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363700729/radio/baerenbude/wdr5_kuschelbaeren_20130411_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Krimskrams (11.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703076",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363701047/radio/baerenbude/wdr5_kuschelbaeren_20130409_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Frischlinge (08.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703077",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363180833/radio/baerenbude/wdr5_kuschelbaeren_20130406_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Schlafmütze (06.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703078",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363180678/radio/baerenbude/wdr5_kuschelbaeren_20130404_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Blumenduft (04.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703079",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363180523/radio/baerenbude/wdr5_kuschelbaeren_20130402_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Bauernschläue (02.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703080",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363180989/radio/baerenbude/wdr5_kuschelbaeren_20130401_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Das verlorene Ei (01.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703081",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362565502/radio/baerenbude/wdr5_kuschelbaeren_20130330_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Osterfeuer (30.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703082",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362586452/radio/baerenbude/wdr5_kuschelbaeren_20130329_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Kuschelbären im Dunkeln (29.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703083",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362127729/radio/baerenbude/wdr5_kuschelbaeren_20130328_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Reden ist Silber, Schweigen ist Gold (28.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703084",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362123921/radio/baerenbude/wdr5_kuschelbaeren_20130326_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Wettervorhersage (26.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701464",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361966575/radio/baerenbude/wdr5_kuschelbaeren_20130323_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Nachteulen (23.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701465",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361966933/radio/baerenbude/wdr5_kuschelbaeren_20130321_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Raumschiff (21.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701466",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361966731/radio/baerenbude/wdr5_kuschelbaeren_20130319_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären:Kissenschlacht (19.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699534",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361361705/radio/baerenbude/wdr5_kuschelbaeren_20130316_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Weidenkätzchen (16.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699535",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361361392/radio/baerenbude/wdr5_kuschelbaeren_20130314_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Drehwurm (14.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699536",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361361549/radio/baerenbude/wdr5_kuschelbaeren_20130312_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Markttag (12.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697787",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360311583/radio/baerenbude/wdr5_kuschelbaeren_20130307_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Floh ins Ohr setzen (07.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697788",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360321442/radio/baerenbude/wdr5_kuschelbaeren_20130305_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Frühjahrsputz (05.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695963",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360146270/radio/baerenbude/wdr5_kuschelbaeren_20130302_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Märzbären (02.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695964",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359707520/radio/baerenbude/wdr5_kuschelbaeren_20130228_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Begrüßen (28.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695965",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359707677/radio/baerenbude/wdr5_kuschelbaeren_20130226_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: BB_Kuschelbären: Lieblingsessen (26.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694385",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359549574/radio/baerenbude/wdr5_kuschelbaeren_20130223_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Schneeglöckchen (23.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694386",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359545766/radio/baerenbude/wdr5_kuschelbaeren_20130221_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Kinderkrankheiten (21.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694387",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359549732/radio/baerenbude/wdr5_kuschelbaeren_20130219_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Fundbüro (19.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692478",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358932284/radio/baerenbude/wdr5_kuschelbaeren_20130216_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Katze aus dem Sack lassen (16.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692479",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358498426/radio/baerenbude/wdr5_kuschelbaeren_20130214_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Stolz wie Oskar (14.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692480",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358497206/radio/baerenbude/wdr5_kuschelbaeren_20130212_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Hupkonzert (12.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690514",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358334962/radio/baerenbude/wdr5_kuschelbaeren_20130209_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Winternasen (09.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690515",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357895167/radio/baerenbude/wdr5_kuschelbaeren_20130207_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Weiberfastnacht 130207",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690516",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357895011/radio/baerenbude/wdr5_kuschelbaeren_20130205_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Ich will keinen Hamster, ich will einen Affen (05.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688601",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357738734/radio/baerenbude/wdr5_kuschelbaeren_20130202_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Rabeneltern (02.02.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688602",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357745271/radio/baerenbude/wdr5_kuschelbaeren_20130131_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Schneebesen (31.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688603",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357745115/radio/baerenbude/wdr5_kuschelbaeren_20130129_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Dornröschenschlaf 130129",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686779",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123754/radio/baerenbude/wdr5_kuschelbaeren_20130126_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Bauklötze staunen (26.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686780",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130124_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Gefrierfach (24.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686781",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130122_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Mogeln, schummeln - Mogelpackung (22.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684973",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130119_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Tanzen (19.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684974",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130117_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Sich einen Reim darauf machen (17.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684975",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130115_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Durch dick und dünn (15.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682965",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130112_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Roboter 12.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682966",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130110_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Ich sehe was, was du nicht siehst (10.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682967",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130108_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Warm anziehen (08.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681299",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130105_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Frau Holle (05.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681300",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130103_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Gute Vorsätze (03.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681301",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130101_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Schneeflocken (01.01.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679820",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354717879/radio/baerenbude/wdr5_kuschelbaeren_20121229_1930.mp3",
+      "testResult":null,
+      "name":"WDR 5 Bärenbude: Kuschelbären: Cowboy spielen (29.12.2012)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"WDR 5 - Bärenbude",
+    "subDomaine":"baerenbude",
+    "relayDisabled":false,
+    "rank":987,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Johannes und Stachel - die neuesten Abenteuer der bärenstarken Bärenbande für die ganz Kleinen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3750_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3750_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Johannes und Stachel - die neuesten Abenteuer der bärenstarken Bärenbande für die ganz Kleinen.",
+    "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Kuschelbären brauchen keinen neuen Babysitter (20.04.2013)",
+        "episode":0,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "published":"Sat, 20 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1464086
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Sauwetter (18.04.2013)",
+        "episode":1,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363939364/radio/baerenbude/wdr5_kuschelbaeren_20130418_1930.mp3",
+        "published":"Thu, 18 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1277022
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Kleine Störung (16.04.2013)",
+        "episode":2,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363939520/radio/baerenbude/wdr5_kuschelbaeren_20130416_1930.mp3",
+        "published":"Tue, 16 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1633544
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Kochen (13.04.2013)",
+        "episode":3,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363700886/radio/baerenbude/wdr5_kuschelbaeren_20130413_1930.mp3",
+        "published":"Sat, 13 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":2041000
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Krimskrams (11.04.2013)",
+        "episode":4,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363700729/radio/baerenbude/wdr5_kuschelbaeren_20130411_1930.mp3",
+        "published":"Thu, 11 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1741072
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Frischlinge (08.04.2013)",
+        "episode":5,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363701047/radio/baerenbude/wdr5_kuschelbaeren_20130409_1930.mp3",
+        "published":"Tue, 09 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1497298
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Schlafmütze (06.04.2013)",
+        "episode":6,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363180833/radio/baerenbude/wdr5_kuschelbaeren_20130406_1930.mp3",
+        "published":"Sat, 06 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1470466
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Blumenduft (04.04.2013)",
+        "episode":7,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363180678/radio/baerenbude/wdr5_kuschelbaeren_20130404_1930.mp3",
+        "published":"Thu, 04 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1569680
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Bauernschläue (02.04.2013)",
+        "episode":8,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363180523/radio/baerenbude/wdr5_kuschelbaeren_20130402_1930.mp3",
+        "published":"Tue, 02 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1747110
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Das verlorene Ei (01.04.2013)",
+        "episode":9,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363180989/radio/baerenbude/wdr5_kuschelbaeren_20130401_1930.mp3",
+        "published":"Mon, 01 Apr 2013 19:30:00 +0200",
+        "bitRate":64,
+        "contentLength":1842172
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Osterfeuer (30.03.2013)",
+        "episode":10,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362565502/radio/baerenbude/wdr5_kuschelbaeren_20130330_1930.mp3",
+        "published":"Sat, 30 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1811168
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Kuschelbären im Dunkeln (29.03.2013)",
+        "episode":11,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362586452/radio/baerenbude/wdr5_kuschelbaeren_20130329_1930.mp3",
+        "published":"Fri, 29 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1663514
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Reden ist Silber, Schweigen ist Gold (28.03.2013)",
+        "episode":12,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362127729/radio/baerenbude/wdr5_kuschelbaeren_20130328_1930.mp3",
+        "published":"Thu, 28 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1397092
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Wettervorhersage (26.03.2013)",
+        "episode":13,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362123921/radio/baerenbude/wdr5_kuschelbaeren_20130326_1930.mp3",
+        "published":"Tue, 26 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1948044
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Nachteulen (23.03.2013)",
+        "episode":14,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361966575/radio/baerenbude/wdr5_kuschelbaeren_20130323_1930.mp3",
+        "published":"Sat, 23 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1650176
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Raumschiff (21.03.2013)",
+        "episode":15,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361966933/radio/baerenbude/wdr5_kuschelbaeren_20130321_1930.mp3",
+        "published":"Thu, 21 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1840912
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären:Kissenschlacht (19.03.2013)",
+        "episode":16,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361966731/radio/baerenbude/wdr5_kuschelbaeren_20130319_1930.mp3",
+        "published":"Tue, 19 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1367302
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Weidenkätzchen (16.03.2013)",
+        "episode":17,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361361705/radio/baerenbude/wdr5_kuschelbaeren_20130316_1930.mp3",
+        "published":"Sat, 16 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1614408
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Drehwurm (14.03.2013)",
+        "episode":18,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361361392/radio/baerenbude/wdr5_kuschelbaeren_20130314_1930.mp3",
+        "published":"Thu, 14 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1745228
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Markttag (12.03.2013)",
+        "episode":19,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361361549/radio/baerenbude/wdr5_kuschelbaeren_20130312_1930.mp3",
+        "published":"Tue, 12 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1724844
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Floh ins Ohr setzen (07.03.2013)",
+        "episode":20,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360311583/radio/baerenbude/wdr5_kuschelbaeren_20130307_1930.mp3",
+        "published":"Thu, 07 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1409330
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Frühjahrsputz (05.03.2013)",
+        "episode":21,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360321442/radio/baerenbude/wdr5_kuschelbaeren_20130305_1930.mp3",
+        "published":"Tue, 05 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":2039142
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Märzbären (02.03.2013)",
+        "episode":22,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360146270/radio/baerenbude/wdr5_kuschelbaeren_20130302_1930.mp3",
+        "published":"Sat, 02 Mar 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1602126
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Begrüßen (28.02.2013)",
+        "episode":23,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359707520/radio/baerenbude/wdr5_kuschelbaeren_20130228_1930.mp3",
+        "published":"Thu, 28 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1322364
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: BB_Kuschelbären: Lieblingsessen (26.02.2013)",
+        "episode":24,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359707677/radio/baerenbude/wdr5_kuschelbaeren_20130226_1930.mp3",
+        "published":"Tue, 26 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1450510
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Schneeglöckchen (23.02.2013)",
+        "episode":25,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359549574/radio/baerenbude/wdr5_kuschelbaeren_20130223_1930.mp3",
+        "published":"Sat, 23 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1388730
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Kinderkrankheiten (21.02.2013)",
+        "episode":26,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359545766/radio/baerenbude/wdr5_kuschelbaeren_20130221_1930.mp3",
+        "published":"Thu, 21 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1414526
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Fundbüro (19.02.2013)",
+        "episode":27,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359549732/radio/baerenbude/wdr5_kuschelbaeren_20130219_1930.mp3",
+        "published":"Tue, 19 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1812204
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Katze aus dem Sack lassen (16.02.2013)",
+        "episode":28,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358932284/radio/baerenbude/wdr5_kuschelbaeren_20130216_1930.mp3",
+        "published":"Sat, 16 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1542878
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Stolz wie Oskar (14.02.2013)",
+        "episode":29,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358498426/radio/baerenbude/wdr5_kuschelbaeren_20130214_1930.mp3",
+        "published":"Thu, 14 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1485242
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Hupkonzert (12.02.2013)",
+        "episode":30,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358497206/radio/baerenbude/wdr5_kuschelbaeren_20130212_1930.mp3",
+        "published":"Tue, 12 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1764992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Winternasen (09.02.2013)",
+        "episode":31,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358334962/radio/baerenbude/wdr5_kuschelbaeren_20130209_1930.mp3",
+        "published":"Sat, 09 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1283266
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Weiberfastnacht 130207",
+        "episode":32,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357895167/radio/baerenbude/wdr5_kuschelbaeren_20130207_1930.mp3",
+        "published":"Thu, 07 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1637486
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Ich will keinen Hamster, ich will einen Affen (05.02.2013)",
+        "episode":33,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357895011/radio/baerenbude/wdr5_kuschelbaeren_20130205_1930.mp3",
+        "published":"Tue, 05 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1656694
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Rabeneltern (02.02.2013)",
+        "episode":34,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357738734/radio/baerenbude/wdr5_kuschelbaeren_20130202_1930.mp3",
+        "published":"Sat, 02 Feb 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1290338
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Schneebesen (31.01.2013)",
+        "episode":35,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357745271/radio/baerenbude/wdr5_kuschelbaeren_20130131_1930.mp3",
+        "published":"Thu, 31 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1641650
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Dornröschenschlaf 130129",
+        "episode":36,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357745115/radio/baerenbude/wdr5_kuschelbaeren_20130129_1930.mp3",
+        "published":"Tue, 29 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1734418
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Bauklötze staunen (26.01.2013)",
+        "episode":37,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123754/radio/baerenbude/wdr5_kuschelbaeren_20130126_1930.mp3",
+        "published":"Sat, 26 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1816174
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Gefrierfach (24.01.2013)",
+        "episode":38,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130124_1930.mp3",
+        "published":"Thu, 24 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1985058
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Mogeln, schummeln - Mogelpackung (22.01.2013)",
+        "episode":39,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130122_1930.mp3",
+        "published":"Tue, 22 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1952236
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Tanzen (19.01.2013)",
+        "episode":40,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130119_1930.mp3",
+        "published":"Sat, 19 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1883960
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Sich einen Reim darauf machen (17.01.2013)",
+        "episode":41,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130117_1930.mp3",
+        "published":"Thu, 17 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1534566
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Durch dick und dünn (15.01.2013)",
+        "episode":42,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130115_1930.mp3",
+        "published":"Tue, 15 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1297010
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Roboter 12.01.2013",
+        "episode":43,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130112_1930.mp3",
+        "published":"Sat, 12 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1737942
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Ich sehe was, was du nicht siehst (10.01.2013)",
+        "episode":44,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130110_1930.mp3",
+        "published":"Thu, 10 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1651262
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Warm anziehen (08.01.2013)",
+        "episode":45,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130108_1930.mp3",
+        "published":"Tue, 08 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1259350
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Frau Holle (05.01.2013)",
+        "episode":46,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130105_1930.mp3",
+        "published":"Sat, 05 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1560320
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Gute Vorsätze (03.01.2013)",
+        "episode":47,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130103_1930.mp3",
+        "published":"Thu, 03 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1539110
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Schneeflocken (01.01.2013)",
+        "episode":48,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123753/radio/baerenbude/wdr5_kuschelbaeren_20130101_1930.mp3",
+        "published":"Tue, 01 Jan 2013 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1680134
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Bärenbude: Kuschelbären: Cowboy spielen (29.12.2012)",
+        "episode":49,
+        "description":"© WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354717879/radio/baerenbude/wdr5_kuschelbaeren_20121229_1930.mp3",
+        "published":"Sat, 29 Dec 2012 19:30:00 +0100",
+        "bitRate":64,
+        "contentLength":1739416
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast.wdr.de/radio/baerenbude.xml",
+    "displaySubDomaine":"baerenbude",
+    "recentTitles":
+    [
+      "WDR 5 Bärenbude: Kuschelbären: Kuschelbären brauchen keinen neuen Babysitter (20.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Sauwetter (18.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Kleine Störung (16.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Kochen (13.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Krimskrams (11.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Frischlinge (08.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Schlafmütze (06.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Blumenduft (04.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Bauernschläue (02.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Das verlorene Ei (01.04.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Osterfeuer (30.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Kuschelbären im Dunkeln (29.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Reden ist Silber, Schweigen ist Gold (28.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Wettervorhersage (26.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Nachteulen (23.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Raumschiff (21.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären:Kissenschlacht (19.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Weidenkätzchen (16.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Drehwurm (14.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Markttag (12.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Floh ins Ohr setzen (07.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Frühjahrsputz (05.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Märzbären (02.03.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Begrüßen (28.02.2013)",
+      "WDR 5 Bärenbude: BB_Kuschelbären: Lieblingsessen (26.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Schneeglöckchen (23.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Kinderkrankheiten (21.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Fundbüro (19.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Katze aus dem Sack lassen (16.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Stolz wie Oskar (14.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Hupkonzert (12.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Winternasen (09.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Weiberfastnacht 130207",
+      "WDR 5 Bärenbude: Kuschelbären: Ich will keinen Hamster, ich will einen Affen (05.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Rabeneltern (02.02.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Schneebesen (31.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Dornröschenschlaf 130129",
+      "WDR 5 Bärenbude: Kuschelbären: Bauklötze staunen (26.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Gefrierfach (24.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Mogeln, schummeln - Mogelpackung (22.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Tanzen (19.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Sich einen Reim darauf machen (17.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Durch dick und dünn (15.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Roboter 12.01.2013",
+      "WDR 5 Bärenbude: Kuschelbären: Ich sehe was, was du nicht siehst (10.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Warm anziehen (08.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Frau Holle (05.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Gute Vorsätze (03.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Schneeflocken (01.01.2013)",
+      "WDR 5 Bärenbude: Kuschelbären: Cowboy spielen (29.12.2012)"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Johannes und Stachel - die neuesten Abenteuer der bärenstarken Bärenbande für die ganz Kleinen. ",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.wdr.de/radio/home/podcasts/channelausspielung.phtml?channel=baerenbude",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3750_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3750_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3750,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3750_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3750_5_1.png",
+    "author":"",
+    "title":"Kinderradio im WDR 5-Radio zum Mitnehmen",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3750_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Hörspiel, Kinder",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"WDR 5 - Bärenbude",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/baerenbude.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3750_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3750_5.jpeg",
+    "subdomain":"baerenbude",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463827,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364295969/radio/baerenbude/wdr5_kuschelbaeren_20130420_1930.mp3",
+        "idBroadcast":3750,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704316",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 14.04.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704317",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365391068/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130407_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 07.04.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704318",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364467714/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130401_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 01.04.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704319",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364644938/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130331_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 31.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704320",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364550444/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130329_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 29.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701470",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364124559/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130324_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 24.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699809",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363351218/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130317_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 17.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699539",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362975386/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130310_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 10.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696322",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1362136728/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130303_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 03.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694391",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361629096/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130224_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 24.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692727",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1361118558/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130217_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 17.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690770",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360423979/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130210_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 10.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690518",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1360327324/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130208_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 08.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688866",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359910869/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130203_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 03.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687093",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1359305394/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130127_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 27.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686793",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1358741976/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130120_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 20.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683314",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357997335/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130113_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 13.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681575",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357297323/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130106_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 06.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681310",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1357123980/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130101_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 01.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681311",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356956523/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121231_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 31.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17680129",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356878643/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121230_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 30.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679839",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356531628/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121226_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 26.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679840",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356495352/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121225_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 25.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678772",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1356262119/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121223_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 23.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678485",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1355717864/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121216_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 16.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17674350",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1355026557/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121209_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 09.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672458",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1354508147/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121202_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 02.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17670342",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1353989799/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121125_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 25.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667341",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1353248871/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121118_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 18.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17664845",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1352458281/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121111_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 11.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17657474",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1352089029/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121104_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 04.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17654273",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1351953899/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121102_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 02.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17648860",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1351780061/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121101_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 01.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17638484",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1351426695/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121028_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 28.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17611905",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1350727536/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121021_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 21.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17587779",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1350135965/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121014_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 14.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17568412",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1349691261/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121007_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 07.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17548770",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1349266220/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121003_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 03.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17539226",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1349005215/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120930_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 30.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17523178",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1348542930/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120923_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 23.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17497003",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1347851835/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120916_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 16.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17373413",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1347010657/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120909_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 09.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17078285",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1346404722/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120902_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 02.09.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16845569",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1345815026/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120826_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 26.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16607732",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1345208646/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120819_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 19.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16558151",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1344781625/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120812_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 12.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16545293",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1344175215/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120805_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 05.08.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16533776",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1343637812/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120730_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 30.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16532919",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1343618202/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120729_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 29.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"16515281",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1343013437/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120722_0730.mp3",
+      "testResult":null,
+      "name":"WDR 5 Erlebte Geschichten: Sendung vom 22.07.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"WDR 5 - Erlebte Geschichten",
+    "subDomaine":"geschichten",
+    "relayDisabled":false,
+    "rank":2124,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Erlebte Geschichten - das sind gut 20 Minuten lang die persönlichen Schilderungen von Menschen, die mindestens 65 Jahre alt sind und detailgetreu, dicht und anekdotenreich wichtige Abschnitte ihres Lebens erzählen. Nichts ist so lebendig wie die gesprochene Sprache und auch nichts so authentisch.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3718_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3718_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Persönlichen Schilderungen von Menschen, die mindestens 65 Jahre alt sind und detailgetreu, dicht und anekdotenreich aus ihrem Lebens erzählen.",
+    "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 14.04.2013",
+        "episode":0,
+        "description":"Zeitzeuge: Emil MangelsdorffHintergrund: Jazz-Musiker, gerade 88 Jahre alt geworden, aus Liebe an der Musik spielt er heute immer noch mit seinem Quartett, übt täglich drei StundenAutorin: Ulrike Knapp © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "published":"Sun, 14 Apr 2013 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11368792
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 07.04.2013",
+        "episode":1,
+        "description":"Zeitzeugin: Veronika ZimmermannHintergrund: blinde Gärtnerin, blau ist ihre LieblingsfarbeAutorin: Monika Salchert © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365391068/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130407_0730.mp3",
+        "published":"Sun, 07 Apr 2013 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10993594
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 01.04.2013",
+        "episode":2,
+        "description":"Von Ingo Zander/In welchem Jahr Peggy Parnass geboren wurde, sagt sie nicht. Sicher ist nur, dass es der 11. Oktober war; und sicher ist auch, dass sie 1939 mit ihrem damals vierjährigen Bruder Gady mit einem vom Hamburger Bankhaus Warburg organisierten Kindertransport nach Schweden kam, während ihre Eltern ins Warschauer Ghetto deportiert und später in Treblinka ermordet wurden. Peggy Parnass, die Schwedin, absolvierte in den 60er Jahren eine Blitz-Ausbildung als Schauspielerin und übernahm Rollen in vielen Fernseh- und Spielfilmen, unter anderem in \"Stahlnetz: Ein Toter zu viel\". Bekannt geworden ist sie besonders in den 70er Jahren, als sie an zahlreichen Demonstrationen und Protestbewegungen aktiv teilnahm, als Gerichtsreporterin der Zeitschrift \"konkret\". Ihr Buch \"Prozesse 1970 - 1978\" fand viel Anklang, bis 1994 brachte es der Band auf 16 Auflagen. Heute mischt sich Peggy Parnass mit Essays immer wieder in die aktuelle gesellschaftliche und politische Diskussion ein./Redaktion Mark vom Hofe/ © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364467714/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130401_0730.mp3",
+        "published":"Mon, 01 Apr 2013 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11423248
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 31.03.2013",
+        "episode":3,
+        "description":"Zeitzeuge: Holger CzukayHintergrund: Schüler von Stockhausen und Gründer der Musikgruppe \"Can\", wird 75 Jahre alt Autor: Albert Wiedenhöfer © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364644938/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130331_0730.mp3",
+        "published":"Sun, 31 Mar 2013 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11514684
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 29.03.2013",
+        "episode":4,
+        "description":"Zeitzeugin: Gudrun Müller Hintergrund: war fast ein Leben unfreiwillig in der Colonia Dignidad in Chile, erst als Paul Schäfer verschwand, gelang ihr und ihrem langjährigen Freund, ohne dass dies bekannt sein durfte, die FluchtAutorin: Andrea Lieblang © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364550444/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130329_0730.mp3",
+        "published":"Fri, 29 Mar 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10295612
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 24.03.2013",
+        "episode":5,
+        "description":"Zeitzeugin: Marika KiliusHintergrund: Eiskunstläuferin, wird 70, gewann alles außer Gold bei OlympiaAutor: Burghard Laugwitz © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364124559/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130324_0730.mp3",
+        "published":"Sun, 24 Mar 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10499198
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 17.03.2013",
+        "episode":6,
+        "description":"12 Jahre Starparade/Rainer Holbe, Moderator und Buchautor/Von Doris Netenjakob/\"Starparade\" - mit dieser Musikshow des ZDF, zum ersten Mal Mitte März 1968 ausgestrahlt, verbinden sich Namen wie Wencke Myrhe, Vico Torriani, Gitte, Roy Black, Mireille Mathieu und viele, viele andere. Ein Name aber blieb in den 12 Jahren immer derselbe: Rainer Holbe. Er war der Moderator der Starparade. Holbe, 1940 im heutigen Tschechien geboren, war Journalist - und wollte es eigentlich auch bleiben. Aber als ein lustiger Zufall ihn auf die Bühne katapultierte, stellte sich sofort heraus, dass das Publikum ihn mochte, und so wurde er zu einem der beliebtesten Unterhaltungsmoderatoren des Fernsehens. Redaktion Mark vom Hofe © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363351218/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130317_0730.mp3",
+        "published":"Sun, 17 Mar 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11134776
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 10.03.2013",
+        "episode":7,
+        "description":"Zeitzeuge: Paul KuhnHintergrund: Sänger, Pianist, Entertainer, zu seinem 85. JubiläumAutorin: Christiane Raasch © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362975386/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130310_0730.mp3",
+        "published":"Sun, 10 Mar 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11577028
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 03.03.2013",
+        "episode":8,
+        "description":"Von Wolfgang Bittner/ \"Deutsche Arbeiter! Die SPD will euch eure Villen im Tessin wegnehmen\", hieß es ironisch-satirisch und provokativ auf einem seiner Plakate, mit dem er bekannt, wenn nicht gar berühmt wurde. Oder ein anderes Beispiel: Unter dem vom Leben gezeichneten Gesicht der Mutter von Dürer stand: \"Würden Sie dieser Frau ein Zimmer vermieten?\" - Klaus Staeck, gerade 75 Jahre alt geworden, mit 18 aus der DDR gekommen, Jurastudium in Heidelberg, skizziert seit 1960 Plakate, Postkarten und Flugblätter. Seit 1972 wurde er ständig in Prozesse verwickelt, und 1976 kam es zum ersten großen Eklat anlässlich einer Ausstellung in London, als sich deutsche Politiker über Staecks Werke beim Außenminister beschwerten. Damals setzte sich Heinrich Böll für Staeck und die Freiheit der Kunst ein - zwei Jahre später rissen Bundestagsabgeordnete von CDU und CSU während einer Staeck-Ausstellung Plakate von der Wand und trampelten auf ihnen herum - nach Staecks Ansicht \"die größte PR-Aktion, die die Unionsparteien mit ihrem Bonner Bildersturm jemals für mich gestartet haben.\" /Redaktion Mark vom Hofe/ © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1362136728/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130303_0730.mp3",
+        "published":"Sun, 03 Mar 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11652234
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 24.02.2013",
+        "episode":9,
+        "description":"Zeitzeuge: Franz HohlerHintergrund: Schweizer Schriftsteller und Kabarettist, wird 70 Jahre altAutor: Jochanan Shelliem © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361629096/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130224_0730.mp3",
+        "published":"Sun, 24 Feb 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11247988
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 17.02.2013",
+        "episode":10,
+        "description":"Zeitzeugin: Irmgard von zur MühlenHintergrund: Dokumentarfilmerin, verfügt mit ihrem Mann über das größte private DokumentarfilmarchivAutor: Ulrich Kothe © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1361118558/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130217_0730.mp3",
+        "published":"Sun, 17 Feb 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11514296
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 10.02.2013",
+        "episode":11,
+        "description":"Zeitzeugin: Erika RabauHintergrund: Fotografin der Berlinale, trägt immer Kamera und schwarze Lederjacke mit sich Autorin: Petra Müller © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360423979/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130210_0730.mp3",
+        "published":"Sun, 10 Feb 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10423716
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 08.02.2013",
+        "episode":12,
+        "description":"Von Burkhard Laugwitz/Samuel Adler, der in vier Wochen 85 Jahre alt wird, stammt aus einer Musikerfamilie. Sein Vater Hugo Chaim war Kantor an der Hauptsynagoge in Mannheim, Mutter Selma sang und spielte Klavier. Sohn Samuel begann bereits mit sieben Jahren zu komponieren - allerdings Musik, die seinem Vater nicht gefiel, so dass dem Filius eine strenge Ausbildung an Instrumenten auferlegt wurde. 1939 floh die Familie in die USA - Sohn Samuel studierte Musik bei verschiedenen Wissenschaftlern, kam in den 1950er Jahren als Soldat zurück nach Deutschland und gründete in Stuttgart nach seinem Militärdienst das Seventh Army Symphony Orchestra, das zahlreiche Konzerte gab. Nach der Rückkehr in die Staaten wirkte Sam Adler als Komponist, Dirigent und Hochschullehrer; er lebt in Pennsylvania, kommt aber hin und wieder in seine alte badische Heimat./ Redaktion Mark vom Hofe/ © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1360327324/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130208_0730.mp3",
+        "published":"Fri, 08 Feb 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10385892
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 03.02.2013",
+        "episode":13,
+        "description":"Zeitzeuge: Jan HarlanHintergrund: war 30 Jahre \"ausführender Produzent\" bei seinem Schwager Stanley KubrickAutor: Rainer Praetorius © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359910869/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130203_0730.mp3",
+        "published":"Sun, 03 Feb 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11152332
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 27.01.2013",
+        "episode":14,
+        "description":"Zeitzeuge: Heinrich Schöpe /  Hintergrund: sammelte während des 2. Weltkriegs Flugblätter der Alliierten /  Autor: Ingo Zander © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1359305394/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130127_0730.mp3",
+        "published":"Sun, 27 Jan 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10697634
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 20.01.2013",
+        "episode":15,
+        "description":"Zeitzeugin: Philomena FranzHintergrund: 90jährige Überlebende des Holocaust, geborene Sinti, entkam mit Glück verschiedenen LagernAutorin: Monika Mengel © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1358741976/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130120_0730.mp3",
+        "published":"Sun, 20 Jan 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11723126
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 13.01.2013",
+        "episode":16,
+        "description":"Zeitzeugin: Rita JägerHintergrund: war eines der ersten deutschen Models, als sie mit 16 bei einem Casting-Wettbewerb für ein Pendant von Rita Hayworth 3. wurde und von einem Fotografen angeheuert wurdeAutor: Ingo Zander © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357997335/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130113_0730.mp3",
+        "published":"Sun, 13 Jan 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11139822
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 06.01.2013",
+        "episode":17,
+        "description":"Von Cornelia Beuel/In diesen Tagen wird Otto Köhler 78 Jahre alt. In Schweinfurt geboren, glaubte der spätere Journalist noch zum Ende des Krieges fest an seinen \"Führer\", verdammte all die, die von Befreiung sprachen - und brauchte nach eigenem Bekunden recht lange, ehe er sich mit den Amerikanern und ihrer Literatur anfreundete und feststellte, dass er dem Faschismus aufgesessen war. Die Folge war eine radikale Kehrtwende, befördert auch durch das Studium, in dessen Verlauf sich Köhler beim Sozialistischen Studentenbund engagierte und sich über spitze Kolumnen im Spiegel freute, die die Adenauer-Zeit kritisierten. Otto Köhler wollte auch solche Kolumnen schreiben und schaffte es schließlich, von Rudolf Augstein angestellt zu werden. Heute hat er auch zum \"Spiegel\" eine mehr als kritische Haltung. /Redaktion Mark vom Hofe/ © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357297323/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130106_0730.mp3",
+        "published":"Sun, 06 Jan 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11350092
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 01.01.2013",
+        "episode":18,
+        "description":"Zeitzeugin: Antje Vollmer, Hintergrund: einer der ersten Grünen im Bundestag, langjährige Bundestagsvizepräsidentin, Autorin: Marianne Bäumler © WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1357123980/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130101_0730.mp3",
+        "published":"Tue, 01 Jan 2013 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11547346
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 31.12.2012",
+        "episode":19,
+        "description":"Zeitzeugin: Jutta VulpiusHintergrund: Sopranistin, wird am 31.12. 85 Jahre altAutor: Burghard Laugwitz © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356956523/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121231_0730.mp3",
+        "published":"Mon, 31 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11037458
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 30.12.2012",
+        "episode":20,
+        "description":"Zeitzeuge: Karl BreuerHintergrund: mehrmaliger Welt- und Deutscher Meister im TanzenAutorin: Doris Netenjakob © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356878643/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121230_0730.mp3",
+        "published":"Sun, 30 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11045376
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 26.12.2012",
+        "episode":21,
+        "description":"Zeitzeugin: Vera TenschertHintergrund: Fotografin des Berliner EnsemblesAutor: Ulrich Kothe © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356531628/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121226_0730.mp3",
+        "published":"Wed, 26 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10074812
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 25.12.2012",
+        "episode":22,
+        "description":"Zeitzeugin: Elisabeth SchützHintergrund: war Dienstmädchen bei Bertolt BrechtAutor: Thomas Moser © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356495352/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121225_0730.mp3",
+        "published":"Tue, 25 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11258134
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 23.12.2012",
+        "episode":23,
+        "description":"Zeitzeugin: Helga Lena ReimerHintergrund: wie aus einer 68erin eine evangelische Stiftsfrau und Nonne wirdAutorin: Claudia Klein © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1356262119/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121223_0730.mp3",
+        "published":"Sun, 23 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11218054
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 16.12.2012",
+        "episode":24,
+        "description":"Zeitzeuginnen: Regina und BellaHintergrund: zwei alte Damen, die eigentlich nach Israel wollten, in Berlin hängen blieben und sich seither gegenseitig stützen, beide weit über 80 Jahre altAutorin: Doris Netenjakob © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1355717864/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121216_0730.mp3",
+        "published":"Sun, 16 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10673472
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 09.12.2012",
+        "episode":25,
+        "description":"Zeitzeuge: Paul MaarHintergrund: Kinderbuchautor, erfand den \"Sams\" mit inzwischen sieben Büchern, wird 75 Jahre altAutorin: Sabine Jaeger © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1355026557/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121209_0730.mp3",
+        "published":"Sun, 09 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11151306
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 02.12.2012",
+        "episode":26,
+        "description":"Zeitzeuge: Helmut OpferkuchHintergrund: war der erste offizielle deutsche Nazi-Jäger, später Leiter der Zentralstelle für Nazi-Verbrechen in LudwigsburgAutorin: Silke Kehl © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1354508147/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121202_0730.mp3",
+        "published":"Sun, 02 Dec 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10995372
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 25.11.2012",
+        "episode":27,
+        "description":"Zeitzeugin: Eva SenghaasHintergrund: Soziologie-Professorin, wird an diesem Sonntag 70, Ehefrau des Friedensforschers Dieter SenghaasAutor: Ingo Zander © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1353989799/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121125_0730.mp3",
+        "published":"Sun, 25 Nov 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10966420
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 18.11.2012",
+        "episode":28,
+        "description":"Zeitzeugin: Judith CaroHintergrund: überlebte den Untergang der Patria, mit der sie Europa verlassen hatte nach Palästina. Im Hafen von Haifa explodierte das Schiff. Autor: Jürgen Salm © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1353248871/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121118_0730.mp3",
+        "published":"Sun, 18 Nov 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10970438
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 11.11.2012",
+        "episode":29,
+        "description":"Von Nina Oxenius/Es sind der Stadtteil Praunheim in Frankfurt und der \"Rosa Winkel\", jenes Symbol, mit dem die Nazis in den Konzentrationslagern die Homosexuellen ächteten, die er sich für seinen Namen wählte: Holger Radtke, am 25. November 1942 in Riga geboren, entschied sich dazu, Rosa von Praunheim heißen zu wollen. Mit diesem Namen hat er Erfolg gehabt, als Filmemacher und als Kämpfer für die gesellschaftliche Anerkennung der Homosexuellen - 1971 erschien sein Film \"Nicht der Homosexuelle ist pervers, sondern die Gesellschaft, in der er lebt\". Mit diesem Film in einer Zeit, als der Aufbruch im Lande immer greifbarer wurde, war die Diskussion um gleichgeschlechtliche Liebe eröffnet, begann der öffentliche Kampf erst einmal um Gehör und Anerkennung, später um die Gleichberechtigung./ Redaktion Mark vom Hofe/ © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1352458281/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121111_0730.mp3",
+        "published":"Sun, 11 Nov 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11622336
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 04.11.2012",
+        "episode":30,
+        "description":"Zeitzeuge: Timm Ulrichs Hintergrund: Totalkünstler, stellte sich selbst als Kunstwerk im Glaskasten aus Autorin: Susanne Hagemann  © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1352089029/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121104_0730.mp3",
+        "published":"Sun, 04 Nov 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10993626
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 02.11.2012",
+        "episode":31,
+        "description":"Zeitzeuge: Martin GoldsteinHintergrund: war Dr. Sommer in der \"Bravo\", starb mit 85 vor zwei MonatenAutor: Jürgen Salm © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1351953899/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121102_0730.mp3",
+        "published":"Fri, 02 Nov 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11881138
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 01.11.2012",
+        "episode":32,
+        "description":"Zeitzeugin: Zhou GuangrenHintergrund: in Deutschland geborene Chinesin, Musikwissenschaftlerin, Pianistin, arbeitete mit Maos Frau zusammen, um Kindern Klavierunterricht zu gebenAutorin: Silke Ballweg  © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1351780061/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121101_0730.mp3",
+        "published":"Thu, 01 Nov 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":10938856
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 28.10.2012",
+        "episode":33,
+        "description":"Zeitzeuge: Günter ZintHintergrund: \"Gebrauchsfotograf\", bebilderte Geschichten von Günter Wallraff, war Gründer einer alternativen Zeitung, den St. Paul-Nachrichten, bevor sie zum Pornoblatt wurdenAutorin: Ursula Deutschendorf © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1351426695/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121028_0730.mp3",
+        "published":"Sun, 28 Oct 2012 07:30:00 +0100",
+        "bitRate":64,
+        "contentLength":11437898
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 21.10.2012",
+        "episode":34,
+        "description":"Zeitzeugin: Inge JensHintergrund: erzählt, wie aus ihrer Arbeit an den Briefen der Geschwister Scholl ihr Mut zum Widerstand gegen Raketen in Mutlangen geweckt wurdeAutorin: Maren Gottschalk © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1350727536/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121021_0730.mp3",
+        "published":"Sun, 21 Oct 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10795314
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 14.10.2012",
+        "episode":35,
+        "description":"Zeitzeuge: Friedrich Christian DeliusHintergrund: Schriftsteller, war lange Lektor bei Wagenbach und dem Rotbuch-VerlagAutorin: Marianne Bäumler © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1350135965/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121014_0730.mp3",
+        "published":"Sun, 14 Oct 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11566486
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 07.10.2012",
+        "episode":36,
+        "description":"Zeitzeugin: Cox HabbemaHintergrund: Holländerin, kam als junge Frau nach Ostberlin ans Deutsche Theater, machte Theater und Film, wurde Defa-Prinzessin genannt, überwarf sich mit DDR-KulturpolitikAutor: Ingo Zander © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1349691261/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121007_0730.mp3",
+        "published":"Sun, 07 Oct 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10971330
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 03.10.2012",
+        "episode":37,
+        "description":"Zeitzeuge: Bodo PlattHintergrund: wurde als 17jähriger verhaftet, saß 8 Jahre in sowjetischer Gefangenschaft im Lager in Sibirien, wurde erst Ende der 90er Jahre rehabilitiertAutorin: Ulrike Lückermann © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1349266220/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20121003_0730.mp3",
+        "published":"Wed, 03 Oct 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11094440
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 30.09.2012",
+        "episode":38,
+        "description":"Zeitzeugin: Vera von LehndorffHintergrund: wurde unter dem Namen \"Veruschka\" Deutschlands 1. SupermodelAutor: Ingo Zander © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1349005215/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120930_0730.mp3",
+        "published":"Sun, 30 Sep 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11070152
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 23.09.2012",
+        "episode":39,
+        "description":"Zeitzeuge: Cioma SchönhausHintergrund: wird 90, war ein genialer Passfälscher, gebürtiger Jude, half jüdischen Mitbürgern und letztlich sich selbst, mit falschen Papieren aus Deutschland zu fliehenAutorin: Christiane Raasch © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1348542930/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120923_0730.mp3",
+        "published":"Sun, 23 Sep 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11110708
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 16.09.2012",
+        "episode":40,
+        "description":"Zeitzeugin: Maria PotrzebaHintergrund: stammt aus dem Münsterland, wurde als junges Mädchen in ein KZ für Jugendliche in der Uckermark gebracht, weil sie angeblich Geschlechtsverkehr mit einem Polen gehabt haben sollte, was als \"Rassenschande\" galtAutorin: Monika Mengel © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1347851835/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120916_0730.mp3",
+        "published":"Sun, 16 Sep 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10344322
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 09.09.2012",
+        "episode":41,
+        "description":"Von Jochanan Shelliem/Thomas Hoepker lebt seit 1976 in New York. Der 1936 in Berlin geborene Fotograf wird vor allem wegen eines ausgezeichneten Bildes in die Geschichte eingehen - er nahm junge lachende Menschen am Hudson River in New York am 11. September 2001 auf, als auf der anderen Flussseite die Türme von Manhattan brannten. Ein Foto, das um die Welt ging und Hoepkers Zugehörigkeit zur international renommierten Fotoagentur Magnum noch einmal eindrucksvoll unter Beweis stellte. Er ist der erste Deutsche, der bei Magnum Vollmitglied wurde. Thomas Hoepker hat in den 1970ern mehrere Jahre für den \"Stern\" aus der DDR berichtet und war als erster West-Fotograf überhaupt akkreditiert worden. Die Reportagen zusammen mit seiner verstorbenen Frau Eva Windmöller zählen zu den journalistischen Höhepunkten, den DDR-Alltag realistisch für die West-Bevölkerung abzubilden. /Redaktion Mark vom Hofe/ © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1347010657/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120909_0730.mp3",
+        "published":"Sun, 09 Sep 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11662434
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 02.09.2012",
+        "episode":42,
+        "description":"Deutschlands älteste Künstleragentin/Sie kennt sie alle, die noch auf der Bühne stehen, und auch die, die lange Jahre die Bretter, die die Welt bedeuten, beherrschten. Annemarie Herald, 1922 in Berlin geboren, betreibt heute im Alter von 90 Jahren immer noch eine Agentur für Schauspielerinnen und Schauspieler und hat damit ihren Beruf zu ihrem Leben gemacht. Den Kontakt zur Bühne bekam sie über ihre Mutter, die Schauspielerin Annie Mewes, die in ihrer Zeit in einem Atemzug mit Willy Fritsch, Gustav Gründgens, Marlene Dietrich, Max Reinhardt genannt wurde. Tochter Annemarie lernte sie alle kennen und heiratete in den 50er Jahren Heinz Herald, einen Regisseur und Drehbuchautor, der mit Max Reinhardt nach Amerika gegangen und dort für ein Drehbuch einen Oscar bekommen hatte. Mit einem Engagement in der Künstleragentur Silman schuf sich Annemarie Herald den Weg, den sie seither bis heute unentwegt und zufrieden beschritten hat. /Redaktion Mark vom Hofe/ © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1346404722/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120902_0730.mp3",
+        "published":"Sun, 02 Sep 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11151708
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 26.08.2012",
+        "episode":43,
+        "description":"Rügen im Objektiv /Klaus Ender, vom Bäckergesellen zum Fotograf  /Von Doris Netenjakob /In der ehemaligen DDR kannte fast jeder Klaus Ender. Wem Enders Akt-Fotos in den Zeitschriften \"Magazin\" und \"Eulenspiegel\" entgangen waren, kannte seinen Name spätestens seit der Ausstellung - Akt und Landschaft- 1975, die von Hunderttausenden besucht wurde. Klaus Ender, Jahrgang 1939, hat seinen österreichischen Vater nie kennen gelernt. Er erlebte die Vergewaltigung seiner Mutter, die sich viele Jahre später das Leben nahm. Das Fotografieren half ihm über alles hinweg. Wie besessen erarbeitete sich der Bäckergeselle Klaus Ender auf Rügen nebenbei seine Aktfotografie, fand seine Modelle an den Nacktbadestränden und entdeckte die Landschaftsfotografie als zweite Leidenschaft. Nach Zwischenstationen in vielen Ländern ist er jetzt im Alter wieder nach Rügen zurückgekehrt. Von seiner jüngeren Frau tatkräftig unterstützt, stattet er seine Fotobände jetzt mit humorvoll tröstenden Gedichten aus, mit denen er seiner Parkinson-Krankheit trotzt. /Redaktion Mark vom Hofe © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1345815026/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120826_0730.mp3",
+        "published":"Sun, 26 Aug 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11365318
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 19.08.2012",
+        "episode":44,
+        "description":"Willy Brandts Büroleiter /Hans Arnold, Diplomat im Auswärtigen Amt /Von Godehard Weyerer /Hans Arnold, dritter und jüngster Sohn des Simplizissimus-Karikaturisten Karl Arnold, trat 1950 in den Auswärtigen Dienst der Bundesrepublik als einer der ersten Nachwuchs-Diplomaten ein, die nicht Juristen waren. Arnold hatte nach 1945 Germanistik, Psychologie und Philosophie studiert. Im Auswärtigen Amt stieg er zum Botschafter auf, trat 1963 der SPD bei und wurde im Dezember 1966, als Willy Brandt Außenminister wurde, dessen Büroleiter. 1986 schied Hans Arnold aus dem Dienst aus. Vor sieben Jahren machte er noch einmal auf sich aufmerksam: Er hatte die Liste der 128 Diplomaten nicht unterschrieben, die sich gegen den damaligen Außenminister Joschka Fischer wandten. Fischer brach mit der Tradition, verstorbenen Ex-Diplomaten grundsätzlich einen ehrenden Nachruf zu schreiben - Auslöser war der Tod von Botschafter a.D. Franz Krapf, einem früheren Mitglied der SS. Arnold schlug sich auf Fischers Seite und hatte seine Ex-Kollegen gegen sich. / Redaktion Mark vom Hofe © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1345208646/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120819_0730.mp3",
+        "published":"Sun, 19 Aug 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":10883600
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 12.08.2012",
+        "episode":45,
+        "description":"Zeitzeugin: Naemi PriegelHintergrund: Musical-Star, steht noch heute auf der Bühne, Starrolle \"Eliza\"Autorin:Andrea Lieblang © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1344781625/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120812_0730.mp3",
+        "published":"Sun, 12 Aug 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11007758
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 05.08.2012",
+        "episode":46,
+        "description":"Zeitzeuge: Willi HoldorfHintergrund: gewann Gold im Zehnkampf als erster Deutscher 1964 in TokioAutor: Albert Wiedenhöfer © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1344175215/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120805_0730.mp3",
+        "published":"Sun, 05 Aug 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11254232
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 30.07.2012",
+        "episode":47,
+        "description":"Blondes Silber /Jutta Heine, Leichtathletin /Von Albert Wiedenhöfer /Bei den Deutschen Meisterschaften war sie \"nur\" Zweite geworden, in Rom bei den Olympischen Spielen 1960 auch, eher überraschend hin-ter der haushohen Favoritin, der unbesiegbaren, weil wie eine Gazelle dahin schwebenden Wilma Rudolph aus den Vereinigten Staaten. Jutta Heine, 1940 in Stadthagen bei Hannover geboren, war Ende der 50er, Anfang der 60er Jahre mehrfache Deutsche Meisterin auf den Sprint-strecken. 1,82 Meter groß, blond, lange Beine, galt sie als \"Glamour -Girl der deutschen Leichtathletik\" - wozu sicherlich bei-trug, dass sie einen englischen Sportwagen fuhr und 1960 als Ama-teur-Mannequin Modelle des römischen Modekönigs Emilio Schuberth vorführte. Jutta Heine betreibt heute ein Hotel mit Reiterhof im Wes-terwald. /Redaktion Mark vom Hofe © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1343637812/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120730_0730.mp3",
+        "published":"Mon, 30 Jul 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11492564
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 29.07.2012",
+        "episode":48,
+        "description":"Zeitzeugin: Jutta HeineHintergrund: Leichtathletin, gewann Silber in Rom 1960, bekannte SprinterinAutor: Albert Wiedenhöfer © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1343618202/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120729_0730.mp3",
+        "published":"Sun, 29 Jul 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11439356
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"WDR 5 Erlebte Geschichten: Sendung vom 22.07.2012",
+        "episode":49,
+        "description":"Zeitzeuge: Klaus BalkenholHintergrund: Dressurreiter, war Mitglied der Kölner Reiterstaffel, siegte mit Rabauke und Goldstern bei OlympiaAutorin: Claudia Ruby © WDR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1343013437/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20120722_0730.mp3",
+        "published":"Sun, 22 Jul 2012 07:30:00 +0200",
+        "bitRate":64,
+        "contentLength":11217490
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+    "displaySubDomaine":"geschichten",
+    "recentTitles":
+    [
+      "WDR 5 Erlebte Geschichten: Sendung vom 14.04.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 07.04.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 01.04.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 31.03.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 29.03.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 24.03.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 17.03.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 10.03.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 03.03.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 24.02.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 17.02.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 10.02.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 08.02.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 03.02.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 27.01.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 20.01.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 13.01.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 06.01.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 01.01.2013",
+      "WDR 5 Erlebte Geschichten: Sendung vom 31.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 30.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 26.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 25.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 23.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 16.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 09.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 02.12.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 25.11.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 18.11.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 11.11.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 04.11.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 02.11.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 01.11.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 28.10.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 21.10.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 14.10.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 07.10.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 03.10.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 30.09.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 23.09.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 16.09.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 09.09.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 02.09.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 26.08.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 19.08.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 12.08.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 05.08.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 30.07.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 29.07.2012",
+      "WDR 5 Erlebte Geschichten: Sendung vom 22.07.2012"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Erlebte Geschichten - das sind gut 20 Minuten lang die persönlichen Schilderungen von Menschen, die mindestens 65 Jahre alt sind und detailgetreu, dicht und anekdotenreich wichtige Abschnitte ihres Lebens erzählen. Nichts ist so lebendig wie die gesprochene Sprache und auch nichts so authentisch.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.wdr.de/radio/home/podcasts/channelausspielung.phtml?channel=erlebtegeschichten",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3718_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3718_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3718,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3718_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3718_5_1.png",
+    "author":"",
+    "title":"Erlebte Geschichten im WDR 5 Radio zum Mitnehmen",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3718_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Geschichte, Gesellschaft",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"WDR 5 - Erlebte Geschichten",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/geschichten.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3718_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3718_5.gif",
+    "subdomain":"geschichten",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463413,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365855989/radio/erlebtegeschichten/wdr5_erlebte_geschichten_20130414_0730.mp3",
+        "idBroadcast":3718,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

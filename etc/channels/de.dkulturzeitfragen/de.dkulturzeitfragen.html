@@ -1,0 +1,3254 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+DRadio Kultur - Zeitfragen Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="DRadio Kultur - Zeitfragen (64kbps)" />
+<meta property="og:title" content="DRadio Kultur - Zeitfragen"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/11364_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://dkulturzeitfragen.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://dkulturzeitfragen.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366770998283" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366770998283" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://dkulturzeitfragen.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "dkulturzeitfragen",
+	
+	pageRequestUrl : "http://dkulturzeitfragen.radio.de/broadcast_info.jsf",
+	pageDomain : "dkulturzeitfragen.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17703886","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","testResult":null,"name":"Lass es krachen! Die Kunst der politischen Provokation","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700681","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3","testResult":null,"name":"Wenn alle Brünnlein fließen - Die Sicherheit des deutschen Wassers","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698925","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3","testResult":null,"name":"Wiedergänger mit langem Bart - Die Marxsche Theorie und die Krisen des Kapitalismus","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697218","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3","testResult":null,"name":"Schröders Ich-AG - Wie hat uns die Agenda 2010 verändert?","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695378","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3","testResult":null,"name":"Solidarität! - Ein nimmermüder Kampfbegriff","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693715","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/18/drk_20130218_1930_c54fa90a.mp3","testResult":null,"name":"Gute Banken - schlechte Banken - Verbraucherschutz nach der Lehman-Pleite","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17691696","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/11/drk_20130211_1930_22129c92.mp3","testResult":null,"name":"Die Kunst des großen Bauens - Warum Bauzeiten und Budgets in Deutschland oft nicht eingehalten ...","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689895","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/04/drk_20130204_1930_db829a10.mp3","testResult":null,"name":"Hier geblieben - Ältere Migranten in Deutschland","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17687997","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/25/drk_20130125_1930_d4ff1d94.mp3","testResult":null,"name":"Heimat in unsicheren Zeiten - Auf der Suche nach Halt und Sicherheit","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686154","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/21/drk_20130121_1930_cebfadfe.mp3","testResult":null,"name":"Grenzenlos glücklich? - Deutsch-französische Paare und ihre Geschichte","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17684353","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/14/drk_20130114_1930_37ffde49.mp3","testResult":null,"name":"Humboldt und die Effizienz - Über die Ökonomisierung der Hochschulen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17682402","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/07/drk_20130107_1930_cc9c040d.mp3","testResult":null,"name":"Unsichtbare Zwerge mit großer Zukunft - Über Risiken und Nebenwirkungen von Nanopartikeln","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17677854","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_5e4a5a3d.mp3","testResult":null,"name":"Die Lust am Untergang - Warum die Apokalypse das Leben bereichert","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17677855","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_79c30ea9.mp3","testResult":null,"name":"Die Apokalypse in der Religion: Warum Gemeinschaften das Weltende brauchen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675284","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/12/10/drk_20121210_1930_6766d788.mp3","testResult":null,"name":"Retten, was zu retten ist - Ein Tag mit der Bankerin Gabriele Müller","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17672683","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/12/03/drk_20121203_1930_80c32606.mp3","testResult":null,"name":"Der lange Weg zur grünen Wiese - Was geschieht in den stillgelegten deutschen Atomreaktoren?","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17670205","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/11/26/drk_20121126_1930_5a8e7e33.mp3","testResult":null,"name":"Umstrittene Spekulationsobjekte - Agrarrohstoffe als Finanzprodukte","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17667669","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/11/19/drk_20121119_1930_740d7f1e.mp3","testResult":null,"name":"Nicht tödlich - meistens - Neue Waffen für die Welt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17665328","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/11/12/drk_20121112_1930_3d1d485b.mp3","testResult":null,"name":"Die doppelte Emanzipation - Über die neue Jungen- und Männerpolitik","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17661602","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/11/05/drk_20121105_1930_d6912fd3.mp3","testResult":null,"name":"Wo bitte geht's nach oben? - Über die Durchlässigkeit der deutschen Gesellschaft","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17642177","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/10/29/drk_20121029_1930_ffdf7668.mp3","testResult":null,"name":"Schlagen und demütigen - Wenn Eltern die Kontrolle verlieren","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17619730","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/10/22/drk_20121022_1930_49bb5561.mp3","testResult":null,"name":"Otto Moralverbraucher - Vom Sinn und Unsinn engagierten Einkaufens","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17595079","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/10/15/drk_20121015_1930_33198655.mp3","testResult":null,"name":"\"Wir sehn uns vor Gericht!\" - Zur Verrechtlichung des Sozialen und Politischen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17570398","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2012/10/08/drk_20121008_1930_3ca14f7f.mp3","testResult":null,"name":"Hoffnung Alemania - Eurokrisen-Flüchtlinge in Deutschland","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":true,"validated":true,"subTitle":"Die Beiträge der Sendung Zeitfragen","seoTitle":"DRadio Kultur - Zeitfragen","subDomaine":"dkulturzeitfragen","relayDisabled":false,"rank":2245,"playableStateString":"FREE","idTeaser":0,"description":"","picture2TransUrl":"http://static.radio.de/images/broadcasts/11364_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/11364_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/11364_6.jpeg","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","podcastUrls":[{"sampleRate":44100,"title":"Lass es krachen! Die Kunst der politischen Provokation","episode":0,"description":"<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","published":"Mon, 08 Apr 2013 17:30:08 GMT","bitRate":64,"contentLength":14205152},{"sampleRate":44100,"title":"Wenn alle Brünnlein fließen - Die Sicherheit des deutschen Wassers","episode":1,"description":"<img src=\"http://www.dradio.de/images/41393/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Trinkwasser fließt hierzulande - laut Aussage der Gesundheitsämter - als am besten kontrolliertes Lebensmittel in jeden Haushalt. Trotzdem finden sich darin regelmäßig erhöhte Mengen von Krankheitserregern, Schwermetallen oder Chemikalien - seit neuestem auch Uran.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3","published":"Mon, 18 Mar 2013 18:30:07 GMT","bitRate":64,"contentLength":28484019},{"sampleRate":44100,"title":"Wiedergänger mit langem Bart - Die Marxsche Theorie und die Krisen des Kapitalismus","episode":2,"description":"<img src=\"http://www.dradio.de/images/53469/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">In den Jahrzehnten nach dem Zusammenbruch des Sozialismus spielte die Marx'sche Theorie keine Rolle mehr. War sie schlecht oder hatte sie nur ein Imageproblem? Zum 130. Todestag des Ökonomen und Gesellschaftstheoretikers - eine Umschau unter Experten.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3","published":"Mon, 11 Mar 2013 18:30:00 GMT","bitRate":64,"contentLength":28468173},{"sampleRate":44100,"title":"Schröders Ich-AG - Wie hat uns die Agenda 2010 verändert?","episode":3,"description":"<img src=\"http://www.dradio.de/images/43414/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im März 2003, vor zehn Jahren, hält der damalige Bundeskanzler Gerhard Schröder im Bundestag eine Rede - mit maßgeblichen Folgen für die Zukunft der Bundesrepublik. Die Agenda 2010 bringt unter anderem Hartz IV, Ich-AGs und Montagsdemonstrationen mit sich.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3","published":"Mon, 04 Mar 2013 18:30:00 GMT","bitRate":64,"contentLength":28850145},{"sampleRate":44100,"title":"Solidarität! - Ein nimmermüder Kampfbegriff","episode":4,"description":"<img src=\"http://www.dradio.de/images/91413/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Das Wort Solidarität führen Politiker oft im Munde, aber auch Kirchenvertreter, Gewerkschafter und andere gesellschaftlichen Gruppen bemühen gern den Begriff, wenn es um die Durchsetzung bestimmter Interessen geht. Doch wie steht es heute um den Kampf für gleiche Ziele und Werte?<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3","published":"Mon, 25 Feb 2013 18:30:00 GMT","bitRate":64,"contentLength":28471926},{"sampleRate":44100,"title":"Gute Banken - schlechte Banken - Verbraucherschutz nach der Lehman-Pleite","episode":5,"description":"<img src=\"http://www.dradio.de/images/86911/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Bankberater sind dazu verpflichtet, ihre Kunden umfassend über die Risiken von Finanzprodukten zu informieren, so hat es der Gesetzgeber nach der Lehman-Pleite noch einmal ausdrücklich festgelegt. Bei der Umsetzung dieser Vorgaben zeigen sich jedoch eklatante Mängel. Banken und Versicherungen tun sich nach wie vor schwer mit den Rechten ihrer Kunden. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/18/drk_20130218_1930_c54fa90a.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/18/drk_20130218_1930_c54fa90a.mp3","published":"Mon, 18 Feb 2013 18:30:11 GMT","bitRate":64,"contentLength":28440234},{"sampleRate":44100,"title":"Die Kunst des großen Bauens - Warum Bauzeiten und Budgets in Deutschland oft nicht eingehalten ...","episode":6,"description":"<img src=\"http://www.dradio.de/images/73691/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Ob die Hamburger Elbphilharmonie, der Berliner Flughafen oder Stuttgart 21 - die Liste der verpatzten Großprojekte in Deutschland ist lang. Doch woran liegt es, dass gerade Projekte, die von der öffentlichen Hand finanziert werden, aus dem Ruder laufen? <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/11/drk_20130211_1930_22129c92.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/11/drk_20130211_1930_22129c92.mp3","published":"Mon, 11 Feb 2013 18:30:10 GMT","bitRate":64,"contentLength":14186432},{"sampleRate":44100,"title":"Hier geblieben - Ältere Migranten in Deutschland","episode":7,"description":"<img src=\"http://www.dradio.de/images/36929/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Weder hatten viele der Zuwanderer selbst ursprünglich vorgehabt, in der Fremde alt zu werden, noch war dies seitens der deutschen Gesellschaft so vorgesehen. Doch viele sind geblieben: So leben heute eineinhalb Millionen über 65-Jährige mit Migrationshintergrund in Deutschland.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/04/drk_20130204_1930_db829a10.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/04/drk_20130204_1930_db829a10.mp3","published":"Mon, 04 Feb 2013 18:30:10 GMT","bitRate":64,"contentLength":14196416},{"sampleRate":44100,"title":"Heimat in unsicheren Zeiten - Auf der Suche nach Halt und Sicherheit","episode":8,"description":"<img src=\"http://www.dradio.de/images/85496/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Jeder hat sie wenigstens einmal gehabt, viele sehnen sich nach ihr, für manche hat sie immer noch den Ruch der Deutschtümelei wie bei den Nazis. Die haben die Heimat auch als erste wieder politisch entdeckt und waren damit vor allem in den neuen Bundesländern erfolgreich. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/25/drk_20130125_1930_d4ff1d94.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/25/drk_20130125_1930_d4ff1d94.mp3","published":"Mon, 28 Jan 2013 18:30:00 GMT","bitRate":64,"contentLength":14140672},{"sampleRate":44100,"title":"Grenzenlos glücklich? - Deutsch-französische Paare und ihre Geschichte","episode":9,"description":"<img src=\"http://www.dradio.de/images/79429/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Flitterwochen, Vernunftehe, Seitensprung, Rosenkrieg: Für das deutsch-französische Verhältnis muss in der Politik immer wieder das Paar als Metapher herhalten. Aber wie sieht es tatsächlich im Alltag deutsch-französischer Paare aus?\n<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/21/drk_20130121_1930_cebfadfe.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/21/drk_20130121_1930_cebfadfe.mp3","published":"Mon, 21 Jan 2013 18:30:00 GMT","bitRate":64,"contentLength":14197664},{"sampleRate":44100,"title":"Humboldt und die Effizienz - Über die Ökonomisierung der Hochschulen","episode":10,"description":"<img src=\"http://www.dradio.de/images/73123/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die deutschen Hochschulen verändern sich. Aus altehrwürdigen Universitäten werden Wissensbetriebe, die sich wie international agierende Unternehmen verhalten. Effizienz, Benchmarking, Konkurrenzfähigkeit heißen die Stichworte.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/14/drk_20130114_1930_37ffde49.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/14/drk_20130114_1930_37ffde49.mp3","published":"Mon, 14 Jan 2013 18:30:30 GMT","bitRate":64,"contentLength":14052480},{"sampleRate":44100,"title":"Unsichtbare Zwerge mit großer Zukunft - Über Risiken und Nebenwirkungen von Nanopartikeln","episode":11,"description":"<img src=\"http://www.dradio.de/images/70374/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Sie sind Zwerge. Die Größe eines Nanos misst sich in Nanometern. Ein Nanometer ist der millionste Teil eines Millimeters. Diese Partikel, Produkte der Nanotechnologie, zeigen andere Eigenschaften als ihre großen natürlichen Materialverwandten. \n<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/07/drk_20130107_1930_cc9c040d.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/07/drk_20130107_1930_cc9c040d.mp3","published":"Mon, 07 Jan 2013 18:30:00 GMT","bitRate":64,"contentLength":14186640},{"sampleRate":44100,"title":"Die Lust am Untergang - Warum die Apokalypse das Leben bereichert","episode":12,"description":"<img src=\"http://www.dradio.de/images/88745/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vier Tage nach dieser Sendung wird die Welt untergehen. So haben es Nostradamus, die Maya und eingeschworene Bibelexegeten vorhergesagt. Dass das Unsinn ist, haben viele Fachleute in den vergangenen Monaten ein ums andere Mal erklärt.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_5e4a5a3d.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_5e4a5a3d.mp3","published":"Mon, 17 Dec 2012 18:30:59 GMT","bitRate":64,"contentLength":13800800},{"sampleRate":44100,"title":"Die Apokalypse in der Religion: Warum Gemeinschaften das Weltende brauchen","episode":13,"description":"<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_79c30ea9.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_79c30ea9.mp3","published":"Mon, 17 Dec 2012 18:30:36 GMT","bitRate":64,"contentLength":5108896},{"sampleRate":44100,"title":"Retten, was zu retten ist - Ein Tag mit der Bankerin Gabriele Müller","episode":14,"description":"<img src=\"http://www.dradio.de/images/42699/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Gabriele Müller ist Portfolio-Managerin und damit Herrin über rund 180 Milliarden Euro, über all die gefährdeten Kredite, fehlgeschlagenen Investments und spekulativen Anlagen der ehemaligen Landesbank WestLB. Sie arbeitet für deren Abwicklungsanstalt.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/10/drk_20121210_1930_6766d788.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/10/drk_20121210_1930_6766d788.mp3","published":"Mon, 10 Dec 2012 18:30:00 GMT","bitRate":64,"contentLength":14074320},{"sampleRate":44100,"title":"Der lange Weg zur grünen Wiese - Was geschieht in den stillgelegten deutschen Atomreaktoren?","episode":15,"description":"<img src=\"http://www.dradio.de/images/51996/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vor über einem Jahr wurden acht deutsche Atomkraftwerke für immer abgeschaltet. Was bleibt, ist die Gefahr, die von ihnen ausgeht - obwohl sie längst keinen Strom mehr erzeugen. Wir werfen ein Schlaglicht auf die schlafenden Reaktoren und auf die Pläne, was mit ihnen geschehen soll.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/03/drk_20121203_1930_80c32606.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/03/drk_20121203_1930_80c32606.mp3","published":"Mon, 03 Dec 2012 18:30:00 GMT","bitRate":64,"contentLength":14192048},{"sampleRate":44100,"title":"Umstrittene Spekulationsobjekte - Agrarrohstoffe als Finanzprodukte","episode":16,"description":"<img src=\"http://www.dradio.de/images/82829/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Agrarrohstoffe sind begehrte Spekulationsobjekte, seit es zum Beispiel mit Immobilien nicht mehr so gut läuft. Nichtregierungsorganisationen werfen Banken, Versicherungen und Anlegern vor, damit die Nahrungsmittelpreise in die Höhe zu treiben. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/26/drk_20121126_1930_5a8e7e33.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/26/drk_20121126_1930_5a8e7e33.mp3","published":"Mon, 26 Nov 2012 18:30:00 GMT","bitRate":64,"contentLength":13629408},{"sampleRate":44100,"title":"Nicht tödlich - meistens - Neue Waffen für die Welt","episode":17,"description":"<img src=\"http://www.dradio.de/images/49763/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Müssen Waffen eigentlich immer töten? Bilder von martialisch auftretenden Polizisten und Soldaten sind nicht gerade sympathiefördernd - ein Grund mehr, über Waffen nachzudenken, die nicht gleich töten. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/19/drk_20121119_1930_740d7f1e.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/19/drk_20121119_1930_740d7f1e.mp3","published":"Mon, 19 Nov 2012 18:30:00 GMT","bitRate":64,"contentLength":14114672},{"sampleRate":44100,"title":"Die doppelte Emanzipation - Über die neue Jungen- und Männerpolitik","episode":18,"description":"<img src=\"http://www.dradio.de/images/85126/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Männer stecken im Zwiespalt: Einerseits sollen sie noch den traditionellen starken Ernährer spielen, andererseits auch den verständnisvollen Zuhörer. Einige fordern inzwischen eine neue Gleichstellungspolitik, die auf die Belange von Frauen und Männern gleichermaßen eingeht.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/12/drk_20121112_1930_3d1d485b.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/12/drk_20121112_1930_3d1d485b.mp3","published":"Mon, 12 Nov 2012 18:30:00 GMT","bitRate":64,"contentLength":14149824},{"sampleRate":44100,"title":"Wo bitte geht's nach oben? - Über die Durchlässigkeit der deutschen Gesellschaft","episode":19,"description":"<img src=\"http://www.dradio.de/images/34215/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Wer richtig tüchtig ist, kann die Karriereleiter nach oben steigen, es einmal besser haben und weiter bringen als die Eltern. Dieses Versprechen galt lange als gesellschaftlicher Motor. Doch inzwischen wird häufiger der Vorwurf laut, Deutschland sei keine durchlässige Gesellschaft. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/05/drk_20121105_1930_d6912fd3.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/05/drk_20121105_1930_d6912fd3.mp3","published":"Mon, 05 Nov 2012 18:30:00 GMT","bitRate":64,"contentLength":14069536},{"sampleRate":44100,"title":"Schlagen und demütigen - Wenn Eltern die Kontrolle verlieren","episode":20,"description":"<img src=\"http://www.dradio.de/images/29691/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im Jahr 2000 wurde körperliche und psychische Gewalt gegen Kinder in Deutschland verboten. Laut Polizeistatistik ist die Zahl schwerer Misshandlungen seitdem etwas zurückgegangen, doch die Dunkelziffer bleibt hoch.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/29/drk_20121029_1930_ffdf7668.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/29/drk_20121029_1930_ffdf7668.mp3","published":"Mon, 29 Oct 2012 18:30:00 GMT","bitRate":64,"contentLength":14167296},{"sampleRate":44100,"title":"Otto Moralverbraucher - Vom Sinn und Unsinn engagierten Einkaufens","episode":21,"description":"<img src=\"http://www.dradio.de/images/7575/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Gezielt einkaufen und die Wirtschaft gerechter und grüner gestalten  für diese Idee begeistern sich immer mehr Verbraucher. Für die Politik ist das praktisch, weil dieser Trend gesellschaftliche Verantwortung auf den Einzelnen abwälzt.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/22/drk_20121022_1930_49bb5561.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/22/drk_20121022_1930_49bb5561.mp3","published":"Mon, 22 Oct 2012 17:30:16 GMT","bitRate":64,"contentLength":14161264},{"sampleRate":44100,"title":"\"Wir sehn uns vor Gericht!\" - Zur Verrechtlichung des Sozialen und Politischen","episode":22,"description":"<img src=\"http://www.dradio.de/images/45658/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\"> Aus Angst vor Klagen macht sich in Schulen, Kindergärten, Arztpraxen und Krankenhäusern eine Absicherungsmentalität breit - nach dem Motto: Hauptsache, keine Fehler machen und im Zweifelsfall dann lieber gar nichts. Eine Folge der zunehmenden Verrechtlichung der sozialen Beziehungen.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/15/drk_20121015_1930_33198655.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/15/drk_20121015_1930_33198655.mp3","published":"Mon, 15 Oct 2012 17:30:07 GMT","bitRate":64,"contentLength":14211184},{"sampleRate":44100,"title":"Hoffnung Alemania - Eurokrisen-Flüchtlinge in Deutschland","episode":23,"description":"<img src=\"http://www.dradio.de/images/85930/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Rezession und Arbeitslosigkeit in den Euro-Krisenländern treiben immer mehr Südeuropäer nach Deutschland. Die meisten von ihnen sind jung und hoch qualifiziert. Die neuen Migranten sehen sich nicht als Gastarbeiter, sondern sie kommen mit dem Bewusstsein, Bürger Europas zu sein.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/08/drk_20121008_1930_3ca14f7f.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/08/drk_20121008_1930_3ca14f7f.mp3","published":"Mon, 08 Oct 2012 17:30:00 GMT","bitRate":64,"contentLength":14178528}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":64,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","displaySubDomaine":"dkulturzeitfragen","recentTitles":["Lass es krachen! Die Kunst der politischen Provokation","Wenn alle Brünnlein fließen - Die Sicherheit des deutschen Wassers","Wiedergänger mit langem Bart - Die Marxsche Theorie und die Krisen des Kapitalismus","Schröders Ich-AG - Wie hat uns die Agenda 2010 verändert?","Solidarität! - Ein nimmermüder Kampfbegriff","Gute Banken - schlechte Banken - Verbraucherschutz nach der Lehman-Pleite","Die Kunst des großen Bauens - Warum Bauzeiten und Budgets in Deutschland oft nicht eingehalten ...","Hier geblieben - Ältere Migranten in Deutschland","Heimat in unsicheren Zeiten - Auf der Suche nach Halt und Sicherheit","Grenzenlos glücklich? - Deutsch-französische Paare und ihre Geschichte","Humboldt und die Effizienz - Über die Ökonomisierung der Hochschulen","Unsichtbare Zwerge mit großer Zukunft - Über Risiken und Nebenwirkungen von Nanopartikeln","Die Lust am Untergang - Warum die Apokalypse das Leben bereichert","Die Apokalypse in der Religion: Warum Gemeinschaften das Weltende brauchen","Retten, was zu retten ist - Ein Tag mit der Bankerin Gabriele Müller","Der lange Weg zur grünen Wiese - Was geschieht in den stillgelegten deutschen Atomreaktoren?","Umstrittene Spekulationsobjekte - Agrarrohstoffe als Finanzprodukte","Nicht tödlich - meistens - Neue Waffen für die Welt","Die doppelte Emanzipation - Über die neue Jungen- und Männerpolitik","Wo bitte geht's nach oben? - Über die Durchlässigkeit der deutschen Gesellschaft","Schlagen und demütigen - Wenn Eltern die Kontrolle verlieren","Otto Moralverbraucher - Vom Sinn und Unsinn engagierten Einkaufens","\"Wir sehn uns vor Gericht!\" - Zur Verrechtlichung des Sozialen und Politischen","Hoffnung Alemania - Eurokrisen-Flüchtlinge in Deutschland"],"idType":7,"descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.dradio.de/dkultur/","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/11364_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/11364_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":11364,"picture1TransUrl":"http://static.radio.de/images/broadcasts/11364_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/11364_5_1.png","author":"","title":"Deutschlandradio Logo","picture4Url":"http://static.radio.de/images/broadcasts/11364_4.jpeg","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Bildung, Geschichte","_country":"Deutschland","_genre":"Podcast","_city":"Berlin","_family":"dradio","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"DRadio Kultur - Zeitfragen","picture3Url":"","streamUrl":"http://www.radio.de/playlists/dkulturzeitfragen.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/11364_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/11364_5.jpeg","subdomain":"dkulturzeitfragen","streamUrls":[{"sampleRate":44100,"id":2463252,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3","idBroadcast":11364,"bitRate":64}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"dkulturzeitfragen", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"11364", play:"dkulturzeitfragen"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dkulturzeitfragen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("25"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Bildung:Geschichte:Wissen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("18"));
+document.write ("&amp;age_90_120=" + escape("4"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("23"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/dkulturzeitfragen/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „DRadio Kultur - Zeitfragen“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/11364_4.jpeg" alt="DRadio Kultur - Zeitfragen" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dkulturzeitfragen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("25"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Bildung:Geschichte:Wissen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("18"));
+document.write ("&amp;age_90_120=" + escape("4"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("23"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">DRadio Kultur - Zeitfragen</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Berlin,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.dradio.de/dkultur/'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „DRadio Kultur - Zeitfragen“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„DRadio Kultur - Zeitfragen“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'11364', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">0</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">0</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'11364', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star0-0"
+stars="0-0"
+title="„DRadio Kultur - Zeitfragen“ bewerten?"
+content="0.0">
+</a>
+<span class="big-rate-text">DRadio Kultur - Zeitfragen&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „DRadio Kultur - Zeitfragen“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„DRadio Kultur - Zeitfragen“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „DRadio Kultur - Zeitfragen“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17703886">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>LASS ES KRACHEN! DIE KUNST DER POLITISCHEN PROVOKATION</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17703886', 'broadcast':'11364'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><br clear="all"><br>Deutschlandradio Kultur, Zeitfragen<br><a href="http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17700681">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WENN ALLE BRÜNNLEIN FLIESSEN - DIE SICHERHEIT DES DEUTSCHEN WASSERS</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17700681', 'broadcast':'11364'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/41393/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Trinkwasser fließt hierzulande - laut Aussage der Gesundheitsämter - als am besten kontrolliertes Lebensmittel in jeden Haushalt. Trotzdem finden sich darin regelmäßig erhöhte Mengen von Krankheitserregern, Schwermetallen oder Chemikalien - seit neuestem auch Uran.<br clear="all"><br>Deutschlandradio Kultur, Zeitfragen<br><a href="http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17698925">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WIEDERGÄNGER MIT LANGEM BART - DIE MARXSCHE THEORIE UND DIE KRISEN DES KAPITALISMUS</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17698925', 'broadcast':'11364'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/53469/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">In den Jahrzehnten nach dem Zusammenbruch des Sozialismus spielte die Marx'sche Theorie keine Rolle mehr. War sie schlecht oder hatte sie nur ein Imageproblem? Zum 130. Todestag des Ökonomen und Gesellschaftstheoretikers - eine Umschau unter Experten.<br clear="all"><br>Deutschlandradio Kultur, Zeitfragen<br><a href="http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17697218">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>SCHRÖDERS ICH-AG - WIE HAT UNS DIE AGENDA 2010 VERÄNDERT?</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17697218', 'broadcast':'11364'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/43414/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Im März 2003, vor zehn Jahren, hält der damalige Bundeskanzler Gerhard Schröder im Bundestag eine Rede - mit maßgeblichen Folgen für die Zukunft der Bundesrepublik. Die Agenda 2010 bringt unter anderem Hartz IV, Ich-AGs und Montagsdemonstrationen mit sich.<br clear="all"><br>Deutschlandradio Kultur, Zeitfragen<br><a href="http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17695378">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>SOLIDARITÄT! - EIN NIMMERMÜDER KAMPFBEGRIFF</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17695378', 'broadcast':'11364'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/91413/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Das Wort Solidarität führen Politiker oft im Munde, aber auch Kirchenvertreter, Gewerkschafter und andere gesellschaftlichen Gruppen bemühen gern den Begriff, wenn es um die Durchsetzung bestimmter Interessen geht. Doch wie steht es heute um den Kampf für gleiche Ziele und Werte?<br clear="all"><br>Deutschlandradio Kultur, Zeitfragen<br><a href="http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „DRadio Kultur - Zeitfragen“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturthema.radio.de'}" bcastid="11374" title="„DRadio Kultur - Thema“ hören" id="currentlyPlayedStation_11374">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11374_1.jpeg" alt="„DRadio Kultur - Thema“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenkompakt.radio.de'}" bcastid="11348" title="„DRadio Wissen - Mein Tag kompakt“ hören" id="currentlyPlayedStation_11348">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11348_1.jpeg" alt="„DRadio Wissen - Mein Tag kompakt“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturfwt.radio.de'}" bcastid="11380" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" id="currentlyPlayedStation_11380">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11380_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturwortwechsel.radio.de'}" bcastid="11367" title="„DRadio Kultur - Wortwechsel“ hören" id="currentlyPlayedStation_11367">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11367_1.jpeg" alt="„DRadio Kultur - Wortwechsel“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffeature.radio.de'}" bcastid="10246" title="„Deutschlandfunk - Feature“ hören" id="currentlyPlayedStation_10246">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10246_1.jpeg" alt="„Deutschlandfunk - Feature“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenzukunft.radio.de'}" bcastid="11336" title="„DRadio Wissen - Meine Zukunft“ hören" id="currentlyPlayedStation_11336">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11336_1.jpeg" alt="„DRadio Wissen - Meine Zukunft“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfstudiozeit.radio.de'}" bcastid="11386" title="„Deutschlandfunk - Studiozeit“ hören" id="currentlyPlayedStation_11386">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11386_1.jpeg" alt="„Deutschlandfunk - Studiozeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturpolitfeuilleton.radio.de'}" bcastid="11394" title="„DRadio Kultur - Politisches Feuilleton“ hören" id="currentlyPlayedStation_11394">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11394_1.jpeg" alt="„DRadio Kultur - Politisches Feuilleton“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturweltzeit.radio.de'}" bcastid="11373" title="„DRadio Kultur - Weltzeit“ hören" id="currentlyPlayedStation_11373">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11373_1.jpeg" alt="„DRadio Kultur - Weltzeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturimgespraech.radio.de'}" bcastid="11390" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" id="currentlyPlayedStation_11390">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11390_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenonlinetalk.radio.de'}" bcastid="11347" title="„DRadio Wissen - Online Talk“ hören" id="currentlyPlayedStation_11347">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11347_1.jpeg" alt="„DRadio Wissen - Online Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfinterviews.radio.de'}" bcastid="11321" title="„Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur“ hören" id="currentlyPlayedStation_11321">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11321_1.jpeg" alt="„Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfcampuskarriere.radio.de'}" bcastid="11313" title="„Deutschlandfunk - Campus & Karriere“ hören" id="currentlyPlayedStation_11313">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11313_1.jpeg" alt="„Deutschlandfunk - Campus & Karriere“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2dokublog.radio.de'}" bcastid="5690" title="„SWR2 Dokublog“ hören" id="currentlyPlayedStation_5690">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5690_1.jpeg" alt="„SWR2 Dokublog“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfpisaplus.radio.de'}" bcastid="11337" title="„Deutschlandfunk - PISAplus“ hören" id="currentlyPlayedStation_11337">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11337_1.jpeg" alt="„Deutschlandfunk - PISAplus“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturthema.radio.de'}" bcastid="11374" title="„DRadio Kultur - Thema“ hören" id="currentlyPlayedStation2_11374">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11374_1.jpeg" alt="„DRadio Kultur - Thema“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenkompakt.radio.de'}" bcastid="11348" title="„DRadio Wissen - Mein Tag kompakt“ hören" id="currentlyPlayedStation2_11348">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11348_1.jpeg" alt="„DRadio Wissen - Mein Tag kompakt“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturfwt.radio.de'}" bcastid="11380" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" id="currentlyPlayedStation2_11380">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11380_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturwortwechsel.radio.de'}" bcastid="11367" title="„DRadio Kultur - Wortwechsel“ hören" id="currentlyPlayedStation2_11367">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11367_1.jpeg" alt="„DRadio Kultur - Wortwechsel“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffeature.radio.de'}" bcastid="10246" title="„Deutschlandfunk - Feature“ hören" id="currentlyPlayedStation2_10246">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10246_1.jpeg" alt="„Deutschlandfunk - Feature“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenzukunft.radio.de'}" bcastid="11336" title="„DRadio Wissen - Meine Zukunft“ hören" id="currentlyPlayedStation2_11336">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11336_1.jpeg" alt="„DRadio Wissen - Meine Zukunft“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfstudiozeit.radio.de'}" bcastid="11386" title="„Deutschlandfunk - Studiozeit“ hören" id="currentlyPlayedStation2_11386">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11386_1.jpeg" alt="„Deutschlandfunk - Studiozeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturpolitfeuilleton.radio.de'}" bcastid="11394" title="„DRadio Kultur - Politisches Feuilleton“ hören" id="currentlyPlayedStation2_11394">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11394_1.jpeg" alt="„DRadio Kultur - Politisches Feuilleton“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturweltzeit.radio.de'}" bcastid="11373" title="„DRadio Kultur - Weltzeit“ hören" id="currentlyPlayedStation2_11373">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11373_1.jpeg" alt="„DRadio Kultur - Weltzeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturimgespraech.radio.de'}" bcastid="11390" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" id="currentlyPlayedStation2_11390">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11390_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenonlinetalk.radio.de'}" bcastid="11347" title="„DRadio Wissen - Online Talk“ hören" id="currentlyPlayedStation2_11347">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11347_1.jpeg" alt="„DRadio Wissen - Online Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfinterviews.radio.de'}" bcastid="11321" title="„Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur“ hören" id="currentlyPlayedStation2_11321">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11321_1.jpeg" alt="„Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfcampuskarriere.radio.de'}" bcastid="11313" title="„Deutschlandfunk - Campus & Karriere“ hören" id="currentlyPlayedStation2_11313">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11313_1.jpeg" alt="„Deutschlandfunk - Campus & Karriere“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2dokublog.radio.de'}" bcastid="5690" title="„SWR2 Dokublog“ hören" id="currentlyPlayedStation2_5690">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5690_1.jpeg" alt="„SWR2 Dokublog“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfpisaplus.radio.de'}" bcastid="11337" title="„Deutschlandfunk - PISAplus“ hören" id="currentlyPlayedStation2_11337">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11337_1.jpeg" alt="„Deutschlandfunk - PISAplus“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_11374" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Thema“ hören" linkobject="{'url':'http://dkulturthema.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Thema“ hören" href="http://dkulturthema.radio.de">DRadio Kultur - Thema</a></span>
+<span class="title_11374 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der erstaunliche Lebensweg der Emotion-Herausgeberin Katarzyna Mol-Wolf</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11348" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Wissen - Mein Tag kompakt“ hören" linkobject="{'url':'http://dwissenkompakt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Wissen - Mein Tag kompakt“ hören" href="http://dwissenkompakt.radio.de">DRadio Wissen - Mein Tag kompakt</a></span>
+<span class="title_11348 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Mein Tag - Donnerstag Kompakt</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11380" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" linkobject="{'url':'http://dkulturfwt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" href="http://dkulturfwt.radio.de">DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik</a></span>
+<span class="title_11380 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Gingko statt Kastanie - Neue Bäume für die Städte</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11367" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Wortwechsel“ hören" linkobject="{'url':'http://dkulturwortwechsel.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Wortwechsel“ hören" href="http://dkulturwortwechsel.radio.de">DRadio Kultur - Wortwechsel</a></span>
+<span class="title_11367 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Präzedenzfall Zypern - Droht Europa eine Geldentwertung?</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_10246" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Feature“ hören" linkobject="{'url':'http://dlffeature.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Feature“ hören" href="http://dlffeature.radio.de">Deutschlandfunk - Feature</a></span>
+<span class="title_10246 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11336" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Wissen - Meine Zukunft“ hören" linkobject="{'url':'http://dwissenzukunft.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Wissen - Meine Zukunft“ hören" href="http://dwissenzukunft.radio.de">DRadio Wissen - Meine Zukunft</a></span>
+<span class="title_11336 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Rechtsmedizin - Der "CSI-Effekt"</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11386" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Studiozeit“ hören" linkobject="{'url':'http://dlfstudiozeit.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Studiozeit“ hören" href="http://dlfstudiozeit.radio.de">Deutschlandfunk - Studiozeit</a></span>
+<span class="title_11386 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kapitalismus, Demokratie und Sozialstaat</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11394" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Politisches Feuilleton“ hören" linkobject="{'url':'http://dkulturpolitfeuilleton.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Politisches Feuilleton“ hören" href="http://dkulturpolitfeuilleton.radio.de">DRadio Kultur - Politisches Feuilleton</a></span>
+<span class="title_11394 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: "Negerkönig" oder "Südseekönig" - Über Kinderbücher und Sprache</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11373" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Weltzeit“ hören" linkobject="{'url':'http://dkulturweltzeit.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Weltzeit“ hören" href="http://dkulturweltzeit.radio.de">DRadio Kultur - Weltzeit</a></span>
+<span class="title_11373 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der Umweltschutz in Sambia hat viele Gesichter - Weniger Müll, sauberes Trinkwasser, Ende ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11390" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" linkobject="{'url':'http://dkulturimgespraech.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" href="http://dkulturimgespraech.radio.de">DRadio Kultur - Radiofeuilleton - Im Gespräch</a></span>
+<span class="title_11390 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Frühlingserwachen: Gärtnerlust und Gärtnerfrust - Gäste: Gabriella Pape, Gartengestalterin, und ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11347" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Wissen - Online Talk“ hören" linkobject="{'url':'http://dwissenonlinetalk.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Wissen - Online Talk“ hören" href="http://dwissenonlinetalk.radio.de">DRadio Wissen - Online Talk</a></span>
+<span class="title_11347 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: NETZREPORTER XL - Das Netz als Lebensraum</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11321" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur“ hören" linkobject="{'url':'http://dlfinterviews.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur“ hören" href="http://dlfinterviews.radio.de">Deutschlandfunk - Interviews aus Deutschlandfunk und Deutschlandradio Kultur</a></span>
+<span class="title_11321 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: SPD-Slogan ist "nicht nachvollziehbar" - Der Sozialdemokrat Rudolf Dreßler über den ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11313" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Campus & Karriere“ hören" linkobject="{'url':'http://dlfcampuskarriere.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Campus & Karriere“ hören" href="http://dlfcampuskarriere.radio.de">Deutschlandfunk - Campus & Karriere</a></span>
+<span class="title_11313 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: "Hochschullandschaft nicht kaputtsparen" - Cottbuser wehren sich gegen Zusammenlegung ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5690" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Dokublog“ hören" linkobject="{'url':'http://swr2dokublog.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Dokublog“ hören" href="http://swr2dokublog.radio.de">SWR2 Dokublog</a></span>
+<span class="title_5690 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: SWR2 DOKUBLOG: Eiszeit in Groenland</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11337" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - PISAplus“ hören" linkobject="{'url':'http://dlfpisaplus.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - PISAplus“ hören" href="http://dlfpisaplus.radio.de">Deutschlandfunk - PISAplus</a></span>
+<span class="title_11337 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Schwerpunktthema: Raus aus dem Taxi - rein in den OP - Wie gut ist das Anerkennungsgesetz für ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<div id="broadcast-info-broadcast-family">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+<div id="broadcast-info-broadcast-family-loading" class="content-headline-loader"></div>
+<p class="h3">
+Weitere Inhalte
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="content-list">
+
+<div class="content-list-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row1"  editobject="{editIconId : 'edit-icon-1521-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_1521">
+
+
+
+<a class="content-list-favorite"
+title="„Deutschlandfunk“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=1&loaderId=broadcast-info-broadcast-family-loading&broadcastId=1521', 
+							account:'', 
+							broadcastId:'1521',
+							targetClass:'listfavorite_1521',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://deutschlandfunk.radio.de'}" class="content-list-image js-link" rowId="row1" title="„Deutschlandfunk“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/1521_6.jpeg" alt="Deutschlandfunk" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://deutschlandfunk.radio.de'}" class="js-link" rowId="row1" title="„Deutschlandfunk“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://deutschlandfunk.radio.de" rowId="row1" title="„Deutschlandfunk“ hören">Deutschlandfunk</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Kultur, Nachrichten
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Deutschlandfunk ist das Nachrichten Programm des Deutschlandradios und steht für klare Informationen aus Politik, Wirtschaft &amp; Kultur.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_1521 showPrefix ">
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-1521" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row2"  editobject="{editIconId : 'edit-icon-7742-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_7742">
+
+
+
+<a class="content-list-favorite"
+title="„Deutschlandfunk - Computer & Kommunikation“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=2&loaderId=broadcast-info-broadcast-family-loading&broadcastId=7742', 
+							account:'', 
+							broadcastId:'7742',
+							targetClass:'listfavorite_7742',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://dlfcomputer.radio.de'}" class="content-list-image js-link" rowId="row2" title="„Deutschlandfunk - Computer & Kommunikation“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/7742_6.jpeg" alt="Deutschlandfunk - Computer & Kommunikation" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://dlfcomputer.radio.de'}" class="js-link" rowId="row2" title="„Deutschlandfunk - Computer & Kommunikation“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://dlfcomputer.radio.de" rowId="row2" title="„Deutschlandfunk - Computer & Kommunikation“ hören">Deutschlandfunk - Computer &amp; Kommunikation</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Technologie
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Jeden Samstag präsentiert Deutschlandfunk eine Zusammenfassung der wichtigsten Wochenereignisse aus der Computerwelt.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_7742 showPrefix content-list-podcast">
+
+
+Folge: Der große Himmel des kleinen Prinzen
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-7742" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row3"  editobject="{editIconId : 'edit-icon-4192-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_4192">
+
+
+
+<a class="content-list-favorite"
+title="„Deutschlandfunk - Deutschland heute“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=3&loaderId=broadcast-info-broadcast-family-loading&broadcastId=4192', 
+							account:'', 
+							broadcastId:'4192',
+							targetClass:'listfavorite_4192',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://dlfdheute.radio.de'}" class="content-list-image js-link" rowId="row3" title="„Deutschlandfunk - Deutschland heute“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/4192_6.jpeg" alt="Deutschlandfunk - Deutschland heute" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://dlfdheute.radio.de'}" class="js-link" rowId="row3" title="„Deutschlandfunk - Deutschland heute“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://dlfdheute.radio.de" rowId="row3" title="„Deutschlandfunk - Deutschland heute“ hören">Deutschlandfunk - Deutschland heute</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Gesellschaft, Nachrichten
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Das Magazin des Deutschlandfunks über Ereignisse aus den Bundesländern.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_4192 showPrefix content-list-podcast">
+
+
+Folge: Bye, Bye Hirschgeweih NEU
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-4192" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row4"  editobject="{editIconId : 'edit-icon-4218-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_4218">
+
+
+
+<a class="content-list-favorite"
+title="„Deutschlandfunk - Essay und Diskurs“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=4&loaderId=broadcast-info-broadcast-family-loading&broadcastId=4218', 
+							account:'', 
+							broadcastId:'4218',
+							targetClass:'listfavorite_4218',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://dlfessaydiskurs.radio.de'}" class="content-list-image js-link" rowId="row4" title="„Deutschlandfunk - Essay und Diskurs“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/4218_6.jpeg" alt="Deutschlandfunk - Essay und Diskurs" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://dlfessaydiskurs.radio.de'}" class="js-link" rowId="row4" title="„Deutschlandfunk - Essay und Diskurs“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-0" stars="4-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://dlfessaydiskurs.radio.de" rowId="row4" title="„Deutschlandfunk - Essay und Diskurs“ hören">Deutschlandfunk - Essay und Diskurs</a>
+<span>
+
+Aus Deutschland: 
+
+Podcast
+, 
+Kultur
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Der Podcast zur Kulturdebatte und den Kulturessays des Deutschlandfunks.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_4218 showPrefix content-list-podcast">
+
+
+Folge: Die ungebremste Kreativität: Multitalente von Goethe bis Schlingensief (1/6) - 1. ...
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-4218" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row5"  editobject="{editIconId : 'edit-icon-10246-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_10246">
+
+
+
+<a class="content-list-favorite"
+title="„Deutschlandfunk - Feature“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=5&loaderId=broadcast-info-broadcast-family-loading&broadcastId=10246', 
+							account:'', 
+							broadcastId:'10246',
+							targetClass:'listfavorite_10246',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://dlffeature.radio.de'}" class="content-list-image js-link" rowId="row5" title="„Deutschlandfunk - Feature“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/10246_6.jpeg" alt="Deutschlandfunk - Feature" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://dlffeature.radio.de'}" class="js-link" rowId="row5" title="„Deutschlandfunk - Feature“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star3-0" stars="3-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://dlffeature.radio.de" rowId="row5" title="„Deutschlandfunk - Feature“ hören">Deutschlandfunk - Feature</a>
+<span>
+
+Aus Deutschland: 
+
+Podcast
+, 
+Geschichte, Gesellschaft
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description"></div>
+<div class="content-list-information-nowplaying">
+<span class="title_10246 showPrefix content-list-podcast">
+
+
+Folge: Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-10246" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+</div>
+<div class="content-list-pageitems">
+5 |
+<a class="change-list-size-15" title="15 Sender pro Seite anzeigen">15</a> |
+<a class="change-list-size-25" title="25 Sender pro Seite anzeigen">25</a> |
+<a class="change-list-size-50" title="50 Sender pro Seite anzeigen">50</a>
+</div>
+</div>
+
+
+
+</div>
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „DRadio Kultur - Zeitfragen“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Berlin" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Berlin suchen" tag="Berlin">Berlin</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Bildung" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Bildung suchen" tag="Bildung">Bildung</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/dradio" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach dradio suchen" tag="dradio">dradio</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Geschichte" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Geschichte suchen" tag="Geschichte">Geschichte</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Podcast" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Podcast suchen" tag="Podcast">Podcast</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Wissen" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Wissen suchen" tag="Wissen">Wissen</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „DRadio Kultur - Zeitfragen“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'11364', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „DRadio Kultur - Zeitfragen“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://dkulturzeitfragen.radio.de" class="js-link-external" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" title="„DRadio Kultur - Zeitfragen“ hören" target="_blank">
+http://dkulturzeitfragen.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fdkulturzeitfragen.radio.de&amp;notes=&amp;tags=&amp;title=DRadio Kultur - Zeitfragen;'}" class="icon-delicious js-link-external" title="„DRadio Kultur - Zeitfragen“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fdkulturzeitfragen.radio.de&amp;bm_notice=&amp;bm_description=DRadio Kultur - Zeitfragen&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„DRadio Kultur - Zeitfragen“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fdkulturzeitfragen.radio.de&amp;title=DRadio Kultur - Zeitfragen'}" class="icon-stumble js-link-external" title="„DRadio Kultur - Zeitfragen“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fdkulturzeitfragen.radio.de&amp;bodytext=&amp;tags=&amp;title=DRadio Kultur - Zeitfragen'}" class="icon-digg js-link-external" title="„DRadio Kultur - Zeitfragen“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fdkulturzeitfragen.radio.de&amp;title=DRadio Kultur - Zeitfragen&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„DRadio Kultur - Zeitfragen“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+
+
+Genießen Sie den kostenlosen Komfort von radio.de und hören Sie DRadio Kultur - Zeitfragen einfach per Internetradio. Auf dieser Seite finden Sie ein umfassende Auswahl von Webradio Sendern und Livestreams aus der ganzen Welt. Hier können Sie neben DRadio Kultur - Zeitfragen noch viele weitere Lieblingssender entdecken.
+
+
+
+							
+											
+						
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 64kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dkulturzeitfragen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("25"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Bildung:Geschichte:Wissen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("18"));
+document.write ("&amp;age_90_120=" + escape("4"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("23"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">DRadio Kultur - Zeitfragen</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturthema.radio.de/" class="channel-link" title="„DRadio Kultur - Thema“ hören">
+<span class="broadcast-name">DRadio Kultur - Thema</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dwissenkompakt.radio.de/" class="channel-link" title="„DRadio Wissen - Mein Tag kompakt“ hören">
+<span class="broadcast-name">DRadio Wissen - Mein Tag kompakt</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturfwt.radio.de/" class="channel-link" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören">
+<span class="broadcast-name">DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturwortwechsel.radio.de/" class="channel-link" title="„DRadio Kultur - Wortwechsel“ hören">
+<span class="broadcast-name">DRadio Kultur - Wortwechsel</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlffeature.radio.de/" class="channel-link" title="„Deutschlandfunk - Feature“ hören">
+<span class="broadcast-name">Deutschlandfunk - Feature</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dwissenzukunft.radio.de/" class="channel-link" title="„DRadio Wissen - Meine Zukunft“ hören">
+<span class="broadcast-name">DRadio Wissen - Meine Zukunft</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfstudiozeit.radio.de/" class="channel-link" title="„Deutschlandfunk - Studiozeit“ hören">
+<span class="broadcast-name">Deutschlandfunk - Studiozeit</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturpolitfeuilleton.radio.de/" class="channel-link" title="„DRadio Kultur - Politisches Feuilleton“ hören">
+<span class="broadcast-name">DRadio Kultur - Politisches Feuilleton</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturweltzeit.radio.de/" class="channel-link" title="„DRadio Kultur - Weltzeit“ hören">
+<span class="broadcast-name">DRadio Kultur - Weltzeit</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturimgespraech.radio.de/" class="channel-link" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören">
+<span class="broadcast-name">DRadio Kultur - Radiofeuilleton - Im Gespräch</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dkulturzeitfragen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("25"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Bildung:Geschichte:Wissen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("18"));
+document.write ("&amp;age_90_120=" + escape("4"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("23"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dkulturzeitfragen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("25"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Bildung:Geschichte:Wissen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("18"));
+document.write ("&amp;age_90_120=" + escape("4"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("23"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dkulturzeitfragen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("25"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Bildung:Geschichte:Wissen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("18"));
+document.write ("&amp;age_90_120=" + escape("4"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("23"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

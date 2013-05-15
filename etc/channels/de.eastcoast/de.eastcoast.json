@@ -1,0 +1,228 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/eastcoastgvl",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":2,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Eastcoast",
+    "subDomaine":"eastcoast",
+    "relayDisabled":false,
+    "rank":753,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Hip-Hop - Natürlich von der Eastcoast. Gut und böse. Hier gibt es knisternde Samples und knackige Raps.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2072_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2072_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Feinster HipHop von der Ostküste. Hier gibt es knisternde Samples und knackige Raps.",
+    "metaDataUrl":"http://dude.mp3streams.net/eastcoastgvl",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/eastcoastgvl",
+    "displaySubDomaine":"eastcoast",
+    "recentTitles":
+    [
+      "Lil Dap - Security Deposit (feat. Big Noyd & Twin)",
+      "Capone-N-Noreaga & Kool G Rap - My Life",
+      "The Beatnuts - Off The Books (feat. Big Pun and Cuban Linx)",
+      "J Dilla featuring Common - E=MC2",
+      "Large Professor - Sizzlin\'",
+      "Common & Sadat X - 1999 (Explicit)",
+      "Mobb Deep - Shook Ones",
+      "Jeru the Damaja - NY",
+      "AZ - Knowledge Freedon",
+      "Smif-N-Wessun - Bucktown",
+      "Common - High Expectations",
+      "Pharoahe Monch - Desire",
+      "The Crooklyn Dodgers - Return of The Crooklyn Dodgers",
+      "Mos Def - UMI Says (Explicit)",
+      "GZA the Genius - Pencil (feat. Masta Killa & RZA)",
+      "Jay-Z - Encore",
+      "Common - Go!",
+      "Busta Rhymes - Gimme Some More",
+      "Big L - Size \'Em Up (Explicit)",
+      "Mos Def & High and Mighty - B-Boy Document",
+      "Leaders of the New School - Syntax Era",
+      "Black Moon - Enta da Stage",
+      "M.O.P. - Ante Up (Remix feat. Busta Rhymes)",
+      "Pharoahe Monch - Push",
+      "J-Live - The Upgrade (feat. Posdanous & Oddisee)",
+      "50 Cent & Mobb Deep - Outta Control (Remix)",
+      "The Beatnuts - Sorry Miss Jackson",
+      "Pete Rock - We Roll (With Jim Jones & Max B)",
+      "Afu-Ra - Bigacts",
+      "J Dilla featuring Pharoahe Monch - Love",
+      "Pharoahe Monch - Let\'s Go",
+      "Pharoahe Monch - Welcome to the Terrordome",
+      "Hi-Tek - My Piano (feat. Dion",
+      "The Notorious B.I.G. - Ten Commandments",
+      "Brainsick Mob - East NY Theory",
+      "KRS-One - MC\'s Act Like They Don\'t Know",
+      "Ed O.G.                        - What U Got"
+    ],
+    "idType":2,
+    "descriptionPodcast":"",
+    "picture2Url":"http://static.radio.de/images/broadcasts/2072_2.png",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://radio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2072_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2072_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2072,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2072_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2072_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2072_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Hip-Hop",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Englisch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Eastcoast",
+    "picture3Url":"http://static.radio.de/images/broadcasts/2072_3.jpeg",
+    "streamUrl":"http://dude.mp3streams.net/eastcoastgvl",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":true,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2072_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":true,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2072_5.jpeg",
+    "subdomain":"eastcoast",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":1010,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/eastcoastgvl",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/eastcoastgvl",
+        "idBroadcast":2072,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

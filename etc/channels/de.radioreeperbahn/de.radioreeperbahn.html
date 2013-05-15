@@ -1,0 +1,2715 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+RADIO Reeperbahn -  Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="RADIO Reeperbahn (128kbps) - RADIO Reeperbahn ist der neue Musiksender für St. Pauli, Hamburg, Deutschland und die Welt über die sündigste Meile der Welt. RADIO Reeperbahn: Schwarz wie die Nacht. Rot wie die Sünde." />
+<meta property="og:title" content="RADIO Reeperbahn"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/9945_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://radioreeperbahn.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://radioreeperbahn.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366770998283" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366770998283" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://radioreeperbahn.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "radioreeperbahn",
+	
+	pageRequestUrl : "http://radioreeperbahn.radio.de/broadcast_info.jsf",
+	pageDomain : "radioreeperbahn.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"","author":"","stream":"http://mp3.radio-reeperbahn.de:80","testResult":null,"name":"","advertisement":false,"audioAdId":"","streamFormat":"SHOUTCAST","type":"STREAM","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":1,"epg":"","streamFormat":"SHOUTCAST","hasLinkingAgreement":false,"validated":true,"subTitle":"","seoTitle":"RADIO Reeperbahn - ","subDomaine":"radioreeperbahn","relayDisabled":false,"rank":908,"playableStateString":"FREE","idTeaser":0,"description":"RADIO Reeperbahn ist der neue Musiksender für St. Pauli, Hamburg, Deutschland und die Welt über die sündigste Meile der Welt. RADIO Reeperbahn: Schwarz wie die Nacht. Rot wie die Sünde.","picture2TransUrl":"http://static.radio.de/images/broadcasts/9945_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/9945_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/9945_6.jpeg","metaDataAvailable":true,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"RADIO Reeperbahn ist der neue Musiksender für St. Pauli, Hamburg, Deutschland und die Welt über die sündigste Meile der Welt.","metaDataUrl":"http://mp3.radio-reeperbahn.de:80","podcastUrls":[],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.radio-reeperbahn.de/player/radio-reeperbahn.m3u","displaySubDomaine":"radioreeperbahn","recentTitles":["Black Eyed Peas - I Gotta Feeling","CUBA CLUB - In My Eyes (Crew 7 Bootleg Remix)","Pussycat Dolls - Don't Cha (Dirty)","Rea Garvey - Can't Stand The Silence","REMADY  MANU-L - Higher Ground (Original Mix)","Enrique Iglesias - Finally Found You (Main)","Christina Aguilera - Dirty (ft. Redman)","Medina - Forever","Joe King Carrasco - Party Safari","Pitbull featuring Christina Aguilera - Feel This Moment","Van Halen - Jump (live)","Fun. - We Are Young (feat. Janelle Monáe)","Far East Movement - Change Your Life (Main)","MANIAN - I'm In Love With The DJ (Extended Mix)","Crayz-Town - Butterfly","BARRY MANILOW - Copacabana (At The Copa) (Mousse T's Extended Mix)","Justin Bieber feat.Big Sean - As Long As You Love Me","Die Fantastischen Vier - Die Da","Everlast - Blinded by the sun","Channel 5 - Isn't It You","ALEX MEGANE - Turn Me On (Original Mix)","Santana - Smooth","Chima - Morgen","Scooter - Shake That","Maroon 5 - Payphone (feat. Wiz Khalifa)","Right said Fred - Don't Talk Just Kiss","Lykke Li - I Follow Rivers (Groove RMX)","Snoop Dogg  David Guetta - Sweat (Snoop Dogg vs. David Guetta) [Remix]","DAVIS REDFIELD - A World Apart (Club Mix)","Modjo - Lady","Right Said Fred - Don't Talk Just Kiss","will.i.am feat Britney Spears - Scream  Shout","KYLIE MINOGUE - IN YOUR EYES","Sugababes Vs. Ce Ce Peniston - Hole In The Finally (Bootleg 2","Achim Reichel - Aloha Heja He","Frank Kohnert - Frank Kohnert - Sonata Eleven","Armand Van Helden - The Funk Phenomena (7 version)","Lady GaGa - Born This Way","Hamburger Arroganz - Livin´ in Hamburg","Emeli Sande - Next To Me","Damon Paul feat. Patricia Banks - Without You","Roxette - HOW DO YOU DO","Kelly Clarkson - Stronger (What Doesn't Kill You)","Carly Rae Jepsen - Call Me Maybe","HIGH HEELERZ FEAT. DJ KIM - Are You Ready? (Club Radio)","Rihanna - We Found Love (feat. Calvin Harris)","Marlon Roudette - New Age","Sunrise Avenue - Hollywood Hills","CULTURE BEAT - MR. VAIN","MURANO meets TOKA feat. TELLeen - Thru The Night )Radio Edit)","Bomfunk MC's - (Crack It) Something Going On","Psy -  Gangnam Style","The Beatles - A Hard Day's Night","The Wanted - Chasing The Sun","Linkin Park - BURN IT DOWN","Wham! - Freedom","Flo Rida - Let It Roll","Netsky - Come Alive","BINGO PLAYERS FEAT. FAR EAST MOVEMENT - Get Up (Rattle) (Vocal Extended Mix)","CUBA CLUB - SUAVEMENTE (Radio)"],"idType":1,"descriptionPodcast":"","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.radio-reeperbahn.de/","advertising":true,"picture1Url":"http://static.radio.de/images/broadcasts/9945_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/9945_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":9945,"picture1TransUrl":"http://static.radio.de/images/broadcasts/9945_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/9945_5_1.png","author":"","title":"","picture4Url":"http://static.radio.de/images/broadcasts/9945_4.jpeg","picture6Set":true,"tagsForDisplay":{"_type":"Webradio","_topic":"","_country":"Deutschland","_genre":"Eklektisch, Mainstream","_city":"Hamburg","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"RADIO Reeperbahn","picture3Url":"","streamUrl":"http://www.radio-reeperbahn.de/player/radio-reeperbahn.m3u","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/9945_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/9945_5.jpeg","subdomain":"radioreeperbahn","streamUrls":[{"sampleRate":44100,"id":2453046,"metaDataAvailable":true,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://mp3.radio-reeperbahn.de:80","streamFormat":"SHOUTCAST","streamUrl":"http://mp3.radio-reeperbahn.de:80","idBroadcast":9945,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"radioreeperbahn", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"9945", play:"radioreeperbahn"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Eklektisch:Mainstream:Pop:Rock"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("radioreeperbahn"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("-349"));
+document.write ("&amp;age_70_79=" + escape("-10"));
+document.write ("&amp;age_10_13=" + escape("-35"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("-87"));
+document.write ("&amp;age_90_120=" + escape("-2"));
+document.write ("&amp;age_40_49=" + escape("-197"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-78"));
+document.write ("&amp;age_20_29=" + escape("-315"));
+document.write ("&amp;age_60_69=" + escape("-106"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/radioreeperbahn/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „RADIO Reeperbahn“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/9945_4.jpeg" alt="RADIO Reeperbahn" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Eklektisch:Mainstream:Pop:Rock"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("radioreeperbahn"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("-349"));
+document.write ("&amp;age_70_79=" + escape("-10"));
+document.write ("&amp;age_10_13=" + escape("-35"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("-87"));
+document.write ("&amp;age_90_120=" + escape("-2"));
+document.write ("&amp;age_40_49=" + escape("-197"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-78"));
+document.write ("&amp;age_20_29=" + escape("-315"));
+document.write ("&amp;age_60_69=" + escape("-106"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">RADIO Reeperbahn</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Hamburg,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.radio-reeperbahn.de/'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „RADIO Reeperbahn“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+RADIO Reeperbahn ist der neue Musiksender für St. Pauli, Hamburg, Deutschland und die Welt über die sündigste Meile der Welt. RADIO Reeperbahn: Schwarz wie die Nacht. Rot wie die Sünde.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„RADIO Reeperbahn“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'9945', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">16</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">4.88</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'9945', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star4-5"
+stars="4-5"
+title="„RADIO Reeperbahn“ bewerten?"
+content="4.875">
+</a>
+<span class="big-rate-text">RADIO Reeperbahn&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „RADIO Reeperbahn“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„RADIO Reeperbahn“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<h2 class="h2">
+Radiosender Playlist bei „RADIO Reeperbahn“:
+</h2>
+</div>
+<div id ="recentlyPlayedList">
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body">
+
+
+
+
+<li class="playing">
+<div class="now-playing-list-track">Black Eyed Peas - I Gotta Feeling</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=Black Eyed Peas%20-%20I Gotta Feeling&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=I Gotta Feeling&artistTerm=Black Eyed Peas&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=Black Eyed Peas I Gotta Feeling'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="playing swfobject" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">CUBA CLUB - In My Eyes (Crew 7 Bootleg Remix)</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=CUBA CLUB%20-%20In My Eyes (Crew 7 Bootleg Remix)&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=In My Eyes (Crew 7 Bootleg Remix)&artistTerm=CUBA CLUB&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=CUBA CLUB In My Eyes (Crew 7 Bootleg Remix)'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">Pussycat Dolls - Don&#039;t Cha (Dirty)</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=Pussycat Dolls%20-%20Don't Cha (Dirty)&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=Don't Cha (Dirty)&artistTerm=Pussycat Dolls&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=Pussycat Dolls Don't Cha (Dirty)'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">Rea Garvey - Can&#039;t Stand The Silence</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=Rea Garvey%20-%20Can't Stand The Silence&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=Can't Stand The Silence&artistTerm=Rea Garvey&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=Rea Garvey Can't Stand The Silence'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">REMADY  MANU-L - Higher Ground (Original Mix)</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=REMADY  MANU%20-%20L - Higher Ground (Original Mix)&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=L - Higher Ground (Original Mix)&artistTerm=REMADY  MANU&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=REMADY  MANU L - Higher Ground (Original Mix)'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „RADIO Reeperbahn“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiohamburg.radio.de'}" bcastid="2371" title="„Radio Hamburg“ hören" id="currentlyPlayedStation_2371">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2371_1.jpeg" alt="„Radio Hamburg“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stpauli-podcast.radio.de'}" bcastid="4044" title="„GRAVIS FC ST. PAULI Podcast“ hören" id="currentlyPlayedStation_4044">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4044_1.gif" alt="„GRAVIS FC ST. PAULI Podcast“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://energyhamburg.radio.de'}" bcastid="6872" title="„ENERGY Hamburg“ hören" id="currentlyPlayedStation_6872">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6872_1.png" alt="„ENERGY Hamburg“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://fcstpaulifm.radio.de'}" bcastid="9602" title="„FC ST. PAULI.FM“ hören" id="currentlyPlayedStation_9602">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9602_1.jpeg" alt="„FC ST. PAULI.FM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://alsterradio.radio.de'}" bcastid="2309" title="„alsterradio 106,8 rock ´n pop“ hören" id="currentlyPlayedStation_2309">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2309_1.jpeg" alt="„alsterradio 106,8 rock ´n pop“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://917xfm.radio.de'}" bcastid="9255" title="„917xfm“ hören" id="currentlyPlayedStation_9255">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9255_1.jpeg" alt="„917xfm“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stpunk.radio.de'}" bcastid="9604" title="„ST. PUNK“ hören" id="currentlyPlayedStation_9604">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9604_1.jpeg" alt="„ST. PUNK“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioland.radio.de'}" bcastid="6691" title="„Radioland“ hören" id="currentlyPlayedStation_6691">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6691_1.jpeg" alt="„Radioland“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://adultradio.radio.de'}" bcastid="10146" title="„Adult Radio“ hören" id="currentlyPlayedStation_10146">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10146_1.jpeg" alt="„Adult Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://tide960.radio.de'}" bcastid="2002" title="„TIDE 96.0“ hören" id="currentlyPlayedStation_2002">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2002_1.jpeg" alt="„TIDE 96.0“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr903.radio.de'}" bcastid="2347" title="„NDR 90,3“ hören" id="currentlyPlayedStation_2347">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2347_1.gif" alt="„NDR 90,3“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://fresh80s.radio.de'}" bcastid="3358" title="„Radio fresh80s“ hören" id="currentlyPlayedStation_3358">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3358_1.jpeg" alt="„Radio fresh80s“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dieschlagerwelle.radio.de'}" bcastid="9481" title="„Die Schlager Welle“ hören" id="currentlyPlayedStation_9481">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9481_1.jpeg" alt="„Die Schlager Welle“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2easysounds.radio.de'}" bcastid="6717" title="„NDR 2 Easy Sounds“ hören" id="currentlyPlayedStation_6717">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6717_1.jpeg" alt="„NDR 2 Easy Sounds“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://njoytop30.radio.de'}" bcastid="6629" title="„N-JOY Top 30“ hören" id="currentlyPlayedStation_6629">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6629_1.gif" alt="„N-JOY Top 30“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiohamburg.radio.de'}" bcastid="2371" title="„Radio Hamburg“ hören" id="currentlyPlayedStation2_2371">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2371_1.jpeg" alt="„Radio Hamburg“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stpauli-podcast.radio.de'}" bcastid="4044" title="„GRAVIS FC ST. PAULI Podcast“ hören" id="currentlyPlayedStation2_4044">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4044_1.gif" alt="„GRAVIS FC ST. PAULI Podcast“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://energyhamburg.radio.de'}" bcastid="6872" title="„ENERGY Hamburg“ hören" id="currentlyPlayedStation2_6872">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6872_1.png" alt="„ENERGY Hamburg“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://fcstpaulifm.radio.de'}" bcastid="9602" title="„FC ST. PAULI.FM“ hören" id="currentlyPlayedStation2_9602">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9602_1.jpeg" alt="„FC ST. PAULI.FM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://alsterradio.radio.de'}" bcastid="2309" title="„alsterradio 106,8 rock ´n pop“ hören" id="currentlyPlayedStation2_2309">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2309_1.jpeg" alt="„alsterradio 106,8 rock ´n pop“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://917xfm.radio.de'}" bcastid="9255" title="„917xfm“ hören" id="currentlyPlayedStation2_9255">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9255_1.jpeg" alt="„917xfm“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stpunk.radio.de'}" bcastid="9604" title="„ST. PUNK“ hören" id="currentlyPlayedStation2_9604">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9604_1.jpeg" alt="„ST. PUNK“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioland.radio.de'}" bcastid="6691" title="„Radioland“ hören" id="currentlyPlayedStation2_6691">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6691_1.jpeg" alt="„Radioland“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://adultradio.radio.de'}" bcastid="10146" title="„Adult Radio“ hören" id="currentlyPlayedStation2_10146">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10146_1.jpeg" alt="„Adult Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://tide960.radio.de'}" bcastid="2002" title="„TIDE 96.0“ hören" id="currentlyPlayedStation2_2002">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2002_1.jpeg" alt="„TIDE 96.0“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr903.radio.de'}" bcastid="2347" title="„NDR 90,3“ hören" id="currentlyPlayedStation2_2347">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2347_1.gif" alt="„NDR 90,3“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://fresh80s.radio.de'}" bcastid="3358" title="„Radio fresh80s“ hören" id="currentlyPlayedStation2_3358">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3358_1.jpeg" alt="„Radio fresh80s“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dieschlagerwelle.radio.de'}" bcastid="9481" title="„Die Schlager Welle“ hören" id="currentlyPlayedStation2_9481">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9481_1.jpeg" alt="„Die Schlager Welle“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2easysounds.radio.de'}" bcastid="6717" title="„NDR 2 Easy Sounds“ hören" id="currentlyPlayedStation2_6717">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6717_1.jpeg" alt="„NDR 2 Easy Sounds“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://njoytop30.radio.de'}" bcastid="6629" title="„N-JOY Top 30“ hören" id="currentlyPlayedStation2_6629">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6629_1.gif" alt="„N-JOY Top 30“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_2371" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio Hamburg“ hören" linkobject="{'url':'http://radiohamburg.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio Hamburg“ hören" href="http://radiohamburg.radio.de">Radio Hamburg</a></span>
+<span class="title_2371 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4044" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„GRAVIS FC ST. PAULI Podcast“ hören" linkobject="{'url':'http://stpauli-podcast.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„GRAVIS FC ST. PAULI Podcast“ hören" href="http://stpauli-podcast.radio.de">GRAVIS FC ST. PAULI Podcast</a></span>
+<span class="title_4044 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: FC St. Pauli - FC Erzgebirge Aue 0 : 3</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6872" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ENERGY Hamburg“ hören" linkobject="{'url':'http://energyhamburg.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ENERGY Hamburg“ hören" href="http://energyhamburg.radio.de">ENERGY Hamburg</a></span>
+<span class="title_6872 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9602" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„FC ST. PAULI.FM“ hören" linkobject="{'url':'http://fcstpaulifm.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„FC ST. PAULI.FM“ hören" href="http://fcstpaulifm.radio.de">FC ST. PAULI.FM</a></span>
+<span class="title_9602 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2309" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„alsterradio 106,8 rock ´n pop“ hören" linkobject="{'url':'http://alsterradio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„alsterradio 106,8 rock ´n pop“ hören" href="http://alsterradio.radio.de">alsterradio 106,8 rock ´n pop</a></span>
+<span class="title_2309 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9255" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„917xfm“ hören" linkobject="{'url':'http://917xfm.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„917xfm“ hören" href="http://917xfm.radio.de">917xfm</a></span>
+<span class="title_9255 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9604" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ST. PUNK“ hören" linkobject="{'url':'http://stpunk.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ST. PUNK“ hören" href="http://stpunk.radio.de">ST. PUNK</a></span>
+<span class="title_9604 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6691" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radioland“ hören" linkobject="{'url':'http://radioland.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radioland“ hören" href="http://radioland.radio.de">Radioland</a></span>
+<span class="title_6691 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_10146" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Adult Radio“ hören" linkobject="{'url':'http://adultradio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Adult Radio“ hören" href="http://adultradio.radio.de">Adult Radio</a></span>
+<span class="title_10146 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Major Lazer - German Top 100 Single Charts - Get Free</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2002" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„TIDE 96.0“ hören" linkobject="{'url':'http://tide960.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„TIDE 96.0“ hören" href="http://tide960.radio.de">TIDE 96.0</a></span>
+<span class="title_2002 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2347" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 90,3“ hören" linkobject="{'url':'http://ndr903.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 90,3“ hören" href="http://ndr903.radio.de">NDR 90,3</a></span>
+<span class="title_2347 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3358" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio fresh80s“ hören" linkobject="{'url':'http://fresh80s.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio fresh80s“ hören" href="http://fresh80s.radio.de">Radio fresh80s</a></span>
+<span class="title_3358 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Heaven 17 - We Live So Fast</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9481" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Die Schlager Welle“ hören" linkobject="{'url':'http://dieschlagerwelle.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Die Schlager Welle“ hören" href="http://dieschlagerwelle.radio.de">Die Schlager Welle</a></span>
+<span class="title_9481 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Randfichten - Gute Freunde Kann Niemand Trennen</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6717" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 Easy Sounds“ hören" linkobject="{'url':'http://ndr2easysounds.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 Easy Sounds“ hören" href="http://ndr2easysounds.radio.de">NDR 2 Easy Sounds</a></span>
+<span class="title_6717 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6629" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„N-JOY Top 30“ hören" linkobject="{'url':'http://njoytop30.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„N-JOY Top 30“ hören" href="http://njoytop30.radio.de">N-JOY Top 30</a></span>
+<span class="title_6629 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „RADIO Reeperbahn“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Hamburg" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Hamburg suchen" tag="Hamburg">Hamburg</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Pop" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Pop suchen" tag="Pop">Pop</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Rock" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Rock suchen" tag="Rock">Rock</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Eklektisch" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Eklektisch suchen" tag="Eklektisch">Eklektisch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Mainstream" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Mainstream suchen" tag="Mainstream">Mainstream</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Mix" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Mix suchen" tag="Mix">Mix</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Reeperbahn" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach Reeperbahn suchen" tag="Reeperbahn">Reeperbahn</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „RADIO Reeperbahn“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'9945', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „RADIO Reeperbahn“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://radioreeperbahn.radio.de" class="js-link-external" linkobject="{'url':'http://radioreeperbahn.radio.de'}" title="„RADIO Reeperbahn“ hören" target="_blank">
+http://radioreeperbahn.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fradioreeperbahn.radio.de&amp;notes=&amp;tags=&amp;title=RADIO Reeperbahn;'}" class="icon-delicious js-link-external" title="„RADIO Reeperbahn“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fradioreeperbahn.radio.de&amp;bm_notice=&amp;bm_description=RADIO Reeperbahn&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„RADIO Reeperbahn“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fradioreeperbahn.radio.de&amp;title=RADIO Reeperbahn'}" class="icon-stumble js-link-external" title="„RADIO Reeperbahn“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fradioreeperbahn.radio.de&amp;bodytext=&amp;tags=&amp;title=RADIO Reeperbahn'}" class="icon-digg js-link-external" title="„RADIO Reeperbahn“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fradioreeperbahn.radio.de&amp;title=RADIO Reeperbahn&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„RADIO Reeperbahn“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+	
+						
+							
+								Über 5000 Radioprogramme mit nur einem Klick hören. RADIO Reeperbahn ist einer von unzähligen Internetradio Sendern die Sie kostenlos hören können. Nutzen Sie die Vielfalt der Webradio Welt und lassen Sie sich neue hörenswerte Sender und Podcast empfehlen. RADIO Reeperbahn ist nur der Anfang.
+							
+							
+
+
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Webradio
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 Stream 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Eklektisch:Mainstream:Pop:Rock"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("radioreeperbahn"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("-349"));
+document.write ("&amp;age_70_79=" + escape("-10"));
+document.write ("&amp;age_10_13=" + escape("-35"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("-87"));
+document.write ("&amp;age_90_120=" + escape("-2"));
+document.write ("&amp;age_40_49=" + escape("-197"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-78"));
+document.write ("&amp;age_20_29=" + escape("-315"));
+document.write ("&amp;age_60_69=" + escape("-106"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">RADIO Reeperbahn</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://stpauli-podcast.radio.de/" class="channel-link" title="„GRAVIS FC ST. PAULI Podcast“ hören">
+<span class="broadcast-name">GRAVIS FC ST. PAULI Podcast</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://energyhamburg.radio.de/" class="channel-link" title="„ENERGY Hamburg“ hören">
+<span class="broadcast-name">ENERGY Hamburg</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://fcstpaulifm.radio.de/" class="channel-link" title="„FC ST. PAULI.FM“ hören">
+<span class="broadcast-name">FC ST. PAULI.FM</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://alsterradio.radio.de/" class="channel-link" title="„alsterradio 106,8 rock ´n pop“ hören">
+<span class="broadcast-name">alsterradio 106,8 rock ´n pop</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://917xfm.radio.de/" class="channel-link" title="„917xfm“ hören">
+<span class="broadcast-name">917xfm</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://stpunk.radio.de/" class="channel-link" title="„ST. PUNK“ hören">
+<span class="broadcast-name">ST. PUNK</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radioland.radio.de/" class="channel-link" title="„Radioland“ hören">
+<span class="broadcast-name">Radioland</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://adultradio.radio.de/" class="channel-link" title="„Adult Radio“ hören">
+<span class="broadcast-name">Adult Radio</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://tide960.radio.de/" class="channel-link" title="„TIDE 96.0“ hören">
+<span class="broadcast-name">TIDE 96.0</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Eklektisch:Mainstream:Pop:Rock"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("radioreeperbahn"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("-349"));
+document.write ("&amp;age_70_79=" + escape("-10"));
+document.write ("&amp;age_10_13=" + escape("-35"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("-87"));
+document.write ("&amp;age_90_120=" + escape("-2"));
+document.write ("&amp;age_40_49=" + escape("-197"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-78"));
+document.write ("&amp;age_20_29=" + escape("-315"));
+document.write ("&amp;age_60_69=" + escape("-106"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Eklektisch:Mainstream:Pop:Rock"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("radioreeperbahn"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("-349"));
+document.write ("&amp;age_70_79=" + escape("-10"));
+document.write ("&amp;age_10_13=" + escape("-35"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("-87"));
+document.write ("&amp;age_90_120=" + escape("-2"));
+document.write ("&amp;age_40_49=" + escape("-197"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-78"));
+document.write ("&amp;age_20_29=" + escape("-315"));
+document.write ("&amp;age_60_69=" + escape("-106"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Eklektisch:Mainstream:Pop:Rock"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("radioreeperbahn"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("-349"));
+document.write ("&amp;age_70_79=" + escape("-10"));
+document.write ("&amp;age_10_13=" + escape("-35"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape(""));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;age_50_59=" + escape("-87"));
+document.write ("&amp;age_90_120=" + escape("-2"));
+document.write ("&amp;age_40_49=" + escape("-197"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("-78"));
+document.write ("&amp;age_20_29=" + escape("-315"));
+document.write ("&amp;age_60_69=" + escape("-106"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

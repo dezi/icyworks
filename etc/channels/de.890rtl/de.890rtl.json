@@ -1,0 +1,288 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://80.237.158.40/890rtl-128.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://80.237.158.40/890rtl-64.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://80.237.158.40/890rtl-48.aac",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"89.0 RTL ",
+    "subDomaine":"890rtl",
+    "relayDisabled":false,
+    "rank":23,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die besten Hits von heute! 89.0 RTL sendet auf der reichweitenstärksten Frequenz Deutschlands für 10,5 Millionen Menschen in Niedersachsen, Sachsen-Anhalt, Thüringen und Hessen. Mit dem 89.0 RTL Stream erreicht die Playlist des Senders jetzt die ganze Welt. Hier gibt es die Charts und exklusive 89.0 RTL Hörspiele.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1394_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1394_3_1.png",
+    "longitude":12,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1394_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die besten Pop, Mainstream und R\'n\'B Hits von heute! Schnell, jung und authentisch jetzt weltweit mit dem 89.0 RTL Live Stream.",
+    "metaDataUrl":"http://80.237.158.40/890rtl-128.mp3",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":51.5,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://sites.89.0rtl.de/streams/mp3_128k.m3u",
+    "displaySubDomaine":"890rtl",
+    "recentTitles":
+    [
+      "#",
+      "LOREEN - PI: EUPHORIA",
+      "THE LUMINEERS - HO HEY",
+      "ADELE - SKYFALL",
+      "ASAF AVIDAN - ONE DAY",
+      "HOOBASTANK - THE REASON",
+      "LINKIN\' PARK - CASTLE OF GLASS",
+      "ALICIA KEYS - GIRL ON FIRE",
+      "TAIO CRUZ FEAT. PITBULL - THERE SHE GOES",
+      "JULI - DIESES LEBEN",
+      "COLBIE CAILLAT - FALLIN\' FOR YOU",
+      "DAVID GUETTA FEAT. USHER - WITHOUT YOU",
+      "EMELI SANDÈ - READ ALL ABOUT IT",
+      "ONE REPUBLIC - IF I LOSE MYSELF",
+      "MILOW - AYO TECHNOLOGY",
+      "RIHANNA - DIAMONDS",
+      "FUN. FEAT. JANELLE MONÁE - WE ARE YOUNG",
+      "JAMES ARTHUR - JV: IMPOSSIBLE",
+      "KATY PERRY - HOT\'N\'COLD",
+      "LINKIN\' PARK - BURN IT DOWN",
+      "SILBERMOND - HIMMEL AUF",
+      "THE SCRIPT - HALL OF FAME",
+      "NELLY FURTADO - SAY IT RIGHT",
+      "BOSSE - SCHÖNSTE ZEIT",
+      "FAR EAST MOVEMENT FEAT. - LIVE MY LIFE",
+      "ELLIE GOULDING - LIGHTS",
+      "TRAIN - HEY, SOUL SISTER",
+      "PITBULL Feat. CHRISTINA AGUILE - FEEL THIS MOMENT",
+      "CHRISTINA PERRI - JAR OF HEARTS",
+      "SWEDISH HOUSE MAFIA - DON\'T YOU WORRY CHILD",
+      "3 DOORS DOWN - HERE WITHOUT YOU",
+      "JUPITER JONES - STILL",
+      "DANIEL POWTER - BAD DAY",
+      "LENA - STARDUST",
+      "PINK - PI: TRY",
+      "RIHANNA FEAT. MIKKY EKKO - STAY",
+      "BIRDY - PEOPLE HELP THE PEOPLE",
+      "PITBULL - BACK IN TIME",
+      "PASSENGER - LET HER GO",
+      "LANA DEL REY - SUMMERTIME SADNESS",
+      "JUSTIN TIMBERLAKE - JV: MIRRORS",
+      "NICKELBACK/CHAD KROEGER - PHOTOGRAPH",
+      "GOSSIP - MOVE IN THE RIGHT DIRECTION"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":3,
+    "streamContentFormat":"MP3",
+    "link":"http://www.89.0rtl.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1394_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1394_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1394,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1394_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1394_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1394_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Pop",
+      "_city":"Halle (Saale)",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"89.0 RTL",
+    "picture3Url":"",
+    "streamUrl":"http://sites.89.0rtl.de/streams/mp3_128k.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1394_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1394_5.gif",
+    "subdomain":"890rtl",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458284,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://80.237.158.40/890rtl-128.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://80.237.158.40/890rtl-128.mp3",
+        "idBroadcast":1394,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":2458311,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://80.237.158.40/890rtl-64.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://80.237.158.40/890rtl-64.mp3",
+        "idBroadcast":1394,
+        "bitRate":64
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":2458300,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"AAC",
+        "metaDataUrl":"http://80.237.158.40/890rtl-48.aac",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://80.237.158.40/890rtl-48.aac",
+        "idBroadcast":1394,
+        "bitRate":48
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

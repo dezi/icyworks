@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://87.118.78.25:8000",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"HR24Discofox - HR 24 - ",
+    "subDomaine":"hr24discofox",
+    "relayDisabled":false,
+    "rank":1906,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"HR24Discofox lässt musiktechnisch keine Wünsche offen",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/15258_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/15258_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/15258_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"HR24Discofox lässt musiktechnisch keine Wünsche offen",
+    "metaDataUrl":"http://87.118.78.25:8000",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":192,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://87.118.78.25:8000",
+    "displaySubDomaine":"hr24discofox",
+    "recentTitles":
+    [
+      "Andreas Hammerschmidt - Du Musst Ein Engel Sein",
+      "Joerg Bausch - Ein Schatz Ohne Silber Und Gold",
+      "Bernhard Brink - Super Geile Zeit",
+      "Top Schlager (The Best) - CD 2 - 14 - Andy Fox - Nehm` wir mal an",
+      "Angelika Martin - Schnee Von Gestern  Oberlausitz-Mix",
+      "Joel Gutje - Ich Bin Doch Nicht Zwergnase",
+      "Mike Bauhaus - Diesmal Will Ich Liebe",
+      "Matthias Reim - Du Bist Mein Glueck  Clubmix",
+      "Cevin - Mein Leben Fuer Dich",
+      "Traenen  Discofox Rmx 011  - DJ Tzi  Kate Hall",
+      "Mike Bauhaus - Der Himmel Kann Warten  Heaven Mix",
+      "Gina T. - Little Butterfly",
+      "David May feat Kelvin Scott - Ill Be Watching You",
+      "Muff MC June - Teufelsritt",
+      "Marco Kloss - Wir Sind Doch Nicht Be",
+      "Nico Gemba - Einen Stern  Der Deinen Namen Traegt",
+      "Marco Kloss - Solo Tu",
+      "Oliver Haidt - Heut Nacht  Party Mix",
+      "02 - Graziano - Die Eine Grosse Liebe",
+      "Franky Leone - Die Frau Mit Dem Wahnsinnsblick",
+      "Joerg Bausch - Er Sitzt Auf Meinem Thron",
+      "Diana - Rakete Ins Weltall",
+      "Joel Gutje - Frauenversteher",
+      "Helene Fischer - Die Sonne Kann Warten  DJ Mix",
+      "Thomas Strack - Halt Mich Fest  Maxi Remix",
+      "Fantasy - Alle Wissen Es Schon",
+      "Siggi Rose - Sie Hat Den Teufel Im Leib",
+      "17 - Steirerbluat - Ich Hol Dir Vom Himmel Die Sterne (Partymix 2011)",
+      "Top Schlager (The Best) - CD 1 - 03 - Bernhard Brink - Ich bin nicht gut fuer Dich",
+      "Lollies - Mallorca Party",
+      "Norman Langen - Wenn Ich Koennte Wie Ich Wollte",
+      "Denise - Ich Tanz Gern Allein",
+      "Marta Rosinski - Sterne",
+      "11. Howard Carpendale  Kim Harding - Du Bist Die Antwort Fr Mich",
+      "Christian Franke - Ich Wuensch Dir Die Hoelle Auf Erden  2012 Remix",
+      "DJ Oetzi - Ich Will Mit Dir Fliegen",
+      "Matthias Carras feat. Sandra Diano - Perche No",
+      "Mike Bauhaus - Goodbye",
+      "Isabella May - Ch Will Zurueck In Deinen Himme",
+      "Joerg Bausch - Leuchtturm  DJ Mix",
+      "114 Chima - Morgen",
+      "Juergen Peter - Nelia",
+      "Peter Lorenz - Samstagnacht In Der Stadt  Fox Remix",
+      "Leon Dee - Doch Wenn Du Gehst  Dann Gehst Du Zum Teufel  Remix",
+      "Mario Pielka - Angelina",
+      "Cascada - One More Night",
+      "Fatma Kar - Schiff Ahoi",
+      "Die Grafen - Versteh Doch  New Dance Remix",
+      "Matze Knop - Nummero Uno",
+      "Hansi Suessenbach - Doch Wenn Ich Durch Die Strassen Geh",
+      "DJ Snake - Love Hurts",
+      "FANTASY - ENDSTATION SEHNSUCHT-REMIX",
+      "Top Schlager (The Best) - CD 1 - 01 - Brunner  Brunner - Ich wuerd` es immer wieder tun mit Dir",
+      "Fancy - Feuer  Eis  Slice Me Nice",
+      "Jeeen - Tanz Heut Nacht",
+      "Klaus Hanslbauer - Es Koennte Gar Nicht Schoener Sein",
+      "Top Schlager (The Best) - CD 1 - 02 - Simone - Die Nacht als sie fortlief"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.HR24Discofox.de ",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/15258_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/15258_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":15258,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/15258_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/15258_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/15258_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Discofox, Hits",
+      "_city":"Bad Orb",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"HR24Discofox ",
+    "picture3Url":"",
+    "streamUrl":"http://87.118.78.25:8000",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/15258_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/15258_5.gif",
+    "subdomain":"hr24discofox",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":15380,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.118.78.25:8000",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://87.118.78.25:8000",
+        "idBroadcast":15258,
+        "bitRate":192
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

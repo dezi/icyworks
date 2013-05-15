@@ -1,0 +1,260 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.radiogroup.de:8000/io",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.telvi.de:8000/antenne_idar",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Idar-Oberstein - ",
+    "subDomaine":"radioidaroberstein",
+    "relayDisabled":false,
+    "rank":1463,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die meiste Musik in Rheinland-Pfalz",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/15018_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/15018_3_1.png",
+    "longitude":7.322073,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/15018_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die meiste Musik in Rheinland-Pfalz",
+    "metaDataUrl":"http://stream.radiogroup.de:8000/io",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.702068,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.radiogroup.de:8000/io",
+    "displaySubDomaine":"radioidaroberstein",
+    "recentTitles":
+    [
+      "#",
+      "AGNES - Release me (87.6 Radio Idar-Oberstein)",
+      "LUXUSLAERM - 1000 km bis zum meer (87.6 Radio Idar-Oberstein)",
+      "PHILLIP PHILLIPS - Home (87.6 Radio Idar-Oberstein)",
+      "KERI HILSON - I like (87.6 Radio Idar-Oberstein)",
+      "ED SHEERAN - Lego house (87.6 Radio Idar-Oberstein)",
+      "MADONNA - Papa don\'t preach (87.6 Radio Idar-Oberstein)",
+      "SHANIA TWAIN - I\'m gonna getcha good (87.6 Radio Idar-Oberstein)",
+      "CARLY SIMON - You\'re so vain (87.6 Radio Idar-Oberstein)",
+      "ONEREPUBLIC - If i lose myself (87.6 Radio Idar-Oberstein)",
+      "KINGS OF LEON - Sex on fire (87.6 Radio Idar-Oberstein)",
+      "LANA DEL REY - Video games (87.6 Radio Idar-Oberstein)",
+      "ECHT - Du trägst keine liebe in dir (87.6 Radio Idar-Oberstein)",
+      "JENNIFER LOPEZ - On the floor (87.6 Radio Idar-Oberstein)",
+      "ROD STEWART - Baby jane (87.6 Radio Idar-Oberstein)",
+      "KELLY CLARKSON - Already gone (87.6 Radio Idar-Oberstein)",
+      "GRADUATES - Don\'t fade away (87.6 Radio Idar-Oberstein)",
+      "NELLY - Hey porsche (87.6 Radio Idar-Oberstein)",
+      "BAG RAIDERS - Way back home (87.6 Radio Idar-Oberstein)",
+      "PRINCE - When doves cry (87.6 Radio Idar-Oberstein)",
+      "PINK FEAT. NATE RUESS - Just give me a reason (87.6 Radio Idar-Oberstein)",
+      "BLUE - Without you (87.6 Radio Idar-Oberstein)",
+      "CHRISTINA STüRMER - Millionen lichter (87.6 Radio Idar-Oberstein)",
+      "MARLON ROUDETTE - Anti hero (87.6 Radio Idar-Oberstein)",
+      "CHRIS REA - Fool if you think it\'s over (87.6 Radio Idar-Oberstein)",
+      "BON JOVI - Always (87.6 Radio Idar-Oberstein)",
+      "TINA TURNER - Typical male (87.6 Radio Idar-Oberstein)",
+      "SEAL - Amazing (87.6 Radio Idar-Oberstein)",
+      "MELANIE C - The moment you believe (87.6 Radio Idar-Oberstein)",
+      "HOOTERS - Johnny b. (87.6 Radio Idar-Oberstein)",
+      "BLACK EYED PEAS - Shut up (87.6 Radio Idar-Oberstein)",
+      "BEYONCE - If i were a boy (87.6 Radio Idar-Oberstein)",
+      "LEVEL 42 - Lessons in love (87.6 Radio Idar-Oberstein)",
+      "NENA - In meinem leben (87.6 Radio Idar-Oberstein)",
+      "DAFT PUNK - Get lucky (87.6 Radio Idar-Oberstein)",
+      "JESSIE J - Domino (87.6 Radio Idar-Oberstein)",
+      "JONAS MYRIN - Day of the battle (87.6 Radio Idar-Oberstein)",
+      "CRO - Einmal um die welt (87.6 Radio Idar-Oberstein)",
+      "ROXETTE - It must have been love (87.6 Radio Idar-Oberstein)",
+      "THE CALLING - Wherever you will go (87.6 Radio Idar-Oberstein)",
+      "GABRIELLE - When a woman (87.6 Radio Idar-Oberstein)",
+      "ASAF AVIDAN & THE MOJOS - One day reckogning song (87.6 Radio Idar-Oberstein)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-io.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/15018_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/15018_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":15018,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/15018_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/15018_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/15018_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Hits, Mainstream",
+      "_city":"Idar-Oberstein",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Idar-Oberstein",
+    "picture3Url":"",
+    "streamUrl":"http://stream.radiogroup.de:8000/io",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/15018_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/15018_5.jpeg",
+    "subdomain":"radioidaroberstein",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":14971,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.radiogroup.de:8000/io",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.radiogroup.de:8000/io",
+        "idBroadcast":15018,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":14972,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"AAC",
+        "metaDataUrl":"http://stream.telvi.de:8000/antenne_idar",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.telvi.de:8000/antenne_idar",
+        "idBroadcast":15018,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

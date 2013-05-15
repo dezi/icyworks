@@ -1,0 +1,246 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus30.leonex.de:25428",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Musikladenradio - Musikladen, ",
+    "subDomaine":"musikladenradio",
+    "relayDisabled":false,
+    "rank":1238,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Musikladenradio sendet das Beste aus 70ern, 80ern und Schlager!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10415_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10415_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10415_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Musikladenradio sendet das Beste aus 70ern, 80ern und Schlager!",
+    "metaDataUrl":"http://streamplus30.leonex.de:25428",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://streamplus30.leonex.de:25428",
+    "displaySubDomaine":"musikladenradio",
+    "recentTitles":
+    [
+      "Pet Shop Boys - 1986 - Suburbia",
+      "John Kincade - Big Hand For Annie",
+      "Rick Astley - 1987 - Never Gonna Give You Up",
+      "Hamilton Bohannon - 1975 - Disco Stomp",
+      "Alphaville - 1986 - Dance with me",
+      "Dee D Jackson - Automatic Lover",
+      "Bad Boys Blue - 1989 - Lady In Black",
+      "Eric Carmen - 1988 - Hungry Eyes",
+      "Bee Gees - 1978 - Night Fever",
+      "Whitney Houston - 1997 - Step By Step",
+      "Mike Oldfield - 1989 - Innocent",
+      "Eddy Grant - 1983 - Electric avenue",
+      "Barry Blue - Dancin` (On A Saturdaynight)",
+      "Boney M - 1985 - Happy Song",
+      "Baltimora - 1985 - Tarzan Boy",
+      "Sheila  B. Devotion - 1980 - Spacer",
+      "The Party Zone - 1984 - Let the music play",
+      "Ryan Paris - 1983 - Dolce vita",
+      "Righeira - 1983 - Vamos a la playa",
+      "Raggio Di Luna - 1985 - Comanchero",
+      "P. Lion - 1984 - Happy children",
+      "Miko Mission - How Old Are You",
+      "Moti Special - 1985 - Cold Days, Hot Nights",
+      "Max Him - 1986 - Japanese Girl",
+      "Michael Sembello - Maniac",
+      "Kano - 1983 - Another life",
+      "Regina - 1986 - Baby Love",
+      "Fox The Fox - 1984 - Precious little diamond",
+      "Michael Jackson - 1988 - The Way You Make Me Feel",
+      "Jimmy Bo Horne - Spank",
+      "Johnny O. - Fantasy Girl",
+      "Spagna - Call Me",
+      "Inner City - Big Fun",
+      "Shannon - my heart`s divided",
+      "Madonna - Like A Prayer",
+      "Tears for Fears - Mad World",
+      "Luv` - 1979 - (Ooh) Yes I Do",
+      "Paul Hardcastle - Nineteen",
+      "Oliver Onions - Just a Good boy",
+      "Dalbello - 1984 - Animal",
+      "Jennifer Rush - 25 Lovers",
+      "Roxette - 1991 - The big L",
+      "Whitney  Houston - My_Name_is_not_Susan",
+      "UKW - 1982 - Ich will",
+      "UB40 - Red Red Wine",
+      "Tight Fit - 1982 - The Lion Sleeps Tonight",
+      "Sugar And The Lollipops - I Can Dance",
+      "Simple Minds - 19.10. 1986 - Alive And Kicking",
+      "Peter Maffay - samstag abend in unserer ...",
+      "Rubettes - 1974 - Sugar baby love",
+      "Pulp - Different Class - Disco 2000",
+      "Oliver Onions - Bulldozer",
+      "Marvin Gaye  Kim Weston - 1967 - It Takes Two",
+      "Eurythmics - Here Comes The Rain Again",
+      "Coast To Coast - Do The Hucklebuck"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.musikladen-events.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10415_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10415_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10415,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10415_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10415_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10415_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"70er, 80er",
+      "_city":"Nordstemmen",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Musikladenradio",
+    "picture3Url":"",
+    "streamUrl":"http://streamplus30.leonex.de:25428",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10415_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10415_5.jpeg",
+    "subdomain":"musikladenradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":8840,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus30.leonex.de:25428",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus30.leonex.de:25428",
+        "idBroadcast":10415,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

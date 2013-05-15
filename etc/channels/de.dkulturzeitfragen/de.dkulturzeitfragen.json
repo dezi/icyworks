@@ -1,0 +1,872 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703886",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+      "testResult":null,
+      "name":"Lass es krachen! Die Kunst der politischen Provokation",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700681",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3",
+      "testResult":null,
+      "name":"Wenn alle Brünnlein fließen - Die Sicherheit des deutschen Wassers",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698925",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3",
+      "testResult":null,
+      "name":"Wiedergänger mit langem Bart - Die Marxsche Theorie und die Krisen des Kapitalismus",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697218",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3",
+      "testResult":null,
+      "name":"Schröders Ich-AG - Wie hat uns die Agenda 2010 verändert?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695378",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3",
+      "testResult":null,
+      "name":"Solidarität! - Ein nimmermüder Kampfbegriff",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693715",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/18/drk_20130218_1930_c54fa90a.mp3",
+      "testResult":null,
+      "name":"Gute Banken - schlechte Banken - Verbraucherschutz nach der Lehman-Pleite",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691696",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/11/drk_20130211_1930_22129c92.mp3",
+      "testResult":null,
+      "name":"Die Kunst des großen Bauens - Warum Bauzeiten und Budgets in Deutschland oft nicht eingehalten ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689895",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/04/drk_20130204_1930_db829a10.mp3",
+      "testResult":null,
+      "name":"Hier geblieben - Ältere Migranten in Deutschland",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687997",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/25/drk_20130125_1930_d4ff1d94.mp3",
+      "testResult":null,
+      "name":"Heimat in unsicheren Zeiten - Auf der Suche nach Halt und Sicherheit",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686154",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/21/drk_20130121_1930_cebfadfe.mp3",
+      "testResult":null,
+      "name":"Grenzenlos glücklich? - Deutsch-französische Paare und ihre Geschichte",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684353",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/14/drk_20130114_1930_37ffde49.mp3",
+      "testResult":null,
+      "name":"Humboldt und die Effizienz - Über die Ökonomisierung der Hochschulen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682402",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/07/drk_20130107_1930_cc9c040d.mp3",
+      "testResult":null,
+      "name":"Unsichtbare Zwerge mit großer Zukunft - Über Risiken und Nebenwirkungen von Nanopartikeln",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17677854",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_5e4a5a3d.mp3",
+      "testResult":null,
+      "name":"Die Lust am Untergang - Warum die Apokalypse das Leben bereichert",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17677855",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_79c30ea9.mp3",
+      "testResult":null,
+      "name":"Die Apokalypse in der Religion: Warum Gemeinschaften das Weltende brauchen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675284",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/12/10/drk_20121210_1930_6766d788.mp3",
+      "testResult":null,
+      "name":"Retten, was zu retten ist - Ein Tag mit der Bankerin Gabriele Müller",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672683",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/12/03/drk_20121203_1930_80c32606.mp3",
+      "testResult":null,
+      "name":"Der lange Weg zur grünen Wiese - Was geschieht in den stillgelegten deutschen Atomreaktoren?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17670205",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/11/26/drk_20121126_1930_5a8e7e33.mp3",
+      "testResult":null,
+      "name":"Umstrittene Spekulationsobjekte - Agrarrohstoffe als Finanzprodukte",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667669",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/11/19/drk_20121119_1930_740d7f1e.mp3",
+      "testResult":null,
+      "name":"Nicht tödlich - meistens - Neue Waffen für die Welt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17665328",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/11/12/drk_20121112_1930_3d1d485b.mp3",
+      "testResult":null,
+      "name":"Die doppelte Emanzipation - Über die neue Jungen- und Männerpolitik",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17661602",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/11/05/drk_20121105_1930_d6912fd3.mp3",
+      "testResult":null,
+      "name":"Wo bitte geht\'s nach oben? - Über die Durchlässigkeit der deutschen Gesellschaft",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17642177",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/10/29/drk_20121029_1930_ffdf7668.mp3",
+      "testResult":null,
+      "name":"Schlagen und demütigen - Wenn Eltern die Kontrolle verlieren",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17619730",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/10/22/drk_20121022_1930_49bb5561.mp3",
+      "testResult":null,
+      "name":"Otto Moralverbraucher - Vom Sinn und Unsinn engagierten Einkaufens",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17595079",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/10/15/drk_20121015_1930_33198655.mp3",
+      "testResult":null,
+      "name":"\"Wir sehn uns vor Gericht!\" - Zur Verrechtlichung des Sozialen und Politischen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17570398",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2012/10/08/drk_20121008_1930_3ca14f7f.mp3",
+      "testResult":null,
+      "name":"Hoffnung Alemania - Eurokrisen-Flüchtlinge in Deutschland",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"Die Beiträge der Sendung Zeitfragen",
+    "seoTitle":"DRadio Kultur - Zeitfragen",
+    "subDomaine":"dkulturzeitfragen",
+    "relayDisabled":false,
+    "rank":2245,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/11364_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/11364_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/11364_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"",
+    "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Lass es krachen! Die Kunst der politischen Provokation",
+        "episode":0,
+        "description":"<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "published":"Mon, 08 Apr 2013 17:30:08 GMT",
+        "bitRate":64,
+        "contentLength":14205152
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wenn alle Brünnlein fließen - Die Sicherheit des deutschen Wassers",
+        "episode":1,
+        "description":"<img src=\"http://www.dradio.de/images/41393/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Trinkwasser fließt hierzulande - laut Aussage der Gesundheitsämter - als am besten kontrolliertes Lebensmittel in jeden Haushalt. Trotzdem finden sich darin regelmäßig erhöhte Mengen von Krankheitserregern, Schwermetallen oder Chemikalien - seit neuestem auch Uran.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/18/drk_20130318_1930_02b570c3.mp3",
+        "published":"Mon, 18 Mar 2013 18:30:07 GMT",
+        "bitRate":64,
+        "contentLength":28484019
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wiedergänger mit langem Bart - Die Marxsche Theorie und die Krisen des Kapitalismus",
+        "episode":2,
+        "description":"<img src=\"http://www.dradio.de/images/53469/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">In den Jahrzehnten nach dem Zusammenbruch des Sozialismus spielte die Marx\'sche Theorie keine Rolle mehr. War sie schlecht oder hatte sie nur ein Imageproblem? Zum 130. Todestag des Ökonomen und Gesellschaftstheoretikers - eine Umschau unter Experten.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/11/drk_20130311_1930_fc58c0bd.mp3",
+        "published":"Mon, 11 Mar 2013 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":28468173
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schröders Ich-AG - Wie hat uns die Agenda 2010 verändert?",
+        "episode":3,
+        "description":"<img src=\"http://www.dradio.de/images/43414/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im März 2003, vor zehn Jahren, hält der damalige Bundeskanzler Gerhard Schröder im Bundestag eine Rede - mit maßgeblichen Folgen für die Zukunft der Bundesrepublik. Die Agenda 2010 bringt unter anderem Hartz IV, Ich-AGs und Montagsdemonstrationen mit sich.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/04/drk_20130304_1930_a608b243.mp3",
+        "published":"Mon, 04 Mar 2013 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":28850145
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Solidarität! - Ein nimmermüder Kampfbegriff",
+        "episode":4,
+        "description":"<img src=\"http://www.dradio.de/images/91413/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Das Wort Solidarität führen Politiker oft im Munde, aber auch Kirchenvertreter, Gewerkschafter und andere gesellschaftlichen Gruppen bemühen gern den Begriff, wenn es um die Durchsetzung bestimmter Interessen geht. Doch wie steht es heute um den Kampf für gleiche Ziele und Werte?<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/25/drk_20130225_1930_0f134813.mp3",
+        "published":"Mon, 25 Feb 2013 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":28471926
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gute Banken - schlechte Banken - Verbraucherschutz nach der Lehman-Pleite",
+        "episode":5,
+        "description":"<img src=\"http://www.dradio.de/images/86911/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Bankberater sind dazu verpflichtet, ihre Kunden umfassend über die Risiken von Finanzprodukten zu informieren, so hat es der Gesetzgeber nach der Lehman-Pleite noch einmal ausdrücklich festgelegt. Bei der Umsetzung dieser Vorgaben zeigen sich jedoch eklatante Mängel. Banken und Versicherungen tun sich nach wie vor schwer mit den Rechten ihrer Kunden. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/18/drk_20130218_1930_c54fa90a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/18/drk_20130218_1930_c54fa90a.mp3",
+        "published":"Mon, 18 Feb 2013 18:30:11 GMT",
+        "bitRate":64,
+        "contentLength":28440234
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Kunst des großen Bauens - Warum Bauzeiten und Budgets in Deutschland oft nicht eingehalten ...",
+        "episode":6,
+        "description":"<img src=\"http://www.dradio.de/images/73691/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Ob die Hamburger Elbphilharmonie, der Berliner Flughafen oder Stuttgart 21 - die Liste der verpatzten Großprojekte in Deutschland ist lang. Doch woran liegt es, dass gerade Projekte, die von der öffentlichen Hand finanziert werden, aus dem Ruder laufen? <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/11/drk_20130211_1930_22129c92.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/11/drk_20130211_1930_22129c92.mp3",
+        "published":"Mon, 11 Feb 2013 18:30:10 GMT",
+        "bitRate":64,
+        "contentLength":14186432
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hier geblieben - Ältere Migranten in Deutschland",
+        "episode":7,
+        "description":"<img src=\"http://www.dradio.de/images/36929/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Weder hatten viele der Zuwanderer selbst ursprünglich vorgehabt, in der Fremde alt zu werden, noch war dies seitens der deutschen Gesellschaft so vorgesehen. Doch viele sind geblieben: So leben heute eineinhalb Millionen über 65-Jährige mit Migrationshintergrund in Deutschland.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/04/drk_20130204_1930_db829a10.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/04/drk_20130204_1930_db829a10.mp3",
+        "published":"Mon, 04 Feb 2013 18:30:10 GMT",
+        "bitRate":64,
+        "contentLength":14196416
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Heimat in unsicheren Zeiten - Auf der Suche nach Halt und Sicherheit",
+        "episode":8,
+        "description":"<img src=\"http://www.dradio.de/images/85496/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Jeder hat sie wenigstens einmal gehabt, viele sehnen sich nach ihr, für manche hat sie immer noch den Ruch der Deutschtümelei wie bei den Nazis. Die haben die Heimat auch als erste wieder politisch entdeckt und waren damit vor allem in den neuen Bundesländern erfolgreich. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/25/drk_20130125_1930_d4ff1d94.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/25/drk_20130125_1930_d4ff1d94.mp3",
+        "published":"Mon, 28 Jan 2013 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14140672
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Grenzenlos glücklich? - Deutsch-französische Paare und ihre Geschichte",
+        "episode":9,
+        "description":"<img src=\"http://www.dradio.de/images/79429/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Flitterwochen, Vernunftehe, Seitensprung, Rosenkrieg: Für das deutsch-französische Verhältnis muss in der Politik immer wieder das Paar als Metapher herhalten. Aber wie sieht es tatsächlich im Alltag deutsch-französischer Paare aus?\n<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/21/drk_20130121_1930_cebfadfe.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/21/drk_20130121_1930_cebfadfe.mp3",
+        "published":"Mon, 21 Jan 2013 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14197664
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Humboldt und die Effizienz - Über die Ökonomisierung der Hochschulen",
+        "episode":10,
+        "description":"<img src=\"http://www.dradio.de/images/73123/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die deutschen Hochschulen verändern sich. Aus altehrwürdigen Universitäten werden Wissensbetriebe, die sich wie international agierende Unternehmen verhalten. Effizienz, Benchmarking, Konkurrenzfähigkeit heißen die Stichworte.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/14/drk_20130114_1930_37ffde49.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/14/drk_20130114_1930_37ffde49.mp3",
+        "published":"Mon, 14 Jan 2013 18:30:30 GMT",
+        "bitRate":64,
+        "contentLength":14052480
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Unsichtbare Zwerge mit großer Zukunft - Über Risiken und Nebenwirkungen von Nanopartikeln",
+        "episode":11,
+        "description":"<img src=\"http://www.dradio.de/images/70374/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Sie sind Zwerge. Die Größe eines Nanos misst sich in Nanometern. Ein Nanometer ist der millionste Teil eines Millimeters. Diese Partikel, Produkte der Nanotechnologie, zeigen andere Eigenschaften als ihre großen natürlichen Materialverwandten. \n<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/07/drk_20130107_1930_cc9c040d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/07/drk_20130107_1930_cc9c040d.mp3",
+        "published":"Mon, 07 Jan 2013 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14186640
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Lust am Untergang - Warum die Apokalypse das Leben bereichert",
+        "episode":12,
+        "description":"<img src=\"http://www.dradio.de/images/88745/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vier Tage nach dieser Sendung wird die Welt untergehen. So haben es Nostradamus, die Maya und eingeschworene Bibelexegeten vorhergesagt. Dass das Unsinn ist, haben viele Fachleute in den vergangenen Monaten ein ums andere Mal erklärt.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_5e4a5a3d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_5e4a5a3d.mp3",
+        "published":"Mon, 17 Dec 2012 18:30:59 GMT",
+        "bitRate":64,
+        "contentLength":13800800
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Apokalypse in der Religion: Warum Gemeinschaften das Weltende brauchen",
+        "episode":13,
+        "description":"<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_79c30ea9.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/17/drk_20121217_1930_79c30ea9.mp3",
+        "published":"Mon, 17 Dec 2012 18:30:36 GMT",
+        "bitRate":64,
+        "contentLength":5108896
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Retten, was zu retten ist - Ein Tag mit der Bankerin Gabriele Müller",
+        "episode":14,
+        "description":"<img src=\"http://www.dradio.de/images/42699/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Gabriele Müller ist Portfolio-Managerin und damit Herrin über rund 180 Milliarden Euro, über all die gefährdeten Kredite, fehlgeschlagenen Investments und spekulativen Anlagen der ehemaligen Landesbank WestLB. Sie arbeitet für deren Abwicklungsanstalt.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/10/drk_20121210_1930_6766d788.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/10/drk_20121210_1930_6766d788.mp3",
+        "published":"Mon, 10 Dec 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14074320
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der lange Weg zur grünen Wiese - Was geschieht in den stillgelegten deutschen Atomreaktoren?",
+        "episode":15,
+        "description":"<img src=\"http://www.dradio.de/images/51996/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vor über einem Jahr wurden acht deutsche Atomkraftwerke für immer abgeschaltet. Was bleibt, ist die Gefahr, die von ihnen ausgeht - obwohl sie längst keinen Strom mehr erzeugen. Wir werfen ein Schlaglicht auf die schlafenden Reaktoren und auf die Pläne, was mit ihnen geschehen soll.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/12/03/drk_20121203_1930_80c32606.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/12/03/drk_20121203_1930_80c32606.mp3",
+        "published":"Mon, 03 Dec 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14192048
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Umstrittene Spekulationsobjekte - Agrarrohstoffe als Finanzprodukte",
+        "episode":16,
+        "description":"<img src=\"http://www.dradio.de/images/82829/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Agrarrohstoffe sind begehrte Spekulationsobjekte, seit es zum Beispiel mit Immobilien nicht mehr so gut läuft. Nichtregierungsorganisationen werfen Banken, Versicherungen und Anlegern vor, damit die Nahrungsmittelpreise in die Höhe zu treiben. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/26/drk_20121126_1930_5a8e7e33.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/26/drk_20121126_1930_5a8e7e33.mp3",
+        "published":"Mon, 26 Nov 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":13629408
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Nicht tödlich - meistens - Neue Waffen für die Welt",
+        "episode":17,
+        "description":"<img src=\"http://www.dradio.de/images/49763/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Müssen Waffen eigentlich immer töten? Bilder von martialisch auftretenden Polizisten und Soldaten sind nicht gerade sympathiefördernd - ein Grund mehr, über Waffen nachzudenken, die nicht gleich töten. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/19/drk_20121119_1930_740d7f1e.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/19/drk_20121119_1930_740d7f1e.mp3",
+        "published":"Mon, 19 Nov 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14114672
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die doppelte Emanzipation - Über die neue Jungen- und Männerpolitik",
+        "episode":18,
+        "description":"<img src=\"http://www.dradio.de/images/85126/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Männer stecken im Zwiespalt: Einerseits sollen sie noch den traditionellen starken Ernährer spielen, andererseits auch den verständnisvollen Zuhörer. Einige fordern inzwischen eine neue Gleichstellungspolitik, die auf die Belange von Frauen und Männern gleichermaßen eingeht.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/12/drk_20121112_1930_3d1d485b.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/12/drk_20121112_1930_3d1d485b.mp3",
+        "published":"Mon, 12 Nov 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14149824
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wo bitte geht\'s nach oben? - Über die Durchlässigkeit der deutschen Gesellschaft",
+        "episode":19,
+        "description":"<img src=\"http://www.dradio.de/images/34215/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Wer richtig tüchtig ist, kann die Karriereleiter nach oben steigen, es einmal besser haben und weiter bringen als die Eltern. Dieses Versprechen galt lange als gesellschaftlicher Motor. Doch inzwischen wird häufiger der Vorwurf laut, Deutschland sei keine durchlässige Gesellschaft. <br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/11/05/drk_20121105_1930_d6912fd3.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/11/05/drk_20121105_1930_d6912fd3.mp3",
+        "published":"Mon, 05 Nov 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14069536
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schlagen und demütigen - Wenn Eltern die Kontrolle verlieren",
+        "episode":20,
+        "description":"<img src=\"http://www.dradio.de/images/29691/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im Jahr 2000 wurde körperliche und psychische Gewalt gegen Kinder in Deutschland verboten. Laut Polizeistatistik ist die Zahl schwerer Misshandlungen seitdem etwas zurückgegangen, doch die Dunkelziffer bleibt hoch.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/29/drk_20121029_1930_ffdf7668.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/29/drk_20121029_1930_ffdf7668.mp3",
+        "published":"Mon, 29 Oct 2012 18:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14167296
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Otto Moralverbraucher - Vom Sinn und Unsinn engagierten Einkaufens",
+        "episode":21,
+        "description":"<img src=\"http://www.dradio.de/images/7575/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Gezielt einkaufen und die Wirtschaft gerechter und grüner gestalten  für diese Idee begeistern sich immer mehr Verbraucher. Für die Politik ist das praktisch, weil dieser Trend gesellschaftliche Verantwortung auf den Einzelnen abwälzt.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/22/drk_20121022_1930_49bb5561.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/22/drk_20121022_1930_49bb5561.mp3",
+        "published":"Mon, 22 Oct 2012 17:30:16 GMT",
+        "bitRate":64,
+        "contentLength":14161264
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Wir sehn uns vor Gericht!\" - Zur Verrechtlichung des Sozialen und Politischen",
+        "episode":22,
+        "description":"<img src=\"http://www.dradio.de/images/45658/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\"> Aus Angst vor Klagen macht sich in Schulen, Kindergärten, Arztpraxen und Krankenhäusern eine Absicherungsmentalität breit - nach dem Motto: Hauptsache, keine Fehler machen und im Zweifelsfall dann lieber gar nichts. Eine Folge der zunehmenden Verrechtlichung der sozialen Beziehungen.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/15/drk_20121015_1930_33198655.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/15/drk_20121015_1930_33198655.mp3",
+        "published":"Mon, 15 Oct 2012 17:30:07 GMT",
+        "bitRate":64,
+        "contentLength":14211184
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hoffnung Alemania - Eurokrisen-Flüchtlinge in Deutschland",
+        "episode":23,
+        "description":"<img src=\"http://www.dradio.de/images/85930/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Rezession und Arbeitslosigkeit in den Euro-Krisenländern treiben immer mehr Südeuropäer nach Deutschland. Die meisten von ihnen sind jung und hoch qualifiziert. Die neuen Migranten sehen sich nicht als Gastarbeiter, sondern sie kommen mit dem Bewusstsein, Bürger Europas zu sein.<br clear=\"all\"><br>Deutschlandradio Kultur, Zeitfragen<br><a href=\"http://podcast-mp3.dradio.de/podcast/2012/10/08/drk_20121008_1930_3ca14f7f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2012/10/08/drk_20121008_1930_3ca14f7f.mp3",
+        "published":"Mon, 08 Oct 2012 17:30:00 GMT",
+        "bitRate":64,
+        "contentLength":14178528
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+    "displaySubDomaine":"dkulturzeitfragen",
+    "recentTitles":
+    [
+      "Lass es krachen! Die Kunst der politischen Provokation",
+      "Wenn alle Brünnlein fließen - Die Sicherheit des deutschen Wassers",
+      "Wiedergänger mit langem Bart - Die Marxsche Theorie und die Krisen des Kapitalismus",
+      "Schröders Ich-AG - Wie hat uns die Agenda 2010 verändert?",
+      "Solidarität! - Ein nimmermüder Kampfbegriff",
+      "Gute Banken - schlechte Banken - Verbraucherschutz nach der Lehman-Pleite",
+      "Die Kunst des großen Bauens - Warum Bauzeiten und Budgets in Deutschland oft nicht eingehalten ...",
+      "Hier geblieben - Ältere Migranten in Deutschland",
+      "Heimat in unsicheren Zeiten - Auf der Suche nach Halt und Sicherheit",
+      "Grenzenlos glücklich? - Deutsch-französische Paare und ihre Geschichte",
+      "Humboldt und die Effizienz - Über die Ökonomisierung der Hochschulen",
+      "Unsichtbare Zwerge mit großer Zukunft - Über Risiken und Nebenwirkungen von Nanopartikeln",
+      "Die Lust am Untergang - Warum die Apokalypse das Leben bereichert",
+      "Die Apokalypse in der Religion: Warum Gemeinschaften das Weltende brauchen",
+      "Retten, was zu retten ist - Ein Tag mit der Bankerin Gabriele Müller",
+      "Der lange Weg zur grünen Wiese - Was geschieht in den stillgelegten deutschen Atomreaktoren?",
+      "Umstrittene Spekulationsobjekte - Agrarrohstoffe als Finanzprodukte",
+      "Nicht tödlich - meistens - Neue Waffen für die Welt",
+      "Die doppelte Emanzipation - Über die neue Jungen- und Männerpolitik",
+      "Wo bitte geht\'s nach oben? - Über die Durchlässigkeit der deutschen Gesellschaft",
+      "Schlagen und demütigen - Wenn Eltern die Kontrolle verlieren",
+      "Otto Moralverbraucher - Vom Sinn und Unsinn engagierten Einkaufens",
+      "\"Wir sehn uns vor Gericht!\" - Zur Verrechtlichung des Sozialen und Politischen",
+      "Hoffnung Alemania - Eurokrisen-Flüchtlinge in Deutschland"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dradio.de/dkultur/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/11364_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/11364_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":11364,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/11364_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/11364_5_1.png",
+    "author":"",
+    "title":"Deutschlandradio Logo",
+    "picture4Url":"http://static.radio.de/images/broadcasts/11364_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Bildung, Geschichte",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Berlin",
+      "_family":"dradio",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"DRadio Kultur - Zeitfragen",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/dkulturzeitfragen.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/11364_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/11364_5.jpeg",
+    "subdomain":"dkulturzeitfragen",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463252,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/drk_20130408_1930_265ed1ae.mp3",
+        "idBroadcast":11364,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

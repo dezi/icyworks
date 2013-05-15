@@ -1,0 +1,240 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://scast.regenbogen.de/live",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Regenbogen - ",
+    "subDomaine":"radioregenbogen",
+    "relayDisabled":false,
+    "rank":71,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio Regenbogen ist Badens Hitradio und sorgt mit guter Musik und einem umfassenden Service von Nachrichten bis Wetter und Verkehr für zufriedene Hörer.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2244_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2244_3_1.png",
+    "longitude":8.46472,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2244_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Radio Regenbogen ist Badens Hitradio und sorgt mit guter Musik und einem umfassenden Service von Nachrichten bis Wetter und Verkehr für zufriedene Hörer.",
+    "metaDataUrl":"http://scast.regenbogen.de/live",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.48833,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://scast.regenbogen.de/live",
+    "displaySubDomaine":"radioregenbogen",
+    "recentTitles":
+    [
+      "USA FOR AFRICA - WE ARE THE WORLD",
+      "AURA DIONE - I WILL LOVE YOU MONDAY",
+      "PHIL COLLINS - I WISH IT WOULD RAIN DOWN",
+      "RIHANNA - DIAMONDS",
+      "REA GARVEY - WILD LOVE",
+      "ADELE - ROLLING IN THE DEEP",
+      "BON JOVI - RUNAWAY",
+      "ELLIE GOULDING - LIGHTS",
+      "BRUNO MARS - LAZY SONG",
+      "TRACY CHAPMAN - BABY CAN I HOLD YOU",
+      "TRAIN - DRIVE BY",
+      "GOTYE / KIMBRA - SOMEBODY THAT I USED TO KNOW",
+      "GREEN DAY - 21 GUNS",
+      "DJ ANTOINE VS MAD MAX - BELLA VITA",
+      "ALANNAH MYLES - BLACK VELVET",
+      "BIRDY - PEOPLE HELP THE PEOPLE",
+      "OLLY MURS/FLO RIDA - TROUBLEMAKER",
+      "TRIGGERFINGER - I FOLLOW RIVERS",
+      "MIKE OLDFIELD   ROGER CHAPMAN - SHADOW ON THE WALL",
+      "XAVIER NAIDOO - DIESER WEG",
+      "GOSSIP - MOVE IN THE RIGHT DIRECTION",
+      "QUEEN - FRIENDS WILL BE FRIENDS",
+      "BRUNO MARS - JUST THE WAY YOU ARE",
+      "CARO EMERALD - TANGLED UP",
+      "ANDREAS BOURANI - NUR IN MEINEM KOPF",
+      "SINÉD O\'CONNOR - NOTHING COMPARE 2 U",
+      "LINKIN PARK - BURN IT DOWN",
+      "P!NK / PINK FEAT. NATE RUESS - JUST GIVE ME A REASON",
+      "ROBBIE WILLIAMS - COME UNDONE",
+      "LADY GAGA - THE EDGE OF GLORY",
+      "BRUCE SPRINGSTEEN - DANCING IN THE DARK",
+      "PASSENGER - LET HER GO",
+      "BEYONCÉ - HALO",
+      "MIDNIGHT OIL - BEDS ARE BURNING",
+      "LOREEN - EUPHORIA",
+      "CRASH TEST DUMMIES - MMM MMM MMM MMM",
+      "THE SCRIPT - HALL OF FAME",
+      "SILBERMOND - HIMMEL AUF",
+      "TAYLOR SWIFT - I KNEW YOU WERE TROUBLE",
+      "KISS - I WAS MADE FOR LOVIN\' YOU",
+      "ADELE - SKYFALL",
+      "EMPIRE OF THE SUN - WE ARE THE PEOPLE",
+      "BRUNO MARS - LOCKED OUT OF HEAVEN",
+      "TALK TALK - IT\'S MY LIFE",
+      "CHRISTINA AGUILERA - BEAUTIFUL",
+      "ICONA POP - I LOVE IT",
+      "DURAN DURAN - THE WILD BOYS",
+      "ROMAN LOB - STANDING STILL",
+      "4 NON BLONDES - WHAT\'S UP"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://www.regenbogen.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2244_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2244_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2244,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2244_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2244_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2244_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Pop",
+      "_city":"Mannheim",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Regenbogen",
+    "picture3Url":"",
+    "streamUrl":"http://scast.regenbogen.de/live",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2244_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2244_5.gif",
+    "subdomain":"radioregenbogen",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":1202,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://scast.regenbogen.de/live",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://scast.regenbogen.de/live",
+        "idBroadcast":2244,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

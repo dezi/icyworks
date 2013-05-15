@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus10.leonex.de:36328",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Shahab - ",
+    "subDomaine":"radioshahab",
+    "relayDisabled":false,
+    "rank":1296,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Neue und alte persische, iranische und orientalische Klänge aus den letzten drei Jahrzehnten. Persian Music Radio 24/7. Listen to the best Persian music. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10872_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10872_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10872_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Persian Music Radio 24/7. Neue und alte persische, iranische und orientalische Klänge aus den letzten drei Jahrzehnten.",
+    "metaDataUrl":"http://streamplus10.leonex.de:36328",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://streamplus10.leonex.de:36328",
+    "displaySubDomaine":"radioshahab",
+    "recentTitles":
+    [
+      "Saeed Asayesh - Nazi Nazi",
+      "Armin Penhan Feat.Shadmehr Aghili - Asemooni",
+      "Ali Lohrasbi - Delnavazan",
+      "Shadmehr Aghili - Aroosak",
+      "Group of Artists - PACI song",
+      "Mohsen Yeganeh Feat Omid - Benevis Az Sare Khat",
+      "Mohammad Khoshghadam - Jodaee",
+      "Mehdi Moghadam - Khoshi Zadeh Zire Delet (Ft Yahya Kashani)",
+      "Ghasem Afshar - Fasle Kabootar",
+      "Saeed Asayesh - Sharareh",
+      "Leila Forouhar - Baazaareh Makaareh",
+      "Mansour - Mobaarakeh",
+      "Faramarz Aslani - Del Asire",
+      "Amir shamsaei - madar",
+      "Mahyar - Doostam Nadareh",
+      "Rasha and Mohsen Yahaghi - Sheytooni",
+      "Babak Farsi - Nagoo Eshgham",
+      "Shadmehr Aghili - Jina",
+      "Shadmehr Aghili - Mikham beram pa nadaram",
+      "Babak - Pooste Shir",
+      "Roozbeh, TaTaLoo, PishRo, Tohi - Boro Az Pishe Man",
+      "www.radioshahab.com - baham naboodi",
+      "Emad Aram - Yavashaki",
+      "Reza Sadeghi - Noghte Sare Khat",
+      "Xaniar - Tafre Naro",
+      "INAN BAND - Farib",
+      "Kamran  Homan - Begoo",
+      "Kamran  Hooman - www.radioshahab.com",
+      "Black Cats - Ey Daad",
+      "Hamed Seven - Baziche",
+      "Black Cats - Aftab",
+      "Farhad - Ayeneh",
+      "Shahyad - Javoone Irooni",
+      "Shadmehr Aghili - Bahar e Man",
+      "Amir, Homer, Ehsan Ft Andrew - Shabe Khatereh",
+      "Siavash Habibi - Khaneh Kojast",
+      "Mehdi Moghadam - Cheshmhaye Abi",
+      "Amir Abbas - Tobeh",
+      "Fereidoon - Goleh Hayahoo",
+      "Shayan - Nemisheh",
+      "Shadmehr Aghili - Adam Foroush",
+      "Kiarash Ghomayshi - Bikhialesh",
+      "Jadugaran - Tir o Kamaan",
+      "Ramin Bibak - Ghashang Tarin Eshtebahi",
+      "Fereydoun Ashena - Khode Khodeshi",
+      "Ashkin - Beresoonamet",
+      "Ali Lohrasbi - Bad Az Raftanet",
+      "Saman - Bas Kon",
+      "Omid Oloomi - Eine khialetam nist",
+      "Black Cats - Khanoom",
+      "Shadmehr Aghili - Tars",
+      "Black Cats - Yeki Bood Yeki Nabood",
+      "Hamid Bari - Tabrik",
+      "Shayan - khakestari",
+      "Kamran  Hooman - Fadaye Saret",
+      "Behdad Arabshah Ft Maryam - Bezar Dastato Too Dastam",
+      "Leila Forouhar - Azad"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radioshahab.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10872_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10872_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10872,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10872_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10872_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10872_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Folklore",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Englisch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Shahab",
+    "picture3Url":"",
+    "streamUrl":"http://streamplus10.leonex.de:36328",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10872_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10872_5.jpeg",
+    "subdomain":"radioshahab",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":9180,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus10.leonex.de:36328",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus10.leonex.de:36328",
+        "idBroadcast":10872,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

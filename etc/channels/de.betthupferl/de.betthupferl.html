@@ -1,0 +1,3095 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+Bayern 1 - Betthupferl Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="Bayern 1 - Betthupferl (128kbps) - Eigentlich sind Betthupferl kleine Süßigkeiten kurz vor dem Zubettgehen. Seit über 50 Jahren sind für die meisten bayerischen Kinder &#034;Betthupferl&#034; jedoch die kleinen Gute-Nacht-Geschichten von Kater Calogero, der Maus Charlotte oder von Herkules, dem stärksten Floh der Welt. Für Kinder, Eltern und alle, die gute Gute-Nacht-Geschichten zu schätzen wissen." />
+<meta property="og:title" content="Bayern 1 - Betthupferl"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/4316_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://betthupferl.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://betthupferl.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366772740254" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366772740254" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://betthupferl.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "betthupferl",
+	
+	pageRequestUrl : "http://betthupferl.radio.de/broadcast_info.jsf",
+	pageDomain : "betthupferl.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17702793","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","testResult":null,"name":"Tankredi, III - Das Unwetter - 30.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701597","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Avc/130328_1955_Betthupferl_Tankredi-III---Ein-Wellenreiter.mp3","testResult":null,"name":"Tankredi, III - Ein Wellenreiter - 28.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701598","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Agf/130327_1955_Betthupferl_Tankredi-III---Das-Meer.mp3","testResult":null,"name":"Tankredi, III - Das Meer - 27.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701599","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5AgP/130326_1955_Betthupferl_Tankredi-III---Das-Meer-und-ein-Schiff.mp3","testResult":null,"name":"Tankredi, III - Das Meer und ein Schiff - 26.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701600","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Agc/130325_1955_Betthupferl_Tankredi-III---Eingesperrt.mp3","testResult":null,"name":"Tankredi, III - Eingesperrt - 25.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701601","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgG9-OS/130324_1955_Betthupferl_Grischdiene-die-schwaebische-Stubenfliege--.mp3","testResult":null,"name":"Grischdiene, die schwäbische Stubenfliege - Raub / Mundart: Schwaben - 24.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701023","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52xP/130323_1955_Betthupferl_Familien-dieser-Welt-III---Peru.mp3","testResult":null,"name":"Familien dieser Welt, III - Peru - 23.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699871","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52Fg9-QS/130322_1955_Betthupferl_Familien-dieser-Welt-III---Kanada.mp3","testResult":null,"name":"Familien dieser Welt, III - Kanada - 22.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699872","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52x6/130321_1955_Betthupferl_Familien-dieser-Welt-III---China.mp3","testResult":null,"name":"Familien dieser Welt, III - China - 21.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699873","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52xc/130320_1955_Betthupferl_Familien-dieser-Welt-III-West-Papua.mp3","testResult":null,"name":"Familien dieser Welt, III, West Papua - 20.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699874","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52kd/130319_1955_Betthupferl_Familien-dieser-Welt-III---Jamaika.mp3","testResult":null,"name":"Familien dieser Welt, III - Jamaika - 19.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699875","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52kf/130318_1900_Betthupferl_Familien-dieser-Welt-III---Japan.mp3","testResult":null,"name":"Familien dieser Welt, III - Japan - 18.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699876","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-0S/5-bf520S/130317_1955_Betthupferl_Waschbaer-Wugg---Heimlicher-Ausflug--Mundar.mp3","testResult":null,"name":"Waschbär Wugg - Heimlicher Ausflug / Mundart: Oberpfalz - 17.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699603","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yFc/130316_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Ein-Sau.mp3","testResult":null,"name":"Ferien auf der Kanincheninsel, III - Ein Saunabesuch - 16.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698137","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4d/130315_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Das-Geh.mp3","testResult":null,"name":"Ferien auf der Kanincheninsel, III - Das Gehimnis der Fledermausinsel - 15.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698138","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4f/130314_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Schnees.mp3","testResult":null,"name":"Ferien auf der Kanincheninsel, III - Schneesturm - 14.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698139","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4P/130313_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Mister-.mp3","testResult":null,"name":"Ferien auf der Kanincheninsel, III - Mister Snowflake - 13.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698140","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4c/130312_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Geduld-.mp3","testResult":null,"name":"Ferien auf der Kanincheninsel, III - Geduld, Geduld - 12.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698141","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5ybd/130311_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Spezial.mp3","testResult":null,"name":"Ferien auf der Kanincheninsel, III - Spezial-Taxi - 11.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698142","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgP5yQS/130310_1955_Betthupferl_Das-Passauer-Donaunixerl---Der-Schatz--Mund.mp3","testResult":null,"name":"Das Passauer Donaunixerl - Der Schatz / Mundart: Niederbayern - 10.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697875","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5ybc/130309_1955_Betthupferl_Hexe-Hatschi---Gruselda-hat-Aerger.mp3","testResult":null,"name":"Hexe Hatschi - Gruselda hat Ärger - 09.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696437","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yrd/130308_1955_Betthupferl_Hexe-Hatschi---Ein-Heulgespenst-und-Baldria.mp3","testResult":null,"name":"Hexe Hatschi - Ein Heulgespenst und Baldrian - 08.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696438","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yrf/130307_1955_Betthupferl_Hexe-Hatschi---Geistertanz-auf-Grauenfels.mp3","testResult":null,"name":"Hexe Hatschi - Geistertanz auf Grauenfels - 07.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696439","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yrP/130306_1955_Betthupferl_Hexe-Hatschi---Schnueffelhexen-muessen-nies.mp3","testResult":null,"name":"Hexe Hatschi - Schnüffelhexen müssen niesen - 06.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696440","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52vd/130305_1955_Betthupferl_Hexe-Hatschi---Bedsuch-und-Kroetenalarm.mp3","testResult":null,"name":"Hexe Hatschi - Bedsuch und Krötenalarm - 05.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696441","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52vf/130304_1955_Betthupferl_Hexe-Hatschi---Ein-Maeuseengel-und-ein-Brie.mp3","testResult":null,"name":"Hexe Hatschi - Ein Mäuseengel und ein Brief - 04.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696442","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_ArH_Abc/130303_1955_Betthupferl_Beppo-die-Burgfledermaus---Im-Urlaub--Munda.mp3","testResult":null,"name":"Beppo, die Burgfledermaus - Im Urlaub / Mundart: Mittelfranken - 03.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696128","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_A8f/130302_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Spazieren-gehen.mp3","testResult":null,"name":"Dienstags bei Oma Otto, II - Spazieren gehen - 02.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694595","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_A86/130301_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Wuerstchen-mit-.mp3","testResult":null,"name":"Dienstags bei Oma Otto, II - Würstchen mit Ärmel - 01.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694596","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_A8c/130228_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Anton-das-Bleic.mp3","testResult":null,"name":"Dienstags bei Oma Otto, II - Anton, das Bleichgesicht - 28.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694597","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg52kf/130227_1955_Betthupferl_Dienstags-bei-Oma-Otto---Die-neue-Nachbarin.mp3","testResult":null,"name":"Dienstags bei Oma Otto - Die neue Nachbarin - 27.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694598","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_ArP/130226_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Der-vergessene-.mp3","testResult":null,"name":"Dienstags bei Oma Otto, II - Der vergessene Einkaufszettel - 26.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694599","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_Ar6/130225_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---So-ein-Pony-das.mp3","testResult":null,"name":"Dienstags bei Oma Otto, II - So ein Pony, das kann alles - 25.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694600","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgP_AQS/130224_1955_Betthupferl_Tante-Silvias-Bilder---Fred-der-Fernseher--.mp3","testResult":null,"name":"Tante Silvias Bilder - Fred, der Fernseher / Mundart: Oberfranken - 24.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693998","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-vP/130223_1955_Betthupferl_Fanny--Klee---Warum-sind-im-Kaese-Loecher.mp3","testResult":null,"name":"Fanny & Klee - Warum sind im Käse Löcher? - 23.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692882","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-v6/130222_1955_Betthupferl_Fanny--Klee-IV---Warum-atmen-wir.mp3","testResult":null,"name":"Fanny & Klee, IV - Warum atmen wir? - 22.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692883","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-vc/130221_1955_Betthupferl_Fanny--Klee--IV---Warum-ist-das-Blut-rot.mp3","testResult":null,"name":"Fanny & Klee, IV - Warum ist das Blut rot? - 21.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692884","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-gP/130220_1955_Betthupferl_Fanny--Klee-IV---Warum-heissen-Gaensebluemc.mp3","testResult":null,"name":"Fanny & Klee, IV - Warum heißen Gänseblümchen Gänseblümchen? - 20.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692885","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-xf/130219_1900_Betthupferl_Fanny--Klee-IV---Warum-gibt-es-Staub.mp3","testResult":null,"name":"Fanny & Klee, IV - Warum gibt es Staub? - 19.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692886","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-kd/130218_1955_Betthupferl_Fanny---Klee-IV---Warum-bekommt-man-Schnupf.mp3","testResult":null,"name":"Fanny & Klee, IV - Warum bekommt man Schnupfen? - 18.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692887","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-0S/5-bf5yiS/130217_1955_Betthupferl_Fanny-Fuchs---Den-Winter-vertreiben--Mundar.mp3","testResult":null,"name":"Fanny Fuchs - Den Winter vertreiben / Mundart: Oberbayern - 17.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692570","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-kP/130216_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl-IV---Franzi-i.mp3","testResult":null,"name":"Oskar im fliegenden Rollstuhl, IV - Franzi im Schnee - 16.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690876","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-NP/130215_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl---Am-Pol.mp3","testResult":null,"name":"Oskar im fliegenden Rollstuhl - Am Pol - 15.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690877","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-8d/130214_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl-IV---Zauberfl.mp3","testResult":null,"name":"Oskar im fliegenden Rollstuhl, IV - Zauberflöte - 14.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690878","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-Fc/130213_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl-IV---Uhr-mit-.mp3","testResult":null,"name":"Oskar im fliegenden Rollstuhl, IV - Uhr mit Quarzwerk - 13.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690879","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgP_20S/130210_1955_Betthupferl_Erik-und-Erika-Eichhorn---Geburtstag--Munda.mp3","testResult":null,"name":"Erik und Erika Eichhorn - Geburtstag / Mundart: Unterfranken - 10.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690607","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9Agd/130209_1955_Betthupferl_Unterm-Rhododendron-IV---Gruene-Blaetter.mp3","testResult":null,"name":"Unterm Rhododendron, IV - Grüne Blätter - 09.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689096","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9Agc/130208_1955_Betthupferl_Unterm-Rhododendron-IV---Huegel.mp3","testResult":null,"name":"Unterm Rhododendron, IV - Hügel - 08.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689097","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9AkP/130207_1955_Betthupferl_Unterm-Rhododendron-IV---Ohrenschuetzer.mp3","testResult":null,"name":"Unterm Rhododendron, IV - Ohrenschützer - 07.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689098","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9A8P/130205_1955_Betthupferl_Unterm-Rhododendron-IV---Kraehe.mp3","testResult":null,"name":"Unterm Rhododendron, IV - Krähe - 05.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"Ein Download-Angebot des Bayerischen Rundfunks","seoTitle":"Bayern 1 - Betthupferl","subDomaine":"betthupferl","relayDisabled":false,"rank":1167,"playableStateString":"FREE","idTeaser":0,"description":"Eigentlich sind Betthupferl kleine Süßigkeiten kurz vor dem Zubettgehen. Seit über 50 Jahren sind für die meisten bayerischen Kinder \"Betthupferl\" jedoch die kleinen Gute-Nacht-Geschichten von Kater Calogero, der Maus Charlotte oder von Herkules, dem stärksten Floh der Welt. Für Kinder, Eltern und alle, die gute Gute-Nacht-Geschichten zu schätzen wissen.","picture2TransUrl":"http://static.radio.de/images/broadcasts/4316_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/4316_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/4316_6.jpeg","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":true,"shortDescription":"Kleine Gute-Nacht-Geschichten von Kater Calogero, der Maus Charlotte oder von Herkules, dem stärksten Floh der Welt. ","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","podcastUrls":[{"sampleRate":44100,"title":"Tankredi, III - Das Unwetter - 30.03.2013","episode":0,"description":"Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Heute schippern sie mit Fischer Piet und Möwe Esmeralda auf dem blauen Meer. Da naht ein fürchterliches Unwetter, Esmeralda macht sich aus dem Staub und Herr Schmidt fliegt ihr hinterher... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","published":"Sat, 30 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4618065},{"sampleRate":44100,"title":"Tankredi, III - Ein Wellenreiter - 28.03.2013","episode":1,"description":"Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Die beiden sind ans Meer geradelt. Herr Schmidt geht baden und lernt die Möwe Esmeralda kennen und Tankredi macht Bekanntschaft mit Fischer Piet... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Avc/130328_1955_Betthupferl_Tankredi-III---Ein-Wellenreiter.mp3","published":"Thu, 28 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4983779},{"sampleRate":44100,"title":"Tankredi, III - Das Meer - 27.03.2013","episode":2,"description":"Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Jeden Tag besucht Tankredi Herrn Schmidt in seinem Baumhaus. Heute radeln die beiden ans Meer und der Papagei sieht zum ersten Mal in seinem Leben ein Segelboot und noch etwas viel kleineres... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Agf/130327_1955_Betthupferl_Tankredi-III---Das-Meer.mp3","published":"Wed, 27 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5158486},{"sampleRate":44100,"title":"Tankredi, III - Das Meer und ein Schiff - 26.03.2013","episode":3,"description":"Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Jeden Tag besucht Tankredi Herrn Schmidt in seinem Baumhaus. Und heute stellt Tankredi fest, dass Herr Schmidt noch nie in seinem Leben das Meer gesehen hat und nicht mal weiß, was ein Schiff ist... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5AgP/130326_1955_Betthupferl_Tankredi-III---Das-Meer-und-ein-Schiff.mp3","published":"Tue, 26 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4851286},{"sampleRate":44100,"title":"Tankredi, III - Eingesperrt - 25.03.2013","episode":4,"description":"Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Jeden Tag besucht Tankredi Herrn Schmidt in seinem Baumhaus. Aber heute ist das Baumhaus leer und in der großen Zeder ist es mucksmäuschenstill, bis Tankredi ein Krächzen aus der Ferne vernimmt. Ist das etwa sein Papagei, der da um Hilfe schreit? (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Agc/130325_1955_Betthupferl_Tankredi-III---Eingesperrt.mp3","published":"Mon, 25 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5175204},{"sampleRate":44100,"title":"Grischdiene, die schwäbische Stubenfliege - Raub / Mundart: Schwaben - 24.03.2013","episode":5,"description":"Dass Hund Flecki kein Schwäbisch versteht, macht die Dinge manchmal etwas kompliziert. Diesmal denkt er, bei den Schäfenackers sei ein Raub passiert, dabei ist doch nur eine Raupe auf die Sahnetorte gefallen. (Autorin: Silke Wolfrum / Sprecherin: Conny Glogger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgG9-OS/130324_1955_Betthupferl_Grischdiene-die-schwaebische-Stubenfliege--.mp3","published":"Sun, 24 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4940311},{"sampleRate":44100,"title":"Familien dieser Welt, III - Peru - 23.03.2013","episode":6,"description":"Wie ist es wohl, wenn man als Kind morgens in einem ganz anderen Land aufwacht? Zum Beispiel in einer Familie in Südamerika? Genauer gesagt in Peru? Heute sind wir den ganzen Tag bei Onei. Und der mag auf keinem Stuhl sitzen... Autorin: Angelika Stampfer / Sprecherin: Sonja Beißwenger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52xP/130323_1955_Betthupferl_Familien-dieser-Welt-III---Peru.mp3","published":"Sat, 23 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4915652},{"sampleRate":44100,"title":"Familien dieser Welt, III - Kanada - 22.03.2013","episode":7,"description":"Wie ist es wohl, wenn man als Kind morgens in einem ganz anderen Land aufwacht? Zum Beispiel in einer Familie in Kanada? Heute sind wir den ganzen Tag bei Kate. Und die heult mit dem Wolf und hat keine Angst vor Bären. (Autorin: Angelika Stampfer / Sprecherin: Sonja Beißwenger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52Fg9-QS/130322_1955_Betthupferl_Familien-dieser-Welt-III---Kanada.mp3","published":"Fri, 22 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4866750},{"sampleRate":44100,"title":"Familien dieser Welt, III - China - 21.03.2013","episode":8,"description":"Wie ist es wohl, wenn man als Kind morgens in einem ganz anderen Land aufwacht? Zum Beispiel in einer Familie in China? Heute sind wir den ganzen Tag bei Jin. Und die kann sich nicht vorstellen, wie das ist, wenn man Geschwister hat... (Autorin: Angelika Stampfer / Sprecherin: Sonja Beißwenger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52x6/130321_1955_Betthupferl_Familien-dieser-Welt-III---China.mp3","published":"Thu, 21 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4641052},{"sampleRate":44100,"title":"Familien dieser Welt, III, West Papua - 20.03.2013","episode":9,"description":"Wie ist es wohl, wenn man als Kind morgens in einem ganz anderen Land aufwacht? Zum Beispiel in einer Familie in West Papua? Heute sind wir den ganzen Tag bei Onei. Und der mag auf keinem Stuhl sitzen... (Autorin: Angelika Stampfer / Sprecherin: Sonja Beißwenger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52xc/130320_1955_Betthupferl_Familien-dieser-Welt-III-West-Papua.mp3","published":"Wed, 20 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4733839},{"sampleRate":44100,"title":"Familien dieser Welt, III - Jamaika - 19.03.2013","episode":10,"description":"Wie ist es wohl, wenn man als Kind morgens in einem ganz anderen Land aufwacht? Zum Beispiel in einer Familie in Jamaika? Heute sind wir den ganzen Tag bei Gavin. Und der kann wegen einem Fleck auf seiner Uniform nicht zur Schule gehen... (Autorin: Angelika Stampfer / Sprecherin: Sonja Beißwenger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52kd/130319_1955_Betthupferl_Familien-dieser-Welt-III---Jamaika.mp3","published":"Tue, 19 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4759335},{"sampleRate":44100,"title":"Familien dieser Welt, III - Japan - 18.03.2013","episode":11,"description":"Wie ist es wohl, wenn man als Kind morgens in einem ganz anderen Land aufwacht? Zum Beispiel in einer Familie in Japan? Heute sind wir den ganzen Tag bei Yumiko. Und die plagt sich in der Schule mit Origami, dem Falten von Papier... (Autorin: Angelika Stampfer / Sprechein: Sonja Beißwenger)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52kf/130318_1900_Betthupferl_Familien-dieser-Welt-III---Japan.mp3","published":"Mon, 18 Mar 2013 19:00:01 +0100","bitRate":128,"contentLength":4781487},{"sampleRate":44100,"title":"Waschbär Wugg - Heimlicher Ausflug / Mundart: Oberpfalz - 17.03.2013","episode":12,"description":"Der Fritz besucht seinen Opa. Der wohnt mit einem jungen Waschbären, dem Wugg, in seinem alten Häuschen im Wald. Der Fritz will wissen, ob Pferde nachts im Stehen schlafen und macht einen nächtlichen Ausflug. (Autor: Joseph Berlinger / Sprecher: Sepp Fischer)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-0S/5-bf520S/130317_1955_Betthupferl_Waschbaer-Wugg---Heimlicher-Ausflug--Mundar.mp3","published":"Sun, 17 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5070714},{"sampleRate":44100,"title":"Ferien auf der Kanincheninsel, III - Ein Saunabesuch - 16.03.2013","episode":13,"description":"Es gibt eine kleine Insel, die von weit-weit oben aussieht wie ein Kaninchen. Auf dieser Insel hat Friedas Großonkel Gustav einen Zeltplatz. \"Den schönsten der ganzen Welt!\", wie sie und ihre beste Freundin Lilli zu sagen pflegen. Doch leider neigen sich ihre Winterferien auf der Kanincheninsel schon wieder dem Ende zu. Zum Abschied wollen sie noch eine eiskalte Mutprobe bestehen... (Autorin: Ursel Böhm / Sprecher: Jürgen Thormann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yFc/130316_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Ein-Sau.mp3","published":"Sat, 16 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5083253},{"sampleRate":44100,"title":"Ferien auf der Kanincheninsel, III - Das Gehimnis der Fledermausinsel - 15.03.2013","episode":14,"description":"Es gibt eine kleine Insel, die von weit-weit oben aussieht wie ein Kaninchen. Genau zwischen den beiden Kaninchenohren liegt Onkel Gustavs Zeltplatz. Doch gerade ist tiefster Winter, und Onkel Gustav hat nur zwei Gäste die er besonders gern mag! Und seit dem großen Schneesturm gestern auch einen dritten, der aussieht wie eine große Fledermaus. (Autorin: Ursel Böhm / Sprecher: Jürgen Thormann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4d/130315_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Das-Geh.mp3","published":"Fri, 15 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5090776},{"sampleRate":44100,"title":"Ferien auf der Kanincheninsel, III - Schneesturm - 14.03.2013","episode":15,"description":"Es gibt eine kleine Insel, die von weit-weit oben aussieht wie ein Kaninchen. Auf dieser Insel, in einer Bucht, da liegt Onkel Gustavs Zeltplatz. Dort verbringen Gustavs Großnichte Frieda und ihre beste Freundin Lilli gerade ihre Winterferien. Als Frieda und Lilli an diesem Morgen ihre Tür aufmachen, saust ihnen der Sturm nur so um die Ohren, und es bahnt sich etwas an... (Autorin: Ursel Böhm / Sprecher: Jürgen Thormann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4f/130314_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Schnees.mp3","published":"Thu, 14 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5107077},{"sampleRate":44100,"title":"Ferien auf der Kanincheninsel, III - Mister Snowflake - 13.03.2013","episode":16,"description":"Es gibt eine kleine Insel, die von weit-weit oben aussieht wie ein Kaninchen. Genau zwischen den Ohren, in einer Bucht, da hat Friedas Großonkel Gustav seinen Zeltplatz. Doch, weil gerade tiefster Winter ist, sind Frieda und ihre beste Freundin Lilli Gustavs einzige Gäste. Aber seine absoluten Ehrengäste! Und die machen heute eine wunderbare, neue Bekanntschaft. (Autorin: Ursel Böhm / Sprecher: Jürgen Thormann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4P/130313_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Mister-.mp3","published":"Wed, 13 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5075312},{"sampleRate":44100,"title":"Ferien auf der Kanincheninsel, III - Geduld, Geduld - 12.03.2013","episode":17,"description":"Es gibt eine kleine Insel, die von weit-weit oben aussieht wie ein Kaninchen. Und im Winter wie ein Schneekaninchen. Aber Schnee und Eis ändern nichts daran, dass genau zwischen den Kaninchenohren Onkel Gustavs Zeltplatz liegt. Dort üben sich die beiden Freundinnen Frieda und Lilli heute im Eisfischen. (Autorin: Ursel Böhm / Sprecher: Jürgen Thormann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5y4c/130312_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Geduld-.mp3","published":"Tue, 12 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5094956},{"sampleRate":44100,"title":"Ferien auf der Kanincheninsel, III - Spezial-Taxi - 11.03.2013","episode":18,"description":"Es gibt eine kleine Insel, die von weit-weit oben aussieht wie ein Kaninchen. Im Winter eher wie ein Schneekaninchen! Mitten im Eis. Mit dem Schiff zur Kanincheninsel zu fahren, ist also unmöglich! Auch wenn Frieda und Lilli noch nicht so ganz klar ist, wie sie dann auf die Kanincheninsel gelangen sollen. Auf Onkel Gustav ist Verlass! (Autorin: Ursel Böhm / Sprecher: Jürgen Thormann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5ybd/130311_1955_Betthupferl_Ferien-auf-der-Kanincheninsel-III---Spezial.mp3","published":"Mon, 11 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5036442},{"sampleRate":44100,"title":"Das Passauer Donaunixerl - Der Schatz / Mundart: Niederbayern - 10.03.2013","episode":19,"description":"Das Passauer Donaunixerl ist ganz wild auf Flaschenpost. Heute kriegt sie eine mit einer geheimnisvollen Botschaft. Wenn sie die entschlüsselt, soll sie mit einem großen Schatz belohnt werden. (Autor: Joseph Berlinger / Sprecherin: Barbara Dorsch)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgP5yQS/130310_1955_Betthupferl_Das-Passauer-Donaunixerl---Der-Schatz--Mund.mp3","published":"Sun, 10 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5066117},{"sampleRate":44100,"title":"Hexe Hatschi - Gruselda hat Ärger - 09.03.2013","episode":20,"description":"Gruselda hat im Städtchen Schabernack getrieben. Doch Übermut tut selten gut. Gut, dass Hatschi niesen muss. (Autorin: Brigitte Endres / Sprecherin: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5ybc/130309_1955_Betthupferl_Hexe-Hatschi---Gruselda-hat-Aerger.mp3","published":"Sat, 09 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4976674},{"sampleRate":44100,"title":"Hexe Hatschi - Ein Heulgespenst und Baldrian - 08.03.2013","episode":21,"description":"Ein kleines Gespenst hängt an Hatschis Fensterladen fest. Und jetzt hat es ein Loch im Hemd. Was nun? (Autorin: Brigitte Endres / Sprecherin: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yrd/130308_1955_Betthupferl_Hexe-Hatschi---Ein-Heulgespenst-und-Baldria.mp3","published":"Fri, 08 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4980017},{"sampleRate":44100,"title":"Hexe Hatschi - Geistertanz auf Grauenfels - 07.03.2013","episode":22,"description":"Tante Gruselda ist zum Geistertanz auf Burg Grauenfels geladen. Natürlich will Hatschi unbedingt mit. (Autorin: Brigitte Endres / Sprecherin: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yrf/130307_1955_Betthupferl_Hexe-Hatschi---Geistertanz-auf-Grauenfels.mp3","published":"Thu, 07 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":5010110},{"sampleRate":44100,"title":"Hexe Hatschi - Schnüffelhexen müssen niesen - 06.03.2013","episode":23,"description":"Hatschi schnüffelt in Gruseldas Hexenbuch herum. Aber das bekommt ihr gar nicht gut. (Autorin: Brigitte Endres / Sprecherin: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5yrP/130306_1955_Betthupferl_Hexe-Hatschi---Schnueffelhexen-muessen-nies.mp3","published":"Wed, 06 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4871348},{"sampleRate":44100,"title":"Hexe Hatschi - Bedsuch und Krötenalarm - 05.03.2013","episode":24,"description":"Hexentante Gruselda kommt auf Besuch, und sie hat für Hatschi ein wahrhaft tierisches Mitbringsel dabei. (Autorin: Brigitte Endres / Sprecherin: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52vd/130305_1955_Betthupferl_Hexe-Hatschi---Bedsuch-und-Kroetenalarm.mp3","published":"Tue, 05 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4965389},{"sampleRate":44100,"title":"Hexe Hatschi - Ein Mäuseengel und ein Brief - 04.03.2013","episode":25,"description":"Hatschi muss gleich niesen, als plötzlich eine Fledermaus in Tante Burgls Hexensuppe plumpst. Aber die Fledermaus hat eine Botschaft dabei. (Autorin: Brigitte Endres / Sprecher: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g52vf/130304_1955_Betthupferl_Hexe-Hatschi---Ein-Maeuseengel-und-ein-Brie.mp3","published":"Mon, 04 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4847942},{"sampleRate":44100,"title":"Beppo, die Burgfledermaus - Im Urlaub / Mundart: Mittelfranken - 03.03.2013","episode":26,"description":"Mistwetter zu Hause. Na dann nix wie ab in den Urlaub, denkt sich Beppo, die Burgfledermaus. Aber auch so ein kleiner blinder Passagier sorgt am Ende für Aufregung. (Autor und Sprecher: Florian Hartmann)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_ArH_Abc/130303_1955_Betthupferl_Beppo-die-Burgfledermaus---Im-Urlaub--Munda.mp3","published":"Sun, 03 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4840419},{"sampleRate":44100,"title":"Dienstags bei Oma Otto, II - Spazieren gehen - 02.03.2013","episode":27,"description":"Weil Oma Otto und Anton heute überhaupt nichts einfällt, was sie unternehmen könnten, gehen sie spazieren. Im Stadtpark entdecken sie Oma Ottos Freundinnen Gerda und Loni. Die machen Picknick auf einer Parkbank. Aber plötzlich ist das Picknick verschwunden... (Autorin: Olga-Louise Dommel / Sprecher: Stefan Merki)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_A8f/130302_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Spazieren-gehen.mp3","published":"Sat, 02 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4389023},{"sampleRate":44100,"title":"Dienstags bei Oma Otto, II - Würstchen mit Ärmel - 01.03.2013","episode":28,"description":"Bei Oma Otto gibt es heute \"Würstchen im Schlafrock\" zum Essen. Davon hat Anton noch nie gehört. Weil Oma Otto keinen Schlafrock hat, zieht sie den Würstchen Socken an... (Autorin: Olga-Louise Dommel / Sprecher: Stefan Merki)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_A86/130301_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Wuerstchen-mit-.mp3","published":"Fri, 01 Mar 2013 19:55:01 +0100","bitRate":128,"contentLength":4589225},{"sampleRate":44100,"title":"Dienstags bei Oma Otto, II - Anton, das Bleichgesicht - 28.02.2013","episode":29,"description":"Anton fühlt sich nicht gut. Deshalb möchte er sich auf Oma Ottos Sofa etwas ausruhen. Oma Otto findet das ganz furchtbar. Weil sie sich nämlich furchtbar langweilt, wenn Anton nicht mir ihr spielt. (Autor: Olga-Louise Dommel / Sprecher: Stefan Merki)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_A8c/130228_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Anton-das-Bleic.mp3","published":"Thu, 28 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4773545},{"sampleRate":44100,"title":"Dienstags bei Oma Otto - Die neue Nachbarin - 27.02.2013","episode":30,"description":"Oma Otto hat eine neue Nachbarin. Sie heißt Tanja und ist etwas vergesslich. Für ihr Mittagessen leiht sich Tanja die Zutaten im ganzen Haus. Klar, dass Oma Otto und Anton das Mittagessen-Rate-Spiel spielen! (Autor: Olga-Louise Dommel / Sprecher: Stefan Merki)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg52kf/130227_1955_Betthupferl_Dienstags-bei-Oma-Otto---Die-neue-Nachbarin.mp3","published":"Wed, 27 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4501036},{"sampleRate":44100,"title":"Dienstags bei Oma Otto, II - Der vergessene Einkaufszettel - 26.02.2013","episode":31,"description":"Oma Otto und Anton gehen Lebensmittel einkaufen. Anton findet das ungefähr so toll wie Masern haben. Aber als Oma Otto feststellt, dass sie den Einkaufszettel vergessen hat, wird der Einkauf plötzlich richtig lustig! (Autorin: Olga-Louise Dommel / Sprecher: Stefan Merki)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_ArP/130226_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---Der-vergessene-.mp3","published":"Tue, 26 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4475541},{"sampleRate":44100,"title":"Dienstags bei Oma Otto, II - So ein Pony, das kann alles - 25.02.2013","episode":32,"description":"Jeden Dienstag besucht Anton seine Oma. Sie heißt Otto und hat immer tolle Ideen, was die beiden zusammen unternehmen können. Heute gehen sie auf den Rummelplatz. Weil beim Ponyreiten die Musikanlage kaputt ist, lässt sich Oma Otto was einfallen... (Autorin: Olga-Louise Dommel / Sprecher: Stefan Merki)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_Ar6/130225_1955_Betthupferl_Dienstags-bei-Oma-Otto-II---So-ein-Pony-das.mp3","published":"Mon, 25 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4385679},{"sampleRate":44100,"title":"Tante Silvias Bilder - Fred, der Fernseher / Mundart: Oberfranken - 24.02.2013","episode":33,"description":"Tante Silvia hat sich einen Fernseher gekauft. Aber der ist ganz schön durcheinander von den vielen Bildern und Geschichten, die er jeden Tag zeigen muss. Hase Henry aus dem Ölbild weiß einen Rat. (Autorin/Sprecherin: Mia Pittroff)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgP_AQS/130224_1955_Betthupferl_Tante-Silvias-Bilder---Fred-der-Fernseher--.mp3","published":"Sun, 24 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4625588},{"sampleRate":44100,"title":"Fanny & Klee - Warum sind im Käse Löcher? - 23.02.2013","episode":34,"description":"Weil Klee heute ein bisschen krank ist, darf er im Bett essen. Auf seinem Nachttischchen steht ein halbes Käsebrot. Klee schaut es sich genau an, dann sagt fragt er seine große Schwester: \"Du Fanny, warum sind eigentlich Löcher im Käse?\" (Autorin: Silke Wolfrum / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-vP/130223_1955_Betthupferl_Fanny--Klee---Warum-sind-im-Kaese-Loecher.mp3","published":"Sat, 23 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4990048},{"sampleRate":44100,"title":"Fanny & Klee, IV - Warum atmen wir? - 22.02.2013","episode":35,"description":"Fanny und Klee haben gewettet, wer länger den Atem anhalten kann. Fanny hat drei Mal gewonnen ihr kleiner Bruder Klee nur einmal. Jetzt liegt er nachdenklich in seinem Bett und fragt sie: \"Du Fanny, warum müssen wir überhaupt atmen?\" (Autorin: Silke Wolfrum / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-v6/130222_1955_Betthupferl_Fanny--Klee-IV---Warum-atmen-wir.mp3","published":"Fri, 22 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5011782},{"sampleRate":44100,"title":"Fanny & Klee, IV - Warum ist das Blut rot? - 21.02.2013","episode":36,"description":"Klee ist heute beim Spielen im Hof hingefallen. Jetzt betrachtet er die kleine rot verkrustete Wunde an seinem Knie. \"Du Fanny\", fragt er seine große Schwester, \"warum ist Blut eigentlich rot?\" Natürlich denkt sich Fanny wieder eine perfekte Geschichte aus, um ihm das genau zu erklären. (Autorin: Silke Wolfrum / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-vc/130221_1955_Betthupferl_Fanny--Klee--IV---Warum-ist-das-Blut-rot.mp3","published":"Thu, 21 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4908128},{"sampleRate":44100,"title":"Fanny & Klee, IV - Warum heißen Gänseblümchen Gänseblümchen? - 20.02.2013","episode":37,"description":"Heute steht auf dem gemeinsamen Nachttischchen von Fanny und Klee ein kleiner Strauß Gänseblümchen. \"Du Fanny, warum heißen Gänseblümchen eigentlich Gänseblümchen?\" fragt Klee und seine große Schwester Fanny stöhnt, denkt sich aber trotzdem eine Geschichte aus, die alles erklärt. (Autorin: Silke Wolfrum / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-gP/130220_1955_Betthupferl_Fanny--Klee-IV---Warum-heissen-Gaensebluemc.mp3","published":"Wed, 20 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5043965},{"sampleRate":44100,"title":"Fanny & Klee, IV - Warum gibt es Staub? - 19.02.2013","episode":38,"description":"Heute hat der Papa von Fanny und Klee im Kinderzimmer mal gründlich Staub gewischt. Sogar unter dem Bett hat er jede Menge Staubwolken hervorgewirbelt, Klee musste sogar niesen davon. Jetzt liegt Klee im frisch überzogenen Bett und denkt nach. \"Du Fanny\", fragt er, \"warum gibt es eigentlich Staub?\" (Autorin: Silke Wolfrum / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-xf/130219_1900_Betthupferl_Fanny--Klee-IV---Warum-gibt-es-Staub.mp3","published":"Tue, 19 Feb 2013 19:00:01 +0100","bitRate":128,"contentLength":4977509},{"sampleRate":44100,"title":"Fanny & Klee, IV - Warum bekommt man Schnupfen? - 18.02.2013","episode":39,"description":"Heute kann Fanny ihren kleinen Bruder Klee in seinem Bett kaum sehen. Denn neben seinem Kopf türmt sich auf dem Nachtischchen ein kleiner Berg weißer zerknüllter Papiertaschentücher. Er fragt Fanny mit kläglicher Stimme: \"Warum bekommt man eigentlich Schnupfen?\" Natürlich denkt sich Fanny eine großartige Geschichte aus. (Autor: Silke Wolfrum / Sprecherin: Monika Schwarz)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-kd/130218_1955_Betthupferl_Fanny---Klee-IV---Warum-bekommt-man-Schnupf.mp3","published":"Mon, 18 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4755155},{"sampleRate":44100,"title":"Fanny Fuchs - Den Winter vertreiben / Mundart: Oberbayern - 17.02.2013","episode":40,"description":"Fanny geht untertags in einen Waldkindergarten. Abends, im Traum, kehrt sie als kleiner Fuchs in den Wald zurück. Heute trifft Fanny Fuchs Hansi Hase, den der lange Winter schwermütig gemacht hat. Fanny fällt ein lustiges Lied ein. Das bringt Hansi wieder zum Lachen. (Autorin: Ingrid Kellner / Sprecherin: Johanna Bittenbinder)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-0S/5-bf5yiS/130217_1955_Betthupferl_Fanny-Fuchs---Den-Winter-vertreiben--Mundar.mp3","published":"Sun, 17 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5051488},{"sampleRate":44100,"title":"Oskar im fliegenden Rollstuhl, IV - Franzi im Schnee - 16.02.2013","episode":41,"description":"Auf einer Skipiste entdeckt Oskar, was sein fliegender Rollstuhl noch alles kann und er begegnet seiner Freundin Franzi, die sich ohne Rollstuhl nicht vorwärts bewegen kann. Sie fragt ihn, ob sie auch mal mit Oskars Wunderrollstuhl fahren darf - aber kann sie das überhaupt? (Autorin: Ulrike Klausmann / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-kP/130216_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl-IV---Franzi-i.mp3","published":"Sat, 16 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4975420},{"sampleRate":44100,"title":"Oskar im fliegenden Rollstuhl - Am Pol - 15.02.2013","episode":42,"description":"Mit seinem fliegenden Rollstuhl reist Oskar zum Nordpol - oder ist es der Südpol? Oskar weiß es nicht. Er weiß nur, dass er unbedingt das Eisbärkind retten muss, das auf einer Scholle im Meer immer weiter von seiner Mutter weg treibt. (Autorin: Ulrike Klausmann / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-NP/130215_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl---Am-Pol.mp3","published":"Fri, 15 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4822447},{"sampleRate":44100,"title":"Oskar im fliegenden Rollstuhl, IV - Zauberflöte - 14.02.2013","episode":43,"description":"Oskar ist krank und darf nicht in die Schule. Deshalb verpasst er den lang ersehnten Besuch im Musiktheater. Eingemummelt in seiner Bettdecke reist Oskar mit seinem fliegenden Rollstuhl auf eigene Faust ins Land der Zauberflöte. (Autorin: Ulrike Klausmann / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-8d/130214_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl-IV---Zauberfl.mp3","published":"Thu, 14 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5042293},{"sampleRate":44100,"title":"Oskar im fliegenden Rollstuhl, IV - Uhr mit Quarzwerk - 13.02.2013","episode":44,"description":"Auf der Flucht vor dem nervigen Benedict landet Oskar mit seinem fliegenden Rollstuhl auf einem einsamen zugefrorenen See. Doch lange bleibt er nicht allein. Ein merkwürdiger Zwerg will die Zeit anhalten, wenn Oskar ihm nicht seinen Rollstuhl gibt. (Autorin: Ulrike Klausmann / Sprecher: Nico Holonics)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_-Fc/130213_1955_Betthupferl_Oskar-im-fliegenden-Rollstuhl-IV---Uhr-mit-.mp3","published":"Wed, 13 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4925265},{"sampleRate":44100,"title":"Erik und Erika Eichhorn - Geburtstag / Mundart: Unterfranken - 10.02.2013","episode":45,"description":"Tisch decken, Kuchen backen, Lampions aufhängen - wer Geburtstag hat, hat einen Sack voll zu tun, wissen die Zwillinge Erik und Erika Maulwurf. Aber über all den Trubel dürfen sie das Wichtigste nicht vergessen! (Autor: Eo Borucki / Sprecher: Ansgar Nöth)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-dS/5AgP_20S/130210_1955_Betthupferl_Erik-und-Erika-Eichhorn---Geburtstag--Munda.mp3","published":"Sun, 10 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4786084},{"sampleRate":44100,"title":"Unterm Rhododendron, IV - Grüne Blätter - 09.02.2013","episode":46,"description":"Im Park ist im Winter alles grau, braun und schwarz. Nur die Blätter des Rhododendronbusches, unter dem sich Willy und sein Kindermädchen Gundula verstecken, sind immer grün. Gundula weiß natürlich, warum das so ist. (Autorin: Silke Wolfrum / Sprecherin: Rita Russek)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9Agd/130209_1955_Betthupferl_Unterm-Rhododendron-IV---Gruene-Blaetter.mp3","published":"Sat, 09 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":4948670},{"sampleRate":44100,"title":"Unterm Rhododendron, IV - Hügel - 08.02.2013","episode":47,"description":"Willys Kindermädchen Gundula will mit Willy die kleine Anhöhe im Park auf Plastiktüten hinunterrutschen. Willy findet den Hügel erst viel zu klein, aber als Gundula erzählt, wie dieser kleine Berg entstanden ist, kann er's kaum glauben... (Autorin: Silke Wolfrum / Sprecherin: Rita Russek)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9Agc/130208_1955_Betthupferl_Unterm-Rhododendron-IV---Huegel.mp3","published":"Fri, 08 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5147201},{"sampleRate":44100,"title":"Unterm Rhododendron, IV - Ohrenschützer - 07.02.2013","episode":48,"description":"Heute werden Willy und sein Kindermädchen Gundula doch glatt von einer Dame mit Ohrenschützern in ihrem Geheimversteck entdeckt. Gundula durchschaut sofort, wie das der Frau gelingen konnte... (Autorin: Silke Wolfrum / Sprecherin: Rita Russek)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9AkP/130207_1955_Betthupferl_Unterm-Rhododendron-IV---Ohrenschuetzer.mp3","published":"Thu, 07 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5010528},{"sampleRate":44100,"title":"Unterm Rhododendron, IV - Krähe - 05.02.2013","episode":49,"description":"Willys Kindermädchen Gundula hat ein grünes und ein blaues Auge, mit beiden kann sie Geheimnisse durchschauen. Deswegen merkt sie gleich, dass der schwarze Vogel im Park nicht wirklich eine Krähe ist... (Autorin: Silke Wolfrum / Sprecherin: Rita Russek)","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9A8P/130205_1955_Betthupferl_Unterm-Rhododendron-IV---Kraehe.mp3","published":"Tue, 05 Feb 2013 19:55:01 +0100","bitRate":128,"contentLength":5003005}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.br-online.de/podcast/betthupferl/cast.xml","displaySubDomaine":"betthupferl","recentTitles":["Tankredi, III - Das Unwetter - 30.03.2013","Tankredi, III - Ein Wellenreiter - 28.03.2013","Tankredi, III - Das Meer - 27.03.2013","Tankredi, III - Das Meer und ein Schiff - 26.03.2013","Tankredi, III - Eingesperrt - 25.03.2013","Grischdiene, die schwäbische Stubenfliege - Raub / Mundart: Schwaben - 24.03.2013","Familien dieser Welt, III - Peru - 23.03.2013","Familien dieser Welt, III - Kanada - 22.03.2013","Familien dieser Welt, III - China - 21.03.2013","Familien dieser Welt, III, West Papua - 20.03.2013","Familien dieser Welt, III - Jamaika - 19.03.2013","Familien dieser Welt, III - Japan - 18.03.2013","Waschbär Wugg - Heimlicher Ausflug / Mundart: Oberpfalz - 17.03.2013","Ferien auf der Kanincheninsel, III - Ein Saunabesuch - 16.03.2013","Ferien auf der Kanincheninsel, III - Das Gehimnis der Fledermausinsel - 15.03.2013","Ferien auf der Kanincheninsel, III - Schneesturm - 14.03.2013","Ferien auf der Kanincheninsel, III - Mister Snowflake - 13.03.2013","Ferien auf der Kanincheninsel, III - Geduld, Geduld - 12.03.2013","Ferien auf der Kanincheninsel, III - Spezial-Taxi - 11.03.2013","Das Passauer Donaunixerl - Der Schatz / Mundart: Niederbayern - 10.03.2013","Hexe Hatschi - Gruselda hat Ärger - 09.03.2013","Hexe Hatschi - Ein Heulgespenst und Baldrian - 08.03.2013","Hexe Hatschi - Geistertanz auf Grauenfels - 07.03.2013","Hexe Hatschi - Schnüffelhexen müssen niesen - 06.03.2013","Hexe Hatschi - Bedsuch und Krötenalarm - 05.03.2013","Hexe Hatschi - Ein Mäuseengel und ein Brief - 04.03.2013","Beppo, die Burgfledermaus - Im Urlaub / Mundart: Mittelfranken - 03.03.2013","Dienstags bei Oma Otto, II - Spazieren gehen - 02.03.2013","Dienstags bei Oma Otto, II - Würstchen mit Ärmel - 01.03.2013","Dienstags bei Oma Otto, II - Anton, das Bleichgesicht - 28.02.2013","Dienstags bei Oma Otto - Die neue Nachbarin - 27.02.2013","Dienstags bei Oma Otto, II - Der vergessene Einkaufszettel - 26.02.2013","Dienstags bei Oma Otto, II - So ein Pony, das kann alles - 25.02.2013","Tante Silvias Bilder - Fred, der Fernseher / Mundart: Oberfranken - 24.02.2013","Fanny & Klee - Warum sind im Käse Löcher? - 23.02.2013","Fanny & Klee, IV - Warum atmen wir? - 22.02.2013","Fanny & Klee, IV - Warum ist das Blut rot? - 21.02.2013","Fanny & Klee, IV - Warum heißen Gänseblümchen Gänseblümchen? - 20.02.2013","Fanny & Klee, IV - Warum gibt es Staub? - 19.02.2013","Fanny & Klee, IV - Warum bekommt man Schnupfen? - 18.02.2013","Fanny Fuchs - Den Winter vertreiben / Mundart: Oberbayern - 17.02.2013","Oskar im fliegenden Rollstuhl, IV - Franzi im Schnee - 16.02.2013","Oskar im fliegenden Rollstuhl - Am Pol - 15.02.2013","Oskar im fliegenden Rollstuhl, IV - Zauberflöte - 14.02.2013","Oskar im fliegenden Rollstuhl, IV - Uhr mit Quarzwerk - 13.02.2013","Erik und Erika Eichhorn - Geburtstag / Mundart: Unterfranken - 10.02.2013","Unterm Rhododendron, IV - Grüne Blätter - 09.02.2013","Unterm Rhododendron, IV - Hügel - 08.02.2013","Unterm Rhododendron, IV - Ohrenschützer - 07.02.2013","Unterm Rhododendron, IV - Krähe - 05.02.2013"],"idType":7,"descriptionPodcast":"Eigentlich sind Betthupferl kleine Süßigkeiten kurz vor dem Zubettgehen. Seit über 50 Jahren sind für die meisten bayerischen Kinder \"Betthupferl\" jedoch die kleinen Gute-Nacht-Geschichten von Kater Calogero, der Maus Charlotte oder von Herkules, dem stärksten Floh der Welt. Für Kinder, Eltern und alle, die gute Gute-Nacht-Geschichten zu schätzen wissen.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.br-online.de/podcast/betthupferl/cast.xml","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/4316_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/4316_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":4316,"picture1TransUrl":"http://static.radio.de/images/broadcasts/4316_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/4316_5_1.png","author":"","title":"Download & Podcast: Betthupferl - Bayern 1 © BR","picture4Url":"http://static.radio.de/images/broadcasts/4316_4.jpeg","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Hörspiel, Kinder","_country":"Deutschland","_genre":"","_city":"München","_family":"Bayern 1","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"Bayern 1 - Betthupferl","picture3Url":"","streamUrl":"http://www.radio.de/playlists/betthupferl.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/4316_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/4316_5.jpeg","subdomain":"betthupferl","streamUrls":[{"sampleRate":44100,"id":2458665,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5Av6/130330_1955_Betthupferl_Tankredi-III---Das-Unwetter.mp3","idBroadcast":4316,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f06a 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"betthupferl", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"4316", play:"betthupferl"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("betthupferl"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("46"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("2"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Hörspiel:Kinder"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("5"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape("Kinder"));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("19"));
+document.write ("&amp;age_60_69=" + escape("2"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/betthupferl/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „Bayern 1 - Betthupferl“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/4316_4.jpeg" alt="Bayern 1 - Betthupferl" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("betthupferl"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("46"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("2"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Hörspiel:Kinder"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("5"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape("Kinder"));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("19"));
+document.write ("&amp;age_60_69=" + escape("2"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">Bayern 1 - Betthupferl</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ München,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.br-online.de/podcast/betthupferl/cast.xml'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „Bayern 1 - Betthupferl“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Eigentlich sind Betthupferl kleine Süßigkeiten kurz vor dem Zubettgehen. Seit über 50 Jahren sind für die meisten bayerischen Kinder &#034;Betthupferl&#034; jedoch die kleinen Gute-Nacht-Geschichten von Kater Calogero, der Maus Charlotte oder von Herkules, dem stärksten Floh der Welt. Für Kinder, Eltern und alle, die gute Gute-Nacht-Geschichten zu schätzen wissen.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„Bayern 1 - Betthupferl“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'4316', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">2</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">3</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'4316', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star3-0"
+stars="3-0"
+title="„Bayern 1 - Betthupferl“ bewerten?"
+content="3.0">
+</a>
+<span class="big-rate-text">Bayern 1 - Betthupferl&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „Bayern 1 - Betthupferl“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„Bayern 1 - Betthupferl“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „Bayern 1 - Betthupferl“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17702793">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>TANKREDI, III - DAS UNWETTER - 30.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17702793', 'broadcast':'4316'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Heute schippern sie mit Fischer Piet und Möwe Esmeralda auf dem blauen Meer. Da naht ein fürchterliches Unwetter, Esmeralda macht sich aus dem Staub und Herr Schmidt fliegt ihr hinterher... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17701597">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>TANKREDI, III - EIN WELLENREITER - 28.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17701597', 'broadcast':'4316'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Die beiden sind ans Meer geradelt. Herr Schmidt geht baden und lernt die Möwe Esmeralda kennen und Tankredi macht Bekanntschaft mit Fischer Piet... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17701598">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>TANKREDI, III - DAS MEER - 27.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17701598', 'broadcast':'4316'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Jeden Tag besucht Tankredi Herrn Schmidt in seinem Baumhaus. Heute radeln die beiden ans Meer und der Papagei sieht zum ersten Mal in seinem Leben ein Segelboot und noch etwas viel kleineres... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17701599">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>TANKREDI, III - DAS MEER UND EIN SCHIFF - 26.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17701599', 'broadcast':'4316'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Jeden Tag besucht Tankredi Herrn Schmidt in seinem Baumhaus. Und heute stellt Tankredi fest, dass Herr Schmidt noch nie in seinem Leben das Meer gesehen hat und nicht mal weiß, was ein Schiff ist... (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17701600">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>TANKREDI, III - EINGESPERRT - 25.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17701600', 'broadcast':'4316'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Tankredi, ein rothaariger Junge, und Herr Schmidt, ein grasgrüner Papagei, sind dicke Freunde. Jeden Tag besucht Tankredi Herrn Schmidt in seinem Baumhaus. Aber heute ist das Baumhaus leer und in der großen Zeder ist es mucksmäuschenstill, bis Tankredi ein Krächzen aus der Ferne vernimmt. Ist das etwa sein Papagei, der da um Hilfe schreit? (Autorin: Andrea Pomplun / Sprecher: Stefan Wilkening)</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „Bayern 1 - Betthupferl“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://baerenbude.radio.de'}" bcastid="3750" title="„WDR 5 - Bärenbude“ hören" id="currentlyPlayedStation_3750">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3750_1.jpeg" alt="„WDR 5 - Bärenbude“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hoerspielpool.radio.de'}" bcastid="4094" title="„Bayern 2 - Hörspiel Pool“ hören" id="currentlyPlayedStation_4094">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4094_1.jpeg" alt="„Bayern 2 - Hörspiel Pool“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-woelffchen.radio.de'}" bcastid="6295" title="„laut.fm/woelffchen“ hören" id="currentlyPlayedStation_6295">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6295_1.gif" alt="„laut.fm/woelffchen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://nachrichtenkinder.radio.de'}" bcastid="4315" title="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören" id="currentlyPlayedStation_4315">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4315_1.jpeg" alt="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-soundtalesproductions.radio.de'}" bcastid="9168" title="„laut.fm/soundtalesproductions“ hören" id="currentlyPlayedStation_9168">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9168_1.gif" alt="„laut.fm/soundtalesproductions“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://krimikiste.radio.de'}" bcastid="4108" title="„Krimikiste“ hören" id="currentlyPlayedStation_4108">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4108_1.jpeg" alt="„Krimikiste“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-hoerspiel.radio.de'}" bcastid="7785" title="„laut.fm/hoerspiel“ hören" id="currentlyPlayedStation_7785">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7785_1.gif" alt="„laut.fm/hoerspiel“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-pucki.radio.de'}" bcastid="6021" title="„laut.fm/pucki“ hören" id="currentlyPlayedStation_6021">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6021_1.gif" alt="„laut.fm/pucki“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radijojo.radio.de'}" bcastid="2902" title="„Radijojo! Das Kinderradio“ hören" id="currentlyPlayedStation_2902">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2902_1.gif" alt="„Radijojo! Das Kinderradio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://derkillerclub.radio.de'}" bcastid="4090" title="„Der Killer Club“ hören" id="currentlyPlayedStation_4090">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4090_1.jpeg" alt="„Der Killer Club“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://neuehoerbuecher.radio.de'}" bcastid="3842" title="„NDR Kultur - Neue Hörbücher“ hören" id="currentlyPlayedStation_3842">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3842_1.gif" alt="„NDR Kultur - Neue Hörbücher“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiotatort.radio.de'}" bcastid="6511" title="„ARD Radio Tatort“ hören" id="currentlyPlayedStation_6511">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6511_1.jpeg" alt="„ARD Radio Tatort“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://klicker.radio.de'}" bcastid="3751" title="„WDR 5 - Klicker“ hören" id="currentlyPlayedStation_3751">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3751_1.jpeg" alt="„WDR 5 - Klicker“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://kultradio.radio.de'}" bcastid="7916" title="„Kult.Radio“ hören" id="currentlyPlayedStation_7916">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7916_1.jpeg" alt="„Kult.Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://baerenbude.radio.de'}" bcastid="3750" title="„WDR 5 - Bärenbude“ hören" id="currentlyPlayedStation2_3750">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3750_1.jpeg" alt="„WDR 5 - Bärenbude“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hoerspielpool.radio.de'}" bcastid="4094" title="„Bayern 2 - Hörspiel Pool“ hören" id="currentlyPlayedStation2_4094">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4094_1.jpeg" alt="„Bayern 2 - Hörspiel Pool“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-woelffchen.radio.de'}" bcastid="6295" title="„laut.fm/woelffchen“ hören" id="currentlyPlayedStation2_6295">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6295_1.gif" alt="„laut.fm/woelffchen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://nachrichtenkinder.radio.de'}" bcastid="4315" title="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören" id="currentlyPlayedStation2_4315">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4315_1.jpeg" alt="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-soundtalesproductions.radio.de'}" bcastid="9168" title="„laut.fm/soundtalesproductions“ hören" id="currentlyPlayedStation2_9168">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9168_1.gif" alt="„laut.fm/soundtalesproductions“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://krimikiste.radio.de'}" bcastid="4108" title="„Krimikiste“ hören" id="currentlyPlayedStation2_4108">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4108_1.jpeg" alt="„Krimikiste“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-hoerspiel.radio.de'}" bcastid="7785" title="„laut.fm/hoerspiel“ hören" id="currentlyPlayedStation2_7785">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7785_1.gif" alt="„laut.fm/hoerspiel“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-pucki.radio.de'}" bcastid="6021" title="„laut.fm/pucki“ hören" id="currentlyPlayedStation2_6021">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6021_1.gif" alt="„laut.fm/pucki“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radijojo.radio.de'}" bcastid="2902" title="„Radijojo! Das Kinderradio“ hören" id="currentlyPlayedStation2_2902">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/2902_1.gif" alt="„Radijojo! Das Kinderradio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://derkillerclub.radio.de'}" bcastid="4090" title="„Der Killer Club“ hören" id="currentlyPlayedStation2_4090">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4090_1.jpeg" alt="„Der Killer Club“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://neuehoerbuecher.radio.de'}" bcastid="3842" title="„NDR Kultur - Neue Hörbücher“ hören" id="currentlyPlayedStation2_3842">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3842_1.gif" alt="„NDR Kultur - Neue Hörbücher“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiotatort.radio.de'}" bcastid="6511" title="„ARD Radio Tatort“ hören" id="currentlyPlayedStation2_6511">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6511_1.jpeg" alt="„ARD Radio Tatort“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://klicker.radio.de'}" bcastid="3751" title="„WDR 5 - Klicker“ hören" id="currentlyPlayedStation2_3751">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3751_1.jpeg" alt="„WDR 5 - Klicker“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://kultradio.radio.de'}" bcastid="7916" title="„Kult.Radio“ hören" id="currentlyPlayedStation2_7916">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7916_1.jpeg" alt="„Kult.Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_3750" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Bärenbude“ hören" linkobject="{'url':'http://baerenbude.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Bärenbude“ hören" href="http://baerenbude.radio.de">WDR 5 - Bärenbude</a></span>
+<span class="title_3750 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Bärenbude: Kuschelbären: Kuschelbären brauchen keinen neuen Babysitter (20.04.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4094" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - Hörspiel Pool“ hören" linkobject="{'url':'http://hoerspielpool.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - Hörspiel Pool“ hören" href="http://hoerspielpool.radio.de">Bayern 2 - Hörspiel Pool</a></span>
+<span class="title_4094 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Jörg Albrecht: Hell of Fame - 24.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_14528" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/gratis-hoerspiele“ hören" linkobject="{'url':'http://lautfm-gratishoerspiele.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/gratis-hoerspiele“ hören" href="http://lautfm-gratishoerspiele.radio.de">laut.fm/gratis-hoerspiele</a></span>
+<span class="title_14528 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6295" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/woelffchen“ hören" linkobject="{'url':'http://lautfm-woelffchen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/woelffchen“ hören" href="http://lautfm-woelffchen.radio.de">laut.fm/woelffchen</a></span>
+<span class="title_6295 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4315" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören" linkobject="{'url':'http://nachrichtenkinder.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören" href="http://nachrichtenkinder.radio.de">Bayern 2 - Klaro - Nachrichten für Kinder</a></span>
+<span class="title_4315 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Klasse 4b der Grundschule Bad Kötzting - 22.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9168" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/soundtalesproductions“ hören" linkobject="{'url':'http://lautfm-soundtalesproductions.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/soundtalesproductions“ hören" href="http://lautfm-soundtalesproductions.radio.de">laut.fm/soundtalesproductions</a></span>
+<span class="title_9168 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4108" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Krimikiste“ hören" linkobject="{'url':'http://krimikiste.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Krimikiste“ hören" href="http://krimikiste.radio.de">Krimikiste</a></span>
+<span class="title_4108 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 935: Link – Der Beobachter</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7785" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/hoerspiel“ hören" linkobject="{'url':'http://lautfm-hoerspiel.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/hoerspiel“ hören" href="http://lautfm-hoerspiel.radio.de">laut.fm/hoerspiel</a></span>
+<span class="title_7785 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6021" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/pucki“ hören" linkobject="{'url':'http://lautfm-pucki.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/pucki“ hören" href="http://lautfm-pucki.radio.de">laut.fm/pucki</a></span>
+<span class="title_6021 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_2902" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radijojo! Das Kinderradio“ hören" linkobject="{'url':'http://radijojo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radijojo! Das Kinderradio“ hören" href="http://radijojo.radio.de">Radijojo! Das Kinderradio</a></span>
+<span class="title_2902 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Magazin - Die Europaeische Union</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4090" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Der Killer Club“ hören" linkobject="{'url':'http://derkillerclub.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Der Killer Club“ hören" href="http://derkillerclub.radio.de">Der Killer Club</a></span>
+<span class="title_4090 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: „Das Morden geht weiter“</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3842" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Kultur - Neue Hörbücher“ hören" linkobject="{'url':'http://neuehoerbuecher.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Kultur - Neue Hörbücher“ hören" href="http://neuehoerbuecher.radio.de">NDR Kultur - Neue Hörbücher</a></span>
+<span class="title_3842 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Joanne Harris: "Himmlische Träume"</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6511" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ARD Radio Tatort“ hören" linkobject="{'url':'http://radiotatort.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ARD Radio Tatort“ hören" href="http://radiotatort.radio.de">ARD Radio Tatort</a></span>
+<span class="title_6511 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kontermann</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3751" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Klicker“ hören" linkobject="{'url':'http://klicker.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Klicker“ hören" href="http://klicker.radio.de">WDR 5 - Klicker</a></span>
+<span class="title_3751 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Kiraka: Klicker - Nachrichten für Kinder vom 22.03.2013, 17.00 Uhr</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7916" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Kult.Radio“ hören" linkobject="{'url':'http://kultradio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Kult.Radio“ hören" href="http://kultradio.radio.de">Kult.Radio</a></span>
+<span class="title_7916 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Kult Ron - Kult.Radio - Das Maerchen.Radio - Das Glueck des Tageloehners, Die blaue Rose, Das Kaetzchen</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<div id="broadcast-info-broadcast-family">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+<div id="broadcast-info-broadcast-family-loading" class="content-headline-loader"></div>
+<p class="h3">
+Weitere Inhalte
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="content-list">
+
+<div class="content-list-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row1"  editobject="{editIconId : 'edit-icon-2245-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_2245">
+
+
+
+<a class="content-list-favorite"
+title="„Bayern 1“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=1&loaderId=broadcast-info-broadcast-family-loading&broadcastId=2245', 
+							account:'', 
+							broadcastId:'2245',
+							targetClass:'listfavorite_2245',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://bayern1.radio.de'}" class="content-list-image js-link" rowId="row1" title="„Bayern 1“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/2245_6.jpeg" alt="Bayern 1" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://bayern1.radio.de'}" class="js-link" rowId="row1" title="„Bayern 1“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-0" stars="4-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://bayern1.radio.de" rowId="row1" title="„Bayern 1“ hören">Bayern 1</a>
+<span>
+
+Aus Deutschland: 
+
+Oldies
+
+
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Bayern 1 – mit einer Tagesreichweite von 3,21 Millionen HörerInnen einer der erfolgreichsten Radiosender Deutschlands. </div>
+<div class="content-list-information-nowplaying">
+<span class="title_2245 showPrefix ">
+
+
+
+Jetzt: Sie hören &#034;Greg Kihn Band&#034; mit &#034;The breakup song&#034;
+
+</span>
+</div>
+
+
+<div id="content-list-tags-2245" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row2"  editobject="{editIconId : 'edit-icon-4162-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_4162">
+
+
+
+<a class="content-list-favorite"
+title="„Bayern 1 - Auf ein Wort“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=2&loaderId=broadcast-info-broadcast-family-loading&broadcastId=4162', 
+							account:'', 
+							broadcastId:'4162',
+							targetClass:'listfavorite_4162',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://bayern1aufeinwort.radio.de'}" class="content-list-image js-link" rowId="row2" title="„Bayern 1 - Auf ein Wort“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/4162_6.jpeg" alt="Bayern 1 - Auf ein Wort" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://bayern1aufeinwort.radio.de'}" class="js-link" rowId="row2" title="„Bayern 1 - Auf ein Wort“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://bayern1aufeinwort.radio.de" rowId="row2" title="„Bayern 1 - Auf ein Wort“ hören">Bayern 1 - Auf ein Wort</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Religion, Spiritualität
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">&#034;Auf ein Wort&#034; lädt ein, aus einer religiösen Sichtweise heraus auf die Dinge zu blicken und sie dabei neu zu entdecken.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_4162 showPrefix content-list-podcast">
+
+
+Folge: Karsamstagsfrömmigkeit (Verkündigungssendung) - 30.03.2013
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-4162" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row4"  editobject="{editIconId : 'edit-icon-7882-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_7882">
+
+
+
+<a class="content-list-favorite"
+title="„Bayern 1 - Die Nastvogels“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=4&loaderId=broadcast-info-broadcast-family-loading&broadcastId=7882', 
+							account:'', 
+							broadcastId:'7882',
+							targetClass:'listfavorite_7882',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://bayern1nastvogels.radio.de'}" class="content-list-image js-link" rowId="row4" title="„Bayern 1 - Die Nastvogels“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/7882_6.jpeg" alt="Bayern 1 - Die Nastvogels" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://bayern1nastvogels.radio.de'}" class="js-link" rowId="row4" title="„Bayern 1 - Die Nastvogels“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star3-0" stars="3-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://bayern1nastvogels.radio.de" rowId="row4" title="„Bayern 1 - Die Nastvogels“ hören">Bayern 1 - Die Nastvogels</a>
+<span>
+
+Aus Deutschland: 
+
+Podcast
+, 
+Comedy
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Das typische mainfränkische Ehepaar Nastvogel hat zu jedem Thema kritische Randbemerkungen parat: Ob Weinbauernverband oder Wildschweinplage.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_7882 showPrefix content-list-podcast">
+
+
+Folge: Die Nastvogels: Vögel im Garten - 27.03.2013
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-7882" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row5"  editobject="{editIconId : 'edit-icon-4313-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_4313">
+
+
+
+<a class="content-list-favorite"
+title="„Bayern 1 - Katholische Morgenfeier“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=5&loaderId=broadcast-info-broadcast-family-loading&broadcastId=4313', 
+							account:'', 
+							broadcastId:'4313',
+							targetClass:'listfavorite_4313',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://morgenfeierkath.radio.de'}" class="content-list-image js-link" rowId="row5" title="„Bayern 1 - Katholische Morgenfeier“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/4313_6.jpeg" alt="Bayern 1 - Katholische Morgenfeier" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://morgenfeierkath.radio.de'}" class="js-link" rowId="row5" title="„Bayern 1 - Katholische Morgenfeier“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://morgenfeierkath.radio.de" rowId="row5" title="„Bayern 1 - Katholische Morgenfeier“ hören">Bayern 1 - Katholische Morgenfeier</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Religion
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Eine Stunde zum Atemholen, Nachdenken und Besinnen. Die katholische Kirche hat dann das Wort.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_4313 showPrefix content-list-podcast">
+
+
+Folge: Aus Liebe (Verkündigungssendung) - 24.03.2013
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-4313" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+</div>
+<div class="content-list-pageitems">
+5 |
+<a class="change-list-size-15" title="15 Sender pro Seite anzeigen">15</a> |
+<a class="change-list-size-25" title="25 Sender pro Seite anzeigen">25</a> |
+<a class="change-list-size-50" title="50 Sender pro Seite anzeigen">50</a>
+</div>
+</div>
+
+
+
+</div>
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „Bayern 1 - Betthupferl“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Bayern" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Bayern suchen" tag="Bayern">Bayern</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Hörspiel" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Hörspiel suchen" tag="Hörspiel">Hörspiel</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Kinder" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Kinder suchen" tag="Kinder">Kinder</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach deutsch suchen" tag="deutsch">deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Bayern1" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Bayern1 suchen" tag="Bayern1">Bayern1</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/München" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach München suchen" tag="München">München</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Bett" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Bett suchen" tag="Bett">Bett</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Geschichten" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach Geschichten suchen" tag="Geschichten">Geschichten</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „Bayern 1 - Betthupferl“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'4316', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „Bayern 1 - Betthupferl“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://betthupferl.radio.de" class="js-link-external" linkobject="{'url':'http://betthupferl.radio.de'}" title="„Bayern 1 - Betthupferl“ hören" target="_blank">
+http://betthupferl.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fbetthupferl.radio.de&amp;notes=&amp;tags=&amp;title=Bayern 1 - Betthupferl;'}" class="icon-delicious js-link-external" title="„Bayern 1 - Betthupferl“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fbetthupferl.radio.de&amp;bm_notice=&amp;bm_description=Bayern 1 - Betthupferl&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„Bayern 1 - Betthupferl“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fbetthupferl.radio.de&amp;title=Bayern 1 - Betthupferl'}" class="icon-stumble js-link-external" title="„Bayern 1 - Betthupferl“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fbetthupferl.radio.de&amp;bodytext=&amp;tags=&amp;title=Bayern 1 - Betthupferl'}" class="icon-digg js-link-external" title="„Bayern 1 - Betthupferl“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fbetthupferl.radio.de&amp;title=Bayern 1 - Betthupferl&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„Bayern 1 - Betthupferl“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+
+
+Genießen Sie den kostenlosen Komfort von radio.de und hören Sie Bayern 1 - Betthupferl einfach per Internetradio. Auf dieser Seite finden Sie ein umfassende Auswahl von Webradio Sendern und Livestreams aus der ganzen Welt. Hier können Sie neben Bayern 1 - Betthupferl noch viele weitere Lieblingssender entdecken.
+
+
+
+							
+											
+						
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("betthupferl"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("46"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("2"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Hörspiel:Kinder"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("5"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape("Kinder"));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("19"));
+document.write ("&amp;age_60_69=" + escape("2"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">Bayern 1 - Betthupferl</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://baerenbude.radio.de/" class="channel-link" title="„WDR 5 - Bärenbude“ hören">
+<span class="broadcast-name">WDR 5 - Bärenbude</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://hoerspielpool.radio.de/" class="channel-link" title="„Bayern 2 - Hörspiel Pool“ hören">
+<span class="broadcast-name">Bayern 2 - Hörspiel Pool</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-gratishoerspiele.radio.de/" class="channel-link" title="„laut.fm/gratis-hoerspiele“ hören">
+<span class="broadcast-name">laut.fm/gratis-hoerspiele</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-woelffchen.radio.de/" class="channel-link" title="„laut.fm/woelffchen“ hören">
+<span class="broadcast-name">laut.fm/woelffchen</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://nachrichtenkinder.radio.de/" class="channel-link" title="„Bayern 2 - Klaro - Nachrichten für Kinder“ hören">
+<span class="broadcast-name">Bayern 2 - Klaro - Nachrichten für Kinder</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-soundtalesproductions.radio.de/" class="channel-link" title="„laut.fm/soundtalesproductions“ hören">
+<span class="broadcast-name">laut.fm/soundtalesproductions</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://krimikiste.radio.de/" class="channel-link" title="„Krimikiste“ hören">
+<span class="broadcast-name">Krimikiste</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-hoerspiel.radio.de/" class="channel-link" title="„laut.fm/hoerspiel“ hören">
+<span class="broadcast-name">laut.fm/hoerspiel</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-pucki.radio.de/" class="channel-link" title="„laut.fm/pucki“ hören">
+<span class="broadcast-name">laut.fm/pucki</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radijojo.radio.de/" class="channel-link" title="„Radijojo! Das Kinderradio“ hören">
+<span class="broadcast-name">Radijojo! Das Kinderradio</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("betthupferl"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("46"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("2"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Hörspiel:Kinder"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("5"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape("Kinder"));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("19"));
+document.write ("&amp;age_60_69=" + escape("2"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("betthupferl"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("46"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("2"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Hörspiel:Kinder"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("5"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape("Kinder"));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("19"));
+document.write ("&amp;age_60_69=" + escape("2"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("betthupferl"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("46"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("2"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Hörspiel:Kinder"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("5"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape("Kinder"));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("19"));
+document.write ("&amp;age_60_69=" + escape("2"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://radio.russianfm.de:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"RussianFM - ",
+    "subDomaine":"russianfm",
+    "relayDisabled":false,
+    "rank":249,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"RussianFM ist der erste deutsch-russische Radiosender im ganz besonderen Stil! Was ihn besonders macht? Die exklusiv ausgewählte Musik, Dj-Gäste im Studio und die Interaktivität. Letzteres bedeutet, dass die Hörer das Musikprogramm durch Bewertungen mitgestalten! So wird die Playliste tagtäglich aktualisiert und verändert. Da bleibt kein Wunsch offen!\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9727_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9727_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9727_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"RussianFM ist der erste deutsch-russische Radiosender im ganz besonderen Stil! Mit exklusiv ausgewählter Musik, Dj-Gästen im Studio und Interaktivität.",
+    "metaDataUrl":"http://radio.russianfm.de:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://radio.russianfm.de:8000/listen.pls",
+    "displaySubDomaine":"russianfm",
+    "recentTitles":
+    [
+      "Bjanka - Muzeka",
+      "Maxim - Ja Weter",
+      "Syntheticsax feat. Kroshka bi bi i Art Night - Bosikom (Radio Edit)",
+      "Oleg Vinnik - Zdrastwui Newesta",
+      "A Sen - Karije (DJ Set aka Anton Remix)",
+      "Propaganda - Podruga (Dance Version)",
+      "Drej Songs - Gorodskije Ogni (Radio Edit)",
+      "Lera Tumanova - Wesna",
+      "DJ Slon feat. Katya - Zeplonok pi",
+      "Denero - Rodnaja (Remix)",
+      "Aznaur - O Lubvi",
+      "Base - Ti moi Wsdoh",
+      "H2O - No ne ja",
+      "Manyasha - Mishki",
+      "Masha Sobko - Holodno",
+      "Oleg Golubjow - Tanzui",
+      "DJ Pomeha - Holodnim Wetram",
+      "Pachulya - Budu lyubit (Remix)",
+      "www.russianfm.de - Julja Pago - Uletaj",
+      "Kraski - Kanikuli",
+      "Klipsa - Eto ja (Remix)",
+      "Anna Sedokova - Rewnost",
+      "Yan Maers - Blishe k Nebu",
+      "Music People Deejays - Wipusknoi",
+      "Aksioma Project - Bes tebja",
+      "Alibi - 5 Element",
+      "Katrina -  Leti so mnoj  Remix",
+      "The Author - The Title",
+      "Valerija - Romantic (Sweet DJs Mix)",
+      "Infiniti - Nu i pust",
+      "Infiniti - Ti moi Geroi (Radio Remix)",
+      "Dip Project - Tainaja Nosh",
+      "DJ Monster  Joe Dassin - Ti moja",
+      "V Pavlik - Vega (Radio Remix)",
+      "Faktor 2 - A menja net",
+      "Vena - Legko",
+      "Ed Shulshewski - Po Imeni Nastja (Radio Remix)",
+      "Verona - Schag za schagom",
+      "Syntheticsax feat. Andrew.S - W werh k Sonzu",
+      "Teo - Moskwa Hanoj",
+      "Bratja Grim - Samaloti",
+      "Afrodita - Tok (Radio Remix)",
+      "De Maar feat. DJ A Newman i Lexa - I love you Baby",
+      "Lavika - Osen eto ja (Radio Edit)",
+      "Yolanand Kenia - Ishu tebja",
+      "Katherina Iljish - Blishe",
+      "Blokbaster - Pazani",
+      "Klipsa - Shag",
+      "Siatria - Moja Moskwa",
+      "Banderos - Adios (Radio Remix)",
+      "Siatria feat. Tony Igy - Blishe shem Wosduh",
+      "Timur Rodrigez - O tebe (Radio Edit)",
+      "Rinat Karimov - Ne begi",
+      "Anika Dalinski - Radio Malishka",
+      "Poala - Zweti na Oswalte",
+      "DJ Left - Ti",
+      "K Melody - Pro Leto"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.RussianFM.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9727_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9727_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9727,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9727_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9727_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9727_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Webradio",
+      "_country":"Deutschland",
+      "_genre":"Dance, Pop",
+      "_city":"Bestwig",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Russisch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"RussianFM",
+    "picture3Url":"",
+    "streamUrl":"http://radio.russianfm.de:8000/listen.pls",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9727_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9727_5.jpeg",
+    "subdomain":"russianfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2453900,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://radio.russianfm.de:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://radio.russianfm.de:8000/",
+        "idBroadcast":9727,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

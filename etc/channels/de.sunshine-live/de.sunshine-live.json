@@ -1,0 +1,266 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.hoerradar.de/sunshinelive-mp3-128",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.hoerradar.de/sunshinelive-mp3-192",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"sunshine live - ",
+    "subDomaine":"sunshine-live",
+    "relayDisabled":false,
+    "rank":28,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"radio sunshine live. electronic music radio.\r\nDeutschlands einziges elektronisches Musikradio. \r\nElektronische Musik 24 h rund um die Uhr. Shows on-air mit Armin van Buuren, Paul van Dyk, Woody van Eyden, Alex M.O.R.P.H., Tiesto, Felix Kröcher. Unzählige Live-Übertragungen aus Clubs und von großen Festivals. Ein Muß für echte Fans: die sunshine live club community.\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2241_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2241_3_1.png",
+    "longitude":8.46472,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2241_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"radio sunshine live. electronic music radio.\r\nDeutschlands einziges elektronisches Musikradio. \r\n",
+    "metaDataUrl":"http://stream.hoerradar.de/sunshinelive-mp3-128",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.48833,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.hoerradar.de/sunshinelive-mp3-128",
+    "displaySubDomaine":"sunshine-live",
+    "recentTitles":
+    [
+      "Madeon - The City (Original) | radio sunshine live :: electronic music web ",
+      "Armin van Buuren feat. Trevor Guthrie - This Is What It Feels Like | radio sunshine live :: electronic music web ",
+      "Psy - Gentleman | radio sunshine live :: electronic music web ",
+      "Andy Jay Powell & Mike Nero - Life On Line (Festival Radio Edit) | radio sunshine live :: electronic music web ",
+      "DJane HouseKat - All the Time (Groove Coverage Rmx) | radio sunshine live :: electronic music web ",
+      "DJ SHOG vs. Aboutblank & KLC - Fireflight (DJ SHOG Edit) | radio sunshine live :: electronic music web ",
+      "The Black Eyed Peas - Rock That Body (Album Version) | radio sunshine live :: electronic music web ",
+      "Wolfpack feat. Coco Star - Miracle (Dimitri Vegas & Like Mike Radio Edit) | radio sunshine live :: electronic music web ",
+      "Nick The Kid pres. The Nameless Girl - Bright Light (Extravagance SL Radio Edit) | radio sunshine live :: electronic music web ",
+      "Rene Ablaze & Charles McThorn - Purple (Radio Mix) | radio sunshine live :: electronic music web ",
+      "Interactive - Tell me when (Radio Edit) | radio sunshine live :: electronic music web ",
+      "David Guetta ft. Ne-Yo & Akon - Play Hard (New Radio Edit) | radio sunshine live :: electronic music web ",
+      "Cassius - I <3 U So | radio sunshine live :: electronic music web ",
+      "The Cube Guys & Barbara Tucker - I Wanna Dance With Somebody (The Cube Guys Radio Edit) | radio sunshine live :: electronic music web ",
+      "DJ Antoine - Bella Vita (DJ Antoine vs. Mad Mark 2k13 Radio Edit) (sl 45) | radio sunshine live :: electronic music web ",
+      "Depeche Mode - Soothe My Soul (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Flava & Stevenson ft. FreeG & Fat - Good Time (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Pamela - Say What You Want (Sinan Mercenks Remix Radio Edit) | radio sunshine live :: electronic music web ",
+      "Tujamo - There It Is (David Jones Remix Edit) (sl 45) | radio sunshine live :: electronic music web ",
+      "September - Cry for you (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Talla 2XLC ft. Skye - Rise (Original Radio Edit) | radio sunshine live :: electronic music web ",
+      "The Disco Boys - Heartbreaker (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Members of Mayday - Never Stop Raving | radio sunshine live :: electronic music web ",
+      "Klaudia Gawlas - Papillion (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Blank & Jones - Beyond Time | radio sunshine live :: electronic music web ",
+      "Co.Ro ft.Taleesa - Because the Night | radio sunshine live :: electronic music web ",
+      "Passenger - Let Her Go (Peer Kursiv Mix) | radio sunshine live :: electronic music web ",
+      "Martin Solveig & Dragonette (SL 36) - Hello (Radio Edit) (SL 36) | radio sunshine live :: electronic music web ",
+      "Alex Kenji & Federico Scavo - Gimme Five (Tradelove Remix Edit) | radio sunshine live :: electronic music web ",
+      "Sultan & Ned Shepard & Nervo ft. Omarion - Army | radio sunshine live :: electronic music web ",
+      "DJ Bobo - Somebody Dance With Me (Remady Rmx 2013 ft. Manu-L) | radio sunshine live :: electronic music web ",
+      "Shapeshifters - Lola´s Theme | radio sunshine live :: electronic music web ",
+      "Lana Del Rey - Dark Paradise (Parov Stelar Remix) | radio sunshine live :: electronic music web ",
+      "Alex Martello feat. Mat Twice - Need Of You (Asalto Radio Remix) | radio sunshine live :: electronic music web ",
+      "Clubstone ft. Leonie Williams - Release me (Radio Edit) | radio sunshine live :: electronic music web ",
+      "A*Star - Dodging Teardrops | radio sunshine live :: electronic music web ",
+      "Sylver - Forever in Love (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Erick Morillo Harry Romero & Jose Nunez Feat. Shawnee Taylor - My Melody (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Bob Sinclar ft. Steve Edwards (SL 19) - World, Hold on (SL 19) | radio sunshine live :: electronic music web ",
+      "Frida Gold - Liebe ist meine Rebellion (Radio Version) | radio sunshine live :: electronic music web ",
+      "Michael Mind Project feat. BirkStorm - Give me love (Short Edit) (sl 45) | radio sunshine live :: electronic music web ",
+      "Hampenberg & Alexander Brown ft. Busta Rhymes & Shonie  - You\'re A Star (Radio Edit) | radio sunshine live :: electronic music web ",
+      "Blitzkids mvt. - Heart on the line | radio sunshine live :: electronic music web ",
+      "Duke Dumont feat. A*M*E - Need U (100) | radio sunshine live :: electronic music web ",
+      "Jam & Spoon feat Plavka vs David May & Amfree -  Right In The Night 2k13 (Radio Edit With Rap) | radio sunshine live :: electronic music web ",
+      "Fritz & Paul Kalkbrenner (SL 29) - Sky & Sand (Berlin Calling) (SL 29) | radio sunshine live :: electronic music web ",
+      "Schiller - Lichtermeer (Radio Version) | radio sunshine live :: electronic music web ",
+      "Vanillaz feat. Hanna Mancini - Back 2 Life (Radio Edit) | radio sunshine live :: electronic music web "
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1.5,
+    "streamContentFormat":"MP3",
+    "link":"http://www.sunshine-live.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2241_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2241_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2241,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2241_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2241_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2241_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Dance, Electro",
+      "_city":"Mannheim",
+      "_family":"sunshine live",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"sunshine live",
+    "picture3Url":"",
+    "streamUrl":"http://stream.hoerradar.de/sunshinelive-mp3-128",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2241_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2241_5.jpeg",
+    "subdomain":"sunshine-live",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "id":20607,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.hoerradar.de/sunshinelive-mp3-192",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.hoerradar.de/sunshinelive-mp3-192",
+        "idBroadcast":2241,
+        "bitRate":192
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":17933,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.hoerradar.de/sunshinelive-mp3-128",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.hoerradar.de/sunshinelive-mp3-128",
+        "idBroadcast":2241,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

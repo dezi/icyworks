@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.groovefm.de:10028/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"GrooveFM - ",
+    "subDomaine":"groovefm",
+    "relayDisabled":false,
+    "rank":1536,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Soulige Jazz-Grooves und entspannte elektronische Beats: Täglich sendet groove fm von 10.00 Uhr morgens bis 02.00 Uhr in der Nacht das Beste aus Jazz, Funk und Electronic. Zusätzlich dazu gibt es Sendungen zu bestimmten Themenbereichen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1607_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1607_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1607_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Soulige Jazz-Grooves und entspannte elektronische Beats.",
+    "metaDataUrl":"http://stream.groovefm.de:10028/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.groovefm.de:10028/",
+    "displaySubDomaine":"groovefm",
+    "recentTitles":
+    [
+      "Nytro - People Of The Country",
+      "The Alvin Mills Project - Jetspray",
+      "Till Brönner - When Your Love Has Gone",
+      "The Porter Project - Night And Day",
+      "Tower Of Power - It Takes Two (Feat. Joss Stone)",
+      "Incognito - Tin Man",
+      "Nils Landgren Funk Unit - Sos",
+      "Kaye-Ree - New Air",
+      "Michael Vince - Shelby St. Bridge",
+      "Dan Siegel - This Time Around",
+      "Tim Bowman - High Def",
+      "The Bahama Soul Club - Open Wide (feat. Xantané Blanq)",
+      "Polished Chrome - Secret Of Sound",
+      "Beady Belle - Saved",
+      "Prince - Style",
+      "The Rippingtons - She Likes To Watch",
+      "Paul Brown - Ol\' Skoolin\' (Feat. Boney James)",
+      "Lee Ritenour - Punta Del Soul",
+      "Lemongrass - Anohito",
+      "Lakecia Benjamin - Share My Life",
+      "Quicksand - Ding Dong Day",
+      "Candy Dulfer - In Or Out",
+      "Max Mutzke - Creep",
+      "J.P. Delaire - In My Life",
+      "Milla Kay - I Guess I Got Lost",
+      "Thorsten Goods - Shout It Out",
+      "Earth Jazz Agents - Plan A",
+      "Alan Bertoni - The 7th Sign",
+      "Larry Carlton - Kid Gloves",
+      "Daniel Domenge - Smoothjames",
+      "Ty Pursglove - Sunshine At Night",
+      "Fourplay - Logic Of Love",
+      "Blank  Jones - Landslide - A Vida Azul",
+      "Prema - Angel",
+      "Candycream - Mein Herz Brennt (Radio Edit)",
+      "Gil Scott-Heron - The Bottle",
+      "Caro Emerald - Stuck",
+      "De-Phazz  The Radio Bigband Frankfurt - Jazz Music",
+      "Lühning - Cream",
+      "Sicania Soul Feat. Lara Luppi - Life Is A Tree",
+      "Nick Colionne - The Windy Dance",
+      "Brian Bromberg - Love Shack",
+      "Jessy J - Meant to Be",
+      "Quiet Fire - Witness",
+      "Swing Out Sister - Breakout (Fabulous Party Mix)",
+      "Freefall - The Search For Meaning",
+      "Flabby - Don\'t break this heart of mine",
+      "Pink Martini - Hey Eugene!",
+      "Labelle - System",
+      "Al Green - What More Do U Want From Me",
+      "Jamiroquai - Emergency On Planet Earth"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.groovefm.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1607_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1607_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1607,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1607_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1607_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1607_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Ambient, Funk",
+      "_city":"Heigenbrücken",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"GrooveFM",
+    "picture3Url":"",
+    "streamUrl":"http://stream.groovefm.de:10028/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1607_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1607_5.jpeg",
+    "subdomain":"groovefm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":367,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.groovefm.de:10028/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://stream.groovefm.de:10028/",
+        "idBroadcast":1607,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

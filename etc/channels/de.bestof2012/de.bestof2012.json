@@ -1,0 +1,241 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/bestof2012",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":2,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Das Beste aus den Charts, Top100 und Playlisten 2012 - ",
+    "subDomaine":"bestof2012",
+    "relayDisabled":false,
+    "rank":276,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Alle Hits und Melodien des Jahres 2012 - anmachen, aufdrehen und in Erinnerungen schwelgen!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/16634_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/16634_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/16634_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Alle Hits und Melodien des Jahres 2012 - anmachen, aufdrehen und in Erinnerungen schwelgen!",
+    "metaDataUrl":"http://dude.mp3streams.net/bestof2012",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/bestof2012",
+    "displaySubDomaine":"bestof2012",
+    "recentTitles":
+    [
+      "Train - Drive By",
+      "Fun. - We Are Young (feat. Janelle Monáe)",
+      "Olly Murs - Heart Skips a Beat (feat. Rizzle Kicks)",
+      "Madonna - Give Me All Your Luvin\' (feat. Nicki Minaj & M.I.A.) [Radio Edit]",
+      "Chris Brown - Don\'t Wake Me Up",
+      "Cro - Easy",
+      "Carly Rae Jepsen - Call Me Maybe",
+      "Lukas Graham - Drunk in the Morning",
+      "No Doubt - Settle Down",
+      "Lena - Stardust",
+      "Asaf Avidan & The Mojos - One Day / Reckoning Song",
+      "Oddisee - Anothers Grind",
+      "Sean Paul - She Doesn\'t Mind",
+      "Blu & Exile - Maybe One Day (Featuring Black Spade)",
+      "Robbie Williams - Candy",
+      "Usher - Numb",
+      "Die Toten Hosen - Tage Wie Diese",
+      "Caligola - Forgive Forget",
+      "David Guetta - She Wolf (Falling to Pieces) [feat. Sia]",
+      "Pharoahe Monch - Still Standing Ft. Jill Scott",
+      "Ben Howard - Only Love",
+      "Aura Dione - Friends (feat. Rock Mafia)",
+      "Miriam Bryant - Finders Keepers",
+      "Emeli Sandé - Read All About It",
+      "Christina Perri - Jar of Hearts",
+      "People Under The Stairs - Too Much Birthday",
+      "Thundercat - Walkin\'",
+      "PSY - Gangnam Style (&#44053;&#45224;&#49828;&#53440;&#51068;)",
+      "Pink - Try",
+      "Lana Del Rey - Summertime Sadness",
+      "Pitbull - Back in Time",
+      "Maroon 5 - Payphone (feat. Wiz Khalifa)",
+      "Big Boi - Mama Told Me (Ft. Little Dragon)",
+      "Tacabro - Tacatà",
+      "Michael Kiwanuka - Tell Me A Tale",
+      "Coldplay - Paradise",
+      "Of Monsters and Men - Little Talks",
+      "Flo Rida - Wild Ones (feat. Sia)",
+      "Deichkind - Leider geil (Leider geil)",
+      "Flo Rida - Good Feeling",
+      "Alex Clare - Too Close",
+      "Taio Cruz - Fast Car",
+      "Gusttavo Lima - Balada (Tchê Tcherere Tchê Tchê)",
+      "Raphael Saadiq - Movin\' Down The Line",
+      "Jason Derulo - Breathing",
+      "Klangkarussell - Sonnentanz",
+      "Nelly Furtado - Waiting For the Night",
+      "Raphael Saadiq - Radio",
+      "Loreen - Euphoria",
+      "Ed Sheeran - The a Team"
+    ],
+    "idType":2,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://corporate.radio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/16634_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/16634_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":16634,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/16634_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/16634_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/16634_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Charts, Hits",
+      "_city":"Hamburg",
+      "_family":"bestof",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Best of 2012",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/bestof2012",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/16634_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/16634_5.png",
+    "subdomain":"bestof2012",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":17719,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/bestof2012",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/bestof2012",
+        "idBroadcast":16634,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

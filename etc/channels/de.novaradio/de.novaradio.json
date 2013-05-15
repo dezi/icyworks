@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://s6.viastreaming.net:7010/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":false,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"NOVA RADIO - CLUB SOUND NETWORK",
+    "subDomaine":"novaradio",
+    "relayDisabled":false,
+    "rank":1496,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"100% ELEKTRONISCHE MUSIK: Dance, House, Electro, Chillout, DJ Mix",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3192_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3192_3_1.png",
+    "longitude":11.57549,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"100% ELEKTRONISCHE MUSIK: Dance, House, Electro, Chillout, DJ Mix",
+    "metaDataUrl":"http://s6.viastreaming.net:7010/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":48.13743,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.novaradio.de/stream.m3u",
+    "displaySubDomaine":"novaradio",
+    "recentTitles":
+    [
+      "Adele - Rolling In The Deep",
+      "Steve Modana Feat. Carlprit - Mr. Dobalina",
+      "Jason Derulo - Breathing",
+      "R.I.O. feat.U-JEAN - Animal",
+      "Corina - Munky Funky",
+      "Avicii - Levels",
+      "Kash Feat. Omar - Down",
+      "RLP And Barbara Tucker - R.E.S.P.E.C.T.",
+      "Pitbull - Hotel Room Service",
+      "Dj Fresh Feat. Rita Ora - Hot Right Now",
+      "DJ ANTOINE  feat.The BEAT SHAKERS - Ma Cherie",
+      "Nadia Ali - Rapture",
+      "INNA - Endless",
+      "Sean Finn - No Good",
+      "Wale Feat. Lady Gaga - Chillin",
+      "Belmondo And Parker - Mad World",
+      "Wyclef Jean Feat Shakira - The Border",
+      "Milk  Sugar Feat. Miriam Makeba  Jungle Brothers - Hi-A Ma (Pata Pata)",
+      "Nicki Minaj - Starships",
+      "The Lonely Island Feat. T-Pain - I`m On A Boat",
+      "David Guetta Feat. Sia - Titanium",
+      "Gym Class Heroes Feat. Neon Hitch - Ass Back Home",
+      "Sherrita - I Will Survive",
+      "SAK NOEL - Paso (The Nini Anthem)",
+      "Labrinth Feat. Tinie Tempah - Earthquake",
+      "Pitbull Feat. Chris Brown - International Love",
+      "Katy Perry Feat. Kanye West - E.T.",
+      "Alyssa Reid Geat. Jump Smoker - Alone Again",
+      "Cover Drive - Twilight",
+      "Lucenzo Feat. Don Omar - Hot Party Summer 2011 - Danza Kuduro",
+      "Flo Rida Feat. Sia - Wild Ones",
+      "T.I. Feat. Mary J. Blige - Remember Me",
+      "September - Because I Love You",
+      "Radio Flo - Sweeper 5",
+      "Will.I.Am Feat. Mick Jagger  Jennifer Lopez - T.H.E (The Hardest Ever)",
+      "Redd Feat. Akon  Snoop Dogg - I`m Day Dreaming",
+      "Twista - Wetter (Calling You Daddy)",
+      "Max Farenthide - Happy People",
+      "Flo Rida - Sugar",
+      "MARLON ROUDETTE - New Age",
+      "Ludacris Feat. Nicki Minaj - My Chick Bad",
+      "Lloyd Feat. Andre 3000 And Lil Wayne - Dedication To My Ex (Miss That)",
+      "RIHANNA - You Da One",
+      "Radio Flo - Sweeper 1",
+      "Avicii  Sebastien Drums - My Feelings For You",
+      "Cassie/The Dream - Keep On Lovin Me",
+      "Martin Solveig  Dragonette Feat. Idoling!!! - Big In Japan",
+      "Maroon 5 Feat. Christina Aguilera - Moves Like Jagger",
+      "Lady Gaga - Love Game",
+      "Paki, Jaro, Emanuel Nava - Caminando",
+      "Steve Forest Feat. Club Dogo  Fatman Scoop - Boys  Girls",
+      "Javi Mula Feat. Juan Magan - King-Size Heart",
+      "Gigi Di Martino - Mar Adentro",
+      "Sony Flame - Top Of The World",
+      "Scotty - Children",
+      "B.O.B. Feat. Bruno Mars - Nothin` On You",
+      "Sean Paul - She Wanna Be Down"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.novaradio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3192_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3192_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3192,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3192_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3192_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3192_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Dance, Electro",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"NOVA RADIO - CLUB SOUND NETWORK",
+    "picture3Url":"",
+    "streamUrl":"http://www.novaradio.de/stream.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3192_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3192_5.jpeg",
+    "subdomain":"novaradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2461146,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://s6.viastreaming.net:7010/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://s6.viastreaming.net:7010/",
+        "idBroadcast":3192,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

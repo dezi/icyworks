@@ -1,0 +1,217 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.turntables24.de:9300/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Turntables24.com",
+    "subDomaine":"turntables24",
+    "relayDisabled":false,
+    "rank":2085,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Hier kann man das Beste von House und Electro Musik hören.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8645_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8645_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8645_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Hier kann man das Beste von House und Electro Musik hören.",
+    "metaDataUrl":"http://stream.turntables24.de:9300/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.turntables24.de:9300/",
+    "displaySubDomaine":"turntables24",
+    "recentTitles":
+    [
+      "David Schaller - Dumdidum (Sercan Remix) | Deep House | 2009 ",
+      "Ornette - Crazy (Noze Remix Extended Club Version) | Deep House | 2012 ",
+      "Reptile Youth - Black Swan Born White (Terranova Remix) | Deep House | 2012 ",
+      "Tim Wolff - Does That Count | Deep House | 2011 ",
+      "Lazardi  Kevin Quilotte - Veneno (Electronic Drums Remix) | Deep House | 2011 ",
+      "Rush - Who Do Sen | Deep House | 2011 ",
+      "Arcarsenal - Juniors Groove (Chris Carrier Remix) | Deep House | 2012 ",
+      "Greymatter - Give It To Me Slow (San Soda Remix) | Deep House | 2012 ",
+      "Patrick Chardronnet - Rhythm  Soul ((Jackmate\'s Short Cut Remix) | Deep House | 2010 ",
+      "Unkown - Evidence | Deep House | 2004 ",
+      "Chinah Maryoung - Shelter Me (Dub Mix) | Deep House | 2010 ",
+      "Sin Tek  Luigi Gori - Make It (Marc Poppcke Remix) | Deep House | 2011 ",
+      "The Timewriter - Travellers (Beat Pharmacy Dub) | Deep House | 2008 ",
+      "Hubert Gomez - Stalker (Original Mix) | Deep House | 2012 ",
+      "Curro Puertas  Electrofunk - I Just Want To Boogie (2012 Original Mix) | Deep House | 2012 ",
+      "Random Soul - One Of Dem Joints | Deep House | 2011 ",
+      "Groove Junkies feat. Alexander Sky - The White Light (Gjs Gruv  Sol Dub) | Deep House | 2011 ",
+      "Robert Owens  SHOW-B - Rise (Steve Bug Remix Instrumental) | Deep House | 2011 ",
+      "Daniel Dubb - I Got 5 On It (Original Rework) | Deep House | 2012 ",
+      "Shadi Megallaa - No Means Yes (Original Mix) | Deep House | 2012 ",
+      "Luke Hess - Reel Life (Cv313 Dimensional Space Mix) | Deep Tech House | 2009 ",
+      "Karol Xvii - Get Up (Original Mix) | Deep House | 2005 ",
+      "Antonio Lyons - What If (G. Family Corner Cafe Mix) | Deep House | 2010 ",
+      "Midland - Shelter | Deep House | 2011 ",
+      "Jay Sinister Séalee Presents Vik Brooks - I Just Wanna Be (Ralf Gum Dub Vocal) | Deep House | 2009 ",
+      "Sebastian Ese - Oiga Usted Senora (Korri Mix) | Deep House | 2012 "
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.turntables24.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8645_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8645_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8645,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8645_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8645_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8645_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"House",
+      "_city":"",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Turntables24.com",
+    "picture3Url":"",
+    "streamUrl":"http://stream.turntables24.de:9300/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8645_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8645_5.gif",
+    "subdomain":"turntables24",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":7609,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.turntables24.de:9300/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://stream.turntables24.de:9300/",
+        "idBroadcast":8645,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

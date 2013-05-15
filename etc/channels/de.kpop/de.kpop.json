@@ -1,0 +1,245 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/kpop",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":2,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Kpop Radio, Kpop online hören - ",
+    "subDomaine":"kpop",
+    "relayDisabled":false,
+    "rank":1257,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die besten Songs aus Korea. Nicht erst seit Psy mit Gangnam Style sind die Charts in Korea tanzbar. Auch 2NE1, Girl\'s Generation und  BIGBANG haben schon die Welt begeistert. Hier kann man die ganze Bandbreite des Kpop hören.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9841_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9841_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9841_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die besten Songs aus Korea. Nicht erst seit Psy mit Gangnam Style sind die Charts in Korea tanzbar. Hier kann man die ganze Bandbreite des Kpop hören.",
+    "metaDataUrl":"http://dude.mp3streams.net/kpop",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/kpop",
+    "displaySubDomaine":"kpop",
+    "recentTitles":
+    [
+      "SE7EN - I\'m Going Crazy",
+      "Lee Hyun - Although You Said So (feat. Mighty Mouse)",
+      "Brown Eyed Girls - My Style",
+      "SHINee - Lucifer",
+      "G.NA & Rain - What I Want To Do Once I Have A Lover",
+      "Younha - Delete",
+      "Guckkasten - Mirror",
+      "Girl\'s Generation - Tell Me Your Wish (Genie)",
+      "Ga-in - Irreversible",
+      "Brown Eyed Soul - Never Forget",
+      "Girl\'s Generation - Gee",
+      "Wonder Girls - Nobody",
+      "Nell - Part 2",
+      "TVXQ - My Destiny",
+      "T-ara - First Time",
+      "Clazziquai - Novabossa",
+      "Kara - Lonely",
+      "Kim Tae Woo - Echo",
+      "CNBLUE - Love Girl",
+      "PSY - Gangnam Style (&#44053;&#45224;&#49828;&#53440;&#51068;)",
+      "After School - Diva",
+      "Big Bang - Lies",
+      "Super Junior - BONAMANA",
+      "CNBLUE - Intuition",
+      "Super Junior K.R.Y - FLY",
+      "My Aunt Mary - Goldeun geulleobeu",
+      "Big Bang - Last Farewell",
+      "f(x) - Pinocchio (Danger)",
+      "Nell - &#50504;&#45397;&#55176; &#44228;&#49464;&#50836;",
+      "Big Bang - Love Song",
+      "TVXQ - Before U Go",
+      "SNSD - Mr. Taxi",
+      "U-Kiss - 0330",
+      "Girl\'s Generation - Forever",
+      "Kim Bum Soo (feat. Yoo-bin) - Do You Know That",
+      "Bae Doo-na - Ready To Fly",
+      "UV (feat. JYP) - Itaewon Freedom",
+      "Kara - Honey",
+      "Younha - A Perfect Day To Say I Love You",
+      "Kim Tae Woo (feat. JYP and Rain) - Brothers & Me",
+      "Brown Eyed Girls - Abracadabra",
+      "Leessang - The Girl Who Can\'t Break Up",
+      "Tiffany - By Myself",
+      "Clazziquai - Be My Love",
+      "Guckkasten - Kkori",
+      "Nell - Meaningless",
+      "Park Jung-Min - Not Alone",
+      "Rainbow - To Me",
+      "Big Bang - Tonight",
+      "Seo In Guk - Broken",
+      "Orange Caramel - Bangkok City",
+      "Super Junior - In My Dream",
+      "Dal Shabet - Supa Dupa Diva",
+      "IU - Good Day"
+    ],
+    "idType":2,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://kpop.radio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9841_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9841_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9841,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9841_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9841_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9841_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Asian, K-Pop",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Koreanisch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Kpop",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/kpop",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9841_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9841_5.png",
+    "subdomain":"kpop",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":8204,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/kpop",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/kpop",
+        "idBroadcast":9841,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

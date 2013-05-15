@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://85.25.149.155:7500",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Schwarze Welle",
+    "subDomaine":"schwarzewelle",
+    "relayDisabled":false,
+    "rank":308,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio Schwarze Welle - Das Internetradio mit den besten dunklen Liedern.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3753_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3753_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/3753_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Radio Schwarze Welle - Das Internetradio mit den besten dunklen Liedern.",
+    "metaDataUrl":"http://85.25.149.155:7500",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://85.25.149.155:7500",
+    "displaySubDomaine":"schwarzewelle",
+    "recentTitles":
+    [
+      "The Merry Thoughts - Psychocult [onAir: Schwarze Welle]",
+      "Rammstein - PUSSY [onAir: Schwarze Welle]",
+      "Qntal - Sumer [onAir: Schwarze Welle]",
+      "The LoveCrave - Little Suicide [onAir: Schwarze Welle]",
+      "The Last Dance - Nightmares [onAir: Schwarze Welle]",
+      "The Invincible Spirit - Make A Device [onAir: Schwarze Welle]",
+      "Mesh - You didn\'t want me (radio mix) [onAir: Schwarze Welle]",
+      "Unter Null - Prophecy [onAir: Schwarze Welle]",
+      "Unit 187 - Loaded [onAir: Schwarze Welle]",
+      "Unheilig - An deiner Seite [onAir: Schwarze Welle]",
+      "The House Of Usher - The Floor She Walked Upon (Album Version) [onAir: Schwarze Welle]",
+      "Umbra et Imago - Glaubst du? [onAir: Schwarze Welle]",
+      "Ultima Bleep - Back (Club Remix) [onAir: Schwarze Welle]",
+      "T.O.Y. - Welcome to Spaceradio [onAir: Schwarze Welle]",
+      "The Fair Sex - The house of unkinds [onAir: Schwarze Welle]",
+      "Syrian - Speed Of Light [onAir: Schwarze Welle]",
+      "Tyske Ludder - Monotonie [onAir: Schwarze Welle]",
+      "The Dreamside - Treasures [onAir: Schwarze Welle]",
+      "Suicide Commando - Menschenfresser (Eat Me) [onAir: Schwarze Welle]",
+      "Suicidal Romance - Poisoned Kiss [onAir: Schwarze Welle]",
+      "Subway To Sally - Meine Seele brennt [onAir: Schwarze Welle]",
+      "Twice a man - Early morning [onAir: Schwarze Welle]",
+      "Tristesse de la lune - Never [onAir: Schwarze Welle]",
+      "Straftanz - Straftanz Süd (feat. Reaper) [onAir: Schwarze Welle]",
+      "Tristania - Equilibrium [onAir: Schwarze Welle]",
+      "Trisomie 21 - No Work Of Word [onAir: Schwarze Welle]",
+      "toxic·N·blue - Borderline (Wamb Remedy Remix) [onAir: Schwarze Welle]",
+      "The Cure - Friday I\'m in love [onAir: Schwarze Welle]",
+      "Tito  the Tarantula - Tito and the Tarantula - Afte [onAir: Schwarze Welle]",
+      "Staubkind - Halt mich [onAir: Schwarze Welle]",
+      "State of the Union - Enemy of the state (Original) [onAir: Schwarze Welle]",
+      "The Cult - She Sells Sanctuary [onAir: Schwarze Welle]",
+      "Spetsnaz - Dead Angle [onAir: Schwarze Welle]",
+      "Tiesto - In the dark [onAir: Schwarze Welle]",
+      "The Crüxshadows - Deception [onAir: Schwarze Welle]",
+      "The Cassandra Complex - Nightfall (Over EC) [onAir: Schwarze Welle]",
+      "The Cascades - Hexen Einmaleins [onAir: Schwarze Welle]",
+      "Solitary Experiments - Existence [onAir: Schwarze Welle]",
+      "Smiths, the - What difference does it make? [onAir: Schwarze Welle]",
+      "Skinny Puppy - Smothered hope [onAir: Schwarze Welle]",
+      "Tiamat - Brighter Than The Sun [onAir: Schwarze Welle]",
+      "Psyche - Unveiling the secret [onAir: Schwarze Welle]",
+      "The Birthday Massacre - Goodnight [onAir: Schwarze Welle]",
+      "Sisters of Mercy, the - Heartland [onAir: Schwarze Welle]",
+      "Siouxsie and the Banshees - Israel [onAir: Schwarze Welle]",
+      "Project Pitchfork - Requiem [onAir: Schwarze Welle]",
+      "Pride And Fall - The painful regret [onAir: Schwarze Welle]",
+      "Silke Bischoff - To Protect And To Serve [onAir: Schwarze Welle]",
+      "Theatre of Tragedy - Cassandra [onAir: Schwarze Welle]",
+      "The Young Gods - Donnez Les Esprits [onAir: Schwarze Welle]",
+      "The Wake - Christine [onAir: Schwarze Welle]"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.schwarze-welle.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3753_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3753_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3753,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3753_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3753_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3753_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Internetradio",
+      "_country":"Deutschland",
+      "_genre":"Gothic, Industrial",
+      "_city":"Gelsenkirchen",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Schwarze Welle",
+    "picture3Url":"",
+    "streamUrl":"http://85.25.149.155:7500",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3753_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3753_5.jpeg",
+    "subdomain":"schwarzewelle",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2907,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://85.25.149.155:7500",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://85.25.149.155:7500",
+        "idBroadcast":3753,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

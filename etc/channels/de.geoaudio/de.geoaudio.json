@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702440",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Ein Besuch in der Wüste Thar",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700862",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-03-21/GEOaudio369_Extra_China.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Chinas tiefe Schätze",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699735",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-03-14/GEOaudio368_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Die Gewinner der Goldenen Palme",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699736",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-03-07/GEOaudio367_Extra_Kongo2.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Mit dem Schiff durch den Kongo (Teil 2)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695528",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-02-28/GEOaudio366_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Frühjahrsputz bei GEO SAISON",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693906",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-02-21/GEOaudio365_Extra_Kongo1_Bo.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Mit dem Schiff durch den Kongo",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691843",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-02-14/GEOaudio364_Mag_Bounce.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Abschlussinterview Mittendurch statt drüberhinweg",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690071",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-02-07/GEOaudio362_Extra_Argent.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Argentiniens Norden",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686319",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-01-24/GEOaudio361_Extra_Curling.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Curling in Arosa",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684521",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-01-17/GEOaudio360_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Kartoffelernte in Peru",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682535",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2013-01-03/GEOaudio358_Extra_SF_Bounce.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - San Francisco mit Apps",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682536",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-12-27/GEOaudio357_Mag_Bounce.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Alphorn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678023",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-12-20/GEOaudio356_Extra_La_Reunion",
+      "testResult":null,
+      "name":"GEOaudio Extra - La Réunion",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675446",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-12-13/GEOaudio355_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Wüstenwanderer Achill Moser",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675447",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-12-06/GEOaudio354_Extra_Arlberg.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Arlberg",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675448",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-11-29/GEOaudio353_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Das Verschwinden der Arten",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675449",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-11-22/GEOaudio352_Extra_Suedtirol.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Südtirol",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675450",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-11-15/GEOaudio351_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Swing in San Francisco",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17673958",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-11-08/GEOaudio350_Indien.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Indien",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675451",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-11-01/GEOaudio349_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Honduras",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675452",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-10-25/GEOaudio348_Extra_Bern.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Bern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675453",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-10-18/GEOaudio347_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Montenegro neu entdecken",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675454",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-10-11/GEOaudio346_Extra_Albanien.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Albanien",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675455",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-10-04/GEOaudio345_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Ein Leben auf zwei Rädern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675456",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-09-27/GEOaudio344_Extra_Muenchen.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - München",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675457",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-09-20/GEOaudio343_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Europa von Mensch zu Mensch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675458",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-09-13/GEOaudio342_Extra_Aethiopien.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Äthiopien",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675459",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-09-06/GEOaudio341_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Schildkrötenschutz in Nicaragua",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675460",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-08-30/GEOaudio340_Extra_Kreta.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Kreta",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675461",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-08-23/GEOaudio339_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Die schmalste Straße der Welt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675462",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-08-16/GEOaudio338_Extra_Toskana.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Toskana",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675463",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-08-09/GEOaudio337_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Wunder Wald",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675464",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-08-02/GEOaudio336_Extra_China.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra: China mit dem Auto",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675465",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-07-26/GEOaudio335_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Sabbatical",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675466",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-07-19/GEOaudio334_Finntango.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Tangomarkkinat",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675467",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-07-12/GEOaudio333_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Tresen-Legenden",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675468",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-07-05/GEOaudio332_Extra_Virunga.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Virunga",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675469",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-06-28/GEOaudio331_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Richtig wandern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675470",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-06-21/GEOaudio330_Extra_Gers.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Landpartie Gers",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675471",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-06-14/GEOaudio329_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Mit dem Kicker um die Welt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675472",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-06-07/GEOaudio328_Extra_Cadiz.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Cadiz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675473",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-05-31/GEOaudio327_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Mittendurch statt drüberweg",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675474",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-05-24/GEOaudio326_Extra_Cornwall.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Cornwall",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675475",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-05-17/GEOaudio325_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Wien-Tipps von Eva Menasse",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675476",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-05-10/GEOaudio324_Extra_Everest.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Ein Mal Mount Everest",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675477",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-05-03/GEOaudio323_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Im Reich der Aromen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675478",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-04-26/GEOaudio322_Extra_Wald.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Das wilde Leben",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675479",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-04-19/GEOaudio321_Mag.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Nordseeradweg",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675480",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-04-12/GEOaudio320_Extra_Monti.mp3",
+      "testResult":null,
+      "name":"GEOaudio Extra - Rom",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17675481",
+      "author":"",
+      "stream":"http://www.geo.de/GEOaudio/audios/2012-04-05/GEOaudio319_Magazin.mp3",
+      "testResult":null,
+      "name":"GEOaudio Magazin - Weltweite Weltrettung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Hören und Reisen - Mit GEO die Welt erleben!",
+    "seoTitle":"GEOaudio Reise-Podcast",
+    "subDomaine":"geoaudio",
+    "relayDisabled":false,
+    "rank":2359,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Jeden Donnerstag präsentieren Susanna Bloß und Mathias Unger aus der GEO-Redaktion Reise-Faszination aus erster Hand: Sie befragen GEO-Reporter nach ihren Reise-Erlebnissen, präsentieren Tipps für eigene Erkundungen, machen Mut zum Besuch entlegener Regionen. Und als Extra gibt es eine Reise-Reportage als kleines Hörbuch.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4920_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4920_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Jeden Donnerstag präsentieren Susanna Bloß und Mathias Unger aus der GEO-Redaktion Reise-Faszination aus erster Hand.",
+    "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Ein Besuch in der Wüste Thar",
+        "episode":0,
+        "description":"Die Sanddünen der Wüste Thar in Rajasthan gehören zu den entlegensten Orten in ganz Indien. Hier leben nur wenige Menschen, dafür aber viele Kamele. Wir besuchen die Kamelhirten",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "published":"Thu, 28 Mar 2013 15:12:44 +0100",
+        "bitRate":128,
+        "contentLength":11655976
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Chinas tiefe Schätze",
+        "episode":1,
+        "description":"In Chinas Höhlensystemen suchen Forscher nach neuen Trinkwasserquellen. Hören Sie die Reportage Die Adern des Grossen Drachen von und mit Lars Abromeit aus GEO 03/2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-21/GEOaudio369_Extra_China.mp3",
+        "published":"Thu, 21 Mar 2013 14:02:55 +0100",
+        "bitRate":128,
+        "contentLength":22429279
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Die Gewinner der Goldenen Palme",
+        "episode":2,
+        "description":"Sie konkurrierten mit 261 anderen Veranstaltern und konnten sich durchsetzen. Bei GEOaudio sprechen die Gewinner der Goldenen Palme, darüber, was ihre Reisen so besonders macht",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-14/GEOaudio368_Mag.mp3",
+        "published":"Thu, 14 Mar 2013 12:32:17 +0100",
+        "bitRate":128,
+        "contentLength":11858268
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Mit dem Schiff durch den Kongo (Teil 2)",
+        "episode":3,
+        "description":"Im zweiten Teil unseres GEOaudio Extras hören Sie, wie die Schiffsreise durch den Kongo weitergeht. Zwei GEO-Reporter berichten von ihren Abenteuern. Hören sie den zweiten Teil der Reportage Mit dem Schiff durch den Kongo von Michael Stührenberg. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-07/GEOaudio367_Extra_Kongo2.mp3",
+        "published":"Thu, 7 Mar 2013 12:00:23 +0100",
+        "bitRate":128,
+        "contentLength":36185697
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Frühjahrsputz bei GEO SAISON",
+        "episode":4,
+        "description":"Während manch einer im Winterschlaf weilte, hat die Redaktion von GEO SAISON ganze Arbeit geleistet und das Heft überarbeitet. Im Interview erzählt Chefredakteur Lars Nielsen von den Änderungen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-28/GEOaudio366_Mag.mp3",
+        "published":"Thu, 28 Feb 2013 12:44:17 +0100",
+        "bitRate":128,
+        "contentLength":11406872
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Mit dem Schiff durch den Kongo",
+        "episode":5,
+        "description":"Auf dem Wasserweg mitten durch das Herz Afrikas. Hören Sie die Reportage Kreuzfahrt mit Krokodil von Michael Stührenberg aus GEO 01/2013. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-21/GEOaudio365_Extra_Kongo1_Bo.mp3",
+        "published":"Thu, 21 Feb 2013 15:22:03 +0100",
+        "bitRate":128,
+        "contentLength":28869739
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Abschlussinterview Mittendurch statt drüberhinweg",
+        "episode":6,
+        "description":"15 Monate haben die GEO.de-Blogger Jochen Müller und Peer Bergholter sich an einer Weltreise der besonderen Art versucht: Ohne ein Flugzeug zu besteigen rund um den Globus. Und hat?s geklappt?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-14/GEOaudio364_Mag_Bounce.mp3",
+        "published":"Thu, 14 Feb 2013 12:30:22 +0100",
+        "bitRate":128,
+        "contentLength":14950400
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Argentiniens Norden",
+        "episode":7,
+        "description":"Rund um die Kolonialstadt Salta am Fuße der Anden schillern die Berge regenbogenfarben und Salzseen gleißen. Hören Sie die Reportage Ein Hoch auf den Norden von Mirco Lomoth aus GEO SAISON 02/2013. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-07/GEOaudio362_Extra_Argent.mp3",
+        "published":"Thu, 2 Feb 2013 16:30:22 +0100",
+        "bitRate":128,
+        "contentLength":16076844
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Curling in Arosa",
+        "episode":8,
+        "description":"Die Schweizer lieben es, sich in ihrer Freizeit mit Schrubber und Granitsteinen aufs Glatteis zu begeben. Unser Autor hat die Curling-Großmacht besucht. Hören Sie die Reportage Fegefeuer aus dem Eis von Jörg Spaniol aus GEO SAISON 01/2013. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-01-24/GEOaudio361_Extra_Curling.mp3",
+        "published":"Thu, 24 Jan 2013 14:07:28 +0100",
+        "bitRate":128,
+        "contentLength":13049983
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Kartoffelernte in Peru",
+        "episode":9,
+        "description":"Beim Heiligen Tal der Inka in Peru haben sich fünf Dörfer zum Parque de la Papa zusammen geschlossen, dem Kartoffelpark. Bauern ernten hier alte Kartoffelsorten und empfangen Touristen in ihren Gehöften. Ein Besuch",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-01-17/GEOaudio360_Mag.mp3",
+        "published":"Thu, 17 Jan 2013 12:45:02 +0100",
+        "bitRate":128,
+        "contentLength":12340175
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - San Francisco mit Apps",
+        "episode":10,
+        "description":"Karsten Lemm lebt schon viele Jahre in San Francisco und doch hat er sie vor kurzem neu entdeckt. Er ließ sich von seinem Smartphone zu den besten Food Trucks navigieren und buchte sich über soziale Netzwerke eine Nacht im Gästezimmer fremder Menschen. Hören Sie die Reportage Schöne neue Reisewelt von Karsten Lemm aus GEO SAISON 01/2013. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-01-03/GEOaudio358_Extra_SF_Bounce.mp3",
+        "published":"Thu, 10 Jan 2013 12:18:45 +0100",
+        "bitRate":128,
+        "contentLength":14109928
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Alphorn",
+        "episode":11,
+        "description":"Das Alphorn gehört zur Schweiz wie Heidi, Käse und Schokolade. Und wie lernt man das Blasen überhaupt? GEO.de-Mitarbeiterin Karola Kostede machte in Interlaken einen Alphorn-Schnupperkurs und besuchte die Stradivaris der Alphornmacher",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-27/GEOaudio357_Mag_Bounce.mp3",
+        "published":"Thu, 27 Dec 2012 12:22:01 +0100",
+        "bitRate":128,
+        "contentLength":16687368
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - La Réunion",
+        "episode":12,
+        "description":"Wanderer Manuel Andrack ist einem Briefträger gefolgt - rein in den Vulkan, raus aus dem Vulkan. Hören Sie die Reportage Hinterher aus dem GEO Special Indischer Ozean. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-20/GEOaudio356_Extra_La_Reunion",
+        "published":"Thu, 20 Dec 2012 13:11:23 +0100",
+        "bitRate":128,
+        "contentLength":19123767
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Wüstenwanderer Achill Moser",
+        "episode":13,
+        "description":"Achill Moser durchquerte bereits 27 Wüsten dieser Welt, ohne technische Hilfe: Zur Fortbewegung nutze er seine Füße oder den Rücken eines Kamels. Im Interview spricht Achill Moser über die Faszination Wüste und seine Erfahrungen im ewigen Sand",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-13/GEOaudio355_Mag.mp3",
+        "published":"Thu, 13 Dec 2012 12:22:01 +0100",
+        "bitRate":128,
+        "contentLength":20931584
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Arlberg",
+        "episode":14,
+        "description":"Warth-Schröcken ist die Schneekönigin der Alpen, denn nirgendwo sonst fällt in der Bergregion so viel Schnee wie in dem Skigebiet am österreichischen Arlberg. Im Schnitt elf Meter pro Winter bescheren reichlich Stoff unter den Brettern. Hören Sie die Reportage \"Tiefschnee Träume\" von Bernd Schwer aus GEO SAISON 12/2012. Es liest Mathias Unger ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-06/GEOaudio354_Extra_Arlberg.mp3",
+        "published":"Thu, 06 Dec 2012 14:22:01 +0100",
+        "bitRate":128,
+        "contentLength":16192512
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Das Verschwinden der Arten",
+        "episode":15,
+        "description":"Warum gibt es keine Riesenalke mehr, keine Stellerschen Seekühe, keine Elfenbeinspechte oder tasmanische Beutelwölfe? Das fragte sich der Biologe und Autor Lothar Frenz ¿ und fand lehrreiche, oft unterhaltsame, manchmal erschütternde Antworten. GEO.de-Redakteur Peter Carstens sprach mit Frenz über sein neues Buch Lonesome George oder Das Verschwinden der Arten",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-29/GEOaudio353_Mag.mp3",
+        "published":"Thu, 29 Nov 2012 15:22:01 +0100",
+        "bitRate":128,
+        "contentLength":17701169
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Südtirol",
+        "episode":16,
+        "description":"Eine Wanderung durch das Ultental in Südtirol ist wie ein Ausflug in eine längst vergangene Zeit. In himmlischen Höhen ehren Bergbauern die beheimateten Blumen und pfeifen auf Geld oder eine Internetverbindung. Hören Sie die Reportage Zeitkurven und Höhenlinien von Jörg Spaniol aus GEO SAISON 06/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-22/GEOaudio352_Extra_Suedtirol.mp3",
+        "published":"Thu, 22 Nov 2012 12:03:52 +0100",
+        "bitRate":128,
+        "contentLength":15234906
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Swing in San Francisco",
+        "episode":17,
+        "description":"Tanzen lernen unter freiem Himmel? In San Francisco ist das kein Problem. Seit mehr als 16 Jahren treffen sich Menschen aller Altersgruppen und Nationalitäten jeden Sonntag im Golden Gate Park, um Swing zu tanzen. GEO.de-Redakteurin Maike Dugaro hat sich umgeschaut und mitgewippt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-15/GEOaudio351_Mag.mp3",
+        "published":"Thu, 15 Nov 2012 13:42:12 +0100",
+        "bitRate":128,
+        "contentLength":12585453
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Indien",
+        "episode":18,
+        "description":"Der indische Bundesstaat Karnataka besitzt alles, was die Wundertüte Indien ausmacht: verzierte Tempelanlagen, Sehnsuchtsstrände, Hindu-Wallfahrten und birgt unweit der Hippie-Hochburg Goa ungeahnte Schätze. Hören Sie die Reportage Jahrmarkt der Geschichte von Wolfgang Röhl aus GEO SAISON 11/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-08/GEOaudio350_Indien.mp3",
+        "published":"Thu, 8 Nov 2012 12:24:01 +0100",
+        "bitRate":128,
+        "contentLength":16765054
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Honduras",
+        "episode":19,
+        "description":"Die Cayos Cochinos vor der Karibikküste von Honduras werden seit Generationen von Garífuna-Fischern als Stützpunkte im Meer genutzt. Seit die Inselgruppe zum Naturschutzgebiet erklärt wurde, suchen die Menschen ein Auskommen im Tourismus. GEOaudio-Reporter Mirco Lomoth hat sie besucht",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-01/GEOaudio349_Mag.mp3",
+        "published":"Thu, 1 Nov 2012 12:18:23 +0100",
+        "bitRate":128,
+        "contentLength":13091422
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Bern",
+        "episode":20,
+        "description":"In die Schweizer Alpen gebettet, offeriert Bern Gemütlichkeit und einen glasklaren Fluss, in dem man schwimmen kann. Die Besucher der Stadt werden mit offenen Armen empfangen, was man durchaus wörtlich nehmen kann. Hören Sie die Reportage Ein neuer Tag im Paradiesli von Elsemarie Maletzke aus GEO SAISON 10/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-25/GEOaudio348_Extra_Bern.mp3",
+        "published":"Thu, 25 Oct 2012 12:18:23 +0100",
+        "bitRate":128,
+        "contentLength":13694015
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Montenegro neu entdecken",
+        "episode":21,
+        "description":"Gehörte die montenegrinische Küste in den 60er Jahren noch zu den beliebtesten Urlaubszielen der Deutschen, verirren sich heutzutage kaum noch Besucher hierher. Mit sanftem Tourismus und unberührten Landschaften versucht sich, im Speziellen der Norden des Landes, wieder bei Reisenden zu etablieren. Danja Antonovic nimmt sie in ihrer Reportage dorthin mit",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-18/GEOaudio347_Mag.mp3",
+        "published":"Thu, 18 Oct 2012 12:33:02 +0100",
+        "bitRate":128,
+        "contentLength":13801401
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Albanien",
+        "episode":22,
+        "description":"In den Dörfern des einst abgeschotteten Landes wähnt sich der Reisende am Drehort eines Heimatfilms: Wäsche trocknet über dem Lattenzaun, Gänse schnattern und Großväterchen brennt Mirabellenschnaps, doch auch in Albanien hält die Moderne Einzug. Hören Sie die Reportage Abschied von gestern von Richard Fraunberger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-11/GEOaudio346_Extra_Albanien.mp3",
+        "published":"Thu, 11 Oct 2012 11:53:07 +0100",
+        "bitRate":128,
+        "contentLength":15881488
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Ein Leben auf zwei Rädern",
+        "episode":23,
+        "description":"Wenn die beiden GEO-Redakteure Dirk Lehmann und Claus Peter Simon sich treffen, dann fachsimpeln sie gern über die bequemsten Sättel, 26 Zoll und die schönsten Radrouten. In ihrem neuen Blog Die Radtester nehmen sie die Leser mit in ihr Leben auf zwei Rädern. Was genau die beiden vorhaben, erzählt Claus Peter Simon im Interview",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-04/GEOaudio345_Mag.mp3",
+        "published":"Thu, 04 Oct 2012 12:02:23 +0100",
+        "bitRate":128,
+        "contentLength":15058204
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - München",
+        "episode":24,
+        "description":"In München macht der Feierabend seinem Namen alle Ehre: In Schwabing duftet es nach Bärlauch, die Isar wird zum Pool, Urlauber stranden in Biergärten oder radeln im Englischen Garten. Hören Sie die Reportage Der Letzte macht das Licht aus von Bjørn Erik Sass aus GEO SAISON 08/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-27/GEOaudio344_Extra_Muenchen.mp3",
+        "published":"Thu, 27 Sep 2012 14:15:07 +0100",
+        "bitRate":128,
+        "contentLength":12908440
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Europa von Mensch zu Mensch",
+        "episode":25,
+        "description":"Oliver Lück ist mit seinem Hund Locke im VW-Bus 50.000 Kilometer quer durch Europa gereist. Von seinen Begegnungen mit außergewöhnlichen Menschen berichtet er im Interview. Außerdem: Sound of Heimat - ein Dokumentarfilm über richtig gute Volksmusik",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-20/GEOaudio343_Mag.mp3",
+        "published":"Thu, 20 Sep 2012 10:52:33 +0100",
+        "bitRate":128,
+        "contentLength":23388528
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Äthiopien",
+        "episode":26,
+        "description":"Als hätten Engel die Heimat des Herrn ans Horn von Afrika verpflanzt: In Äthiopien heißen Berge Sinai und Frauen Nazareth. Hier entstand vor 1600 Jahren einer der ersten christlichen Staaten der Erde. Hören Sie die Reportage Die Filiale des gelobten Landes von Jörg-Uwe Albig aus GEO SAISON 07/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-13/GEOaudio342_Extra_Aethiopien.mp3",
+        "published":"Thu, 13 Sep 2012 11:07:12 +0100",
+        "bitRate":128,
+        "contentLength":22455648
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Schildkrötenschutz in Nicaragua",
+        "episode":27,
+        "description":"Die Nacht und der Strand, so der Titel der nun folgenden Reportage von Mirco Lomoth. In der Nähe des Fischerdorfs El Ostional an der Pazifikküste Nicaraguas können Touristen die nächtliche Arbeit der Schildkrötenschützer miterleben. Durch den Tourismus will die Gemeinde eine Alternative zum Handel mit Schildkröteneiern finden",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-06/GEOaudio341_Mag.mp3",
+        "published":"Thu, 06 Sep 2012 15:32:07 +0100",
+        "bitRate":128,
+        "contentLength":13285116
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Kreta",
+        "episode":28,
+        "description":"In den Bergdörfern der Insel besinnen sich die Menschen auf traditionelle Stärken wie Gastfreundschaft, kochen bio und leben im Einklang mit der Natur. Hören Sie die Reportage Zurück zur Natur aus GEO SAISON 08/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-30/GEOaudio340_Extra_Kreta.mp3",
+        "published":"Thu, 30 Aug 2012 13:07:52 +0100",
+        "bitRate":128,
+        "contentLength":15431451
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Die schmalste Straße der Welt",
+        "episode":29,
+        "description":"Pisa hat den schiefen Turm, Reutlingen die schmalste Straße der Welt. Sie ist nur 31 Zentimeter breit. Dieser Durchschlupf schaffte es bereits 2007 ins Guinness Buch der Rekorde. Doch nun bedroht ein baufälliges Haus Reutlingens Rekordstraße",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-23/GEOaudio339_Mag.mp3",
+        "published":"Thu, 23 Aug 2012 12:36:02 +0100",
+        "bitRate":128,
+        "contentLength":12027542
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Toskana",
+        "episode":30,
+        "description":"Eine Liebeserklärung an die italienische Provinz Toskana, in der die Autorin Daniela Horvath jedes Jahr ihre Sommerferien verbringt. Lassen Sie sich mitnehmen an ihre Lieblingsplätze in der Reportage Ein Sommer am Meer. Es liest Kerstin Broda",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-16/GEOaudio338_Extra_Toskana.mp3",
+        "published":"Thu, 16 Aug 2012 12:41:22 +0100",
+        "bitRate":128,
+        "contentLength":15692466
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Wunder Wald",
+        "episode":31,
+        "description":"Die meisten von uns suchen im Wald einfach nur Erholung. Dass der Wald noch viel mehr zu bieten hat und welchen Belastungen er heute ausgesetzt ist, erfuhr GEO.de-Redakteur Peter Carstens bei einer Führung durch den Sachsenwald in Schleswig-Holstein ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-09/GEOaudio337_Mag.mp3",
+        "published":"Thu, 09 Aug 2012 12:02:33 +0100",
+        "bitRate":128,
+        "contentLength":17694720
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra: China mit dem Auto",
+        "episode":32,
+        "description":"Premiere eines Roadmovies im Riesenreich: Zum ersten Mal können Reisende die Provinz Yunnan auf eigene Faust im Leihwagen erkunden. Hören Sie die Reportage Die schönste Roadshow in den Bergen von Johannes Strempel aus GEO SAISON 06/2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-02/GEOaudio336_Extra_China.mp3",
+        "published":"Thu, 02 Aug 2012 12:02:33 +0100",
+        "bitRate":128,
+        "contentLength":17694720
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Sabbatical",
+        "episode":33,
+        "description":"GEO SAISON-Redakteur Dirk Lehmann startet mit Lebensgefährtnis Susanne Baade in sein Sabbitcal. Eine Auszeit, die der Redakteur nutzt, um die Welt zu bereisen. Was er sich erhofft und wohin es gehen sollen, verrät er im Interview mit GEO.de-Redakteurin Maike Dugaro",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-26/GEOaudio335_Mag.mp3",
+        "published":"Thu, 26 Jul 2012 12:02:33 +0100",
+        "bitRate":128,
+        "contentLength":18629456
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Tangomarkkinat",
+        "episode":34,
+        "description":"Wenn der große skandinavische Sommer flirrt, zieht eine Wolke der Wehmut von Helsinki bis zum Polarkreis. Beim Tangomarkkinat hielt es den Reporter nicht mehr auf dem Stuhl, er tanzte mit",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-19/GEOaudio334_Finntango.mp3",
+        "published":"Thu, 19 Jul 2012 14:32:18 +0100",
+        "bitRate":128,
+        "contentLength":19384509
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Tresen-Legenden",
+        "episode":35,
+        "description":"Wo findet man die besten Wirte und die besten Kneipengeschichten? An den Tresen im Hamburger Rotlichtviertel St. Pauli, natürlich. Dort traf Karola Kostede das Kiez-Original Herbert vom Schlemmer Eck",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-12/GEOaudio333_Mag.mp3",
+        "published":"Thu, 12 Jul 2012 11:45:52 +0100",
+        "bitRate":128,
+        "contentLength":10710697
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Virunga",
+        "episode":36,
+        "description":"Die Regenwälder im Kongo sind eines der wichtigsten Refugien der seltenen Berggorillas; nur leider für die Tiere und ihre Hüter zugleich ein hochgefährlicher Ort. Täglich setzen hier Ranger für das Leben der Menschenaffen das eigene aufs Spiel",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-05/GEOaudio332_Extra_Virunga.mp3",
+        "published":"Thu, 05 Jul 2012 12:33:08 +0100",
+        "bitRate":128,
+        "contentLength":35810410
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Richtig wandern",
+        "episode":37,
+        "description":"Karten lesen, Wegzeit berechnen, richtige Gehtechnik. In Oberaudorf bei Rosenheim können Touristen Bergwanderschulungen buchen. Geo-Online Mitarbeiter Mirco Lomoth ist mit Wanderführer Markus Hartmann durch den Klassenraum deutsche Kalkalpen gewandert",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-28/GEOaudio331_Mag.mp3",
+        "published":"Thu, 28 Jun 2012 12:24:12 +0100",
+        "bitRate":128,
+        "contentLength":170456274
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Landpartie Gers",
+        "episode":38,
+        "description":"Im Südwesten Frankreichs, in der verträumten Heimat des Musketiers d?Artagnan, bringen Köche, Winzer und Hoteliers neuen Schwung ins Landleben",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-21/GEOaudio330_Extra_Gers.mp3",
+        "published":"Thu, 21 Jun 2012 11:22:08 +0100",
+        "bitRate":128,
+        "contentLength":12832476
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Mit dem Kicker um die Welt",
+        "episode":39,
+        "description":"Zwei Bremer machten sich mit ihrem Tischkicker auf den Weg nach Indien. Auf ihrer Reise spielten sie gegen Straßenkinder, Mönche und Nationalmannschaften - für den guten Zweck. Im Interview berichtet einer der beiden über den Sinn dieser ungewöhnlichen Aktion und über das, was am Ende dabei rausgekommen ist",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-14/GEOaudio329_Mag.mp3",
+        "published":"Thu, 14 Jun 2012 12:31:44 +0100",
+        "bitRate":128,
+        "contentLength":14690713
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Cadiz",
+        "episode":40,
+        "description":"Schöner kann das Happy End einer Schöpfungsgeschichte kaum sein: Mit ihren Palästen, Kirchen und Promenaden ist die Stadt an der Costa de la Luz das hinreißende Ergebnis von Baukunst aus vielen Jahrhunderten. Hören Sie die Reportage Es werde Licht! von Uta van Steen aus GEO SAISON 04/2012. Es liest Kerstin Broda",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-07/GEOaudio328_Extra_Cadiz.mp3",
+        "published":"Thu, 07 Jun 2012 11:08:54 +0100",
+        "bitRate":128,
+        "contentLength":16935373
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Mittendurch statt drüberweg",
+        "episode":41,
+        "description":"Im September brachen Jochen Müller und Peer Bergholter zur einer ungewöhnlichen Weltreise auf. Ihr Plan: einmal um die Erde ganz ohne Flugzeug. Nun ist die Hälfte dieses Abenteuers um. Im Interview berichten sie von Höhen und Tiefen und davon, wie sie fast von einem Tsunami heimgesucht wurden",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-31/GEOaudio327_Mag.mp3",
+        "published":"Thu, 31 May 2012 10:37:18 +0100",
+        "bitRate":128,
+        "contentLength":20733463
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Cornwall",
+        "episode":42,
+        "description":"Im subtropischen Trebah Garden erklärt sich von selbst, warum Rosamunde Pilcher über diesen Landstrich im Südwesten Englands so blumige Worte fand. Hören Sie die Reportage Englands heitere Tropen von Elsemarie Maletzke aus GEO SAISON 05/2012. Es liest Mathias Unger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-24/GEOaudio326_Extra_Cornwall.mp3",
+        "published":"Thu, 24 May 2012 10:42:22 +0100",
+        "bitRate":128,
+        "contentLength":14439843
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Wien-Tipps von Eva Menasse",
+        "episode":43,
+        "description":"Die Schriftstellerin erzählt vom Wien ihrer Kindheit, von den ersten Hochhäusern und dem Wandel der Stadt und erklärt, was den Wienern der Schmäh bedeutet.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-17/GEOaudio325_Mag.mp3",
+        "published":"Thu, 17 May 2012 08:58:12 +0100",
+        "bitRate":128,
+        "contentLength":24655278
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Ein Mal Mount Everest",
+        "episode":44,
+        "description":"Unser Autor trekkte hoch motiviert ins Basislager am Mount Everest. Eine Himalaya-Tour, die ihn beflügelte, mit Yaks bekannt machte und ihm den Atem raubte. Hören Sie die Reportage \"Ein Mann will nach oben\" von Markus Wolff aus GEO SAISON 05/2012. Es liest Mathias Unger.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-10/GEOaudio324_Extra_Everest.mp3",
+        "published":"Thu, 10 May 2012 13:04:54 +0100",
+        "bitRate":128,
+        "contentLength":14863862
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Im Reich der Aromen",
+        "episode":45,
+        "description":"Was ist eigentlich drin im Essen? Und warum? Erstaunliche Antworten auf diese Fragen bietet das Deutsche Zusatzstoffmuseum. Im Podcast führt Leiter Christian Niemeyer durch die Ausstellung.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-03/GEOaudio323_Mag.mp3",
+        "published":"Thu, 03 May 2012 12:22:12 +0100",
+        "bitRate":128,
+        "contentLength":17818852
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Das wilde Leben",
+        "episode":46,
+        "description":"In Wildnisschulen lernen Kinder, was ihnen im Alltag meist verwehrt wird - Natur mit allen Sinnen zu erleben. Hören Sie die Reportage Das wilde Leben von Andreas Weber aus GEO SPECIAL Natur-Erlebnis Deutschland. Es liest Mathias Unger.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-26/GEOaudio322_Extra_Wald.mp3",
+        "published":"Thu, 26 Apr 2012 12:41:01 +0100",
+        "bitRate":128,
+        "contentLength":12182341
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Nordseeradweg",
+        "episode":47,
+        "description":"Konzeptkünstler Jürgen Rinck fährt auf dem längsten Fernradweg der Welt über und um die Nordsee. Im Interview verrät er, wie er auf die Idee kam und worin die Kunst dieser Reise besteht.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-19/GEOaudio321_Mag.mp3",
+        "published":"Thu, 19 Apr 2012 12:20:23 +0100",
+        "bitRate":128,
+        "contentLength":18890681
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Extra - Rom",
+        "episode":48,
+        "description":"Das einst verrufene Viertel Monti hat die Problemzone verlassen: Künstler, Köche und Kreative machen den Stadtteil zwischen Kolosseum und Hauptbahnhof zum Szeneviertel.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-12/GEOaudio320_Extra_Monti.mp3",
+        "published":"Thu, 12 Apr 2012 15:20:00 +0100",
+        "bitRate":128,
+        "contentLength":13310455
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"GEOaudio Magazin - Weltweite Weltrettung",
+        "episode":49,
+        "description":"Susanne Baade und Dirk Lehmann wollen mehr: endlich einmal in Ruhe reisen, aussteigen, zu sich selbst finden. Also wagen sie ein fünfmonatiges Sabbatical. Im Interview sprechen sie über ihr Projekt und das neue Blog dazu auf GEO.de",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-05/GEOaudio319_Magazin.mp3",
+        "published":"Thu, 05 Apr 2012 13:15:00 +0100",
+        "bitRate":128,
+        "contentLength":17762304
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.geo.de/GEOaudio/index.xml",
+    "displaySubDomaine":"geoaudio",
+    "recentTitles":
+    [
+      "GEOaudio Magazin - Ein Besuch in der Wüste Thar",
+      "GEOaudio Extra - Chinas tiefe Schätze",
+      "GEOaudio Magazin - Die Gewinner der Goldenen Palme",
+      "GEOaudio Extra - Mit dem Schiff durch den Kongo (Teil 2)",
+      "GEOaudio Magazin - Frühjahrsputz bei GEO SAISON",
+      "GEOaudio Extra - Mit dem Schiff durch den Kongo",
+      "GEOaudio Magazin - Abschlussinterview Mittendurch statt drüberhinweg",
+      "GEOaudio Extra - Argentiniens Norden",
+      "GEOaudio Extra - Curling in Arosa",
+      "GEOaudio Magazin - Kartoffelernte in Peru",
+      "GEOaudio Extra - San Francisco mit Apps",
+      "GEOaudio Magazin - Alphorn",
+      "GEOaudio Extra - La Réunion",
+      "GEOaudio Magazin - Wüstenwanderer Achill Moser",
+      "GEOaudio Extra - Arlberg",
+      "GEOaudio Magazin - Das Verschwinden der Arten",
+      "GEOaudio Extra - Südtirol",
+      "GEOaudio Magazin - Swing in San Francisco",
+      "GEOaudio Extra - Indien",
+      "GEOaudio Magazin - Honduras",
+      "GEOaudio Extra - Bern",
+      "GEOaudio Magazin - Montenegro neu entdecken",
+      "GEOaudio Extra - Albanien",
+      "GEOaudio Magazin - Ein Leben auf zwei Rädern",
+      "GEOaudio Extra - München",
+      "GEOaudio Magazin - Europa von Mensch zu Mensch",
+      "GEOaudio Extra - Äthiopien",
+      "GEOaudio Magazin - Schildkrötenschutz in Nicaragua",
+      "GEOaudio Extra - Kreta",
+      "GEOaudio Magazin - Die schmalste Straße der Welt",
+      "GEOaudio Extra - Toskana",
+      "GEOaudio Magazin - Wunder Wald",
+      "GEOaudio Extra: China mit dem Auto",
+      "GEOaudio Magazin - Sabbatical",
+      "GEOaudio Extra - Tangomarkkinat",
+      "GEOaudio Magazin - Tresen-Legenden",
+      "GEOaudio Extra - Virunga",
+      "GEOaudio Magazin - Richtig wandern",
+      "GEOaudio Extra - Landpartie Gers",
+      "GEOaudio Magazin - Mit dem Kicker um die Welt",
+      "GEOaudio Extra - Cadiz",
+      "GEOaudio Magazin - Mittendurch statt drüberweg",
+      "GEOaudio Extra - Cornwall",
+      "GEOaudio Magazin - Wien-Tipps von Eva Menasse",
+      "GEOaudio Extra - Ein Mal Mount Everest",
+      "GEOaudio Magazin - Im Reich der Aromen",
+      "GEOaudio Extra - Das wilde Leben",
+      "GEOaudio Magazin - Nordseeradweg",
+      "GEOaudio Extra - Rom",
+      "GEOaudio Magazin - Weltweite Weltrettung"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Der GEO-Podcast: Spannende Hintergrundgeschichten, Interviews mit GEO-Reportern und Experten, ausgewählte GEO-Reportagen, O-Töne aus Metropolen, Urwald, Wüste oder Antarktis. Jeden Donnerstag neu.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.geo.de",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4920_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4920_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4920,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4920_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4920_5_1.png",
+    "author":"",
+    "title":"GEOaudio: Hören und Reisen - Mit GEO die Welt erleben!",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4920_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Freizeit, Reisen",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"GEOaudio Reise-Podcast",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/geoaudio.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4920_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4920_5.jpeg",
+    "subdomain":"geoaudio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2459966,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3",
+        "idBroadcast":4920,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

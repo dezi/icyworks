@@ -1,0 +1,240 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://hitradio-rtl.mp3.green.ch:80",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Hitradio RTL Sachsen - ",
+    "subDomaine":"hitradiortlsachsen",
+    "relayDisabled":false,
+    "rank":253,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die größten Hits aller Zeiten; Radioprogramm von Sachsen für Sachsen gemacht. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2364_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2364_3_1.png",
+    "longitude":13.73832,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2364_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die größten Hits aller Zeiten; Radioprogramm von Sachsen für Sachsen gemacht. \r\n",
+    "metaDataUrl":"http://hitradio-rtl.mp3.green.ch:80",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":51.05089,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://hitradio-rtl.mp3.green.ch:80",
+    "displaySubDomaine":"hitradiortlsachsen",
+    "recentTitles":
+    [
+      "GUNS\'N\'ROSES - KNOCKIN\' ON HEAVEN\'S DOOR.",
+      "K\'NAAN - WAVIN\' FLAG",
+      "HERBERT GRÖNEMEYER - MENSCH",
+      "BRYAN ADAMS - SUMMER OF \'69",
+      "BIRDY - PEOPLE HELP THE PEOPLE",
+      "MARTIN SOLVEIG  DRAGONETTE - HELLO",
+      "CHRISTINA STÜRMER - MILLIONEN LICHTER",
+      "MARLON ROUDETTE - ANTI HERO (BRAVE NEW WORLD)",
+      "GIGI D\'AGOSTINO - LA PASSION",
+      "UDO LINDENBERG FEAT CLUESO - CELLO",
+      "IMAGINE DRAGONS - IT`S TIME",
+      "ASAF AVIDAN  THE MOJOS - ONE DAY / RECKONING SONG (WANKELMUT REMIX)",
+      "EURYTHMICS - THERE MUST BE AN ANGEL",
+      "PLAIN WHITE T\'S - HEY THERE DELILAH",
+      "KESHA - TIK TOK",
+      "MICHAEL JACKSON - WILL YOU BE THERE",
+      "DIE TOTEN HOSEN - ALTES FIEBER",
+      "SWEDISH HOUSE MAFIA - DON\'T YOU WORRY CHILD",
+      "BOB SINCLAR - LOVE GENERATION",
+      "RIHANNA FEAT MIKKY  EKKO - STAY",
+      "UNHEILIG - LICHTER DER STADT",
+      "PINK FLOYD - ANOTHER BRICK IN THE WALL",
+      "TAIO CRUZ FEAT KYLIE MINOGUE - HIGHER",
+      "BRUNO MARS - COUNT ON ME",
+      "BON JOVI - BECAUSE WE CAN",
+      "HADDAWAY - WHAT IS LOVE.",
+      "ANDREAS BOURANI - NUR IN MEINEM KOPF",
+      "TAKE THAT - PATIENCE",
+      "FOREIGNER - URGENT",
+      "GOTYE FEAT  KIMBRA - SOMEBODY THAT I USED TO KNOW",
+      "WILL I AM  FEAT BRITNEY SPEARS - SCREAM  SHOUT",
+      "SPORTFREUNDE STILLER - EIN KOMPLIMENT (UNPLUGGED)",
+      "ONE REPUBLIC - IF I LOSE MYSELF",
+      "LANA DEL REY - VIDEO GAMES",
+      "ACE OF BASE - ALL THAT SHE WANTS",
+      "ICH + ICH - PFLASTER",
+      "PASSENGER - LET HER GO",
+      "NICKELBACK - WHEN WE STAND TOGETHER",
+      "CYNDI LAUPER - ALL THROUGH THE NIGHT",
+      "MILOW - LITTLE IN THE MIDDLE",
+      "CHRISTINA STÜRMER - ENGEL FLIEGEN EINSAM",
+      "CULTURE BEAT - MR. VAIN",
+      "FOSTER THE PEOPLE - PUMPED UP KICKS",
+      "GOSSIP - MOVE IN THE RIGHT DIRECTION",
+      "PINK FEAT NATE  RUESS - JUST GIVE ME A REASON",
+      "BRUNO MARS - LOCKED OUT OF HEAVEN",
+      "LEVEL 42 - LESSONS IN LOVE",
+      "TAIO CRUZ - HANGOVER",
+      "ELLIE GOULDING - LIGHTS"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.hitradio-rtl.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2364_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2364_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2364,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2364_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2364_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2364_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"80er, 90er",
+      "_city":"Dresden",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Hitradio RTL Sachsen",
+    "picture3Url":"",
+    "streamUrl":"http://hitradio-rtl.mp3.green.ch:80",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2364_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2364_5.jpeg",
+    "subdomain":"hitradiortlsachsen",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":14293,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://hitradio-rtl.mp3.green.ch:80",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://hitradio-rtl.mp3.green.ch:80",
+        "idBroadcast":2364,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

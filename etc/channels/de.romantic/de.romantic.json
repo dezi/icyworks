@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://176.28.21.140:27660",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Romantic Radio",
+    "subDomaine":"romantic",
+    "relayDisabled":false,
+    "rank":296,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"The Music Of The Night ... All Day Long",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9795_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9795_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9795_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"The Music Of The Night ... All Day Long",
+    "metaDataUrl":"http://176.28.21.140:27660",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://176.28.21.140:27660",
+    "displaySubDomaine":"romantic",
+    "recentTitles":
+    [
+      "Rednex - Wish You Were Here (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "No Mercy - When I Die (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Aaliyah - I Care 4 U (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Sarah Connor - Fall Apart (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Linda Teodosiu - Still In Love (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Arthur Baker - The Message Is Love (with  The Backbeat Disciples) (feat. Al Green) (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Man Doki Soulmates - More Life To Live (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Dido - Take My Hand (Long Version) (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Maggie Reilly - Follow The Midnight Sun (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Chris Isaak - Except The New Girl (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Alan Sorrenti - Non So Che Darei (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "HIM - In Joy And Sorrow (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "B3 - Tonight And Forever (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Maja Keuc - No One (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Michael Jackson - Earth Song (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Blaque Ivory - Bring It All To Me (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Steve Winwood - One More Morning (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Kelly Clarkson - Breakaway (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Air Supply - Just As I Am (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Johnny Nash - Tears On My Pillow (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Philipp Poisel - Wie Soll Ein Mensch Das Ertragen? (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Dido - Go Dreaming (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Leona Lewis - Here I Am (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Chris Rea - Loving You (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Chris de Burgh - Diamond In The Dark (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Depeche Mode - Somebody (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Sarah Connor - Just One Last Dance (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Craig Armstrong - Wake Up In New York (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Sam Brown - This Feeling (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Faith Hill - When The Lights Go Down (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Maywood - Give Me Back My Love (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Alexander O\'Neal - Sentimental (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Alexander Klaws - Behind The Sun (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Aretha Franklin - Baby I Love You (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Destiny\'s Child - My Heart Still Beats (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Anastacia - You\'ll Never Be Alone (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Bon Jovi - (You Want To) Make A Memory (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Yvonne Catterfeld - Glaub An Mich (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Mike Batt - Caravan Song (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Laura Pausini - On Oublie Jamais (feat. Helene Segara) (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Barclay James Harvest - I\'ve Got A Feeling (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Tori Amos - Crucify (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "High School Musical Cast - We\'re All In This Together (Graduation Mix) (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Seal - Don\'t Cry (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Bonnie Tyler - Tears (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Robert Cray - I Wonder (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Aaliyah - Miss You (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Chris de Burgh - Missing You (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Kid Rock - Roll On (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Capercaillie - Mo Chailin Dileas Donn (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Eros Ramazzotti - Parla Con Me (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Laura Pausini - Without You (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Laura Pausini - Come Una Danza (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Jeanette Biedermann - No More Tears (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Brandy  Monica - The Boy Is Mine (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Sarah Connor - When Two Become (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)",
+      "Neil Diamond - Hello Again (Romantic Radio ... Dein Kuschelsender auf www.hello-city.de)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.hello-city.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9795_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9795_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9795,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9795_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9795_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9795_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Love-Songs",
+      "_country":"Deutschland",
+      "_genre":"Pop, Soft Pop",
+      "_city":"Neuss",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Romantic Radio",
+    "picture3Url":"",
+    "streamUrl":"http://176.28.21.140:27660",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9795_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9795_5.jpeg",
+    "subdomain":"romantic",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":19095,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://176.28.21.140:27660",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://176.28.21.140:27660",
+        "idBroadcast":9795,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

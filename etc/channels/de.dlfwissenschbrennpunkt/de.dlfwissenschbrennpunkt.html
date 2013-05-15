@@ -1,0 +1,2680 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+Deutschlandfunk - Wissenschaft im Brennpunkt, dradio, d-radio, Deutschlandradio, dlf,  Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="Deutschlandfunk - Wissenschaft im Brennpunkt (64kbps) - Berichterstattung über neue Forschungsergebnisse, technische und wissenschaftliche Hintergründe, Reportagen aus Laboratorien. " />
+<meta property="og:title" content="Deutschlandfunk - Wissenschaft im Brennpunkt"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/8181_4.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://dlfwissenschbrennpunkt.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://dlfwissenschbrennpunkt.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366769200885" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366769200885" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://dlfwissenschbrennpunkt.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "dlfwissenschbrennpunkt",
+	
+	pageRequestUrl : "http://dlfwissenschbrennpunkt.radio.de/broadcast_info.jsf",
+	pageDomain : "dlfwissenschbrennpunkt.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17704049","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","testResult":null,"name":"Sternzeit 07. April 2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17704050","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3","testResult":null,"name":"Die Entmüllung der Meere - Strategien gegen Plastik im Ozean","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17704051","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3","testResult":null,"name":"Venus im Großen Bären","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17704052","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3","testResult":null,"name":"Der Traum vom aufrechten Gang - Exoskelette im Praxistest","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17704053","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3","testResult":null,"name":"Hase, Lamm, Ei","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17704054","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1630_6819d93e.mp3","testResult":null,"name":"Schön alt - Wie man mit über 100 gut leben kann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702895","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1657_ca81cc22.mp3","testResult":null,"name":"Sternzeit 29. März 2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702896","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1630_9781ffd4.mp3","testResult":null,"name":"Wörter, Kriege, Emotionen - Datenschürfen im Kulturgut","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702075","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1657_0a79b927.mp3","testResult":null,"name":"Pink Floyd und die Dunkle Seite des Mondes","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702076","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1630_0e909a8f.mp3","testResult":null,"name":"Die süße Revolution - Kluge Zucker erobern Medizin und Biotechnologie","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700453","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1657_5a6de863.mp3","testResult":null,"name":"Mond, Planet, Stern","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700454","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1630_bbbcf716.mp3","testResult":null,"name":"Schöne neue Biologie - Wie Gentechnik und Molekularbiologie unser Leben verändern","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698702","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1657_9d730fbe.mp3","testResult":null,"name":"Eichendorffs Mondnacht","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698703","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1630_c73f2c7c.mp3","testResult":null,"name":"Dosis der Angst - Über die Wirkung schwacher radioaktiver Strahlung ","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696988","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1657_5d6526f2.mp3","testResult":null,"name":"Drei Körper, ein Problem","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696989","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1630_347e83b5.mp3","testResult":null,"name":"Kalter Krieg am Campus - Der Streit um die Zivilklausel an deutschen Hochschulen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695150","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1657_1698b0f5.mp3","testResult":null,"name":"Kein Oscar für den Weltraum","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695151","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1630_2d622dea.mp3","testResult":null,"name":"Der Arzt in Dir - Wie der Geist den Körper heilt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693487","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1657_a68e3a95.mp3","testResult":null,"name":"Dreifacher Abschied vom Dreigestirn","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693488","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1630_e9e3fa65.mp3","testResult":null,"name":"Quantenzirkus mit Licht und Atomen - Forscher simulieren Materie","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17691457","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1657_1787be27.mp3","testResult":null,"name":"Seltener Gast am Abend","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17691458","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1630_d6b93710.mp3","testResult":null,"name":"Gene unterwegs - Fremde DNA in unserem Erbgut","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689663","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1657_8696e186.mp3","testResult":null,"name":"Österreich fliegt zum Mars","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689664","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1630_c745d088.mp3","testResult":null,"name":"Störungswahn? - Psychiater streiten um die Zukunft ihres Fachs","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17687770","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1657_1ca8f323.mp3","testResult":null,"name":"Der Dreh mit dem Mond","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17687771","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1630_ed43bbf3.mp3","testResult":null,"name":"Preisrevolution - Über den Wert von Krebsmedikamenten","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685919","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1657_6c91d546.mp3","testResult":null,"name":"Higgs hilft nicht weiter","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685920","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1630_89535455.mp3","testResult":null,"name":"Vergessen - Gedächtnisforscher lernen von Amnesiepatienten","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17684106","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1657_9c8c5fb5.mp3","testResult":null,"name":"Der Stern mit der ewigen Jugend?","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17684107","author":"podcast@dradio.de","stream":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1630_a04bc32e.mp3","testResult":null,"name":"Böen ins Netz! - Wie die Stromversorgung für die Erneuerbaren umgebaut werden kann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"Die Beiträge der Sendung Wissenschaft im Brennpunkt","seoTitle":"Deutschlandfunk - Wissenschaft im Brennpunkt, dradio, d-radio, Deutschlandradio, dlf, ","subDomaine":"dlfwissenschbrennpunkt","relayDisabled":false,"rank":2092,"playableStateString":"FREE","idTeaser":0,"description":"Berichterstattung über neue Forschungsergebnisse, technische und wissenschaftliche Hintergründe, Reportagen aus Laboratorien. ","picture2TransUrl":"http://static.radio.de/images/broadcasts/8181_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/8181_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/8181_6.jpeg","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Berichterstattung über neue Forschungsergebnisse, technische und wissenschaftliche Hintergründe, Reportagen aus Laboratorien. ","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","podcastUrls":[{"sampleRate":44100,"title":"Sternzeit 07. April 2013","episode":0,"description":"<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","published":"Sun, 07 Apr 2013 14:57:15 GMT","bitRate":64,"contentLength":1094080},{"sampleRate":44100,"title":"Die Entmüllung der Meere - Strategien gegen Plastik im Ozean","episode":1,"description":"<img src=\"http://www.dradio.de/images/92875/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Kunststoffmüll dringt bis in die fernsten Winkel der Weltmeere, wird dort zum Risiko für Tiere, Ökosysteme und den Menschen. Ausmaß und Effekte der marinen Vermüllung werden noch erforscht, doch längst ist klar: Die Produktion steigt, und Jahr für Jahr gelangt mehr Müll in Flüsse, Seen und Ozeane. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3","published":"Sun, 07 Apr 2013 14:30:04 GMT","bitRate":64,"contentLength":13005824},{"sampleRate":44100,"title":"Venus im Großen Bären","episode":2,"description":"<img src=\"http://www.dradio.de/images/92922/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute Abend bietet das Firmament einen ganz besonders schönen Anblick: Venus steht als strahlender Abendstern mitten im Großen Wagen, während am Westhimmel die abnehmende Mondsichel in den Schatten der Erde tritt und uns eine Mondfinsternis beschert.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3","published":"Mon, 01 Apr 2013 14:57:18 GMT","bitRate":64,"contentLength":2193420},{"sampleRate":44100,"title":"Der Traum vom aufrechten Gang - Exoskelette im Praxistest","episode":3,"description":"<img src=\"http://www.dradio.de/images/93229/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">18 Jahre lang war sie seit einem Unfall auf ihren Rollstuhl angewiesen. Jetzt könnte Nicole Holland wieder laufen lernen - mit einem Exoskelett. Solche Roboteranzüge sollen nicht nur Soldaten und Arbeitern neue Kräfte verleihen, sondern auch Querschnittsgelähmten. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3","published":"Mon, 01 Apr 2013 14:30:05 GMT","bitRate":64,"contentLength":26095443},{"sampleRate":44100,"title":"Hase, Lamm, Ei","episode":4,"description":"<img src=\"http://www.dradio.de/images/92722/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Weihnachtsgeschichte ist ohne den legendären Stern von Bethlehem kaum vorstellbar. Doch rund um Ostern gibt es kaum Berichte mit himmlischem Bezug - allenfalls vage Hinweise auf eine Mondfinsternis.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3","published":"Sun, 31 Mar 2013 14:57:28 GMT","bitRate":64,"contentLength":2193420},{"sampleRate":44100,"title":"Schön alt - Wie man mit über 100 gut leben kann","episode":5,"description":"<img src=\"http://www.dradio.de/images/78565/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Zahl der über Hundertjährigen steigt. Und erstaunlich viel Hochbetagte haben trotz vieler Einschränkungen und Verluste noch Spaß am Leben, nicht selten sogar Ziele. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1630_6819d93e.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1630_6819d93e.mp3","published":"Sun, 31 Mar 2013 14:30:05 GMT","bitRate":64,"contentLength":26251818},{"sampleRate":44100,"title":"Sternzeit 29. März 2013","episode":6,"description":"<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1657_ca81cc22.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1657_ca81cc22.mp3","published":"Fri, 29 Mar 2013 15:57:18 GMT","bitRate":64,"contentLength":2188833},{"sampleRate":44100,"title":"Wörter, Kriege, Emotionen - Datenschürfen im Kulturgut","episode":7,"description":"<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1630_9781ffd4.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1630_9781ffd4.mp3","published":"Fri, 29 Mar 2013 15:30:04 GMT","bitRate":64,"contentLength":26110455},{"sampleRate":44100,"title":"Pink Floyd und die Dunkle Seite des Mondes","episode":8,"description":"<img src=\"http://www.dradio.de/images/92124/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vor genau 40 Jahren hat die englische Rockband Pink Floyd ihr legendäres Album \"Dark Side of the Moon\" veröffentlicht. Der Titel bedeutet \"Dunkle Seite des Mondes\".<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1657_0a79b927.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1657_0a79b927.mp3","published":"Sun, 24 Mar 2013 15:57:22 GMT","bitRate":64,"contentLength":2185080},{"sampleRate":44100,"title":"Die süße Revolution - Kluge Zucker erobern Medizin und Biotechnologie","episode":9,"description":"<img src=\"http://www.dradio.de/images/73267/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Welt ist voller Zucker: das Holz der Bäume, die Panzer der Insekten bestehen aus Zucker. Jede Zelle ist in einen Zuckerpelz gehüllt, der wichtige Informationen übermittelt - kein Wunder, dass auch Krankheitserreger und Parasiten diese Zucker nutzen, um Zellen zu infizieren.\n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1630_0e909a8f.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1630_0e909a8f.mp3","published":"Sun, 24 Mar 2013 15:30:05 GMT","bitRate":64,"contentLength":26170086},{"sampleRate":44100,"title":"Mond, Planet, Stern","episode":10,"description":"<img src=\"http://www.dradio.de/images/92121/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute Abend bilden unser Mond, Jupiter und Aldebaran im Stier ein markantes Dreieck am Südwesthimmel. Der strahlend helle Jupiter steht ein Stück links oberhalb des Mondes - der etwas schwächere Aldebaran befindet sich auf gleicher Höhe wie der Mond.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1657_5a6de863.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1657_5a6de863.mp3","published":"Sun, 17 Mar 2013 15:57:30 GMT","bitRate":64,"contentLength":2193420},{"sampleRate":44100,"title":"Schöne neue Biologie - Wie Gentechnik und Molekularbiologie unser Leben verändern","episode":11,"description":"<img src=\"http://www.dradio.de/images/3984/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Normalerweise ist naturwissenschaftliche Forschung ein Fall für Profis in gut ausgestatteten Labors. Doch im Feld der Biologie tummeln sich seit einiger Zeit vermehrt auch Amateure. Mit selbst gebastelten Gerätschaften sequenzieren sie Gene auf dem Küchentisch, experimentieren im Wohnzimmer mit gefährlichen Keimen oder suchen nach einem Mittel gegen Krebs. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1630_bbbcf716.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1630_bbbcf716.mp3","published":"Sun, 17 Mar 2013 15:30:02 GMT","bitRate":64,"contentLength":28765911},{"sampleRate":44100,"title":"Eichendorffs Mondnacht","episode":12,"description":"<img src=\"http://www.dradio.de/images/83375/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute vor 225 Jahren kam in Oberschlesien Joseph Freiherr von Eichendorff zur Welt. Er gehört zu den bedeutendsten deutschen Dichtern der Romantik und so verwundert es nicht, dass etliche seiner Gedichte einen Bezug zum Weltraum haben.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1657_9d730fbe.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1657_9d730fbe.mp3","published":"Sun, 10 Mar 2013 15:57:20 GMT","bitRate":64,"contentLength":2193420},{"sampleRate":44100,"title":"Dosis der Angst - Über die Wirkung schwacher radioaktiver Strahlung ","episode":13,"description":"<img src=\"http://www.dradio.de/images/64890/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der 11. März 2011 veränderte das Leben vieler Japaner für immer. Nicht nur, dass ein Erdbeben und ein Tsunami weite Bereiche der Küste von Honshu verwüsteten: Durch die Naturkatastrophe gerieten in Fukushima Daiichi drei Reaktoren außer Kontrolle, in einem vierten wurde das Abklingbecken stark zerstört. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1630_c73f2c7c.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1630_c73f2c7c.mp3","published":"Sun, 10 Mar 2013 15:30:06 GMT","bitRate":64,"contentLength":26183013},{"sampleRate":44100,"title":"Drei Körper, ein Problem","episode":14,"description":"<img src=\"http://www.dradio.de/images/91549/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Unser Mond umkreist die Erde in einer mittleren Entfernung von 384.000 Kilometern. Zwar spürt er dabei auch die Anziehungskraft der Sonne, doch wird seine Bewegung in erster Linie vom Schwerefeld der Erde bestimmt.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1657_5d6526f2.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1657_5d6526f2.mp3","published":"Sun, 03 Mar 2013 15:57:22 GMT","bitRate":64,"contentLength":2193420},{"sampleRate":44100,"title":"Kalter Krieg am Campus - Der Streit um die Zivilklausel an deutschen Hochschulen","episode":15,"description":"<img src=\"http://www.dradio.de/images/25778/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Streng vertrauliche Projekte des Verteidungsministeriums, Drittmittel von Rüstungskonzernen, zweifelhafte Forschungsziele  Friedensgruppen warnen vor einer schleichenden Militarisierung der Hochschulen. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1630_347e83b5.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1630_347e83b5.mp3","published":"Sun, 03 Mar 2013 15:30:05 GMT","bitRate":64,"contentLength":26154240},{"sampleRate":44100,"title":"Kein Oscar für den Weltraum","episode":16,"description":"<img src=\"http://www.dradio.de/images/65417/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Filmwelt blickt heute wieder gebannt nach Los Angeles, wo die Academy-Awards verteilt werden. Es waren zwar hin und wieder berühmte Filme nominiert, die irgendwie den Weltraum zum Thema hatten - doch bei den Oscars in den wichtigen Kategorien gingen sie stets leer aus. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1657_1698b0f5.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1657_1698b0f5.mp3","published":"Sun, 24 Feb 2013 15:57:18 GMT","bitRate":64,"contentLength":2191752},{"sampleRate":44100,"title":"Der Arzt in Dir - Wie der Geist den Körper heilt","episode":17,"description":"<img src=\"http://www.dradio.de/images/86399/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Menschen verfügen über innere Ressourcen, mit denen sie die eigene Schmerzwahrnehmung kontrollieren können. Das hat die Placeboforschung inzwischen eindrucksvoll bewiesen - allerdings meist an Gesunden. Dass dieselben psychologischen Mechanismen auch bei Kranken einen Behandlungserfolg erzielen können, belegen erst jetzt einige große Studien, die derzeit kurz vor ihrem Abschluss stehen.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1630_2d622dea.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1630_2d622dea.mp3","published":"Sun, 24 Feb 2013 15:30:04 GMT","bitRate":64,"contentLength":26109621},{"sampleRate":44100,"title":"Dreifacher Abschied vom Dreigestirn","episode":18,"description":"<img src=\"http://www.dradio.de/images/90904/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Nach Einbruch der Dunkelheit nähert sich der zunehmende Halbmond wieder dem Planeten Jupiter, der derzeit im Sternbild Stier leuchtet. Jupiter steht heute ein Stück links oberhalb des Mondes und links von Jupiter zeigt sich das rötliche Stierauge Aldebaran.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1657_a68e3a95.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1657_a68e3a95.mp3","published":"Sun, 17 Feb 2013 15:57:23 GMT","bitRate":64,"contentLength":2191752},{"sampleRate":44100,"title":"Quantenzirkus mit Licht und Atomen - Forscher simulieren Materie","episode":19,"description":"<img src=\"http://www.dradio.de/images/898/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Physiknobelpreisträger und Visionär Richard Feynman hielt 1981 einen viel beachteten Vortrag. Darin schlug er vor, neuartige Rechenmaschinen zu bauen, so genannte Quantensimulatoren, um mit deren Hilfe endlich das Verhalten komplexer Materialien zu begreifen. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1630_e9e3fa65.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1630_e9e3fa65.mp3","published":"Sun, 17 Feb 2013 15:30:00 GMT","bitRate":64,"contentLength":26265162},{"sampleRate":44100,"title":"Seltener Gast am Abend","episode":20,"description":"<img src=\"http://www.dradio.de/images/90248/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Planet Merkur gehört zu den schwierigeren Beobachtungsobjekten unter den Geschwistern der Erde. Doch in den nächsten Tagen gibt er wieder einmal ein kurzes Gastspiel am Abendhimmel.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1657_1787be27.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1657_1787be27.mp3","published":"Sun, 10 Feb 2013 15:57:15 GMT","bitRate":64,"contentLength":1093248},{"sampleRate":44100,"title":"Gene unterwegs - Fremde DNA in unserem Erbgut","episode":21,"description":"<img src=\"http://www.dradio.de/images/80592/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Unsere Gene haben wir von unseren Eltern und die haben sie von ihren Eltern. So funktioniert biologische Vererbung, von Generation zu Generation. Doch es geht auch anders. Gene von außen können in einen anderen Körper gelangen, in das Erbgut eindringen und zu einem Teil des Organismus werden. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1630_d6b93710.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1630_d6b93710.mp3","published":"Sun, 10 Feb 2013 15:30:04 GMT","bitRate":64,"contentLength":13028704},{"sampleRate":44100,"title":"Österreich fliegt zum Mars","episode":22,"description":"<img src=\"http://www.dradio.de/images/90240/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">In diesem Monat führt das Österreichische Weltraumforum eine bemannte Mission zum Planeten Mars durch - natürlich nur in einer Simulation. Als Trainingsumgebung dient eine Wüstengegend in Marokko, wo viele geologische Strukturen der Landschaft auf dem Roten Planeten ähneln.\n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1657_8696e186.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1657_8696e186.mp3","published":"Sun, 03 Feb 2013 15:57:25 GMT","bitRate":64,"contentLength":1093248},{"sampleRate":44100,"title":"Störungswahn? - Psychiater streiten um die Zukunft ihres Fachs","episode":23,"description":"<img src=\"http://www.dradio.de/images/85179/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">In einigen Monaten erscheint das neue  amerikanische Handbuch zur Diagnose psychiatrischer Krankheiten, das \"DSM-5\". Aber schon heute erzeugt es heftigen Streit. Denn das \"DSM-5\" wird die Entwicklung der Psychiatrie auf Jahre hinaus wesentlich beeinflussen. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1630_c745d088.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1630_c745d088.mp3","published":"Sun, 03 Feb 2013 15:30:05 GMT","bitRate":64,"contentLength":13070512},{"sampleRate":44100,"title":"Der Dreh mit dem Mond","episode":24,"description":"<img src=\"http://www.dradio.de/images/52635/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute erhellt der silbrig glänzende Mond die lange Winternacht. Wie immer blicken wir ihm genau ins Gesicht, denn der Mond weist uns stets dieselbe Seite zu.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1657_1ca8f323.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1657_1ca8f323.mp3","published":"Sun, 27 Jan 2013 15:57:14 GMT","bitRate":64,"contentLength":1094080},{"sampleRate":44100,"title":"Preisrevolution - Über den Wert von Krebsmedikamenten","episode":25,"description":"<img src=\"http://www.dradio.de/images/63222/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Mehrere Tausend Euro im Monat kostet das Medikament, das der krebskranke Wolfgang B. bekommt. Ob es sein Leben verlängert oder nur sein Leiden, kann allerdings niemand sagen. B. hat Nierenkrebs in fortgeschrittenem Stadium. Bis vor wenigen Jahren gab es für Patienten wie ihn kaum Behandlungsmöglichkeiten. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1630_ed43bbf3.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1630_ed43bbf3.mp3","published":"Sun, 27 Jan 2013 15:30:04 GMT","bitRate":64,"contentLength":13039936},{"sampleRate":44100,"title":"Higgs hilft nicht weiter","episode":26,"description":"<img src=\"http://www.dradio.de/images/89436/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Zu den großen wissenschaftlichen Ereignissen des vergangenen Jahres gehörte die Entdeckung des Higgs-Teilchens. Die Forscherteams am LHC-Beschleuniger in Genf hatten das bis dahin hypothetische Teilchen aufgespürt, das allen Bausteinen der Natur ihre Masse verleiht.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1657_6c91d546.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1657_6c91d546.mp3","published":"Sun, 20 Jan 2013 15:57:17 GMT","bitRate":64,"contentLength":1094080},{"sampleRate":44100,"title":"Vergessen - Gedächtnisforscher lernen von Amnesiepatienten","episode":27,"description":"<img src=\"http://www.dradio.de/images/60919/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Erinnerung an die erste Liebe, die Fähigkeit, schreiben zu können, das Wissen, wer ich bin, - all das ist im Gedächtnis gespeichert. Wie aus Sinneseindrücken, Gefühlen und Denkprozessen Erinnerungen werden, versuchen Forscher nun schon seit Jahrzehnten zu verstehen. Dabei zeichnet sich ab: Es sind die Amnesiepatienten, die die  Forschung einen großen Schritt voranbringen können. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1630_89535455.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1630_89535455.mp3","published":"Sun, 20 Jan 2013 15:30:01 GMT","bitRate":64,"contentLength":13046800},{"sampleRate":44100,"title":"Der Stern mit der ewigen Jugend?","episode":28,"description":"<img src=\"http://www.dradio.de/images/89427/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Kugelsternhaufen sind Ansammlungen von zigtausend Sternen in einem Bereich von nur einigen Hundert Lichtjahren Durchmesser. Sie sind schon sehr früh in der Geschichte einer Galaxie entstanden.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1657_9c8c5fb5.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1657_9c8c5fb5.mp3","published":"Sun, 13 Jan 2013 15:57:24 GMT","bitRate":64,"contentLength":1094080},{"sampleRate":44100,"title":"Böen ins Netz! - Wie die Stromversorgung für die Erneuerbaren umgebaut werden kann","episode":29,"description":"<img src=\"http://www.dradio.de/images/86991/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Energiepolitik in Berlin bietet derzeit das Bild vom Zauberkünstler, der die Geister nicht mehr los wird, die er rief: Vor einem Jahr läutete die konservative Regierung die Energiewende ein, indem sie die Laufzeitverlängerung für Atomkraftwerke zurücknahm. Seitdem ist klar: Schon die nahe Zukunft gehört den Erneuerbaren. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1630_a04bc32e.mp3\">Direkter Link zur Audiodatei<\/a><br><p><br><\/p>","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1630_a04bc32e.mp3","published":"Sun, 13 Jan 2013 15:30:20 GMT","bitRate":64,"contentLength":12939888}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":64,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","displaySubDomaine":"dlfwissenschbrennpunkt","recentTitles":["Sternzeit 07. April 2013","Die Entmüllung der Meere - Strategien gegen Plastik im Ozean","Venus im Großen Bären","Der Traum vom aufrechten Gang - Exoskelette im Praxistest","Hase, Lamm, Ei","Schön alt - Wie man mit über 100 gut leben kann","Sternzeit 29. März 2013","Wörter, Kriege, Emotionen - Datenschürfen im Kulturgut","Pink Floyd und die Dunkle Seite des Mondes","Die süße Revolution - Kluge Zucker erobern Medizin und Biotechnologie","Mond, Planet, Stern","Schöne neue Biologie - Wie Gentechnik und Molekularbiologie unser Leben verändern","Eichendorffs Mondnacht","Dosis der Angst - Über die Wirkung schwacher radioaktiver Strahlung ","Drei Körper, ein Problem","Kalter Krieg am Campus - Der Streit um die Zivilklausel an deutschen Hochschulen","Kein Oscar für den Weltraum","Der Arzt in Dir - Wie der Geist den Körper heilt","Dreifacher Abschied vom Dreigestirn","Quantenzirkus mit Licht und Atomen - Forscher simulieren Materie","Seltener Gast am Abend","Gene unterwegs - Fremde DNA in unserem Erbgut","Österreich fliegt zum Mars","Störungswahn? - Psychiater streiten um die Zukunft ihres Fachs","Der Dreh mit dem Mond","Preisrevolution - Über den Wert von Krebsmedikamenten","Higgs hilft nicht weiter","Vergessen - Gedächtnisforscher lernen von Amnesiepatienten","Der Stern mit der ewigen Jugend?","Böen ins Netz! - Wie die Stromversorgung für die Erneuerbaren umgebaut werden kann"],"idType":7,"descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.dradio.de/dlf/sendungen/dlfpodcast/503552/","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/8181_1.png","picture6TransUrl":"http://static.radio.de/images/broadcasts/8181_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":8181,"picture1TransUrl":"http://static.radio.de/images/broadcasts/8181_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/8181_5_1.png","author":"","title":"Deutschlandradio Logo","picture4Url":"http://static.radio.de/images/broadcasts/8181_4.png","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Wissen, Wissenschaft","_country":"Deutschland","_genre":"Podcast","_city":"Köln","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"Deutschlandfunk - Wissenschaft im Brennpunkt","picture3Url":"","streamUrl":"http://www.radio.de/playlists/dlfwissenschbrennpunkt.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/8181_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/8181_5.jpeg","subdomain":"dlfwissenschbrennpunkt","streamUrls":[{"sampleRate":44100,"id":2463271,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","streamFormat":"ICECAST","streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3","idBroadcast":8181,"bitRate":64}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05a 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"dlfwissenschbrennpunkt", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"8181", play:"dlfwissenschbrennpunkt"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dlfwissenschbrennpunkt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("26"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("12"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("5"));
+document.write ("&amp;age_20_29=" + escape("20"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/dlfwissenschbrennpunkt/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „Deutschlandfunk - Wissenschaft im Brennpunkt“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/8181_4.png" alt="Deutschlandfunk - Wissenschaft im Brennpunkt" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dlfwissenschbrennpunkt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("26"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("12"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("5"));
+document.write ("&amp;age_20_29=" + escape("20"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">Deutschlandfunk - Wissenschaft im Brennpunkt</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Köln,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.dradio.de/dlf/sendungen/dlfpodcast/503552/'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „Deutschlandfunk - Wissenschaft im Brennpunkt“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Berichterstattung über neue Forschungsergebnisse, technische und wissenschaftliche Hintergründe, Reportagen aus Laboratorien. 
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'8181', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">6</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">3.5</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'8181', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star3-5"
+stars="3-5"
+title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ bewerten?"
+content="3.5">
+</a>
+<span class="big-rate-text">Deutschlandfunk - Wissenschaft im Brennpunkt&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „Deutschlandfunk - Wissenschaft im Brennpunkt“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „Deutschlandfunk - Wissenschaft im Brennpunkt“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17704049">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>STERNZEIT 07. APRIL 2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17704049', 'broadcast':'8181'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><br clear="all"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href="http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17704050">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>DIE ENTMÜLLUNG DER MEERE - STRATEGIEN GEGEN PLASTIK IM OZEAN</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17704050', 'broadcast':'8181'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/92875/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Kunststoffmüll dringt bis in die fernsten Winkel der Weltmeere, wird dort zum Risiko für Tiere, Ökosysteme und den Menschen. Ausmaß und Effekte der marinen Vermüllung werden noch erforscht, doch längst ist klar: Die Produktion steigt, und Jahr für Jahr gelangt mehr Müll in Flüsse, Seen und Ozeane. 
+<br clear="all"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href="http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17704051">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>VENUS IM GROSSEN BÄREN</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17704051', 'broadcast':'8181'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/92922/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Heute Abend bietet das Firmament einen ganz besonders schönen Anblick: Venus steht als strahlender Abendstern mitten im Großen Wagen, während am Westhimmel die abnehmende Mondsichel in den Schatten der Erde tritt und uns eine Mondfinsternis beschert.<br clear="all"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href="http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17704052">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>DER TRAUM VOM AUFRECHTEN GANG - EXOSKELETTE IM PRAXISTEST</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17704052', 'broadcast':'8181'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/93229/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">18 Jahre lang war sie seit einem Unfall auf ihren Rollstuhl angewiesen. Jetzt könnte Nicole Holland wieder laufen lernen - mit einem Exoskelett. Solche Roboteranzüge sollen nicht nur Soldaten und Arbeitern neue Kräfte verleihen, sondern auch Querschnittsgelähmten. 
+<br clear="all"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href="http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17704053">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>HASE, LAMM, EI</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17704053', 'broadcast':'8181'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast"><img src="http://www.dradio.de/images/92722/landscape/133,0/" height="100" width="133" border="0" align="left" hspace="4" vspace="4">Die Weihnachtsgeschichte ist ohne den legendären Stern von Bethlehem kaum vorstellbar. Doch rund um Ostern gibt es kaum Berichte mit himmlischem Bezug - allenfalls vage Hinweise auf eine Mondfinsternis.<br clear="all"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href="http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3">Direkter Link zur Audiodatei</a><br><p><br></p></div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „Deutschlandfunk - Wissenschaft im Brennpunkt“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfforschungak.radio.de'}" bcastid="8322" title="„Deutschlandfunk - Forschung Aktuell“ hören" id="currentlyPlayedStation_8322">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8322_1.jpeg" alt="„Deutschlandfunk - Forschung Aktuell“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://logo.radio.de'}" bcastid="3775" title="„Logo - Das Wissenschaftsmagazin“ hören" id="currentlyPlayedStation_3775">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3775_1.gif" alt="„Logo - Das Wissenschaftsmagazin“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfcomputer.radio.de'}" bcastid="7742" title="„Deutschlandfunk - Computer & Kommunikation“ hören" id="currentlyPlayedStation_7742">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7742_1.jpeg" alt="„Deutschlandfunk - Computer & Kommunikation“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://leonardo.radio.de'}" bcastid="3813" title="„WDR 5 - Leonardo“ hören" id="currentlyPlayedStation_3813">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3813_1.gif" alt="„WDR 5 - Leonardo“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfwissbildung.radio.de'}" bcastid="4081" title="„Deutschlandfunk - Wissenschaft und Bildung“ hören" id="currentlyPlayedStation_4081">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4081_1.jpeg" alt="„Deutschlandfunk - Wissenschaft und Bildung“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://iqwissenschaft.radio.de'}" bcastid="4157" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" id="currentlyPlayedStation_4157">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4157_1.jpeg" alt="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfumweltundverbraucher.radio.de'}" bcastid="4211" title="„Deutschlandfunk - Umwelt und Verbraucher“ hören" id="currentlyPlayedStation_4211">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4211_1.jpeg" alt="„Deutschlandfunk - Umwelt und Verbraucher“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wanhoffswelt.radio.de'}" bcastid="4020" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" id="currentlyPlayedStation_4020">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4020_1.jpeg" alt="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfeuropaheute.radio.de'}" bcastid="4195" title="„Deutschlandfunk - Europa heute“ hören" id="currentlyPlayedStation_4195">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4195_1.jpeg" alt="„Deutschlandfunk - Europa heute“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturfwt.radio.de'}" bcastid="11380" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" id="currentlyPlayedStation_11380">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11380_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2campus.radio.de'}" bcastid="5689" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" id="currentlyPlayedStation_5689">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5689_1.jpeg" alt="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2wissen.radio.de'}" bcastid="5685" title="„SWR2 Wissen“ hören" id="currentlyPlayedStation_5685">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5685_1.jpeg" alt="„SWR2 Wissen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://philosophisch.radio.de'}" bcastid="3778" title="„WDR 5 - Das philosophische Radio“ hören" id="currentlyPlayedStation_3778">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3778_1.gif" alt="„WDR 5 - Das philosophische Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfmarktplatz.radio.de'}" bcastid="4210" title="„Deutschlandfunk - Marktplatz“ hören" id="currentlyPlayedStation_4210">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4210_1.jpeg" alt="„Deutschlandfunk - Marktplatz“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfhintergrund.radio.de'}" bcastid="4196" title="„Deutschlandfunk - Hintergrund“ hören" id="currentlyPlayedStation_4196">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4196_1.jpeg" alt="„Deutschlandfunk - Hintergrund“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfforschungak.radio.de'}" bcastid="8322" title="„Deutschlandfunk - Forschung Aktuell“ hören" id="currentlyPlayedStation2_8322">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8322_1.jpeg" alt="„Deutschlandfunk - Forschung Aktuell“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://logo.radio.de'}" bcastid="3775" title="„Logo - Das Wissenschaftsmagazin“ hören" id="currentlyPlayedStation2_3775">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3775_1.gif" alt="„Logo - Das Wissenschaftsmagazin“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfcomputer.radio.de'}" bcastid="7742" title="„Deutschlandfunk - Computer & Kommunikation“ hören" id="currentlyPlayedStation2_7742">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7742_1.jpeg" alt="„Deutschlandfunk - Computer & Kommunikation“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://leonardo.radio.de'}" bcastid="3813" title="„WDR 5 - Leonardo“ hören" id="currentlyPlayedStation2_3813">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3813_1.gif" alt="„WDR 5 - Leonardo“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfwissbildung.radio.de'}" bcastid="4081" title="„Deutschlandfunk - Wissenschaft und Bildung“ hören" id="currentlyPlayedStation2_4081">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4081_1.jpeg" alt="„Deutschlandfunk - Wissenschaft und Bildung“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://iqwissenschaft.radio.de'}" bcastid="4157" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" id="currentlyPlayedStation2_4157">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4157_1.jpeg" alt="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfumweltundverbraucher.radio.de'}" bcastid="4211" title="„Deutschlandfunk - Umwelt und Verbraucher“ hören" id="currentlyPlayedStation2_4211">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4211_1.jpeg" alt="„Deutschlandfunk - Umwelt und Verbraucher“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wanhoffswelt.radio.de'}" bcastid="4020" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" id="currentlyPlayedStation2_4020">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4020_1.jpeg" alt="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfeuropaheute.radio.de'}" bcastid="4195" title="„Deutschlandfunk - Europa heute“ hören" id="currentlyPlayedStation2_4195">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4195_1.jpeg" alt="„Deutschlandfunk - Europa heute“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturfwt.radio.de'}" bcastid="11380" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" id="currentlyPlayedStation2_11380">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11380_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2campus.radio.de'}" bcastid="5689" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" id="currentlyPlayedStation2_5689">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5689_1.jpeg" alt="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2wissen.radio.de'}" bcastid="5685" title="„SWR2 Wissen“ hören" id="currentlyPlayedStation2_5685">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5685_1.jpeg" alt="„SWR2 Wissen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://philosophisch.radio.de'}" bcastid="3778" title="„WDR 5 - Das philosophische Radio“ hören" id="currentlyPlayedStation2_3778">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3778_1.gif" alt="„WDR 5 - Das philosophische Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfmarktplatz.radio.de'}" bcastid="4210" title="„Deutschlandfunk - Marktplatz“ hören" id="currentlyPlayedStation2_4210">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4210_1.jpeg" alt="„Deutschlandfunk - Marktplatz“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfhintergrund.radio.de'}" bcastid="4196" title="„Deutschlandfunk - Hintergrund“ hören" id="currentlyPlayedStation2_4196">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4196_1.jpeg" alt="„Deutschlandfunk - Hintergrund“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_8322" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Forschung Aktuell“ hören" linkobject="{'url':'http://dlfforschungak.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Forschung Aktuell“ hören" href="http://dlfforschungak.radio.de">Deutschlandfunk - Forschung Aktuell</a></span>
+<span class="title_8322 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Forschung aktuell 11.04.2013, komplette Sendung</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3775" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Logo - Das Wissenschaftsmagazin“ hören" linkobject="{'url':'http://logo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Logo - Das Wissenschaftsmagazin“ hören" href="http://logo.radio.de">Logo - Das Wissenschaftsmagazin</a></span>
+<span class="title_3775 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Logo - Das Wissenschaftsmagazin</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7742" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Computer & Kommunikation“ hören" linkobject="{'url':'http://dlfcomputer.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Computer & Kommunikation“ hören" href="http://dlfcomputer.radio.de">Deutschlandfunk - Computer & Kommunikation</a></span>
+<span class="title_7742 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der große Himmel des kleinen Prinzen</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3813" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Leonardo“ hören" linkobject="{'url':'http://leonardo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Leonardo“ hören" href="http://leonardo.radio.de">WDR 5 - Leonardo</a></span>
+<span class="title_3813 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Leonardo - Wissenschaft und mehr: Sendung vom 01.02.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4081" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Wissenschaft und Bildung“ hören" linkobject="{'url':'http://dlfwissbildung.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Wissenschaft und Bildung“ hören" href="http://dlfwissbildung.radio.de">Deutschlandfunk - Wissenschaft und Bildung</a></span>
+<span class="title_4081 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der verlorene Albert</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4157" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" linkobject="{'url':'http://iqwissenschaft.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" href="http://iqwissenschaft.radio.de">Bayern 2 - IQ - Wissenschaft und Forschung</a></span>
+<span class="title_4157 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Wie wird man 100 Jahre alt - Die Erforschung der Langlebigkeit - 28.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4211" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Umwelt und Verbraucher“ hören" linkobject="{'url':'http://dlfumweltundverbraucher.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Umwelt und Verbraucher“ hören" href="http://dlfumweltundverbraucher.radio.de">Deutschlandfunk - Umwelt und Verbraucher</a></span>
+<span class="title_4211 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Umwelt und Verbraucher - Komplette Sendung -</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4020" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" linkobject="{'url':'http://wanhoffswelt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" href="http://wanhoffswelt.radio.de">Wanhoffs Wunderbare Welt der Wissenschaft</a></span>
+<span class="title_4020 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WWWW vom 18.3.2013: Olivenöl macht satt</span>
+<span class="stationcountry">Aus
+Laos 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4195" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Europa heute“ hören" linkobject="{'url':'http://dlfeuropaheute.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Europa heute“ hören" href="http://dlfeuropaheute.radio.de">Deutschlandfunk - Europa heute</a></span>
+<span class="title_4195 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Jüdisches Leben in Polen - 70 Jahre nach dem Aufstand im Warschauer Getto</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11380" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" linkobject="{'url':'http://dkulturfwt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" href="http://dkulturfwt.radio.de">DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik</a></span>
+<span class="title_11380 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Gingko statt Kastanie - Neue Bäume für die Städte</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5689" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" linkobject="{'url':'http://swr2campus.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" href="http://swr2campus.radio.de">SWR2 Campus - Neues aus Wissenschaft und Forschung </a></span>
+<span class="title_5689 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Prostatakrebs - bestrahlen oder operieren?</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5685" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Wissen“ hören" linkobject="{'url':'http://swr2wissen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Wissen“ hören" href="http://swr2wissen.radio.de">SWR2 Wissen</a></span>
+<span class="title_5685 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kinderkrankheiten</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3778" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Das philosophische Radio“ hören" linkobject="{'url':'http://philosophisch.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Das philosophische Radio“ hören" href="http://philosophisch.radio.de">WDR 5 - Das philosophische Radio</a></span>
+<span class="title_3778 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Das philosophische Radio: mit Christoph Schickhardt über Kinderethik (Sendung vom 22.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4210" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Marktplatz“ hören" linkobject="{'url':'http://dlfmarktplatz.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Marktplatz“ hören" href="http://dlfmarktplatz.radio.de">Deutschlandfunk - Marktplatz</a></span>
+<span class="title_4210 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: B-Trompeten und 1/8-Violinen - Live von der Musikmesse in Frankfurt</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4196" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Hintergrund“ hören" linkobject="{'url':'http://dlfhintergrund.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Hintergrund“ hören" href="http://dlfhintergrund.radio.de">Deutschlandfunk - Hintergrund</a></span>
+<span class="title_4196 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Wohnen wird immer mehr zum Luxus - Das neue Mietrecht ändert daran wenig</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „Deutschlandfunk - Wissenschaft im Brennpunkt“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/dieWelt" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach dieWelt suchen" tag="dieWelt">dieWelt</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Natur" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Natur suchen" tag="Natur">Natur</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Wissenschaft1" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Wissenschaft1 suchen" tag="Wissenschaft1">Wissenschaft1</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Köln" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Köln suchen" tag="Köln">Köln</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NordrheinWestfalen" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach NordrheinWestfalen suchen" tag="NordrheinWestfalen">NordrheinWestfalen</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Podcast" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Podcast suchen" tag="Podcast">Podcast</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Wissen" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach Wissen suchen" tag="Wissen">Wissen</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „Deutschlandfunk - Wissenschaft im Brennpunkt“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'8181', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „Deutschlandfunk - Wissenschaft im Brennpunkt“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://dlfwissenschbrennpunkt.radio.de" class="js-link-external" linkobject="{'url':'http://dlfwissenschbrennpunkt.radio.de'}" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ hören" target="_blank">
+http://dlfwissenschbrennpunkt.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fdlfwissenschbrennpunkt.radio.de&amp;notes=&amp;tags=&amp;title=Deutschlandfunk - Wissenschaft im Brennpunkt;'}" class="icon-delicious js-link-external" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fdlfwissenschbrennpunkt.radio.de&amp;bm_notice=&amp;bm_description=Deutschlandfunk - Wissenschaft im Brennpunkt&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fdlfwissenschbrennpunkt.radio.de&amp;title=Deutschlandfunk - Wissenschaft im Brennpunkt'}" class="icon-stumble js-link-external" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fdlfwissenschbrennpunkt.radio.de&amp;bodytext=&amp;tags=&amp;title=Deutschlandfunk - Wissenschaft im Brennpunkt'}" class="icon-digg js-link-external" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fdlfwissenschbrennpunkt.radio.de&amp;title=Deutschlandfunk - Wissenschaft im Brennpunkt&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„Deutschlandfunk - Wissenschaft im Brennpunkt“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+
+
+Genießen Sie den kostenlosen Komfort von radio.de und hören Sie Deutschlandfunk - Wissenschaft im Brennpunkt einfach per Internetradio. Auf dieser Seite finden Sie ein umfassende Auswahl von Webradio Sendern und Livestreams aus der ganzen Welt. Hier können Sie neben Deutschlandfunk - Wissenschaft im Brennpunkt noch viele weitere Lieblingssender entdecken.
+
+
+
+							
+											
+						
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 64kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dlfwissenschbrennpunkt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("26"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("12"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("5"));
+document.write ("&amp;age_20_29=" + escape("20"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">Deutschlandfunk - Wissenschaft im Brennpunkt</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfforschungak.radio.de/" class="channel-link" title="„Deutschlandfunk - Forschung Aktuell“ hören">
+<span class="broadcast-name">Deutschlandfunk - Forschung Aktuell</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://logo.radio.de/" class="channel-link" title="„Logo - Das Wissenschaftsmagazin“ hören">
+<span class="broadcast-name">Logo - Das Wissenschaftsmagazin</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfcomputer.radio.de/" class="channel-link" title="„Deutschlandfunk - Computer & Kommunikation“ hören">
+<span class="broadcast-name">Deutschlandfunk - Computer & Kommunikation</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://leonardo.radio.de/" class="channel-link" title="„WDR 5 - Leonardo“ hören">
+<span class="broadcast-name">WDR 5 - Leonardo</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfwissbildung.radio.de/" class="channel-link" title="„Deutschlandfunk - Wissenschaft und Bildung“ hören">
+<span class="broadcast-name">Deutschlandfunk - Wissenschaft und Bildung</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://iqwissenschaft.radio.de/" class="channel-link" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören">
+<span class="broadcast-name">Bayern 2 - IQ - Wissenschaft und Forschung</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfumweltundverbraucher.radio.de/" class="channel-link" title="„Deutschlandfunk - Umwelt und Verbraucher“ hören">
+<span class="broadcast-name">Deutschlandfunk - Umwelt und Verbraucher</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://wanhoffswelt.radio.de/" class="channel-link" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören">
+<span class="broadcast-name">Wanhoffs Wunderbare Welt der Wissenschaft</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfeuropaheute.radio.de/" class="channel-link" title="„Deutschlandfunk - Europa heute“ hören">
+<span class="broadcast-name">Deutschlandfunk - Europa heute</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturfwt.radio.de/" class="channel-link" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören">
+<span class="broadcast-name">DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dlfwissenschbrennpunkt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("26"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("12"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("5"));
+document.write ("&amp;age_20_29=" + escape("20"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dlfwissenschbrennpunkt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("26"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("12"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("5"));
+document.write ("&amp;age_20_29=" + escape("20"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("dlfwissenschbrennpunkt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("26"));
+document.write ("&amp;age_70_79=" + escape("2"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("12"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("5"));
+document.write ("&amp;age_20_29=" + escape("20"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

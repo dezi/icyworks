@@ -1,0 +1,553 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690958",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Valentins Grußbotschaft",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690959",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_karnevalsmaske.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Karnevalsmaske geht nicht mehr runter ",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689140",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_bohlen.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Eifersüchtig auf Dieter Bohlen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689141",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_calliallofs.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Calli ruft bei Allofs an",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17673184",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_schuhklau.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Schuhklau für Nikolaus",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667402",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_toiletteobi.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Toilette bei Obi",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508467",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_faeroeer_inseln.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Färöer Inseln",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508468",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_falschen_flieger_genommen.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Falschen Flieger genommen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508469",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_bewaesserung.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Bewässerung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508470",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_frachtschein.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Flug in die Türkei",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508471",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_flug_in_tuerkei.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Flug in die Türkei",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508472",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_kleiner_umweg.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Kleiner Umweg",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17508473",
+      "author":"",
+      "stream":"http://www.ffn.de/fileadmin/crazyphone/crazy_schnittchen_schmieren_im_flieger.mp3",
+      "testResult":null,
+      "name":"ffn crazyphone: Schnittchen schmieren im Flieger",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Ab 7 Uhr bei Niedersachsens bester Morningshow mit ffn-Morgenmän Franky!",
+    "seoTitle":"Das ffn Crazyphone",
+    "subDomaine":"ffncrazyphone",
+    "relayDisabled":false,
+    "rank":2128,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die Sendung mit dem verrückten Telefon als podcast.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3666_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3666_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die Sendung mit dem verrückten Telefon als podcast.",
+    "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Valentins Grußbotschaft",
+        "episode":0,
+        "description":"\nffn crazyphone: Wie kann man liebe Valentinstagsgrüße übermitteln? Am besten persönlich, aber auch per ffn-crazyphone ...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "published":"14 Feb 2013 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Karnevalsmaske geht nicht mehr runter ",
+        "episode":1,
+        "description":"\nffn crazyphone: Kurz vorm Probearbeiten in einer Bank hat sich die Karnevalsmaske am Gesicht festgesaugt...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_karnevalsmaske.mp3",
+        "published":"11 Feb 2013 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Eifersüchtig auf Dieter Bohlen",
+        "episode":2,
+        "description":"\nffn crazyphone: ffn-Redakteurin Martina ruft bei Dieter Bohlen an und erzählt ihm von der Eifersucht ihres Freundes... </FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_bohlen.mp3",
+        "published":"07 Feb 2013 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Calli ruft bei Allofs an",
+        "episode":3,
+        "description":"\nffn crazyphone: Vor einem Jahr ist unser Kollege Jochen Krause verstorben. Unvergessen bleibt sein Anruf als Rainer Callmund beim damaligen Werder-Manager Klaus Allofs. </FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_calliallofs.mp3",
+        "published":"06 Feb 2013 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Schuhklau für Nikolaus",
+        "episode":4,
+        "description":"\nffn crazyphone: Ein sauberer Schuh ist zum Nikolaus ganz wichtig! Falls keiner da ist, hat das crazyphone-Team eine Alternativ-Idee. Bitte aber nicht nachmachen!</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_schuhklau.mp3",
+        "published":"05 Dec 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Toilette bei Obi",
+        "episode":5,
+        "description":"\nffn crazyphone: Heute ist Welttoilettentag! Und auch unsere Kollegen vom ffn-Crazyphoneteam hatten ein dringendes Bedürfnis...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_toiletteobi.mp3",
+        "published":"19 Nov 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Färöer Inseln",
+        "episode":6,
+        "description":"\nffn crazyphone: Deutschland gegen die Färöer Inseln. Viele wissen gar nicht, wo die Inseln überhaupt sind. Deshalb sind auch die Vorbereitungen für das Spiel noch nicht ganz abgeschlossen ...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_faeroeer_inseln.mp3",
+        "published":"07 Sept 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Falschen Flieger genommen",
+        "episode":7,
+        "description":"\nffn crazyphone: In den falschen Zug kann jeder mal steigen. In den falschen Flieger steigt man nur mit dem Crazyphone-Team ...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_falschen_flieger_genommen.mp3",
+        "published":"21 Aug 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Bewässerung",
+        "episode":8,
+        "description":"\nffn crazyphone: Hella aus Isernhagen will keine Bewässerungsanlage in ihrem Garten. Das Crazyphone-Team findet die Idee aber gut...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_bewaesserung.mp3",
+        "published":"20 Aug 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Flug in die Türkei",
+        "episode":9,
+        "description":"\nffn crazyphone: Adelheid Juffahrt aus Braunschweig wollte eigentlich ganz bequem nach Mallorca fliegen. Da hat sie aber die Rechnung ohne das Crazyphone-Team gemacht...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_frachtschein.mp3",
+        "published":"17 Aug 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Flug in die Türkei",
+        "episode":10,
+        "description":"\nffn crazyphone: Die Ferien gehen langsam zu Ende, doch die Arbeit für die Reisebüros geht gerade erst los. Denn jetzt kommt das Crazyphone-Team...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_flug_in_tuerkei.mp3",
+        "published":"16 Aug 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Kleiner Umweg",
+        "episode":11,
+        "description":"\nffn crazyphone: Melanie aus Harburg wollte eigentlich auf direktem Weg nach Bulgarien fliegen. Das Crazyphone-Team hat noch ein paar Zwischenstopps geplant...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_kleiner_umweg.mp3",
+        "published":"10 Aug 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"ffn crazyphone: Schnittchen schmieren im Flieger",
+        "episode":12,
+        "description":"\nffn crazyphone: Werner aus Wallenhorst wollte eigentlich nur in den Urlaub fliegen. Das crazyphone-Team hat aber vorher noch etwas Arbeit für ihn...</FONT>  \n  ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_schnittchen_schmieren_im_flieger.mp3",
+        "published":"08 Aug 2012 07:17:21 +0100",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.ffn.de/podcast/crazyphone.xml ",
+    "displaySubDomaine":"ffncrazyphone",
+    "recentTitles":
+    [
+      "ffn crazyphone: Valentins Grußbotschaft",
+      "ffn crazyphone: Karnevalsmaske geht nicht mehr runter ",
+      "ffn crazyphone: Eifersüchtig auf Dieter Bohlen",
+      "ffn crazyphone: Calli ruft bei Allofs an",
+      "ffn crazyphone: Schuhklau für Nikolaus",
+      "ffn crazyphone: Toilette bei Obi",
+      "ffn crazyphone: Färöer Inseln",
+      "ffn crazyphone: Falschen Flieger genommen",
+      "ffn crazyphone: Bewässerung",
+      "ffn crazyphone: Flug in die Türkei",
+      "ffn crazyphone: Flug in die Türkei",
+      "ffn crazyphone: Kleiner Umweg",
+      "ffn crazyphone: Schnittchen schmieren im Flieger"
+    ],
+    "idType":7,
+    "descriptionPodcast":"radio ffn crazyphone! Ab 7 Uhr bei Niedersachsens bester Morningshow mit ffn-Morgenmän Franky!",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.ffn.de/comedy/ffn-crazyphone.html",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3666_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3666_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3666,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3666_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3666_5_1.png",
+    "author":"",
+    "title":"radio ffn: crazyphone",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3666_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Comedy",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Hannover",
+      "_family":"ffn",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Das ffn Crazyphone",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/ffncrazyphone.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3666_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3666_5.jpeg",
+    "subdomain":"ffncrazyphone",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2459236,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.ffn.de/fileadmin/crazyphone/crazy_valentinstag.mp3",
+        "idBroadcast":3666,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://fra.radiostream.de:26430",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"DWG RADIO",
+    "subDomaine":"dwgradio",
+    "relayDisabled":false,
+    "rank":1324,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das Wort Gottes.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4150_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4150_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/4150_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das Wort Gottes.",
+    "metaDataUrl":"http://fra.radiostream.de:26430",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://radiostream.de/stream/26430.m3u",
+    "displaySubDomaine":"dwgradio",
+    "recentTitles":
+    [
+      "Abenteuer zwischen Himmel und Erde - Simson-07. Wenn Liebe wehrlos macht...",
+      "Abenteuer zwischen Himmel und Erde - Simson-06. Der Eselskinnbacken",
+      "Abenteuer zwischen Himmel und Erde - Simson-05. Flammende Rache!",
+      "Abenteuer zwischen Himmel und Erde - Simson-04. \'Speise ging aus von dem Fresser...\'",
+      "Abenteuer zwischen Himmel und Erde - Simson-03. Simsons rauschendes Hochzeitsfest",
+      "Abenteuer zwischen Himmel und Erde - Simson-02. Ein Retter wird geboren",
+      "Abenteuer zwischen Himmel und Erde - Simson-01. \'Denkt einmal darueber nach-...\'",
+      "August-Hermann-Francke Schule - 11. Greensleeves",
+      "August-Hermann-Francke Schule - 10. Herr Jesus Christus",
+      "Bernhard Herms - 10. Room At The Cross- Draw Me Nearer-I Need Thee Every Hour",
+      "Erwin Schwarzwaelder - Echte bleibende Freude durch unseren Herrn Jesus Christus 04v12",
+      "Various Artists - 17. More love, more power",
+      "Various Artists - 16. Majesty",
+      "Various Artists - 15. When I look into Your holiness",
+      "Karl-Hermann Kauffmann - Epheserbrief 33av88 Eph 4,7-10 a Das Gnadenmass nach der Gabe Christi vielfaeltige Einheit. b Jesu Erniedrigung und Erhoehung",
+      "Janz Team - 13. Wenn du Jesus kennst",
+      "MBG Nuembrecht - 11. Laß mich immer mit dir gehen",
+      "MBG Nuembrecht - 10. Gegruendet bist du auf Zion",
+      "MBG Nuembrecht - 09. Welch ein selges Leben",
+      "Eduard Berszan - EBerszan_E-F06_07von10_Ein_Leben_Mit_Geistlichem_Profil_Geistliche_Prioritaeten_erkennen"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://de.dwg-radio.net/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4150_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4150_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4150,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4150_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4150_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4150_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Religion",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"DWG RADIO",
+    "picture3Url":"",
+    "streamUrl":"http://radiostream.de/stream/26430.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4150_4_1.png",
+    "sampleRate":22050,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4150_5.jpeg",
+    "subdomain":"dwgradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":22050,
+        "id":2459695,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://fra.radiostream.de:26430",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://fra.radiostream.de:26430",
+        "idBroadcast":4150,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

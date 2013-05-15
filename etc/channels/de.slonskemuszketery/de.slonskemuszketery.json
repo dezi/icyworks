@@ -1,0 +1,240 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://85.25.152.202:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Slonske Muszketery",
+    "subDomaine":"slonskemuszketery",
+    "relayDisabled":false,
+    "rank":1072,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Schlesische Musik und Volksmusik.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/6619_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/6619_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Schlesische Musik und Volksmusik.",
+    "metaDataUrl":"http://85.25.152.202:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://85.25.152.202:8000/",
+    "displaySubDomaine":"slonskemuszketery",
+    "recentTitles":
+    [
+      "Bayery - Rodzinne zycie",
+      "BEATA I MARCIN - Smiej sie bo nie jest zle",
+      "ANDRZEJ SKAZNIK - ANDRZEJ SKAZNIK / Strzala amora",
+      "Frans Bauer - Die Nacht der tausend Rosen",
+      "Slaski Przekladaniec  - Krzysztof Konopka-Blisko siebie",
+      "Slaski Przekladaniec - Piotr Szefer-niech nas porwie milosc",
+      "Andrzej Skaznik  Kwasnica Bavarian Show - Dwa Brzegi Jeziora",
+      "Ferajna Makuli - Zolyty, Zolyty - To Fajno Jest Rzecz",
+      "FEST - FEST / Szczynscie",
+      "Bigle - Biglowanie",
+      "Itex - Jak Wspaniale - pozdrow - 01 - Itex - Jak Wspaniale - pozdrowienia - ",
+      "Roman Kostka- tekst Barbara Politaj - Muszketery",
+      "Claudia Jung - Ich hätte ja gesagt",
+      "Anna-Maria Zimmermann - Hurra Wir Leben Noch",
+      "Jarek Staniek - Gdzie milosc m - 01 - Jarek Staniek - Gdzie milosc mieszka - pozdrowienai - ",
+      "Andreas Martin - Niemals zu alt(hitmix)",
+      "Slaski Przekladaniec  - Prospekt-Spiewaj z nami ",
+      "(Unknown) - MEGA MIX  ELIOT",
+      "Freje - Pytosz czy kochom",
+      "Joachim Grzechca - Moj rodzinny dom",
+      "Iroxana - Moje przeslanie (poz - 01 - Iroxana - Moje przeslanie (pozdrowienia) - ",
+      "Golden Mix - Ze Mna Badz",
+      "ANDRZEJ SKAZNIK - ANDRZEJ SKAZNIK / To spiewal caly swiat",
+      "Karpowicz Family - Dla Przyjaciol",
+      "NASTROJE - Dziêkuje Wam",
+      "Adam Chrola? - Adam Chrola - Jak przezyc wszystko jeszcze raz",
+      "Der Deutsche Hitmix - Mallorca Edition Block F",
+      "Die Flippers - Einer für alle - Medley",
+      "JINKS - SIOSTRA",
+      "LA LA LATO - BERNADETA KOWALSKA I DZIECIAKI",
+      "New For You - To dlo Wos my so - 01 - New For You - To dlo Wos my som (pozdrowienia) - ",
+      "Gina T. - POZDROWIENIA - 01 - Gina T. - POZDROWIENIA - ",
+      "Paldauer - Du hast ja gesagt",
+      "SHOWMAN - SLONSKO FAMILIJA",
+      "Die Flippers - Isabella - Medley",
+      "Angelika Szula  Jacek Kierok - Fto Powiy Mi",
+      "Frans Bauer - Einmal kommt auch für Dich der Tag",
+      "JANINA LIBERA - MUZYKANT",
+      "Karpowicz Family - Za darmo nic",
+      "Proskauer Echo - Halleluja ( Slonske Dziolchy )",
+      "Marc Conrad - Wir Sind Alle Über 40 (Mallorca Mix)",
+      "Andreas Martin - Dieses Leben ist schwer (party mix)",
+      "JINKS - POWIEDZ MI",
+      "FEEL i Kabaret RAK - Gorzkie dymy",
+      "Bez Nazwy - Usmiech",
+      "Karpowicz Family - Hi hi - ha ha",
+      "DJ Ötzi - Hotel Engel Discofox Megamix",
+      "Jacek Kierok - Aniol Pa´nski",
+      "Elvis Presley - Blue Suede Shoes"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.slonske-muszketery.eu",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/6619_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/6619_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":6619,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/6619_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/6619_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/6619_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Volksmusik",
+      "_city":"",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Slonske Muszketery",
+    "picture3Url":"",
+    "streamUrl":"http://85.25.152.202:8000/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/6619_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/6619_5.jpeg",
+    "subdomain":"slonskemuszketery",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":5067,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://85.25.152.202:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://85.25.152.202:8000/",
+        "idBroadcast":6619,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

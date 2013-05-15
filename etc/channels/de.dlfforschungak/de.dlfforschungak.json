@@ -1,0 +1,321 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703383",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 11.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703384",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1635_68dbbcf9.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 10.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703385",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1635_45a3737f.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 09.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703386",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1635_f26afea0.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 08.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703387",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1635_68bc3e47.mp3",
+      "testResult":null,
+      "name":"Forschung aktuell 05.04.2013, komplette Sendung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Die Beiträge der Sendungen Forschung Aktuell",
+    "seoTitle":"Deutschlandfunk - Forschung Aktuell, dradio, d-radio, Deutschlandradio, dlf, ",
+    "subDomaine":"dlfforschungak",
+    "relayDisabled":false,
+    "rank":1746,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Alles wissenswerte aus Forschung und Wissenschaft gibt es beim Deutschlandfunk gebündelt in diesem Podcast.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8322_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8322_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8322_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Alles wissenswerte aus Forschung und Wissenschaft gibt es beim Deutschlandfunk gebündelt in diesem Podcast.",
+    "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 11.04.2013, komplette Sendung",
+        "episode":0,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p><div class=\"inv\">\n<script type=\"text/javascript\">\n <!-- \n  var IVW=\"http://dradio.ivwbox.de/cgi-bin/ivw/CP/715;www.dradio.de/rss/podcast/sendungen/forschaksendung/\";\n  document.write(\'<img src=\"\'+IVW+\'?r=\'+escape(document.referrer)+\'&d=\'+(Math.random()*100000)+\'\" width=\"1\" height=\"1\" alt=\"szmtag\" />\');\n // -->\n</script>\n<noscript>\n    <img src=\"http://dradio.ivwbox.de/cgi-bin/ivw/CP/715;www.dradio.de/rss/podcast/sendungen/forschaksendung/\" width=\"1\" height=\"1\" alt=\"szmtag\" />\n</noscript>\n</div>\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "published":"Thu, 11 Apr 2013 14:35:17 GMT",
+        "bitRate":64,
+        "contentLength":11912992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 10.04.2013, komplette Sendung",
+        "episode":1,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1635_68dbbcf9.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1635_68dbbcf9.mp3",
+        "published":"Wed, 10 Apr 2013 14:35:56 GMT",
+        "bitRate":64,
+        "contentLength":11865568
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 09.04.2013, komplette Sendung",
+        "episode":2,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1635_45a3737f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1635_45a3737f.mp3",
+        "published":"Tue, 09 Apr 2013 14:35:33 GMT",
+        "bitRate":64,
+        "contentLength":11677120
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 08.04.2013, komplette Sendung",
+        "episode":3,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1635_f26afea0.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1635_f26afea0.mp3",
+        "published":"Mon, 08 Apr 2013 14:35:36 GMT",
+        "bitRate":64,
+        "contentLength":11964992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Forschung aktuell 05.04.2013, komplette Sendung",
+        "episode":4,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Forschung Aktuell<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1635_68bc3e47.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1635_68bc3e47.mp3",
+        "published":"Fri, 05 Apr 2013 14:35:49 GMT",
+        "bitRate":64,
+        "contentLength":11898848
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+    "displaySubDomaine":"dlfforschungak",
+    "recentTitles":
+    [
+      "Forschung aktuell 11.04.2013, komplette Sendung",
+      "Forschung aktuell 10.04.2013, komplette Sendung",
+      "Forschung aktuell 09.04.2013, komplette Sendung",
+      "Forschung aktuell 08.04.2013, komplette Sendung",
+      "Forschung aktuell 05.04.2013, komplette Sendung"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dradio.de/dlf/sendungen/dlfpodcast/503551/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8322_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8322_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8322,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8322_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8322_5_1.png",
+    "author":"",
+    "title":"Deutschlandradio Logo",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8322_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Wissenschaft",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Köln",
+      "_family":"dradio",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Deutschlandfunk - Forschung Aktuell",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/dlfforschungak.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8322_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8322_5.jpeg",
+    "subdomain":"dlfforschungak",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463209,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1635_9c13cf0f.mp3",
+        "idBroadcast":8322,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

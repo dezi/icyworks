@@ -1,0 +1,247 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://85.25.7.54:8000",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Zwiebeldorf - ",
+    "subDomaine":"radiozwiebeldorf",
+    "relayDisabled":false,
+    "rank":2338,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio Zwiebeldorf: Verrücktsein ist alles",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/18243_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/18243_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/18243_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Radio Zwiebeldorf: Verrücktsein ist alles",
+    "metaDataUrl":"http://85.25.7.54:8000",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://85.25.7.54:8000",
+    "displaySubDomaine":"radiozwiebeldorf",
+    "recentTitles":
+    [
+      "Hurts - Stay",
+      "LMFAO feat. Lauren Bennett and GoonRock - Party Rock Anthem",
+      "David Guetta - Without U (feat. Usher)",
+      "Pitbull feat. Marc Anthony - Rain Over Me",
+      "Snow Patrol - Called Out In The Dark (Album Version)",
+      "Foster The People - Pumped Up Kicks",
+      "Sunrise Avenue - Hollywood Hills",
+      "Bosse - Frankfurt Oder",
+      "Katy Perry - Last Friday Night",
+      "Usher - There Goes My Baby (Jim Jonsin Remix 2)",
+      "Kelly Rowland - Down For Whatever",
+      "Tim Bendzko - Nur noch kurz die Welt retten",
+      "Bruno Mars - Just the Way You Are",
+      "The Good Natured - Skeleton",
+      "Lana Del Rey - Video Games",
+      "Sido - Geboren Um Frei Zu Sein",
+      "Jason Derulo - It Girl",
+      "Leona Lewis - Run (Bous Track)",
+      "Paul Kalkbrenner, Fritz Kalkbrenner - Sky And Sand (Original Mix)",
+      "Glasperlenspiel - Echt",
+      "Bruno Mars - It Will Rain",
+      "Unheilig - Geboren um zu leben",
+      "Frida Gold - Unsere Liebe Ist Aus Gold (Radio Version)",
+      "Natalia Kills - Free",
+      "Rihanna - California King Bed",
+      "David Guetta feat. Usher - Without u (feat. usher)",
+      "Caro Emerald - Stuck (Radio Mix)",
+      "Mariah Carey - All I Want For Christmas Is You",
+      "Gotye feat. Kimbra - Somebody That I Used To Know",
+      "Nickelback - When We Stand Together",
+      "Timbaland feat. Pitbull - Pass At Me",
+      "R.I.O. feat. U-Jean - Turn This Club Around",
+      "Marlon Roudette - New Age",
+      "Beyonce - Best Thing I Never Had",
+      "Lmfao Feat. Lauren Bennet And Goon Rock - Party Rock Anthem (radio Edit)",
+      "Aura Dione - Geronimo",
+      "Adele - Rolling In The Deep",
+      "Martin Solveig - Hello",
+      "Hubert Von Goisern - Brenna Tuats Guat",
+      "Caro Emerald - A Night Like This",
+      "Bruno Mars - Marry You",
+      "DJ Antoine Vs. Timati Feat. Kalenna - Welcome To St. Tropez",
+      "Seeed - Molotov",
+      "Wham - Last Christmas",
+      "Kelly Clarkson - Mr. Know It All",
+      "Jennifer Lopez Feat. Pitbull - On The Floor",
+      "Kings of Leon - Sex On Fire",
+      "Inna - Club Rocker (David Guetta Remix)",
+      "Justin Bieber - Mistletoe",
+      "DJ Antoine feat. The Beat Shakers - Ma Cherie (DJ Antoine vs. Mad Mark Radio Edit)",
+      "Maroon 5 featt. Christina Aguilera - Moves Like Jagger",
+      "Avicii - Levels",
+      "Will I Am Feat. LMFAO - In The House (Party Rock Remix)",
+      "Brooke Fraser - Something In The Water",
+      "Udo Lindenberg feat. Inga Humpe - Ein Herz Kann Man Nicht Reparieren",
+      "LADY GAGA - Marry the night"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://radio-zwiebeldorf.de/news.php",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/18243_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/18243_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":18243,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/18243_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/18243_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/18243_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Pop",
+      "_city":"Zeiskam",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Zwiebeldorf ",
+    "picture3Url":"",
+    "streamUrl":"http://85.25.7.54:8000",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":false,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/18243_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":false,
+    "picture5Url":"",
+    "subdomain":"radiozwiebeldorf",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":20330,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://85.25.7.54:8000",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://85.25.7.54:8000",
+        "idBroadcast":18243,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

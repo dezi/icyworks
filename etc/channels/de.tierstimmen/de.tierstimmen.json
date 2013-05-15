@@ -1,0 +1,206 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/tierstimmen",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":2,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Tierstimmen",
+    "subDomaine":"tierstimmen",
+    "relayDisabled":false,
+    "rank":1399,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Faszinierende Originalstimmen der Natur, wenn es zwitschert, wiehert, singt und zirpt.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3972_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3972_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"ALWAYS",
+    "hasJingle":false,
+    "shortDescription":"Faszinierende Originalstimmen der Natur, wenn es zwitschert, wiehert, singt und zirpt.",
+    "metaDataUrl":"http://dude.mp3streams.net/tierstimmen",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/tierstimmen",
+    "displaySubDomaine":"tierstimmen",
+    "recentTitles":
+    [
+      "Meeresrauschen - Seevvgel im Wind - Meer 2",
+      "Rund um den Weinberg - Gldsertanz und Korkenreigen",
+      "Wenn es singt und zirpt - Es ist Sommer",
+      "Exotische Vogelwelt - Regenwald Amazonas",
+      "Meeresrauschen - Seevvgel im Wind - Meer 3",
+      "Wenn es singt und zirpt - In Feld und Flur",
+      "Rund um den Weinberg - Weinkellerimpressionen",
+      "Pferde - Galoppierende Herde",
+      "Rund um den Weinberg - Vogelstimmen Weinflur",
+      "Unsere heimische Vogelwelt  - Feldlerche",
+      "Pferde - Ausritt",
+      "Wenn es singt und zirpt - Nachts am Amazonas",
+      "Exotische Vogelwelt - Kanarienvogel",
+      "Pferde - Schlittenfahrt",
+      "Unsere heimische Vogelwelt  - Vogelstimmenkonzert"
+    ],
+    "idType":2,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.tierstimmen.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3972_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3972_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3972,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3972_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3972_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3972_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Natur",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Rosenheim",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Tierstimmen",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/tierstimmen",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3972_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3972_5.jpeg",
+    "subdomain":"tierstimmen",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":3155,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/tierstimmen",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/tierstimmen",
+        "idBroadcast":3972,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

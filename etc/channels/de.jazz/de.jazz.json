@@ -1,0 +1,235 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://staff.mp3streams.net/jazzgeneralgvl",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":2,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Jazz",
+    "subDomaine":"jazz",
+    "relayDisabled":false,
+    "rank":211,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Virtuose Musiker und entspannte Rhythmen bei radio.de. Von Cool bis Nu-Jazz.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2073_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2073_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Virtuose Musiker und entspannte Rhythmen bei radio.de. Von Cool bis Nu-Jazz.",
+    "metaDataUrl":"http://staff.mp3streams.net/jazzgeneralgvl",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://staff.mp3streams.net/jazzgeneralgvl",
+    "displaySubDomaine":"jazz",
+    "recentTitles":
+    [
+      "Joshua Redman - Love for Sale",
+      "JAZUL - Titel 01",
+      "Beady Belle - Shadow",
+      "Brian Groder - Jingo",
+      "Keith Jarrett - Long As You Know You\'re Living Yours",
+      "Loungekombinat - Dark Eyes",
+      "Julien Lourau - Hope",
+      "JAZUL - Titel 08",
+      "Stan Getz - Genius Loves Company\\01 Ray Charles - Here We Go Again (with norah jones)",
+      "Dave Weckl Band - Mixed bag",
+      "Nils Wülker - Bumping Into Pleasure",
+      "leszek mozdzer - 10. till\'s blues",
+      "Thomas Quasthoff - Ac-Cent-Tchu-Ate the Positive",
+      "Lisa Bassenge Trio - Fall",
+      "Anna Maria Jopek - upojenie",
+      "Rebekka Bakken - The Art Of How To Fall",
+      "Muthspiel Johnson Blade - Giant Steps",
+      "Thomas Siffling Trio - Jazz is like ginger",
+      "Tim Rodig 5 - Blues in der Küche",
+      "Hayati Kafe - Youd´be So Nice To Come Home",
+      "Lars Danielsson & Leszek Mozdzer - Berlin",
+      "Maceo Parker - 101",
+      "After Hours feat. Roger Cicero - My Favorite Things",
+      "Ulita Knaus - White",
+      "Torun Eriksen - Words",
+      "Lizz Wright - Open Your Eyes",
+      "Mark Wyand Quartet - Lost Souls",
+      "Brad Mehldau Trio - Nearness Of You (Album Version)",
+      "Sting - Ain\'t No Sunshine",
+      "Lars Danielsson & Leszek Mozdzer - Pasodoble",
+      "Ray Charles - You Are My Sunshine",
+      "Eric Legnini Trio - Miss Soul",
+      "V.A. - Feel The Jazz Flow",
+      "In Other Words) - Schiess mich doch zum Mond (Fly Me To The Moon",
+      "Jamie Cullum - My Yard",
+      "Robin McKelle - Something\'s gotta give",
+      "Nils Wülker - Consistently Accidental",
+      "V.A. - Supernova",
+      "Lyambiko - Sitting In A Tree",
+      "[re:jazz] - [Re:Jazz] Theme",
+      "Lyambiko - You\'d Be So Nice To Come Home To",
+      "Tierney Sutton - Softly",
+      "Till Brönner - Jazz Musician",
+      "After Hours feat. Roger Cicero - Joy Spring"
+    ],
+    "idType":2,
+    "descriptionPodcast":"",
+    "picture2Url":"http://static.radio.de/images/broadcasts/2073_2.png",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://jazz.radio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2073_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2073_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2073,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2073_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2073_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2073_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Jazz",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Jazz",
+    "picture3Url":"http://static.radio.de/images/broadcasts/2073_3.jpeg",
+    "streamUrl":"http://staff.mp3streams.net/jazzgeneralgvl",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":true,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2073_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":true,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2073_5.jpeg",
+    "subdomain":"jazz",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":1012,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://staff.mp3streams.net/jazzgeneralgvl",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://staff.mp3streams.net/jazzgeneralgvl",
+        "idBroadcast":2073,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

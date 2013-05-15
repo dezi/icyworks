@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://rs13.stream24.org:8700",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Schottenradio",
+    "subDomaine":"schottenradio",
+    "relayDisabled":false,
+    "rank":934,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das Webradio, das nonstop Celtic Music spielt. Folk, Rock, Pop, Classics aus Schottland, Irland, Wales und allen Orten dieses großen blauen Planeten, wo keltische Musik gemacht wird. Bands aus allen Nationen, die handgemachte keltische Musik produzieren, sind die Stars bei SchottenRadio.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/7425_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/7425_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das Webradio, das nonstop Celtic Music spielt. Folk, Rock, Pop, Classics aus Schottland, Irland, Wales und allen Orten dieses großen blauen Planeten.",
+    "metaDataUrl":"http://rs13.stream24.org:8700",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://rs13.stream24.org:8700",
+    "displaySubDomaine":"schottenradio",
+    "recentTitles":
+    [
+      "Flap - Drumond Castle",
+      "Clannad - The outher side",
+      "Celtic Moods - Evermore",
+      "Battlefield Band - Bad Moon Rising",
+      "Basil Wolfrhine - A World Made Off Passion",
+      "The Celtic Harp - Triskell - Vieux Chateau Sous La Lune",
+      "The Garden of Delight - Shack what ya mama gave ya",
+      "Capercaillie - M\'Ionam",
+      "Runrig - 2000 Years",
+      "Runrig - In Scandinavia",
+      "Traditional - The Conund Rum",
+      "Wolfstone - Howl",
+      "Wolfstone - Heart and Soul",
+      "CELTIC AIRS - The Coulin (Irish)",
+      "Music Masters Ltd. - Loch Lomond",
+      "Peter Mallan - The Song of the Clyde",
+      "Pride of Murray Pipe Band - Skye Boat Song-Cock \'O\' the North-Glendarual Highlanders",
+      "John Ellis and his Highland Country Band - Gay Gordons- P-M Ross\'s Farewell to The Scots Guards-The Siege of Delhi",
+      "Basil Wolfrhine - Like A Feather In The Wind",
+      "Scottish Pop Rock on air mit Basil Wolfrhine",
+      "Bill McCue - Of A\' The Airts",
+      "Ishbel MacAskill -Thig an Smeorach as T-Earrach - The Thrush Comes in Spring",
+      "DJ Goring, J. Hodgson, G.W.Goring - It is up to you now",
+      "The Gaelforce Orchestra - Auld Lang Syne",
+      "Capercaillie - Nil Si I nGra",
+      "Culture Ceilidh Band - Skye Boat Song-Mist Covered Mountains-Castlebay-Fir Na Fhata-Skye Boat",
+      "Capercaillie - Ailein Duinn",
+      "Beeston Pipe Band - Heroes of Wickenby-Going to Pitlochry-Prince\'s Street",
+      "The Rambling Rovers - Zwei Bretonische tanze",
+      "The Gaelforce Orchestra - ALWAYS ARGYLL",
+      "The Cottars - Home by Bearna-Jo Machphee\'s Jig",
+      "The Corrs - Borrowed Heaven",
+      "Loreena McKennitt - Dante\'s Prayer",
+      "Noel McLoughlin - Lizzie Lindsay",
+      "Basil Wolfrhine - Loch Lomond",
+      "The Angels of Venice - Light at the Edge of the World",
+      "The Gaelforce Orchestra - Glencoe",
+      "Highlander -  In Memory of Connor",
+      "Steve McDonald - My Heart Belongs to Scotland",
+      "Runrig - Sona",
+      "Rock Salt and Nails - Tilly Plump Set",
+      "Nick McLeod and Whiskey Trail - Merlin, the sage",
+      "New Celeste - Polkadotty",
+      "Guido Hoffmann feat. Freddy The Piper - Song Of Eilean - English Version",
+      "Flap - Frost Pattern",
+      "Paddy Goes to Holyhead - The Annie B",
+      "Rhona MacKay - Cearcall a chuain (Ocean\'s Cycle)",
+      "Coast - america",
+      "The Screaming Orphans - I Must Away Now",
+      "Scocha - Killiecrankie",
+      "Andy M Stewart - The Haughs of Cromdale"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.schottenradio.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/7425_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/7425_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":7425,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/7425_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/7425_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/7425_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Celtic, Folk",
+      "_city":"Spall",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Schottenradio",
+    "picture3Url":"",
+    "streamUrl":"http://rs13.stream24.org:8700",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/7425_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/7425_5.jpeg",
+    "subdomain":"schottenradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":4683,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://rs13.stream24.org:8700",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://rs13.stream24.org:8700",
+        "idBroadcast":7425,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

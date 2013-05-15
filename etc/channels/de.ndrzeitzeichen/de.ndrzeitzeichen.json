@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702970",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+      "testResult":null,
+      "name":"Der Todestag des Journalisten Egon Erwin Kisch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702971",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130330-0949-1142.mp3",
+      "testResult":null,
+      "name":"Geburtstag des Malers Vincent van Gogh",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702534",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130329-0950-0542.mp3",
+      "testResult":null,
+      "name":"Todestag des Unternehmers Johann Jakob Astor",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702535",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130328-0959-5942.mp3",
+      "testResult":null,
+      "name":"Der Todestag des russischen Komponisten Sergej Rachmaninow",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702536",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130327-1002-3942.mp3",
+      "testResult":null,
+      "name":"Geburtstag Agnes Windeck",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702537",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130326-1002-4742.mp3",
+      "testResult":null,
+      "name":"Geburtstag Gert Bastian",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702538",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130325-0947-2242.mp3",
+      "testResult":null,
+      "name":"Geburtstag Adalbert Czerny",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702539",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130324-1018-1642.mp3",
+      "testResult":null,
+      "name":"Pink Floyds Album The dark side of the moon",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702540",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130323-0959-1442.mp3",
+      "testResult":null,
+      "name":"Verabschiedung von Hitlers Ermächtigungsgesetz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700981",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130322-0957-5742.mp3",
+      "testResult":null,
+      "name":"Todestag Cilly Aussem",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700982",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130321-1018-3242.mp3",
+      "testResult":null,
+      "name":"Geburtstag des Dichters Jean Paul",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700983",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130320-1002-3542.mp3",
+      "testResult":null,
+      "name":"Der Beginn des Irakkriegs",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700984",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130319-1007-5242.mp3",
+      "testResult":null,
+      "name":"Geburtstag Josef Albers",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700985",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130318-1007-1942.mp3",
+      "testResult":null,
+      "name":"Geburtstag Friedrich Hebbel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700986",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130317-0959-5242.mp3",
+      "testResult":null,
+      "name":"Verstaatlichung der Ostindien-Kompanie",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700987",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130316-0943-3942.mp3",
+      "testResult":null,
+      "name":"Todestag George Bähr",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699231",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130315-0952-5442.mp3",
+      "testResult":null,
+      "name":"Tod Sir Henry Bessemer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699232",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130314-0949-5742.mp3",
+      "testResult":null,
+      "name":"Geburtstag Diane Arbus",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699233",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130313-0957-5942.mp3",
+      "testResult":null,
+      "name":"Der Anschluss Österreichs an das Deutsche Reich",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699234",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130312-1019-5542.mp3",
+      "testResult":null,
+      "name":"Geburtstag André Le Notre",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699235",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130311-1009-2942.mp3",
+      "testResult":null,
+      "name":"Giovanni de Medici wird Papst",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699236",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130310-0948-2542.mp3",
+      "testResult":null,
+      "name":"Geburtstag Bix Beiderbecke",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698023",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-1511-2642.mp3",
+      "testResult":null,
+      "name":"Todestag Cyril N. Parkinson",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697480",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130308-1026-3942.mp3",
+      "testResult":null,
+      "name":"Der Militärputsch in Syrien",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697481",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130307-0949-3042.mp3",
+      "testResult":null,
+      "name":"Todestag des Carl Diercke",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697482",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130306-0951-5642.mp3",
+      "testResult":null,
+      "name":"Geburtstag von Therese Giehse",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697483",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-0947-2142.mp3",
+      "testResult":null,
+      "name":"Todestag Josef Stalin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697484",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130304-1253-4642.mp3",
+      "testResult":null,
+      "name":"Todestag Ossip K. Flechtheim",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697485",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130303-0958-0042.mp3",
+      "testResult":null,
+      "name":"Friedensvertrag Brest-Litowsk",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697486",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130302-0953-2142.mp3",
+      "testResult":null,
+      "name":"Uraufführung von \"King Kong\"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695654",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130301-0955-0342.mp3",
+      "testResult":null,
+      "name":"Todestag Gabriele d\'Annunzio",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695655",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130228-0957-5342.mp3",
+      "testResult":null,
+      "name":"Das Bundeskleingartengesetz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695656",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130227-1020-4542.mp3",
+      "testResult":null,
+      "name":"Geburtstag Alfred Hrdlicka",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695657",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130226-1004-3142.mp3",
+      "testResult":null,
+      "name":"Die Augsburger Puppenkiste",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695658",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130225-1001-5242.mp3",
+      "testResult":null,
+      "name":"Geburtstag von George Harrison",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695659",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130224-0951-5542.mp3",
+      "testResult":null,
+      "name":"Physiker Werner Heisenberg",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694151",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130223-0958-4242.mp3",
+      "testResult":null,
+      "name":"Geburtstag Kasimir Malewitsch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693957",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130222-0954-4142.mp3",
+      "testResult":null,
+      "name":"Das Stuyvenberg-Abkommen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693958",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130221-1003-3042.mp3",
+      "testResult":null,
+      "name":"Todestag Papst Julius II.",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693959",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130220-0957-4642.mp3",
+      "testResult":null,
+      "name":"Der Stellvertreter, R.Hochhuth",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693960",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130219-1023-4842.mp3",
+      "testResult":null,
+      "name":"Geburtstag Luigi Boccherini",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693961",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130218-0959-4742.mp3",
+      "testResult":null,
+      "name":"Geburtstag von Louis C. Tiffany",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693962",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130217-1000-2042.mp3",
+      "testResult":null,
+      "name":"Todestag des Schriftstellers Ernst Jünger",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692686",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130216-1002-0542.mp3",
+      "testResult":null,
+      "name":"Deutsches Jugendgerichtsgesetz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692169",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130215-0951-3342.mp3",
+      "testResult":null,
+      "name":"Pflichtjahr für Frauen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692170",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130214-1401-4342.mp3",
+      "testResult":null,
+      "name":"Liechtensteiner Steueraffäre",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692171",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130213-1101-5242.mp3",
+      "testResult":null,
+      "name":"Geburtstag F. I. Schaljapin",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692172",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130212-1006-1042.mp3",
+      "testResult":null,
+      "name":"Psychotherapeuten-Gesetz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692173",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130211-0944-5742.mp3",
+      "testResult":null,
+      "name":"Kölner Rosenmontagszug",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692174",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130210-0953-5142.mp3",
+      "testResult":null,
+      "name":"Frieden von Paris",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Die Sendung erinnert an Menschen und Ereignisse der Weltgeschichte.",
+    "seoTitle":"NDR Info - ZeitZeichen",
+    "subDomaine":"ndrzeitzeichen",
+    "relayDisabled":false,
+    "rank":1858,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"ZeitZeichen erinnert täglich an Personen und Ereignisse der Vergangenheit und macht Geschichte erfahrbar, um das Gegenwartsbewusstsein zu schärfen. Die Sendung erinnert an Ereignisse der Weltgeschichte.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3793_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3793_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/3793_6.gif",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die Sendung erinnert an Ereignisse der Weltgeschichte.",
+    "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Todestag des Journalisten Egon Erwin Kisch",
+        "episode":0,
+        "description":"Stichtag 31. März 1948: Der Todestag des Journalisten Egon Erwin Kisch",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "published":"Sun, 31 Mar 2013 10:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag des Malers Vincent van Gogh",
+        "episode":1,
+        "description":"Stichtag 30. März 1853: Der Geburtstag des niederländischen Malers Vincent van Gogh\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130330-0949-1142.mp3",
+        "published":"Sat, 30 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag des Unternehmers Johann Jakob Astor",
+        "episode":2,
+        "description":"Stichtag 29. März 1848: Der Todestag des Unternehmers Johann Jakob Astor\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130329-0950-0542.mp3",
+        "published":"Fri, 29 Mar 2013 09:46:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Todestag des russischen Komponisten Sergej Rachmaninow",
+        "episode":3,
+        "description":"Stichtag 28. März 1943: Der Todestag des russischen Komponisten Sergej Rachmaninow",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130328-0959-5942.mp3",
+        "published":"Thu, 28 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Agnes Windeck",
+        "episode":4,
+        "description":"Stichtag 27. März 1888: Der Geburtstag der Schauspielerin Agnes Windeck",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130327-1002-3942.mp3",
+        "published":"Wed, 27 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Gert Bastian",
+        "episode":5,
+        "description":"Stichtag 26. März 1923: Der Geburtstag des Generals und Politikers Gert Bastian",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130326-1002-4742.mp3",
+        "published":"Tue, 26 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Adalbert Czerny",
+        "episode":6,
+        "description":"Stichtag 25. März 1863: Der Geburtstag des Kinderarztes Adalbert Czerny",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130325-0947-2242.mp3",
+        "published":"Mon, 25 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Pink Floyds Album The dark side of the moon",
+        "episode":7,
+        "description":"Stichtag 24. März 1973: Pink Floyd veröffentlicht das Album \"The dark side of the moon\"\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130324-1018-1642.mp3",
+        "published":"Sun, 24 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Verabschiedung von Hitlers Ermächtigungsgesetz",
+        "episode":8,
+        "description":"Stichtag 23. März 1933: Der Reichstag verabschiedet das Ermächtigungsgesetz Hitlers",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130323-0959-1442.mp3",
+        "published":"Sat, 23 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag Cilly Aussem",
+        "episode":9,
+        "description":"Stichtag 22. März 1963: Der Todestag der Tennisspielerin Cilly Aussem.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130322-0957-5742.mp3",
+        "published":"Fri, 22 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag des Dichters Jean Paul",
+        "episode":10,
+        "description":"Stichtag 21. März 1763: Der Geburtstag des deutschen Schriftstellers Jean Paul, der als Johann Paul Friedrich Richter in Franken geboren wurde",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130321-1018-3242.mp3",
+        "published":"Thu, 21 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Beginn des Irakkriegs",
+        "episode":11,
+        "description":"Stichtag 20. März 2003 . Der Beginn des Irakkriegs",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130320-1002-3542.mp3",
+        "published":"Wed, 20 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Josef Albers",
+        "episode":12,
+        "description":"Stichtag 19. März 1888: Der Geburtstag des Malers Josef Albers",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130319-1007-5242.mp3",
+        "published":"Tue, 19 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Friedrich Hebbel",
+        "episode":13,
+        "description":"Stichtag 18. März 1813: Der Geburtstag des Schriftstellers Friedrich Hebbel",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130318-1007-1942.mp3",
+        "published":"Mon, 18 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Verstaatlichung der Ostindien-Kompanie",
+        "episode":14,
+        "description":"Stichtag 17. März 1798: Die Niederländische Ostindien-Kompanie wird verstaatlicht.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130317-0959-5242.mp3",
+        "published":"Sun, 17 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag George Bähr",
+        "episode":15,
+        "description":"Stichtag 16. März 1738: Der Todestag des deutschen Baumeisters George Bähr\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130316-0943-3942.mp3",
+        "published":"Sat, 16 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Tod Sir Henry Bessemer",
+        "episode":16,
+        "description":"Stichtag 15. März 1898: Der Todestag des britischen Erfinders Sir Henry Bessemer",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130315-0952-5442.mp3",
+        "published":"Fri, 15 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Diane Arbus",
+        "episode":17,
+        "description":"Stichtag 14. März 1923: Der Geburtstag der amerikanischen Fotografin Diane Arbus",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130314-0949-5742.mp3",
+        "published":"Thu, 14 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Anschluss Österreichs an das Deutsche Reich",
+        "episode":18,
+        "description":"Stichtag 13. März 1938: Der Anschluss Österreichs an das Deutsche Reich",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130313-0957-5942.mp3",
+        "published":"Wed, 13 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag André Le Notre",
+        "episode":19,
+        "description":"Stichtag 12. März 1613: der Geburtstag des französchen Gartanarchitekten André Le Notre",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130312-1019-5542.mp3",
+        "published":"Tue, 12 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Giovanni de Medici wird Papst",
+        "episode":20,
+        "description":"Stichtag 11. März 1513: Giovanni de Medici wird Papst Leo X.\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130311-1009-2942.mp3",
+        "published":"Mon, 11 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Bix Beiderbecke",
+        "episode":21,
+        "description":"Stichtag 10. März 1903: Der Geburtstag des amerikanischen Kornettisten Bix Beiderbecke",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130310-0948-2542.mp3",
+        "published":"Sun, 10 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag Cyril N. Parkinson",
+        "episode":22,
+        "description":"Stichtag 9. März 1993 : Der Todestag des Soziologen Cyril N. Parkinson",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-1511-2642.mp3",
+        "published":"Sat, 09 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Militärputsch in Syrien",
+        "episode":23,
+        "description":"Stichtag 8. März 1963: Der Militärputsch in Syrien",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130308-1026-3942.mp3",
+        "published":"Fri, 08 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag des Carl Diercke",
+        "episode":24,
+        "description":"Stichtag 07. März 1913: Der Todestag des deutschen Kartografen Carl Diercke",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130307-0949-3042.mp3",
+        "published":"Thu, 07 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag von Therese Giehse",
+        "episode":25,
+        "description":"Stichtag 06. März 1898: Der Geburtstag der Schauspielerin Therese Giehse",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130306-0951-5642.mp3",
+        "published":"Wed, 06 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag Josef Stalin",
+        "episode":26,
+        "description":"Stichtag 5. März 1953: Der Todestag von Josef Stalin",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-0947-2142.mp3",
+        "published":"Tue, 05 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag Ossip K. Flechtheim",
+        "episode":27,
+        "description":"Stichtag 04. März 1998: Der Todestag des Zukunftsforschers Ossip K. Flechtheim",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130304-1253-4642.mp3",
+        "published":"Mon, 04 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Friedensvertrag Brest-Litowsk",
+        "episode":28,
+        "description":"Stichtag 3. März 1918: Deutschland und Russland unterzeichnen den Friedensvertrag von Brest-Litowsk\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130303-0958-0042.mp3",
+        "published":"Sun, 03 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Uraufführung von \"King Kong\"",
+        "episode":29,
+        "description":"Stichtag 02. März 1933: Die Uraufführung des Films \"King Kong\"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130302-0953-2142.mp3",
+        "published":"Sat, 02 Mar 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag Gabriele d\'Annunzio",
+        "episode":30,
+        "description":"Stichtag 01.März 1938: Der Todestag des italienischen Dichters Gabriele d\'Annunzio.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130301-0955-0342.mp3",
+        "published":"Fri, 01 Mar 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Das Bundeskleingartengesetz",
+        "episode":31,
+        "description":"Stichtag 28. Februar 1983: Das Bundeskleingartengesetz wird erlassen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130228-0957-5342.mp3",
+        "published":"Thu, 28 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Alfred Hrdlicka",
+        "episode":32,
+        "description":"Stichtag 27. Februar 1928: Der Geburtstag des österreichischen Künstlers Alfred Hrdlicka\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130227-1020-4542.mp3",
+        "published":"Wed, 27 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Die Augsburger Puppenkiste",
+        "episode":33,
+        "description":"Stichtag 26. Februar 1948: Die Eröffnung der Augsburger Puppenkiste",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130226-1004-3142.mp3",
+        "published":"Tue, 26 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag von George Harrison",
+        "episode":34,
+        "description":"Stichtag 25. Februar 1943: Der Geburtstag des britischen Musikers George Harrison",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130225-1001-5242.mp3",
+        "published":"Mon, 25 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Physiker Werner Heisenberg",
+        "episode":35,
+        "description":"Stichtag 24. Februar 1958: Der Physiker Werner Heisenberg stellt seine Weltformel vor",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130224-0951-5542.mp3",
+        "published":"Sun, 24 Feb 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Kasimir Malewitsch",
+        "episode":36,
+        "description":"Stichtag 23. Februar 1878: Der Geburtstag des russischen Malers Kasimir Sewerinowitsch Malewitsch.\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130223-0958-4242.mp3",
+        "published":"Sat, 23 Feb 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Das Stuyvenberg-Abkommen",
+        "episode":37,
+        "description":"Stichtag 22. Februar 1978: Das Stuyvenberg-Abkommen soll in Belgien zum Ausgleich zwischen Flamen und Wallonen führen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130222-0954-4142.mp3",
+        "published":"Fri, 22 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag Papst Julius II.",
+        "episode":38,
+        "description":"1513: Der Todestag von Papst Julius II.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130221-1003-3042.mp3",
+        "published":"Thu, 21 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der Stellvertreter, R.Hochhuth",
+        "episode":39,
+        "description":"1963: Die Uraufführung des Theaterstücks \"Der Stellvertreter\" von Rolf Hochhuth",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130220-0957-4642.mp3",
+        "published":"Wed, 20 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag Luigi Boccherini",
+        "episode":40,
+        "description":"Stichtag 19. Februar 1743: Der Geburtstag des italienischen Komponisten Luigi Boccherini",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130219-1023-4842.mp3",
+        "published":"Tue, 19 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag von Louis C. Tiffany",
+        "episode":41,
+        "description":"Stichtag 18. Februar 1848: Der Geburtstag des amerikanischen Malers und Glaskünstlers Louis Comfort Tiffany\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130218-0959-4742.mp3",
+        "published":"Mon, 18 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Todestag des Schriftstellers Ernst Jünger",
+        "episode":42,
+        "description":"Stichtag 17. Februar 1998: Der Todestag des Schriftstellers Ernst Jünger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130217-1000-2042.mp3",
+        "published":"Sun, 17 Feb 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Deutsches Jugendgerichtsgesetz",
+        "episode":43,
+        "description":"Stichtag 16. Februar 1923: Das erste deutsche Jugendgerichtsgesetz wird erlassen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130216-1002-0542.mp3",
+        "published":"Sat, 16 Feb 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Pflichtjahr für Frauen",
+        "episode":44,
+        "description":"Stichtag 15. Februar 1938: Das Pflichtjahr für Frauen wird eingeführt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130215-0951-3342.mp3",
+        "published":"Fri, 15 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Liechtensteiner Steueraffäre",
+        "episode":45,
+        "description":"Stichtag 14. Februar 2008: Die Liechtensteiner Steueraffäre wird bekannt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130214-1401-4342.mp3",
+        "published":"Thu, 14 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geburtstag F. I. Schaljapin",
+        "episode":46,
+        "description":"Stichtag 13. Februar 1873: der Geburtstag des russischen Sängers Fedor Iwanowitsch Schaljapin",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130213-1101-5242.mp3",
+        "published":"Wed, 13 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Psychotherapeuten-Gesetz",
+        "episode":47,
+        "description":"Stichtag 12. Februar 1998:  Das Psychotherapeutengesetz wird verabschiedet.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130212-1006-1042.mp3",
+        "published":"Tue, 12 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Kölner Rosenmontagszug",
+        "episode":48,
+        "description":"Im Februar 1953 wird der Kölner Rosenmontagszug erstmals live im Fernsehen übertragen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130211-0944-5742.mp3",
+        "published":"Mon, 11 Feb 2013 20:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Frieden von Paris",
+        "episode":49,
+        "description":"Stichtag 10. Februar 1763: Im Frieden von Paris erringt Großbritannien die Vorherrschaft in Nordamerika\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130210-0953-5142.mp3",
+        "published":"Sun, 10 Feb 2013 19:05:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.ndr.de/info/podcast3010.xml",
+    "displaySubDomaine":"ndrzeitzeichen",
+    "recentTitles":
+    [
+      "Der Todestag des Journalisten Egon Erwin Kisch",
+      "Geburtstag des Malers Vincent van Gogh",
+      "Todestag des Unternehmers Johann Jakob Astor",
+      "Der Todestag des russischen Komponisten Sergej Rachmaninow",
+      "Geburtstag Agnes Windeck",
+      "Geburtstag Gert Bastian",
+      "Geburtstag Adalbert Czerny",
+      "Pink Floyds Album The dark side of the moon",
+      "Verabschiedung von Hitlers Ermächtigungsgesetz",
+      "Todestag Cilly Aussem",
+      "Geburtstag des Dichters Jean Paul",
+      "Der Beginn des Irakkriegs",
+      "Geburtstag Josef Albers",
+      "Geburtstag Friedrich Hebbel",
+      "Verstaatlichung der Ostindien-Kompanie",
+      "Todestag George Bähr",
+      "Tod Sir Henry Bessemer",
+      "Geburtstag Diane Arbus",
+      "Der Anschluss Österreichs an das Deutsche Reich",
+      "Geburtstag André Le Notre",
+      "Giovanni de Medici wird Papst",
+      "Geburtstag Bix Beiderbecke",
+      "Todestag Cyril N. Parkinson",
+      "Der Militärputsch in Syrien",
+      "Todestag des Carl Diercke",
+      "Geburtstag von Therese Giehse",
+      "Todestag Josef Stalin",
+      "Todestag Ossip K. Flechtheim",
+      "Friedensvertrag Brest-Litowsk",
+      "Uraufführung von \"King Kong\"",
+      "Todestag Gabriele d\'Annunzio",
+      "Das Bundeskleingartengesetz",
+      "Geburtstag Alfred Hrdlicka",
+      "Die Augsburger Puppenkiste",
+      "Geburtstag von George Harrison",
+      "Physiker Werner Heisenberg",
+      "Geburtstag Kasimir Malewitsch",
+      "Das Stuyvenberg-Abkommen",
+      "Todestag Papst Julius II.",
+      "Der Stellvertreter, R.Hochhuth",
+      "Geburtstag Luigi Boccherini",
+      "Geburtstag von Louis C. Tiffany",
+      "Todestag des Schriftstellers Ernst Jünger",
+      "Deutsches Jugendgerichtsgesetz",
+      "Pflichtjahr für Frauen",
+      "Liechtensteiner Steueraffäre",
+      "Geburtstag F. I. Schaljapin",
+      "Psychotherapeuten-Gesetz",
+      "Kölner Rosenmontagszug",
+      "Frieden von Paris"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Die Sendung erinnert an Menschen und Ereignisse der Weltgeschichte.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.ndr.de/info/podcast3010.html",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3793_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3793_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3793,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3793_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3793_5_1.png",
+    "author":"",
+    "title":"Seiten eines Kalenders",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3793_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Geschichte",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Hamburg",
+      "_family":"NDR Info",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"NDR Info - ZeitZeichen",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/ndrzeitzeichen.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3793_4_1.png",
+    "sampleRate":48000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3793_5.gif",
+    "subdomain":"ndrzeitzeichen",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "id":2461063,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3",
+        "idBroadcast":3793,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

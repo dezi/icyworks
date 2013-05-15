@@ -1,0 +1,243 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://br-funk.dyndns.org:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"NFR.FM - NewFunkRadio, New Funk Radio - ",
+    "subDomaine":"newfunkfunky",
+    "relayDisabled":false,
+    "rank":901,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Funk, Soul und Disco Classics für den richtigen Groove. Heißer Tanzstoff.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3435_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3435_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/3435_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Funk, Soul und Disco Classics für den richtigen Groove. Heißer Tanzstoff.",
+    "metaDataUrl":"http://br-funk.dyndns.org:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":160,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://br-funk.dyndns.org:8000/listen.pls",
+    "displaySubDomaine":"newfunkfunky",
+    "recentTitles":
+    [
+      "Bernard Wright - Haboglabotribin\'",
+      "Eddie Warner - Poppy Fiddles",
+      "Prince - Welcome 2 The Dawn",
+      "Len Boone - Love Won\'t Be Denied",
+      "Babyface - Love Saw It",
+      "Players - Baby Come Back",
+      "Alyson Williams - Sleep Talk (12\'\' Mix)",
+      "Grover Washington Jr. - Soulful Strut",
+      "Alphonse Mouzon - I\'m Glad That You\'re Here",
+      "E U - Da Butt",
+      "Al B. Sure - You Excite Me",
+      "Lil J Ft Cree - I Need Luv (2002)",
+      "After 7 - Honey (Oh How I Need You)",
+      "J. Blackfoot - Tearjerker (with Ann Hines)",
+      "Zaeus - Life Is Worth Living",
+      "Leon Haywood - Come and get yourself some",
+      "Nobuo Yagi - Mi Mi Africa",
+      "Keith Sweat Feat Royalty  Nas - I Want You",
+      "Deodato - Also Sprach Zarathustra",
+      "Mike Stern  Richard Bona - If Only",
+      "Aaron Hall - I Miss You",
+      "Luniz Feat. Teddy - Playa Hata (Radio Mix)",
+      "soul chaser - valery carter  trying to get to u",
+      "Choclate Milk - Sweet Heat",
+      "Will Downing - A Million Ways",
+      "Herbie Mann - Can You Dig It (Feat. Roy Ayers (1970))",
+      "Tower Of Power - You\'re Still A Young Man",
+      "Wayne Henderson - Hot stuff",
+      "The Originals - Bless Whoever Sent You",
+      "Manhattans - Goodbye Is The Saddest Word",
+      "Prince - The Morning After",
+      "Suede - Determination",
+      "Omar feat. Angie Stone - Be Thankful...(Dodge Mix)",
+      "Soul Snatchers - Sniffin And Snatchin",
+      "Numonics - It\'s So Easy To Be Mislead",
+      "Raoul de Souza - Overture",
+      "Nivea - Still In Love",
+      "Kriss Kross - Tonite\'s The Night",
+      "Maze Ft Frankie Beverly - Happiness",
+      "Zuice - Everyone A Winner (Extended Version)",
+      "Marvin Gaye - What\'s Happening Brother",
+      "Montell Jordan - This is how we do it",
+      "Luther Vandross - For You To Love",
+      "Tommorow\'s Edition - You Turn Me On",
+      "David Ruffin - Just Let Me Hold You For A Night",
+      "Apache - Do Fa Self",
+      "Average White Band - Every Beat Of My Heart (Feat. Klyde Jones)~",
+      "Hi Five - I Just Can\'t Handle It",
+      "Anita Baker - Sweet Love (1986)",
+      "Jay - Z (Feat. Amil And Ja Rule) - Can I",
+      "Smokey Robinson - Just let me love you",
+      "Steve Shelto - Don T Give Your Love Away"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.newfunkradio.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3435_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3435_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3435,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3435_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3435_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3435_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Funk, Soul",
+      "_city":"",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"NFR.FM - NewFunkRadio",
+    "picture3Url":"",
+    "streamUrl":"http://br-funk.dyndns.org:8000/listen.pls",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3435_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3435_5.jpeg",
+    "subdomain":"newfunkfunky",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2461106,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://br-funk.dyndns.org:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://br-funk.dyndns.org:8000/",
+        "idBroadcast":3435,
+        "bitRate":160
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

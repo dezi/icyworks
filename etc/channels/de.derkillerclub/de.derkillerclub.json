@@ -1,0 +1,466 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500179",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+      "testResult":null,
+      "name":"„Das Morden geht weiter“",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500180",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_08.mp3",
+      "testResult":null,
+      "name":"Copy muss sterben",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500181",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_07.mp3",
+      "testResult":null,
+      "name":"Parcours des Todes",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500182",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_06.mp3",
+      "testResult":null,
+      "name":"If you want blood … you‘ll get it!",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500183",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_05.mp3",
+      "testResult":null,
+      "name":"Das Phantom",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500184",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_04.mp3",
+      "testResult":null,
+      "name":"Miss Isobel Squillaci, auf Reisen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500185",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_03.mp3",
+      "testResult":null,
+      "name":"Der Todesbote oder die Geschichte des Hans Schmidt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500186",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_02.mp3",
+      "testResult":null,
+      "name":"Endspurt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500187",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_01.mp3",
+      "testResult":null,
+      "name":"Alborino und die hohe Kunst der Tat",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17500188",
+      "author":"",
+      "stream":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_prolog.mp3",
+      "testResult":null,
+      "name":"Prolog",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Der Killer Club. Internationale Krimi- und Thriller-Autoren schreiben einen Fortsetzungsroman.",
+    "seoTitle":"Der Killer Club",
+    "subDomaine":"derkillerclub",
+    "relayDisabled":false,
+    "rank":640,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Internationale Krimi- und Thriller-Autoren schreiben einen Fortsetzungsroman – und Sie lauschen den spannenden Geschichten exklusiv im Podcast-Format.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4090_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4090_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Internationale Krimi- und Thriller-Autoren schreiben einen Fortsetzungsroman – und Sie lauschen den spannenden Geschichten exklusiv im Podcast-Format.",
+    "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"„Das Morden geht weiter“",
+        "episode":0,
+        "description":"\nDer erste Akt des Killer Clubs ist vorbei. Nachdem die Profiautoren für Roderick van Larven gemordet haben, kommen jetzt Sie ins Spiel. Im zweiten Akt braucht der sterbenskranke Milliardär Ihre Hilfe: Werden Sie KC-Mitglied, und verüben Sie einen raffinierten Mord. Mit einem Mordkonzept, das Sie sich selbst ausdenken und online stellen. Lassen Sie sich zunächst [...]",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "published":"Thu, 13 Nov 2008 11:37:24 +0000",
+        "bitRate":128,
+        "contentLength":3292516
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Copy muss sterben",
+        "episode":1,
+        "description":"Als die tschuktschische Killermaschine Tin-Tun einen berühmten Regisseur im Südpazifik vom Thunderboat aus erledigt, formiert sich in ihr ein Wunsch: Dieses dämliche It-Girl soll krepieren! Und so tauscht sie den Bikini gegen ein Orca-Kostüm und gleitet auf eine kalifornische Poolparty. Gefolgt von ihrem virtuellen Schatten, Dr. Phi, der sie einst in die Personendezimierungsbranche eingewiesen hat ... ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_08.mp3",
+        "published":"Fri, 12 Sep 2008 12:40:06 +0000",
+        "bitRate":128,
+        "contentLength":41985926
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Parcours des Todes",
+        "episode":2,
+        "description":"Katharina Falke alias Britta Seifert liebt ihr Anwesen an der türkischen Mittelmeerküste bei Kemer. Wenn auch ihr Garten eigenwillig gestaltet ist: Das mediterrane Kleinod beherbergt einen mörderischen Hindernislauf. Gemeinsam mit ihrem Assi Martin frönt die ehemalige Amüsierdame auf dem heimischen Rasen einem speziellen Hobby: Lynchjustiz ... ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_07.mp3",
+        "published":"Thu, 14 Aug 2008 08:47:10 +0000",
+        "bitRate":128,
+        "contentLength":31947834
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"If you want blood … you‘ll get it!",
+        "episode":3,
+        "description":"Alexei Malenko ist genervt: Erst drängt ihm dieser durchgeknallte Alte vor der Küste Madeiras eine Milliarde schmutzige Dollars auf, und dann reizt ihn auch noch diese schöne Italienerin bis aufs Blut. Es ist die Mannesehre, die Malenko in ihr Bett befördert. Doch was sie dort mit ihm anstellt, ist selbst für einen Russen zu viel. Die norddeutsche Autorin Stefanie Baumm zeigt in ihrem Killer Club Beitrag, dass sie mit allen Wassern gewaschen ist.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_06.mp3",
+        "published":"Tue, 08 Jul 2008 12:22:34 +0000",
+        "bitRate":128,
+        "contentLength":45863763
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Das Phantom",
+        "episode":4,
+        "description":"Wenn man nicht alles alleine macht ...! Die Erkenntnis, dass es ein Fehler war, sich auf den Kontaktmann zu verlassen, trifft \"Das Phantom\" schmerzhaft und unerwartet. Drehbuchautor Markus Stromiedel (\"Tatort\") lässt seinen Bluthund Marcel Renard in Berlin von der Leine. Die Freunde des Killer Clubs können sich schon auf einen Showdown im Panic Room freuen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_05.mp3",
+        "published":"Thu, 29 May 2008 16:10:00 +0000",
+        "bitRate":128,
+        "contentLength":46115368
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Miss Isobel Squillaci, auf Reisen",
+        "episode":5,
+        "description":"Männer, Moneten, Meinungsbildner: Die Zeit ist reif für eine weibliche Vollstreckerin im Killer Club. Die Hamburger Autorin Simone Buchholz schickt ein modebewusstes Mordsweib in den Wettbewerb. Isobel Squillaci alias Izzy Blank schaltet und waltet an der Waterkant. Wo sie auftaucht, regnet es – und bleibt auch sonst kein Auge trocken.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_04.mp3",
+        "published":"Mon, 28 Apr 2008 11:15:00 +0000",
+        "bitRate":128,
+        "contentLength":35104231
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Todesbote oder die Geschichte des Hans Schmidt",
+        "episode":6,
+        "description":"Henry Jones, Pierre Doux, Igor Puschkin, Martin Sanchez: Hans Schmidt ist ein Phantom – und einer der meist gesuchten Männer weltweit. Ausgangsbasis für seine tödlichen Ausflüge in alle Welt ist Lissabon. Voller Freude steuert Andreas Franz eine Story zum Killer Club bei. Der Bestsellerautor bringt nicht nur eine ungewöhnliche Killertype ins Spiel, sondern auch eine delikate Tötungsart.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_03.mp3",
+        "published":"Mon, 17 Mar 2008 13:50:21 +0000",
+        "bitRate":128,
+        "contentLength":27951104
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Endspurt",
+        "episode":7,
+        "description":"John Schiller kennt man schon aus dem Prolog. Der unterkühlte Zyniker hat van Larvens Wette angenommen. Jetzt geht’s zur Sache. Mit einem gnadenlos gemeinen Plan will Schiller Rache an seinem Erzfeind und Verfolger nehmen: dem Berliner Polizeipräsidenten. Hören Sie selbst, wie der Auftragsmörder den LKA-Chef durch die Hauptstadt hetzt. Wer wird wem das Handwerk legen?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_02.mp3",
+        "published":"Wed, 09 Jan 2008 18:36:33 +0000",
+        "bitRate":128,
+        "contentLength":31128183
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Alborino und die hohe Kunst der Tat",
+        "episode":8,
+        "description":"Der erste Auftragskiller ist nicht irgendwer: Jules Philippe Baron de Montagne-Alborino ist Spross einer französisch-italienischen Adelsfamilie, die seit Jahrhunderten die hohe Kunst des Mordens kultiviert. Die Geschichte des Münchner Kulinarik-Killers Michael Böckler beginnt in Alba und verströmt nicht nur herrliches Aristokratenflair, sondern auch italienische Mordstimmung.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_teil_01.mp3",
+        "published":"Thu, 22 Nov 2007 14:12:07 +0000",
+        "bitRate":128,
+        "contentLength":50262305
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Prolog",
+        "episode":9,
+        "description":"\nStartschuss für den Killer Club! Milliardär Roderick van Larven, dessen körperliche wie geistige Verfassung allen Grund zur Sorge bietet, will kurz vor dem Ableben einen Coup landen, der ihn in die kriminalistische Geschichte eingehen lässt. Dafür bittet er die internationale Crème de la Crème der Gewaltverbrecher auf seine Luxusyacht und unterbreitet ihnen einen kranken Plan.\n\n\n\n [...]",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_prolog.mp3",
+        "published":"Fri, 09 Nov 2007 15:03:08 +0000",
+        "bitRate":128,
+        "contentLength":24374747
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+    "displaySubDomaine":"derkillerclub",
+    "recentTitles":
+    [
+      "„Das Morden geht weiter“",
+      "Copy muss sterben",
+      "Parcours des Todes",
+      "If you want blood … you‘ll get it!",
+      "Das Phantom",
+      "Miss Isobel Squillaci, auf Reisen",
+      "Der Todesbote oder die Geschichte des Hans Schmidt",
+      "Endspurt",
+      "Alborino und die hohe Kunst der Tat",
+      "Prolog"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Internationale Krimi- und Thriller-Autoren schreiben einen Fortsetzungsroman – und Sie lauschen den spannenden Geschichten exklusiv im Podcast-Format.\n",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.krimi-podcast.de/killerclub/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4090_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4090_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4090,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4090_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4090_5_1.png",
+    "author":"",
+    "title":"Der Killer Club",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4090_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Hörbuch, Literatur",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Der Killer Club",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/derkillerclub.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4090_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4090_5.jpeg",
+    "subdomain":"derkillerclub",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2462890,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.krimi-podcast.de/wordpress/wp-content/uploads/killerclub/killerclub_epilog.mp3",
+        "idBroadcast":4090,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

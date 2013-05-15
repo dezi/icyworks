@@ -1,0 +1,3221 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+1LIVE - mit Terhoeven und dem Dietz Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="1LIVE - mit Terhoeven und dem Dietz (64kbps) - 1LIVE mit Terhoeven und dem Dietz - das ist Information, Comedy und Unterhaltung pur. Alle zwei Wochen sendet das Moderatoren-Duo täglich zwischen 5 und 10 Uhr in 1LIVE. Einen Einblick in die unvergesslichsten Momente der Show liefert ihr Podcast - jeden Samstag der Rückblick auf fünf Tage 1LIVE mit Terhoeven und dem Dietz." />
+<meta property="og:title" content="1LIVE - mit Terhoeven und dem Dietz"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/3641_4.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://terhoeven-dietz.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://terhoeven-dietz.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366774420892" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366774420892" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://terhoeven-dietz.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "terhoeven-dietz",
+	
+	pageRequestUrl : "http://terhoeven-dietz.radio.de/broadcast_info.jsf",
+	pageDomain : "terhoeven-dietz.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17701588","author":"","stream":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 18.03.2013 bis zum 23.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696427","author":"","stream":"http://medien.wdr.de/m/1362763749/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130308.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 04.03.2013 bis zum 08.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696428","author":"","stream":"http://medien.wdr.de/m/1362338393/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130303.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 25.02.2013 bis zum 02.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692873","author":"","stream":"http://medien.wdr.de/m/1361119825/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130217.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 11.02.2013 bis zum 16.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689087","author":"","stream":"http://medien.wdr.de/m/1359907676/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130203.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 28.01.2013 bis zum 02.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685387","author":"","stream":"http://medien.wdr.de/m/1358698983/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130120.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 14.01.2013 bis zum 19.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681614","author":"","stream":"http://medien.wdr.de/m/1357487388/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130106.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 27.12.2012 bis 04.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17674486","author":"","stream":"http://medien.wdr.de/m/1355506491/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121214.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 10.12.2012 bis zum 14.12.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17651502","author":"","stream":"http://medien.wdr.de/m/1351873827/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121102.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 29.10.2012 bis zum 02.11.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612374","author":"","stream":"http://medien.wdr.de/m/1350725073/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121020.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 15.10.2012 bis zum 19.10.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612375","author":"","stream":"http://medien.wdr.de/m/1349528108/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121006.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 01.10.2012 bis zum 05.10.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612376","author":"","stream":"http://medien.wdr.de/m/1348246334/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120921.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 17.09.2012 bis zum 21.09.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612377","author":"","stream":"http://medien.wdr.de/m/1347041525/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120907.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 03.09.2012 bis zum 07.09.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612378","author":"","stream":"http://medien.wdr.de/m/1346055683/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120825.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 20.08. bis zum 24.08.","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612379","author":"","stream":"http://medien.wdr.de/m/1344684595/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120811.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste von 06.08.2012 bis zum 11.08.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612380","author":"","stream":"http://medien.wdr.de/m/1343579404/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120729.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 23.07.2012 bis zum 28.07.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612381","author":"","stream":"http://medien.wdr.de/m/1342270777/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120714.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 09.07. - 14.07.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612382","author":"","stream":"http://medien.wdr.de/m/1341155769/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120701.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 25.06.2012 bis zum 30.06.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612383","author":"","stream":"http://medien.wdr.de/m/1338793505/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120603.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 29.05.2012 bis zum 01.06.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612384","author":"","stream":"http://medien.wdr.de/m/1337550586/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120520.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 14.05. bis 19.05.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612385","author":"","stream":"http://medien.wdr.de/m/1335123839/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120422.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 16.04.2012 bis zum 21.04.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612386","author":"","stream":"http://medien.wdr.de/m/1333805018/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120405.mp3","testResult":null,"name":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 02.04.2012 bis zum 05.04.2012","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"","seoTitle":"1LIVE - mit Terhoeven und dem Dietz","subDomaine":"terhoeven-dietz","relayDisabled":false,"rank":2075,"playableStateString":"FREE","idTeaser":0,"description":"1LIVE mit Terhoeven und dem Dietz - das ist Information, Comedy und Unterhaltung pur. Alle zwei Wochen sendet das Moderatoren-Duo täglich zwischen 5 und 10 Uhr in 1LIVE. Einen Einblick in die unvergesslichsten Momente der Show liefert ihr Podcast - jeden Samstag der Rückblick auf fünf Tage 1LIVE mit Terhoeven und dem Dietz.","picture2TransUrl":"http://static.radio.de/images/broadcasts/3641_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/3641_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/3641_6.jpeg","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Comedy und Unterhaltung mit Terhoeven udn dem Dietz.","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","podcastUrls":[{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 18.03.2013 bis zum 23.03.2013","episode":0,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","published":"Sun, 24 Mar 2013 00:00:00 +0100","bitRate":64,"contentLength":6418943},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 04.03.2013 bis zum 08.03.2013","episode":1,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1362763749/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130308.mp3","published":"Fri, 08 Mar 2013 00:00:00 +0100","bitRate":64,"contentLength":4768671},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 25.02.2013 bis zum 02.03.2013","episode":2,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1362338393/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130303.mp3","published":"Sun, 03 Mar 2013 00:00:00 +0100","bitRate":64,"contentLength":7068111},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 11.02.2013 bis zum 16.02.2013","episode":3,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1361119825/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130217.mp3","published":"Sun, 17 Feb 2013 00:00:00 +0100","bitRate":64,"contentLength":6911279},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 28.01.2013 bis zum 02.02.2013","episode":4,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359907676/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130203.mp3","published":"Sun, 03 Feb 2013 00:00:00 +0100","bitRate":64,"contentLength":7413183},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 14.01.2013 bis zum 19.01.2013","episode":5,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358698983/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130120.mp3","published":"Sun, 20 Jan 2013 00:00:00 +0100","bitRate":64,"contentLength":6548943},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 27.12.2012 bis 04.01.2013","episode":6,"description":"© WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357487388/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130106.mp3","published":"Sun, 06 Jan 2013 00:00:00 +0100","bitRate":64,"contentLength":6489239},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 10.12.2012 bis zum 14.12.2012","episode":7,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355506491/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121214.mp3","published":"Fri, 14 Dec 2012 00:00:00 +0100","bitRate":64,"contentLength":7419423},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 29.10.2012 bis zum 02.11.2012","episode":8,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1351873827/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121102.mp3","published":"Fri, 02 Nov 2012 00:00:00 +0100","bitRate":64,"contentLength":4557135},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 15.10.2012 bis zum 19.10.2012","episode":9,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1350725073/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121020.mp3","published":"Sat, 20 Oct 2012 00:00:00 +0200","bitRate":64,"contentLength":6895055},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 01.10.2012 bis zum 05.10.2012","episode":10,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1349528108/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20121006.mp3","published":"Sat, 06 Oct 2012 00:00:00 +0200","bitRate":64,"contentLength":5019727},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 17.09.2012 bis zum 21.09.2012","episode":11,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1348246334/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120921.mp3","published":"Fri, 21 Sep 2012 00:00:00 +0200","bitRate":64,"contentLength":6572655},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 03.09.2012 bis zum 07.09.2012","episode":12,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1347041525/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120907.mp3","published":"Fri, 07 Sep 2012 00:00:00 +0200","bitRate":64,"contentLength":5609407},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 20.08. bis zum 24.08.","episode":13,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1346055683/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120825.mp3","published":"Sat, 25 Aug 2012 00:00:00 +0200","bitRate":64,"contentLength":6744447},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste von 06.08.2012 bis zum 11.08.2012","episode":14,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1344684595/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120811.mp3","published":"Sat, 11 Aug 2012 00:00:00 +0200","bitRate":64,"contentLength":5276399},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 23.07.2012 bis zum 28.07.2012","episode":15,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1343579404/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120729.mp3","published":"Sun, 29 Jul 2012 00:00:00 +0200","bitRate":64,"contentLength":7213503},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 09.07. - 14.07.2012","episode":16,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1342270777/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120714.mp3","published":"Sat, 14 Jul 2012 00:00:00 +0200","bitRate":64,"contentLength":5412827},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 25.06.2012 bis zum 30.06.2012","episode":17,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1341155769/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120701.mp3","published":"Sun, 01 Jul 2012 00:00:00 +0200","bitRate":64,"contentLength":9209471},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 29.05.2012 bis zum 01.06.2012","episode":18,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1338793505/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120603.mp3","published":"Sun, 03 Jun 2012 00:00:00 +0200","bitRate":64,"contentLength":6451183},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 14.05. bis 19.05.2012","episode":19,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1337550586/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120520.mp3","published":"Sun, 20 May 2012 00:00:00 +0200","bitRate":64,"contentLength":6129599},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 16.04.2012 bis zum 21.04.2012","episode":20,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1335123839/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120422.mp3","published":"Sun, 22 Apr 2012 00:00:00 +0200","bitRate":64,"contentLength":4573359},{"sampleRate":44100,"title":"1LIVE mit Terhoeven und dem Dietz: Das Beste vom 02.04.2012 bis zum 05.04.2012","episode":21,"description":"© WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1333805018/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20120405.mp3","published":"Thu, 05 Apr 2012 00:00:00 +0200","bitRate":64,"contentLength":5154927}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":64,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://podcast.wdr.de/radio/terhoeven_dietz.xml","displaySubDomaine":"terhoeven-dietz","recentTitles":["1LIVE mit Terhoeven und dem Dietz: Das Beste vom 18.03.2013 bis zum 23.03.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 04.03.2013 bis zum 08.03.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 25.02.2013 bis zum 02.03.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 11.02.2013 bis zum 16.02.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 28.01.2013 bis zum 02.02.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 14.01.2013 bis zum 19.01.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 27.12.2012 bis 04.01.2013","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 10.12.2012 bis zum 14.12.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 29.10.2012 bis zum 02.11.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 15.10.2012 bis zum 19.10.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 01.10.2012 bis zum 05.10.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 17.09.2012 bis zum 21.09.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 03.09.2012 bis zum 07.09.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 20.08. bis zum 24.08.","1LIVE mit Terhoeven und dem Dietz: Das Beste von 06.08.2012 bis zum 11.08.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 23.07.2012 bis zum 28.07.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 09.07. - 14.07.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 25.06.2012 bis zum 30.06.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 29.05.2012 bis zum 01.06.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 14.05. bis 19.05.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 16.04.2012 bis zum 21.04.2012","1LIVE mit Terhoeven und dem Dietz: Das Beste vom 02.04.2012 bis zum 05.04.2012"],"idType":7,"descriptionPodcast":"1LIVE mit Terhoeven und dem Dietz - das ist Information und Unterhaltung pur. Alle zwei Wochen hört ihr das Moderatoren-Duo täglich zwischen 14 und 18 Uhr in 1LIVE. Einen Einblick in die unvergesslichsten Momente der Show liefert ihr Podcast - jeden Samstag der Rückblick auf fünf Tage 1LIVE mit Terhoeven und dem Dietz. ","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.einslive.de/multimedia/podcasts/","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/3641_1.png","picture6TransUrl":"http://static.radio.de/images/broadcasts/3641_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":3641,"picture1TransUrl":"http://static.radio.de/images/broadcasts/3641_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/3641_5_1.png","author":"","title":"1LIVE mit Terhoeven und dem Dietz","picture4Url":"http://static.radio.de/images/broadcasts/3641_4.png","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Comedy","_country":"Deutschland","_genre":"Podcast","_city":"Köln","_family":"1LIVE","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"1LIVE - mit Terhoeven und dem Dietz","picture3Url":"","streamUrl":"http://www.radio.de/playlists/terhoeven-dietz.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/3641_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/3641_5.jpeg","subdomain":"terhoeven-dietz","streamUrls":[{"sampleRate":44100,"id":2458216,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1364132623/radio/terhoeven_dietz/1live_terhoeven_dietz_made_by_wdr_20130324.mp3","idBroadcast":3641,"bitRate":64}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f06b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"terhoeven-dietz", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"3641", play:"terhoeven-dietz"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("terhoeven-dietz"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("30"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Comedy"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("10"));
+document.write ("&amp;age_20_29=" + escape("26"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/terhoeven-dietz/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „1LIVE - mit Terhoeven und dem Dietz“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/3641_4.png" alt="1LIVE - mit Terhoeven und dem Dietz" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("terhoeven-dietz"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("30"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Comedy"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("10"));
+document.write ("&amp;age_20_29=" + escape("26"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">1LIVE - mit Terhoeven und dem Dietz</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Köln,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.einslive.de/multimedia/podcasts/'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „1LIVE - mit Terhoeven und dem Dietz“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+1LIVE mit Terhoeven und dem Dietz - das ist Information, Comedy und Unterhaltung pur. Alle zwei Wochen sendet das Moderatoren-Duo täglich zwischen 5 und 10 Uhr in 1LIVE. Einen Einblick in die unvergesslichsten Momente der Show liefert ihr Podcast - jeden Samstag der Rückblick auf fünf Tage 1LIVE mit Terhoeven und dem Dietz.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„1LIVE - mit Terhoeven und dem Dietz“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'3641', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">2</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">3</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'3641', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star3-0"
+stars="3-0"
+title="„1LIVE - mit Terhoeven und dem Dietz“ bewerten?"
+content="3.0">
+</a>
+<span class="big-rate-text">1LIVE - mit Terhoeven und dem Dietz&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „1LIVE - mit Terhoeven und dem Dietz“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„1LIVE - mit Terhoeven und dem Dietz“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „1LIVE - mit Terhoeven und dem Dietz“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17701588">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>1LIVE MIT TERHOEVEN UND DEM DIETZ: DAS BESTE VOM 18.03.2013 BIS ZUM 23.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17701588', 'broadcast':'3641'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">© WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17696427">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>1LIVE MIT TERHOEVEN UND DEM DIETZ: DAS BESTE VOM 04.03.2013 BIS ZUM 08.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17696427', 'broadcast':'3641'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">© WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17696428">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>1LIVE MIT TERHOEVEN UND DEM DIETZ: DAS BESTE VOM 25.02.2013 BIS ZUM 02.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17696428', 'broadcast':'3641'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">© WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17692873">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>1LIVE MIT TERHOEVEN UND DEM DIETZ: DAS BESTE VOM 11.02.2013 BIS ZUM 16.02.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17692873', 'broadcast':'3641'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">© WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17689087">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>1LIVE MIT TERHOEVEN UND DEM DIETZ: DAS BESTE VOM 28.01.2013 BIS ZUM 02.02.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17689087', 'broadcast':'3641'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">© WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „1LIVE - mit Terhoeven und dem Dietz“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://briesch-imhof.radio.de'}" bcastid="3639" title="„Olli Briesch und der Imhof “ hören" id="currentlyPlayedStation_3639">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3639_1.png" alt="„Olli Briesch und der Imhof “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://diegaeste.radio.de'}" bcastid="3647" title="„1LIVE - Die Gäste“ hören" id="currentlyPlayedStation_3647">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3647_1.png" alt="„1LIVE - Die Gäste“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1liveklubbing.radio.de'}" bcastid="3654" title="„1LIVE - Klubbing“ hören" id="currentlyPlayedStation_3654">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3654_1.png" alt="„1LIVE - Klubbing“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1livecomedy.radio.de'}" bcastid="3643" title="„1LIVE - Comedy“ hören" id="currentlyPlayedStation_3643">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3643_1.png" alt="„1LIVE - Comedy“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://planbreportage.radio.de'}" bcastid="3650" title="„1LIVE - Plan B Reportage“ hören" id="currentlyPlayedStation_3650">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3650_1.jpeg" alt="„1LIVE - Plan B Reportage“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://planbtalk.radio.de'}" bcastid="3642" title="„1LIVE - Plan B Talk“ hören" id="currentlyPlayedStation_3642">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3642_1.jpeg" alt="„1LIVE - Plan B Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1liveplanb.radio.de'}" bcastid="7491" title="„1Live Plan B“ hören" id="currentlyPlayedStation_7491">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7491_1.jpeg" alt="„1Live Plan B“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1livekassettendeck.radio.de'}" bcastid="6878" title="„1LIVE Kassettendeck“ hören" id="currentlyPlayedStation_6878">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6878_1.jpeg" alt="„1LIVE Kassettendeck“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://kabarett.radio.de'}" bcastid="3694" title="„WDR 2 - Kabarett“ hören" id="currentlyPlayedStation_3694">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3694_1.png" alt="„WDR 2 - Kabarett“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://morningshow.radio.de'}" bcastid="7414" title="„bigFM Morningshow“ hören" id="currentlyPlayedStation_7414">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7414_1.jpeg" alt="„bigFM Morningshow“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://bayern1nastvogels.radio.de'}" bcastid="7882" title="„Bayern 1 - Die Nastvogels“ hören" id="currentlyPlayedStation_7882">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7882_1.jpeg" alt="„Bayern 1 - Die Nastvogels“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://planbmitfiehe.radio.de'}" bcastid="7492" title="„1Live Plan B mit Klaus Fiehe“ hören" id="currentlyPlayedStation_7492">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7492_1.jpeg" alt="„1Live Plan B mit Klaus Fiehe“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hr3polizeireport.radio.de'}" bcastid="7885" title="„hr3 Polizeireport“ hören" id="currentlyPlayedStation_7885">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7885_1.jpeg" alt="„hr3 Polizeireport“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1liverocker.radio.de'}" bcastid="7490" title="„1Live Rocker“ hören" id="currentlyPlayedStation_7490">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7490_1.png" alt="„1Live Rocker“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ffncrazyphone.radio.de'}" bcastid="3666" title="„Das ffn Crazyphone“ hören" id="currentlyPlayedStation_3666">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3666_1.gif" alt="„Das ffn Crazyphone“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://briesch-imhof.radio.de'}" bcastid="3639" title="„Olli Briesch und der Imhof “ hören" id="currentlyPlayedStation2_3639">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3639_1.png" alt="„Olli Briesch und der Imhof “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://diegaeste.radio.de'}" bcastid="3647" title="„1LIVE - Die Gäste“ hören" id="currentlyPlayedStation2_3647">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3647_1.png" alt="„1LIVE - Die Gäste“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1liveklubbing.radio.de'}" bcastid="3654" title="„1LIVE - Klubbing“ hören" id="currentlyPlayedStation2_3654">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3654_1.png" alt="„1LIVE - Klubbing“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1livecomedy.radio.de'}" bcastid="3643" title="„1LIVE - Comedy“ hören" id="currentlyPlayedStation2_3643">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3643_1.png" alt="„1LIVE - Comedy“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://planbreportage.radio.de'}" bcastid="3650" title="„1LIVE - Plan B Reportage“ hören" id="currentlyPlayedStation2_3650">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3650_1.jpeg" alt="„1LIVE - Plan B Reportage“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://planbtalk.radio.de'}" bcastid="3642" title="„1LIVE - Plan B Talk“ hören" id="currentlyPlayedStation2_3642">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3642_1.jpeg" alt="„1LIVE - Plan B Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1liveplanb.radio.de'}" bcastid="7491" title="„1Live Plan B“ hören" id="currentlyPlayedStation2_7491">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7491_1.jpeg" alt="„1Live Plan B“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1livekassettendeck.radio.de'}" bcastid="6878" title="„1LIVE Kassettendeck“ hören" id="currentlyPlayedStation2_6878">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6878_1.jpeg" alt="„1LIVE Kassettendeck“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://kabarett.radio.de'}" bcastid="3694" title="„WDR 2 - Kabarett“ hören" id="currentlyPlayedStation2_3694">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3694_1.png" alt="„WDR 2 - Kabarett“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://morningshow.radio.de'}" bcastid="7414" title="„bigFM Morningshow“ hören" id="currentlyPlayedStation2_7414">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7414_1.jpeg" alt="„bigFM Morningshow“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://bayern1nastvogels.radio.de'}" bcastid="7882" title="„Bayern 1 - Die Nastvogels“ hören" id="currentlyPlayedStation2_7882">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7882_1.jpeg" alt="„Bayern 1 - Die Nastvogels“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://planbmitfiehe.radio.de'}" bcastid="7492" title="„1Live Plan B mit Klaus Fiehe“ hören" id="currentlyPlayedStation2_7492">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7492_1.jpeg" alt="„1Live Plan B mit Klaus Fiehe“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hr3polizeireport.radio.de'}" bcastid="7885" title="„hr3 Polizeireport“ hören" id="currentlyPlayedStation2_7885">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7885_1.jpeg" alt="„hr3 Polizeireport“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://1liverocker.radio.de'}" bcastid="7490" title="„1Live Rocker“ hören" id="currentlyPlayedStation2_7490">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7490_1.png" alt="„1Live Rocker“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ffncrazyphone.radio.de'}" bcastid="3666" title="„Das ffn Crazyphone“ hören" id="currentlyPlayedStation2_3666">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3666_1.gif" alt="„Das ffn Crazyphone“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_3639" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Olli Briesch und der Imhof “ hören" linkobject="{'url':'http://briesch-imhof.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Olli Briesch und der Imhof “ hören" href="http://briesch-imhof.radio.de">Olli Briesch und der Imhof </a></span>
+<span class="title_3639 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 1LIVE mit Olli Briesch und dem Imhof: Das Beste vom 04.03.2013 bis zum 08.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3647" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1LIVE - Die Gäste“ hören" linkobject="{'url':'http://diegaeste.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1LIVE - Die Gäste“ hören" href="http://diegaeste.radio.de">1LIVE - Die Gäste</a></span>
+<span class="title_3647 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 1LIVE - Die Gäste: OK Kid (28.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3654" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1LIVE - Klubbing“ hören" linkobject="{'url':'http://1liveklubbing.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1LIVE - Klubbing“ hören" href="http://1liveklubbing.radio.de">1LIVE - Klubbing</a></span>
+<span class="title_3654 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 1LIVE - Klubbing: "Südbalkon" von Isabella Straub (29.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3643" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1LIVE - Comedy“ hören" linkobject="{'url':'http://1livecomedy.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1LIVE - Comedy“ hören" href="http://1livecomedy.radio.de">1LIVE - Comedy</a></span>
+<span class="title_3643 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3650" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1LIVE - Plan B Reportage“ hören" linkobject="{'url':'http://planbreportage.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1LIVE - Plan B Reportage“ hören" href="http://planbreportage.radio.de">1LIVE - Plan B Reportage</a></span>
+<span class="title_3650 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 1LIVE - Plan B Reportage: "Kommando Gute Laune": Traumjob Animateur? (25.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3642" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1LIVE - Plan B Talk“ hören" linkobject="{'url':'http://planbtalk.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1LIVE - Plan B Talk“ hören" href="http://planbtalk.radio.de">1LIVE - Plan B Talk</a></span>
+<span class="title_3642 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 1LIVE - Plan B Talk: #aufschrei - Talk mit Anne Wizorek (27.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7491" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1Live Plan B“ hören" linkobject="{'url':'http://1liveplanb.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1Live Plan B“ hören" href="http://1liveplanb.radio.de">1Live Plan B</a></span>
+<span class="title_7491 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6878" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1LIVE Kassettendeck“ hören" linkobject="{'url':'http://1livekassettendeck.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1LIVE Kassettendeck“ hören" href="http://1livekassettendeck.radio.de">1LIVE Kassettendeck</a></span>
+<span class="title_6878 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3694" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 2 - Kabarett“ hören" linkobject="{'url':'http://kabarett.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 2 - Kabarett“ hören" href="http://kabarett.radio.de">WDR 2 - Kabarett</a></span>
+<span class="title_3694 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 2 Kabarett: Fritz Eckenga (Sendung vom 10.04.13)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7414" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„bigFM Morningshow“ hören" linkobject="{'url':'http://morningshow.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„bigFM Morningshow“ hören" href="http://morningshow.radio.de">bigFM Morningshow</a></span>
+<span class="title_7414 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Deutschlands Biggste Morningshow vom 30.03.12</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7882" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 1 - Die Nastvogels“ hören" linkobject="{'url':'http://bayern1nastvogels.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 1 - Die Nastvogels“ hören" href="http://bayern1nastvogels.radio.de">Bayern 1 - Die Nastvogels</a></span>
+<span class="title_7882 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Die Nastvogels: Vögel im Garten - 27.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7492" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1Live Plan B mit Klaus Fiehe“ hören" linkobject="{'url':'http://planbmitfiehe.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1Live Plan B mit Klaus Fiehe“ hören" href="http://planbmitfiehe.radio.de">1Live Plan B mit Klaus Fiehe</a></span>
+<span class="title_7492 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7885" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„hr3 Polizeireport“ hören" linkobject="{'url':'http://hr3polizeireport.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„hr3 Polizeireport“ hören" href="http://hr3polizeireport.radio.de">hr3 Polizeireport</a></span>
+<span class="title_7885 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: hr3 Polizeireport vom 22.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7490" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„1Live Rocker“ hören" linkobject="{'url':'http://1liverocker.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„1Live Rocker“ hören" href="http://1liverocker.radio.de">1Live Rocker</a></span>
+<span class="title_7490 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3666" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Das ffn Crazyphone“ hören" linkobject="{'url':'http://ffncrazyphone.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Das ffn Crazyphone“ hören" href="http://ffncrazyphone.radio.de">Das ffn Crazyphone</a></span>
+<span class="title_3666 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: ffn crazyphone: Valentins Grußbotschaft</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<div id="broadcast-info-broadcast-family">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+<div id="broadcast-info-broadcast-family-loading" class="content-headline-loader"></div>
+<p class="h3">
+Weitere Inhalte
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="content-list">
+
+<div class="content-list-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row1"  editobject="{editIconId : 'edit-icon-1382-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_1382">
+
+
+
+<a class="content-list-favorite"
+title="„1LIVE“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=1&loaderId=broadcast-info-broadcast-family-loading&broadcastId=1382', 
+							account:'', 
+							broadcastId:'1382',
+							targetClass:'listfavorite_1382',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://1live.radio.de'}" class="content-list-image js-link" rowId="row1" title="„1LIVE“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/1382_6.jpeg" alt="1LIVE" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://1live.radio.de'}" class="js-link" rowId="row1" title="„1LIVE“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://1live.radio.de" rowId="row1" title="„1LIVE“ hören">1LIVE</a>
+<span>
+
+Aus Deutschland: 
+
+Mainstream, Pop
+, 
+Internetradio
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Im Einslive Webradio gibt es die o-ton Charts, den Liebesalarm und natürlich die geniale Playlist mit allen Hits
+
+</div>
+<div class="content-list-information-nowplaying">
+<span class="title_1382 showPrefix ">
+
+
+
+Jetzt: Frida Gold mit Liebe ist meine Rebellion
+
+</span>
+</div>
+
+
+<div id="content-list-tags-1382" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row2"  editobject="{editIconId : 'edit-icon-3643-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3643">
+
+
+
+<a class="content-list-favorite"
+title="„1LIVE - Comedy“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=2&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3643', 
+							account:'', 
+							broadcastId:'3643',
+							targetClass:'listfavorite_3643',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://1livecomedy.radio.de'}" class="content-list-image js-link" rowId="row2" title="„1LIVE - Comedy“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3643_6.jpeg" alt="1LIVE - Comedy" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://1livecomedy.radio.de'}" class="js-link" rowId="row2" title="„1LIVE - Comedy“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star3-0" stars="3-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://1livecomedy.radio.de" rowId="row2" title="„1LIVE - Comedy“ hören">1LIVE - Comedy</a>
+<span>
+
+Aus Deutschland: 
+
+Podcast
+, 
+Comedy
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Der Comedy-Podcast von 1 Live.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3643 showPrefix content-list-podcast">
+
+
+Folge: 1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3643" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row3"  editobject="{editIconId : 'edit-icon-3647-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3647">
+
+
+
+<a class="content-list-favorite"
+title="„1LIVE - Die Gäste“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=3&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3647', 
+							account:'', 
+							broadcastId:'3647',
+							targetClass:'listfavorite_3647',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://diegaeste.radio.de'}" class="content-list-image js-link" rowId="row3" title="„1LIVE - Die Gäste“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3647_6.jpeg" alt="1LIVE - Die Gäste" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://diegaeste.radio.de'}" class="js-link" rowId="row3" title="„1LIVE - Die Gäste“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star3-0" stars="3-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://diegaeste.radio.de" rowId="row3" title="„1LIVE - Die Gäste“ hören">1LIVE - Die Gäste</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Interview, Musik
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Fast täglich gibt&#039;s Besuch im 1LIVE Studio! Popstars jeglicher Richtung und Größe stehen Rede und Antwort.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3647 showPrefix content-list-podcast">
+
+
+Folge: 1LIVE - Die Gäste: OK Kid (28.03.2013)
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3647" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row4"  editobject="{editIconId : 'edit-icon-1383-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_1383">
+
+
+
+<a class="content-list-favorite"
+title="„1LIVE diggi“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=4&loaderId=broadcast-info-broadcast-family-loading&broadcastId=1383', 
+							account:'', 
+							broadcastId:'1383',
+							targetClass:'listfavorite_1383',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://1livediggi.radio.de'}" class="content-list-image js-link" rowId="row4" title="„1LIVE diggi“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/1383_6.gif" alt="1LIVE diggi" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://1livediggi.radio.de'}" class="js-link" rowId="row4" title="„1LIVE diggi“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://1livediggi.radio.de" rowId="row4" title="„1LIVE diggi“ hören">1LIVE diggi</a>
+<span>
+
+Aus Deutschland: 
+
+Dance, Mainstream
+, 
+Internetradio
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Dies ist das digitale Zusatzangebot von 1LIVE. Aktuelle Hits aus HipHop, R&#039;n&#039;B, Dance, Rock &amp; Pop mit stündl. Infos - ohne Moderationen und ohne Werbung.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_1383 showPrefix ">
+
+
+
+Jetzt: A«ap Rocky feat Skrillex mit Wild for the night
+
+</span>
+</div>
+
+
+<div id="content-list-tags-1383" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row5"  editobject="{editIconId : 'edit-icon-6878-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_6878">
+
+
+
+<a class="content-list-favorite"
+title="„1LIVE Kassettendeck“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=5&loaderId=broadcast-info-broadcast-family-loading&broadcastId=6878', 
+							account:'', 
+							broadcastId:'6878',
+							targetClass:'listfavorite_6878',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://1livekassettendeck.radio.de'}" class="content-list-image js-link" rowId="row5" title="„1LIVE Kassettendeck“ hören">
+<div class="content-list-image-image">
+
+
+
+<img src="http://static.radio.de/images/broadcasts/6878_1.jpeg" alt="„1LIVE Kassettendeck“ hören" width="44" height="44" class="lazy" />
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://1livekassettendeck.radio.de'}" class="js-link" rowId="row5" title="„1LIVE Kassettendeck“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://1livekassettendeck.radio.de" rowId="row5" title="„1LIVE Kassettendeck“ hören">1LIVE Kassettendeck</a>
+<span>
+
+Aus Deutschland: 
+
+Eklektisch
+, 
+Webradio
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Jeden Montag springt in 1LIVE Plan B das Kassettendeck an. Zu hören sind die Mixtapes angesagter Künstler mit unerwarteten Musikbekenntnissen.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_6878 showPrefix ">
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-6878" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+</div>
+<div class="content-list-pageitems">
+5 |
+<a class="change-list-size-15" title="15 Sender pro Seite anzeigen">15</a> |
+<a class="change-list-size-25" title="25 Sender pro Seite anzeigen">25</a> |
+<a class="change-list-size-50" title="50 Sender pro Seite anzeigen">50</a>
+</div>
+</div>
+
+
+
+</div>
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „1LIVE - mit Terhoeven und dem Dietz“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/1Live" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach 1Live suchen" tag="1Live">1Live</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Comedy" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Comedy suchen" tag="Comedy">Comedy</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Köln" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Köln suchen" tag="Köln">Köln</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NordrheinWestfalen" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach NordrheinWestfalen suchen" tag="NordrheinWestfalen">NordrheinWestfalen</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Podcast" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Podcast suchen" tag="Podcast">Podcast</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/EinsLive" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach EinsLive suchen" tag="EinsLive">EinsLive</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NRW" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach NRW suchen" tag="NRW">NRW</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „1LIVE - mit Terhoeven und dem Dietz“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'3641', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „1LIVE - mit Terhoeven und dem Dietz“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://terhoeven-dietz.radio.de" class="js-link-external" linkobject="{'url':'http://terhoeven-dietz.radio.de'}" title="„1LIVE - mit Terhoeven und dem Dietz“ hören" target="_blank">
+http://terhoeven-dietz.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fterhoeven-dietz.radio.de&amp;notes=&amp;tags=&amp;title=1LIVE - mit Terhoeven und dem Dietz;'}" class="icon-delicious js-link-external" title="„1LIVE - mit Terhoeven und dem Dietz“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fterhoeven-dietz.radio.de&amp;bm_notice=&amp;bm_description=1LIVE - mit Terhoeven und dem Dietz&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„1LIVE - mit Terhoeven und dem Dietz“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fterhoeven-dietz.radio.de&amp;title=1LIVE - mit Terhoeven und dem Dietz'}" class="icon-stumble js-link-external" title="„1LIVE - mit Terhoeven und dem Dietz“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fterhoeven-dietz.radio.de&amp;bodytext=&amp;tags=&amp;title=1LIVE - mit Terhoeven und dem Dietz'}" class="icon-digg js-link-external" title="„1LIVE - mit Terhoeven und dem Dietz“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fterhoeven-dietz.radio.de&amp;title=1LIVE - mit Terhoeven und dem Dietz&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„1LIVE - mit Terhoeven und dem Dietz“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+
+
+Genießen Sie den kostenlosen Komfort von radio.de und hören Sie 1LIVE - mit Terhoeven und dem Dietz einfach per Internetradio. Auf dieser Seite finden Sie ein umfassende Auswahl von Webradio Sendern und Livestreams aus der ganzen Welt. Hier können Sie neben 1LIVE - mit Terhoeven und dem Dietz noch viele weitere Lieblingssender entdecken.
+
+
+
+							
+											
+						
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 Stream 64kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("terhoeven-dietz"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("30"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Comedy"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("10"));
+document.write ("&amp;age_20_29=" + escape("26"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">1LIVE - mit Terhoeven und dem Dietz</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://briesch-imhof.radio.de/" class="channel-link" title="„Olli Briesch und der Imhof “ hören">
+<span class="broadcast-name">Olli Briesch und der Imhof </span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://diegaeste.radio.de/" class="channel-link" title="„1LIVE - Die Gäste“ hören">
+<span class="broadcast-name">1LIVE - Die Gäste</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://1liveklubbing.radio.de/" class="channel-link" title="„1LIVE - Klubbing“ hören">
+<span class="broadcast-name">1LIVE - Klubbing</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://1livecomedy.radio.de/" class="channel-link" title="„1LIVE - Comedy“ hören">
+<span class="broadcast-name">1LIVE - Comedy</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://planbreportage.radio.de/" class="channel-link" title="„1LIVE - Plan B Reportage“ hören">
+<span class="broadcast-name">1LIVE - Plan B Reportage</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://planbtalk.radio.de/" class="channel-link" title="„1LIVE - Plan B Talk“ hören">
+<span class="broadcast-name">1LIVE - Plan B Talk</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://1liveplanb.radio.de/" class="channel-link" title="„1Live Plan B“ hören">
+<span class="broadcast-name">1Live Plan B</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://1livekassettendeck.radio.de/" class="channel-link" title="„1LIVE Kassettendeck“ hören">
+<span class="broadcast-name">1LIVE Kassettendeck</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://kabarett.radio.de/" class="channel-link" title="„WDR 2 - Kabarett“ hören">
+<span class="broadcast-name">WDR 2 - Kabarett</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://morningshow.radio.de/" class="channel-link" title="„bigFM Morningshow“ hören">
+<span class="broadcast-name">bigFM Morningshow</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("terhoeven-dietz"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("30"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Comedy"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("10"));
+document.write ("&amp;age_20_29=" + escape("26"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("terhoeven-dietz"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("30"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Comedy"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("10"));
+document.write ("&amp;age_20_29=" + escape("26"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("terhoeven-dietz"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("30"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Comedy"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("21"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("10"));
+document.write ("&amp;age_20_29=" + escape("26"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

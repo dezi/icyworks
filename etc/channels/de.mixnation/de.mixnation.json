@@ -1,0 +1,238 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://tuner.mixnation.de/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"MixNation",
+    "subDomaine":"mixnation",
+    "relayDisabled":false,
+    "rank":832,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"MixNation ist einzigartig und spielt Re-Mixe aus dem Bereich Pop, Rock, R\'n\'B und Hip-Hop. MixNation bietet ein exklusives Angebot an Uptempo-Songs und Remixen von bekannten Stars wie Beyoncé, Linkin Park, Kelly Clarkson, Justin Timberlake etc.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4658_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4658_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"MixNation ist die Station für die besten Remixe.",
+    "metaDataUrl":"http://tuner.mixnation.de/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":192,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://tuner.mixnation.de/",
+    "displaySubDomaine":"mixnation",
+    "recentTitles":
+    [
+      "Y.U.L - Ho Hey Remix (Ultimix by Brian Roche)",
+      "Selena Gomez  The Scene - A Year Without Rain (Dave Aude Remix Radio Edit)",
+      "Kelly Rowland - Like This (Redline Radio Remix)",
+      "Carefree - Broken Strings (Sebo Reed Electro Mix)",
+      "Bob Sinclar - I Wanna (D Noy Remix) feat. Sahara",
+      "Scissor Sisters - Let\'s Have A Kiki (Ulti-Remix by Strobe)",
+      "Toni Braxton - Yesterday (Chuckie Remix)",
+      "Snoop Dogg vs. David Guetta - Sweat",
+      "Carmen Reece - Right Here (Dave Aude Remix Radio Edit)",
+      "Annagrace - Love Keeps Calling (Radio Edit)",
+      "Daylight (Ultimix by Brian Roche) - Daylight (Ultimix by Brian Roche)",
+      "Madonna - Celebration",
+      "Azaelia Banks - 212 (Ultimix by Strobe)",
+      "Beyonce - End Of Time (WaWa Extended Mix)",
+      "The Ting Tings - That\'s Not My Name (Soul Seekers Dirty Radio Remix)",
+      "Wyclef Jean - Let Me Touch Your Button feat. Will.I.Am  Melissa Jimenez (E-Smoove Radio Edit)",
+      "Three 6 Mafia - Shake My feat. Kalenna (Jump Smokers Radio Edit)",
+      "Bingo Players - Cry (Ultimix by Stacy Mier)",
+      "Jay Z - Empire State Of Feeling feat. Alicia Keys Vs Black Eyed Peas (DJ\'s From Mars Club Remix)",
+      "David Guetta - Where Them Girls At feat. Flo Rida  Nicki Minaj ",
+      "Enrique Iglesias - Takin\' Back My Love  feat. Ciara (Moto Blanco Club)",
+      "Rihanna - Russian Roulette (Chris Thomas Club",
+      "Ivan Gough  Feenix Pawl - In My Mind feat. Georgi Kay (Ultimix)",
+      "Breathe Carolina - Hit And Run (Ultimix by Stacy Mier)",
+      "Chris Brown - Yeah 3x",
+      "Mary Mary - Get Up (Jamie J Sanchez Club Mix)",
+      "Fantasia - Hood Boy (Sticky  Count De Money House Mix)",
+      "Akon Feat. Keri Hilson - Oh Africa (Greg Stainer Booty Remix)",
+      "Afrojack  Shemanology - Cant Stop Me (Ultimix by Strobe)",
+      "Girlicious - Sexy Ladies (David Guetta Cover)",
+      "Kat Deluna - Be There",
+      "Solange - T.O.N.Y (Zoned Out Hard Mix)",
+      "Axwell vs. Modjo - Lady In The Air (Arno Cost  Norman Doray Bootleg)",
+      "Cherry Cherry Boom Boom - One And Only Remix (Ultimix by Brian Roche)",
+      "Lady Gaga - Telephone feat. Beyonce  (Alphabeat Remix)",
+      "The Scumfrog - If I Ever Lose My Faith feat. Sting (Ultimix)",
+      "Klaas  Bodybangers - I Like",
+      "Ne-yo - Closer (Subkulcha House Edit)",
+      "Britney Spears - If U Seek Amy (Weird Tapes Remix)",
+      "Pitbull - I Know You Want Me  (DJ Night Rush Remix)",
+      "Meital - On Ya feat. Sean Kingston (Ultimix)",
+      "Den J Rose - Lost In Your Eyes (Alex Barattini Remix)",
+      "Taio Cruz - Dynamite (FullRider Edit Bootaay)",
+      "V Factory - Love Struck (Dave Aude Radio Edit)",
+      "La Roux - Bulletproof (Cherry Coke Remix)",
+      "Sam  The Womp - Bom Bom (Ultimix)",
+      "Sean Kingston - Fire Burning Of The Sun feat. R.I.O (Ultimix Remix)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.mixnation.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4658_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4658_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4658,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4658_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4658_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4658_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Dance",
+      "_city":"Berlin",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"MixNation",
+    "picture3Url":"",
+    "streamUrl":"http://tuner.mixnation.de/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4658_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4658_5.jpeg",
+    "subdomain":"mixnation",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":3889,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://tuner.mixnation.de/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://tuner.mixnation.de/",
+        "idBroadcast":4658,
+        "bitRate":192
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

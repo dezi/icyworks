@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704395",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+      "testResult":null,
+      "name":"Selbstanzeige",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704396",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130421-1739-0442.mp3",
+      "testResult":null,
+      "name":"Peinliche Partner",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704388",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130419-0716-2942.mp3",
+      "testResult":null,
+      "name":"Liebe Kaufende",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704382",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130418-0518-1642.mp3",
+      "testResult":null,
+      "name":"Aufmerksam machen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704383",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130416-1916-5842.mp3",
+      "testResult":null,
+      "name":"Wildgänse",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704321",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130415-1841-0542.mp3",
+      "testResult":null,
+      "name":"Zurück zur Mark",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704322",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130414-1614-0942.mp3",
+      "testResult":null,
+      "name":"Georgs Garten",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703097",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130411-1903-5642.mp3",
+      "testResult":null,
+      "name":"Duz-Verbot",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703098",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130411-0831-0242.mp3",
+      "testResult":null,
+      "name":"Gekrakel 2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703052",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130409-1857-5742.mp3",
+      "testResult":null,
+      "name":"Richtiger Standort",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703028",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130408-1853-4442.mp3",
+      "testResult":null,
+      "name":"Tausendmal berührt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703029",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130407-2004-3742.mp3",
+      "testResult":null,
+      "name":"Diskretionsabstand",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703012",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130405-0723-3742.mp3",
+      "testResult":null,
+      "name":"Diktator-Style",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703013",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130404-0609-5742.mp3",
+      "testResult":null,
+      "name":"Frühstück bei Stefanie: Der Wolf ist da!",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703014",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130403-0654-5842.mp3",
+      "testResult":null,
+      "name":"Marktforschung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703015",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130401-1225-5942.mp3",
+      "testResult":null,
+      "name":"Kollekte",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703016",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130327-1841-1042.mp3",
+      "testResult":null,
+      "name":"Eier kochen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703017",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130326-1832-5242.mp3",
+      "testResult":null,
+      "name":"Zahnersatz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703018",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130325-1606-5342.mp3",
+      "testResult":null,
+      "name":"Genuss-Momente",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701546",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130324-1239-3542.mp3",
+      "testResult":null,
+      "name":"Verfönt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701547",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130321-1820-3542.mp3",
+      "testResult":null,
+      "name":"Duette",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701548",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130320-1717-2142.mp3",
+      "testResult":null,
+      "name":"Mietklausel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701549",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130319-1840-5042.mp3",
+      "testResult":null,
+      "name":"Kein\' Bock mehr",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701550",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130318-1838-4742.mp3",
+      "testResult":null,
+      "name":"Verspätet",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701551",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130317-1807-1642.mp3",
+      "testResult":null,
+      "name":"Grüße ins All",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701552",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130314-1847-1242.mp3",
+      "testResult":null,
+      "name":"Verwählt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701553",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130313-1731-4542.mp3",
+      "testResult":null,
+      "name":"Geldfunde",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701554",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130312-1811-0942.mp3",
+      "testResult":null,
+      "name":"Grußprobleme",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701555",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130311-1638-0742.mp3",
+      "testResult":null,
+      "name":"W-Lan",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698094",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130310-1541-4442.mp3",
+      "testResult":null,
+      "name":"Vater Staat",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698095",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130308-0620-3142.mp3",
+      "testResult":null,
+      "name":"Technik vs. Spannung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696375",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130307-0629-2142.mp3",
+      "testResult":null,
+      "name":"Erstes Brot",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696376",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130306-0628-5142.mp3",
+      "testResult":null,
+      "name":"Metropolen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696329",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130305-0655-3342.mp3",
+      "testResult":null,
+      "name":"3D Drucker",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696330",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130303-1719-1142.mp3",
+      "testResult":null,
+      "name":"Kunst",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694544",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130228-1830-1542.mp3",
+      "testResult":null,
+      "name":"1000. Folge",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694474",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130227-1810-1842.mp3",
+      "testResult":null,
+      "name":"Vorruhestand",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694475",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130226-1856-2442.mp3",
+      "testResult":null,
+      "name":"Totalverlust",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694476",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130225-1657-4342.mp3",
+      "testResult":null,
+      "name":"Lebensmittellüge",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694477",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130224-1836-1142.mp3",
+      "testResult":null,
+      "name":"Erfolgreiche Frauen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692843",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130221-1906-5942.mp3",
+      "testResult":null,
+      "name":"Musikfilme",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692773",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130220-1732-4342.mp3",
+      "testResult":null,
+      "name":"Streikopfer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692774",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130219-1625-0042.mp3",
+      "testResult":null,
+      "name":"Geschmack",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692775",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130218-1730-1042.mp3",
+      "testResult":null,
+      "name":"Doc Martens",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692776",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130217-1712-5342.mp3",
+      "testResult":null,
+      "name":"Team",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691904",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130214-1811-1142.mp3",
+      "testResult":null,
+      "name":"Politik machtlos",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691905",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130214-0707-5642.mp3",
+      "testResult":null,
+      "name":"Küsschen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691906",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130212-1718-4742.mp3",
+      "testResult":null,
+      "name":"Oma mischt sich ein",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691907",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130211-1726-4042.mp3",
+      "testResult":null,
+      "name":"Kater",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691908",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130210-1447-2742.mp3",
+      "testResult":null,
+      "name":"Echter Karneval",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"\"Frühstück bei Stefanie\" im NDR 2 Morgen um 07.17 Uhr.",
+    "seoTitle":"NDR 2 - Frühstück bei Stefanie - ",
+    "subDomaine":"ndr2stefanie",
+    "relayDisabled":false,
+    "rank":862,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Stefanie betreibt ein Stehtisch-Bistro irgendwo in Norddeutschland. Jeden Morgen treffen sich hier der oberlehrerhafte Frührentner Herr Ahlers, der arbeitslose Lebenskünstler Udo und Opa Gehrke. Das Leben im Allgemeinen und seine Widrigkeiten im Besonderen beschäftigt die vier Protagonisten.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/7562_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/7562_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/7562_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Stefanie betreibt ein Stehtisch-Bistro irgendwo in Norddeutschland. ",
+    "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "title":"Selbstanzeige",
+        "episode":0,
+        "description":"Erst Steuern hinterziehen und sich dann selbst anzeigen? Für Herr Ahlers ist das einfach nur Unfug. Da wird das Spiel Bayern-Barca zur Nebensache. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "published":"Tue, 23 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Peinliche Partner",
+        "episode":1,
+        "description":"Natürlich gibt\'s im Bistro heute nur ein Thema - die Nachlese zum Partyabend im \"Midnight\". Und Steffi muss zugeben, dass ihr Volker nicht immer die beste Figur macht.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130421-1739-0442.mp3",
+        "published":"Mon, 22 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Liebe Kaufende",
+        "episode":2,
+        "description":"Menschen auf Räder und Essen auf Rädern: Bloß nicht die Kundinnen, Radfahrendinnen und menschliche Lebende diskriminieren! Und was ist mit die Loide, die was mit Strom machen?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130419-0716-2942.mp3",
+        "published":"Fri, 19 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Aufmerksam machen",
+        "episode":3,
+        "description":"Fleischsalat im Gesicht und Popel in der Nase - diskret sein oder direkt sein? Im Bistro ist man sich uneinig, wie man seine Mitmenschen auf ungewollte Accessoires anspricht. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130418-0518-1642.mp3",
+        "published":"Thu, 18 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Wildgänse",
+        "episode":4,
+        "description":"Steffi hat beim Spazieren die ersten Wildgänse gesichtet und nun stellt sich folgende Frage: Woher wussten die eigentlich, dass in Europa der Frühling wieder Einzug gehalten hat? ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130416-1916-5842.mp3",
+        "published":"Wed, 17 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zurück zur Mark",
+        "episode":5,
+        "description":"Euro-Zweifel in Steffis Bistro: Klar ist, dass nach der Wahl die Mark zurückkommt. Und was soll dann auf die Scheine gedruckt werden? Steffi träumt jedenfalls von André Rieu.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130415-1841-0542.mp3",
+        "published":"Tue, 16 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Georgs Garten",
+        "episode":6,
+        "description":"Man iss ja anne frischen Luft: Dass die Steine im Garten vom Frost kommen, weiß inzwischen auch Georg Ahlers. Georg Franz Gehrke plagen ganz andere Sorgen... (Wiederholung)",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130414-1614-0942.mp3",
+        "published":"Mon, 15 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Duz-Verbot",
+        "episode":7,
+        "description":"Georg Ahlers ist in einem Internetforum etwas Ungeheuerliches passiert: Ein User hat ihn einfach geduzt. Das wird Konsequenzen haben!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130411-1903-5642.mp3",
+        "published":"Fri, 12 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Gekrakel 2013",
+        "episode":8,
+        "description":"Udo lässt nichts unversucht um als Bayern-Fan aufzutreten. Georg Ahlers legt dagegen großen Wert auf perfekte Lesbarkeit persönlicher Unterschriften. (Wiederholung)",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130411-0831-0242.mp3",
+        "published":"Thu, 11 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Richtiger Standort",
+        "episode":9,
+        "description":"Wohin denn bloß mit dem ganzen Kram? Herr Ahlers und Steffi suchen nach dem richtigen Platz für Atommüll und den Beistelltisch fürs Erdmännchen. (Wiederholung)",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130409-1857-5742.mp3",
+        "published":"Wed, 10 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Tausendmal berührt",
+        "episode":10,
+        "description":"War Alkohol im Spiel? Mit gebackenem Camenbert ist es ein bisschen wie bei van der Vaart und seiner Frau ihre Freundin. Aber so richtig verrückt wird\'s bei Franz Gehrke!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130408-1853-4442.mp3",
+        "published":"Tue, 09 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Diskretionsabstand",
+        "episode":11,
+        "description":"Pfandautomat vs. Apotheke: Halten die Leute nur dort Abstand, wo es nichts zu gucken gibt? Georg Ahlers möchte vor allem am Waschbecken ungestört sein.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130407-2004-3742.mp3",
+        "published":"Mon, 08 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Diktator-Style",
+        "episode":12,
+        "description":"Die Irren aus Pjöngjang und Teheran bestechen wie der lupenreine Demokrat durch top-aktuelles Styling. Wie machen die das, fragt sich die Bistrogemeinde.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130405-0723-3742.mp3",
+        "published":"Fri, 05 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Frühstück bei Stefanie: Der Wolf ist da!",
+        "episode":13,
+        "description":"Wölfe gucken doch so niedlich, findet Steffi. Udo sieht trotzdem Parallelen zu Endlagerstätte, Atomkraftwerk und Jugendknast in direkter Nachbarschaft.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130404-0609-5742.mp3",
+        "published":"Thu, 04 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Marktforschung",
+        "episode":14,
+        "description":"Emotional und rational: Steffi lässt nix unversucht bei der Generierung neuer Impulse für die Initiierung neuer Marketing-Entscheidungen - und wird mit hoher Kundenbindung belohnt!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130403-0654-5842.mp3",
+        "published":"Wed, 03 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Kollekte",
+        "episode":15,
+        "description":"Bei der Taufe von Timo sein Lüdden gab\'s die Kollekte mittendrin im Gottesdienst, da kannste ja nicht gleichzeitig das Lied mitlesen. Außerdem hört man bei einem 10-Euro-Schein ja nix.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130401-1225-5942.mp3",
+        "published":"Tue, 02 Apr 2013 07:17:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Eier kochen",
+        "episode":16,
+        "description":"Können Eier eigentlich verdampfen, wenn man sie zu lange kocht? Udo hat da so seine Erfahrungen. Jedenfalls muss das Wasser \"Schbrudeln\", da legt Georg Ahlers Wert drauf!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130327-1841-1042.mp3",
+        "published":"Thu, 28 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Zahnersatz",
+        "episode":17,
+        "description":"Herr Kaiser von der Hamburg-Mannheimer kriegt neue Zähne - für 30.000! Udo schlägt eine kostengünstige Alternative vor - erprobt im eigenen Badezimmer. Allein schon!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130326-1832-5242.mp3",
+        "published":"Wed, 27 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Genuss-Momente",
+        "episode":18,
+        "description":"Marion hat Festtagsgemüse zu Ostern gekauft. Georg Ahlers versteht\'s nicht: Wo ist denn da der Unterschied zu Tiefkühlgemüse? Es geht um Highlights und Genuss-Momente, klärt Steffi auf.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130325-1606-5342.mp3",
+        "published":"Tue, 26 Mar 2013 07:20:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Verfönt",
+        "episode":19,
+        "description":"Wer hätte das gedacht: Udo entpuppt sich als Fönexperte und gibt wertvolle Tipps, wie man verfönte Frisuren wieder in den Griff bekommt: gegenfönen, nachwässern und entgelen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130324-1239-3542.mp3",
+        "published":"Mon, 25 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Duette",
+        "episode":20,
+        "description":"Das ist jetzt ja der Trend, dass alle zusammen singen - weger der Stardichte! Udo weiß genau, weshalb Helene Fischer mit Semino Rossi und Andrea Berg mit Lenel Ritschie gesungen haben.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130321-1820-3542.mp3",
+        "published":"Fri, 22 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Mietklausel",
+        "episode":21,
+        "description":"Es ist ja alles reine Willkür, was einem Mieter erlaubt ist und was nicht. Warum zum Beispiel soll Rocky nicht vom Balkon pinkeln dürfen, landet doch so oder so auf dem Rasen!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130320-1717-2142.mp3",
+        "published":"Thu, 21 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Kein\' Bock mehr",
+        "episode":22,
+        "description":"Heute ist allgemeine \"Kein\'- Bock-mehr-Stimmung\" im Bistro. Kein\' Bock mehr auf Winter, Plattfuß am Nil, Justin Bieber, Krümel in der Backofentür und was es nicht so alles gibt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130319-1840-5042.mp3",
+        "published":"Wed, 20 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Verspätet",
+        "episode":23,
+        "description":"Steffi hängt \'ne Stunde zurück, \"wegen dies Winterchaos\". Sie wohnt zwar direkt über dem Bistro, aber ihr Leben hat sich schon am Vortag wegen Gabi um eine Stunde verschoben.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130318-1838-4742.mp3",
+        "published":"Tue, 19 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Grüße ins All",
+        "episode":24,
+        "description":"Unsere Bistrotruppe ist nicht wirklich einverstanden, was auf den Voyager Golden Records für Botschaften und Musik hinterlassen wurden. Was sollen denn Aliens mit Chuck Berry?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130317-1807-1642.mp3",
+        "published":"Mon, 18 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Verwählt",
+        "episode":25,
+        "description":"Man will ja nicht unhöflich sein: Ein kleiner Zahlendreher, eine nette Unterhaltung und Osterglocken auf dem Balkon - schade nur, wenn man ausgerechnet dann getrennt wird!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130314-1847-1242.mp3",
+        "published":"Fri, 15 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geldfunde",
+        "episode":26,
+        "description":"Egal ob nun 20 Euro oder 30.000 Euro in einer Lidl-Tüte. Wer Geld findet, muss ehrlich sein und es im nächsten Fundbüro abgeben. Da gibt es keine Diskussion! Oder etwa doch?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130313-1731-4542.mp3",
+        "published":"Thu, 14 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Grußprobleme",
+        "episode":27,
+        "description":"Warum eigentlich grüßt man seinen Nachbarn im Flugzeug, aber in der U-Bahn grüßt man ihn nicht? Oder wie ist das mit dem Pastor im Swingerclub? Georg Ahlers ist da sehr eigen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130312-1811-0942.mp3",
+        "published":"Wed, 13 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"W-Lan",
+        "episode":28,
+        "description":"Tratsch im Treppenhaus war gestern. Heute verraten schon die W-Lan mehr, als den Nachbarn lieb ist. Aber wer ist Steffis neuer Nachbar \"Free Willy\"? Und wer ist \"Lady Bonita\"?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130311-1638-0742.mp3",
+        "published":"Tue, 12 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Vater Staat",
+        "episode":29,
+        "description":"Bei Vater Staat geht das Gespräch los und bei Captain Iglo hört es auf - wie es eben so ist im Bistro am frühen Morgen. Bestimmte Begrifflichkeiten haben eine tiefere Bedeutung.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130310-1541-4442.mp3",
+        "published":"Mon, 11 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Technik vs. Spannung",
+        "episode":30,
+        "description":"So fortgeschritten wie die Technik heutzutage ist, macht sie Kinofilme total kaputt - also die CeBit ist Schuld am Untergang des Kinos! Warum das so ist, erfahren wir im Bistro.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130308-0620-3142.mp3",
+        "published":"Fri, 08 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Erstes Brot",
+        "episode":31,
+        "description":"Aus Grashalmen Brot backen, aus braunen Bohnen Kaffee kochen oder einen lebendigen Ochsen zu Wurst verarbeiten. Auf die Idee muss man erst einmal kommen!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130307-0629-2142.mp3",
+        "published":"Thu, 07 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Metropolen",
+        "episode":32,
+        "description":"Udos Mutter ist mit einer Freundin nach Solingen gefahren - Solingen, die Klingenstadt. Köln ist die Domstadt, und so hat jede Metropole in Deutschland ihren eigenen Zusatz.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130306-0628-5142.mp3",
+        "published":"Wed, 06 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"3D Drucker",
+        "episode":33,
+        "description":"In zehn Jahren brauchste gar nicht mehr schmieren - dann druckste das aus, in 3D! Udo ist begeistert von den neuen Technik-Trends der CeBIT, aber Herr Ahlers bleibt skeptisch.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130305-0655-3342.mp3",
+        "published":"Tue, 05 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Kunst",
+        "episode":34,
+        "description":"Steffi hat den Expertenblick für Kunst, vor allem wenn\'s richtig Ölfarbe ist. Denn wenn Du da mit der Hand so rübergehst, dann ist das so ribbelig - dann ist das original!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130303-1719-1142.mp3",
+        "published":"Mon, 04 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"1000. Folge",
+        "episode":35,
+        "description":"Vergessene Geburtstage, ständiges Fressen und das Rätsel immer falsch raten müssen. Was Steffi & Co. nicht alles ertragen müssen, bloß, weil ihre Erschaffer es so wollen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130228-1830-1542.mp3",
+        "published":"Fri, 01 Mar 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Vorruhestand",
+        "episode":36,
+        "description":"Der Rücktritt von Papst Benedikt XVI. ist das Thema im Schlemmerbistro. Wann zieht der Papst eigentlich seine roten Schuhe aus? Steffi & Co. haben eine Theorie.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130227-1810-1842.mp3",
+        "published":"Thu, 28 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Totalverlust",
+        "episode":37,
+        "description":"Steffi kann nich mehr: Sie hat aus Versehen alle ihre Daten gelöscht und kann nun ihren Volker nicht erreichen. Auf Streetview konnte sie sein Haus auch nicht finden... !",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130226-1856-2442.mp3",
+        "published":"Wed, 27 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Lebensmittellüge",
+        "episode":38,
+        "description":"Die Erkenntnis im Schlemmerbistro heute: Lebensmittelbetrug macht doch jeder. Man kann noch nicht mal der eigenen Familie trauen, was sie einem zu Essen auf den Tisch stellt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130225-1657-4342.mp3",
+        "published":"Tue, 26 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Erfolgreiche Frauen",
+        "episode":39,
+        "description":"Emanzipation hin oder her. Männer kommen einfach nicht damit klar, wenn ihre Partnerin erfolgreicher ist. Bistrobesitzerin Steffi weiß ein Liedchen davon zu singen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130224-1836-1142.mp3",
+        "published":"Mon, 25 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Musikfilme",
+        "episode":40,
+        "description":"Georg Ahlers ist schon wieder auf 180 am frühen Morgen: Dieses Gesinge in den Musikfilmen ist ja total unrealistisch! Steffi dagegen fand die Peter-Alexander-Filme immer großartig.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130221-1906-5942.mp3",
+        "published":"Fri, 22 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Streikopfer",
+        "episode":41,
+        "description":"Snacks und Getränke für die Wartenden und medizinische Versorgung vor Ort - das hört sich für Udo ganz vernünftig an und ist ja ideal, um den Geburtstag seiner Mutter zu feiern.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130220-1732-4342.mp3",
+        "published":"Thu, 21 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Geschmack",
+        "episode":42,
+        "description":"Heutzutage kann man sich nie sicher sein, was auf dem Teller landet. Auch auf den eigenen Geschmack ist kein Verlass, der kann manchmal ganz schön trügerisch sein. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130219-1625-0042.mp3",
+        "published":"Wed, 20 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Doc Martens",
+        "episode":43,
+        "description":"Steffi fühlt sich krank und Udos Internet-Diagnosen machen es nicht besser! \"Gliederschmerzen\" und \"tödlich\" ergeben 195.000 Treffer - aber das muss nichts heißen...!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130218-1730-1042.mp3",
+        "published":"Tue, 19 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Team",
+        "episode":44,
+        "description":"Stefanie Prigge setzt heute vor allem auf den Teamgedanken in ihrem Bistro - ein Must Have als moderne Geschäftsfrau. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130217-1712-5342.mp3",
+        "published":"Mon, 18 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Politik machtlos",
+        "episode":45,
+        "description":"So lange die Leute weiter Unterhosen bei 90 Grad waschen und Wert auf ein erkennbares Fernsehbild legen, kann die Regierung noch so viele 10-Punkte-Pläne auflegen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130214-1811-1142.mp3",
+        "published":"Fri, 15 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Küsschen",
+        "episode":46,
+        "description":"Valentins-Gutscheine, Diddle-Mäuse und Rinderherzen für Rocky. Romantik liegt in der Luft! Womit wir auch schon beim Thema wären: Warum drücken Menschen ihre Lippen aneinander?\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130214-0707-5642.mp3",
+        "published":"Thu, 14 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Oma mischt sich ein",
+        "episode":47,
+        "description":"Steffi muss zur Sondersitzung vom Windsor-Fanklub: Diana, Kimberly oder Justin sollte der royale Nachwuchs von Kate und William heißen - nur die Queen ist dagegen. Typisch Oma!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130212-1718-4742.mp3",
+        "published":"Wed, 13 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Kater",
+        "episode":48,
+        "description":"Aua, aua! Opa Gehrke hat einen dicken Kopf. Vielleicht einen Hering? Oder eine Gewürzgurke? Am besten sollte man den Schmerz überlagern. Und zwar mit noch mehr Schmerz. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130211-1726-4042.mp3",
+        "published":"Tue, 12 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Echter Karneval",
+        "episode":49,
+        "description":"Udo und Opa Gehrke freuen sich auf den Fasching am Abend, aber Steffi klärt sie erst mal auf, dass Karneval im Rheinland ein ganz anderes Niveau hat - zum Schrei-hen ist das da!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130210-1447-2742.mp3",
+        "published":"Mon, 11 Feb 2013 07:17:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+    "displaySubDomaine":"ndr2stefanie",
+    "recentTitles":
+    [
+      "Selbstanzeige",
+      "Peinliche Partner",
+      "Liebe Kaufende",
+      "Aufmerksam machen",
+      "Wildgänse",
+      "Zurück zur Mark",
+      "Georgs Garten",
+      "Duz-Verbot",
+      "Gekrakel 2013",
+      "Richtiger Standort",
+      "Tausendmal berührt",
+      "Diskretionsabstand",
+      "Diktator-Style",
+      "Frühstück bei Stefanie: Der Wolf ist da!",
+      "Marktforschung",
+      "Kollekte",
+      "Eier kochen",
+      "Zahnersatz",
+      "Genuss-Momente",
+      "Verfönt",
+      "Duette",
+      "Mietklausel",
+      "Kein\' Bock mehr",
+      "Verspätet",
+      "Grüße ins All",
+      "Verwählt",
+      "Geldfunde",
+      "Grußprobleme",
+      "W-Lan",
+      "Vater Staat",
+      "Technik vs. Spannung",
+      "Erstes Brot",
+      "Metropolen",
+      "3D Drucker",
+      "Kunst",
+      "1000. Folge",
+      "Vorruhestand",
+      "Totalverlust",
+      "Lebensmittellüge",
+      "Erfolgreiche Frauen",
+      "Musikfilme",
+      "Streikopfer",
+      "Geschmack",
+      "Doc Martens",
+      "Team",
+      "Politik machtlos",
+      "Küsschen",
+      "Oma mischt sich ein",
+      "Kater",
+      "Echter Karneval"
+    ],
+    "idType":7,
+    "descriptionPodcast":"\"Frühstück bei Stefanie\" im NDR 2 Morgen um 07.17 Uhr.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.ndr2.de",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/7562_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/7562_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":7562,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/7562_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/7562_5_1.png",
+    "author":"",
+    "title":"Udo, Steffi, Herr Ahlers und Opa Gehrke als Zeichentrickfiguren",
+    "picture4Url":"http://static.radio.de/images/broadcasts/7562_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Comedy",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Hamburg",
+      "_family":"NDR2",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"NDR 2 - Fruhstuck bei Stefanie",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/ndr2stefanie.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/7562_4_1.png",
+    "sampleRate":48000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/7562_5.jpeg",
+    "subdomain":"ndr2stefanie",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "id":2463821,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/podcast2956/AU-20130423-0512-4042.mp3",
+        "idBroadcast":7562,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

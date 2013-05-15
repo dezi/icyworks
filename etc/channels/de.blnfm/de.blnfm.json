@@ -1,0 +1,244 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://176.28.20.203:9000/stream-low",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"BLN.FM",
+    "subDomaine":"blnfm",
+    "relayDisabled":false,
+    "rank":953,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"BLN.FM spielt Neuheiten aus dem elektronischen Bereich - Elektro, elektronischer Indie, Disco, Ambient, House, Dubstep - je nach Tageszeit von einer Musikredaktion zu passenden Rotationen zusammengestellt. Dazu gibt\'s Personality-Shows, redaktionelle Beiträge sowie ein Online-Magazin, das über aktuelle Musik, Clubkultur und Stadtleben in Berlin\r\ninformiert.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/7713_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/7713_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/7713_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"BLN.FM spielt Neuheiten aus dem elektronischen Bereich.",
+    "metaDataUrl":"http://176.28.20.203:9000/stream-low",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://176.28.20.203:9000/stream-low",
+    "displaySubDomaine":"blnfm",
+    "recentTitles":
+    [
+      "Hint - Aliens Enter feat. T-Fly (Hint Remix)",
+      "Frankfurt Express - Wake Up",
+      "BLN.FM empfiehlt - Little bis Showcase of Live Music im Festsaal Kreuzberg",
+      "Boys Noize - What You Want (Chromeo Remix)",
+      "Austra - Home",
+      "Birdy Nam Nam - Defiant Order (Breakbot Remix)",
+      "Para One - When The Night feat. Jaw (Breakbot Remix)",
+      "BLN.FM News - Beacon",
+      "Peking Duk - The Way You Are",
+      "Shola Ama - Imagine (LO Remix)",
+      "Metronomy - The Look (Fred Falke Remix)",
+      "Beni - It\'s A Bubble (The Magician Remix)",
+      "Kris Menace - Waiting For You feat. Black Hills (Oliver Remix)",
+      "Monarchy - Disintegration feat. Dita Von Teese (Mike Luck Remix)",
+      "Bastille - Pompeii (Monsieur Adi Remix)",
+      "Owlle - Disorder (Moonlight Matters Remix)",
+      "James Yuill - Lost In California",
+      "The Knocks - Modern Hearts feat. St Lucia (Main Mix)",
+      "The Amplifetes - You Me Evolution (Radio Edit)",
+      "Omar S - The Shit Baby (CP-1 Played By D.Taylor)",
+      "Yan Wagner - Vanished",
+      "Im Fokus Artistcheck - We Have Band",
+      "Black Van - Inside (Oliver Remix)",
+      "Kimbra - Two Way Street (Aeroplane Remix)",
+      "Robert Raymon Roy - Axela",
+      "Bullion - Synth Grub (Bullion Version)",
+      "Bonobo - Pieces (feat. Cornelia)",
+      "Delphic - Tears Before Bedtime",
+      "Pet Shop Boys - Memory Of The Future (Ulrich Schnauss Remix)",
+      "Inc. - Desert Rose War Prayer",
+      "Rhye - Woman",
+      "Leon Vynehall - Rosalind",
+      "Weedy of 40 Winks - The Blue",
+      "BLN.FM & Roman Rehor - Gribbin - Maenner Und Die Evolution",
+      "Mr. Vast - Elemental",
+      "Baths - Ironworks",
+      "Eyke - Mountains Pushed Into The Sea",
+      "Sinitus Tempo - Fly High",
+      "Kobol - Neotoma Syndrome",
+      "Herve - Lose Control feat. Seasfire (Radio Edit )",
+      "Al Velilla - Fearless (feat. Opolopo)",
+      "Pool - Flex (Aeroplane Remix)",
+      "AGF/Delay - B2 Connection (CLP Remix)",
+      "Ilya Santana - Hot Chocolate Dance",
+      "BLN.FM - So Klingt Die Stadt",
+      "Breakbot - Why (feat. Ruckazoid)",
+      "Dam-Funk - I Dont Wanna Be A Star (12 Mix)",
+      "Telesketch - Lanarocka (A Copycat & Martin Brodin Remix)",
+      "Arthur Baker - Tear Down The Walls (Riva Starr Dub)",
+      "Dan Le Sac vs Scroobius Pip - Get Better (Villa Dub Remix)",
+      "Gotye - State Of The Art",
+      "Modulaire - Hipnotica",
+      "Funkommunity - What You Give"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.bln.fm/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/7713_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/7713_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":7713,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/7713_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/7713_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/7713_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"Internetradio",
+      "_country":"Deutschland",
+      "_genre":"Dubstep, Electro",
+      "_city":"Berlin",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"BLN.FM",
+    "picture3Url":"",
+    "streamUrl":"http://176.28.20.203:9000/stream-low",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/7713_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/7713_5.jpeg",
+    "subdomain":"blnfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":17604,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://176.28.20.203:9000/stream-low",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://176.28.20.203:9000/stream-low",
+        "idBroadcast":7713,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

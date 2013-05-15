@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://radio-mmorpg.de:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"MMORPG RADIO",
+    "subDomaine":"mmorpg",
+    "relayDisabled":false,
+    "rank":1215,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das MMORPG Radio ist ein Sender für Rollenspiel Fans, ob nun Online oder Pen & Paper. Mystische Klänge der Barden-, Skandinavien Saga-, Irish- und Celtic Musik lassen einen hierbei in die Welt der Rollenspiele eintauchen. Für aktuelle News und Infos rund um World of Warcraft, Eve Online, Herr der Ringe & Co. sorgen moderierte Sendungen. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2971_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2971_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das MMORPG Radio ist ein Sender für Rollenspiel Fans, ob nun Online oder Pen & Paper.",
+    "metaDataUrl":"http://radio-mmorpg.de:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://radio-mmorpg.de:8000/",
+    "displaySubDomaine":"mmorpg",
+    "recentTitles":
+    [
+      "Dunkelschön - 10 Haganusa",
+      "Van Canto - The Higher Flight",
+      "Saltatio Mortis - Vergiss Mein Nicht",
+      "Chris Quinn, Lori lewis, John Prassas, Tim Klatt, Earl Root - The Loon - Thalassa Mix",
+      "Triskilian - Schäferstündchen",
+      "Ingrimm - Letzte Reise",
+      "Sonor Teutonicus - Mayenzeit",
+      "Subway to Sally - Schlaflied",
+      "Annwn - Ay Linda Amiga",
+      "Impius Mundi - In Taverna",
+      "mmorpg bumper - 3-m-alk",
+      "Horch - Oberammergau",
+      "Three Ravens - Raving In The Bathroom",
+      "Esha Ness - The maze",
+      "Schattentantz - Cernunnos",
+      "Corvus Corax - Orwitzel",
+      "Schandmaul - Bin Unterwegs",
+      "Subway to Sally - Das Rätsel II",
+      "Cultus Ferox - Disfrutános del calor",
+      "Van Langen - Drachenschiff",
+      "Nachtgeschrei - Glut in euren Augen",
+      "Within Temptation - Where Is The Edge",
+      "Corvus Corax - Goudalier",
+      "Meinhard - Falling!",
+      "Furunkulus Bladilo - Auf dem Weg nach Palästina",
+      "Els Berros de la Cort - Ques tolgues es tengues",
+      "Schelmish - Too Late",
+      "Coppelius - Risiko",
+      "Metusa - Weltenwanderer",
+      "Soundtrack - The steward of Gondor",
+      "In Extremo - Des Sängers Einzug",
+      "Pestilenz - Krieger",
+      "Schelmish - Tempus Mutatur",
+      "Lack of Limits - After the Fire",
+      "Hasenscheisse - Feuerwasser",
+      "Liederlicher Unfug - Miri it is",
+      "Helium Vola - In Lichter Farbe Steht Der Wald",
+      "Die Rabenbrüder - Mit Dudelsack und Saitenspiel",
+      "Celtibeerian - Tirikantam",
+      "In Flames - Dismiss The Cynics",
+      "Cobblestones - Ye Jacobites By Name",
+      "Van Canto - Battery",
+      "Schelmish - Aufzug der Spielleute",
+      "Tanzwut - Erdbeerrot",
+      "Feuerschwanz - Met und Miezen",
+      "Estampie - Owe War Sint Verswunden",
+      "Powerwolf - Son of a wolf",
+      "Elfenthal - Si abrá en este baldrés",
+      "Celtic Woman - Nella Fantasia",
+      "Ataraxia - Clytaemestra",
+      "Soundtrack - Shelob\'s Lair",
+      "Schandmaul - Die Goldene Kette",
+      "deied - orbituary",
+      "Dunkelschön - Uti Rosen",
+      "Horch - Totus Floreo",
+      "Metusa - Das Weibsbild",
+      "Christian von Aster - Pfingstnachtgeleit"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://radio-mmorpg.de/index.php",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2971_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2971_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2971,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2971_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2971_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2971_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Games, Internetradio",
+      "_country":"Deutschland",
+      "_genre":"Celtic, Electro",
+      "_city":"",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"MMORPG RADIO",
+    "picture3Url":"",
+    "streamUrl":"http://radio-mmorpg.de:8000/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2971_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2971_5.jpeg",
+    "subdomain":"mmorpg",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2019,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://radio-mmorpg.de:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://radio-mmorpg.de:8000/",
+        "idBroadcast":2971,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

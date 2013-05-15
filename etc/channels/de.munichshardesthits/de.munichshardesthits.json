@@ -1,0 +1,244 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://87.118.116.61:8080",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Munich\'s Hardest Hits",
+    "subDomaine":"munichshardesthits",
+    "relayDisabled":false,
+    "rank":896,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Melodic Rock ist zurück.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2298_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2298_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Melodic Rock ist zurück.",
+    "metaDataUrl":"http://87.118.116.61:8080",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://87.118.116.61:8080",
+    "displaySubDomaine":"munichshardesthits",
+    "recentTitles":
+    [
+      "Boston - More Than A Feeling",
+      "Rush - Time Stand Still",
+      "Allides Hidding - Hollywood 7",
+      "Bryan Adams - Somebody",
+      "Cher - I Found Someone",
+      "GTR - When The Heart Rules The Mind",
+      "707 - Hello Girl",
+      "Scandal - Warrior",
+      "Foreigner - Urgent",
+      "The Cars - Hello Again",
+      "The Sherbs - I\'m Alive",
+      "King\'s Call - To The Limit",
+      "707 - Leader",
+      "Witness - Let Me Be The One",
+      "Europe - Gonna Get Ready",
+      "Silence - Father",
+      "Leviticus - Isn\'t It Love",
+      "Highway Chile - Christine",
+      "Zion - All It Takes Is A Minute",
+      "Wang Chung - Dance Hall Days",
+      "Survivor - Caught In The Game",
+      "Allies - Surrender",
+      "FM (Canada) - Take The Time To Dream",
+      "Tony Carey - First Day Of Summer",
+      "Jeff Paris - Kissing Goodbye My Tears",
+      "Spys - Desiree",
+      "Idle Cure - So Many Faces",
+      "Bronz - Carried By The Storm",
+      "Jon Butcher - I\'m Only Dreaming",
+      "Sunstorm - This Is My Heart",
+      "Teri Tims - Rock Hard",
+      "Tall Stories - Somewhere She Waits",
+      "Red Dawn - Liar",
+      "Tommy Shaw - See Me Now",
+      "Dakota - Brothers In Arms",
+      "Kenny Wayne Shepherd - Believe",
+      "Mason - Where Are You Now",
+      "Alien - Only One Woman",
+      "The VU - Walk Through The Fire",
+      "Black \'N Blue - Miss Mystery",
+      "Hungryheart - Gina",
+      "Brunorock - Breakthrough",
+      "Altaria - Frozen Hearts",
+      "Brother Firetribe - Valerie",
+      "Blind Alley - All Figured Out",
+      "Kresta - Fantasy",
+      "Journey - Positive Touch",
+      "John Waite - These Times Are Hard For Lovers",
+      "Legs Diamond - Turn To Stone",
+      "Last Autumn\'s Dream - Don\'t Let Your Love Go Down",
+      "James Christian - Best Girl",
+      "Lost Weekend - Slippin\' Through My Hands",
+      "Beggars  Thieves - We Come Undone"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"http://static.radio.de/images/broadcasts/2298_2.gif",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.munichshardesthits.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2298_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2298_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2298,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2298_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2298_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2298_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Classic Rock, Pop",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Munich\'s Hardest Hits",
+    "picture3Url":"http://static.radio.de/images/broadcasts/2298_3.gif",
+    "streamUrl":"http://87.118.116.61:8080",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":true,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2298_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":true,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2298_5.jpeg",
+    "subdomain":"munichshardesthits",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":1259,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.118.116.61:8080",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://87.118.116.61:8080",
+        "idBroadcast":2298,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

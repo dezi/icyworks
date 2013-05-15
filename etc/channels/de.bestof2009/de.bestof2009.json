@@ -1,0 +1,247 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/bestof2009",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Best of 2009",
+    "subDomaine":"bestof2009",
+    "relayDisabled":false,
+    "rank":1951,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die größten Hits des Jahres 2009 - zusammengestellt zu einer einzigartigen musikalischen Rückschau auf die Chartbreaker des vergangenen Jahres. Diese Mischung lässt das Hitbarometer höherschlagen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8366_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8366_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8366_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die größten Hits des Jahres 2009! Diese Mischung aus den deutschen und internationalen Charts des vergangenen Jahres lässt das Hitbarometer höherschlagen.",
+    "metaDataUrl":"http://dude.mp3streams.net/bestof2009",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/bestof2009",
+    "displaySubDomaine":"bestof2009",
+    "recentTitles":
+    [
+      "Tokio Hotel - Automatic",
+      "Pitbull - Hotel Room Service",
+      "Ich + Ich - Pflaster",
+      "Sportfreunde Stiller - Ein Kompliment [Unplugged]",
+      "Rihanna - Rehab",
+      "Kelly Clarkson - Already Gone",
+      "The Gossip - Heavy Cross",
+      "Katy Perry - Hot N Cold",
+      "Milow - Ayo Technology",
+      "Rosenstolz - Ich Bin Mein Haus",
+      "Culcha Candela - Schöne Neue Welt",
+      "Magvay & Novskyy Feat. Lize - Graf Cox (Sexy Girl)",
+      "Pink - Sober",
+      "The All-American Rejects - Gives You Hell",
+      "Cascada - Evacuate The Dancefloor",
+      "Nelly Furtado - Manos Al Aire",
+      "Daniel Merriweather - Impossible",
+      "Sportfreunde Stiller - Ich War Noch Niemals In New York [Single Version Unplugged]",
+      "Mika - We Are Golden",
+      "Ingrid Michaelson - Maybe",
+      "Peter Fox - Haus Am See",
+      "Justin Bieber - One Time",
+      "Pitbull - I Know You Want Me (Calle Ocho)",
+      "Lady Gaga - Paparazzi",
+      "Nena - Wir Sind Wahr [Radio Edit]",
+      "Xavier Naidoo - Alles Kann Besser Werden",
+      "Black Eyed Peas - Boom Boom Pow",
+      "Melanie Fiona - Give It To Me Right",
+      "David Guetta Feat. Akon - Sexy Bitch",
+      "Scotty - He\'s A Pirate",
+      "Beyoncé - Halo",
+      "Selig - Ich Fall In Deine Arme",
+      "a-Ha - Foot Of The Mountain",
+      "Kate Ryan - Babacar",
+      "Bushido Prod. Sonny Black & Frank White - Eine Chance / Zu Gangsta",
+      "Michael Jackson & The Jackson 5 - I\'ll Be There",
+      "Tokio Hotel - Automatisch",
+      "The Killers - Human",
+      "Shakira - She Wolf",
+      "Calvin Harris - Ready For The Weekend",
+      "Dizzee Rascal - Holiday",
+      "Sugababes - Get Sexy",
+      "Miss Platnum - She Moved In",
+      "Green Day - 21 Guns",
+      "Lady Gaga - Poker Face",
+      "No Angels - One Life",
+      "James Morrison Feat. Nelly Furtado - Broken Strings",
+      "Sido - Hey Du!",
+      "Paul Van Dyk Feat. Johnny McDaid - Home",
+      "Razorlight - Wire To Wire",
+      "Miranda Cosgrove Feat. Drake Bell - Leave It All To Me (Theme From iCarly)",
+      "Pink - Funhouse",
+      "Laura Pausini Feat. James Blunt - Primavera In Anticipo (It Is My Song)",
+      "OneRepublic - Secrets",
+      "La Roux - Bulletproof",
+      "Paloma Faith - Stone Cold Sober [Radio Edit]"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":3,
+    "streamContentFormat":"MP3",
+    "link":"http://bestof2009.radio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8366_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8366_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8366,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8366_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8366_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8366_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream",
+      "_city":"Hamburg",
+      "_family":"bestof",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Best of 2009",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/bestof2009",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8366_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8366_5.jpeg",
+    "subdomain":"bestof2009",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":7182,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/bestof2009",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/bestof2009",
+        "idBroadcast":8366,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

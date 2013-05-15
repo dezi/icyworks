@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703005",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+      "testResult":null,
+      "name":"Thimon von Berlepsch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701195",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130324_160000.mp3",
+      "testResult":null,
+      "name":"Stefan Kretzschmar",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699785",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130317_160000.mp3",
+      "testResult":null,
+      "name":"Michael Tsokos",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699271",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130310_140000.mp3",
+      "testResult":null,
+      "name":"Henry Hübchen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17697530",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130303_140000.mp3",
+      "testResult":null,
+      "name":"Johann von Bülow",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695697",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130224_160000.mp3",
+      "testResult":null,
+      "name":"Kirsten Bruhn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693982",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130217_140000.mp3",
+      "testResult":null,
+      "name":"Rebecca Immanuel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692223",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130210_140000.mp3",
+      "testResult":null,
+      "name":"Konstantin Gropper",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688834",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130203_160000.mp3",
+      "testResult":null,
+      "name":"Hajo Schumacher",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688333",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130127_140000.mp3",
+      "testResult":null,
+      "name":"Klaus Maria Brandauer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17686494",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130120_160000.mp3",
+      "testResult":null,
+      "name":"Ursula Karven",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684704",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130113_160000.mp3",
+      "testResult":null,
+      "name":"Volker Wieprecht",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17682711",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130106_140000.mp3",
+      "testResult":null,
+      "name":"Christian Tramitz und Annette Frier",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681549",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121230_140000.mp3",
+      "testResult":null,
+      "name":"The BossHoss",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17679642",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121223_160000.mp3",
+      "testResult":null,
+      "name":"Tom Schilling",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678214",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121216_140000.mp3",
+      "testResult":null,
+      "name":"Kai Havaii",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17676159",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121209_160000.mp3",
+      "testResult":null,
+      "name":"Florian David Fitz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672410",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121202_160000.mp3",
+      "testResult":null,
+      "name":"Fritz J. Raddatz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17669932",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121125_160000.mp3",
+      "testResult":null,
+      "name":"Claus Kleber",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17667778",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121118_160000.mp3",
+      "testResult":null,
+      "name":"Dr. med. Michael de Ridder",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17665059",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121111_160000.mp3",
+      "testResult":null,
+      "name":"Johanna Adorjan",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17662405",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121104_140000.mp3",
+      "testResult":null,
+      "name":"Michael Gwisdek",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17638578",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121028_160000.mp3",
+      "testResult":null,
+      "name":"Ronald Zehrfeld",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17612752",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121021_160000.mp3",
+      "testResult":null,
+      "name":"Peer Steinbrück",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17590241",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121014_160000.mp3",
+      "testResult":null,
+      "name":"Jürgen Vogel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17564676",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121007_160000.mp3",
+      "testResult":null,
+      "name":"Zum Tod von Dirk Bach (Wiederholung vom 05.10.03)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17542305",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120930_160000.mp3",
+      "testResult":null,
+      "name":"Enie van de Meiklokjes",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17545203",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120923_140000.mp3",
+      "testResult":null,
+      "name":"Daniel Brühl",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17495408",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120916_140000.mp3",
+      "testResult":null,
+      "name":"Claudia Michelsen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17495409",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120909_140000.mp3",
+      "testResult":null,
+      "name":"Anna Fischer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317466",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120902_160000.mp3",
+      "testResult":null,
+      "name":"Bjarne Mädel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317467",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120826_160000.mp3",
+      "testResult":null,
+      "name":"Zeitreise durch 10 Jahre \"Hörbar Rust\"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317468",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3",
+      "testResult":null,
+      "name":"Maike Rosa Vogel",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17532442",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3",
+      "testResult":null,
+      "name":"Hörbar Rust mit Maike Rosa Vogel (Zusammenschnitt ohne Musik)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317469",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120812_160000.mp3",
+      "testResult":null,
+      "name":"Marusha Aphrodite Gleiß",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317470",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120617_140000.mp3",
+      "testResult":null,
+      "name":"Thea Dorn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317471",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120610_160000.mp3",
+      "testResult":null,
+      "name":"Michi Beck",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317472",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120603_140000.mp3",
+      "testResult":null,
+      "name":"Johnny Haeusler",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317473",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120520_160000.mp3",
+      "testResult":null,
+      "name":"Lisa Bassenge",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317474",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120513_140000.mp3",
+      "testResult":null,
+      "name":"Sönke Wortmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317475",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120506_140000.mp3",
+      "testResult":null,
+      "name":"Catherine von Fürstenberg-Dussmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317476",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120429_140000.mp3",
+      "testResult":null,
+      "name":"Patricia Kaas",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317477",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120422_160000.mp3",
+      "testResult":null,
+      "name":"Michael Ballhaus",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317478",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120415_160000.mp3",
+      "testResult":null,
+      "name":"Jürgen Domian",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317479",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120408_140000.mp3",
+      "testResult":null,
+      "name":"Dr. Karl ter Horst",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317480",
+      "author":"",
+      "stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120401_140000.mp3",
+      "testResult":null,
+      "name":"Jenny Schily",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317507",
+      "author":"",
+      "stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110529.mp3",
+      "testResult":null,
+      "name":"Bettina Wulff",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317508",
+      "author":"",
+      "stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110522.mp3",
+      "testResult":null,
+      "name":"Dennis Gastmann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317509",
+      "author":"",
+      "stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110515.mp3",
+      "testResult":null,
+      "name":"Thomas Hampson",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17317510",
+      "author":"",
+      "stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110508.mp3",
+      "testResult":null,
+      "name":"Dirk Stermann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Jeden Sonntag von 14.00 bis 16.00 Uhr lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein. Dieser stellt sich in der Sendung vor und die Musik, die in seinem Leben von Bedeutung war und erzählt dazu die passenden Geschichten zum Soundtrack sei",
+    "seoTitle":"radioeins - Hörbar Rust",
+    "subDomaine":"hoerbarrust",
+    "relayDisabled":false,
+    "rank":2276,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Jeden Sonntag lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein, der Geschichten zum Soundtrack seines Lebens erzählt. Alte Mixtapes, erste Platten und intime Tönen werden da gespielt und schöne Anekdoten aufgetischt.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9371_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9371_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9371_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Jeden Sonntag lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein, der Geschichten zum Soundtrack seines Lebens erzählt.",
+    "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Thimon von Berlepsch",
+        "episode":0,
+        "description":"Die ersten 22 Jahre seines Lebens verbringt Thimon mit seinen 3 Brüdern auf dem elterlichen Schloss Berlepsch im hessischen Witzenhausen. Thimon lernt Goldschmied, geht für ein halbes Jahr auf die Philippinen, macht Zivildienst und widmet sich seinem Kindheitstraum: der Zauberei - mit wachsendem Erfolg. Seit einigen Jahren gehört der schlaue Smart-Guy nun schon zur Zauberer-Elite Deutschlands. Ohne Karnickel im Zylinder, aber mit viel \"aaah\" und \"ohh\".",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "published":"Sun, 31 Mar 2013 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Stefan Kretzschmar",
+        "episode":1,
+        "description":"Vater Peter trainiert die DDR-Nationalmannschaft im Handball, Mutter Waltraud holt dreimal den Weltmeistertitel. Klar, dass auch ihr Sohn bald zum Ball greift. \n\nAb 1993 spielt er in der Bundesliga für den VfL Gummersbach, wird 2001 mit Magdeburg Deutscher Meister, holt 2004 mit der Nationalmannschaft bei den Olympischen Spielen Silber. Kretsche absolviert 218 Länderspiele und erzielt 1694 Bundesliga-Tore. \n\nEine feine Bilanz, aber da gibt\'s noch viel mehr - für MTV moderierte er zwei Jahre die Sendung MTV Sushi, spielte in einigen Filmen mit und Radio hat er auch schon mal gemacht. Wir sind gespannt auf die Musik und Geschichten seines Lebens...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130324_160000.mp3",
+        "published":"Sun, 24 Mar 2013 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Michael Tsokos",
+        "episode":2,
+        "description":"Der gebürtige Kieler kommt als Sohn einer Ärztin und eines Schiffsoffiziers zur Welt. Um bei der Bundeswehr zwei freie Tage zu ergattern, lässt er sich zur Teilnahme des sogenannten Medizinertests überreden, schneidet hervorragend ab und beschließt, Arzt zu werden. Die Rechtsmedizin greift mit ihren kalten, rätselhaften Klauen nach dem jungen Mann, der seine Berufung findet, Karriere macht und u.a. seit 2007 das Institut für Rechtsmedizin an der Charité leitet. Zudem schreibt er Bücher über seine Arbeit und von diesen Geschichten profitieren wir bestimmt auch diesen Sonntag - dann ist Michael Tsokos zu Gast in der Hörbar auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130317_160000.mp3",
+        "published":"Sun, 17 Mar 2013 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Henry Hübchen",
+        "episode":3,
+        "description":"Geb. 1947 in West-Berlin erhält der gebürtige Charlottenburger mit 10 bereits erste Rollen vor der Kamera, er ist 14, als die Mauer kommt. Hübchen studiert nach dem Abitur kurz Physik, bevor ihn das Schicksal unauffällig zum Schauspiel-Studium führt. Er spielt Theater in Magdeburg, reüssiert in \"Jakob der Lügner\", dem einzigen DDR-Film, der jemals für einen Oscar nominiert wurde, geht an die Volksbühne (zuerst zu Besson, später zu Castorf) und gehört nach der Wende zu den Schauspielern, deren Erfolg eher zu-, als abnimmt. Spätestens seit seiner Rolle in \"Alles auf Zucker\", \"Sonnenallee\" oder \"Whisky mit Wodka\" heißt es: Alle lieben Henry. Und wir freuen uns. Henry Hübchen, jetzt zu Gast an der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130310_140000.mp3",
+        "published":"Sun, 10 Mar 2013 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Johann von Bülow",
+        "episode":4,
+        "description":"Der Schauspieler entstammt dem mecklenburgischen Uradelsgeschlecht derer von Bülow, so steht es geschrieben, kam jedoch in München zur Welt. Johann studiert an der Otto-Falckenberg-Schule Schauspiel und debütiert 1995 neben Franka Potente in \"Nach Fünf im Urwald\", bevor er sich recht konstant dem Theater verschreibt. Seit sechs/sieben Jahren regiert der wandelbare Schauspieler aber den Bildschirm, taucht in unterschiedlichsten Produktionen auf, wird gefeiert und man fragt sich: Wo war dieser Mann in all den Jahren davor?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130303_140000.mp3",
+        "published":"Sun, 03 Mar 2013 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kirsten Bruhn",
+        "episode":5,
+        "description":"Mit zehn Jahren wird das Hobby-Schwimmen für Kirsten zum Leistungssport. Vor Beginn ihres Grafik- und Designstudiums fährt die junge Frau mit ihrem Freund auf die Insel Kos. Dort kommt es zu einem Motorrad-Unfall, der zu einer inkompletten Querschnittlähmung bei Kirsten führt. Mit Anfang 20 muss sie ihr Leben neu organisieren und vor allem, es weiterhin für lebenswert halten. Zögerlich wendet sie sich dem Behindertensport zu, doch schon bald wird deutlich, was diese Frau zu leisten imstande ist: Dreimal holt sie Paralympisches Gold, schwimmt 54 Welt- und 64 Europarekorde, ist 65fache Deutsche Meisterin, fünffache Europa- und zweifache Weltmeisterin...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130224_160000.mp3",
+        "published":"Sun, 24 Feb 2013 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Rebecca Immanuel",
+        "episode":6,
+        "description":"Die Schauspielerin ist eine echte Hamburger Deern. In der Schule moderiert sie für die BBC, singt und bekommt Klavierunterricht. Rebecca jobbt als Moderatorin und Redakteurin für den NDR und studiert 1994 an der Hochschule für Schauspielkunst Ernst Busch. Sie ist talentiert, sehr, sehr hübsch und spielt in einigen Stücken und Filmen mit - die Rolle ihres jungen Lebens jedoch verkörpert sie in der Serie \"Edel & Starck\" an der Seite von Christoph M. Orth.\n\nSeitdem ist viel passiert - und es passiert noch. Genauer erfahren wir es von Rebecca Immanuel inn der Hörbar Rust...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130217_140000.mp3",
+        "published":"Sun, 17 Feb 2013 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Konstantin Gropper",
+        "episode":7,
+        "description":"Gropper wächst in einem Musiklehrerhaushalt im oberschwäbischen Erolzheim auf. Bereits früh macht er sich mit unterschiedlichen Instrumenten vertraut, studiert Philosophie in Heidelberg und holt sich den Abschluss als Bachelor of Arts an der Mannheimer Popakademie. \n\n2003 beginnt er unter seinem Künstlernamen \"Get well soon\" zu produzieren - ein Projekt, das im Grunde nur aus Gropper selbst besteht. Seine drei bereits erschienenen Alben werden von Kritikern und Publikum hymnisch gefeiert und aufgeregt zur Kenntnis genommen. Auf dem Soundtrack von Wim Wenders \"Palermo Shooting\" steuerte er zwei Songs bei. \n\nIn seinem dritten Album \"The Scarlet Beast O\'Seven Heads\" widmet er sich der großen Kunst italienischen Cinematographie. Die taz hält unseren heutigen Gast für einen der größten Popstars Deutschlands, warum sollten wir uns dem nicht anschließen?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130210_140000.mp3",
+        "published":"Sun, 10 Feb 2013 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hajo Schumacher",
+        "episode":8,
+        "description":"Der gebürtige Westfale schreibt seine ersten Geschichten bereits mit 15 für die Münstersche Zeitung. Schumacher studiert in München Journalistik, Politik und Psychologie und arbeitet ab 1986 für die Süddeutsche Zeitung. 1990 wird er Redakteur beim Spiegel, bespielt die Ressorts Sport, Außen- und Innenpolitik, wird Chefredakteur der Zeitschrift Max und arbeitet seit 2002 als freier Autor in Berlin.\n\nEr schreibt zahlreiche Bücher, darunter die Biografien von Roland Koch und Klaus Wowereit und widmet sich dem Laufen und der Machtphysik und Erfolgsrezepte Merkels.\n\n2004 kommt sein Alter Ego Achim Achilles zur Welt. Jeden Freitag hören Sie seinen Kommentar zum aktuellen Zeitgeschehen auf radioeins...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130203_160000.mp3",
+        "published":"Sun, 03 Feb 2013 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Klaus Maria Brandauer",
+        "episode":9,
+        "description":"Der kleine Klaus kommt in Bad Aussee, einem Alpenvorort der Steiermark zur Welt. Sein Vater ist Zollbeamter, Mutter Maria besitzt selbst eine künstlerische Ader und unterstützt ihren Sohn. Der bricht sein Studium in Stuttgart nach zwei Semestern ab und wird noch mit 20 zum Familienvater. \n\nBrandauer geht ans Theater, er lernt und brennt und reüssiert - bald auch beim Film. Für seinen Mephisto gibt\'s einen Oskar, es folgen u.a. \"Das Feuerschiff\", \"Das Russland-Haus\" und \"Jenseits von Afrika\". Seitdem wurden viele weitere Erfolge gefeiert und viele Rollen gespielt, zuletzt als Wilhelm Reich.\n\nAm 15. März 2013 steht Klaus Maria Brandauer als Krapp in Samuel Becketts \"Das letzte Band\" in der Schinkel-Kirche von Neuhardenberg auf der Bühne.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130127_140000.mp3",
+        "published":"Sun, 27 Jan 2013 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ursula Karven",
+        "episode":10,
+        "description":"Ursula wird in Ulm geboren. Zunächst als Fotomodell tätig, wird sie einer breiten Öffentlichkeit Ende der 80er durch die Serie \"Das Erbe der Guldenburgs\" bekannt. 1994 heiratet Ursula Karven den Produzenten James Veres und zieht zu ihm nach Los Angeles, das Paar bekommt 3 Söhne. Karven wird zur Unternehmerin, gründet u.a. mit Dana Schweiger das Mode-Label für Mutter und Kind \"Bellybutton\" und widmet sich intensiv mit ganzer Leidenschaft dem Yoga, betreibt eine Yogaschule und bringt Bücher heraus. Nach einem Zwischenaufenthalt auf Mallorca lebt die Schauspielerin und Yoga-Botschafterin mit ihrem jüngsten Sohn nun in Berlin.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130120_160000.mp3",
+        "published":"Sun, 20 Jan 2013 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Volker Wieprecht",
+        "episode":11,
+        "description":"Oh stolzes Herne, raunen die Menschen noch immer in den schmalen Gassen der nordrhein-westfälischen Stadt, schließlich kam unser heutiger Gast hier zur Welt. Mit 13 geht\'s nach Berlin, hier studiert Wieprecht - wenn auch nicht zu Ende - und heuert Mitte der 80er als Reporter beim SFB an. Er moderiert bei \"Radio 4U\" und \"Fritz\", wo er Robert Skuppin kennenlernt. Beide wechseln zum frischgegründeten \"Radio Eins\" und schreiben, abgesehen von einigen Büchern - so muß man ganz unbescheiden attestieren - Moderationsgeschichte. Volli - der Mann, dem die Hörer vertrauen...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130113_160000.mp3",
+        "published":"Sun, 13 Jan 2013 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Christian Tramitz und Annette Frier",
+        "episode":12,
+        "description":"Christian Tramitz, 57, Schauspieler, Komiker, Synchronsprecher & Autor: Wacher Blick – weiße Zähne – Grübchen, scharfgeschnittene Gesichtszüge - Christian Tramitz wird als Enkel des großen Volkschauspielers Paul Hörbiger in München in eine Schauspielerfamilie hineingeboren, hat mit diesem Metier aber selbst lange nichts am Hut. Seit den 80ern ist Christian Tramitz ausgiebig im Synchrongeschäft tätig. So richtig bekannt wird er aber erst als Teil der furiosen Troika mit Michael „Bully“ Herbig und Rick Cavanian in der Bullyparade...\n\nAnnette Frier, 38, Komikerin, Schauspielerin und Theater-Regisseurin:\nEs gibt ein paar Frauen, die in der Öffentlichkeit als lustig und zeitgleich sexy da stehen. Die Mutter von Zwillingen sagt selbst über sich, sie sei faul und schon früh weiß das lecker „Kölner Mädsche“, dass sie auf die Bühne gehört. 1997 winkt die erste große Fernsehrolle „Hinter Gittern - im Frauenknast“ 54 Folgen lang...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130106_140000.mp3",
+        "published":"Sun, 06 Jan 2013 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"The BossHoss",
+        "episode":13,
+        "description":"Es waren einmal zwei smarte Grafikdesigner, die sich - neben ihrer Arbeit in der Agentur - dem Musikmachen verschrieben hatten. Eines Tages, es war dunkel und der Alkohol brannte warme Spuren in ihre Kehlen, fassten sie den Gedanken, gemeinsam auf die Bühne gehen zu wollen. Sie brauten einen Zaubertrank aus Rock, Rock\'n\'Roll und Country, setzten sich große Hüte auf, holten sich noch ein paar Musiker zur Verstärkung und gründeten zu siebt auf einen Streich: The BossHoss.\n\nFortan gab es - bis heute - keine Macht mehr, die den Erfolg dieser Musiker bremsen konnte. Nach The Voice of Germany geht\'s munter nächstes Jahr auf Tour wieder weiter. Und da sie nicht gestorben sind, im Gegenteil, sitzen sie diesen Sonntag bei uns im Studio...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121230_140000.mp3",
+        "published":"Sun, 30 Dec 2012 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Tom Schilling",
+        "episode":14,
+        "description":"Tom wächst in Berlin-Mitte auf. Mit sechs steht er erstmals vor der Kamera, ab dem zwölften Lebensjahr spielt er regelmäßig Theater. Was lange nur als Hobby gilt, wird für Schilling im Jahr 2000 mit seiner Rolle in \"Crazy\" zum klassischen Durchbruch.\n\nFortan - und bis heute - dreht er mit renommierten Kollegen und Regisseuren, hungert sich für die Rolle als Hitler an der Seite von Götz George schon mal zehn Kilo runter und nimmt sich in \"Oh Boy\" derart zurück, dass man ihn für den Rest seines Lebens nie wieder schlecht finden kann.\n\nWeihnachten ist Tom als \"Prinz Otto\" erneut im Kino zu sehen in der Neuverfilmung von Märchenkönig \"Ludwig II.\".",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121223_160000.mp3",
+        "published":"Sun, 23 Dec 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kai Havaii",
+        "episode":15,
+        "description":"Kai kommt im westfälischen Hagen zur Welt. Seine Pubertät durchläuft er normgerecht als Berufsrevoluzzer, studiert ein bißchen und jobbt als Grafiker und Taxifahrer. Als der Punkrock durch Deutschland fegt, wird Kai plötzlich zum Sänger der neuen Band \"Extrabreit\" und durchlebt das, was gerne und oft besungen wird: das flirrende Leben eines Popstars, der gefeiert wird, Groupies, Geld, Koks. Havaii landet schließlich bei Heroin, doch das ist Jahre her. Warum es so kam, wie es kam und welche Musik dabei lief, das erzählte er in der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121216_140000.mp3",
+        "published":"Sun, 16 Dec 2012 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Florian David Fitz",
+        "episode":16,
+        "description":"Der gebürtige Münchner studiert in Boston Musik und Schauspiel und geht anschließend für ein Jahr nach New York. Zurück in Deutschland nimmt seine Schauspielkarriere durch seine Rolle in der Erfolgsserie \"Doctor\'s Diary\" Fahrt auf. Er bekommt verschiedenste Film- und Fernseh-Angebote und einen Grimme-Preis. Aber so richtig zufrieden ist Fitz erst, als sein eigenes Drehbuch \"Vincent will Meer\" mit ihm in der Hauptrolle verfilmt wird. Es hagelt Auszeichnungen. Derzeit ist er mit \"Die Vermessung der Welt\" in den Kinos zu sehen und nun hat er neben der Hauptrolle als Jesus auch zum ersten Mal Regie geführt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121209_160000.mp3",
+        "published":"Sun, 09 Dec 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Fritz J. Raddatz",
+        "episode":17,
+        "description":"Fritz kommt 1931 zur Welt, seine Mutter überlebt die Geburt ihres Sohnes nicht. Der Junge verlebt keine schöne Kindheit. Als der Vater stirbt, wird ein Pfarrer zum Vormund. Raddatz studiert, bekleidet im DDR-Verlag \"Volk und Welt\" und später im Rowohlt-Verlag Führungspositionen, wird Ressortleiter und Autor bei der Zeit und veröffentlicht zahlreiche Bücher, darunter einige Biografien und seine Tagebücher und Erinnerungen. Er gilt als streitbar, humorvoll, extravagant und eigensinnig...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121202_160000.mp3",
+        "published":"Sun, 02 Dec 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Claus Kleber",
+        "episode":18,
+        "description":"Der Journalist und ZDF-Anchorman kam in Reutlingen zur Welt. Bevor Kleber seiner endgültigen Berufung folgt, absolviert er ein Jura-Studium. Früh arbeitet er als freier Journalist beim Kölner Stadtanzeiger und macht eine Hospitanz beim Südwestfunk in Tübingen. Kleber arbeitet kurz als Anwalt, wird Studioleiter beim Südwestfunk und geht 1986 für 15 Jahre als ARD-Korrespondent nach Washington.\n\nSeit 2003 ist Claus Kleber im ZDF Anchorman des \"heute journals\". Zudem treibt es ihn um - er dreht Reportagen und schreibt Bücher. Wer so viel unterwegs ist, der wird auch in unser Studio gespült...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121125_160000.mp3",
+        "published":"Sun, 25 Nov 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dr. med. Michael de Ridder",
+        "episode":19,
+        "description":"Im Rahmen der ARD Themenwoche Leben mit dem Tod zu Gast: Dr. Michael de Ridder - Notarzt, ehem. Chefarzt der Rettungsstelle Urbankrankenhaus und Leiter einer Stiftung für Palliativmedizin und Autor von \"Wie wollen wir Sterben?\"\n\nSeine ersten Erfahrungen mit dem Tod macht Michael, als seine Großmutter stirbt. Der Junge besucht ein altphilologisches Gymnasium, studiert Biologie und Medizin und lässt sich zum Arzt für Innere Medizin ausbilden. 15 Jahre fährt er im Notarztwagen mit, 14 Jahre leitet de Ridder die Rettungsstelle des Berliner Urbankrankenhauses. Jetzt führt er ein Hospiz, in dem das viel gepriesene würdevolle Sterben im Vordergrund steht. Schon seit jeher ist der Mediziner der Ansicht, lebenserhaltende Maßnahmen würden längst nicht immer dem Wohl des Patienten dienen und seinen Leidensweg künstlich verlängern...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121118_160000.mp3",
+        "published":"Sun, 18 Nov 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Johanna Adorjan",
+        "episode":20,
+        "description":"Johanna kommt in Stockholm zur Welt und wächst in München als Tochter zweier Spitzen-Flötisten auf. Sie studiert Theater- und Opernregie und verschreibt sich 1995 dem Journalismus. Adorjans in Schrift gebannte Gedanken, Fragen und Beobachtungen finden schnell ihren eigenen Stil, sie schreibt für viele relevante Zeitungen und ist seit Gründung der Frankfurter Allgemeinen Sonntagszeitung 2001 Mitglied der Feuilleton-Redaktion. Ferner schrieb Adorjan ein Theaterstück, verfasste mit Heike Makatsch das Drehbuch für \"Schwesterherz\" und dokumentierte in ihrem ersten Buch die Liebesgeschichte ihrer Großeltern.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121111_160000.mp3",
+        "published":"Sun, 11 Nov 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Michael Gwisdek",
+        "episode":21,
+        "description":"Der Sohn eines Gastwirts wächst in Berlin-Lichtenberg auf. Er arbeitet als Trabrennfahrer, lernt Gebrauchswerber und lässt es - im Westen - ordentlich krachen, womit Schluss ist, als die Mauer kommt. Er wird zum erfolgreichen Defa-Schauspieler und gründet mit der Schauspielerin Corinna Harfouch eine Familie. Das ist lange her. Inzwischen ist Gwisdek längst mit Gabriela verheiratet, lebt in der Schorfheide und drehte in 45 Jahren fast 140 Filme.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121104_140000.mp3",
+        "published":"Sun, 04 Nov 2012 14:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ronald Zehrfeld",
+        "episode":22,
+        "description":"Ronny wird im Bezirk Schöneweide groß, sehr groß, 1,90 m misst er heute. Die Eltern arbeiten bei der Interflug, den Jungen hält es am Boden: beim Judo schickt er jeden auf die Matte, bringt es sogar zum DDR-Jugendmeister. Nach dem Fall der Mauer muß sich Zehrfeld neu orientieren und landet beim Theater. Peter Zadek erkennt, was in dem großen, kräftigen, jungen Mann steckt. Es folgen zahlreiche Engagements und spektakuläre Filme. Dominik Graf besetzt ihn für seine hochgelobte Reihe \"Im Angesicht des Verbrechens\", in \"Barbara\" überzeugt der Schauspieler an der Seite von Nina Hoss.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121028_160000.mp3",
+        "published":"Sun, 28 Oct 2012 16:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Peer Steinbrück",
+        "episode":23,
+        "description":"Im Nachkriegs-Hamburg wächst ein Junge heran, der lange Zeit schlechte Noten nach Hause bringt. In der Oberstufe gibt\'s den entscheidenden Turn, Steinbrück macht sein Fachabitur und studiert nach der Bundeswehr VWL und Sozialwissenschaften. Ab 1974 arbeitet er bei verschiedenen Ministerien, wird persönlicher Referent der Minister Matthöfer und Hauff und arbeitet schließlich im Kanzleramt für Helmut Schmidt. Steinbrück wird Minister in Schleswig-Holstein und später in Nordrhein-Westfalen, 2002 dort auch Landesvater. 2005 beruft man ihn zum Bundesminister der Finanzen unter der Regierungsführung von Bundeskanzlerin Angela Merkel. Jetzt tritt er selbst an, um ebendiese Frau Merkel abzulösen. Moin-Moin, Peer Steinbrück, diesen Sonntag zu Gast an der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121021_160000.mp3",
+        "published":"Sun, 21 Oct 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Jürgen Vogel",
+        "episode":24,
+        "description":"Jürgen wächst mit zwei Schwestern und einem Bruder in Hamburg-Schnelsen auf. Mit 15 verlässt er die Realschule, dreht einen ersten Film und zieht mit 16 nach Berlin. Die Rollen finden Vogel, den jungen Autodidakten, und so kommt es, dass er schon drei Jahre vor seinem sogenannten Durchbruch in \"Kleine Haie\" seinen ersten Filmpreis für \"Rosamunde\" erhält.\n\nEs würde den Rahmen sprengen, hier die zahlreichen Fernseh- und Kinofilme aufzuzählen, an denen er mitwirkte, es sind weit mehr als 100. Der Mann ist eine Marke, seine eigene Marke, mit eigenem Kopf, viel Talent und einem Höchstmaß an Kraft.\n\nWir freuen uns sehr - endlich hat es geklappt und wir konnten ihn in die Hörbar locken...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121014_160000.mp3",
+        "published":"Sun, 14 Oct 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Zum Tod von Dirk Bach (Wiederholung vom 05.10.03)",
+        "episode":25,
+        "description":"Dirk Bach kam als Kölner auf die Welt und das war weiß Gott nicht zu überhören. Der 110 Kilo-Teddybär blieb in der Schule dreimal sitzen und war eine bekennende Couch-Kartoffel. Für die entsprechende Fernsehunterhaltung sorgte er am liebsten selbst, mit der \"Dirk-Bach-Show\", als Comedy-Serie \"Lukas\", für die er den Deutschen Comedypreis und die Goldene Kamera erhielt. Ob als bissiger Dschungelcampmoderator oder als \"Kleiner Mönch\". \n\nDie Schauspielschule hatte Dirk Bach nach der mittleren Reife ganz einfach übersprungen und ist gleich mutig auf die Bühne geklettert. Alfred Biolek entdeckte ihn in den 80er Jahren. Seinen Durchbruch feierte Bach in der \"Geierwally\" im Kölner Theater in der Filmdose und tobte wenig später als knubbeliger \"Puck\" durch Shakespeares Sommernachtstraum. Den letzten deutschen Filmpreis moderierte er ganz locker im roten Abendkleid. \n\nInsgeheim wünschte er sich aber immer noch eine Gastrolle in der Lindenstraße.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121007_160000.mp3",
+        "published":"Sun, 07 Oct 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Enie van de Meiklokjes",
+        "episode":26,
+        "description":"1974 kommt in Potsdam Doreen Grochowski zur Welt, ein munteres, kreatives Mädchen. Nach der mittleren Reife lässt sie sich zur Dekorateurin ausbilden, fängt an zu Modeln und wird von ihrer Agentur zum Fernsehsender VIVA geschickt. Dort moderiert sie bald verschiedene Sendungen und übernimmt 1999 für 2 Jahre \"Bravo TV\". Seitdem taucht Enie regelmäßig in unterschiedlichen Sendern mit unterschiedlichen Formaten auf, mal geht\'s um Frauen, mal ums Malen, aktuell ums Backen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120930_160000.mp3",
+        "published":"Sun, 30 Sep 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Daniel Brühl",
+        "episode":27,
+        "description":"\"Olé, da bist Du ja\", riefen die Barcelonesen aus, als Daniel Martin César im Sommer \'78 zur Welt kommt. Die Familie zieht nach Köln, Daniel wird 2-sprachig erzogen und übernimmt mit 8 seine erste Rolle - in einem Hörspiel. Mit 15 arbeitet er vor der Kamera und nach Abitur und Zivildienst kommt die große Film-Welle für Brühl ins Rollen. Spätestens als 2003 \"Good Bye, Lenin\" in die Kinos kommt, verliert der Schauspieler seinen Geheimtipp-Status. Jetzt hat er ein Buch über seine Heimatstadt Barcelona geschrieben und in Kreuzberg eine Tapas-Bar eröffnet.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120923_140000.mp3",
+        "published":"Sun, 23 Sep 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Claudia Michelsen",
+        "episode":28,
+        "description":"Claudia kommt in Dresden zur Welt. Schon früh verbringt sie mit ihrer Freundin Tine viel Zeit im Theater. Mit knapp 16 Jahren sprechen beide an der Ernst Busch Schauspielschule in Berlin vor und dürfen studieren. Bald arbeitet Michelsen mit Castorf, Hübchen, Godard und Müller. Sie heiratet, zieht für fast sieben Jahre nach Los Angeles und pendelt, so gut es eben geht, denn deutsche Kino- und Fernsehregisseure bieten ihr immer wieder exzellente Rollen an, die Claudia nicht ablehnen kann. Seit 2001 wohnt die zweifache Mutter wieder in Berlin, obwohl sie lieber gern am Meer leben würde. Zur Zeit kann man sie wieder in der 3. Staffel von \"Flemming\" im ZDF sehen oder demnächst im ARD-Zweiteiler \"Der Turm\" am 3./4. Oktober. \n\nTrotz ihrer knapp bemessenen Zeit engagiert sich für das Kinder- und Jugendwerk \"Die Arche\" und schenkte uns diesen Sonntag zwei Stunden ihres Lebens und die dazugehörigen Geschichten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120916_140000.mp3",
+        "published":"Sun, 16 Sep 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Anna Fischer",
+        "episode":29,
+        "description":"Anna kommt in Hohenschönhausen zur Welt. Mit ihrer Familie lebt sie in einer Plattenbausiedlung und ist mit drei Jahren definitiv zu jung, um auf den Fall der Mauer anzustoßen. Das Mädchen singt für sein Leben gern, wird Teil einer Girlgroup, gründet mit elf eine Band und wird 15jährig von Regisseur Hans-Christian Schmidt zu einem Casting bestellt.\n\nJetzt geht alles sehr schnell: In \"Lichter\" brilliert die Autodidaktin, bekommt weitere Aufsehen erregende Rollen und räumt innerhalb kürzester Zeit alle möglichen Nachwuchspreise ab. Parallel dazu ist sie Frontfrau der Band \"Panda\"...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120909_140000.mp3",
+        "published":"Sun, 09 Sep 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Bjarne Mädel",
+        "episode":30,
+        "description":"Bevor uns dieser Mann mit seinen Fähigkeiten um den Finger wickeln kann, muss er erstmal eine Jungs-Kindheit mit dem Nachnamen \"Mädel\" überstehen. Bjarne spielt super Fußball, geht mit seinem Vater, einem Bauingenieur, für ein Jahr nach Afrika, macht in Deutschland Abitur und jobbt dann in den USA. Nach zwei Jahren kehrt er zurück, studiert Schauspiel in Potsdam, wird an renommierten Theatern engagiert und bekommt die Rolle des \"Ernie\" in der Serie Stromberg. Seitdem ist sein ganzes Leben ein Rausch - ob \"Mord mit Aussicht\" oder \"Der Tatortreiniger\", Bjarne wird für seine Rollen gefeiert, hofiert, gelobt, geliebt und eingeladen - nun ist er bei uns...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120902_160000.mp3",
+        "published":"Sun, 02 Sep 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Zeitreise durch 10 Jahre \"Hörbar Rust\"",
+        "episode":31,
+        "description":"Zum Jubiläum präsentiert Radioeins Gesprächs-Ausschnitte in einer zweistündigen Sonderausgabe, durch die Moderator Jörg Thadeusz in gewohnt charmanter Art navigiert. Die unterhaltsame Zeitreise durch das erste Jahrzehnt \"Hörbar Rust\" erinnert an Begegnungen mit Judy Winter, Egon Bahr, Blixa Bargeld, David Garrett, Fritz Karl, Radiolegende Lord Knud und Peter Scholl-Latour.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120826_160000.mp3",
+        "published":"Sun, 26 Aug 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Maike Rosa Vogel",
+        "episode":32,
+        "description":"Maike wächst in einem sozialistisch geprägten Haushalt auf. Ihre Eltern hören deutsche Protestsongs, daher ist es für die Tochter später selbstverständlich, in ihrer Sprache zu singen. Nach der 12. Klasse bricht Maike die Schule ab, jobbt hier und da und schreibt sich schließlich an der Pop-Akademie Baden-Württemberg ein. 2008 erscheint ihr erstes Album, 2011 das 2., produziert von Sven Regener, wie auch das 3., das quasi noch taufrisch ist. Die vielseitige Frau Vogel macht selten Kompromisse und Musik für Filme, Bühne und das Theater. Mit sympathischem Sprechgesang zur kantigen Protestgitarre erzählt Sie Geschichten aus dem Alltag: Liebeslieder in kalten Zeiten, ironisch eingefärbte Gesellschaftskritik, charmant, ehrlich und immer gerade heraus.\n\nWir sind gespannt, welche Songs Ihr Leben prägten: Maike Rosa Vogel zu Gast an der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3",
+        "published":"Sun, 19 Aug 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hörbar Rust mit Maike Rosa Vogel (Zusammenschnitt ohne Musik)",
+        "episode":33,
+        "description":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3",
+        "published":"Sun, 19 Aug 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Marusha Aphrodite Gleiß",
+        "episode":34,
+        "description":"Die Nürnbergerin wächst in Griechenland, bei der Oma, auf. Mit fünf kommt sie zurück nach Deutschland, geht hier zur Schule und macht eine Lehre zur Industriekauffrau.\n\n1989 gründet sie in Nürnberg den ersten Techno-Club der Stadt, zieht nach Berlin und moderiert bei verschiedenen Radio-Sendern u.a. 17 Jahre \"Rave Satellite\" bei Fritz! Ihre Techno-Cover-Version von \"Somewhere over the Rainbow\" von 1994 verkauft sich über 500.000 mal und die Frau mit den - damals - grünen Augenbrauen wird zur Königin der Loveparade-Gemeinde.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120812_160000.mp3",
+        "published":"Sun, 12 Aug 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Thea Dorn",
+        "episode":35,
+        "description":"Thea wird in Offenbach geboren. Noch während der Schulzeit beginnt sie mit einer Gesangsausbildung und studiert nach dem Abitur Philosophie. Fünf Jahre unterrichtet sie an der FU in Berlin als wissenschaftliche Mitarbeiterin mit Schwerpunkt \"Moralphilosophie\". Während des Studiums erscheint Dorns erster Roman \"Berliner Aufklärung\", dem zahlreiche Veröffentlichungen folgen. Sie arbeitet als Moderatorin und ist dafür bekannt, ihre Positionen klar und unmissverständlich zu vertreten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120617_140000.mp3",
+        "published":"Sun, 17 Jun 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Michi Beck",
+        "episode":36,
+        "description":"Der gebürtige Stuttgarter spielt mit 14 in seiner 1. Band Keyboard und auch der Job als DJ bringt ihn der Musik näher. So nahe, daß er nach der 11. Klasse die Schule verlassen muß und eine Lehre zum Groß- und Außenhandelskaufmann machen wird. Doch längst hat das Schicksal neue Karten auf den Tisch gelegt: Durch die Gründung der \"Fantastischen Vier\" beginnt die atemberaubende Erfolgsgeschichte einer sehr erfolgreichen, deutschen Hiphop-Formation und er ist dabei. Zudem kennt man ihn als die eine Hälfte der \"Turntablerocker\".",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120610_160000.mp3",
+        "published":"Sun, 10 Jun 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Johnny Haeusler",
+        "episode":37,
+        "description":"Der gebürtige Berliner interessiert sich schon früh für das damals noch revolutionäre Faszinosum \"Computer\" und für - Punk. 1984 gründet er die Band \"Plan B\", die sich 12 Jahre später, nach mehreren Alben und Erfolgen als Vorband für \"The Clash\", die Ramones oder Duran Duran, auflöst. Johnny arbeitet als Moderator bei SFB2, bei Radio 4U, später \"Fritz\". Er gründet eine Multimedia-Agentur und hebt 2002 den bis heute höchst erfolgreichen Blog \"Spreeblick\" aus der Taufe. Aktuell wird die Wiederauferstehung von \"Plan B\" gefeiert - immer in Bewegung, der Mann. Wir konnten ihn einfangen - Johnny Haeusler, zu Gast an der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120603_140000.mp3",
+        "published":"Sun, 03 Jun 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Lisa Bassenge",
+        "episode":38,
+        "description":"Lisa wächst als Tochter einer Iranerin und eines Deutschen in Zehlendorf auf. Im \"Haus der Jugend\" stößt sie auf viele junge Musiker, die sich - genau wie sie - ausprobieren und zu Bands wie \"Seeed\" oder den \"Lemonbabies\" formieren. Nach dem Abitur absolviert sie ein Studium an der Hochschule für Musik \"Hanns Eisler\", gründet das \"Lisa-Bassenge-Trio\" und arbeitet mit den Jahren parallel an Musik-Projekten wie \"Micatone\", \"Nylon\" und \"Re:Jazz\". Mit ihrer unverwechselbaren Stimme bewegt sie sich bewusst zwischen verschiedenen Genres, ohne festgelegt werden zu wollen. Diesen Sonntag bewegt sich die junge zweifache Mutter zu uns nach Potsdam-Babelsberg und erzählt die Geschichten zum Soundtrack ihres Lebens.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120520_160000.mp3",
+        "published":"Sun, 20 May 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Sönke Wortmann",
+        "episode":39,
+        "description":"Geboren und aufgewachsen im westfälischen Marl wollte Sönke nach dem Abi zunächst Fußball-Profi beim damaligen Zweitligisten Westfalia Herne werden, doch für die Kicker-Karriere fehlte der Ehrgeiz. So brach er 1983 die Laufbahn zugunsten eines Regiestudiums an der Münchner Hochschule für Film und Fernsehen ab, verbrachte einige Zeit am Londoner Royal College of Art und jobbte als Taxifahrer und Schauspieler. 1991 gelangt ihm der Durchbruch mit der WG-Komödie „Allein unter Frauen“, gefolgt von „Kleine Haie“, „Der bewegte Mann“ und „Das Superweib\".\n\nSönke Wortmanns Popularität stieg mit jedem Film, es hagelte Preise und klingelnde Kinokassen wie für die WM-Doku „Deutschland. Ein Sommermärchen“, \"Die Päpstin\" und \"Das Wunder von Bern\". Zuletzt inszenierte der dreifache Vater im Berliner Grips Theater das Elternabendstück „Frau Müller muss weg“. Und nun kommt sein neuer Film „Das Hochzeitsvideo“ in die Kinos.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120513_140000.mp3",
+        "published":"Sun, 13 May 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Catherine von Fürstenberg-Dussmann",
+        "episode":40,
+        "description":"Catherine kommt im US-Bundesstaat Missouri zur Welt. Sie studiert englische Literatur und lässt sich am Drama Studio in London ausbilden, um in L.A. als Schauspielerin zu arbeiten. 1982 heiratet sie den deutschen Groß-Unternehmer Peter Dussmann, bekommt eine Tochter und führt ein zufriedenes Leben an der Seite eines erfolgreichen Mannes. Als ihr Gatte 2008 einen schweren Schlaganfall erleidet, nimmt sie seinen Platz ein und führt seitdem einen Konzern mit mehr als 1,5 Mrd Euro Jahres-Umsatz. Die ungewöhnliche Geschichte einer sicherlich ungewöhnlichen Frau - Catherine von Fürstenberg-Dussmann zu Gast an der Hörbar auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120506_140000.mp3",
+        "published":"Sun, 06 May 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Patricia Kaas",
+        "episode":41,
+        "description":"Das Kind einer deutschen Mutter und eines französischen Vaters nimmt bereits mit acht Jahren an zahlreichen Gesangswettbewerben teil, mit 13 bekommt sie schon ihr erstes Engagement. 1987 hat Patricia Kaas mit \"Mademoiselle chante le Blues\" ihren ersten Hit. Der Blues bleibt an ihrer Seite, denn bald stirbt die geliebte Mutter, die nun nicht mehr mitverfolgen kann, wie aus ihrem jüngsten Kind ein internationaler Star wird. Mehr als 15 Millionen Tonträger wurden bis heute verkauft. Sie sang mit Größen wie Charles Aznavour oder Yves Montand und nicht nur Alain Delon war in sie verliebt. Wir sind gespannt auf ihre Geschichten und die Musik ihres Leben. Bienvenue! Patricia Kaas zu Gast an der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120429_140000.mp3",
+        "published":"Sun, 29 Apr 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Michael Ballhaus",
+        "episode":42,
+        "description":"Es ist August in Berlin, als Michael dort 1935 das Licht der Welt erblickt, ohne Einfluß auf die Blende nehmen zu können. Als der Krieg tobt, ziehen seine Eltern nach Coburg und gründen wenig später ein Theater. Ballhaus macht eine Lehre zum Fotografen, arbeitet als Kamera-Assistent, dreht 1968 seinen ersten Kinofilm und trifft Ende der 60er schicksalsträchtig auf Rainer Werner Fassbinder, mit dem er 17 Filme dreht. Hollywood ruft an, wirklich, und Ballhaus folgt dem Ruf, dreht mit den größten Regisseuren und Schauspielern Filme wie \"Good Fellas\", \"Zeit der Unschuld\" oder \"Bram Stroker\'s Dracula\". Angeblich hat sich der Meister jetzt zur Ruhe gesetzt - aber glauben wir\'s? Wir sind gespannt Michael Ballhaus diesen Sonntag zu Gast an der Hörbar auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120422_160000.mp3",
+        "published":"Sun, 22 Apr 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Jürgen Domian",
+        "episode":43,
+        "description":"Jürgen kommt in Gummersbach zur Welt. Dem Einzelkind wird eine christlich geprägte Erziehung zuteil, die sein Leben für viele Jahre deutlich beeinflusst. Er studiert Germanistik, Philosophie und Politikwissenschaft in Köln und moderiert ab 1993 die WDR-Radiosendung \"Die heisse Nummer\", bevor das Talkformat von Eins Live sowohl im Fernsehen, als auch im Radio unter dem Titel \"Domian\" ausgestrahlt wird. Und das wird sie bis heute, der Moderator spricht dienstags bis samstags von ein bis zwei Uhr nachts mit Anrufern. Diesen Sonntag sind wir mal dran, dann ist Jürgen Domian zu Gast an der Hörbar auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120415_160000.mp3",
+        "published":"Sun, 15 Apr 2012 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dr. Karl ter Horst",
+        "episode":44,
+        "description":"Dr. Karl Wilhelm ter Horst oder kurz Pastor Kalle, 62, evangelischer Theologe. Ter Horst wächst im niedersächsischen Bentheim auf. Neben Evangelischer Theologie, die er gleich nach dem 1. Semester wieder aufgibt, studiert er Philosophie, Soziologie, Psychologie und Pädagogik. Er sympathisiert mit den 68ern, wird Mitglied der DKP, fliegt dort raus, organisiert zahlreiche Bürgerproteste, unterrichtet an Unis und Hochschulen und wird schließlich doch wieder von der Theologie beseelt. Heute leitet der streitbare Pfarrer eine Gemeinde in Schüttdorf, ruft seit vielen Jahren amerikanische Soldaten zum Desertieren auf und taufte nicht zuletzt Nina Hagen, wodurch ihm auch eine größere Öffentlichkeit zuteil wurde. Pastor Kalle, Ostersonntag zu Gast an der Hörbar Rust auf radioeins.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120408_140000.mp3",
+        "published":"Sun, 08 Apr 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Jenny Schily",
+        "episode":45,
+        "description":"Jenny kommt in Berlin zur Welt. Ihr Mutter Christine Hellwag studiert Theaterwissenschaften, der Vater, Otto Schily, arbeitet als Rechtsanwalt. Die Eltern trennen sich. Vater Otto wird zum Star-Anwalt der linken Szene. Nach dem Abitur studiert Jenny Slawistik und beginnt erst mit Anfang 20, einen Weg als Schauspielerin einzuschlagen. Nach Theater-Engagements in Dresden und Frankfurt am Main spielt sie neben Christoph Waltz in \"Du bist nicht allein\". Spätestens seit der Hauptrolle in \"Die Stille nach dem Schuss\" von Volker Schlöndorff im Jahr 2000 gehört sie zu den gefragtesten deutschen Schauspielern.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120401_140000.mp3",
+        "published":"Sun, 01 Apr 2012 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Bettina Wulff",
+        "episode":46,
+        "description":"Sie wächst im idyllischen Großburgwedel auf. Ein großes, sportliches Mädchen, das Basketball spielt und nach dem Abitur ins 20 km entfernte Hannover zieht. Dort studiert Bettina - damals noch Körner - bis 1998 Angewandte Medienwissenschaften und Medienrecht. Im Anschluss arbeitet sie in einer Internetagentur, als PR-Referentin und bekommt ihren ersten Sohn, Leander. 2006 lernt sie in Südafrika den niedersächsischen Ministerpräsidenten Christian Wulff kennen. Die beiden verlieben sich, heiraten und bekommen 2008 ihren Sohn Linus. Im Juni 2010 wird Bettina Wulffs Ehemann zum 10. Deutschen Bundespräsidenten gewählt und die Familie zieht nach Berlin. Unsere First Lady engagiert sich als Schirmherrin verschiedenster Projekte wie in der Stiftung \"Eine Chance für Kinder\", der Deutschen Kinder- und Jugend Stiftung sowie UNICEF Deutschland und übernimmt die Schirmherrschaft des Müttergenesungswerks...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110529.mp3",
+        "published":"Sun, 29 May 2011 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dennis Gastmann",
+        "episode":47,
+        "description":"In Osnabrück scheint bestimmt die Sonne, als unser heutiger Gast dort zur Welt kommt. Über seine Kindheit und Jugend ist nicht viel bekannt, außer, daß \"Oma die Beste\" ist und die Familie nach Holland in den Urlaub fährt. Nach dem Abitur studiert Dennis in Hamburg Politik und Journalistik, schreibt für Zeitungen, volontiert 2003 beim NDR und wird dort Autor der Satire-Sendung \"Extra 3\". Seit 2009 reist er für das Magazin \"Weltbilder\" als Reporter quer durch alle Kontinente und stellt vor Ort Fragen wie \"Woran starb das Tote Meer\" oder \"Wie libre ist Cuba wirklich?\" Dafür hagelt es Lob und Auszeichnungen. Für uns machte er sich aus dem verhältnismäßig nahen Hamburg auf die Reise... ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110522.mp3",
+        "published":"Sun, 22 May 2011 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Thomas Hampson",
+        "episode":48,
+        "description":"Thomas wächst in Spokane, im Bundesstaat Washington, auf. Das Musizieren gehört in seiner Familie zum Alltag. Dennoch wählt er eine ganze Reihe anderer Studienfächer, bevor ihm klar wird: er muss die Musik einfach zum Beruf machen. Thomas Hampson lässt sich bei einigen höchst profilierten Lehrern zum Sänger ausbilden, feiert 1981 in Düsseldorf sein Europa-Debüt und wird seitdem als einer der besten Baritone weltweit gefeiert. Zudem ist er Ehrenmitglied der Royal Academy of Music. Neben der Musik gilt seine große Liebe übrigens der deutschen Sprache...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110515.mp3",
+        "published":"Sun, 15 May 2011 14:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dirk Stermann",
+        "episode":49,
+        "description":"Dirk Stermann wird in Duisburg geboren, ein Vorgang, den der eigene Vater mit \"der erste Schritt zum Tod\" kommentiert. Der Hang zum morbid-melancholischen setzt sich durch, denn nach Abitur und Zivildienst zieht es ihn 1987 nach Wien, wo er vorübergehend Theaterwissenschaften studiert. Bald jobbt Dirk Stermann beim Jugendradio des ORF und lernt dort Christoph Grissemann kennen, mit dem er u.a. die wöchentliche Sendung \"Salon Helga\" moderiert. Seit 1997 wird das Duo mit der \"Show Royale\" auch bei radioeins gefeiert und gefürchtet. Letztes Jahr nun legte er seinen ersten Roman mit dem Titel \"6 Österreicher unter den ersten 5\" vor. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110508.mp3",
+        "published":"Sun, 08 May 2011 16:00:00 +0200",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.radioeins.de/archiv/podcast/hoerbar_rust.feed.podcast.xml",
+    "displaySubDomaine":"hoerbarrust",
+    "recentTitles":
+    [
+      "Thimon von Berlepsch",
+      "Stefan Kretzschmar",
+      "Michael Tsokos",
+      "Henry Hübchen",
+      "Johann von Bülow",
+      "Kirsten Bruhn",
+      "Rebecca Immanuel",
+      "Konstantin Gropper",
+      "Hajo Schumacher",
+      "Klaus Maria Brandauer",
+      "Ursula Karven",
+      "Volker Wieprecht",
+      "Christian Tramitz und Annette Frier",
+      "The BossHoss",
+      "Tom Schilling",
+      "Kai Havaii",
+      "Florian David Fitz",
+      "Fritz J. Raddatz",
+      "Claus Kleber",
+      "Dr. med. Michael de Ridder",
+      "Johanna Adorjan",
+      "Michael Gwisdek",
+      "Ronald Zehrfeld",
+      "Peer Steinbrück",
+      "Jürgen Vogel",
+      "Zum Tod von Dirk Bach (Wiederholung vom 05.10.03)",
+      "Enie van de Meiklokjes",
+      "Daniel Brühl",
+      "Claudia Michelsen",
+      "Anna Fischer",
+      "Bjarne Mädel",
+      "Zeitreise durch 10 Jahre \"Hörbar Rust\"",
+      "Maike Rosa Vogel",
+      "Hörbar Rust mit Maike Rosa Vogel (Zusammenschnitt ohne Musik)",
+      "Marusha Aphrodite Gleiß",
+      "Thea Dorn",
+      "Michi Beck",
+      "Johnny Haeusler",
+      "Lisa Bassenge",
+      "Sönke Wortmann",
+      "Catherine von Fürstenberg-Dussmann",
+      "Patricia Kaas",
+      "Michael Ballhaus",
+      "Jürgen Domian",
+      "Dr. Karl ter Horst",
+      "Jenny Schily",
+      "Bettina Wulff",
+      "Dennis Gastmann",
+      "Thomas Hampson",
+      "Dirk Stermann"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Jeden Sonntag von 14.00 bis 16.00 Uhr lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein. Dieser stellt sich in der Sendung vor und die Musik, die in seinem Leben von Bedeutung war und erzählt dazu die passenden Geschichten zum Soundtrack seines Lebens - alte Mixtapes werden rausgekramt - die erste Platte - intime Töne oder peinliche Songs mit persönlichen Erinnerungen des jeweiligen Gastes. Zwei Stunden voller Musik und toller Geschichten - Promis privat in der Hörbar Rust - immer sonntags von 14.00 - 16.00 Uhr. Die Highlights der jeweiligen Sendung können Sie hier downloaden.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radioeins.de/archiv/podcast/hoerbar_rust.html",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9371_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9371_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9371,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9371_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9371_5_1.png",
+    "author":"",
+    "title":"Hörbar Rust",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9371_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Musik",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Potsdam",
+      "_family":"radioeins",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"radioeins - Hörbar Rust",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/hoerbarrust.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9371_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9371_5.jpeg",
+    "subdomain":"hoerbarrust",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2461939,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3",
+        "idBroadcast":9371,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://217.151.154.57/stream1/livestream.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio 7 - ",
+    "subDomaine":"radio7",
+    "relayDisabled":false,
+    "rank":49,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio 7 bringt die Hits aus den letzten drei Jahrzehnten und lokale Themen und Nachrichten aus dem Sendegebiet im Südosten Baden-Württembergs und der Welt.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2243_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2243_3_1.png",
+    "longitude":9.9978842,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2243_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Radio 7 bringt die Hits aus den letzten drei Jahrzehnten und lokale Themen und Nachrichten aus aller Welt.",
+    "metaDataUrl":"http://217.151.154.57/stream1/livestream.mp3",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":48.4023451,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://217.151.154.57/stream1/livestream.mp3",
+    "displaySubDomaine":"radio7",
+    "recentTitles":
+    [
+      "TIM BENDZKO - Nur noch kurz die welt retten",
+      "SUNRISE AVENUE - Fairytale gone bad",
+      "BOSSON - One in a million",
+      "BAG RAIDERS - Way back home",
+      "SWEDISH HOUSE MAFIA - Don\'t you worry child",
+      "Radio 7 - Die beste Musik im Sueden",
+      "NICKELBACK - If everyone cared",
+      "MICHEL TELO - Ai se eu te pego",
+      "ICONA POP - I love it",
+      "WHITESNAKE - Here i go again(g)",
+      "ALICIA KEYS - Girl on fire",
+      "PINK - Who knew",
+      "HANSON - Mmm bop",
+      "KATY PERRY - California girls",
+      "SILBERMOND - Symphonie",
+      "MICHAEL JACKSON - Black or white",
+      "PASSENGER - Let her go",
+      "MAROON 5 & CHRISTINA AGUILERA - Moves like jagger",
+      "KESHA - Tik tok",
+      "QUEEN - I want it all",
+      "BRUNO MARS - When i was your man",
+      "ALANIS MORISSETTE - Crazy",
+      "JASON DERULO - In my head",
+      "RIHANNA - Diamonds",
+      "STATUS QUO - In the army now",
+      "PLAN B - She said",
+      "JOANA ZIMMER - I believe",
+      "PHIL COLLINS - You\'ll be in my heart",
+      "DAVID GUETTA & USHER - Without you",
+      "PINK FEAT NATE RUESS - Just give me a reason",
+      "PLAIN WHITE T\'S - Hey there delilah",
+      "KATY PERRY - Firework",
+      "PITBULL FEAT. CHRISTINA  AGUILERA - Feel this moment",
+      "RICHARD MARX - Right here waiting",
+      "DIE TOTEN HOSEN - Altes fieber",
+      "MELANIE C - Next best superstar",
+      "SHANIA TWAIN - Ka-ching!",
+      "SIMPLE PLAN & SEAN PAUL - Summer paradise",
+      "BON JOVI - We weren`t born to follow",
+      "PHIL COLLINS - I wish it would rain down",
+      "THE SCRIPT - Hall of fame",
+      "BRUNO MARS - Locked out of heaven",
+      "RIHANNA - Don\'t stop the music",
+      "FALCO - Rock me amadeus",
+      "LINKIN PARK - Castle of glass",
+      "JULI  - Dieses leben",
+      "LUCENZO & DON OMAR - Danza kuduro",
+      "EMELI SANDÉ - Read all about it",
+      "VELILE & SAFRI DUO - Helele",
+      "ICH & ICH - So soll es bleiben",
+      "ASAF AVIDAN - One day"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio7.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2243_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2243_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2243,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2243_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2243_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2243_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Pop",
+      "_city":"Ulm",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio 7",
+    "picture3Url":"",
+    "streamUrl":"http://217.151.154.57/stream1/livestream.mp3",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2243_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2243_5.jpeg",
+    "subdomain":"radio7",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":13747,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://217.151.154.57/stream1/livestream.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://217.151.154.57/stream1/livestream.mp3",
+        "idBroadcast":2243,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

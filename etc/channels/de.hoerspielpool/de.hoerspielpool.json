@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701611",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+      "testResult":null,
+      "name":"Jörg Albrecht: Hell of Fame - 24.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699897",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axc528P/130322_2103_hoerspielartmix_Jan-St-Werner-transaxelectroacoustique.mp3",
+      "testResult":null,
+      "name":"Jan St. Werner: transaxélectroacoustique - 22.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698155",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH5-8P/130315_0000_Hoerspiel-Pool_Ernst-Horn-Walter-Ruttmann-Weekend-Remix---.mp3",
+      "testResult":null,
+      "name":"Ernst Horn: Walter Ruttmann Weekend Remix - Sympathie für Schulze Remix - 15.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696458",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH_y4c/130308_0000_Hoerspiel-Pool_Michael-Lentz-Klinik.mp3",
+      "testResult":null,
+      "name":"Michael Lentz: Klinik - 08.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694616",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANG_24c/130301_0000_Hoerspiel-Pool_Ulrike-Haage-alles-aber-anders---12-Miniatu.mp3",
+      "testResult":null,
+      "name":"Ulrike Haage: alles, aber anders - 12 Miniaturen über Eva Hesse - 01.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692900",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN65y8d/130222_2103_Hoerspiele_Eran-Schaerf-fm-scenario---Sendesprache---v.mp3",
+      "testResult":null,
+      "name":"Eran Schaerf: fm-scenario - Sendesprache - verdeckte Operation - Ansage - Fehler - 22.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692571",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8P_y8c/130216_1505_Hoerspiele_Die-Quellen-sprechen-Teil-4-Polen-September.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Teil 4: Polen September 1939 - Juli 1941 - 16.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690911",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_Abd/130211_2003_Hoerspiele_Die-Quellen-sprechen-Zeitzeugen-Helga-Verle.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Zeitzeugen: Helga Verleger und Henny Brenner - 11.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690609",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H5-vc/130209_1505_Hoerspiele_Die-Quellen-sprechen-Teil-3-Deutsches-Reich.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Teil 3: Deutsches Reich und Protektorat September 1939 - September 1941 - 09.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689112",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_-gd/130204_2003_Hoerspiele_Die-Quellen-sprechen-Zeitzeugen--Abba-Naor-.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Zeitzeugen : Abba Naor und Walter Joelsen - 04.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17688694",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H5-rd/130202_1505_Hoerspiele_Die-Quellen-sprechen-Teil-2-Deutsches-Reich.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Teil 2: Deutsches Reich 1938-August 1939 - 02.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690912",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFg9Agf/130128_2003_Hoerspiele_Die-Quellen-sprechen-Zeitzeugen-Ursula-Beyr.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Zeitzeugen: Ursula Beyrodt und Salo Wolf - 28.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687237",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/bKOWBwQCuL9zsK1S/_2rc_H1S/_-iS/_AFy9Arf/130126_1505_Hoerspiele_Die-Quellen-sprechen-Teil-1-Deutsches-Reich.mp3",
+      "testResult":null,
+      "name":"Die Quellen sprechen. Teil 1: Deutsches Reich 1933-1937 - 26.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683552",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFH5-vf/130118_0001_Hoerspiele_to-rococo-rot-Walter-Ruttmann-Weekend-Remix.mp3",
+      "testResult":null,
+      "name":"to rococo rot: Walter Ruttmann Weekend Remix - Berlin 98 Version - 18.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683553",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp_-46/130113_1500_Hoerspiele_Julian-Doepp-Fotos-vom-guten-Leben.mp3",
+      "testResult":null,
+      "name":"Julian Doepp: Fotos vom guten Leben - 13.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683554",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52gP/130104_0020_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (20/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683555",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5y8d/130104_0019_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (19/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683556",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yFg/130104_0018_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (18/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683557",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5ykP/130104_0017_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (17/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683558",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52xH/130104_0016_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (16/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683559",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yrG/130104_0015_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (15/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683560",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52gf/130104_0014_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (14/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683561",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yk6/130104_0013_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (13/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683562",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5ybH/130104_0012_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (12/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683563",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52vP/130104_0011_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (11/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683564",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52xg/130104_0010_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (10/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683565",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5y46/130104_0009_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (09/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683566",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yFc/130104_0008_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (08/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683567",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5ybd/130104_0007_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (07/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683568",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52gy/130104_0006_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (06/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683569",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52kf/130104_0005_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (05/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683570",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yF6/130104_0004_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (04/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683571",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_U1S/_-QS/_-rc_AFG/130104_0003_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (03/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683572",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52xy/130104_0002_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (02/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683573",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5y8p/130104_0001_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+      "testResult":null,
+      "name":"Robert Musil: Der Mann ohne Eigenschaften. Remix (01/20) - 04.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17678839",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf520S/121228_0000_Hoerspiele_Alexander-Kluge-Chronik-der-Gefuehle---Der-.mp3",
+      "testResult":null,
+      "name":"Alexander Kluge: Chronik der Gefühle - Der lange Marsch des Urvertrauens - 28.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17677091",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf9-iS/121221_0000_Hoerspiele_Alexander-KlugeChronik-der-Gefuehle---Lernp.mp3",
+      "testResult":null,
+      "name":"Alexander Kluge:Chronik der Gefühle - Lernprozesse mit tödlichem Ausgang - 21.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17674520",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vg_y0S/121215_1505_Hoerspiele_Valere-Novarina-Dem-unbekannten-Gott.mp3",
+      "testResult":null,
+      "name":"Valère Novarina: Dem unbekannten Gott - 15.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17674521",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5ygd/121208_1506_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-44---Griechenl.mp3",
+      "testResult":null,
+      "name":"Virginia Woolf: Jacobs Zimmer (4/4) - Griechenland, London - 08.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17673850",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5ykd/121208_1505_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-34---London.mp3",
+      "testResult":null,
+      "name":"Virginia Woolf: Jacobs Zimmer (3/4) - London - 08.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672024",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5y8P/121201_1505_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-24---Cambridge.mp3",
+      "testResult":null,
+      "name":"Virginia Woolf: Jacobs Zimmer (2/4) - Cambridge und das Cornwall - 01.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17672025",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5yFc/121201_1505_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-14---Scarborou.mp3",
+      "testResult":null,
+      "name":"Virginia Woolf: Jacobs Zimmer (1/4) - Scarborough und Cambridge - 01.12.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17669206",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/9ANc_y0S/121123_2103_hoerspielartmix_Karl-Bruckmaier-Lieber-ein-alter-Daemon-als.mp3",
+      "testResult":null,
+      "name":"Karl Bruckmaier: \"Lieber ein alter Dämon als ein junger Gott\" - John Giorno - 23.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17666390",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AES/9-vd5-iS/121114_2003_radioKrimis_Robert-Hueltner-Der-Stalker-ARD-Radio-Tator.mp3",
+      "testResult":null,
+      "name":"Robert Hültner: Der Stalker (ARD Radio Tatort) - 14.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17664642",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/9A4d9AOS/121110_1505_Hoerspiele_Dietmar-Dath-Die-Abschaffung-der-Arten-Shor.mp3",
+      "testResult":null,
+      "name":"Dietmar Dath: Die Abschaffung der Arten. Shortcut - 10.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17661307",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vg_2OS/121102_0000_Hoerspiele_Alexander-Kluge-Chronik-der-Gefuehle---Lebe.mp3",
+      "testResult":null,
+      "name":"Alexander Kluge: Chronik der Gefühle - Lebensläufe - 02.11.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17661308",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AES/5yxd5AQS/121027_1505_Hoerspiele_Ilse-Aichinger-Blitzlichter.mp3",
+      "testResult":null,
+      "name":"Ilse Aichinger: Blitzlichter - 27.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17661309",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vg_-0S/121026_0000_Hoerspiele_Alexander-Kluge-Chronik-der-Gefuehle---Mass.mp3",
+      "testResult":null,
+      "name":"Alexander Kluge: Chronik der Gefühle - Massensterben in Venedig - 26.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17661310",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf_20S/121019_2103_hoerspielartmix_Ergo-Phizmiz-Conversations-with-Birds.mp3",
+      "testResult":null,
+      "name":"Ergo Phizmiz: Conversations with Birds - 19.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17661311",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf5-iS/121013_1505_Hoerspiele_Thomas-Harlan-Rosa---Die-Reise-nach-Kulmhof.mp3",
+      "testResult":null,
+      "name":"Thomas Harlan: Rosa - Die Reise nach Kulmhof (2/2) - 13.10.2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Ein Download-Angebot des Bayerischen Rundfunks",
+    "seoTitle":"Bayern 2 - Hörspiel Pool",
+    "subDomaine":"hoerspielpool",
+    "relayDisabled":false,
+    "rank":1500,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Ausgewähltes zum Neu- oder Wiederhören. Der \"Hörspiel Pool\" bietet große Produktionen des Bayerischen Rundfunks zum Anhören.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4094_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4094_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/4094_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Ausgewähltes zum Neu- oder Wiederhören. Der \"Hörspiel Pool\" bietet große Produktionen des Bayerischen Rundfunks zum Anhören.",
+    "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Jörg Albrecht: Hell of Fame - 24.03.2013",
+        "episode":0,
+        "description":"Den Forever 27-Club hat er nicht mehr geschafft, aber 31 ist auch noch früh: Der Autor Jörg Albrecht ist gestorben, und ein Feature widmet sich diesem kurzen, abgebrochenen Leben. Freunde und Kollegen des Verstorbenen treten auf und ab. Lieblingsfilme werden anzitiert, Schnipsel aus Leben und Werk ineinander geblendet, Verschwörungstheorien über den Tod gestrickt. War es die Arbeit, die ihn umgebracht hat, oder der Versuch, ein möglichst gutes Leben zu führen? Wer weiß besser darüber Bescheid: der Literaturwissenschaftler, die Agentin oder die Wahrsagerin? Und muß man den Toten überhaupt nachrufen, um sie zum Reden zu bringen? Mit Hell Of Fame schreibt Jörg Albrecht einen Nachruf auf sich selbst. Was anfangs wie die Chronik eines einzelnen Lebens aussieht, gleitet ab, überschlägt sich, wird zur Darstellung einer global ausgeweiteten urban-medialen Sphäre, in der die Bilder so stark geworden sind, dass sie die Subjekte, die sie abbilden sollen, längst abgedrängt haben. Aber wohin? Dorthin, wo man, aus Feigheit davor, über ordentliche Honorare zu streiten, mit dem Kurator nur Kaffee trinkt? Ist das Problem, dass niemand mehr hinter die Bilder schauen kann, oder dass es kein kohärentes Bild mehr gibt? Auch im aufpolierten Image des Autors, den niemand versteht, blitzt schon genug auf, zum Beispiel eine Vielzahl prekärer Existenzen in dieser einen Existenz. Immer wieder fragt der Nachruf auch, was ein Nachruf überhaupt sein kann, wenn er schon seit Monaten, manchmal Jahren oder gar Jahrzehnten fertig in der Schublade liegt. Oder, andersrum gefragt: Wenn die Bilder, die man erfüllen will, das Leben schon danach abtasten, was nach dem Tod davon bleibt, was heißt es dann noch, zu leben? Hat die Möglichkeit, dass alles „larger than life“ sein kann, endgültig ausgedient? Oder müssen wir überhaupt aufhören, über Leben zu sprechen und eher eine andere Kategorie finden für das, was wir tun, jeden Tag? / Mit Sebastian Weber, Jule Ronstedt, Ferdinand Schmidt-Modrow, Wiebke Puls, Ilona Grandke, Oliver Mallison, Martin Umbach, Johannes Zinner, Claudia-Sophie Jelinek / Komposition: Jakob Suske / Regie: Bernadette Sonnenbichler / BR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "published":"Sun, 24 Mar 2013 15:00:01 +0100",
+        "bitRate":128,
+        "contentLength":52074822
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Jan St. Werner: transaxélectroacoustique - 22.03.2013",
+        "episode":1,
+        "description":"Konzert mit Jan St. Werner/Black Manual (Valdir Jovenal, Juninho Quebradeira, Leo Leandro) im k.m Kunstverein München am 18. März 2013. \"Der Ort, an dem getanzt wird\", \"Haus der Initiation\", oder \"Versammlung\" – dem Wort Candomblé werden zahlreiche Bedeutungen zugesprochen. Zuallererst ist Candomblé jedoch eine Religion, die sich verbreitete, als afrikanische Sklaven, vor allem der Ethnie der Yoruba, nach Brasilien verschleppt wurden. Eine Religion, die bis in die 1970er Jahre in Brasilien verboten war, die von der katholischen Kirche lange Zeit als Teufelswerk verurteilt wurde, auch oder gerade weil sie Elemente des Katholizismus integriert. Zugleich ist Candomblé tief im Profanen verwurzelt – eine weltliche Religion, die in ihrer Wirkung auf das Außerweltliche zielt, das Transzendente aufrufen will, in der die Grenze zwischen Ritus und Alltag zwar existiert, aber nicht fest fixiert ist. Man könnte auch sagen: Candomblé ist ein multimediales Kunstwerk, das aus Tänzen, Musik, besonderem Essen und rituellen Gesten besteht; eine Form der Zusammenkunft und Gemeinschaft, eine Kraft und Dynamik (axé), die vermehrt werden möchte, gerade auch durch die Atabaques – rituelle Fasstrommeln – die \"sprechen\" können (a fala dos atabaques) und über eigene Kräfte verfügen. Jan St. Werners abstrakte Soundgebilde übersetzten die Candomblé-Musiker direkt in ihre musikalische Sprache, lernten sie auswendig und generierten daraus eigene Texturen. Nach einer ersten gemeinsamen Performance, die mehr als vier Stunden dauerte, finden die Musiker als Black Manual nun ein zweites Mal im Rahmen der vierteiligen, von Jan St. Werner konzipierten Veranstaltungsreihe Das Asymmetrische Studio im Kunstverein München e.V. zusammen: In den Räumen des Kunstvereins, wie auch in der daraus entstehenden radiophonen Ursendung, zerfließen die Grenzen zwischen Weltlichem und Außerweltlichem, verbinden sich Dynamiken der Lautsprecherkompositionen mit der live gespielten Instrumentalmusik, bäumen sich Klänge auf, zerfließen Rhythmen zu Geräuschen und lassen dabei mit den improvisatorischen Mitteln einer Live-Performance zwischen Konzert, Soundinstallation und Zeremonie Material für ein Radiostück entstehen. / Konzeption und Realisation: Jan St. Werner/Black Manual / BR/Kunstverein München 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axc528P/130322_2103_hoerspielartmix_Jan-St-Werner-transaxelectroacoustique.mp3",
+        "published":"Fri, 22 Mar 2013 21:03:01 +0100",
+        "bitRate":128,
+        "contentLength":48926336
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ernst Horn: Walter Ruttmann Weekend Remix - Sympathie für Schulze Remix - 15.03.2013",
+        "episode":2,
+        "description":"Weekend von Walter Ruttmann (1887-1941) ist eine Pionierleistung aus den frühen Tagen des Rundfunks. In einer 11 Minuten 10 Sekunden langen Collage von Worten, Musikfetzen und Klängen präsentierte der Filmemacher und Medienkünstler Walter Ruttmann am 13. Juni 1930 eine avantgardistische und radikal innovative Radioarbeit: ein akustisches Bild einer Berliner Wochenend-Stadtlandschaft. 68 Jahre nach der Entstehung des Originals lud die Redaktion Hörspiel und Medienkunst internationale Künstler zu Walter Ruttmann Weekend Remix-Versionen für den Bayerischen Rundfunk ein. \"Je öfter ich das angehört habe, desto mehr kam da ein naiver fröhlicher zukunftsfreudiger Charme raus, ein spielerischer Futurismus, dem ich mich nicht entziehen konnte. Ich machte also keine harten Schnitte, die Ruttmann verwendet hat, sondern hab in meinen Samples kleine Szenen mit weichen Blenden zusammengefasst.\" (Ernst Horn) / BR 1998",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH5-8P/130315_0000_Hoerspiel-Pool_Ernst-Horn-Walter-Ruttmann-Weekend-Remix---.mp3",
+        "published":"Fri, 15 Mar 2013 00:00:01 +0100",
+        "bitRate":128,
+        "contentLength":10912112
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Michael Lentz: Klinik - 08.03.2013",
+        "episode":3,
+        "description":"Ein Mann rasiert sich. Das Telefon läutet. Eine Frau teilt ihm mit, etwas im Briefkasten hinterlegt zu haben. Sie scheint sich verwählt zu haben. Die Frau ruft wieder an. Sie gibt vor, den Mann zu kennen. Immer wieder ruft sie an, meistens ganz früh am Morgen, wenn der Mann noch schläft. Warum hat er sein Handy nicht ausgeschaltet? Die Frau erzählt von sich. Er hört ihr zu. Sie sagt, sie liebe ihn. Und sie sagt, sie sei seit Wochen in der Psychiatrie. Von sich erzählt der Mann ihr nichts. Sie scheint auch nicht wirklich etwas von ihm wissen zu wollen. Eine Art Phasenverschiebung kommt in Gang. Ruft die Frau einmal nicht an, fehlt sie ihm. Wer nutzt wen aus? Die Verzweiflung der Frau scheint von Tag zu Tag zuzunehmen, immer merkwürdigere Dinge erzählt sie. Sie wird zudringlich, er möchte sie sich vom Leib halten, aber nicht ihre Stimme. Unfreiwillig wird der Mann zum Mitwisser bedrohlicher Vorgänge. Unfreiwillig? Und die Verschwörung, von der die Frau erzählt, die sie so eindringlich vor Augen stellt, wenn nun doch etwas daran wäre? Eines Tages bekommt der Mann tatsächlich einen Brief. Wenig später ein Paket. Die Sache nimmt Konturen an. Und sollte so schnell wie möglich beendet werden. / Mit Michael Lentz, Sophia Siebert / Komposition: Ernst Horn / Regie: Michael Lentz / BR 2008",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH_y4c/130308_0000_Hoerspiel-Pool_Michael-Lentz-Klinik.mp3",
+        "published":"Fri, 08 Mar 2013 00:00:01 +0100",
+        "bitRate":128,
+        "contentLength":66681242
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ulrike Haage: alles, aber anders - 12 Miniaturen über Eva Hesse - 01.03.2013",
+        "episode":4,
+        "description":"Eva Hesse zählt heute zu den wichtigsten bildenden Künstlerinnen des zwanzigsten Jahrhunderts. Geboren 1936 in Hamburg, gestorben 1970 in New York: ihr kurzes, intensives Leben ist von so vielen traumatischen Erlebnissen geprägt, das es mehrere Biografien ausfüllen könnte. Im Alter von zwei Jahren wird sie mit ihrer Schwester Helen auf dem Bahnhof Altona von den Eltern getrennt, die Emigration der jüdischen Familie gelingt nur, da die Eltern die Töchter alleine vorschicken und für Monate in einem niederländischen Kinderheim unterbringen. Später wird die Familie in New York wieder vereint. Die Mutter, die ihre eigenen Eltern im Holocaust verliert, kommt mit der neuen Lebenssituation im fremden Land nicht klar und springt von einem Hochhaus, als Eva zehn Jahre alt ist. „Mein Vater war Strafverteidiger und meine Mutter war die schönste Frau der Welt. Sie sah aus wie Ingrid Bergmann, und sie war depressiv“ schreibt Eva Hesse später über ihre Familie. Ihr Vater heiratet wieder. Mit der Stiefmutter wird Eva Hesse zeit ihres Lebens nicht warm. Nach der Schule beginnt sie ein Studium der Grafik, wirft dieses aber hin, da es ihr mit zu vielen Normen behaftet scheint. Sie beschließt, Künstlerin zu werden, da es das einzige zu schein scheint, das ihr leicht fällt. „Vielleicht stellen Worte die beste Möglichkeit zu kommunizieren dar, aber ich war nicht in der Lage das zu erreichen. Ich habe mehr Praxis im Visuellen. Ich weiß mehr darüber, und ich habe mehr Vertrauen zum Visuellen. Aber ich würde das alles gerne mit Worten erreichen“ schrieb Eva Hesse in eines ihrer Tagebücher. Anfang der sechziger Jahre erhält sie wesentliche Impulse durch die Arbeit von Marcel Duchamp. Doch bald verfolgt sie einen eigenständigen künstlerischen Ansatz: „Nicht-Kunst, nicht assoziativ, nicht anthropomorph, nicht geometrisch, nicht Nichts. Alles, aber anders, als Vision von einem ganz anderen Referenzpunkt.“ Sie wendet sich Objekten und Skulpturen zu, experimentiert mit Stoffen, Latex, Seilen, Polyesterharz, Fiberglas und mit sich zersetzenden Materialien. Sie lebt für ihre Kunst und versucht mithilfe ihrer Kunst am Leben zu bleiben. Als ihr mit 33 Jahren ein Gehirntumor diagnostiziert wird, und sie sich operieren lassen muss, arbeitet sie weiter. 1970 stirbt sie, gerade mal 34 Jahre alt. Ihr Verhältnis zum Schreiben ist trotz ihrer Selbstzweifel ausgeprägt vorhanden. Es erscheint in Form von Notizen, Listen, Stichwortsammlungen, Aufzählungen und nicht zuletzt in Form von Titeln, die sie ihren Werken gibt. Textgrundlage des Hörspiels bildet eine Auswahl unkommentierter Zitate aus ihren Aufzeichnungen und Interviews. Die Produktion folgt den Grundgedanken und der Materialbesessenheit Eva Hesses und transformiert die Sinnlichkeit ihrer Skulpturen und ihrer Materialien unmittelbar ins Akustische. / Mit Anna Lena Zühlke, Cristin König, Ingo Hülsmann, Myra Davies / Realisation: Ulrike Haage / BR 2009",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANG_24c/130301_0000_Hoerspiel-Pool_Ulrike-Haage-alles-aber-anders---12-Miniatu.mp3",
+        "published":"Fri, 01 Mar 2013 00:00:01 +0100",
+        "bitRate":128,
+        "contentLength":51769712
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Eran Schaerf: fm-scenario - Sendesprache - verdeckte Operation - Ansage - Fehler - 22.02.2013",
+        "episode":5,
+        "description":"fm-scenario ist ein intermediales Projekt von Eran Schaerf, das das Internet als Produktionsort nutzt, um Inhalte für weitere Medien - konkret: Radiosendung, Ausstellung und Publikation - zu generieren. Die Montage fm-scenario - Sendesprache - verdeckte Operation - Ansage - Fehler der Kuratorin Inke Arns bildet gleichzeitig den Ausgangspunkt der fm-scenario Ausstellung im Hartware MedienKunstVerein (16.2.-1.4.2013). „Bekannt für seine Höreranrufe, die von einem automatischen Moderator moderiert werden, bietet Die Stimme des Hörers seinen Hörern die Möglichkeit, eigene Nachrichten zu generieren. Wer sich dafür noch auf der einen oder anderen Pressekonferenz informieren will, aber keinen Presseausweis besitzt, kann sich durch eine Programmfunktion namens Maske einen Zugangscode erstellen und unbemerkt dabei sein. ‚Es handelt sich um eine Art Radio-Ticker des Bürgerjournalismus’, sagt ein Sprecher des Verbands Europäischer Nachrichtenagenturen, der nicht genannt werden möchte. ‚Das ist in Zeiten der Krise der Nachrichtenmedien durchaus sinnvoll. Fragwürdig ist jedoch, dass Die Stimme des Hörers keinerlei Hierarchie zwischen Informationsquellen anstrebt. Hörer werden Berichterstatter und umgekehrt – jeder hat Zugang zu dem Cloud Server des Senders, kann sich dort bedienen, eigene Berichte verfassen und ist bereits während seiner Suche auf Sendung.’“Das hört sich wie Demokratie an. Sie scheitert spätestens, wenn sie Programm wird und von dem automatischen Moderator eine Stimme erhält: „Ich verstehe Sie nicht. Sie sprechen in einem unbekannten Format. Sie haben das Format Nachrichten eingestellt und sprechen von sich. Oder wollten Sie eine private Nachricht verfassen?“ Während Die Stimme des Hörers eine Fiktion bleibt, in der die Montage der Wirklichkeit durch die Massenmedien wiederaufgeführt wird, bietet das Online-Studio fm-scenario.net Nutzerinnen die Möglichkeit, narrativer Module aus Eran Schaerfs Hörspielarbeit zu ihrer eigenen Version der Stimme des Hörers zusammenzustellen. / Eine Kooperation von: BR Hörspiel und Medienkunst; A Production e. V., Berlin; Hartware MedienKunstVerein, Dortmund; Haus der Kulturen der Welt, Berlin; Les Complices, Zürich; Museum für Konkrete Kunst, Ingolstadt; ZKM, Karlsruhe; Kulturstiftung des Bundes / Realisation: Eran Schaerf / Montage: Inke Arns / BR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN65y8d/130222_2103_Hoerspiele_Eran-Schaerf-fm-scenario---Sendesprache---v.mp3",
+        "published":"Fri, 22 Feb 2013 21:03:01 +0100",
+        "bitRate":128,
+        "contentLength":41147279
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Teil 4: Polen September 1939 - Juli 1941 - 16.02.2013",
+        "episode":6,
+        "description":"Die Quellen sprechen. Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933-1945. Eine dokumentarische Höredition. Nirgendwo in Europa lebten so viele Juden wie in Polen; an die zwei Millionen von ihnen fielen nach dem Einmarsch der Wehrmacht am 1. September 1939 unter deutsche Herrschaft. Fünf Jahre später lebten nur noch 10 Prozent von ihnen. Der vierte Teil konzentriert sich auf die antijüdische Politik der Deutschen in den besetzten polnischen Gebieten vom Kriegsbeginn 1939 bis zum Einmarsch in die Sowjetunion im Sommer 1941. Die Quellen berichten von den Umsiedlungs- und Deportationsvorhaben, der aggressiven Propaganda und den erweiterten, kriegsbedingten Freiräumen der Machthaber; sie dokumentieren die Verzweiflung der polnischen Juden, die ambivalente Rolle der Judenräte und die Zustände in den überfüllten Ghettos. Einen Tag vor dem Abschluss des deutsch-sowjetischen Nichtangriffspakts hatte Hitler am 22. August 1939 auf dem Obersalzberg seinen Generälen gegenüber verkündet: „Vernichtung Polens im Vordergrund. Ziel ist die Beseitigung der lebendigen Kräfte, nicht die Erreichung einer bestimmten Linie. [...] Herz verschließen gegen Mitleid. Brutales Vorgehen. 80 Millionen Menschen müssen ihr Recht bekommen.“ Nachdem sich im Oktober 1939 die letzten polnischen Truppen ergeben hatten, wurde Polen zwischen Deutschland und der Sowjetunion aufgeteilt. Die westlichen Provinzen wurden dem Deutschen Reich zugeschlagen. Das restliche besetzte Areal, das „Generalgouvernement“, sollte als Reservoir billiger Arbeitskräfte dienen, in das man „unerwünschte Elemente“ abschieben konnte. Dort lebten 12 Millionen Menschen, darunter etwa 1,5 Millionen Juden. In Polen zögerten die Besatzer nicht lange mit der Anordnung, die im Reich erst im September 1941 eingeführt wurde: die Kennzeichnung der jüdischen Bevölkerung. Die Bildung der ersten Ghettos wurde noch Ende 1939 befohlen. Im Warschauer Ghetto drängten sich ungefähr 445.000 Menschen auf vier Quadratkilometern zusammen. Etwa ein Viertel der Bewohner verhungerte oder starb an Typhus, Tuberkulose oder Schwindsucht. Das Massensterben begann bereits lange vor dem Einmarsch der Erschießungskommandos nach Ostpolen und dem Angriff auf die Sowjetunion im Juni 1941. / Mit Bibiana Beglau, Matthias Brandt und den Zeitzeugen Bea Green, Helga Verleger, Natan Grossmann, Marcel Reich-Ranicki, Salo Wolf / Bearbeitet von Klaus-Peter Friedrich / Mitarbeit: Andrea Löw / Skript Höredition: Michael Farin / Regie: Ulrich Gerhardt BR Hörspiel und Medienkunst in Zusammenarbeit mit dem Institut für Zeitgeschichte/Edition ‚Judenverfolgung 1933 – 1945‘, 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8P_y8c/130216_1505_Hoerspiele_Die-Quellen-sprechen-Teil-4-Polen-September.mp3",
+        "published":"Sat, 16 Feb 2013 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":107792125
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Zeitzeugen: Helga Verleger und Henny Brenner - 11.02.2013",
+        "episode":7,
+        "description":"An der dokumentarischen Höredition \"Die Quellen sprechen. Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933 - 1945\" beteiligten sich viele Holocaust-Überlebende. Sie gaben Opferdokumenten ihre Stimme. Während der Aufnahmen zur Höredition führte Regisseur Ulrich Gerhardt auch Gespräche mit den Zeitzeugen, bei denen sie von ihren eigenen Erfahrungen berichteten. Eine Auswahl der Gespräche wird in drei Sendeterminen auf Bayern 2 vorgestellt, sämtliche Gespräche finden sich auf der Webseite die-quellen-sprechen.de / Zusammenstellung: Kirsten Böttcher / BR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_Abd/130211_2003_Hoerspiele_Die-Quellen-sprechen-Zeitzeugen-Helga-Verle.mp3",
+        "published":"Mon, 11 Feb 2013 20:03:01 +0100",
+        "bitRate":128,
+        "contentLength":51791446
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Teil 3: Deutsches Reich und Protektorat September 1939 - September 1941 - 09.02.2013",
+        "episode":8,
+        "description":"Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933-1945. Eine dokumentarische Höredition. Mit Kriegsbeginn am 1. September 1939 verschlechterte sich die Lage der Juden drastisch. Gesellschaftlich isoliert, systematisch enteignet und mit rigiden Einreisebestimmungen möglicher Zielländer konfrontiert, scheiterten die meisten Emigrationsbemühungen der deutschen, österreichischen und tschechischen Juden. Die nationalsozialistische Politik ging von einer forcierten Auswanderung und Drangsalierung der jüdischen Bevölkerung zum Massenmord über. Die ausgewählten Quellen dokumentieren die frühen Versuche der deutschen Behörden, die Juden an die Randzonen ihres Machtgebietes zu deportieren und belegen die antijüdische Politik im sogenannten Protektorat Böhmen und Mähren. Es wurden vor allem Maßnahmen ergriffen, die bereits im Altreich und in Österreich erprobt waren. Die Regierung des besetzten Landes kooperierte. Seit Juni 1939 galten auch hier die „Nürnberger Gesetze“. Von Oktober 1939 an wurden in fünf Transporten etwa 5.000 Juden aus Wien, Mährisch-Ostrau und Kattowitz in das Gebiet um Nisko am San bei Lublin im deutsch besetzten Teil Polens verschleppt. Doch sowohl der Plan, die Juden ins polnische Generalgouvernement abzuschieben, als auch das Projekt, die europäischen Juden nach Madagaskar zu deportieren, scheiterten. Die Grundidee aber, alle Juden innerhalb des deutschen Einflussgebiets in eine abgelegene Region zu sperren, ließ die Planer nicht mehr los. Mit dem Angriff auf die Sowjetunion am 22. Juni 1941 war ein Wendepunkt erreicht: Es wurde ein Vernichtungskrieg. Mit der Berechtigung des Sicherheitsdienstes, „Exekutivmaßnahmen“ treffen zu können, mit dem „Kriegsgerichtsbarkeitserlass“ und dem späteren Befehl Heydrichs, sämtliche jüdische Kriegsgefangene zu erschießen, wurde im besetzten Gebiet ein rechtsfreier Raum geschaffen. Wochen später wurden Massenerschießungen an jüdischen Männern, Frauen und Kindern verübt. In dieser Phase stimmte Hitler der Kennzeichnungspflicht der Juden zu: Seit September 1941 mussten alle deutschen und im Protektorat lebenden Juden, die über sechs Jahre alt waren, einen gelben Stern tragen. / Mit Bibiana Beglau, Matthias Brandt und den Zeitzeugen Helga Hošková-Weissová, Ruth Klüger, Arno Hamburger, Walter Joelsen, Pavel Stránský / Bearbeitet von Andrea Löw / Skript Höredition: Katarina Agathos / Regie: Ulrich Gerhardt BR Hörspiel und Medienkunst in Zusammenarbeit mit dem Institut für Zeitgeschichte/Edition ‚Judenverfolgung 1933 – 1945‘, 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H5-vc/130209_1505_Hoerspiele_Die-Quellen-sprechen-Teil-3-Deutsches-Reich.mp3",
+        "published":"Sat, 09 Feb 2013 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":108410705
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Zeitzeugen : Abba Naor und Walter Joelsen - 04.02.2013",
+        "episode":9,
+        "description":"An der dokumentarischen Höredition \"Die Quellen sprechen. Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933 - 1945\" beteiligten sich viele Holocaust-Überlebende. Sie gaben Opferdokumenten ihre Stimme. Während der Aufnahmen zur Höredition führte Regisseur Ulrich Gerhardt auch Gespräche mit den Zeitzeugen, bei denen sie von ihren eigenen Erfahrungen berichteten. Eine Auswahl der Gespräche wird in drei Sendeterminen auf Bayern 2 vorgestellt, sämtliche Gespräche finden sich auf der Webseite die-quellen-sprechen.de / Zusammenstellung: Kirsten Böttcher / BR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_-gd/130204_2003_Hoerspiele_Die-Quellen-sprechen-Zeitzeugen--Abba-Naor-.mp3",
+        "published":"Mon, 04 Feb 2013 20:03:01 +0100",
+        "bitRate":128,
+        "contentLength":49446695
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Teil 2: Deutsches Reich 1938-August 1939 - 02.02.2013",
+        "episode":10,
+        "description":"Die Quellen sprechen. Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933-1945. Eine dokumentarische Höredition. In der immer aggressiveren antijüdischen Politik im Deutschen Reich setzt der Novemberpogrom 1938 die entscheidende Zäsur vor dem Beginn der Deportationen. Die sich anschließende, enthemmte \"Arisierung\" und die radikalere Vertreibungspolitik gegen die jüdische Bevölkerung gehen Hand in Hand mit dem NS-Rüstungsplan und der Expansion des Deutschen Reichs. In den zwanzig Monaten zwischen Januar 1938 und dem 31. August 1939 annektierte Deutschland im März Österreich, im Oktober das Sudetenland. Im März 1939 \"übergab\" Litauen das Memelland an die NS-Regierung. Eine Woche zuvor war die Wehrmacht in Prag einmarschiert, am 1. September fiel sie in Polen ein. In seiner Reichstagsrede vom 30. Januar 1939 gab Hitler dem „internationalen Finanzjudentum“ die Schuld an einem möglichen neuen Weltkrieg und fügte an, dass das Ergebnis „die Vernichtung der jüdischen Rasse in Europa“ sein werde. Einen konkreten Plan zum Genozid hatte er aber noch nicht. Doch tauchten in den Zeitungen vermehrt Begriffe auf wie „endgültige Lösung der Judenfrage“. Spätestens seit dem Novemberpogrom herrschte für Juden in Deutschland Lebensgefahr. Im Jahr 1938 verfünffachte sich die Zahl der Flüchtlinge: Aus dem Altreich emigrierten etwa 40.000 Juden und an die 60.000 aus Österreich. Allerdings wurden sie nirgendwo mit offenen Armen empfangen. Dokumente des 2. Teils u. a.: ein Tagebuchauszug eines jüdischen Wiener Arztes, der den von den Österreichern bejubelten Einmarsch der Deutschen am 11. März 1938 beschreibt und von Hetzjagden auf jüdische Geschäfte berichtet, die „liquidiert“ oder „arisiert“ werden; Eichmanns Brief an seinen Vorgesetzten Hagen über seine Methoden, die österreichischen Juden zur Auswanderung zu zwingen; ausländische Presseberichte, die internationale Proteste gegen die Massenverhaftungen in Deutschland fordern; Heydrichs Fernschreiben zur Durchführung des Novemberpogroms; Bittbrief eines Vaters an eine Londoner Hilfsorganisation um einen Kindertransportplatz für seine Tochter; ein anonymer Bericht, der das Flüchtlingschaos an den deutschen Grenzen schildert. / Mit Bibiana Beglau, Matthias Brandt und den Zeitzeugen Henny Brenner, Inge Lammel, Abba Naor, Ari Rath, Uri Siegel / Bearbeitet von Susanne Heim / Skript Höredition: Susanne Heim / Regie: Ulrich Gerhardt BR Hörspiel und Medienkunst in Zusammenarbeit mit dem Institut für Zeitgeschichte/Edition ‚Judenverfolgung 1933 – 1945‘, 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H5-rd/130202_1505_Hoerspiele_Die-Quellen-sprechen-Teil-2-Deutsches-Reich.mp3",
+        "published":"Sat, 02 Feb 2013 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":101297039
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Zeitzeugen: Ursula Beyrodt und Salo Wolf - 28.01.2013",
+        "episode":11,
+        "description":"An der dokumentarischen Höredition \"Die Quellen sprechen. Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933 - 1945\" beteiligten sich viele Holocaust-Überlebende. Sie gaben Opferdokumenten ihre Stimme. Während der Aufnahmen zur Höredition führte Regisseur Ulrich Gerhardt auch Gespräche mit den Zeitzeugen, bei denen sie von ihren eigenen Erfahrungen berichteten. Eine Auswahl der Gespräche wird in drei Sendeterminen auf Bayern 2 vorgestellt, sämtliche Gespräche finden sich auf der Webseite die-quellen-sprechen.de / Zusammenstellung: Kirsten Böttcher / BR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFg9Agf/130128_2003_Hoerspiele_Die-Quellen-sprechen-Zeitzeugen-Ursula-Beyr.mp3",
+        "published":"Mon, 28 Jan 2013 20:03:01 +0100",
+        "bitRate":128,
+        "contentLength":47919472
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Quellen sprechen. Teil 1: Deutsches Reich 1933-1937 - 26.01.2013",
+        "episode":12,
+        "description":"Die Quellen sprechen. Die Verfolgung und Ermordung der europäischen Juden durch das nationalsozialistische Deutschland 1933-1945. Eine dokumentarische Höredition. Der erste Teil der Höredition dokumentiert chronologisch die deutsche Judenpolitik bis 1937. Dreißig historische Schriftstücke zeugen davon, wie die deutschen Juden mit allen Mitteln – durch neu geschaffene Verordnungen oder durch rohe Gewalt – drangsaliert, entrechtet und aus ihrer Heimat vertrieben wurden. Die Masse der Bevölkerung reagierte darauf passiv. Fünf jüdische Überlebende des Holocaust sowie zwei Schauspieler geben den historischen Dokumenten ihre Stimme. Sie berichten von den Massenentlassungen jüdischer Beamter, von reichsweiten antijüdischen Boykotts, von Misshandlungen im ersten offiziellen KZ in Dachau, und von der Verdrängung der Juden aus dem öffentlichen Dienst, den Schulen, aus der Wirtschaft und von der Entrechtung mittels der Durchsetzung des „Arierparagraphen“ und der „Nürnberger Gesetze“. Als Goebbels Ende 1937 die „Beseitigung“ der Juden aus dem deutschen Kulturleben verkündete, hatten mehr als 125.000 Juden Deutschland verlassen. / Mit Bibiana Beglau, Matthias Brandt und den Zeitzeugen Ursula Beyrodt, Henry G. Brandt, Ernst Grube, Anita Lasker-Wallfisch, Max Mannheimer / Bearbeitet von Wolf Gruner / Skript Höredition: Katarina Agathos/Michael Farin / Regie: Ulrich Gerhardt / BR Hörspiel und Medienkunst in Zusammenarbeit mit dem Institut für Zeitgeschichte/ Edition ‚Judenverfolgung 1933 – 1945‘, 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/bKOWBwQCuL9zsK1S/_2rc_H1S/_-iS/_AFy9Arf/130126_1505_Hoerspiele_Die-Quellen-sprechen-Teil-1-Deutsches-Reich.mp3",
+        "published":"Sat, 26 Jan 2013 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":98057438
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"to rococo rot: Walter Ruttmann Weekend Remix - Berlin 98 Version - 18.01.2013",
+        "episode":13,
+        "description":"Die einzige Hörspielarbeit des Filmemachers Walter Ruttmann, entstanden 1930, schrieb Rundfunkgeschichte: Weekend. In diesem \'Tonfilm ohne Bilder\' zeichnet Ruttmann mit Geräuschen und Satzfetzen das akustische Bild eines Großstadtwochenendes. Die Produktion, die den Charakter eines Sampling avant la lettre hat, galt lange als verschollen. Erst 1978 wurde in New York eine Kopie entdeckt. 20 Jahre später diente Ruttmanns O-Ton-Collage als Vorlage für das Projekt Walter Ruttmann Weekend Remix. Sechs Musiker und DJs konfrontierten den Hörspielklassiker mit den Möglichkeiten und Methoden von Mix und Remix. Die 11-Minuten-Länge des historischen Originals war dabei die einzige Vorgabe. Jede Remixversion eröffnet eine neue ästhetische Perspektive und macht Hörspiel gelegentlich auch tanzbar. \"Laut des Schnittplans ist Weekend ja sehr musikalisch geschnitten, mit verschiedenen Taktmassen, beim Freitagabend zum Beispiel, wo die ganze Freitagsarbeits- und Maschinenwelt nach ¼ Noten, nach 1/16 Noten geschnitten ist und das haben wir grob beachtet, für heute gings eher darum, rauszufinden und zu hören, wie heute ein Wochenende in Tönen funktioniert, so als unser Leitfaden.\"( to rococo rot) / BR 1998",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFH5-vf/130118_0001_Hoerspiele_to-rococo-rot-Walter-Ruttmann-Weekend-Remix.mp3",
+        "published":"Fri, 18 Jan 2013 00:01:01 +0100",
+        "bitRate":128,
+        "contentLength":9901069
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Julian Doepp: Fotos vom guten Leben - 13.01.2013",
+        "episode":14,
+        "description":"Jeder will Teil einer Geschichte sein. Aram, erfolgloser Fotograf in Neukölln, erzählt von einem falschen Frühling. Von Elena, seiner Jugendliebe, die seit der Schulzeit mit seinem besten Freund zusammen ist. Und vom Jahr der Krise, als Elena ihren Job verliert und der Freund beim Frühstück im Café mit ihr Schluss macht. Was tun, wenn die Erfolgsgeschichte stockt? Aram will Elena helfen – und zugleich herausfinden, was es mit dem guten Leben auf sich hat. Mit den Leuten, die immer schon wissen, wo es lang geht. Wie die Schüler im Park vor seinem Haus, deren Rituale Aram beobachtet. Bis sie ihn plötzlich ansprechen. Oder wie der alternde Filmproduzent, der eines Tages bei Elena anruft. Auf einem Gutshof tief in der Uckermark soll sie für ihn arbeiten. Doch Elena versagt. Und Aram macht sich auf den Weg, sie zu retten. \"Fotos vom guten Leben\" kreist um die Panik in der Großstadt, um Zweifel und versagende Selbstbilder. Momentaufnahmen des prekären Alltags werden zum Material für Arams Suche nach einer Erzählung, die nur ihm gehört. So realistisch wie märchenhaft, so sprunghaft wie intensiv, folgt das Hörspiel seinem Versuch, Liebe und Selbst neu zu erfinden – als Entwicklungsroman zwischen Kammerspiel und Cinemascope, zwischen Abgesang und Mutprobe. / Mit Tom Schilling, Maria Magdalena Wardzinska, Axel Werner, Mathilde Bundschuh, Jeremy Mockridge, Susanne Hoss, Janna Horstmann / Komposition: Matthias Grübel / Regie: Julian Doepp / BR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp_-46/130113_1500_Hoerspiele_Julian-Doepp-Fotos-vom-guten-Leben.mp3",
+        "published":"Sun, 13 Jan 2013 15:00:01 +0100",
+        "bitRate":128,
+        "contentLength":53613748
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (20/20) - 04.01.2013",
+        "episode":15,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52gP/130104_0020_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:20:01 +0100",
+        "bitRate":128,
+        "contentLength":36445696
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (19/20) - 04.01.2013",
+        "episode":16,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5y8d/130104_0019_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:19:01 +0100",
+        "bitRate":128,
+        "contentLength":44564992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (18/20) - 04.01.2013",
+        "episode":17,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yFg/130104_0018_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:18:01 +0100",
+        "bitRate":128,
+        "contentLength":41382400
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (17/20) - 04.01.2013",
+        "episode":18,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5ykP/130104_0017_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:17:01 +0100",
+        "bitRate":128,
+        "contentLength":47124992
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (16/20) - 04.01.2013",
+        "episode":19,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52xH/130104_0016_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:16:01 +0100",
+        "bitRate":128,
+        "contentLength":42649600
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (15/20) - 04.01.2013",
+        "episode":20,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yrG/130104_0015_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:15:01 +0100",
+        "bitRate":128,
+        "contentLength":42287616
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (14/20) - 04.01.2013",
+        "episode":21,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52gf/130104_0014_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:14:01 +0100",
+        "bitRate":128,
+        "contentLength":42438656
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (13/20) - 04.01.2013",
+        "episode":22,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yk6/130104_0013_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:13:01 +0100",
+        "bitRate":128,
+        "contentLength":47279104
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (12/20) - 04.01.2013",
+        "episode":23,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5ybH/130104_0012_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:12:01 +0100",
+        "bitRate":128,
+        "contentLength":52539392
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (11/20) - 04.01.2013",
+        "episode":24,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52vP/130104_0011_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:11:01 +0100",
+        "bitRate":128,
+        "contentLength":42229760
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (10/20) - 04.01.2013",
+        "episode":25,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52xg/130104_0010_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:10:01 +0100",
+        "bitRate":128,
+        "contentLength":41312256
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (09/20) - 04.01.2013",
+        "episode":26,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5y46/130104_0009_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:09:01 +0100",
+        "bitRate":128,
+        "contentLength":42606592
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (08/20) - 04.01.2013",
+        "episode":27,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yFc/130104_0008_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:08:01 +0100",
+        "bitRate":128,
+        "contentLength":43687936
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (07/20) - 04.01.2013",
+        "episode":28,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5ybd/130104_0007_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:07:01 +0100",
+        "bitRate":128,
+        "contentLength":56539264
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (06/20) - 04.01.2013",
+        "episode":29,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52gy/130104_0006_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:06:01 +0100",
+        "bitRate":128,
+        "contentLength":42385408
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (05/20) - 04.01.2013",
+        "episode":30,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52kf/130104_0005_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:05:01 +0100",
+        "bitRate":128,
+        "contentLength":40816640
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (04/20) - 04.01.2013",
+        "episode":31,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5yF6/130104_0004_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:04:01 +0100",
+        "bitRate":128,
+        "contentLength":41451520
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (03/20) - 04.01.2013",
+        "episode":32,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_U1S/_-QS/_-rc_AFG/130104_0003_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:03:01 +0100",
+        "bitRate":128,
+        "contentLength":54231168
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (02/20) - 04.01.2013",
+        "episode":33,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff52xy/130104_0002_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:02:01 +0100",
+        "bitRate":128,
+        "contentLength":37949440
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Musil: Der Mann ohne Eigenschaften. Remix (01/20) - 04.01.2013",
+        "episode":34,
+        "description":"20 Stunden Weltliteratur. Die sich weit verzweigende Handlung, immer wieder von essayistischen Exkursen unterbrochen, ist in der österreichisch-ungarischen k.u.k. Monarchie kurz vor dem ersten Weltkrieg angesiedelt. Der Zugriff auf das gesamte Mann ohne Eigenschaften-Konvolut, das sich aus Veröffentlichungen, aus Druckfahnen und Entwürfen in unterschiedlichen Textstufen zusammensetzte, aber auch Musils essayistische und vielstimmige Erzählweise und die Unabgeschlossenheit des Romans führten zu der Überlegung Hör- und Gedankenspiele zu produzieren und eine auditive Erzählform mit inszenierten Textpassagen und nacherzählenden bzw. reflexiven Originaltonsequenzen zu entwickeln. / Mit Manfred Zapatka, Ulrich Matthes, Susanne Wolff, Wolf Bachofner, Ulli Maier, Angela Winkler, Josef Bierbichler, Ignaz Kirchner, Wolfgang Hübsch, Sunnyi Melles, Achim Buch, Nadine Geyersbach, Michael Rotschopf, Peter Fricke, Dorothee Hartinger, Jens Wawrczeck, Gottfried Breitfuß, Oliver Stern, Felix von Manteuffel / Konzept: Katarina Agathos, Herbert Kapfer / Skript: Katarina Agathos, Klaus Buhlert, Herbert Kapfer / Regie: Klaus Buhlert / Wissenschaftliche Beratung: Walter Fanta / BR 2004",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/Mw1ls6i6BU1S/_-Ff5y8p/130104_0001_Hoerspiel-Pool_Robert-Musil-Der-Mann-ohne-Eigenschaften-Re.mp3",
+        "published":"Fri, 04 Jan 2013 00:01:01 +0100",
+        "bitRate":128,
+        "contentLength":40697856
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Alexander Kluge: Chronik der Gefühle - Der lange Marsch des Urvertrauens - 28.12.2012",
+        "episode":35,
+        "description":"In \"Der lange Marsch des Urvertrauens\" versammelt Kluge \"Entscheidungen vor dem Hintergrund der gesamten Geschichte unseres Planeten, sucht ungenutzte Möglichkeiten zum Widerstand\". Es geht um die \"Zähigkeit, Vollständigkeit, Hartnäckigkeit und Leidenschaft der Suche.\" Aus der Anfangszeit des Kinos existiert eine Aufnahme von der öffentlichen elektrischen Hinrichtung eines Elefanten, der auf Coney Island drei Wärter getötet hatte. Dieses Material taucht bei Alexander Kluge immer wieder auf, als Erzählung, als Bild, als Film. Der für Kluge wichtigste Moment ist dabei der vertrauensvolle Blick des riesigen Tiers, das sich ruhig zu seiner Hinrichtung führen lässt.Marx nennt Ideologie das notwendige falsche Bewusstsein. Dazu gehört, dass wir Menschen als Säuglinge mit gläubigem Blick in die Wirklichkeit schauen und weil die Mutter zurückblickt, glauben wir, dass die Welt es gut mit uns meint. Das ist ein grundlegender Irrtum, von dem wir leben bis wir sterben. Unsere Welt meint es mit den Menschen nicht gut. Wir können diesen Irrtum aber nicht aufgeben. Freud nennt das das Urvertrauen. (Alexander Kluge) / Mit Alexander Kluge, Wolfgang Hinze, Ilja Richter, Hanns Zischler, Johannes Herrschmann, Peter Fricke, Christian Friedel, Monika Manz, Elfriede Jelinek, Romuald Karmakar, Christoph Englert / Musik: Woog Riots sowie Solisten des Symphonieorchesters des Bayerischen Rundfunks / Bearbeitung und Regie: Karl Bruckmaier / BR 2009",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf520S/121228_0000_Hoerspiele_Alexander-Kluge-Chronik-der-Gefuehle---Der-.mp3",
+        "published":"Fri, 28 Dec 2012 00:00:01 +0100",
+        "bitRate":128,
+        "contentLength":53532664
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Alexander Kluge:Chronik der Gefühle - Lernprozesse mit tödlichem Ausgang - 21.12.2012",
+        "episode":36,
+        "description":"Alexander Kluge sagt, die Lernprozesse seien eine Fortsetzung der Schlachtbeschreibung und eine Art Reinschrift seiner Science-Fiction-Filme Der große Verhau (1971) und Willi Tobler und der Untergang der 6. Flotte (1972). Die Verlagerung der Geschichte ins Weltall gepaart mit der dilettantischen Darstellung der Schlachten - fliegende Schrauben, Transistorteile und anderer Metallschrott vor selbstgebasteltem Sternenhimmel - bietet den vielleicht humorvollsten Zugang zu Kluges Katastrophen-Erzählungen. Die Ausbeutung sämtlicher Ressourcen und die Selbstzerstörung der Menschheit werden in den fremden Galaxien im Zeitraffer noch einmal durchgespielt. Das Ende bleibt gegen alle Voraussicht offen. FORTSCHRITT OPEN END im Westen der Galaxie. Lebenswille breitet sich aus, als die Erde untergeht. Wie kann der Schwarze Krieg vier Jahre dauern, wenn doch gleich am ersten Tag die Erde völlig zerstört wurde? Vier Veteranen aus Stalingrad, mehrfach gentechnisch erneuert, setzen sich in den Sektor Morgenröte ab, wo sie angesichts einer objektiv hoffnungslosen Lage auf bessere Zeiten warten. / Mit Alexander Kluge, Wolfgang Hinze, Ilja Richter, Johannes Herrschmann, Nico Holonics, Peter Fricke, Helmut Stange, Monika Manz, Chorgemeinschaft Friese 2, Elfriede Jelinek, Heinz Tessun, Helmut Haase, Petra Schiessel, Wolfgang Beyer / Musik: Michaela Melián / Bearbeitung und Regie: Karl Bruckmaier / BR 2009",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf9-iS/121221_0000_Hoerspiele_Alexander-KlugeChronik-der-Gefuehle---Lernp.mp3",
+        "published":"Fri, 21 Dec 2012 00:00:01 +0100",
+        "bitRate":128,
+        "contentLength":54260331
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Valère Novarina: Dem unbekannten Gott - 15.12.2012",
+        "episode":37,
+        "description":"La Chair de l\'homme / Das Fleisch des Menschen, 2005 erschienen, ist mit 525 Seiten das bislang umfangreichste dramatische Werk von Valère Novarina. Kapitel XXV - Au dieu inconnu / Dem unbekannten Gott besteht aus einer Aufzählung von dreihundertundelf Gottesdefinitionen. Ein nicht endender Versuch, das Unaussprechliche in Worte zu fassen, der an die Grenzen des Denk- und Formulierbaren führt und ein schillerndes Kaleidoskop freilegt. Die zitierten Autoren reichen von der Antike über die Kirchenväter und Mystiker aller Religionen zur Moderne, von erklärten Agnostikern zu bekannten wie unbekannten Zeitgenossen. In Zeiten der Neubesinnung auf Religiosität weist dieser Text weit hinaus über jede ideologische Engführung. Er stellt ein Abenteuer menschlichen Denkens und der Sprache dar. Aufgewachsen am Genfer See und in den Bergen, schreibt Novarina täglich seit 1958, veröffentlicht seit 1978 und wurde zu einer absolut singulären Stimme der Literatur und des Theaters in Frankreich. Sein Schreiben steht in seiner Unbedingtheit dem der Autoren der Art brut, Artaud und Jarry näher als jeder narrativen Konvention. Zirkus, Jahrmarkttheater, Mysterienspiel, Pinocchio und Louis de Funès, aber auch das japanische N?-Theater sind Referenzen, die er sich in seinen überschäumenden Sprachkunstwerken anverwandelt. Neologismen, verdrehte Grammatik, seitenlange Aufzählungen von Namen oder Ereignissen, Stehgreif- oder Kinderverse, Nachrichten im Stile von Tagesaktualitäten oder Schlachtenberichten, berufsspezifische Wendungen, Zitate quer durch die Geistesgeschichte, Politparolen, Werbesprüche – der gesamte Fundus der Sprache ist Gegenstand seines Schreibens, das die Vitalität des Sprechens jenseits bloßen Informationstransfers mobilisiert und ein Begreifen in anderen Tiefenschichten provoziert: ontologisches, welthaltiges Worttheater und vielstimmiger Roman théâtral. Für die Übersetzung von Dem unbekannten Gott recherchierte Leopold von Verschuer jede einzelne Originalquelle der Zitate und holt dafür so viele Stimmen wie zitierte Autoren vors Mikrofon. / Mit Eva Brunner, Leopold von Verschuer, Tony de Mayer, Manuel Rösler / Übersetzung und Realisation: Leopold von Verschuer / BR 2011",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vg_y0S/121215_1505_Hoerspiele_Valere-Novarina-Dem-unbekannten-Gott.mp3",
+        "published":"Sat, 15 Dec 2012 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":76372043
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Virginia Woolf: Jacobs Zimmer (4/4) - Griechenland, London - 08.12.2012",
+        "episode":38,
+        "description":"Eine Schriftstellerin um die Vierzig im Prozess, ihren scharfen Blick auf die Welt, deren Politik und innere Mechanik in erfahrungsnaher Literatur darzustellen. Eine untergehende Gesellschaftsform im England der (Vor-)Kriegszeit und ein junger Mann, der im Ersten Weltkrieg stirbt, noch bevor er seine Persönlichkeit voll entfalten konnte. Virginia Woolf, ihr Gegenstand und der Wunsch nach einem neuen, unmittelbaren Ausdruck: Das sind die äußeren Koordinaten des Romans Jacobs Zimmer, der 1922 erschien und ein wenig bekanntes Meisterwerk der Moderne ist. Aus der inneren Logik des Romans entsteht eine faszinierende literarische Erfahrung, eine multisensorische Folge von atmosphärischen Ausschnitten, kurzen Einblicken, vielstimmigen Einschätzungen, die lose chronologisch aneinandergereiht sind. Wir begegnen Jacob als Kleinkind am Strand, erhaschen Eindrücke aus seiner Schulzeit, seinem Studentenleben in Cambridge, sehen ihn durchs nächtliche London zu einer Geliebten gehen oder nach Griechenland reisen. Das Unerhörte daran: Jacob selbst spricht nie und genau das war Virginia Woolfs Schlag gegen die viktorianische Erzählkonvention, in der sie sozialisiert wurde, und deren autoritäre Vorgaben sie zeitlebens angriff. Ihre gelungene Romanerfindung arbeitet erstmals mit einer Art fotografischer Schnitttechnik und zeigt, dass Jacob durchaus da ist: heraufbeschworen, nicht aus der Aufzählung von charakterbestimmenden Fakten und gedrechselten Sätzen eines allwissenden Erzählers, sondern auf geisterhafte Weise in Facetten gespiegelt: in den Blicken, Gedanken- und Gesprächsfetzen seiner Umgebung. Es ist, als blättere man mit angehaltenem Atem durch das Fotoalbum eines Fremden. So stehen wir heutzutage im Leben, meinte Woolf, so erfahren wir die Welt: Wir gleiten durch eine Abfolge von symbolischen Räumen, durch sprechende Atmosphären, angerissene Szenen und Gesprächsfetzen, und wenn wir sie lesen lernen, verstehen wir vielleicht ein bisschen besser, wer wir sind. / Mit Friedhelm Ptok, Britta Hammelstein, Wiebke Puls, Sylvana Krappatsch, Annette Paulmann, Johannes Zirner, Andrea Wenzl, Caroline Ebner, Oliver Losehand, Stefan Merki, Hans Kremer, Georgia Stahl / Aus dem Englischen von Gaby Hartel / Bearbeitung: Gaby Hartel / Komposition: Jakob Diehl / Regie: Katja Langenbach / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5ygd/121208_1506_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-44---Griechenl.mp3",
+        "published":"Sat, 08 Dec 2012 15:06:01 +0100",
+        "bitRate":128,
+        "contentLength":51773474
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Virginia Woolf: Jacobs Zimmer (3/4) - London - 08.12.2012",
+        "episode":39,
+        "description":"Eine Schriftstellerin um die Vierzig im Prozess, ihren scharfen Blick auf die Welt, deren Politik und innere Mechanik in erfahrungsnaher Literatur darzustellen. Eine untergehende Gesellschaftsform im England der (Vor-)Kriegszeit und ein junger Mann, der im Ersten Weltkrieg stirbt, noch bevor er seine Persönlichkeit voll entfalten konnte. Virginia Woolf, ihr Gegenstand und der Wunsch nach einem neuen, unmittelbaren Ausdruck: Das sind die äußeren Koordinaten des Romans Jacobs Zimmer, der 1922 erschien und ein wenig bekanntes Meisterwerk der Moderne ist. Aus der inneren Logik des Romans entsteht eine faszinierende literarische Erfahrung, eine multisensorische Folge von atmosphärischen Ausschnitten, kurzen Einblicken, vielstimmigen Einschätzungen, die lose chronologisch aneinandergereiht sind. Wir begegnen Jacob als Kleinkind am Strand, erhaschen Eindrücke aus seiner Schulzeit, seinem Studentenleben in Cambridge, sehen ihn durchs nächtliche London zu einer Geliebten gehen oder nach Griechenland reisen. Das Unerhörte daran: Jacob selbst spricht nie und genau das war Virginia Woolfs Schlag gegen die viktorianische Erzählkonvention, in der sie sozialisiert wurde, und deren autoritäre Vorgaben sie zeitlebens angriff. Ihre gelungene Romanerfindung arbeitet erstmals mit einer Art fotografischer Schnitttechnik und zeigt, dass Jacob durchaus da ist: heraufbeschworen, nicht aus der Aufzählung von charakterbestimmenden Fakten und gedrechselten Sätzen eines allwissenden Erzählers, sondern auf geisterhafte Weise in Facetten gespiegelt: in den Blicken, Gedanken- und Gesprächsfetzen seiner Umgebung. Es ist, als blättere man mit angehaltenem Atem durch das Fotoalbum eines Fremden. So stehen wir heutzutage im Leben, meinte Woolf, so erfahren wir die Welt: Wir gleiten durch eine Abfolge von symbolischen Räumen, durch sprechende Atmosphären, angerissene Szenen und Gesprächsfetzen, und wenn wir sie lesen lernen, verstehen wir vielleicht ein bisschen besser, wer wir sind. / Mit Friedhelm Ptok, Britta Hammelstein, Wiebke Puls, Sylvana Krappatsch, Johannes Zirner, Dominik Kaschke, Michaela Steiger, Julia Loibl, Andrea Wenzl, Caroline Ebner, Sabine Kastius, Oliver Losehand, Stefan Merki, Hans Kremer, Georgia Stahl / Aus dem Englischen von Gaby Hartel / Bearbeitung: Gaby Hartel / Komposition: Jakob Diehl / Regie: Katja Langenbach / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5ykd/121208_1505_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-34---London.mp3",
+        "published":"Sat, 08 Dec 2012 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":51581630
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Virginia Woolf: Jacobs Zimmer (2/4) - Cambridge und das Cornwall - 01.12.2012",
+        "episode":40,
+        "description":"Eine Schriftstellerin um die Vierzig im Prozess, ihren scharfen Blick auf die Welt, deren Politik und innere Mechanik in erfahrungsnaher Literatur darzustellen. Eine untergehende Gesellschaftsform im England der (Vor-)Kriegszeit und ein junger Mann, der im Ersten Weltkrieg stirbt, noch bevor er seine Persönlichkeit voll entfalten konnte. Virginia Woolf, ihr Gegenstand und der Wunsch nach einem neuen, unmittelbaren Ausdruck: Das sind die äußeren Koordinaten des Romans Jacobs Zimmer, der 1922 erschien und ein wenig bekanntes Meisterwerk der Moderne ist. Aus der inneren Logik des Romans entsteht eine faszinierende literarische Erfahrung, eine multisensorische Folge von atmosphärischen Ausschnitten, kurzen Einblicken, vielstimmigen Einschätzungen, die lose chronologisch aneinandergereiht sind. Wir begegnen Jacob als Kleinkind am Strand, erhaschen Eindrücke aus seiner Schulzeit, seinem Studentenleben in Cambridge, sehen ihn durchs nächtliche London zu einer Geliebten gehen oder nach Griechenland reisen. Das Unerhörte daran: Jacob selbst spricht nie und genau das war Virginia Woolfs Schlag gegen die viktorianische Erzählkonvention, in der sie sozialisiert wurde, und deren autoritäre Vorgaben sie zeitlebens angriff. Ihre gelungene Romanerfindung arbeitet erstmals mit einer Art fotografischer Schnitttechnik und zeigt, dass Jacob durchaus da ist: heraufbeschworen, nicht aus der Aufzählung von charakterbestimmenden Fakten und gedrechselten Sätzen eines allwissenden Erzählers, sondern auf geisterhafte Weise in Facetten gespiegelt: in den Blicken, Gedanken- und Gesprächsfetzen seiner Umgebung. Es ist, als blättere man mit angehaltenem Atem durch das Fotoalbum eines Fremden. So stehen wir heutzutage im Leben, meinte Woolf, so erfahren wir die Welt: Wir gleiten durch eine Abfolge von symbolischen Räumen, durch sprechende Atmosphären, angerissene Szenen und Gesprächsfetzen, und wenn wir sie lesen lernen, verstehen wir vielleicht ein bisschen besser, wer wir sind. / Mit Friedhelm Ptok, Britta Hammelstein, Wiebke Puls, Sylvana Krappatsch, Johannes Zirner, Dominik Kaschke, Michaela Steiger, Julia Loibl, Andrea Wenzl, Caroline Ebner, Sabine Kastius, Oliver Losehand, Stefan Merki, Hans Kremer/ Aus dem Englischen von Gaby Hartel / Bearbeitung: Gaby Hartel / Komposition: Jakob Diehl / Regie: Katja Langenbach / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5y8P/121201_1505_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-24---Cambridge.mp3",
+        "published":"Sat, 01 Dec 2012 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":52253291
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Virginia Woolf: Jacobs Zimmer (1/4) - Scarborough und Cambridge - 01.12.2012",
+        "episode":41,
+        "description":"Eine Schriftstellerin um die Vierzig im Prozess, ihren scharfen Blick auf die Welt, deren Politik und innere Mechanik in erfahrungsnaher Literatur darzustellen. Eine untergehende Gesellschaftsform im England der (Vor-)Kriegszeit und ein junger Mann, der im Ersten Weltkrieg stirbt, noch bevor er seine Persönlichkeit voll entfalten konnte. Virginia Woolf, ihr Gegenstand und der Wunsch nach einem neuen, unmittelbaren Ausdruck: Das sind die äußeren Koordinaten des Romans Jacobs Zimmer, der 1922 erschien und ein wenig bekanntes Meisterwerk der Moderne ist. Aus der inneren Logik des Romans entsteht eine faszinierende literarische Erfahrung, eine multisensorische Folge von atmosphärischen Ausschnitten, kurzen Einblicken, vielstimmigen Einschätzungen, die lose chronologisch aneinandergereiht sind. Wir begegnen Jacob als Kleinkind am Strand, erhaschen Eindrücke aus seiner Schulzeit, seinem Studentenleben in Cambridge, sehen ihn durchs nächtliche London zu einer Geliebten gehen oder nach Griechenland reisen. Das Unerhörte daran: Jacob selbst spricht nie und genau das war Virginia Woolfs Schlag gegen die viktorianische Erzählkonvention, in der sie sozialisiert wurde, und deren autoritäre Vorgaben sie zeitlebens angriff. Ihre gelungene Romanerfindung arbeitet erstmals mit einer Art fotografischer Schnitttechnik und zeigt, dass Jacob durchaus da ist: heraufbeschworen, nicht aus der Aufzählung von charakterbestimmenden Fakten und gedrechselten Sätzen eines allwissenden Erzählers, sondern auf geisterhafte Weise in Facetten gespiegelt: in den Blicken, Gedanken- und Gesprächsfetzen seiner Umgebung. Es ist, als blättere man mit angehaltenem Atem durch das Fotoalbum eines Fremden. So stehen wir heutzutage im Leben, meinte Woolf, so erfahren wir die Welt: Wir gleiten durch eine Abfolge von symbolischen Räumen, durch sprechende Atmosphären, angerissene Szenen und Gesprächsfetzen, und wenn wir sie lesen lernen, verstehen wir vielleicht ein bisschen besser, wer wir sind. / Mit Friedhelm Ptok, Britta Hammelstein, Wiebke Puls, Sylvana Krappatsch, Annette Paulmann, Benedikt Lückenhaus, Alexander Lückenhaus, Andrea Wenzl, Caroline Ebner, Sabine Kastius, Hans Kremer, Johannes Zirner, Stefan Merki / Aus dem Englischen von Gaby Hartel / Bearbeitung: Gaby Hartel / Komposition: Jakob Diehl / Regie: Katja Langenbach / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Arg5yFc/121201_1505_Hoerspiele_Virginia-Woolf-Jacobs-Zimmer-14---Scarborou.mp3",
+        "published":"Sat, 01 Dec 2012 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":50205291
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Karl Bruckmaier: \"Lieber ein alter Dämon als ein junger Gott\" - John Giorno - 23.11.2012",
+        "episode":42,
+        "description":"Mehr als ein halbes Jahrhundert hinkte die Dichtkunst hinter der Bildenden Kunst her, konstatierte einst John Giorno, und nahm die Aufholjagd selbst in die Hand. Seit 1962 veröffentlicht er seine Texte in ungewohnten Formaten und in unerwartetem Umfeld: als Gemälde, als Sprüche auf Anrufbeantwortern, als Radiosendungen, als Langspielplatte, schließlich als Podcast. Inhaltlich und formal verbunden mit den Protagonisten der Beat Generation vernetzte er diese mit den aktuellsten Entwicklungen in New Yorks Kunstgetümmel und dem in den sechziger und siebziger Jahren entstehenden Rock-Underground. Seine \"Dial-a-Poem\"-Aktion für das Museum of Modern Art ist Legende; sein Label \"Giorno Poetry System\" war Plattform für unerwartete Kunstäußerungen quer durch alle Genres. Seit den achtziger Jahren nutzte er seine Reputation, um den Opfern von AIDS beizustehen und trotzdem eine offensive und sensuelle Lebenszugewandtheit zu propagieren. Im Mai 2012 nahm Karl Bruckmaier für den BR eine Lese-Performance von John Giorno auf und führte ein Gespräch mit ihm. / Mit Werner Härtel, John Giorno / Manuskript und Regie: Karl Bruckmaier / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/9ANc_y0S/121123_2103_hoerspielartmix_Karl-Bruckmaier-Lieber-ein-alter-Daemon-als.mp3",
+        "published":"Fri, 23 Nov 2012 21:03:01 +0100",
+        "bitRate":128,
+        "contentLength":58426130
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Robert Hültner: Der Stalker (ARD Radio Tatort) - 14.11.2012",
+        "episode":43,
+        "description":"Der Geschäftsmann Horst Lambert ist besorgt über anonyme Drohbriefe. Zunächst wiegeln die Polizeibeamten der Brucker Inspektion ab, doch als sein Auto in Brand steht, laufen die Ermittlungen an. Und dann kommt es im Hause Lambert zu einer Schießerei. Mit Brigitte Hobmeier, Florian Karlheim u.a. / Komposition: zeitblom / Regie: Ulrich Lampen / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AES/9-vd5-iS/121114_2003_radioKrimis_Robert-Hueltner-Der-Stalker-ARD-Radio-Tator.mp3",
+        "published":"Wed, 14 Nov 2012 20:03:01 +0100",
+        "bitRate":128,
+        "contentLength":52007531
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dietmar Dath: Die Abschaffung der Arten. Shortcut - 10.11.2012",
+        "episode":44,
+        "description":"Dietmar Daths Roman Die Abschaffung der Arten aus dem Jahr 2008 ist ein Hybrid: Fabel, Science Fiction, utopischer Roman, postmodernes Gedankenexperiment, philosophisches Szenario.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/9A4d9AOS/121110_1505_Hoerspiele_Dietmar-Dath-Die-Abschaffung-der-Arten-Shor.mp3",
+        "published":"Sat, 10 Nov 2012 15:05:01 +0100",
+        "bitRate":128,
+        "contentLength":87874280
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Alexander Kluge: Chronik der Gefühle - Lebensläufe - 02.11.2012",
+        "episode":45,
+        "description":"Die Lebensläufe (1962) sind Alexander Kluges erste Prosaveröffentlichung. In der darin enthaltenen Erzählung Anita G. stiehlt eine junge Frau einen Pullover und flieht durch die bürokratisch-spießig-neubürgerliche Bundesrepublik. Kluges Verfilmung des Stoffes - Abschied von gestern - mit seiner Schwester Alexandra in der Hauptrolle, erhielt 1966 als erster deutscher Film nach dem Krieg den Silbernen Löwen in Venedig. Der Lebenslauf der Anita G. verläuft über die Bruchstelle von 1945. Geboren in Leipzig, in der Nazizeit als Jüdin vom Schulbesuch ausgeschlossen, die Eltern deportiert. Im Westen versucht sie mit aller Unbefangenheit ein neues Leben anzufangen, gerät aber immer wieder in Konflikt mit der jungen BRD. Die Menschen, denen Anita G. begegnet - der Richter, die Bewährungshelferin - sind geformt von ihrer gesellschaftlichen Funktion. Der \'Abschied von gestern\' ist nicht von heute auf morgen zu haben. \"Uns trennt von gestern kein Abgrund, sondern die veränderte Lage\" steht zu Beginn des Filmes auf einem Zwischentitel. Und am Ende: \"Jeder ist an allem schuld, aber wenn das jeder wüsste, hätten wir das Himmelreich auf Erden\". / Mit Alexander Kluge, Wolfgang Hinze, Nico Holonics, Peter Fricke, Helmut Stange, Hannelore Hoger, Elfriede Jelinek, Elisabeth Agte, Luise Richter, Maria Pia Corvino, Elvira Reither, Dr. Luise Kampffmeyer, Rosemarie Dorn, Sigrid Fromm / Musik: Munk Sowie die Solisten des Symphonieorchesters des Bayerischen Rundfunks / Bearbeitung und Regie: Karl Bruckmaier / BR 2009",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vg_2OS/121102_0000_Hoerspiele_Alexander-Kluge-Chronik-der-Gefuehle---Lebe.mp3",
+        "published":"Fri, 02 Nov 2012 00:00:01 +0100",
+        "bitRate":128,
+        "contentLength":47493154
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ilse Aichinger: Blitzlichter - 27.10.2012",
+        "episode":46,
+        "description":"Blitzlichter, Filmbilder, Worte. Ilse Aichinger erzählt auf eigenwillige Art und Weise ihr Leben. Knapp, existenziell - eine ganz andere Autobiographie, die sich im Wesentlichen über Kinobesuche definiert. Kontrastiert werden die lakonisch formulierten Feuilletons durch kurze Filmausschnitte und durch Interview-Sequenzen mit der Autorin, die auf diese Weise mit sich selbst in einen Dialog tritt. Bei Kriegsausbruch 1939 war Ilse Aichinger im Kino, bei Kriegsende übermittelte ihr eine Kinokassiererin eine Nachricht über deportierte Verwandte: Film und Verhängnis. Filme sind für sie mehr als nur Filme: So denkt sie anlässlich von Stan Laurel und Oliver Hardy über die Absurdität der Existenz nach – oder sie spürt der Bedeutung und Wichtigkeit dessen nach, was John Huston bei seiner Verfilmung von \"Der Malteser Falke\" weggelassen hat. Abwesenheit und allmähliches Verschwinden als Lebensperspektive. Ilse Aichinger entwirft anhand von Filmen und Photographien eine Mentalitätsgeschichte, in der das Private zum Öffentlichen wird. Wichtige Stationen des vergangenen Jahrhunderts können im Spiegel einer subjektiven Kinorezeption noch einmal neu und anders erzählt werden. \"Beim Kino denk ich immer, es könnte zu früh enden, beim Leben denke ich immer, es könnte zu spät enden.\" / Mit Martina Gedeck, Ilse Aichinger / Bearbeitung und Regie: Ulrich Lampen / BR 2002",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AES/5yxd5AQS/121027_1505_Hoerspiele_Ilse-Aichinger-Blitzlichter.mp3",
+        "published":"Sat, 27 Oct 2012 15:05:01 +0200",
+        "bitRate":128,
+        "contentLength":72273954
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Alexander Kluge: Chronik der Gefühle - Massensterben in Venedig - 26.10.2012",
+        "episode":47,
+        "description":"Es geht um Einzelkämpfer und ihren \"Hunger nach Sinn\". Wie entsteht Sinn? Laut Alexander Kluge nicht durch homogenisierte Nachrichten, sondern durch vermischte. Nicht durch Spannungsdramaturgien und durchgehende Handlungen, sondern durch eine \"Auffächerung der Dramaturgien\", der Mischung von \"Facts & Fakes\" (Titel einer Fernsehsendung Kluges) und der Produktion von \"Erfahrungshorizonten\" für das \"Vorstellungsvermögen\". Realismus ist für Kluge die Kenntnis von Zusammenhängen. Der Gebrauchswert ist eine \"spielerische Kommunikation\" im \"wirklichen Medium der Erfahrung\", dem Publikum. Eine Armada erstklassiger Individualisten in einer Zeit kollektiver Kämpfe. Man wird am besten für seine Tugenden bestraft. Ein Mann vom Verfassungsschutz schießt einem Minister in die Backe um auf Sicherheitslücken aufmerksam zu machen, Altersheim-Bewohner werden in Venedig zu Geiselnehmern und liefern sich einen Showdown mit der Polizei, eine reiche Frau flieht vor dem Dritten Reich über Paris nach New York. In der Liebe findet sie kein Glück. / Mit Alexander Kluge, Wolfgang Hinze, Johannes Herrschmann, Helmut Stange, Christian Friedel, Monika Manz, Maria Pia Corvino, Elvira Reither, Gudrun Skupin, Wolfgang Beyer / Musik: Bananafishbones sowie Solisten des Symphonieorchesters des Bayerischen Rundfunks / Bearbeitung und Regie: Karl Bruckmaier / BR 2009",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vg_-0S/121026_0000_Hoerspiele_Alexander-Kluge-Chronik-der-Gefuehle---Mass.mp3",
+        "published":"Fri, 26 Oct 2012 00:00:01 +0200",
+        "bitRate":128,
+        "contentLength":54753941
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ergo Phizmiz: Conversations with Birds - 19.10.2012",
+        "episode":48,
+        "description":"\"If you want to learn to fly, first learn to whistle\" - Conversations with Birds ist ein ornithologisches Mosaik über Klang und Sprache der Vögel als Tor zur Freiheit. Darüber, wie die Begegnung mit den Tieren, die fliegen können, Welten in Bewegung bringen und darüber wie in der Sehnsucht nach dem Fliegen immer schon seine Unmöglichkeit spürbar ist. Eine Vogelschar geht auf die Suche nach dem Geheimnis des Windes und wird dabei – wie der Wetterhahn – Opfer ihres fatalen Unterfangens. Der Autor Ergo Phizmiz erzählt von seinen Gesprächen mit einem verkrüppelten Wellensittich und, wie er in der Begegnung mit dem Vater des polnischen Schriftstellers Bruno Schulz die Sprache der Vögel erlernte. Für den britischen Maler Edward Lear (1812-88) und den amerikanischen Künstler Joseph Cornell (1903-72) werden Vögel Zentralgestalten ihres Werkes. Deren Verschwinden entlässt sie in eine traurige Einsamkeit. In der Oper \"The Mourning Show\" (wörtlich übersetzt: Die Trauer Show) entwickelt Phizmiz mit einer Vogelexpertin eine Poetik des ornithologischen Erzählens, das sich von der linearen Narration verabschiedet. Und eine Reise durch den Dschungel von Guyana führt den Autor zum versteckten Königreich der Mauersegler, das bisher nur wenige Menschen entdecken konnten. In phantastischen, bildhaft-poetischen Episoden, die auch manch lakonischer Grausamkeit nicht entbehren, verwebt Phizmiz literarische Topoi mit dokumentarischem und autobiografischem Material zu märchenhaften Geschichten. Es entspinnt sich ein Netz aus wiederkehrenden Motiven und rätselhaften Zusammenhängen, die einem sehr bekannt und zugleich äußerst befremdlich vorkommen. Mehrsprachig und in der Verbindung von experimentellem Sound und vorgefundenen Originaltönen entwickelt diese Komposition ein Eigenleben, das die Spur aufnimmt zur Vielfalt und Buntheit einer Welt der Vögel, der Freiheit und der Phantasie. / Mit Juliane Meckert, Martha Moopette, Ergo Phizmiz u.a. / Komposition und Realisation: Ergo Phizmiz / BR 2012",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf_20S/121019_2103_hoerspielartmix_Ergo-Phizmiz-Conversations-with-Birds.mp3",
+        "published":"Fri, 19 Oct 2012 21:03:01 +0200",
+        "bitRate":128,
+        "contentLength":44368491
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Thomas Harlan: Rosa - Die Reise nach Kulmhof (2/2) - 13.10.2012",
+        "episode":49,
+        "description":"In den sechziger Jahren stieß Thomas Harlan bei Recherchen über Kriegsverbrechen auf Gerüchte über das Dorf Kulmhof, an dem die Deutschen die Technologie des Massenmords erprobten. Sein 2000 erschienener Debütroman \"Rosa\"ist das Gegenteil einer Bilanz und alles andere als ein Fazit. Der zeitliche Rahmen erstreckt sich von 1942 bis 1993. Virtuos spielt Thomas Harlan darin mit verschiedenen Erzählebenen. Dokumente, Briefe, Phonoaufnahmen, Berichte und Verhörprotokolle geben in atemlosem Stakkato ungeheuerliche Geschehnisse preis. Eine Lichtung bei Kulmhof in Polen. Aus der schneeverwehten Ebene wölbt sich das Dach eines Erdhauses, ein Pferd ohne Schweif ist an den rauchenden, klapprigen Schornstein gebunden, der aus dem Boden ragt. In der Höhle hausen Rosa Peham und Józef Najman. Rosa ist die ehemalige Verlobte von Franz Maderholz, der Zahlmeister im Vernichtungslager Kulmhof war. Die Asche der Opfer füllt den Boden der Lichtung, die seit Kriegsende Rosas Heimstatt ist. Franz ist verschollen, Rosa hat sich 1948 mit Józef liiert. Auch ihm wird eine dunkle Vergangenheit nachgesagt. Jahrzehnte später erfahren ein Filmteam und ein Theologe aus alten Akten von den damaligen Ereignissen und spüren den Schicksalen der Beteiligten nach. / Mit Sabine Kastius, Katja Amberger, Christiane Roßbach, Kornelia Boje, Stephan Rabow, Günther Maria Halmer / Komposition: Helga Pogatschar / Bearbeitung: Michael Farin / Regie: Bernhard Jugel / BR 2001",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-QS/52vf5-iS/121013_1505_Hoerspiele_Thomas-Harlan-Rosa---Die-Reise-nach-Kulmhof.mp3",
+        "published":"Sat, 13 Oct 2012 15:05:01 +0200",
+        "bitRate":128,
+        "contentLength":74866972
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.br-online.de/podcast/hoerspiel-pool/cast.xml",
+    "displaySubDomaine":"hoerspielpool",
+    "recentTitles":
+    [
+      "Jörg Albrecht: Hell of Fame - 24.03.2013",
+      "Jan St. Werner: transaxélectroacoustique - 22.03.2013",
+      "Ernst Horn: Walter Ruttmann Weekend Remix - Sympathie für Schulze Remix - 15.03.2013",
+      "Michael Lentz: Klinik - 08.03.2013",
+      "Ulrike Haage: alles, aber anders - 12 Miniaturen über Eva Hesse - 01.03.2013",
+      "Eran Schaerf: fm-scenario - Sendesprache - verdeckte Operation - Ansage - Fehler - 22.02.2013",
+      "Die Quellen sprechen. Teil 4: Polen September 1939 - Juli 1941 - 16.02.2013",
+      "Die Quellen sprechen. Zeitzeugen: Helga Verleger und Henny Brenner - 11.02.2013",
+      "Die Quellen sprechen. Teil 3: Deutsches Reich und Protektorat September 1939 - September 1941 - 09.02.2013",
+      "Die Quellen sprechen. Zeitzeugen : Abba Naor und Walter Joelsen - 04.02.2013",
+      "Die Quellen sprechen. Teil 2: Deutsches Reich 1938-August 1939 - 02.02.2013",
+      "Die Quellen sprechen. Zeitzeugen: Ursula Beyrodt und Salo Wolf - 28.01.2013",
+      "Die Quellen sprechen. Teil 1: Deutsches Reich 1933-1937 - 26.01.2013",
+      "to rococo rot: Walter Ruttmann Weekend Remix - Berlin 98 Version - 18.01.2013",
+      "Julian Doepp: Fotos vom guten Leben - 13.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (20/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (19/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (18/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (17/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (16/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (15/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (14/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (13/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (12/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (11/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (10/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (09/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (08/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (07/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (06/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (05/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (04/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (03/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (02/20) - 04.01.2013",
+      "Robert Musil: Der Mann ohne Eigenschaften. Remix (01/20) - 04.01.2013",
+      "Alexander Kluge: Chronik der Gefühle - Der lange Marsch des Urvertrauens - 28.12.2012",
+      "Alexander Kluge:Chronik der Gefühle - Lernprozesse mit tödlichem Ausgang - 21.12.2012",
+      "Valère Novarina: Dem unbekannten Gott - 15.12.2012",
+      "Virginia Woolf: Jacobs Zimmer (4/4) - Griechenland, London - 08.12.2012",
+      "Virginia Woolf: Jacobs Zimmer (3/4) - London - 08.12.2012",
+      "Virginia Woolf: Jacobs Zimmer (2/4) - Cambridge und das Cornwall - 01.12.2012",
+      "Virginia Woolf: Jacobs Zimmer (1/4) - Scarborough und Cambridge - 01.12.2012",
+      "Karl Bruckmaier: \"Lieber ein alter Dämon als ein junger Gott\" - John Giorno - 23.11.2012",
+      "Robert Hültner: Der Stalker (ARD Radio Tatort) - 14.11.2012",
+      "Dietmar Dath: Die Abschaffung der Arten. Shortcut - 10.11.2012",
+      "Alexander Kluge: Chronik der Gefühle - Lebensläufe - 02.11.2012",
+      "Ilse Aichinger: Blitzlichter - 27.10.2012",
+      "Alexander Kluge: Chronik der Gefühle - Massensterben in Venedig - 26.10.2012",
+      "Ergo Phizmiz: Conversations with Birds - 19.10.2012",
+      "Thomas Harlan: Rosa - Die Reise nach Kulmhof (2/2) - 13.10.2012"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Jede Zeit ist Hörspielzeit. Der Hörspiel Pool bietet Produktionen des Bayerischen Rundfunks zum Herunterladen.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.br-online.de/podcast/hoerspiel-pool/cast.xml",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4094_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4094_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4094,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4094_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4094_5_1.png",
+    "author":"",
+    "title":"Download & Podcast: Hörspiel Pool - Bayern 2 © Daniel Kluge",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4094_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Hörspiel, Kultur",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Bayern 2 - Hörspiel Pool",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/hoerspielpool.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4094_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4094_5.jpeg",
+    "subdomain":"hoerspielpool",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458677,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5ygc/130324_1500_Hoerspiele_Joerg-Albrecht-Hell-of-Fame.mp3",
+        "idBroadcast":4094,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

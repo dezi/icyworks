@@ -1,0 +1,255 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus27.leonex.de:40382",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus27.leonex.de:40382",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"SEXY RADIO Cologne, SEXY CGN Radio, Sexy Party - ",
+    "subDomaine":"sexycgnradio",
+    "relayDisabled":false,
+    "rank":871,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"SEXY RADIO Cologne - HERE IS THE PARTY ! sendet live aus Köln. Infos, Interviews, Live-Übertragungen aus der Szene und natürlich jede Menge Musik.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/14272_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/14272_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/14272_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"SEXY RADIO Cologne - HERE IS THE PARTY ! live aus Köln.",
+    "metaDataUrl":"http://streamplus27.leonex.de:40382",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://streamplus27.leonex.de:40382",
+    "displaySubDomaine":"sexycgnradio",
+    "recentTitles":
+    [
+      "Richard Grey  The Cube Guys - Don`t You Want Me ( The Cube Guys Mix )",
+      "Addk - I Need Your Love (Extended Mix)",
+      "2Elements - Tell Me Boy (Deepdisco Remix)",
+      "Daniel Ascot - Free Your Mind ( Remix )",
+      "Tenishia - Where Do We Begin (Club Mix)",
+      "4 Strings - Catch A Fall (Club Mix)",
+      "Funky Truckerz feat. Romaine  Gathan Cheema - Hallucinating Love (Dirty Freek Remix)",
+      "Amloop Vs. Celeda - The Underground ( Original Mix )",
+      "Chris Joyce, Fred Smoon, Decibel Artforce - Around (Original Mix)",
+      "Totally Enormous Extinct Dinosaurs - Your Love ( Mark Night Remix )",
+      "Eric Prydz - Every Day (Darren L Original Vocals Edit)",
+      "Bob Sinclar - I Feel For You ( Ben Delay Club Mix )",
+      "Grace - Not Over Yet ( Max Graham and Protoculture Mix )",
+      "Hnoise Feat. Patricia Edwards - Ain`t Nobody (Original Mix)",
+      "George Vector Feat. Deborah Cox - Remember Me (Original Mix)",
+      "Crazibiza  Jerome Robins - Your Love (Mike Newman  Antoine Cortez Remix)",
+      "Chris Kaeser  Stonebridge  Krista Richards - Love Me ( Original Extended Mix )",
+      "DJ DAN - Out of Nowhere ( Original Mix )",
+      "DJ Fenix, Katia Rudelman - Got It (Marty Fame Remix)",
+      "Three drives on a Vinyl - Greece 2000 ( Original Mix )",
+      "Criminal Vibes - Enjoy (Original Mix)",
+      "LPR - Watching You ( Marco Lys Remix )",
+      "Ellie Goulding - Starry Eyed (Russ Chimes Remix)",
+      "Crazibiza - Hard (Original Mix)",
+      "Stefano Ritteri - The Rules Of Control (Original Mix)",
+      "Kylie Minogue - Timebomb ( Steve Redant  Phil Romano Remix )",
+      "Cerrone - Misunderstanding (A-Trak  Codes Club Remix )",
+      "Groove Phenomenon - Everybody Be Somebody (Tradelove Remix)",
+      "www.sexycgnradio.de - SEXY COLOGNE RADIO",
+      "Umek - Spank! (Original Mix)",
+      "Chris Lum - Give Me The Beat ( Old Tricks Mix )",
+      "Olav Basoski  Kookie - UR My High ( Original Mix )",
+      "Julie Thompson  Marlo - Broken Wing ( Remix )",
+      "DJ Dan  Jerome Robins - Good for Me (Original Mix)",
+      "Lissat  Voltaxx  Manuel De La Mare - Club Around The World ( Remix )",
+      "OFFBeat  Peter Brown feat. Polina Griffith - Take U 2 Luv (Peter Brown  Lucas Reyes Remix)",
+      "My Digital Enemy  Jason Chance - When the Dawn Breaks 2012 ( Original Mix )"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.sexyradiocgn.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/14272_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/14272_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":14272,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/14272_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/14272_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/14272_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Gay",
+      "_country":"Deutschland",
+      "_genre":"Club, Dance",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"SEXY RADIO Cologne",
+    "picture3Url":"",
+    "streamUrl":"http://streamplus27.leonex.de:40382",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/14272_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/14272_5.jpeg",
+    "subdomain":"sexycgnradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2462697,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus27.leonex.de:40382",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus27.leonex.de:40382",
+        "idBroadcast":14272,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":17159,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus27.leonex.de:40382",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus27.leonex.de:40382",
+        "idBroadcast":14272,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://s4.radiohost.pl:8030/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Slaskie Radio",
+    "subDomaine":"slaskieradio",
+    "relayDisabled":false,
+    "rank":523,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Der Radiosender für schlesische Musik, Kultur und Sprache.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4294_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4294_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/4294_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Der Radiosender für schlesische Musik, Kultur und Sprache.",
+    "metaDataUrl":"http://s4.radiohost.pl:8030/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://s4.radiohost.pl:8030/listen.pls",
+    "displaySubDomaine":"slaskieradio",
+    "recentTitles":
+    [
+      "Po Naszymu - www.slaskieradio.com - Godomy I Gromy",
+      "Od Slonzokow - Do Slonzokow I Nie Ino ....",
+      "Slaskie Szwagry - Dance Mix",
+      "Karpowicz Family - Wiecznie Mlody Rock`n`roll",
+      "Kastelruther Spatzen - Schenk Dem Gefuehl Neues Leben",
+      "Jacek Kierok Slaska Biesiada - MIX 6",
+      "Proskauer Echo - Anton Mix - 5",
+      "Nadine Norell - Haus Zum Kleinen Glueck",
+      "Klaudia Chwolka - Bieszczadzkie Reggae",
+      "Lucjan Czerny - Dychomy",
+      "Szlagiermaszyna I Kumpliki 2 - Samo Zycie - Mix",
+      "Przysieczanki - Hilda I Hans",
+      "Freje - Pytosz Czy Kochom",
+      "Francik I Dwa Fyniki - Na Szaberplacu",
+      "Die Flippers - Hey Du",
+      "Hanuta - Bella Mari Mix",
+      "Reklama Na Slaskim Radiu Na Caly Swiat  *** Kontakt - reklama@slaskieradio.com Tel: 0049/16098376558",
+      "Miroslaw Szoltysek I Wesole Trio - Colki Plac",
+      "Hansi Hinterseer - Ski Twist",
+      "Robert Bojer - Viva Nasz Slask",
+      "Daj Mi Siebie - Daj Mi Siebie",
+      "Robert Lukowski  Gryffon - Weekend Twist",
+      "Gromy,Spiewomy i Godomy - www.slaskieradio.com -",
+      "U nos: Niedziela - Msza Swieta Live,Koncert Zyczen ,Lista Przebojow"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.slaskieradio.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4294_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4294_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4294,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4294_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4294_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4294_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Volksmusik",
+      "_city":"Hildesheim",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Slaskie Radio",
+    "picture3Url":"",
+    "streamUrl":"http://s4.radiohost.pl:8030/listen.pls",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4294_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4294_5.jpeg",
+    "subdomain":"slaskieradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2446127,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://s4.radiohost.pl:8030/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://s4.radiohost.pl:8030/",
+        "idBroadcast":4294,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

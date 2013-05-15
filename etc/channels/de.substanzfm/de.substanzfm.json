@@ -1,0 +1,307 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus36.leonex.de:21806",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus36.leonex.de:21806",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://login.streamplus.de/player.php?spt=7033.asx",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"WMA",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Substanz FM - ",
+    "subDomaine":"substanzfm",
+    "relayDisabled":false,
+    "rank":1098,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Substanz FM – Münchens Independent Webradio mit dem Sound of Munich – 24 Stunden on Air – Alternative, Elektro, Indie, Rock, Soul & Co. sowie Kultur, Kino und Events.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8064_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8064_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8064_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Substanz FM – Münchens Independent Webradio mit dem Sound of Munich – Alternative, Elektro, Indie, Rock, Soul & Co. sowie Kultur, Kino und Events.",
+    "metaDataUrl":"http://streamplus36.leonex.de:21806",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://streamplus36.leonex.de:21806",
+    "displaySubDomaine":"substanzfm",
+    "recentTitles":
+    [
+      "Noah And The Whale - 2 Atoms In A Molecule",
+      "The Perishers - Nothing Like You And I",
+      "Schmidt - Voodoo Eyes",
+      "Kings Of Leon - Pony Up",
+      "LCD Soundsystem - Someone Great",
+      "The Lodger - The Conversation",
+      "Matt Costa - Mr. Pitiful",
+      "Delilah - Love You So (Lenzman Remix)",
+      "I Am Kloot - To you",
+      "The Shoes - Wastin\' Time",
+      "Jennifer Rostock - Feuer",
+      "Better Than Ezra - Happy Day Mama",
+      "Deichkind - Partnerlook",
+      "Bloc Party - Talons",
+      "Rainer von Vielen - Alles Und Noch Mehr",
+      "Death Cab For Cutie - Stay young, Go dancing",
+      "Regina Spektor - All the Rowboats",
+      "Chinese Christmas - Dreams",
+      "Lindstrøm  Christabelle - Music In My Mind",
+      "Scouting For Girls - Heartbeat",
+      "Sportfreunde Stiller - ich, roque",
+      "Cold War Kids - Audience Of One",
+      "Arcade Fire - Neon Bible",
+      "Carla Bruni - L\' Excessive",
+      "Tada Tátà - Hit The Wall",
+      "Clap Your Hands Say Yeah - Same Mistake",
+      "Alkaline Trio - In Vein",
+      "Bloc Party - Truth",
+      "Philipp Poisel - Ich Und Du",
+      "Neutral Milk Hotel - King Of Carrot Flowers Part 1",
+      "Die Fantastischen Vier - Mehr Nehmen",
+      "Arctic Monkeys - That\'s Where You\'re Wrong",
+      "Enik - The Season in Between",
+      "Altbewährtes - Flug",
+      "So Far Nothing New - Love Is Not Like Lovesongs",
+      "All my Monsters - Wir gegn wir",
+      "Console - 14, Zero, Zero (Single Version",
+      "Mary Jane - Promise Broken",
+      "Kremplsetzer - Gut gemeint",
+      "A Home.A Heart.Whatever. - Me, Pretender",
+      "So Far Nothing New - Leaving A Light On",
+      "Sepalot - Rainbows",
+      "Fiva - Ab Und Zu Feat. Flip",
+      "String Gitan - Les Yeux Noirs",
+      "High Voltage Humans - Tomahawk",
+      "Lucky Fish - I Want More Mondays",
+      "JD - 01 - Disciples",
+      "Big Kahoona - Whimsical allusions (to a fairly non descript question)",
+      "Queens Of The Stonage - Make It Wit Chu",
+      "Mystery Jets - Half In Love With Elizabeth",
+      "Coldplay - X5 Talk",
+      "Why? - These Few Presidents",
+      "Selig - Ist Es Wichtig?",
+      "Geographer - Kites",
+      "Fünf Sterne Deluxe - Willst Du Mit Mir Geh\'n?",
+      "Julian Plenti - Skyscraper",
+      "Kaiser Chiefs - Never Miss A Beat",
+      "Noah And The Whale - Blue Skies",
+      "CSS - Beautiful Song",
+      "Middleman - It\'s Not Over Yet",
+      "Fanfarlo - Luna",
+      "Vampire Weekend - A-Punk"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.substanz-fm.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8064_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8064_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8064,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8064_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8064_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8064_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Indie, Punk",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Substanz FM",
+    "picture3Url":"",
+    "streamUrl":"http://streamplus36.leonex.de:21806",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8064_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8064_5.jpeg",
+    "subdomain":"substanzfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2411475,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus36.leonex.de:21806",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus36.leonex.de:21806",
+        "idBroadcast":8064,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":17890,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus36.leonex.de:21806",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus36.leonex.de:21806",
+        "idBroadcast":8064,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":0,
+        "id":17907,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"WMA",
+        "metaDataUrl":"http://login.streamplus.de/player.php?spt=7033.asx",
+        "streamFormat":"WMA",
+        "streamUrl":"http://login.streamplus.de/player.php?spt=7033.asx",
+        "idBroadcast":8064,
+        "bitRate":0
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

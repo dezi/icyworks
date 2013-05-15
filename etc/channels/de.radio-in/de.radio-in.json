@@ -1,0 +1,236 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://4broadcast.de:8300/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio IN",
+    "subDomaine":"radio-in",
+    "relayDisabled":false,
+    "rank":662,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Der Sender für Ingolstadt, Neuburg, Schrobenhausen, Pfaffenhofen und Eichstätt.\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2388_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2388_3_1.png",
+    "longitude":11.43333,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"Der Sender für Ingolstadt, Neuburg, Schrobenhausen, Pfaffenhofen und Eichstätt.\r\n",
+    "metaDataUrl":"http://4broadcast.de:8300/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":48.76667,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://4broadcast.de:8300/",
+    "displaySubDomaine":"radio-in",
+    "recentTitles":
+    [
+      "SNIFF´N´ THE TEARS - DRIVER´S SEAT",
+      "THE SCRIPT - HALL OF FAME",
+      "MENTAL AS ANYTHING - Live it up",
+      "BRYAN ADAMS - (Everything I do) I do it for you",
+      "EURYTHMICS - Love Is A Stranger",
+      "BON JOVI - BECAUSE WE CAN",
+      "KOOL  and  THE GANG - Celebration",
+      "DUFFY - MERCY",
+      "REA GARVEY - WILD LOVE",
+      "SANTA ESMERALDA - Don`t let me be misunderstood",
+      "LADY GAGA - ALEJANDRO",
+      "CUTTING CREW - I`ve been in love before",
+      "JOE COCKER - The simple things",
+      "David Bowie - China Girl",
+      "EMELI SANDE - READ ALL ABOUT IT (Pt III)",
+      "Blues Brothers - Everybody Needs Somebody To Love",
+      "CELINE DION - That`s the way it is",
+      "POINTER SISTERS - I\'m So Excited",
+      "BRUNO MARS - LAZY SONG",
+      "ABBA - Knowing me knowing you",
+      "Glen Medeiros - Nothing\'s gonna change my love for you",
+      "OLLY MURS - TROUBLEMAKER",
+      "CHICAGO - If you leave me now",
+      "OF MONSTERS AND MEN - LITTLE TALKS",
+      "ALPHAVILLE - Sounds like a melody",
+      "CROWDED HOUSE - WEATHER WITH YOU",
+      "IMAGINE DRAGONS - IT´S TIME",
+      "AIR SUPPLY - Every woman in the world",
+      "ICH and ICH - UNIVERSUM",
+      "SURVIVOR - Eye Of The Tiger",
+      "George McCrae - Rock Your Baby",
+      "Real Life - Catch me I`m falling",
+      "Robert Palmer - I`ll be your baby tonight",
+      "MUMFORD  and  SONS - I WILL WAIT",
+      "MICHAEL JACKSON - You are not alone",
+      "POLICE - DE DO DO DO DE DA DA DA",
+      "Electric Light Orchestra - Hold On Tight",
+      "LOBO - Me And You And A Dog Named Boo",
+      "EDDY GRANT - I Don´t Wanna Dance",
+      "BIRDY - PEOPLE HELP THE PEOPLE",
+      "STEVIE WONDER - My cherie amour",
+      "BOB MARLEY - Buffalo soldier",
+      "DIE ÄRZTE - M  and  F",
+      "Pink Floyd - Another Brick In The Wall (Part 2)",
+      "JAMES ARTHUR - IMPOSSIBLE"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-in.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2388_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2388_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2388,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2388_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2388_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2388_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"60er, 70er",
+      "_city":"Ingolstadt",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio IN",
+    "picture3Url":"",
+    "streamUrl":"http://4broadcast.de:8300/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2388_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2388_5.jpeg",
+    "subdomain":"radio-in",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":1355,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://4broadcast.de:8300/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://4broadcast.de:8300/",
+        "idBroadcast":2388,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

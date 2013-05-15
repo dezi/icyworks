@@ -1,0 +1,245 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://ultradarkradio.com:3026/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Ultra Dark Radio",
+    "subDomaine":"ultradarkradio",
+    "relayDisabled":false,
+    "rank":699,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Dark Underground: Electro, Gothic, EBM & Wave.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2013_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2013_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Dark Underground: Electro, Gothic, EBM & Wave.",
+    "metaDataUrl":"http://ultradarkradio.com:3026/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":192,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://ultradarkradio.com:3026/",
+    "displaySubDomaine":"ultradarkradio",
+    "recentTitles":
+    [
+      "Mono Inc. - Symphony Of Pain",
+      "Wumpscut - Ich Will Dich (Slut Remix)",
+      "DeVision - Dinner Without Grace (Radio Edit)",
+      "Oomph! feat. L`ame Immortelle - Brennende Liebe",
+      "Sero.Overdose - She (Original Version)",
+      "Heavy-Current - DBN",
+      "Leaether Strip - Japanese Bodies",
+      "VNV Nation - Genesis",
+      "Covenant - Der Leiermann (Radio Edit)",
+      "Korn - Freak on the Leash",
+      "The Cassandra Complex - Nightfall (Over Ec)",
+      "Yersinia Pestis - Kind der Dunkelheit",
+      "Gerard McMann - Cry Little Sister (Theme From The Lost Boys)",
+      "Wumpscut - Untermensch",
+      "Skinny Puppy - Brownstone",
+      "Oomph! - Kleinstadtboy",
+      "Fabrikc - Leidensweg",
+      "bleXnoide - Traumatised for life",
+      "Massiv In Mensch - Offenes Schuhwerk",
+      "Nitzer Ebb - Fun To Be Had",
+      "Wumpscut - Deliverance (Radio Remix)",
+      "Ellen Alien - Bullet(flow mix)",
+      "NoyceTM - Coma",
+      "The Jesus and Mary Chain - Snakedriver",
+      "Apocalyptica - Seemann Feat Nina Hagen",
+      "VNV Nation - Standing (Original)",
+      "Neuroticfish - Wake me up",
+      "Skinny Puppy - NoiseX",
+      "Hex Rx - Living On Video",
+      "Combichrist - Get Your Body Beat",
+      "Unter Null - Destroy Me",
+      "Joy Division - Transmission",
+      "Front 242 - Welcome To Paradise",
+      "DEN.C.T.BUG. - Gotteskrieger (Funker Vogt Remix)",
+      "Nine Inch Nails - Head Like a Hole",
+      "Paradise Lost - Say Just Words",
+      "Muse - Starlight",
+      "E-Craft - Titten",
+      "Oomph! Feat. Marta Jandova - Traeumst Du",
+      "The Cult - Rise",
+      "The Human League - Being Boiled",
+      "Hazmat - Youre Falling",
+      "Insekt - Bambifucker (Spetsnatz Remix)",
+      "Depeche Mode - Enjoy The Silence (Live Devotional)",
+      "The Cure - The Hanging Garden",
+      "bleXnoide - Buter en brea",
+      "Apoptygma Berzerk - Weight of the world",
+      "Warforge - Virus",
+      "Metallspuerhunde - Es Geht Eeiter",
+      "KMFDM - These Boots Are Made For Walkin",
+      "Illusion of Light - Different Colors",
+      "Sero.Overdose - For You",
+      "Wumpscut - Elende Buben",
+      "Sero.Overdose - Lost Alone"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.ultradarkradio.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2013_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2013_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2013,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2013_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2013_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2013_4.jpeg",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Electro, Gothic",
+      "_city":"Bonn",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Ultra Dark Radio",
+    "picture3Url":"",
+    "streamUrl":"http://ultradarkradio.com:3026/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2013_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2013_5.jpeg",
+    "subdomain":"ultradarkradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":945,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://ultradarkradio.com:3026/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://ultradarkradio.com:3026/",
+        "idBroadcast":2013,
+        "bitRate":192
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

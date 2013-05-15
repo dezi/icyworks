@@ -1,0 +1,241 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://80.237.159.47:8220/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Rockhaus Radio, ",
+    "subDomaine":"rockhaus",
+    "relayDisabled":false,
+    "rank":1128,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Ob hart, schnell und laut oder härter, schneller und lauter oder umgekehrt... Hier wird geheizt was der Kessel hergibt. Als Zugabe werden so manche Haare vom Kopf gefönt.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9271_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9271_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9271_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"Ob hart, schnell und laut oder härter, schneller und lauter oder umgekehrt... Hier wird geheizt was der Kessel hergibt.",
+    "metaDataUrl":"http://80.237.159.47:8220/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://80.237.159.47:8220/",
+    "displaySubDomaine":"rockhaus",
+    "recentTitles":
+    [
+      "Jimmy Barnes  Joe Bonamassa - Lazy",
+      "Gene the Werewolf - Rock N Roll Animal",
+      "Snowfall - Oscillate",
+      "Helix - Rock You",
+      "UK Subs - Warhead",
+      "Arcangel Cannata - Prisoner in a Holy Land",
+      "Triumph - Cool Down",
+      "[RMN] - Action One_3s",
+      "Whitennake - Slip Of The Tongue (live)",
+      "Pandora\'s Box - Good Girls Go to Heaven (Bad Girls Go Everywhere)",
+      "Cheap Trick - On Top of the World",
+      "Saxon - Guardians Of The Tomb",
+      "Golden Resurrection - Night Light (Master)",
+      "[RMN] - news",
+      "Prayer - Never let your dreams die",
+      "Stratovarius - Why are we here",
+      "Toto - Rosanna",
+      "John Payne - Written On The Wind",
+      "Steppenwolf - Magic Carpet Ride",
+      "SoulHealer - Ties Of Time",
+      "HammerFall - Unchained (Live In Germany)",
+      "Black Sabbath - The Wizard",
+      "Robin Beck - The One",
+      "Emerson, Lake  Palmer - Black Moon",
+      "Ravenheart - Reborn",
+      "Volbeat - Ecotone",
+      "Kissin\' Dynamite - Six Feet Under",
+      "Helix - Danger Zone",
+      "Huey Lewis  The News - Heart And Soul",
+      "Coverdale  Page - Take Me For A Little While",
+      "Alan Parsons Project - I Wouldn\'t Want To Be Like You",
+      "Snowfall - Citadel Of Hope",
+      "Triumph - Boy\'s Night Out",
+      "Roman Holliday - One Foot Back In Your Door",
+      "Beggars  Thieves - We Come Undone",
+      "Whitennake - Slow An Easy (live)",
+      "Def Leppard - Rock Rock (Till You Drop) (live)",
+      "Mumford  Sons - Lovers\' Eyes",
+      "Pretty Maids - Who What Where When Why",
+      "Heathen - Kill the King",
+      "The Eagles - New Kid In Town",
+      "SoulHealer - Into The Fire",
+      "Blue Yster Cult - The Reaper",
+      "Living Color - Love Rears It\'s Ugly Head",
+      "Slash - Doctor Alibi (Feat. Lemmy Kilmeister)",
+      "HammerFall - Heroes Return",
+      "Yann Lem - Vagabond en sursis",
+      "Black Sabbath - Iron Man",
+      "Zeno - Don\'t Tell The Wind",
+      "Motor Head - Hoocie Coochie Man (live)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1.5,
+    "streamContentFormat":"MP3",
+    "link":"http://www.rockhausradio.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9271_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9271_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9271,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9271_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9271_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9271_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Classic Rock, Metal",
+      "_city":"Kleinblittersdorf",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Rockhaus Radio",
+    "picture3Url":"",
+    "streamUrl":"http://80.237.159.47:8220/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9271_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9271_5.jpeg",
+    "subdomain":"rockhaus",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":4503,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://80.237.159.47:8220/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://80.237.159.47:8220/",
+        "idBroadcast":9271,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://62.146.2.66:8000/vilradio",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"vilradio",
+    "subDomaine":"vilradio",
+    "relayDisabled":false,
+    "rank":2278,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Breites Spektrum aus allen Musikrichtungen: zeitgenössischer Pop, Jazz, Soul, Blues, Rock, latein-amerikanische Rhythmen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2481_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2481_3_1.png",
+    "longitude":11.06833,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Breites Spektrum aus allen Musikrichtungen: zeitgenössischer Pop, Jazz, Soul, Blues, Rock, latein-amerikanische Rhythmen.",
+    "metaDataUrl":"http://62.146.2.66:8000/vilradio",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.44778,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":48,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://62.146.2.66:8000/vilradio",
+    "displaySubDomaine":"vilradio",
+    "recentTitles":
+    [
+      "Black Eyed Peas - Movement",
+      "Vanessa Williams - Better off now",
+      "Smokey Robinson - Being With You",
+      "Rob White - Windjammer",
+      "Emílio Santiago - Dias de Lua",
+      "Michael Lington - Baker Street",
+      "Eric Marienthal - One for James",
+      "Jehro - Long Is The Way",
+      "Toto - Rosanna",
+      "Dr. Hook - Sexy Eyes",
+      "Simone Kopmajer - How Do I Live",
+      "Dave Koz - The Pink Panther",
+      "Djavan - Lugar comum",
+      "Gregg Allman Band - Island",
+      "Diana Ross & The Supremes - You Keep Me Hangin On",
+      "The Mamas & The Papas - Monday Monday",
+      "Paul Hardcastle - Closer",
+      "Alessi Brothers - I wish that I was making love",
+      "Stardust Djs Pres Robbie V - Divine Music",
+      "Dotsero - Welcome Home",
+      "Bobby Lyle - Timbuktu",
+      "Daughtry - Crashed",
+      "Matt Bianco - Half A Minute - Joey Negro Sun",
+      "Andy Narell - Dance Class",
+      "Eric Benet - Hurricane",
+      "Blake Aaron - Will I Go \'Round In Circles [jz2]",
+      "Zucchero feat. Sting - muoio per te",
+      "Akon - Blown Away (feat. Styles P)",
+      "Incognito - Baby It\'s Alright",
+      "Black Eyed Peas - Don\'t Phunk With My Heart",
+      "Jehro - Last Too Long",
+      "Jane McDonald - How Do I Live",
+      "Trijntje Oosterhuis - Kom Vlieg Met Me Mee",
+      "Dave Koz - Start All Over Again",
+      "Jill Scott - be ready",
+      "Gloria Estefan - I want you so bad",
+      "Phil Collins - In the air tonighht",
+      "Joe Cocker - Five Woman",
+      "Jazzkantine - Es ist Jazz",
+      "Fourplay - Go With Your Heart",
+      "Shania Twain - Shoes (Pop Version)",
+      "morgan heritage - so much to come",
+      "The Style Council - Speak Like A Child"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.vilradio.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2481_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2481_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2481,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2481_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2481_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2481_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Blues, Funk",
+      "_city":"Nürnberg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"vilradio",
+    "picture3Url":"",
+    "streamUrl":"http://62.146.2.66:8000/vilradio",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2481_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2481_5.jpeg",
+    "subdomain":"vilradio",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":1445,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://62.146.2.66:8000/vilradio",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://62.146.2.66:8000/vilradio",
+        "idBroadcast":2481,
+        "bitRate":48
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

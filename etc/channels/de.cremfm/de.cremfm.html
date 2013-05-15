@@ -1,0 +1,2738 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+Crem.FM - cremfm, crem -  Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="Crem.FM (128kbps) - Crem.fm - der erste deutsch-russische Radiosender im ganz besonderen Stil! Exklusiv ausgewählte Musik, Star-Gäste im Studio und Interaktivität für die Hörer machen diesen Sender einmalig." />
+<meta property="og:title" content="Crem.FM"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/8959_4.gif"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://cremfm.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://cremfm.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366770998283" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366770998283" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://cremfm.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "cremfm",
+	
+	pageRequestUrl : "http://cremfm.radio.de/broadcast_info.jsf",
+	pageDomain : "cremfm.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"","author":"","stream":"http://87.118.78.19:8000","testResult":null,"name":"","advertisement":false,"audioAdId":"","streamFormat":"SHOUTCAST","type":"STREAM","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":1,"epg":"","streamFormat":"SHOUTCAST","hasLinkingAgreement":false,"validated":true,"subTitle":"","seoTitle":"Crem.FM - cremfm, crem - ","subDomaine":"cremfm","relayDisabled":false,"rank":187,"playableStateString":"FREE","idTeaser":0,"description":"Crem.fm - der erste deutsch-russische Radiosender im ganz besonderen Stil! Exklusiv ausgewählte Musik, Star-Gäste im Studio und Interaktivität für die Hörer machen diesen Sender einmalig.","picture2TransUrl":"http://static.radio.de/images/broadcasts/8959_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/8959_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/8959_6.gif","metaDataAvailable":true,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Crem.fm - der erste deutsch-russische Radiosender im ganz besonderen Stil!","metaDataUrl":"http://87.118.78.19:8000","podcastUrls":[],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://87.118.78.19:8000","displaySubDomaine":"cremfm","recentTitles":["songs - ALESSO FT. MATTHEW KOMA - years (dj mikis rmx).mp3","songs - JACKBACK, DAVID GUETTA, NICKY ROMERO - wild one two.mp3","songs - LUCKY CHARMES  TONY VERDULT - bum bum bum (martin freak rmx).mp3","songs - LENKA - everything at once (dj nejtrino  dj stranger rmx).mp3","songs - NORMAN DORAY FT. ROBIN S - hook me love (fred lilla rmx).mp3","songs - SCOOTER - 4 a.m. (fidget  deluxe rmx).mp3","songs - HARD ROCK SOFA  SWANKY TUNES - here we go (original mix).mp3","songs - GROMEE FT. TOMMY GUNN - you make me say (tale  dutch rmx).mp3","songs - BURNS - lies (otto knows rmx).mp3","songs - DAVID SOLANO VS. TONY PUCCIO - take me to the dj.mp3","songs - AZURO FT. ELLY - je ne sais pas (rio rmx).mp3","songs - EURYTHMICS VS. NICKY ROMERO - sweet gonna dreams (relanium rmx).mp3","songs - SANDER VAN DOORN FT. JULIAN JORDAN - party shaker (dj shummy rmx).mp3","songs - ARASH FT. SEAN PAUL - she makes me go.mp3","songs - NICKY ROMERO - toulouse (tommy trash rmx).mp3","songs - FAKE BLOOD - i think i like it (phntm rmx).mp3","songs - DOMINIK JOKER - proschaj (paul vine rmx).mp3","songs - FLO RIDA - whistle (cosmic dawn rmx).mp3","songs - RIHANNA FT. DAVID GUETTA - right now (taito rmx).mp3","songs - ALEX C FT. YASS VS. SKI - l amour toujours (radio mix).mp3","songs - !WERBUNG! - wr.mp3","songs - CALVIN HARRIS - drinking from the bottle.mp3","songs - STEVE AIOKI FT. WYNTER GORDON - ladi dadi (original mix).mp3","songs - DENNIS FERRER - super hey hey.mp3","songs - BUSTA RHYMES  MARIAH CAREY - i know what you want (dj kirillich rmx).mp3","songs - KATE RYAN - ella elle la (bodybangers rmx).mp3","songs - DJ FENIX FT. DNK PROJECT - dozhdis`.mp3","songs - LYKKE LI - i follow rivers (dj nejtrino  dj stranger rmx).mp3","songs - WEEKEND HEROES - over the world (darwin  backwall rmx).mp3","songs - DAVID GUETTA FT. WILL.I.AM - nothing really matters.mp3","songs - DEORRO - me (original mix).mp3","songs - FABIO GOMEZ - bullet (original mix).mp3","songs - MOVETOWN FT. R. HORTON - here comes the sun.mp3","songs - PSY FT. FIREBEATZ - dear gangnam style (light  crane rmx).mp3","songs - CHRIS BROWN FT. RIHANNA - turn up the music.mp3","songs - BLACK EYED PEAS VS. ROMA PAFOS - this time pam pam pam (dj belyaev rmx 2k12).mp3","songs - VANDALISM VS. DJ JUANPA - larandella in vegas (dj nejtrino vs. dj baur rmx).mp3","songs - A-DESSA - fire (dj fisun radio mix).mp3","songs - BANDEROS - columbia pictures ne predstavljaet (mak rmx).mp3","songs - CHUCKIE  JUNXTERJACK - make some noise (original mix).mp3","songs - CHRIS GARCIA FT. SHERRY - i rock alone.mp3","songs - SKRILLEX FT. SIRAH - bangarang (original mix).mp3","songs - SKRILLEX VS. BEP - boom everybody wtf (dj m alyakina rmx).mp3","songs - MIKE CANDYS - la serenada (200k rmx).mp3","songs - DIRT NASTY  LMFAO - i cant dance.mp3","songs - MARTY FAME  DJ LUTIQUE - let the house music play (buy one get one free rmx).mp3","songs - DJ LBR FT. DJ KOOL  NAPPY PACO - get your hands up (crew 7 rmx).mp3","songs - THE DISCO BOYS - around the world (jean elan rmx).mp3","songs - MICHA MOOR FT. SHEENA - take me to the clouds above (original mix).mp3","songs - DMX VS. CLOCKWORK - party up.mp3","songs - TOMMY VEE - press play (john lemmon rmx).mp3","songs - NICK CORLINE - touch the stars (original ext).mp3","songs - COLDPLAY - paradise (fedde le grand rmx).mp3","songs - SHM FT. TAIO CRUZ - i dont care (original vocal mix).mp3","songs - AVICII VS CULTURE BEAT - last vain (tr-meet  yuliana back to old school rmx).mp3","songs - GODLIKE MUSIC PORT - jambo jambo jambo.mp3","songs - KRYDER VS. JOEL EDWARDS - sending out an s.o.s. (original mix).mp3","songs - JUNIOR CALDERA FT. NATALIA KILLS - lights out.mp3","songs - L.A.R.5 - all the girls ft. jai matt (hide  seek rmx).mp3","songs - SCOOTER VS DISCOTEK - 4am (dj pitchugin rmx).mp3","songs - DJ NEJTRINO  DJ BAUR - like it like it.mp3","songs - TARANTINO - rock this party (tarantino rmx).mp3","songs - SANDER VAN DOORN  MAYAENI - nothing inside (original mix).mp3","songs - SAM OBERNIK FT. DADA - stereo flo.mp3","songs - MIKE CANDYS FT. SANDRA WILD - sunshine.mp3","songs - DEEPSIDE DEEJAYS - look into my eyes.mp3","songs - DJ KUBA FT. NEITAN - party hard (funkwell rmx).mp3"],"idType":1,"descriptionPodcast":"","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://crem.fm/","advertising":true,"picture1Url":"http://static.radio.de/images/broadcasts/8959_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/8959_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":8959,"picture1TransUrl":"http://static.radio.de/images/broadcasts/8959_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/8959_5_1.png","author":"","title":"","picture4Url":"http://static.radio.de/images/broadcasts/8959_4.gif","picture6Set":true,"tagsForDisplay":{"_type":"Webradio","_topic":"Webradio","_country":"Deutschland","_genre":"Dance, Pop","_city":"Münster","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"Crem.FM","picture3Url":"","streamUrl":"http://87.118.78.19:8000","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/8959_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/8959_5.gif","subdomain":"cremfm","streamUrls":[{"sampleRate":44100,"id":11716,"metaDataAvailable":true,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://87.118.78.19:8000","streamFormat":"SHOUTCAST","streamUrl":"http://87.118.78.19:8000","idBroadcast":8959,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"cremfm", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"8959", play:"cremfm"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("13"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Dance:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("cremfm"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("141"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("3"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Webradio"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("87"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("179"));
+document.write ("&amp;age_20_29=" + escape("245"));
+document.write ("&amp;age_60_69=" + escape("1"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/cremfm/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „Crem.FM“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/8959_4.gif" alt="Crem.FM" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("13"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Dance:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("cremfm"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("141"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("3"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Webradio"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("87"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("179"));
+document.write ("&amp;age_20_29=" + escape("245"));
+document.write ("&amp;age_60_69=" + escape("1"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">Crem.FM</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Münster,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://crem.fm/'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „Crem.FM“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Crem.fm - der erste deutsch-russische Radiosender im ganz besonderen Stil! Exklusiv ausgewählte Musik, Star-Gäste im Studio und Interaktivität für die Hörer machen diesen Sender einmalig.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„Crem.FM“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'8959', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">34</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">3.82</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'8959', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star3-5"
+stars="3-5"
+title="„Crem.FM“ bewerten?"
+content="3.82352941176471">
+</a>
+<span class="big-rate-text">Crem.FM&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „Crem.FM“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„Crem.FM“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<h2 class="h2">
+Radiosender Playlist bei „Crem.FM“:
+</h2>
+</div>
+<div id ="recentlyPlayedList">
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body">
+
+
+
+
+<li class="playing">
+<div class="now-playing-list-track">songs - ALESSO FT. MATTHEW KOMA - years (dj mikis rmx).mp3</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=songs%20-%20ALESSO FT. MATTHEW KOMA - years (dj mikis rmx).mp3&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=ALESSO FT. MATTHEW KOMA - years (dj mikis rmx).mp3&artistTerm=songs&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=songs ALESSO FT. MATTHEW KOMA - years (dj mikis rmx).mp3'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="playing swfobject" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">songs - JACKBACK, DAVID GUETTA, NICKY ROMERO - wild one two.mp3</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=songs%20-%20JACKBACK, DAVID GUETTA, NICKY ROMERO - wild one two.mp3&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=JACKBACK, DAVID GUETTA, NICKY ROMERO - wild one two.mp3&artistTerm=songs&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=songs JACKBACK, DAVID GUETTA, NICKY ROMERO - wild one two.mp3'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">songs - LUCKY CHARMES  TONY VERDULT - bum bum bum (martin freak rmx).mp3</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=songs%20-%20LUCKY CHARMES  TONY VERDULT - bum bum bum (martin freak rmx).mp3&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=LUCKY CHARMES  TONY VERDULT - bum bum bum (martin freak rmx).mp3&artistTerm=songs&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=songs LUCKY CHARMES  TONY VERDULT - bum bum bum (martin freak rmx).mp3'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">songs - LENKA - everything at once (dj nejtrino  dj stranger rmx).mp3</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=songs%20-%20LENKA - everything at once (dj nejtrino  dj stranger rmx).mp3&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=LENKA - everything at once (dj nejtrino  dj stranger rmx).mp3&artistTerm=songs&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=songs LENKA - everything at once (dj nejtrino  dj stranger rmx).mp3'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+<li>
+<div class="now-playing-list-track">songs - NORMAN DORAY FT. ROBIN S - hook me love (fred lilla rmx).mp3</div>
+<div class="now-playing-list-actions">
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://www.amazon.de/gp/search?ie=UTF8&keywords=songs%20-%20NORMAN DORAY FT. ROBIN S - hook me love (fred lilla rmx).mp3&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742'}" title="amazonmp3.de" target="_blank">
+<img src="http://radio.de/inc/img/shops/amazonmp3_16x16.png" width="16" height="16" alt="amazonmp3.de" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=NORMAN DORAY FT. ROBIN S - hook me love (fred lilla rmx).mp3&artistTerm=songs&s=143443&partnerId=2003'}" title="iTunes" target="_blank">
+<img src="http://radio.de/inc/img/shops/itunes_16x16.gif" width="16" height="16" alt="iTunes" />
+</a>
+
+
+
+
+
+<a class="js-link-external" linkobject="{'url':'http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=songs NORMAN DORAY FT. ROBIN S - hook me love (fred lilla rmx).mp3'}" title="musicload" target="_blank">
+<img src="http://radio.de/inc/img/shops/musicload_16x16.gif" width="16" height="16" alt="musicload" />
+</a>
+
+
+
+
+
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „Crem.FM“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://russianradio.radio.de'}" bcastid="1943" title="„Russian! Radio“ hören" id="currentlyPlayedStation_1943">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1943_1.jpeg" alt="„Russian! Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://russianfm.radio.de'}" bcastid="9727" title="„RussianFM“ hören" id="currentlyPlayedStation_9727">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9727_1.jpeg" alt="„RussianFM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://europaplusru.radio.de'}" bcastid="8285" title="„Europa Plus ru“ hören" id="currentlyPlayedStation_8285">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8285_1.jpeg" alt="„Europa Plus ru“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiohitmix.radio.de'}" bcastid="6561" title="„Radio HitMix“ hören" id="currentlyPlayedStation_6561">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6561_1.jpeg" alt="„Radio HitMix“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioshtorm.radio.de'}" bcastid="11123" title="„Radio Shtorm Russia“ hören" id="currentlyPlayedStation_11123">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11123_1.jpeg" alt="„Radio Shtorm Russia“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://101rurussia90s.radio.de'}" bcastid="8797" title="„101.ru: Russia 90's“ hören" id="currentlyPlayedStation_8797">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8797_1.jpeg" alt="„101.ru: Russia 90's“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioelectro.radio.de'}" bcastid="6560" title="„Radio Electro“ hören" id="currentlyPlayedStation_6560">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6560_1.jpeg" alt="„Radio Electro“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://101runrj.radio.de'}" bcastid="8793" title="„101.ru NRJ R'n'B“ hören" id="currentlyPlayedStation_8793">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8793_1.jpeg" alt="„101.ru NRJ R'n'B“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://breakzus.radio.de'}" bcastid="8976" title="„BreakZ.us“ hören" id="currentlyPlayedStation_8976">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8976_1.jpeg" alt="„BreakZ.us“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://101ruchanson.radio.de'}" bcastid="5232" title="„101.ru: Franzosische Chansons“ hören" id="currentlyPlayedStation_5232">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5232_1.jpeg" alt="„101.ru: Franzosische Chansons“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://blackbeatsfm.radio.de'}" bcastid="1455" title="„BlackBeats.FM“ hören" id="currentlyPlayedStation_1455">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1455_1.jpeg" alt="„BlackBeats.FM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiohip-hop.radio.de'}" bcastid="6564" title="„Radio Hip-Hop“ hören" id="currentlyPlayedStation_6564">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6564_1.jpeg" alt="„Radio Hip-Hop“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://pureenergyfm.radio.de'}" bcastid="9757" title="„PureEnergy.FM“ hören" id="currentlyPlayedStation_9757">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9757_1.jpeg" alt="„PureEnergy.FM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://deepmixmoscow.radio.de'}" bcastid="1514" title="„Deep Mix Moscow Radio“ hören" id="currentlyPlayedStation_1514">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1514_1.jpeg" alt="„Deep Mix Moscow Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://russianradio.radio.de'}" bcastid="1943" title="„Russian! Radio“ hören" id="currentlyPlayedStation2_1943">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1943_1.jpeg" alt="„Russian! Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://russianfm.radio.de'}" bcastid="9727" title="„RussianFM“ hören" id="currentlyPlayedStation2_9727">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9727_1.jpeg" alt="„RussianFM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://europaplusru.radio.de'}" bcastid="8285" title="„Europa Plus ru“ hören" id="currentlyPlayedStation2_8285">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8285_1.jpeg" alt="„Europa Plus ru“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiohitmix.radio.de'}" bcastid="6561" title="„Radio HitMix“ hören" id="currentlyPlayedStation2_6561">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6561_1.jpeg" alt="„Radio HitMix“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioshtorm.radio.de'}" bcastid="11123" title="„Radio Shtorm Russia“ hören" id="currentlyPlayedStation2_11123">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11123_1.jpeg" alt="„Radio Shtorm Russia“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://101rurussia90s.radio.de'}" bcastid="8797" title="„101.ru: Russia 90's“ hören" id="currentlyPlayedStation2_8797">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8797_1.jpeg" alt="„101.ru: Russia 90's“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioelectro.radio.de'}" bcastid="6560" title="„Radio Electro“ hören" id="currentlyPlayedStation2_6560">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6560_1.jpeg" alt="„Radio Electro“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://101runrj.radio.de'}" bcastid="8793" title="„101.ru NRJ R'n'B“ hören" id="currentlyPlayedStation2_8793">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8793_1.jpeg" alt="„101.ru NRJ R'n'B“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://breakzus.radio.de'}" bcastid="8976" title="„BreakZ.us“ hören" id="currentlyPlayedStation2_8976">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8976_1.jpeg" alt="„BreakZ.us“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://101ruchanson.radio.de'}" bcastid="5232" title="„101.ru: Franzosische Chansons“ hören" id="currentlyPlayedStation2_5232">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5232_1.jpeg" alt="„101.ru: Franzosische Chansons“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://blackbeatsfm.radio.de'}" bcastid="1455" title="„BlackBeats.FM“ hören" id="currentlyPlayedStation2_1455">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1455_1.jpeg" alt="„BlackBeats.FM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiohip-hop.radio.de'}" bcastid="6564" title="„Radio Hip-Hop“ hören" id="currentlyPlayedStation2_6564">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6564_1.jpeg" alt="„Radio Hip-Hop“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://pureenergyfm.radio.de'}" bcastid="9757" title="„PureEnergy.FM“ hören" id="currentlyPlayedStation2_9757">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9757_1.jpeg" alt="„PureEnergy.FM“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://deepmixmoscow.radio.de'}" bcastid="1514" title="„Deep Mix Moscow Radio“ hören" id="currentlyPlayedStation2_1514">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/1514_1.jpeg" alt="„Deep Mix Moscow Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_1943" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Russian! Radio“ hören" linkobject="{'url':'http://russianradio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Russian! Radio“ hören" href="http://russianradio.radio.de">Russian! Radio</a></span>
+<span class="title_1943 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Demo - Eto leto</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9727" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„RussianFM“ hören" linkobject="{'url':'http://russianfm.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„RussianFM“ hören" href="http://russianfm.radio.de">RussianFM</a></span>
+<span class="title_9727 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Maxim - Ja Weter</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8285" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Europa Plus ru“ hören" linkobject="{'url':'http://europaplusru.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Europa Plus ru“ hören" href="http://europaplusru.radio.de">Europa Plus ru</a></span>
+<span class="title_8285 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8808" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio Alla“ hören" linkobject="{'url':'http://radioalla.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio Alla“ hören" href="http://radioalla.radio.de">Radio Alla</a></span>
+<span class="title_8808 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6561" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio HitMix“ hören" linkobject="{'url':'http://radiohitmix.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio HitMix“ hören" href="http://radiohitmix.radio.de">Radio HitMix</a></span>
+<span class="title_6561 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Charlot - Making Belive</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11123" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio Shtorm Russia“ hören" linkobject="{'url':'http://radioshtorm.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio Shtorm Russia“ hören" href="http://radioshtorm.radio.de">Radio Shtorm Russia</a></span>
+<span class="title_11123 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Алеся Висич - Дыхание</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8797" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„101.ru: Russia 90's“ hören" linkobject="{'url':'http://101rurussia90s.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„101.ru: Russia 90's“ hören" href="http://101rurussia90s.radio.de">101.ru: Russia 90's</a></span>
+<span class="title_8797 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6560" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio Electro“ hören" linkobject="{'url':'http://radioelectro.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio Electro“ hören" href="http://radioelectro.radio.de">Radio Electro</a></span>
+<span class="title_6560 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Lucien Foort - The Shame (Baggi Begovic Dub)</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8793" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„101.ru NRJ R'n'B“ hören" linkobject="{'url':'http://101runrj.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„101.ru NRJ R'n'B“ hören" href="http://101runrj.radio.de">101.ru NRJ R'n'B</a></span>
+<span class="title_8793 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  TYRESE - She Let's Me Be A Man - 0:00</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8976" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„BreakZ.us“ hören" linkobject="{'url':'http://breakzus.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„BreakZ.us“ hören" href="http://breakzus.radio.de">BreakZ.us</a></span>
+<span class="title_8976 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Schweiz 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5232" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„101.ru: Franzosische Chansons“ hören" linkobject="{'url':'http://101ruchanson.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„101.ru: Franzosische Chansons“ hören" href="http://101ruchanson.radio.de">101.ru: Franzosische Chansons</a></span>
+<span class="title_5232 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1455" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„BlackBeats.FM“ hören" linkobject="{'url':'http://blackbeatsfm.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„BlackBeats.FM“ hören" href="http://blackbeatsfm.radio.de">BlackBeats.FM</a></span>
+<span class="title_1455 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6564" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Radio Hip-Hop“ hören" linkobject="{'url':'http://radiohip-hop.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Radio Hip-Hop“ hören" href="http://radiohip-hop.radio.de">Radio Hip-Hop</a></span>
+<span class="title_6564 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Method Man  Redman - Well All Rite Cha</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9757" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„PureEnergy.FM“ hören" linkobject="{'url':'http://pureenergyfm.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„PureEnergy.FM“ hören" href="http://pureenergyfm.radio.de">PureEnergy.FM</a></span>
+<span class="title_9757 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_1514" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deep Mix Moscow Radio“ hören" linkobject="{'url':'http://deepmixmoscow.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deep Mix Moscow Radio“ hören" href="http://deepmixmoscow.radio.de">Deep Mix Moscow Radio</a></span>
+<span class="title_1514 songtitle showPrefix">
+
+
+
+
+
+
+
+Jetzt:  Dima  Max - Sapovnela Studio: Pasternak</span>
+<span class="stationcountry">Aus
+Russland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „Crem.FM“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/dance" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach dance suchen" tag="dance">dance</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach deutsch suchen" tag="deutsch">deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/pop" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach pop suchen" tag="pop">pop</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Münster" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Münster suchen" tag="Münster">Münster</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Russisch" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Russisch suchen" tag="Russisch">Russisch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Webradio" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Webradio suchen" tag="Webradio">Webradio</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/house" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach house suchen" tag="house">house</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/russisch1" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach russisch1 suchen" tag="russisch1">russisch1</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „Crem.FM“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'8959', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „Crem.FM“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://cremfm.radio.de" class="js-link-external" linkobject="{'url':'http://cremfm.radio.de'}" title="„Crem.FM“ hören" target="_blank">
+http://cremfm.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fcremfm.radio.de&amp;notes=&amp;tags=&amp;title=Crem.FM;'}" class="icon-delicious js-link-external" title="„Crem.FM“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fcremfm.radio.de&amp;bm_notice=&amp;bm_description=Crem.FM&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„Crem.FM“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fcremfm.radio.de&amp;title=Crem.FM'}" class="icon-stumble js-link-external" title="„Crem.FM“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fcremfm.radio.de&amp;bodytext=&amp;tags=&amp;title=Crem.FM'}" class="icon-digg js-link-external" title="„Crem.FM“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fcremfm.radio.de&amp;title=Crem.FM&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„Crem.FM“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+
+
+Genießen Sie den kostenlosen Komfort von radio.de und hören Sie Crem.FM einfach per Internetradio. Auf dieser Seite finden Sie ein umfassende Auswahl von Webradio Sendern und Livestreams aus der ganzen Welt. Hier können Sie neben Crem.FM noch viele weitere Lieblingssender entdecken.
+
+
+
+							
+											
+						
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Webradio
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 Stream 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("13"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Dance:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("cremfm"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("141"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("3"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Webradio"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("87"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("179"));
+document.write ("&amp;age_20_29=" + escape("245"));
+document.write ("&amp;age_60_69=" + escape("1"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">Crem.FM</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://russianradio.radio.de/" class="channel-link" title="„Russian! Radio“ hören">
+<span class="broadcast-name">Russian! Radio</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://russianfm.radio.de/" class="channel-link" title="„RussianFM“ hören">
+<span class="broadcast-name">RussianFM</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://europaplusru.radio.de/" class="channel-link" title="„Europa Plus ru“ hören">
+<span class="broadcast-name">Europa Plus ru</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radioalla.radio.de/" class="channel-link" title="„Radio Alla“ hören">
+<span class="broadcast-name">Radio Alla</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohitmix.radio.de/" class="channel-link" title="„Radio HitMix“ hören">
+<span class="broadcast-name">Radio HitMix</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radioshtorm.radio.de/" class="channel-link" title="„Radio Shtorm Russia“ hören">
+<span class="broadcast-name">Radio Shtorm Russia</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://101rurussia90s.radio.de/" class="channel-link" title="„101.ru: Russia 90's“ hören">
+<span class="broadcast-name">101.ru: Russia 90's</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radioelectro.radio.de/" class="channel-link" title="„Radio Electro“ hören">
+<span class="broadcast-name">Radio Electro</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://101runrj.radio.de/" class="channel-link" title="„101.ru NRJ R'n'B“ hören">
+<span class="broadcast-name">101.ru NRJ R'n'B</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://breakzus.radio.de/" class="channel-link" title="„BreakZ.us“ hören">
+<span class="broadcast-name">BreakZ.us</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("13"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Dance:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("cremfm"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("141"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("3"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Webradio"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("87"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("179"));
+document.write ("&amp;age_20_29=" + escape("245"));
+document.write ("&amp;age_60_69=" + escape("1"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("13"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Dance:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("cremfm"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("141"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("3"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Webradio"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("87"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("179"));
+document.write ("&amp;age_20_29=" + escape("245"));
+document.write ("&amp;age_60_69=" + escape("1"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("13"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Dance:Pop"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("cremfm"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("141"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("3"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Webradio"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("87"));
+document.write ("&amp;age_50_59=" + escape("7"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("23"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("179"));
+document.write ("&amp;age_20_29=" + escape("245"));
+document.write ("&amp;age_60_69=" + escape("1"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

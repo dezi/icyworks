@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus31.leonex.de:28212",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio TSOP, The Sound Of Philadelphia - ",
+    "subDomaine":"tsop",
+    "relayDisabled":false,
+    "rank":2225,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio TSOP nimmt Sie mit auf eine Reise ins groovy Philly. The Sound Of Philadelphia lässt Ihr Tanzbein schwingen zu Soul - Groove - Funk & Disco!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/18201_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/18201_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/18201_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"The Sound Of Philadelphia lässt Ihr Tanzbein schwingen zu Soul - Groove - Funk & Disco!",
+    "metaDataUrl":"http://streamplus31.leonex.de:28212",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://streamplus31.leonex.de:28212",
+    "displaySubDomaine":"tsop",
+    "recentTitles":
+    [
+      "McFadden - adelphia International Records: The 40th Anniversary Box Set Disc 9 - Ain`t No Stoppin` Us Now",
+      "The Ebonys - adelphia International Records: The 40th Anniversary Box Set Disc 3 - Do You Like the Way I Love",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 4 - The Whole Town`s Laughing at Me",
+      "The Stylistics - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Hurry Up This Way Again",
+      "Billy Paul - adelphia International Records: The 40th Anniversary Box Set Disc 9 - Bring the Family Back",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 6 - You Can`t Hide from Yourself",
+      "Lou Rawls - adelphia International Records: The 40th Anniversary Box Set Disc 6 - Whats the Matter with the World?",
+      "Bunny Sigler - adelphia International Records: The 40th Anniversary Box Set Disc 4 - Keep Smilin`",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 8 - Come Go with Me",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 8 - Turn Off the Lights",
+      "Archie Bell  the Drells - adelphia International Records: The 40th Anniversary Box Set Disc 9 - Strategy",
+      "Bunny Sigler - adelphia International Records: The 40th Anniversary Box Set Disc 5 - Picture Us",
+      "Jean Carn - adelphia International Records: The 40th Anniversary Box Set Disc 5 - Intro/My Love Don`t Come Easy",
+      "Lou Rawls - adelphia International Records: The 40th Anniversary Box Set Disc 5 - Lady Love",
+      "The O`Jays - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Summer Fling",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Heaven Only Knows",
+      "Patti LaBelle - adelphia International Records: The 40th Anniversary Box Set Disc 10 - If Only You Knew",
+      "The O`Jays - adelphia International Records: The 40th Anniversary Box Set Disc 6 - To Prove I Love You",
+      "Anthony White - adelphia International Records: The 40th Anniversary Box Set Disc 3 - Never Let You Get Away from Me",
+      "The Jones Girls - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Baby Don`t Go Yet",
+      "McFadden  Whitehead - adelphia International Records: The 40th Anniversary Box Set Disc 9 - I Heard It in a Love Song",
+      "Bunny Sigler - adelphia International Records: The 40th Anniversary Box Set Disc 3 - Can`t Believe That You Love Me [Version]",
+      "Monk Montgomery - adelphia International Records: The 40th Anniversary Box Set Disc 7 - Reality",
+      "Bobby Bennett - adelphia International Records: The 40th Anniversary Box Set Disc 3 - Days Go By",
+      "The Jones Girls - adelphia International Records: The 40th Anniversary Box Set Disc 5 - This Feeling Is Killing Me",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 6 - When Somebody Loves You Back",
+      "Mel Lewis - adelphia International Records: The 40th Anniversary Box Set Disc 7 - For the Love of Money",
+      "People`s Choice - adelphia International Records: The 40th Anniversary Box Set Disc 2 - Jam Jam Jam (All Night Long)",
+      "Love Committee - adelphia International Records: The 40th Anniversary Box Set Disc 3 - One Day of Peace",
+      "The O`Jays - adelphia International Records: The 40th Anniversary Box Set Disc 9 - Put Our Heads Together",
+      "Leon Huff - adelphia International Records: The 40th Anniversary Box Set Disc 7 - I Ain`t Jivin, I`m Jammin",
+      "Archie Bell  the Drells - adelphia International Records: The 40th Anniversary Box Set Disc 5 - Where Will You Go When the Party`s Over?",
+      "Archie Bell  the Drells - adelphia International Records: The 40th Anniversary Box Set Disc 6 - Don`t Let Love Get You Down",
+      "Patti LaBelle - adelphia International Records: The 40th Anniversary Box Set Disc 9 - The Spirit`s in It",
+      "Jean Carn - adelphia International Records: The 40th Anniversary Box Set Disc 5 - I Bet She Won`t Love You Like I Do",
+      "Lou Rawls - adelphia International Records: The 40th Anniversary Box Set Disc 6 - Not the Staying Kind",
+      "Phyllis Hyman - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Ain`t You Had Enough Love",
+      "MFSB - adelphia International Records: The 40th Anniversary Box Set Disc 6 - Used ta Be My Guy",
+      "Carolyn Crawford - adelphia International Records: The 40th Anniversary Box Set Disc 3 - Good  Plenty",
+      "Jean Carn - adelphia International Records: The 40th Anniversary Box Set Disc 6 - (No, No) You Can`t Come Back Now",
+      "Ethics - adelphia International Records: The 40th Anniversary Box Set Disc 3 - Who in the World",
+      "The O`Jays - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Extraordinary Girl",
+      "MFSB - adelphia International Records: The 40th Anniversary Box Set Disc 1 - K-Jee",
+      "The O`Jays - adelphia International Records: The 40th Anniversary Box Set Disc 1 - Message in the Music",
+      "The O`Jays - adelphia International Records: The 40th Anniversary Box Set Disc 2 - Love Train",
+      "Carolyn Crawford - adelphia International Records: The 40th Anniversary Box Set Disc 3 - If You Move, You Lose",
+      "The Ebonys - adelphia International Records: The 40th Anniversary Box Set Disc 3 - It`s Forever",
+      "Harold Melvin  the Blue Notes - adelphia International Records: The 40th Anniversary Box Set Disc 2 - Satisfaction Guaranteed (Or Take Your Love Back)",
+      "The Jacksons - adelphia International Records: The 40th Anniversary Box Set Disc 1 - Show You the Way to Go",
+      "Dee Dee Sharp Gamble - adelphia International Records: The 40th Anniversary Box Set Disc 10 - Easy Money",
+      "Teddy Pendergrass - adelphia International Records: The 40th Anniversary Box Set Disc 6 - I Don`t Love You Anymore"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-tsop.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/18201_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/18201_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":18201,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/18201_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/18201_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/18201_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Disco, Funk",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio TSOP",
+    "picture3Url":"",
+    "streamUrl":"http://streamplus31.leonex.de:28212",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":false,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/18201_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"",
+    "subdomain":"tsop",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":20233,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus31.leonex.de:28212",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus31.leonex.de:28212",
+        "idBroadcast":18201,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

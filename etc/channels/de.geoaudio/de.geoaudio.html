@@ -1,0 +1,2666 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+GEOaudio Reise-Podcast Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="GEOaudio Reise-Podcast (128kbps) - Jeden Donnerstag präsentieren Susanna Bloß und Mathias Unger aus der GEO-Redaktion Reise-Faszination aus erster Hand: Sie befragen GEO-Reporter nach ihren Reise-Erlebnissen, präsentieren Tipps für eigene Erkundungen, machen Mut zum Besuch entlegener Regionen. Und als Extra gibt es eine Reise-Reportage als kleines Hörbuch." />
+<meta property="og:title" content="GEOaudio Reise-Podcast"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/4920_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://geoaudio.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://geoaudio.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366767043635" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366767043635" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://geoaudio.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "geoaudio",
+	
+	pageRequestUrl : "http://geoaudio.radio.de/broadcast_info.jsf",
+	pageDomain : "geoaudio.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17702440","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Ein Besuch in der Wüste Thar","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700862","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-03-21/GEOaudio369_Extra_China.mp3","testResult":null,"name":"GEOaudio Extra - Chinas tiefe Schätze","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699735","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-03-14/GEOaudio368_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Die Gewinner der Goldenen Palme","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699736","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-03-07/GEOaudio367_Extra_Kongo2.mp3","testResult":null,"name":"GEOaudio Extra - Mit dem Schiff durch den Kongo (Teil 2)","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695528","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-02-28/GEOaudio366_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Frühjahrsputz bei GEO SAISON","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693906","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-02-21/GEOaudio365_Extra_Kongo1_Bo.mp3","testResult":null,"name":"GEOaudio Extra - Mit dem Schiff durch den Kongo","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17691843","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-02-14/GEOaudio364_Mag_Bounce.mp3","testResult":null,"name":"GEOaudio Magazin - Abschlussinterview Mittendurch statt drüberhinweg","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690071","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-02-07/GEOaudio362_Extra_Argent.mp3","testResult":null,"name":"GEOaudio Extra - Argentiniens Norden","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686319","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-01-24/GEOaudio361_Extra_Curling.mp3","testResult":null,"name":"GEOaudio Extra - Curling in Arosa","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17684521","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-01-17/GEOaudio360_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Kartoffelernte in Peru","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17682535","author":"","stream":"http://www.geo.de/GEOaudio/audios/2013-01-03/GEOaudio358_Extra_SF_Bounce.mp3","testResult":null,"name":"GEOaudio Extra - San Francisco mit Apps","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17682536","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-12-27/GEOaudio357_Mag_Bounce.mp3","testResult":null,"name":"GEOaudio Magazin - Alphorn","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17678023","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-12-20/GEOaudio356_Extra_La_Reunion","testResult":null,"name":"GEOaudio Extra - La Réunion","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675446","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-12-13/GEOaudio355_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Wüstenwanderer Achill Moser","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675447","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-12-06/GEOaudio354_Extra_Arlberg.mp3","testResult":null,"name":"GEOaudio Extra - Arlberg","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675448","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-11-29/GEOaudio353_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Das Verschwinden der Arten","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675449","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-11-22/GEOaudio352_Extra_Suedtirol.mp3","testResult":null,"name":"GEOaudio Extra - Südtirol","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675450","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-11-15/GEOaudio351_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Swing in San Francisco","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17673958","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-11-08/GEOaudio350_Indien.mp3","testResult":null,"name":"GEOaudio Extra - Indien","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675451","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-11-01/GEOaudio349_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Honduras","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675452","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-10-25/GEOaudio348_Extra_Bern.mp3","testResult":null,"name":"GEOaudio Extra - Bern","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675453","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-10-18/GEOaudio347_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Montenegro neu entdecken","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675454","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-10-11/GEOaudio346_Extra_Albanien.mp3","testResult":null,"name":"GEOaudio Extra - Albanien","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675455","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-10-04/GEOaudio345_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Ein Leben auf zwei Rädern","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675456","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-09-27/GEOaudio344_Extra_Muenchen.mp3","testResult":null,"name":"GEOaudio Extra - München","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675457","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-09-20/GEOaudio343_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Europa von Mensch zu Mensch","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675458","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-09-13/GEOaudio342_Extra_Aethiopien.mp3","testResult":null,"name":"GEOaudio Extra - Äthiopien","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675459","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-09-06/GEOaudio341_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Schildkrötenschutz in Nicaragua","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675460","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-08-30/GEOaudio340_Extra_Kreta.mp3","testResult":null,"name":"GEOaudio Extra - Kreta","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675461","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-08-23/GEOaudio339_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Die schmalste Straße der Welt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675462","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-08-16/GEOaudio338_Extra_Toskana.mp3","testResult":null,"name":"GEOaudio Extra - Toskana","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675463","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-08-09/GEOaudio337_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Wunder Wald","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675464","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-08-02/GEOaudio336_Extra_China.mp3","testResult":null,"name":"GEOaudio Extra: China mit dem Auto","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675465","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-07-26/GEOaudio335_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Sabbatical","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675466","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-07-19/GEOaudio334_Finntango.mp3","testResult":null,"name":"GEOaudio Extra - Tangomarkkinat","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675467","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-07-12/GEOaudio333_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Tresen-Legenden","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675468","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-07-05/GEOaudio332_Extra_Virunga.mp3","testResult":null,"name":"GEOaudio Extra - Virunga","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675469","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-06-28/GEOaudio331_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Richtig wandern","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675470","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-06-21/GEOaudio330_Extra_Gers.mp3","testResult":null,"name":"GEOaudio Extra - Landpartie Gers","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675471","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-06-14/GEOaudio329_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Mit dem Kicker um die Welt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675472","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-06-07/GEOaudio328_Extra_Cadiz.mp3","testResult":null,"name":"GEOaudio Extra - Cadiz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675473","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-05-31/GEOaudio327_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Mittendurch statt drüberweg","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675474","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-05-24/GEOaudio326_Extra_Cornwall.mp3","testResult":null,"name":"GEOaudio Extra - Cornwall","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675475","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-05-17/GEOaudio325_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Wien-Tipps von Eva Menasse","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675476","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-05-10/GEOaudio324_Extra_Everest.mp3","testResult":null,"name":"GEOaudio Extra - Ein Mal Mount Everest","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675477","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-05-03/GEOaudio323_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Im Reich der Aromen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675478","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-04-26/GEOaudio322_Extra_Wald.mp3","testResult":null,"name":"GEOaudio Extra - Das wilde Leben","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675479","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-04-19/GEOaudio321_Mag.mp3","testResult":null,"name":"GEOaudio Magazin - Nordseeradweg","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675480","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-04-12/GEOaudio320_Extra_Monti.mp3","testResult":null,"name":"GEOaudio Extra - Rom","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17675481","author":"","stream":"http://www.geo.de/GEOaudio/audios/2012-04-05/GEOaudio319_Magazin.mp3","testResult":null,"name":"GEOaudio Magazin - Weltweite Weltrettung","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"Hören und Reisen - Mit GEO die Welt erleben!","seoTitle":"GEOaudio Reise-Podcast","subDomaine":"geoaudio","relayDisabled":false,"rank":2359,"playableStateString":"FREE","idTeaser":0,"description":"Jeden Donnerstag präsentieren Susanna Bloß und Mathias Unger aus der GEO-Redaktion Reise-Faszination aus erster Hand: Sie befragen GEO-Reporter nach ihren Reise-Erlebnissen, präsentieren Tipps für eigene Erkundungen, machen Mut zum Besuch entlegener Regionen. Und als Extra gibt es eine Reise-Reportage als kleines Hörbuch.","picture2TransUrl":"http://static.radio.de/images/broadcasts/4920_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/4920_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Jeden Donnerstag präsentieren Susanna Bloß und Mathias Unger aus der GEO-Redaktion Reise-Faszination aus erster Hand.","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","podcastUrls":[{"sampleRate":44100,"title":"GEOaudio Magazin - Ein Besuch in der Wüste Thar","episode":0,"description":"Die Sanddünen der Wüste Thar in Rajasthan gehören zu den entlegensten Orten in ganz Indien. Hier leben nur wenige Menschen, dafür aber viele Kamele. Wir besuchen die Kamelhirten","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","published":"Thu, 28 Mar 2013 15:12:44 +0100","bitRate":128,"contentLength":11655976},{"sampleRate":44100,"title":"GEOaudio Extra - Chinas tiefe Schätze","episode":1,"description":"In Chinas Höhlensystemen suchen Forscher nach neuen Trinkwasserquellen. Hören Sie die Reportage Die Adern des Grossen Drachen von und mit Lars Abromeit aus GEO 03/2013","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-21/GEOaudio369_Extra_China.mp3","published":"Thu, 21 Mar 2013 14:02:55 +0100","bitRate":128,"contentLength":22429279},{"sampleRate":44100,"title":"GEOaudio Magazin - Die Gewinner der Goldenen Palme","episode":2,"description":"Sie konkurrierten mit 261 anderen Veranstaltern und konnten sich durchsetzen. Bei GEOaudio sprechen die Gewinner der Goldenen Palme, darüber, was ihre Reisen so besonders macht","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-14/GEOaudio368_Mag.mp3","published":"Thu, 14 Mar 2013 12:32:17 +0100","bitRate":128,"contentLength":11858268},{"sampleRate":44100,"title":"GEOaudio Extra - Mit dem Schiff durch den Kongo (Teil 2)","episode":3,"description":"Im zweiten Teil unseres GEOaudio Extras hören Sie, wie die Schiffsreise durch den Kongo weitergeht. Zwei GEO-Reporter berichten von ihren Abenteuern. Hören sie den zweiten Teil der Reportage Mit dem Schiff durch den Kongo von Michael Stührenberg. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-07/GEOaudio367_Extra_Kongo2.mp3","published":"Thu, 7 Mar 2013 12:00:23 +0100","bitRate":128,"contentLength":36185697},{"sampleRate":44100,"title":"GEOaudio Magazin - Frühjahrsputz bei GEO SAISON","episode":4,"description":"Während manch einer im Winterschlaf weilte, hat die Redaktion von GEO SAISON ganze Arbeit geleistet und das Heft überarbeitet. Im Interview erzählt Chefredakteur Lars Nielsen von den Änderungen","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-28/GEOaudio366_Mag.mp3","published":"Thu, 28 Feb 2013 12:44:17 +0100","bitRate":128,"contentLength":11406872},{"sampleRate":44100,"title":"GEOaudio Extra - Mit dem Schiff durch den Kongo","episode":5,"description":"Auf dem Wasserweg mitten durch das Herz Afrikas. Hören Sie die Reportage Kreuzfahrt mit Krokodil von Michael Stührenberg aus GEO 01/2013. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-21/GEOaudio365_Extra_Kongo1_Bo.mp3","published":"Thu, 21 Feb 2013 15:22:03 +0100","bitRate":128,"contentLength":28869739},{"sampleRate":44100,"title":"GEOaudio Magazin - Abschlussinterview Mittendurch statt drüberhinweg","episode":6,"description":"15 Monate haben die GEO.de-Blogger Jochen Müller und Peer Bergholter sich an einer Weltreise der besonderen Art versucht: Ohne ein Flugzeug zu besteigen rund um den Globus. Und hat?s geklappt?","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-14/GEOaudio364_Mag_Bounce.mp3","published":"Thu, 14 Feb 2013 12:30:22 +0100","bitRate":128,"contentLength":14950400},{"sampleRate":44100,"title":"GEOaudio Extra - Argentiniens Norden","episode":7,"description":"Rund um die Kolonialstadt Salta am Fuße der Anden schillern die Berge regenbogenfarben und Salzseen gleißen. Hören Sie die Reportage Ein Hoch auf den Norden von Mirco Lomoth aus GEO SAISON 02/2013. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-02-07/GEOaudio362_Extra_Argent.mp3","published":"Thu, 2 Feb 2013 16:30:22 +0100","bitRate":128,"contentLength":16076844},{"sampleRate":44100,"title":"GEOaudio Extra - Curling in Arosa","episode":8,"description":"Die Schweizer lieben es, sich in ihrer Freizeit mit Schrubber und Granitsteinen aufs Glatteis zu begeben. Unser Autor hat die Curling-Großmacht besucht. Hören Sie die Reportage Fegefeuer aus dem Eis von Jörg Spaniol aus GEO SAISON 01/2013. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-01-24/GEOaudio361_Extra_Curling.mp3","published":"Thu, 24 Jan 2013 14:07:28 +0100","bitRate":128,"contentLength":13049983},{"sampleRate":44100,"title":"GEOaudio Magazin - Kartoffelernte in Peru","episode":9,"description":"Beim Heiligen Tal der Inka in Peru haben sich fünf Dörfer zum Parque de la Papa zusammen geschlossen, dem Kartoffelpark. Bauern ernten hier alte Kartoffelsorten und empfangen Touristen in ihren Gehöften. Ein Besuch","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-01-17/GEOaudio360_Mag.mp3","published":"Thu, 17 Jan 2013 12:45:02 +0100","bitRate":128,"contentLength":12340175},{"sampleRate":44100,"title":"GEOaudio Extra - San Francisco mit Apps","episode":10,"description":"Karsten Lemm lebt schon viele Jahre in San Francisco und doch hat er sie vor kurzem neu entdeckt. Er ließ sich von seinem Smartphone zu den besten Food Trucks navigieren und buchte sich über soziale Netzwerke eine Nacht im Gästezimmer fremder Menschen. Hören Sie die Reportage Schöne neue Reisewelt von Karsten Lemm aus GEO SAISON 01/2013. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-01-03/GEOaudio358_Extra_SF_Bounce.mp3","published":"Thu, 10 Jan 2013 12:18:45 +0100","bitRate":128,"contentLength":14109928},{"sampleRate":44100,"title":"GEOaudio Magazin - Alphorn","episode":11,"description":"Das Alphorn gehört zur Schweiz wie Heidi, Käse und Schokolade. Und wie lernt man das Blasen überhaupt? GEO.de-Mitarbeiterin Karola Kostede machte in Interlaken einen Alphorn-Schnupperkurs und besuchte die Stradivaris der Alphornmacher","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-27/GEOaudio357_Mag_Bounce.mp3","published":"Thu, 27 Dec 2012 12:22:01 +0100","bitRate":128,"contentLength":16687368},{"sampleRate":44100,"title":"GEOaudio Extra - La Réunion","episode":12,"description":"Wanderer Manuel Andrack ist einem Briefträger gefolgt - rein in den Vulkan, raus aus dem Vulkan. Hören Sie die Reportage Hinterher aus dem GEO Special Indischer Ozean. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-20/GEOaudio356_Extra_La_Reunion","published":"Thu, 20 Dec 2012 13:11:23 +0100","bitRate":128,"contentLength":19123767},{"sampleRate":44100,"title":"GEOaudio Magazin - Wüstenwanderer Achill Moser","episode":13,"description":"Achill Moser durchquerte bereits 27 Wüsten dieser Welt, ohne technische Hilfe: Zur Fortbewegung nutze er seine Füße oder den Rücken eines Kamels. Im Interview spricht Achill Moser über die Faszination Wüste und seine Erfahrungen im ewigen Sand","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-13/GEOaudio355_Mag.mp3","published":"Thu, 13 Dec 2012 12:22:01 +0100","bitRate":128,"contentLength":20931584},{"sampleRate":44100,"title":"GEOaudio Extra - Arlberg","episode":14,"description":"Warth-Schröcken ist die Schneekönigin der Alpen, denn nirgendwo sonst fällt in der Bergregion so viel Schnee wie in dem Skigebiet am österreichischen Arlberg. Im Schnitt elf Meter pro Winter bescheren reichlich Stoff unter den Brettern. Hören Sie die Reportage \"Tiefschnee Träume\" von Bernd Schwer aus GEO SAISON 12/2012. Es liest Mathias Unger ","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-12-06/GEOaudio354_Extra_Arlberg.mp3","published":"Thu, 06 Dec 2012 14:22:01 +0100","bitRate":128,"contentLength":16192512},{"sampleRate":44100,"title":"GEOaudio Magazin - Das Verschwinden der Arten","episode":15,"description":"Warum gibt es keine Riesenalke mehr, keine Stellerschen Seekühe, keine Elfenbeinspechte oder tasmanische Beutelwölfe? Das fragte sich der Biologe und Autor Lothar Frenz ¿ und fand lehrreiche, oft unterhaltsame, manchmal erschütternde Antworten. GEO.de-Redakteur Peter Carstens sprach mit Frenz über sein neues Buch Lonesome George oder Das Verschwinden der Arten","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-29/GEOaudio353_Mag.mp3","published":"Thu, 29 Nov 2012 15:22:01 +0100","bitRate":128,"contentLength":17701169},{"sampleRate":44100,"title":"GEOaudio Extra - Südtirol","episode":16,"description":"Eine Wanderung durch das Ultental in Südtirol ist wie ein Ausflug in eine längst vergangene Zeit. In himmlischen Höhen ehren Bergbauern die beheimateten Blumen und pfeifen auf Geld oder eine Internetverbindung. Hören Sie die Reportage Zeitkurven und Höhenlinien von Jörg Spaniol aus GEO SAISON 06/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-22/GEOaudio352_Extra_Suedtirol.mp3","published":"Thu, 22 Nov 2012 12:03:52 +0100","bitRate":128,"contentLength":15234906},{"sampleRate":44100,"title":"GEOaudio Magazin - Swing in San Francisco","episode":17,"description":"Tanzen lernen unter freiem Himmel? In San Francisco ist das kein Problem. Seit mehr als 16 Jahren treffen sich Menschen aller Altersgruppen und Nationalitäten jeden Sonntag im Golden Gate Park, um Swing zu tanzen. GEO.de-Redakteurin Maike Dugaro hat sich umgeschaut und mitgewippt","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-15/GEOaudio351_Mag.mp3","published":"Thu, 15 Nov 2012 13:42:12 +0100","bitRate":128,"contentLength":12585453},{"sampleRate":44100,"title":"GEOaudio Extra - Indien","episode":18,"description":"Der indische Bundesstaat Karnataka besitzt alles, was die Wundertüte Indien ausmacht: verzierte Tempelanlagen, Sehnsuchtsstrände, Hindu-Wallfahrten und birgt unweit der Hippie-Hochburg Goa ungeahnte Schätze. Hören Sie die Reportage Jahrmarkt der Geschichte von Wolfgang Röhl aus GEO SAISON 11/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-08/GEOaudio350_Indien.mp3","published":"Thu, 8 Nov 2012 12:24:01 +0100","bitRate":128,"contentLength":16765054},{"sampleRate":44100,"title":"GEOaudio Magazin - Honduras","episode":19,"description":"Die Cayos Cochinos vor der Karibikküste von Honduras werden seit Generationen von Garífuna-Fischern als Stützpunkte im Meer genutzt. Seit die Inselgruppe zum Naturschutzgebiet erklärt wurde, suchen die Menschen ein Auskommen im Tourismus. GEOaudio-Reporter Mirco Lomoth hat sie besucht","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-11-01/GEOaudio349_Mag.mp3","published":"Thu, 1 Nov 2012 12:18:23 +0100","bitRate":128,"contentLength":13091422},{"sampleRate":44100,"title":"GEOaudio Extra - Bern","episode":20,"description":"In die Schweizer Alpen gebettet, offeriert Bern Gemütlichkeit und einen glasklaren Fluss, in dem man schwimmen kann. Die Besucher der Stadt werden mit offenen Armen empfangen, was man durchaus wörtlich nehmen kann. Hören Sie die Reportage Ein neuer Tag im Paradiesli von Elsemarie Maletzke aus GEO SAISON 10/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-25/GEOaudio348_Extra_Bern.mp3","published":"Thu, 25 Oct 2012 12:18:23 +0100","bitRate":128,"contentLength":13694015},{"sampleRate":44100,"title":"GEOaudio Magazin - Montenegro neu entdecken","episode":21,"description":"Gehörte die montenegrinische Küste in den 60er Jahren noch zu den beliebtesten Urlaubszielen der Deutschen, verirren sich heutzutage kaum noch Besucher hierher. Mit sanftem Tourismus und unberührten Landschaften versucht sich, im Speziellen der Norden des Landes, wieder bei Reisenden zu etablieren. Danja Antonovic nimmt sie in ihrer Reportage dorthin mit","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-18/GEOaudio347_Mag.mp3","published":"Thu, 18 Oct 2012 12:33:02 +0100","bitRate":128,"contentLength":13801401},{"sampleRate":44100,"title":"GEOaudio Extra - Albanien","episode":22,"description":"In den Dörfern des einst abgeschotteten Landes wähnt sich der Reisende am Drehort eines Heimatfilms: Wäsche trocknet über dem Lattenzaun, Gänse schnattern und Großväterchen brennt Mirabellenschnaps, doch auch in Albanien hält die Moderne Einzug. Hören Sie die Reportage Abschied von gestern von Richard Fraunberger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-11/GEOaudio346_Extra_Albanien.mp3","published":"Thu, 11 Oct 2012 11:53:07 +0100","bitRate":128,"contentLength":15881488},{"sampleRate":44100,"title":"GEOaudio Magazin - Ein Leben auf zwei Rädern","episode":23,"description":"Wenn die beiden GEO-Redakteure Dirk Lehmann und Claus Peter Simon sich treffen, dann fachsimpeln sie gern über die bequemsten Sättel, 26 Zoll und die schönsten Radrouten. In ihrem neuen Blog Die Radtester nehmen sie die Leser mit in ihr Leben auf zwei Rädern. Was genau die beiden vorhaben, erzählt Claus Peter Simon im Interview","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-10-04/GEOaudio345_Mag.mp3","published":"Thu, 04 Oct 2012 12:02:23 +0100","bitRate":128,"contentLength":15058204},{"sampleRate":44100,"title":"GEOaudio Extra - München","episode":24,"description":"In München macht der Feierabend seinem Namen alle Ehre: In Schwabing duftet es nach Bärlauch, die Isar wird zum Pool, Urlauber stranden in Biergärten oder radeln im Englischen Garten. Hören Sie die Reportage Der Letzte macht das Licht aus von Bjørn Erik Sass aus GEO SAISON 08/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-27/GEOaudio344_Extra_Muenchen.mp3","published":"Thu, 27 Sep 2012 14:15:07 +0100","bitRate":128,"contentLength":12908440},{"sampleRate":44100,"title":"GEOaudio Magazin - Europa von Mensch zu Mensch","episode":25,"description":"Oliver Lück ist mit seinem Hund Locke im VW-Bus 50.000 Kilometer quer durch Europa gereist. Von seinen Begegnungen mit außergewöhnlichen Menschen berichtet er im Interview. Außerdem: Sound of Heimat - ein Dokumentarfilm über richtig gute Volksmusik","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-20/GEOaudio343_Mag.mp3","published":"Thu, 20 Sep 2012 10:52:33 +0100","bitRate":128,"contentLength":23388528},{"sampleRate":44100,"title":"GEOaudio Extra - Äthiopien","episode":26,"description":"Als hätten Engel die Heimat des Herrn ans Horn von Afrika verpflanzt: In Äthiopien heißen Berge Sinai und Frauen Nazareth. Hier entstand vor 1600 Jahren einer der ersten christlichen Staaten der Erde. Hören Sie die Reportage Die Filiale des gelobten Landes von Jörg-Uwe Albig aus GEO SAISON 07/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-13/GEOaudio342_Extra_Aethiopien.mp3","published":"Thu, 13 Sep 2012 11:07:12 +0100","bitRate":128,"contentLength":22455648},{"sampleRate":44100,"title":"GEOaudio Magazin - Schildkrötenschutz in Nicaragua","episode":27,"description":"Die Nacht und der Strand, so der Titel der nun folgenden Reportage von Mirco Lomoth. In der Nähe des Fischerdorfs El Ostional an der Pazifikküste Nicaraguas können Touristen die nächtliche Arbeit der Schildkrötenschützer miterleben. Durch den Tourismus will die Gemeinde eine Alternative zum Handel mit Schildkröteneiern finden","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-09-06/GEOaudio341_Mag.mp3","published":"Thu, 06 Sep 2012 15:32:07 +0100","bitRate":128,"contentLength":13285116},{"sampleRate":44100,"title":"GEOaudio Extra - Kreta","episode":28,"description":"In den Bergdörfern der Insel besinnen sich die Menschen auf traditionelle Stärken wie Gastfreundschaft, kochen bio und leben im Einklang mit der Natur. Hören Sie die Reportage Zurück zur Natur aus GEO SAISON 08/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-30/GEOaudio340_Extra_Kreta.mp3","published":"Thu, 30 Aug 2012 13:07:52 +0100","bitRate":128,"contentLength":15431451},{"sampleRate":44100,"title":"GEOaudio Magazin - Die schmalste Straße der Welt","episode":29,"description":"Pisa hat den schiefen Turm, Reutlingen die schmalste Straße der Welt. Sie ist nur 31 Zentimeter breit. Dieser Durchschlupf schaffte es bereits 2007 ins Guinness Buch der Rekorde. Doch nun bedroht ein baufälliges Haus Reutlingens Rekordstraße","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-23/GEOaudio339_Mag.mp3","published":"Thu, 23 Aug 2012 12:36:02 +0100","bitRate":128,"contentLength":12027542},{"sampleRate":44100,"title":"GEOaudio Extra - Toskana","episode":30,"description":"Eine Liebeserklärung an die italienische Provinz Toskana, in der die Autorin Daniela Horvath jedes Jahr ihre Sommerferien verbringt. Lassen Sie sich mitnehmen an ihre Lieblingsplätze in der Reportage Ein Sommer am Meer. Es liest Kerstin Broda","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-16/GEOaudio338_Extra_Toskana.mp3","published":"Thu, 16 Aug 2012 12:41:22 +0100","bitRate":128,"contentLength":15692466},{"sampleRate":44100,"title":"GEOaudio Magazin - Wunder Wald","episode":31,"description":"Die meisten von uns suchen im Wald einfach nur Erholung. Dass der Wald noch viel mehr zu bieten hat und welchen Belastungen er heute ausgesetzt ist, erfuhr GEO.de-Redakteur Peter Carstens bei einer Führung durch den Sachsenwald in Schleswig-Holstein ","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-09/GEOaudio337_Mag.mp3","published":"Thu, 09 Aug 2012 12:02:33 +0100","bitRate":128,"contentLength":17694720},{"sampleRate":44100,"title":"GEOaudio Extra: China mit dem Auto","episode":32,"description":"Premiere eines Roadmovies im Riesenreich: Zum ersten Mal können Reisende die Provinz Yunnan auf eigene Faust im Leihwagen erkunden. Hören Sie die Reportage Die schönste Roadshow in den Bergen von Johannes Strempel aus GEO SAISON 06/2012","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-08-02/GEOaudio336_Extra_China.mp3","published":"Thu, 02 Aug 2012 12:02:33 +0100","bitRate":128,"contentLength":17694720},{"sampleRate":44100,"title":"GEOaudio Magazin - Sabbatical","episode":33,"description":"GEO SAISON-Redakteur Dirk Lehmann startet mit Lebensgefährtnis Susanne Baade in sein Sabbitcal. Eine Auszeit, die der Redakteur nutzt, um die Welt zu bereisen. Was er sich erhofft und wohin es gehen sollen, verrät er im Interview mit GEO.de-Redakteurin Maike Dugaro","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-26/GEOaudio335_Mag.mp3","published":"Thu, 26 Jul 2012 12:02:33 +0100","bitRate":128,"contentLength":18629456},{"sampleRate":44100,"title":"GEOaudio Extra - Tangomarkkinat","episode":34,"description":"Wenn der große skandinavische Sommer flirrt, zieht eine Wolke der Wehmut von Helsinki bis zum Polarkreis. Beim Tangomarkkinat hielt es den Reporter nicht mehr auf dem Stuhl, er tanzte mit","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-19/GEOaudio334_Finntango.mp3","published":"Thu, 19 Jul 2012 14:32:18 +0100","bitRate":128,"contentLength":19384509},{"sampleRate":44100,"title":"GEOaudio Magazin - Tresen-Legenden","episode":35,"description":"Wo findet man die besten Wirte und die besten Kneipengeschichten? An den Tresen im Hamburger Rotlichtviertel St. Pauli, natürlich. Dort traf Karola Kostede das Kiez-Original Herbert vom Schlemmer Eck","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-12/GEOaudio333_Mag.mp3","published":"Thu, 12 Jul 2012 11:45:52 +0100","bitRate":128,"contentLength":10710697},{"sampleRate":44100,"title":"GEOaudio Extra - Virunga","episode":36,"description":"Die Regenwälder im Kongo sind eines der wichtigsten Refugien der seltenen Berggorillas; nur leider für die Tiere und ihre Hüter zugleich ein hochgefährlicher Ort. Täglich setzen hier Ranger für das Leben der Menschenaffen das eigene aufs Spiel","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-07-05/GEOaudio332_Extra_Virunga.mp3","published":"Thu, 05 Jul 2012 12:33:08 +0100","bitRate":128,"contentLength":35810410},{"sampleRate":44100,"title":"GEOaudio Magazin - Richtig wandern","episode":37,"description":"Karten lesen, Wegzeit berechnen, richtige Gehtechnik. In Oberaudorf bei Rosenheim können Touristen Bergwanderschulungen buchen. Geo-Online Mitarbeiter Mirco Lomoth ist mit Wanderführer Markus Hartmann durch den Klassenraum deutsche Kalkalpen gewandert","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-28/GEOaudio331_Mag.mp3","published":"Thu, 28 Jun 2012 12:24:12 +0100","bitRate":128,"contentLength":170456274},{"sampleRate":44100,"title":"GEOaudio Extra - Landpartie Gers","episode":38,"description":"Im Südwesten Frankreichs, in der verträumten Heimat des Musketiers d?Artagnan, bringen Köche, Winzer und Hoteliers neuen Schwung ins Landleben","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-21/GEOaudio330_Extra_Gers.mp3","published":"Thu, 21 Jun 2012 11:22:08 +0100","bitRate":128,"contentLength":12832476},{"sampleRate":44100,"title":"GEOaudio Magazin - Mit dem Kicker um die Welt","episode":39,"description":"Zwei Bremer machten sich mit ihrem Tischkicker auf den Weg nach Indien. Auf ihrer Reise spielten sie gegen Straßenkinder, Mönche und Nationalmannschaften - für den guten Zweck. Im Interview berichtet einer der beiden über den Sinn dieser ungewöhnlichen Aktion und über das, was am Ende dabei rausgekommen ist","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-14/GEOaudio329_Mag.mp3","published":"Thu, 14 Jun 2012 12:31:44 +0100","bitRate":128,"contentLength":14690713},{"sampleRate":44100,"title":"GEOaudio Extra - Cadiz","episode":40,"description":"Schöner kann das Happy End einer Schöpfungsgeschichte kaum sein: Mit ihren Palästen, Kirchen und Promenaden ist die Stadt an der Costa de la Luz das hinreißende Ergebnis von Baukunst aus vielen Jahrhunderten. Hören Sie die Reportage Es werde Licht! von Uta van Steen aus GEO SAISON 04/2012. Es liest Kerstin Broda","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-06-07/GEOaudio328_Extra_Cadiz.mp3","published":"Thu, 07 Jun 2012 11:08:54 +0100","bitRate":128,"contentLength":16935373},{"sampleRate":44100,"title":"GEOaudio Magazin - Mittendurch statt drüberweg","episode":41,"description":"Im September brachen Jochen Müller und Peer Bergholter zur einer ungewöhnlichen Weltreise auf. Ihr Plan: einmal um die Erde ganz ohne Flugzeug. Nun ist die Hälfte dieses Abenteuers um. Im Interview berichten sie von Höhen und Tiefen und davon, wie sie fast von einem Tsunami heimgesucht wurden","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-31/GEOaudio327_Mag.mp3","published":"Thu, 31 May 2012 10:37:18 +0100","bitRate":128,"contentLength":20733463},{"sampleRate":44100,"title":"GEOaudio Extra - Cornwall","episode":42,"description":"Im subtropischen Trebah Garden erklärt sich von selbst, warum Rosamunde Pilcher über diesen Landstrich im Südwesten Englands so blumige Worte fand. Hören Sie die Reportage Englands heitere Tropen von Elsemarie Maletzke aus GEO SAISON 05/2012. Es liest Mathias Unger","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-24/GEOaudio326_Extra_Cornwall.mp3","published":"Thu, 24 May 2012 10:42:22 +0100","bitRate":128,"contentLength":14439843},{"sampleRate":44100,"title":"GEOaudio Magazin - Wien-Tipps von Eva Menasse","episode":43,"description":"Die Schriftstellerin erzählt vom Wien ihrer Kindheit, von den ersten Hochhäusern und dem Wandel der Stadt und erklärt, was den Wienern der Schmäh bedeutet.","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-17/GEOaudio325_Mag.mp3","published":"Thu, 17 May 2012 08:58:12 +0100","bitRate":128,"contentLength":24655278},{"sampleRate":44100,"title":"GEOaudio Extra - Ein Mal Mount Everest","episode":44,"description":"Unser Autor trekkte hoch motiviert ins Basislager am Mount Everest. Eine Himalaya-Tour, die ihn beflügelte, mit Yaks bekannt machte und ihm den Atem raubte. Hören Sie die Reportage \"Ein Mann will nach oben\" von Markus Wolff aus GEO SAISON 05/2012. Es liest Mathias Unger.","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-10/GEOaudio324_Extra_Everest.mp3","published":"Thu, 10 May 2012 13:04:54 +0100","bitRate":128,"contentLength":14863862},{"sampleRate":44100,"title":"GEOaudio Magazin - Im Reich der Aromen","episode":45,"description":"Was ist eigentlich drin im Essen? Und warum? Erstaunliche Antworten auf diese Fragen bietet das Deutsche Zusatzstoffmuseum. Im Podcast führt Leiter Christian Niemeyer durch die Ausstellung.","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-05-03/GEOaudio323_Mag.mp3","published":"Thu, 03 May 2012 12:22:12 +0100","bitRate":128,"contentLength":17818852},{"sampleRate":44100,"title":"GEOaudio Extra - Das wilde Leben","episode":46,"description":"In Wildnisschulen lernen Kinder, was ihnen im Alltag meist verwehrt wird - Natur mit allen Sinnen zu erleben. Hören Sie die Reportage Das wilde Leben von Andreas Weber aus GEO SPECIAL Natur-Erlebnis Deutschland. Es liest Mathias Unger.","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-26/GEOaudio322_Extra_Wald.mp3","published":"Thu, 26 Apr 2012 12:41:01 +0100","bitRate":128,"contentLength":12182341},{"sampleRate":44100,"title":"GEOaudio Magazin - Nordseeradweg","episode":47,"description":"Konzeptkünstler Jürgen Rinck fährt auf dem längsten Fernradweg der Welt über und um die Nordsee. Im Interview verrät er, wie er auf die Idee kam und worin die Kunst dieser Reise besteht.","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-19/GEOaudio321_Mag.mp3","published":"Thu, 19 Apr 2012 12:20:23 +0100","bitRate":128,"contentLength":18890681},{"sampleRate":44100,"title":"GEOaudio Extra - Rom","episode":48,"description":"Das einst verrufene Viertel Monti hat die Problemzone verlassen: Künstler, Köche und Kreative machen den Stadtteil zwischen Kolosseum und Hauptbahnhof zum Szeneviertel.","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-12/GEOaudio320_Extra_Monti.mp3","published":"Thu, 12 Apr 2012 15:20:00 +0100","bitRate":128,"contentLength":13310455},{"sampleRate":44100,"title":"GEOaudio Magazin - Weltweite Weltrettung","episode":49,"description":"Susanne Baade und Dirk Lehmann wollen mehr: endlich einmal in Ruhe reisen, aussteigen, zu sich selbst finden. Also wagen sie ein fünfmonatiges Sabbatical. Im Interview sprechen sie über ihr Projekt und das neue Blog dazu auf GEO.de","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2012-04-05/GEOaudio319_Magazin.mp3","published":"Thu, 05 Apr 2012 13:15:00 +0100","bitRate":128,"contentLength":17762304}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.geo.de/GEOaudio/index.xml","displaySubDomaine":"geoaudio","recentTitles":["GEOaudio Magazin - Ein Besuch in der Wüste Thar","GEOaudio Extra - Chinas tiefe Schätze","GEOaudio Magazin - Die Gewinner der Goldenen Palme","GEOaudio Extra - Mit dem Schiff durch den Kongo (Teil 2)","GEOaudio Magazin - Frühjahrsputz bei GEO SAISON","GEOaudio Extra - Mit dem Schiff durch den Kongo","GEOaudio Magazin - Abschlussinterview Mittendurch statt drüberhinweg","GEOaudio Extra - Argentiniens Norden","GEOaudio Extra - Curling in Arosa","GEOaudio Magazin - Kartoffelernte in Peru","GEOaudio Extra - San Francisco mit Apps","GEOaudio Magazin - Alphorn","GEOaudio Extra - La Réunion","GEOaudio Magazin - Wüstenwanderer Achill Moser","GEOaudio Extra - Arlberg","GEOaudio Magazin - Das Verschwinden der Arten","GEOaudio Extra - Südtirol","GEOaudio Magazin - Swing in San Francisco","GEOaudio Extra - Indien","GEOaudio Magazin - Honduras","GEOaudio Extra - Bern","GEOaudio Magazin - Montenegro neu entdecken","GEOaudio Extra - Albanien","GEOaudio Magazin - Ein Leben auf zwei Rädern","GEOaudio Extra - München","GEOaudio Magazin - Europa von Mensch zu Mensch","GEOaudio Extra - Äthiopien","GEOaudio Magazin - Schildkrötenschutz in Nicaragua","GEOaudio Extra - Kreta","GEOaudio Magazin - Die schmalste Straße der Welt","GEOaudio Extra - Toskana","GEOaudio Magazin - Wunder Wald","GEOaudio Extra: China mit dem Auto","GEOaudio Magazin - Sabbatical","GEOaudio Extra - Tangomarkkinat","GEOaudio Magazin - Tresen-Legenden","GEOaudio Extra - Virunga","GEOaudio Magazin - Richtig wandern","GEOaudio Extra - Landpartie Gers","GEOaudio Magazin - Mit dem Kicker um die Welt","GEOaudio Extra - Cadiz","GEOaudio Magazin - Mittendurch statt drüberweg","GEOaudio Extra - Cornwall","GEOaudio Magazin - Wien-Tipps von Eva Menasse","GEOaudio Extra - Ein Mal Mount Everest","GEOaudio Magazin - Im Reich der Aromen","GEOaudio Extra - Das wilde Leben","GEOaudio Magazin - Nordseeradweg","GEOaudio Extra - Rom","GEOaudio Magazin - Weltweite Weltrettung"],"idType":7,"descriptionPodcast":"Der GEO-Podcast: Spannende Hintergrundgeschichten, Interviews mit GEO-Reportern und Experten, ausgewählte GEO-Reportagen, O-Töne aus Metropolen, Urwald, Wüste oder Antarktis. Jeden Donnerstag neu.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.geo.de","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/4920_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/4920_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":4920,"picture1TransUrl":"http://static.radio.de/images/broadcasts/4920_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/4920_5_1.png","author":"","title":"GEOaudio: Hören und Reisen - Mit GEO die Welt erleben!","picture4Url":"http://static.radio.de/images/broadcasts/4920_4.jpeg","picture6Set":false,"tagsForDisplay":{"_type":"Podcast","_topic":"Freizeit, Reisen","_country":"Deutschland","_genre":"Podcast","_city":"Hamburg","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"GEOaudio Reise-Podcast","picture3Url":"","streamUrl":"http://www.radio.de/playlists/geoaudio.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/4920_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/4920_5.jpeg","subdomain":"geoaudio","streamUrls":[{"sampleRate":44100,"id":2459966,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","streamFormat":"ICECAST","streamUrl":"http://www.geo.de/GEOaudio/audios/2013-03-28/GEOaudio370_Mag.mp3","idBroadcast":4920,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f04 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"geoaudio", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"4920", play:"geoaudio"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("geoaudio"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("28"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Freizeit:Reisen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/geoaudio/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „GEOaudio Reise-Podcast“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/4920_4.jpeg" alt="GEOaudio Reise-Podcast" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("geoaudio"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("28"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Freizeit:Reisen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">GEOaudio Reise-Podcast</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Hamburg,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.geo.de'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „GEOaudio Reise-Podcast“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Jeden Donnerstag präsentieren Susanna Bloß und Mathias Unger aus der GEO-Redaktion Reise-Faszination aus erster Hand: Sie befragen GEO-Reporter nach ihren Reise-Erlebnissen, präsentieren Tipps für eigene Erkundungen, machen Mut zum Besuch entlegener Regionen. Und als Extra gibt es eine Reise-Reportage als kleines Hörbuch.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„GEOaudio Reise-Podcast“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'4920', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">5</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">4.6</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'4920', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star4-5"
+stars="4-5"
+title="„GEOaudio Reise-Podcast“ bewerten?"
+content="4.6">
+</a>
+<span class="big-rate-text">GEOaudio Reise-Podcast&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „GEOaudio Reise-Podcast“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„GEOaudio Reise-Podcast“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „GEOaudio Reise-Podcast“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17702440">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEOAUDIO MAGAZIN - EIN BESUCH IN DER WÜSTE THAR</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17702440', 'broadcast':'4920'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Die Sanddünen der Wüste Thar in Rajasthan gehören zu den entlegensten Orten in ganz Indien. Hier leben nur wenige Menschen, dafür aber viele Kamele. Wir besuchen die Kamelhirten</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17700862">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEOAUDIO EXTRA - CHINAS TIEFE SCHÄTZE</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17700862', 'broadcast':'4920'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">In Chinas Höhlensystemen suchen Forscher nach neuen Trinkwasserquellen. Hören Sie die Reportage Die Adern des Grossen Drachen von und mit Lars Abromeit aus GEO 03/2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699735">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEOAUDIO MAGAZIN - DIE GEWINNER DER GOLDENEN PALME</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699735', 'broadcast':'4920'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Sie konkurrierten mit 261 anderen Veranstaltern und konnten sich durchsetzen. Bei GEOaudio sprechen die Gewinner der Goldenen Palme, darüber, was ihre Reisen so besonders macht</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699736">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEOAUDIO EXTRA - MIT DEM SCHIFF DURCH DEN KONGO (TEIL 2)</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699736', 'broadcast':'4920'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Im zweiten Teil unseres GEOaudio Extras hören Sie, wie die Schiffsreise durch den Kongo weitergeht. Zwei GEO-Reporter berichten von ihren Abenteuern. Hören sie den zweiten Teil der Reportage Mit dem Schiff durch den Kongo von Michael Stührenberg. Es liest Mathias Unger</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17695528">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEOAUDIO MAGAZIN - FRÜHJAHRSPUTZ BEI GEO SAISON</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17695528', 'broadcast':'4920'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Während manch einer im Winterschlaf weilte, hat die Redaktion von GEO SAISON ganze Arbeit geleistet und das Heft überarbeitet. Im Interview erzählt Chefredakteur Lars Nielsen von den Änderungen</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „GEOaudio Reise-Podcast“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://marcopolo.radio.de'}" bcastid="4923" title="„MARCO POLO Podcast“ hören" id="currentlyPlayedStation_4923">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4923_1.jpeg" alt="„MARCO POLO Podcast“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://sz-literaturlauschen.radio.de'}" bcastid="3936" title="„SZ Audio - Literatur lauschen“ hören" id="currentlyPlayedStation_3936">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3936_1.jpeg" alt="„SZ Audio - Literatur lauschen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://krimikiste.radio.de'}" bcastid="4108" title="„Krimikiste“ hören" id="currentlyPlayedStation_4108">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4108_1.jpeg" alt="„Krimikiste“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hamburghaiti.radio.de'}" bcastid="3797" title="„Zwischen Hamburg und Haiti“ hören" id="currentlyPlayedStation_3797">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3797_1.gif" alt="„Zwischen Hamburg und Haiti“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://neuehoerbuecher.radio.de'}" bcastid="3842" title="„NDR Kultur - Neue Hörbücher“ hören" id="currentlyPlayedStation_3842">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3842_1.gif" alt="„NDR Kultur - Neue Hörbücher“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-hoerspiel.radio.de'}" bcastid="7785" title="„laut.fm/hoerspiel“ hören" id="currentlyPlayedStation_7785">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7785_1.gif" alt="„laut.fm/hoerspiel“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://zeitgeschichte.radio.de'}" bcastid="3792" title="„NDR Info - Zeitgeschichte“ hören" id="currentlyPlayedStation_3792">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3792_1.gif" alt="„NDR Info - Zeitgeschichte“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wanhoffswelt.radio.de'}" bcastid="4020" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" id="currentlyPlayedStation_4020">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4020_1.jpeg" alt="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://derkillerclub.radio.de'}" bcastid="4090" title="„Der Killer Club“ hören" id="currentlyPlayedStation_4090">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4090_1.jpeg" alt="„Der Killer Club“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-woelffchen.radio.de'}" bcastid="6295" title="„laut.fm/woelffchen“ hören" id="currentlyPlayedStation_6295">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6295_1.gif" alt="„laut.fm/woelffchen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://motivation.radio.de'}" bcastid="7725" title="„Das Abenteuer Motivation“ hören" id="currentlyPlayedStation_7725">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7725_1.jpeg" alt="„Das Abenteuer Motivation“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiotatort.radio.de'}" bcastid="6511" title="„ARD Radio Tatort“ hören" id="currentlyPlayedStation_6511">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6511_1.jpeg" alt="„ARD Radio Tatort“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2campus.radio.de'}" bcastid="5689" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" id="currentlyPlayedStation_5689">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5689_1.jpeg" alt="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2wissen.radio.de'}" bcastid="5685" title="„SWR2 Wissen“ hören" id="currentlyPlayedStation_5685">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5685_1.jpeg" alt="„SWR2 Wissen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mens-health.radio.de'}" bcastid="6535" title="„Men's Health Podcast“ hören" id="currentlyPlayedStation_6535">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6535_1.jpeg" alt="„Men's Health Podcast“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://marcopolo.radio.de'}" bcastid="4923" title="„MARCO POLO Podcast“ hören" id="currentlyPlayedStation2_4923">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4923_1.jpeg" alt="„MARCO POLO Podcast“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://sz-literaturlauschen.radio.de'}" bcastid="3936" title="„SZ Audio - Literatur lauschen“ hören" id="currentlyPlayedStation2_3936">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3936_1.jpeg" alt="„SZ Audio - Literatur lauschen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://krimikiste.radio.de'}" bcastid="4108" title="„Krimikiste“ hören" id="currentlyPlayedStation2_4108">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4108_1.jpeg" alt="„Krimikiste“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hamburghaiti.radio.de'}" bcastid="3797" title="„Zwischen Hamburg und Haiti“ hören" id="currentlyPlayedStation2_3797">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3797_1.gif" alt="„Zwischen Hamburg und Haiti“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://neuehoerbuecher.radio.de'}" bcastid="3842" title="„NDR Kultur - Neue Hörbücher“ hören" id="currentlyPlayedStation2_3842">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3842_1.gif" alt="„NDR Kultur - Neue Hörbücher“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-hoerspiel.radio.de'}" bcastid="7785" title="„laut.fm/hoerspiel“ hören" id="currentlyPlayedStation2_7785">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7785_1.gif" alt="„laut.fm/hoerspiel“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://zeitgeschichte.radio.de'}" bcastid="3792" title="„NDR Info - Zeitgeschichte“ hören" id="currentlyPlayedStation2_3792">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3792_1.gif" alt="„NDR Info - Zeitgeschichte“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wanhoffswelt.radio.de'}" bcastid="4020" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" id="currentlyPlayedStation2_4020">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4020_1.jpeg" alt="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://derkillerclub.radio.de'}" bcastid="4090" title="„Der Killer Club“ hören" id="currentlyPlayedStation2_4090">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4090_1.jpeg" alt="„Der Killer Club“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://lautfm-woelffchen.radio.de'}" bcastid="6295" title="„laut.fm/woelffchen“ hören" id="currentlyPlayedStation2_6295">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6295_1.gif" alt="„laut.fm/woelffchen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://motivation.radio.de'}" bcastid="7725" title="„Das Abenteuer Motivation“ hören" id="currentlyPlayedStation2_7725">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7725_1.jpeg" alt="„Das Abenteuer Motivation“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radiotatort.radio.de'}" bcastid="6511" title="„ARD Radio Tatort“ hören" id="currentlyPlayedStation2_6511">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6511_1.jpeg" alt="„ARD Radio Tatort“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2campus.radio.de'}" bcastid="5689" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" id="currentlyPlayedStation2_5689">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5689_1.jpeg" alt="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2wissen.radio.de'}" bcastid="5685" title="„SWR2 Wissen“ hören" id="currentlyPlayedStation2_5685">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5685_1.jpeg" alt="„SWR2 Wissen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://mens-health.radio.de'}" bcastid="6535" title="„Men's Health Podcast“ hören" id="currentlyPlayedStation2_6535">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/6535_1.jpeg" alt="„Men's Health Podcast“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_4923" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„MARCO POLO Podcast“ hören" linkobject="{'url':'http://marcopolo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„MARCO POLO Podcast“ hören" href="http://marcopolo.radio.de">MARCO POLO Podcast</a></span>
+<span class="title_4923 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: MARCO POLO Podcast 11.03.2009</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3936" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SZ Audio - Literatur lauschen“ hören" linkobject="{'url':'http://sz-literaturlauschen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SZ Audio - Literatur lauschen“ hören" href="http://sz-literaturlauschen.radio.de">SZ Audio - Literatur lauschen</a></span>
+<span class="title_3936 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: David Gelernter im Interview</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4108" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Krimikiste“ hören" linkobject="{'url':'http://krimikiste.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Krimikiste“ hören" href="http://krimikiste.radio.de">Krimikiste</a></span>
+<span class="title_4108 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: 935: Link – Der Beobachter</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3797" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Zwischen Hamburg und Haiti“ hören" linkobject="{'url':'http://hamburghaiti.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Zwischen Hamburg und Haiti“ hören" href="http://hamburghaiti.radio.de">Zwischen Hamburg und Haiti</a></span>
+<span class="title_3797 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Haiti Magazin am 24. Februar</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3842" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Kultur - Neue Hörbücher“ hören" linkobject="{'url':'http://neuehoerbuecher.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Kultur - Neue Hörbücher“ hören" href="http://neuehoerbuecher.radio.de">NDR Kultur - Neue Hörbücher</a></span>
+<span class="title_3842 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Joanne Harris: "Himmlische Träume"</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7785" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/hoerspiel“ hören" linkobject="{'url':'http://lautfm-hoerspiel.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/hoerspiel“ hören" href="http://lautfm-hoerspiel.radio.de">laut.fm/hoerspiel</a></span>
+<span class="title_7785 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3792" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Zeitgeschichte“ hören" linkobject="{'url':'http://zeitgeschichte.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Zeitgeschichte“ hören" href="http://zeitgeschichte.radio.de">NDR Info - Zeitgeschichte</a></span>
+<span class="title_3792 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Zeitgeschichte 16.3.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4020" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" linkobject="{'url':'http://wanhoffswelt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören" href="http://wanhoffswelt.radio.de">Wanhoffs Wunderbare Welt der Wissenschaft</a></span>
+<span class="title_4020 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WWWW vom 18.3.2013: Olivenöl macht satt</span>
+<span class="stationcountry">Aus
+Laos 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4090" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Der Killer Club“ hören" linkobject="{'url':'http://derkillerclub.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Der Killer Club“ hören" href="http://derkillerclub.radio.de">Der Killer Club</a></span>
+<span class="title_4090 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: „Das Morden geht weiter“</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6295" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„laut.fm/woelffchen“ hören" linkobject="{'url':'http://lautfm-woelffchen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„laut.fm/woelffchen“ hören" href="http://lautfm-woelffchen.radio.de">laut.fm/woelffchen</a></span>
+<span class="title_6295 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7725" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Das Abenteuer Motivation“ hören" linkobject="{'url':'http://motivation.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Das Abenteuer Motivation“ hören" href="http://motivation.radio.de">Das Abenteuer Motivation</a></span>
+<span class="title_7725 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: DAM 76: Zeitmanagement und Aufschieberitis</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6511" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„ARD Radio Tatort“ hören" linkobject="{'url':'http://radiotatort.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„ARD Radio Tatort“ hören" href="http://radiotatort.radio.de">ARD Radio Tatort</a></span>
+<span class="title_6511 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kontermann</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5689" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" linkobject="{'url':'http://swr2campus.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" href="http://swr2campus.radio.de">SWR2 Campus - Neues aus Wissenschaft und Forschung </a></span>
+<span class="title_5689 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Prostatakrebs - bestrahlen oder operieren?</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5685" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Wissen“ hören" linkobject="{'url':'http://swr2wissen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Wissen“ hören" href="http://swr2wissen.radio.de">SWR2 Wissen</a></span>
+<span class="title_5685 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kinderkrankheiten</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_6535" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Men's Health Podcast“ hören" linkobject="{'url':'http://mens-health.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Men's Health Podcast“ hören" href="http://mens-health.radio.de">Men's Health Podcast</a></span>
+<span class="title_6535 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Alles für einen optimalen Tag im Freibad</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „GEOaudio Reise-Podcast“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/geo" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach geo suchen" tag="geo">geo</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Reise" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Reise suchen" tag="Reise">Reise</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/reisen1" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach reisen1 suchen" tag="reisen1">reisen1</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Freizeit" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Freizeit suchen" tag="Freizeit">Freizeit</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Hamburg" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Hamburg suchen" tag="Hamburg">Hamburg</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Podcast" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Podcast suchen" tag="Podcast">Podcast</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Reisen" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach Reisen suchen" tag="Reisen">Reisen</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „GEOaudio Reise-Podcast“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'4920', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „GEOaudio Reise-Podcast“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://geoaudio.radio.de" class="js-link-external" linkobject="{'url':'http://geoaudio.radio.de'}" title="„GEOaudio Reise-Podcast“ hören" target="_blank">
+http://geoaudio.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fgeoaudio.radio.de&amp;notes=&amp;tags=&amp;title=GEOaudio Reise-Podcast;'}" class="icon-delicious js-link-external" title="„GEOaudio Reise-Podcast“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fgeoaudio.radio.de&amp;bm_notice=&amp;bm_description=GEOaudio Reise-Podcast&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„GEOaudio Reise-Podcast“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fgeoaudio.radio.de&amp;title=GEOaudio Reise-Podcast'}" class="icon-stumble js-link-external" title="„GEOaudio Reise-Podcast“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fgeoaudio.radio.de&amp;bodytext=&amp;tags=&amp;title=GEOaudio Reise-Podcast'}" class="icon-digg js-link-external" title="„GEOaudio Reise-Podcast“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fgeoaudio.radio.de&amp;title=GEOaudio Reise-Podcast&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„GEOaudio Reise-Podcast“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+							
+								Sie haben GEOaudio Reise-Podcast entdeckt und möchten noch mehr Webradio hören? Auf radio.de können Sie kostenlos und einfach Internetradio aus Deutschland und dem Rest der Welt hören. Bleiben Sie mit GEOaudio Reise-Podcast und Ihren weiteren Favoriten immer auf dem neuesten Stand.
+							
+							
+							
+
+
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("geoaudio"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("28"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Freizeit:Reisen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">GEOaudio Reise-Podcast</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://marcopolo.radio.de/" class="channel-link" title="„MARCO POLO Podcast“ hören">
+<span class="broadcast-name">MARCO POLO Podcast</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://sz-literaturlauschen.radio.de/" class="channel-link" title="„SZ Audio - Literatur lauschen“ hören">
+<span class="broadcast-name">SZ Audio - Literatur lauschen</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://krimikiste.radio.de/" class="channel-link" title="„Krimikiste“ hören">
+<span class="broadcast-name">Krimikiste</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://hamburghaiti.radio.de/" class="channel-link" title="„Zwischen Hamburg und Haiti“ hören">
+<span class="broadcast-name">Zwischen Hamburg und Haiti</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://neuehoerbuecher.radio.de/" class="channel-link" title="„NDR Kultur - Neue Hörbücher“ hören">
+<span class="broadcast-name">NDR Kultur - Neue Hörbücher</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-hoerspiel.radio.de/" class="channel-link" title="„laut.fm/hoerspiel“ hören">
+<span class="broadcast-name">laut.fm/hoerspiel</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://zeitgeschichte.radio.de/" class="channel-link" title="„NDR Info - Zeitgeschichte“ hören">
+<span class="broadcast-name">NDR Info - Zeitgeschichte</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://wanhoffswelt.radio.de/" class="channel-link" title="„Wanhoffs Wunderbare Welt der Wissenschaft“ hören">
+<span class="broadcast-name">Wanhoffs Wunderbare Welt der Wissenschaft</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://derkillerclub.radio.de/" class="channel-link" title="„Der Killer Club“ hören">
+<span class="broadcast-name">Der Killer Club</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://lautfm-woelffchen.radio.de/" class="channel-link" title="„laut.fm/woelffchen“ hören">
+<span class="broadcast-name">laut.fm/woelffchen</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("geoaudio"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("28"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Freizeit:Reisen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("geoaudio"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("28"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Freizeit:Reisen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("3"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("geoaudio"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("28"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("1"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Freizeit:Reisen"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("97"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("29"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("4"));
+document.write ("&amp;age_20_29=" + escape("18"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

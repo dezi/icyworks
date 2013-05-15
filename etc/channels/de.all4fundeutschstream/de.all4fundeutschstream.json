@@ -1,0 +1,248 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://46.163.108.110:30730/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"All4Fun Radio - Deutschstream",
+    "subDomaine":"all4fundeutschstream",
+    "relayDisabled":false,
+    "rank":2310,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"All4Fun Radio - Deutschstream bringt nur die besten deutschsprachigen Songs vom Schlager bis zum Partyhit. Dieser Sender ist zum Abfeiern geboren.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10401_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10401_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10401_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"All4Fun Radio - Deutschstream bringt nur die besten deutschsprachigen Songs vom Schlager bis zum Partyhit. Dieser Sender ist zum Abfeiern geboren.",
+    "metaDataUrl":"http://46.163.108.110:30730/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.all4funradio.eu/deutschstream-128-mp3_radio_de.m3u",
+    "displaySubDomaine":"all4fundeutschstream",
+    "recentTitles":
+    [
+      "Broilers - Wie weit wir gehen",
+      "In Extremo - Zigeunerskat",
+      "Apollo 3 - Superhelden",
+      "Eisblume - Zweites Gesicht",
+      "Frei.Wild - Weil du mich nur verarscht hast",
+      "All4Fun Radio - News und Wetter",
+      "Die Prinzen - Ganz oben",
+      "Gebrueder Blattschuss - Kreuzberger Naechte",
+      "Tobias Thies - Das Leben Geht Weiter",
+      "Isabel Varell - Es ist nicht leicht Prinzessin zu sein",
+      "Andreas Martin - Weil es den and\'ren gibt",
+      "Felix Pascal - Liebe Im Fahrstuhl",
+      "Okay - Okay",
+      "Erste Allgemeine Verunsicherung - Samurai",
+      "Maurice Dalessio - Es Geht Schon Weiter",
+      "Andreas Zaron - Kÿss Mich Bis Es Grÿn Wird",
+      "Nic - Einen Saphir (Radio Edit)",
+      "Peter Schilling - Sonne, Mond und Sterne",
+      "Frank Neuenfels - Im Himmel Ist Die Hoelle Los",
+      "Herbert Groenemeyer - Alkohol",
+      "Frank Lukas - Keinen Bock Auf Gar Nichts Mehr",
+      "Olaf Henning - Das Spiel ist aus game over",
+      "Jens Bogner - Neverending Story (Radio Mix)",
+      "Die Prinzen - Alles nur geklaut (Gitarren Mix)",
+      "Helga Hahnemann - Jetzt kommt dein Suesser",
+      "Peter Schilling - Ufos sie fliegen",
+      "Thomas Godoj - Daecher einer ganzen Stadt",
+      "Wolfgang Ziegler - Verdammt und dann ...",
+      "Klaus Densow - Nur mit dir",
+      "Andrea Berg - Du hast mich Tausendmal belogen",
+      "G.G. Anderson - Schaefchen Zaehlen",
+      "Tommy Fischer - Hab\' keine Angst (Maxi Dance Mix)",
+      "Karrel Gott  DJ Oetzi - Fang Das Licht",
+      "Klaus Lage Band - Monopoli",
+      "City - Zu spaet",
+      "Astrid Beck - Keine Angst Vor Herzpiraten",
+      "Rosenstolz - Herz schlaegt auch im Eis",
+      "Rosenstolz - Gib mir Sonne",
+      "Heinz Rudolf Kunze - Kampfzone Mitte",
+      "Erste Allgemeine Verunsicherung - An der Copacabana",
+      "Dirk Florin - Durch die Hoelle",
+      "Pascal Krieger - Komm flieg mit mir nach Ibiza",
+      "Sandro Marin - Weil Der Himmel Weiss",
+      "Ich und Ich - Bruecke",
+      "Markus Florin - Nun sag schon adieu",
+      "Lisa Valentin - Endlich Wieder Sonne",
+      "DJ Oetzi - Gebt Mir Ein Zeichen",
+      "Diana Sorbello - Das Rote Kleid",
+      "Ulli Schwinge - Die Nacht Hat Vier Augen",
+      "Claudia Jung - Ich Weiÿ Dass Ich Noch Fliegen Kann",
+      "Keimzeit - kling klang",
+      "Daniela Alfinito - Wolke 7",
+      "Gerrit Winter - Dein Moment",
+      "Wolfgang Petry - Verlieben, verloren, vergessen, verzeihn",
+      "Juliane Werding - Tarot",
+      "Michael Wendler - Prinzessin",
+      "Soehne Mannheims - Gesucht  Gefunden"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.all4funradio.eu",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10401_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10401_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10401,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10401_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10401_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10401_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Discofox, Schlager",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"All4Fun Radio - Deutschstream",
+    "picture3Url":"",
+    "streamUrl":"http://stream.all4funradio.eu/deutschstream-128-mp3_radio_de.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10401_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10401_5.jpeg",
+    "subdomain":"all4fundeutschstream",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458402,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://46.163.108.110:30730/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://46.163.108.110:30730/",
+        "idBroadcast":10401,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

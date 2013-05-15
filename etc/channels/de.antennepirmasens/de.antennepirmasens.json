@@ -1,0 +1,253 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.radiogroup.de:8000/ps",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.telvi.de:8000/antenne_pirmasens",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Antenne Pirmasens 88.4, Radio Pirmasens - ",
+    "subDomaine":"antennepirmasens",
+    "relayDisabled":false,
+    "rank":2086,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die meiste Musik in Rheinland-Pfalz",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/13002_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/13002_3_1.png",
+    "longitude":7.600216,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/13002_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die meiste Musik in Rheinland-Pfalz",
+    "metaDataUrl":"http://stream.radiogroup.de:8000/ps",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.201555,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.radiogroup.de:8000/ps",
+    "displaySubDomaine":"antennepirmasens",
+    "recentTitles":
+    [
+      "PASSENGER - Let her go (Antenne Pirmasens 88.4)",
+      "AMY WINEHOUSE - Valerie (Antenne Pirmasens 88.4)",
+      "KANSAS - Dust in the wind (Antenne Pirmasens 88.4)",
+      "EMILIANA TORRINI - Jungle drum (Antenne Pirmasens 88.4)",
+      "PHILLIP PHILLIPS - Home (Antenne Pirmasens 88.4)",
+      "KERI HILSON - I like (Antenne Pirmasens 88.4)",
+      "ED SHEERAN - Lego house (Antenne Pirmasens 88.4)",
+      "CARLY SIMON - You\'re so vain (Antenne Pirmasens 88.4)",
+      "PUR - Frei (Antenne Pirmasens 88.4)",
+      "KINGS OF LEON - Sex on fire (Antenne Pirmasens 88.4)",
+      "ONE DIRECTION - Live while we\'re young (Antenne Pirmasens 88.4)",
+      "SHANIA TWAIN - I\'m gonna getcha good (Antenne Pirmasens 88.4)",
+      "ONEREPUBLIC - If i lose myself (Antenne Pirmasens 88.4)",
+      "SAMMY DAVIS JR. - The candy man (Antenne Pirmasens 88.4)",
+      "PINK FEAT. NATE RUESS - Just give me a reason (Antenne Pirmasens 88.4)",
+      "SUNRISE AVENUE - Fairytale gone bad (Antenne Pirmasens 88.4)",
+      "ASIA - Heat of the moment (Antenne Pirmasens 88.4)",
+      "CRIS COSMO - Herzschlag (Antenne Pirmasens 88.4)",
+      "FLEETWOOD MAC - Everywhere (Antenne Pirmasens 88.4)",
+      "BLUE - Without you (Antenne Pirmasens 88.4)",
+      "PETER ANDRE - Mysterious girl (Antenne Pirmasens 88.4)",
+      "RITA ORA FEAT. TINIE TEMPAH - R.i.p (Antenne Pirmasens 88.4)",
+      "CHRIS REA - Fool if you think it\'s over (Antenne Pirmasens 88.4)",
+      "CHRISTINA STüRMER - Millionen lichter (Antenne Pirmasens 88.4)",
+      "BON JOVI - Always (Antenne Pirmasens 88.4)",
+      "MARLON ROUDETTE - Anti hero (Antenne Pirmasens 88.4)",
+      "SEAL - Amazing (Antenne Pirmasens 88.4)",
+      "GOSSIP - Get a job (Antenne Pirmasens 88.4)",
+      "CHRIS DE BURGH - Missing you (Antenne Pirmasens 88.4)",
+      "BEYONCE - If i were a boy (Antenne Pirmasens 88.4)",
+      "THE CALLING - Wherever you will go (Antenne Pirmasens 88.4)",
+      "SPORTFREUNDE STILLER - Applaus",
+      "JESSIE J - Domino (Antenne Pirmasens 88.4)",
+      "ROXETTE - It must have been love (Antenne Pirmasens 88.4)",
+      "OMD - Metroland (Antenne Pirmasens 88.4)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-pirmasens.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/13002_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/13002_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":13002,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/13002_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/13002_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/13002_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Charts, Hits",
+      "_city":"Pirmasens",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Antenne Pirmasens",
+    "picture3Url":"",
+    "streamUrl":"http://stream.radiogroup.de:8000/ps",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/13002_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/13002_5.jpeg",
+    "subdomain":"antennepirmasens",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458597,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"AAC",
+        "metaDataUrl":"http://stream.telvi.de:8000/antenne_pirmasens",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.telvi.de:8000/antenne_pirmasens",
+        "idBroadcast":13002,
+        "bitRate":64
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":14958,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.radiogroup.de:8000/ps",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.radiogroup.de:8000/ps",
+        "idBroadcast":13002,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

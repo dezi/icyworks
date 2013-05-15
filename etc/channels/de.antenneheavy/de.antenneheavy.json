@@ -1,0 +1,243 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://mp3channels.webradio.rockantenne.de/heavy-metal",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"ROCK ANTENNE - Heavy Metal, Rockantenne Heavy Metal, Bayern, Stream Webradio",
+    "subDomaine":"antenneheavy",
+    "relayDisabled":false,
+    "rank":89,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Metallen wird der bayrische Charme auf dem Heavy Metal Stream von ROCK ANTENNE. Neben Shows und News gibt es Krach auf die Ohren, dass es nur so scheppert im Bayernland und im weiten Web. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9148_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9148_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9148_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Metallen wird der bayrische Charme auf dem Heavy Metal Stream von ROCK ANTENNE.",
+    "metaDataUrl":"http://mp3channels.webradio.rockantenne.de/heavy-metal",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.rockantenne.de/webradio/channels/heavy-metal.m3u",
+    "displaySubDomaine":"antenneheavy",
+    "recentTitles":
+    [
+      "HAMMERFALL - Natural high",
+      "Dream Theater - Constant motion",
+      "Testament - Practice what you preach (live)",
+      "TENACIOUS D - The Metal",
+      "Metallica - Whiskey in the jar",
+      "Life Of Agony - This Time",
+      "SLAYER - Mandatory suicide",
+      "OSI - Free",
+      "TURBONEGRO - City of satan",
+      "TOOL - Prison sex",
+      "MORBID ANGEL - Blessed are the sick",
+      "Napalm Death - Mass Appeal Madness",
+      "DEATH ANGEL - Seemingly endless time",
+      "Judas Priest - Painkiller",
+      "Death - Spiritual healing",
+      "Limp Bizkit - Nookie",
+      "Katatonia - Ghost of the sun",
+      "Marilyn Manson - The reflecting god",
+      "Exciter - I hate school rules",
+      "Godsmack - Whatever",
+      "Overkill - Bring me the night",
+      "DREAM EVIL - The book of heavy metal",
+      "METALLICA - Welcome home (sanitarium)",
+      "Nightwish - Wishmaster",
+      "WOLF - At the graveyard",
+      "Terror - Stick tight",
+      "Norther - We rock",
+      "Van Halen - Ain\'t talkin\' bout love",
+      "STRATOVARIUS - Alpha & omega",
+      "FEAR FACTORY - Edgecrusher",
+      "Caliban - I will never let you down",
+      "Saxon - Wheels of Steel",
+      "Volbeat - Guitar Gangsters & Cadillac Blood",
+      "QUEENSRYCHE - Best I can",
+      "DANZIG - Her black wings",
+      "Mordred - Falling away",
+      "SEPULTURA - Innerself",
+      "JUDAS PRIEST - Screaming for vengeance",
+      "Agnostic Front - Gotta go",
+      "Bullet for my Valentine - Eye of the Storm",
+      "As I lay dying - A greater foundation",
+      "SYSTEM OF A DOWN - Prison song",
+      "RAMMSTEIN - Du riechst so gut",
+      "Sonata Arctica - Don\'t say a word",
+      "Motorhead - Rock n Roll",
+      "Children Of Bodom - Living dead beat",
+      "AGENT STEEL - 144 000 gone",
+      "KORPIKLAANI - Happy little boozer",
+      "Magnum - Vigilante (live)",
+      "SLIPKNOT - Surfacing",
+      "Vallenfyre - All will suffer",
+      "VOIVOD - Tribal convictions"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.rockantenne.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9148_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9148_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9148,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9148_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9148_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9148_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Webradio",
+      "_country":"Deutschland",
+      "_genre":"Metal",
+      "_city":"Ismaning",
+      "_family":"Rockantenne",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"ROCK ANTENNE - Heavy Metal",
+    "picture3Url":"",
+    "streamUrl":"http://www.rockantenne.de/webradio/channels/heavy-metal.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9148_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9148_5.jpeg",
+    "subdomain":"antenneheavy",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2445424,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://mp3channels.webradio.rockantenne.de/heavy-metal",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://mp3channels.webradio.rockantenne.de/heavy-metal",
+        "idBroadcast":9148,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

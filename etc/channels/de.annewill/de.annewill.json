@@ -1,0 +1,437 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701638",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+      "testResult":null,
+      "name":"Merkels Euro-Kurs in der Kritik - sind wir Europas Zuchtmeister?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699938",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130321-0927-5142.mp3",
+      "testResult":null,
+      "name":"Sündenfall Zypern - Vertrauen weg bei Europas Sparern?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698196",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130314-0911-5742.mp3",
+      "testResult":null,
+      "name":"Wie viel Klartext verträgt Deutschland, Herr Steinbrück?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694644",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130228-1009-3742.mp3",
+      "testResult":null,
+      "name":"Nach der Amazon-Affäre - Schluss mit der Leiharbeit?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692736",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130221-0940-0642.mp3",
+      "testResult":null,
+      "name":"80 Jahre nach Hitlers Machtergreifung - wie stabil ist unsere Demokratie heute?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689139",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130207-0944-2442.mp3",
+      "testResult":null,
+      "name":"Der große Wettskandal - wer traut noch unseren Fußballern?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687266",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130131-0858-4442.mp3",
+      "testResult":null,
+      "name":"Sexismus-Aufschrei - hysterisch oder notwendig?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685435",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130124-1011-1542.mp3",
+      "testResult":null,
+      "name":"Krieg in Mali - deutsche Soldaten an die Front?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683602",
+      "author":"",
+      "stream":"http://media.ndr.de/download/podcasts/annewill966/AU-20130117-0935-4042.mp3",
+      "testResult":null,
+      "name":"Schiffbruch mit Steinbrück - braucht die SPD einen neuen Steuermann?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Die ganze Sendung als Audio-Podcast. ",
+    "seoTitle":"Das Erste - Anne Will Podcast",
+    "subDomaine":"annewill",
+    "relayDisabled":false,
+    "rank":2530,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Verpasste Sendungen der Anne Will Talkrunde des ARDs lassen sich mit diesem Podcast noch einmal nachhören.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/7707_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/7707_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/7707_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Verpasste Sendungen der Anne Will Talkrunde des ARDs lassen sich mit diesem Podcast noch einmal nachhören.",
+    "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "title":"Merkels Euro-Kurs in der Kritik - sind wir Europas Zuchtmeister?",
+        "episode":0,
+        "description":"Über die Rolle Deutschlands in Europa sprechen Klaus von Dohnanyi, Gertrud Höhler, Hans-Gert Pöttering, Rolf-Dieter Krause und Michalis Pantelouris.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "published":"Wed, 27 Mar 2013 22:45:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Sündenfall Zypern - Vertrauen weg bei Europas Sparern?",
+        "episode":1,
+        "description":"Über den Fortgang der Euro-Krise sprechen Jürgen Trittin, Gesine Schwan, Edmund Stoiber, Nikolaus Blome und Bernd Lucke.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130321-0927-5142.mp3",
+        "published":"Wed, 20 Mar 2013 22:45:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Wie viel Klartext verträgt Deutschland, Herr Steinbrück?",
+        "episode":2,
+        "description":"Der SPD-Kanzlerkandidat Peer Steinbrück stellt sich den Fragen von Anne Will.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130314-0911-5742.mp3",
+        "published":"Wed, 13 Mar 2013 23:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Nach der Amazon-Affäre - Schluss mit der Leiharbeit?",
+        "episode":3,
+        "description":"Über Auswüchse in der Zeitarbeitsbranche sprechen Diana Löbl, Ariane Durian, Paul Schobel, Johannes Vogel und Günter Wallraff. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130228-1009-3742.mp3",
+        "published":"Wed, 27 Feb 2013 23:30:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"80 Jahre nach Hitlers Machtergreifung - wie stabil ist unsere Demokratie heute?",
+        "episode":4,
+        "description":"Über demokratische Strukturen sprechen Sahra Wagenknecht, Sigmar Gabriel, Rita Süssmuth und Heinrich August Winkler.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130221-0940-0642.mp3",
+        "published":"Wed, 20 Feb 2013 23:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Der große Wettskandal - wer traut noch unseren Fußballern?",
+        "episode":5,
+        "description":"Über die Wahrhaftigkeit des Fußballs sprechen Willi Lemke, Sylvia Schenk, Werner Hansch, Diether Dehm, Urs Meier und René Schnitzler. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130207-0944-2442.mp3",
+        "published":"Thu, 07 Feb 2013 00:00:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Sexismus-Aufschrei - hysterisch oder notwendig?",
+        "episode":6,
+        "description":"Über die laufende Debatte sprechen Anke Domscheit-Berg, Monika Ebeling, Renate Künast, Heiner Geißler und Jan Fleischhauer.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130131-0858-4442.mp3",
+        "published":"Wed, 30 Jan 2013 22:45:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Krieg in Mali - deutsche Soldaten an die Front?",
+        "episode":7,
+        "description":"Über den Einsatz in Westafrika sprechen Bettina Gaus, Dirk Niebel, Sabine Lösing, Harald Kujat und Christof Wackernagel. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130124-1011-1542.mp3",
+        "published":"Wed, 23 Jan 2013 23:15:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      },
+      
+      {
+        "sampleRate":48000,
+        "title":"Schiffbruch mit Steinbrück - braucht die SPD einen neuen Steuermann?",
+        "episode":8,
+        "description":"Über den glücklosen Kanzlerkandidaten sprechen Ralf Stegner, Ines Pohl, Klaus Kocks, Norbert Bolz und Hans-Ulrich Jörges. ",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130117-0935-4042.mp3",
+        "published":"Wed, 16 Jan 2013 22:45:00 +0100",
+        "bitRate":128,
+        "contentLength":0
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.ndr.de/podcast/annewill966.xml",
+    "displaySubDomaine":"annewill",
+    "recentTitles":
+    [
+      "Merkels Euro-Kurs in der Kritik - sind wir Europas Zuchtmeister?",
+      "Sündenfall Zypern - Vertrauen weg bei Europas Sparern?",
+      "Wie viel Klartext verträgt Deutschland, Herr Steinbrück?",
+      "Nach der Amazon-Affäre - Schluss mit der Leiharbeit?",
+      "80 Jahre nach Hitlers Machtergreifung - wie stabil ist unsere Demokratie heute?",
+      "Der große Wettskandal - wer traut noch unseren Fußballern?",
+      "Sexismus-Aufschrei - hysterisch oder notwendig?",
+      "Krieg in Mali - deutsche Soldaten an die Front?",
+      "Schiffbruch mit Steinbrück - braucht die SPD einen neuen Steuermann?"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Die ganze Sendung als Audio-Podcast. ",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://daserste.ndr.de/annewill/podcast/index.html",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/7707_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/7707_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":7707,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/7707_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/7707_5_1.png",
+    "author":"",
+    "title":"Logo der Sendung ANNE WILL",
+    "picture4Url":"http://static.radio.de/images/broadcasts/7707_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Nachrichten, Politik",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Das Erste - Anne Will Podcast",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/annewill.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/7707_4_1.png",
+    "sampleRate":48000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/7707_5.jpeg",
+    "subdomain":"annewill",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":48000,
+        "id":2459235,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://media.ndr.de/download/podcasts/annewill966/AU-20130328-0854-2942.mp3",
+        "idBroadcast":7707,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

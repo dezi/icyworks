@@ -1,0 +1,2722 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+radioeins - Hörbar Rust Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="radioeins - Hörbar Rust (128kbps) - Jeden Sonntag lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein, der Geschichten zum Soundtrack seines Lebens erzählt. Alte Mixtapes, erste Platten und intime Tönen werden da gespielt und schöne Anekdoten aufgetischt." />
+<meta property="og:title" content="radioeins - Hörbar Rust"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/9371_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://hoerbarrust.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://hoerbarrust.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366774420892" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366774420892" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://hoerbarrust.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "hoerbarrust",
+	
+	pageRequestUrl : "http://hoerbarrust.radio.de/broadcast_info.jsf",
+	pageDomain : "hoerbarrust.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17703005","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","testResult":null,"name":"Thimon von Berlepsch","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17701195","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130324_160000.mp3","testResult":null,"name":"Stefan Kretzschmar","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699785","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130317_160000.mp3","testResult":null,"name":"Michael Tsokos","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699271","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130310_140000.mp3","testResult":null,"name":"Henry Hübchen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697530","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130303_140000.mp3","testResult":null,"name":"Johann von Bülow","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695697","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130224_160000.mp3","testResult":null,"name":"Kirsten Bruhn","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693982","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130217_140000.mp3","testResult":null,"name":"Rebecca Immanuel","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692223","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130210_140000.mp3","testResult":null,"name":"Konstantin Gropper","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688834","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130203_160000.mp3","testResult":null,"name":"Hajo Schumacher","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688333","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130127_140000.mp3","testResult":null,"name":"Klaus Maria Brandauer","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686494","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130120_160000.mp3","testResult":null,"name":"Ursula Karven","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17684704","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130113_160000.mp3","testResult":null,"name":"Volker Wieprecht","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17682711","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130106_140000.mp3","testResult":null,"name":"Christian Tramitz und Annette Frier","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681549","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121230_140000.mp3","testResult":null,"name":"The BossHoss","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17679642","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121223_160000.mp3","testResult":null,"name":"Tom Schilling","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17678214","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121216_140000.mp3","testResult":null,"name":"Kai Havaii","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17676159","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121209_160000.mp3","testResult":null,"name":"Florian David Fitz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17672410","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121202_160000.mp3","testResult":null,"name":"Fritz J. Raddatz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17669932","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121125_160000.mp3","testResult":null,"name":"Claus Kleber","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17667778","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121118_160000.mp3","testResult":null,"name":"Dr. med. Michael de Ridder","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17665059","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121111_160000.mp3","testResult":null,"name":"Johanna Adorjan","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17662405","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121104_140000.mp3","testResult":null,"name":"Michael Gwisdek","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17638578","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121028_160000.mp3","testResult":null,"name":"Ronald Zehrfeld","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17612752","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121021_160000.mp3","testResult":null,"name":"Peer Steinbrück","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17590241","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121014_160000.mp3","testResult":null,"name":"Jürgen Vogel","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17564676","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121007_160000.mp3","testResult":null,"name":"Zum Tod von Dirk Bach (Wiederholung vom 05.10.03)","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17542305","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120930_160000.mp3","testResult":null,"name":"Enie van de Meiklokjes","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17545203","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120923_140000.mp3","testResult":null,"name":"Daniel Brühl","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17495408","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120916_140000.mp3","testResult":null,"name":"Claudia Michelsen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17495409","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120909_140000.mp3","testResult":null,"name":"Anna Fischer","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317466","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120902_160000.mp3","testResult":null,"name":"Bjarne Mädel","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317467","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120826_160000.mp3","testResult":null,"name":"Zeitreise durch 10 Jahre \"Hörbar Rust\"","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317468","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3","testResult":null,"name":"Maike Rosa Vogel","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17532442","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3","testResult":null,"name":"Hörbar Rust mit Maike Rosa Vogel (Zusammenschnitt ohne Musik)","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317469","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120812_160000.mp3","testResult":null,"name":"Marusha Aphrodite Gleiß","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317470","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120617_140000.mp3","testResult":null,"name":"Thea Dorn","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317471","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120610_160000.mp3","testResult":null,"name":"Michi Beck","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317472","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120603_140000.mp3","testResult":null,"name":"Johnny Haeusler","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317473","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120520_160000.mp3","testResult":null,"name":"Lisa Bassenge","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317474","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120513_140000.mp3","testResult":null,"name":"Sönke Wortmann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317475","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120506_140000.mp3","testResult":null,"name":"Catherine von Fürstenberg-Dussmann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317476","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120429_140000.mp3","testResult":null,"name":"Patricia Kaas","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317477","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120422_160000.mp3","testResult":null,"name":"Michael Ballhaus","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317478","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120415_160000.mp3","testResult":null,"name":"Jürgen Domian","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317479","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120408_140000.mp3","testResult":null,"name":"Dr. Karl ter Horst","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317480","author":"","stream":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120401_140000.mp3","testResult":null,"name":"Jenny Schily","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317507","author":"","stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110529.mp3","testResult":null,"name":"Bettina Wulff","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317508","author":"","stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110522.mp3","testResult":null,"name":"Dennis Gastmann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317509","author":"","stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110515.mp3","testResult":null,"name":"Thomas Hampson","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17317510","author":"","stream":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110508.mp3","testResult":null,"name":"Dirk Stermann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"Jeden Sonntag von 14.00 bis 16.00 Uhr lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein. Dieser stellt sich in der Sendung vor und die Musik, die in seinem Leben von Bedeutung war und erzählt dazu die passenden Geschichten zum Soundtrack sei","seoTitle":"radioeins - Hörbar Rust","subDomaine":"hoerbarrust","relayDisabled":false,"rank":2276,"playableStateString":"FREE","idTeaser":0,"description":"Jeden Sonntag lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein, der Geschichten zum Soundtrack seines Lebens erzählt. Alte Mixtapes, erste Platten und intime Tönen werden da gespielt und schöne Anekdoten aufgetischt.","picture2TransUrl":"http://static.radio.de/images/broadcasts/9371_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/9371_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/9371_6.jpeg","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Jeden Sonntag lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein, der Geschichten zum Soundtrack seines Lebens erzählt.","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","podcastUrls":[{"sampleRate":44100,"title":"Thimon von Berlepsch","episode":0,"description":"Die ersten 22 Jahre seines Lebens verbringt Thimon mit seinen 3 Brüdern auf dem elterlichen Schloss Berlepsch im hessischen Witzenhausen. Thimon lernt Goldschmied, geht für ein halbes Jahr auf die Philippinen, macht Zivildienst und widmet sich seinem Kindheitstraum: der Zauberei - mit wachsendem Erfolg. Seit einigen Jahren gehört der schlaue Smart-Guy nun schon zur Zauberer-Elite Deutschlands. Ohne Karnickel im Zylinder, aber mit viel \"aaah\" und \"ohh\".","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","published":"Sun, 31 Mar 2013 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Stefan Kretzschmar","episode":1,"description":"Vater Peter trainiert die DDR-Nationalmannschaft im Handball, Mutter Waltraud holt dreimal den Weltmeistertitel. Klar, dass auch ihr Sohn bald zum Ball greift. \n\nAb 1993 spielt er in der Bundesliga für den VfL Gummersbach, wird 2001 mit Magdeburg Deutscher Meister, holt 2004 mit der Nationalmannschaft bei den Olympischen Spielen Silber. Kretsche absolviert 218 Länderspiele und erzielt 1694 Bundesliga-Tore. \n\nEine feine Bilanz, aber da gibt's noch viel mehr - für MTV moderierte er zwei Jahre die Sendung MTV Sushi, spielte in einigen Filmen mit und Radio hat er auch schon mal gemacht. Wir sind gespannt auf die Musik und Geschichten seines Lebens...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130324_160000.mp3","published":"Sun, 24 Mar 2013 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Michael Tsokos","episode":2,"description":"Der gebürtige Kieler kommt als Sohn einer Ärztin und eines Schiffsoffiziers zur Welt. Um bei der Bundeswehr zwei freie Tage zu ergattern, lässt er sich zur Teilnahme des sogenannten Medizinertests überreden, schneidet hervorragend ab und beschließt, Arzt zu werden. Die Rechtsmedizin greift mit ihren kalten, rätselhaften Klauen nach dem jungen Mann, der seine Berufung findet, Karriere macht und u.a. seit 2007 das Institut für Rechtsmedizin an der Charité leitet. Zudem schreibt er Bücher über seine Arbeit und von diesen Geschichten profitieren wir bestimmt auch diesen Sonntag - dann ist Michael Tsokos zu Gast in der Hörbar auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130317_160000.mp3","published":"Sun, 17 Mar 2013 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Henry Hübchen","episode":3,"description":"Geb. 1947 in West-Berlin erhält der gebürtige Charlottenburger mit 10 bereits erste Rollen vor der Kamera, er ist 14, als die Mauer kommt. Hübchen studiert nach dem Abitur kurz Physik, bevor ihn das Schicksal unauffällig zum Schauspiel-Studium führt. Er spielt Theater in Magdeburg, reüssiert in \"Jakob der Lügner\", dem einzigen DDR-Film, der jemals für einen Oscar nominiert wurde, geht an die Volksbühne (zuerst zu Besson, später zu Castorf) und gehört nach der Wende zu den Schauspielern, deren Erfolg eher zu-, als abnimmt. Spätestens seit seiner Rolle in \"Alles auf Zucker\", \"Sonnenallee\" oder \"Whisky mit Wodka\" heißt es: Alle lieben Henry. Und wir freuen uns. Henry Hübchen, jetzt zu Gast an der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130310_140000.mp3","published":"Sun, 10 Mar 2013 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Johann von Bülow","episode":4,"description":"Der Schauspieler entstammt dem mecklenburgischen Uradelsgeschlecht derer von Bülow, so steht es geschrieben, kam jedoch in München zur Welt. Johann studiert an der Otto-Falckenberg-Schule Schauspiel und debütiert 1995 neben Franka Potente in \"Nach Fünf im Urwald\", bevor er sich recht konstant dem Theater verschreibt. Seit sechs/sieben Jahren regiert der wandelbare Schauspieler aber den Bildschirm, taucht in unterschiedlichsten Produktionen auf, wird gefeiert und man fragt sich: Wo war dieser Mann in all den Jahren davor?","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130303_140000.mp3","published":"Sun, 03 Mar 2013 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Kirsten Bruhn","episode":5,"description":"Mit zehn Jahren wird das Hobby-Schwimmen für Kirsten zum Leistungssport. Vor Beginn ihres Grafik- und Designstudiums fährt die junge Frau mit ihrem Freund auf die Insel Kos. Dort kommt es zu einem Motorrad-Unfall, der zu einer inkompletten Querschnittlähmung bei Kirsten führt. Mit Anfang 20 muss sie ihr Leben neu organisieren und vor allem, es weiterhin für lebenswert halten. Zögerlich wendet sie sich dem Behindertensport zu, doch schon bald wird deutlich, was diese Frau zu leisten imstande ist: Dreimal holt sie Paralympisches Gold, schwimmt 54 Welt- und 64 Europarekorde, ist 65fache Deutsche Meisterin, fünffache Europa- und zweifache Weltmeisterin...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130224_160000.mp3","published":"Sun, 24 Feb 2013 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Rebecca Immanuel","episode":6,"description":"Die Schauspielerin ist eine echte Hamburger Deern. In der Schule moderiert sie für die BBC, singt und bekommt Klavierunterricht. Rebecca jobbt als Moderatorin und Redakteurin für den NDR und studiert 1994 an der Hochschule für Schauspielkunst Ernst Busch. Sie ist talentiert, sehr, sehr hübsch und spielt in einigen Stücken und Filmen mit - die Rolle ihres jungen Lebens jedoch verkörpert sie in der Serie \"Edel & Starck\" an der Seite von Christoph M. Orth.\n\nSeitdem ist viel passiert - und es passiert noch. Genauer erfahren wir es von Rebecca Immanuel inn der Hörbar Rust...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130217_140000.mp3","published":"Sun, 17 Feb 2013 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Konstantin Gropper","episode":7,"description":"Gropper wächst in einem Musiklehrerhaushalt im oberschwäbischen Erolzheim auf. Bereits früh macht er sich mit unterschiedlichen Instrumenten vertraut, studiert Philosophie in Heidelberg und holt sich den Abschluss als Bachelor of Arts an der Mannheimer Popakademie. \n\n2003 beginnt er unter seinem Künstlernamen \"Get well soon\" zu produzieren - ein Projekt, das im Grunde nur aus Gropper selbst besteht. Seine drei bereits erschienenen Alben werden von Kritikern und Publikum hymnisch gefeiert und aufgeregt zur Kenntnis genommen. Auf dem Soundtrack von Wim Wenders \"Palermo Shooting\" steuerte er zwei Songs bei. \n\nIn seinem dritten Album \"The Scarlet Beast O'Seven Heads\" widmet er sich der großen Kunst italienischen Cinematographie. Die taz hält unseren heutigen Gast für einen der größten Popstars Deutschlands, warum sollten wir uns dem nicht anschließen?","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130210_140000.mp3","published":"Sun, 10 Feb 2013 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Hajo Schumacher","episode":8,"description":"Der gebürtige Westfale schreibt seine ersten Geschichten bereits mit 15 für die Münstersche Zeitung. Schumacher studiert in München Journalistik, Politik und Psychologie und arbeitet ab 1986 für die Süddeutsche Zeitung. 1990 wird er Redakteur beim Spiegel, bespielt die Ressorts Sport, Außen- und Innenpolitik, wird Chefredakteur der Zeitschrift Max und arbeitet seit 2002 als freier Autor in Berlin.\n\nEr schreibt zahlreiche Bücher, darunter die Biografien von Roland Koch und Klaus Wowereit und widmet sich dem Laufen und der Machtphysik und Erfolgsrezepte Merkels.\n\n2004 kommt sein Alter Ego Achim Achilles zur Welt. Jeden Freitag hören Sie seinen Kommentar zum aktuellen Zeitgeschehen auf radioeins...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130203_160000.mp3","published":"Sun, 03 Feb 2013 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Klaus Maria Brandauer","episode":9,"description":"Der kleine Klaus kommt in Bad Aussee, einem Alpenvorort der Steiermark zur Welt. Sein Vater ist Zollbeamter, Mutter Maria besitzt selbst eine künstlerische Ader und unterstützt ihren Sohn. Der bricht sein Studium in Stuttgart nach zwei Semestern ab und wird noch mit 20 zum Familienvater. \n\nBrandauer geht ans Theater, er lernt und brennt und reüssiert - bald auch beim Film. Für seinen Mephisto gibt's einen Oskar, es folgen u.a. \"Das Feuerschiff\", \"Das Russland-Haus\" und \"Jenseits von Afrika\". Seitdem wurden viele weitere Erfolge gefeiert und viele Rollen gespielt, zuletzt als Wilhelm Reich.\n\nAm 15. März 2013 steht Klaus Maria Brandauer als Krapp in Samuel Becketts \"Das letzte Band\" in der Schinkel-Kirche von Neuhardenberg auf der Bühne.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130127_140000.mp3","published":"Sun, 27 Jan 2013 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Ursula Karven","episode":10,"description":"Ursula wird in Ulm geboren. Zunächst als Fotomodell tätig, wird sie einer breiten Öffentlichkeit Ende der 80er durch die Serie \"Das Erbe der Guldenburgs\" bekannt. 1994 heiratet Ursula Karven den Produzenten James Veres und zieht zu ihm nach Los Angeles, das Paar bekommt 3 Söhne. Karven wird zur Unternehmerin, gründet u.a. mit Dana Schweiger das Mode-Label für Mutter und Kind \"Bellybutton\" und widmet sich intensiv mit ganzer Leidenschaft dem Yoga, betreibt eine Yogaschule und bringt Bücher heraus. Nach einem Zwischenaufenthalt auf Mallorca lebt die Schauspielerin und Yoga-Botschafterin mit ihrem jüngsten Sohn nun in Berlin.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130120_160000.mp3","published":"Sun, 20 Jan 2013 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Volker Wieprecht","episode":11,"description":"Oh stolzes Herne, raunen die Menschen noch immer in den schmalen Gassen der nordrhein-westfälischen Stadt, schließlich kam unser heutiger Gast hier zur Welt. Mit 13 geht's nach Berlin, hier studiert Wieprecht - wenn auch nicht zu Ende - und heuert Mitte der 80er als Reporter beim SFB an. Er moderiert bei \"Radio 4U\" und \"Fritz\", wo er Robert Skuppin kennenlernt. Beide wechseln zum frischgegründeten \"Radio Eins\" und schreiben, abgesehen von einigen Büchern - so muß man ganz unbescheiden attestieren - Moderationsgeschichte. Volli - der Mann, dem die Hörer vertrauen...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130113_160000.mp3","published":"Sun, 13 Jan 2013 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Christian Tramitz und Annette Frier","episode":12,"description":"Christian Tramitz, 57, Schauspieler, Komiker, Synchronsprecher & Autor: Wacher Blick – weiße Zähne – Grübchen, scharfgeschnittene Gesichtszüge - Christian Tramitz wird als Enkel des großen Volkschauspielers Paul Hörbiger in München in eine Schauspielerfamilie hineingeboren, hat mit diesem Metier aber selbst lange nichts am Hut. Seit den 80ern ist Christian Tramitz ausgiebig im Synchrongeschäft tätig. So richtig bekannt wird er aber erst als Teil der furiosen Troika mit Michael „Bully“ Herbig und Rick Cavanian in der Bullyparade...\n\nAnnette Frier, 38, Komikerin, Schauspielerin und Theater-Regisseurin:\nEs gibt ein paar Frauen, die in der Öffentlichkeit als lustig und zeitgleich sexy da stehen. Die Mutter von Zwillingen sagt selbst über sich, sie sei faul und schon früh weiß das lecker „Kölner Mädsche“, dass sie auf die Bühne gehört. 1997 winkt die erste große Fernsehrolle „Hinter Gittern - im Frauenknast“ 54 Folgen lang...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130106_140000.mp3","published":"Sun, 06 Jan 2013 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"The BossHoss","episode":13,"description":"Es waren einmal zwei smarte Grafikdesigner, die sich - neben ihrer Arbeit in der Agentur - dem Musikmachen verschrieben hatten. Eines Tages, es war dunkel und der Alkohol brannte warme Spuren in ihre Kehlen, fassten sie den Gedanken, gemeinsam auf die Bühne gehen zu wollen. Sie brauten einen Zaubertrank aus Rock, Rock'n'Roll und Country, setzten sich große Hüte auf, holten sich noch ein paar Musiker zur Verstärkung und gründeten zu siebt auf einen Streich: The BossHoss.\n\nFortan gab es - bis heute - keine Macht mehr, die den Erfolg dieser Musiker bremsen konnte. Nach The Voice of Germany geht's munter nächstes Jahr auf Tour wieder weiter. Und da sie nicht gestorben sind, im Gegenteil, sitzen sie diesen Sonntag bei uns im Studio...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121230_140000.mp3","published":"Sun, 30 Dec 2012 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Tom Schilling","episode":14,"description":"Tom wächst in Berlin-Mitte auf. Mit sechs steht er erstmals vor der Kamera, ab dem zwölften Lebensjahr spielt er regelmäßig Theater. Was lange nur als Hobby gilt, wird für Schilling im Jahr 2000 mit seiner Rolle in \"Crazy\" zum klassischen Durchbruch.\n\nFortan - und bis heute - dreht er mit renommierten Kollegen und Regisseuren, hungert sich für die Rolle als Hitler an der Seite von Götz George schon mal zehn Kilo runter und nimmt sich in \"Oh Boy\" derart zurück, dass man ihn für den Rest seines Lebens nie wieder schlecht finden kann.\n\nWeihnachten ist Tom als \"Prinz Otto\" erneut im Kino zu sehen in der Neuverfilmung von Märchenkönig \"Ludwig II.\".","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121223_160000.mp3","published":"Sun, 23 Dec 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Kai Havaii","episode":15,"description":"Kai kommt im westfälischen Hagen zur Welt. Seine Pubertät durchläuft er normgerecht als Berufsrevoluzzer, studiert ein bißchen und jobbt als Grafiker und Taxifahrer. Als der Punkrock durch Deutschland fegt, wird Kai plötzlich zum Sänger der neuen Band \"Extrabreit\" und durchlebt das, was gerne und oft besungen wird: das flirrende Leben eines Popstars, der gefeiert wird, Groupies, Geld, Koks. Havaii landet schließlich bei Heroin, doch das ist Jahre her. Warum es so kam, wie es kam und welche Musik dabei lief, das erzählte er in der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121216_140000.mp3","published":"Sun, 16 Dec 2012 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Florian David Fitz","episode":16,"description":"Der gebürtige Münchner studiert in Boston Musik und Schauspiel und geht anschließend für ein Jahr nach New York. Zurück in Deutschland nimmt seine Schauspielkarriere durch seine Rolle in der Erfolgsserie \"Doctor's Diary\" Fahrt auf. Er bekommt verschiedenste Film- und Fernseh-Angebote und einen Grimme-Preis. Aber so richtig zufrieden ist Fitz erst, als sein eigenes Drehbuch \"Vincent will Meer\" mit ihm in der Hauptrolle verfilmt wird. Es hagelt Auszeichnungen. Derzeit ist er mit \"Die Vermessung der Welt\" in den Kinos zu sehen und nun hat er neben der Hauptrolle als Jesus auch zum ersten Mal Regie geführt.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121209_160000.mp3","published":"Sun, 09 Dec 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Fritz J. Raddatz","episode":17,"description":"Fritz kommt 1931 zur Welt, seine Mutter überlebt die Geburt ihres Sohnes nicht. Der Junge verlebt keine schöne Kindheit. Als der Vater stirbt, wird ein Pfarrer zum Vormund. Raddatz studiert, bekleidet im DDR-Verlag \"Volk und Welt\" und später im Rowohlt-Verlag Führungspositionen, wird Ressortleiter und Autor bei der Zeit und veröffentlicht zahlreiche Bücher, darunter einige Biografien und seine Tagebücher und Erinnerungen. Er gilt als streitbar, humorvoll, extravagant und eigensinnig...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121202_160000.mp3","published":"Sun, 02 Dec 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Claus Kleber","episode":18,"description":"Der Journalist und ZDF-Anchorman kam in Reutlingen zur Welt. Bevor Kleber seiner endgültigen Berufung folgt, absolviert er ein Jura-Studium. Früh arbeitet er als freier Journalist beim Kölner Stadtanzeiger und macht eine Hospitanz beim Südwestfunk in Tübingen. Kleber arbeitet kurz als Anwalt, wird Studioleiter beim Südwestfunk und geht 1986 für 15 Jahre als ARD-Korrespondent nach Washington.\n\nSeit 2003 ist Claus Kleber im ZDF Anchorman des \"heute journals\". Zudem treibt es ihn um - er dreht Reportagen und schreibt Bücher. Wer so viel unterwegs ist, der wird auch in unser Studio gespült...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121125_160000.mp3","published":"Sun, 25 Nov 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Dr. med. Michael de Ridder","episode":19,"description":"Im Rahmen der ARD Themenwoche Leben mit dem Tod zu Gast: Dr. Michael de Ridder - Notarzt, ehem. Chefarzt der Rettungsstelle Urbankrankenhaus und Leiter einer Stiftung für Palliativmedizin und Autor von \"Wie wollen wir Sterben?\"\n\nSeine ersten Erfahrungen mit dem Tod macht Michael, als seine Großmutter stirbt. Der Junge besucht ein altphilologisches Gymnasium, studiert Biologie und Medizin und lässt sich zum Arzt für Innere Medizin ausbilden. 15 Jahre fährt er im Notarztwagen mit, 14 Jahre leitet de Ridder die Rettungsstelle des Berliner Urbankrankenhauses. Jetzt führt er ein Hospiz, in dem das viel gepriesene würdevolle Sterben im Vordergrund steht. Schon seit jeher ist der Mediziner der Ansicht, lebenserhaltende Maßnahmen würden längst nicht immer dem Wohl des Patienten dienen und seinen Leidensweg künstlich verlängern...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121118_160000.mp3","published":"Sun, 18 Nov 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Johanna Adorjan","episode":20,"description":"Johanna kommt in Stockholm zur Welt und wächst in München als Tochter zweier Spitzen-Flötisten auf. Sie studiert Theater- und Opernregie und verschreibt sich 1995 dem Journalismus. Adorjans in Schrift gebannte Gedanken, Fragen und Beobachtungen finden schnell ihren eigenen Stil, sie schreibt für viele relevante Zeitungen und ist seit Gründung der Frankfurter Allgemeinen Sonntagszeitung 2001 Mitglied der Feuilleton-Redaktion. Ferner schrieb Adorjan ein Theaterstück, verfasste mit Heike Makatsch das Drehbuch für \"Schwesterherz\" und dokumentierte in ihrem ersten Buch die Liebesgeschichte ihrer Großeltern.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121111_160000.mp3","published":"Sun, 11 Nov 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Michael Gwisdek","episode":21,"description":"Der Sohn eines Gastwirts wächst in Berlin-Lichtenberg auf. Er arbeitet als Trabrennfahrer, lernt Gebrauchswerber und lässt es - im Westen - ordentlich krachen, womit Schluss ist, als die Mauer kommt. Er wird zum erfolgreichen Defa-Schauspieler und gründet mit der Schauspielerin Corinna Harfouch eine Familie. Das ist lange her. Inzwischen ist Gwisdek längst mit Gabriela verheiratet, lebt in der Schorfheide und drehte in 45 Jahren fast 140 Filme.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121104_140000.mp3","published":"Sun, 04 Nov 2012 14:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Ronald Zehrfeld","episode":22,"description":"Ronny wird im Bezirk Schöneweide groß, sehr groß, 1,90 m misst er heute. Die Eltern arbeiten bei der Interflug, den Jungen hält es am Boden: beim Judo schickt er jeden auf die Matte, bringt es sogar zum DDR-Jugendmeister. Nach dem Fall der Mauer muß sich Zehrfeld neu orientieren und landet beim Theater. Peter Zadek erkennt, was in dem großen, kräftigen, jungen Mann steckt. Es folgen zahlreiche Engagements und spektakuläre Filme. Dominik Graf besetzt ihn für seine hochgelobte Reihe \"Im Angesicht des Verbrechens\", in \"Barbara\" überzeugt der Schauspieler an der Seite von Nina Hoss.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121028_160000.mp3","published":"Sun, 28 Oct 2012 16:00:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Peer Steinbrück","episode":23,"description":"Im Nachkriegs-Hamburg wächst ein Junge heran, der lange Zeit schlechte Noten nach Hause bringt. In der Oberstufe gibt's den entscheidenden Turn, Steinbrück macht sein Fachabitur und studiert nach der Bundeswehr VWL und Sozialwissenschaften. Ab 1974 arbeitet er bei verschiedenen Ministerien, wird persönlicher Referent der Minister Matthöfer und Hauff und arbeitet schließlich im Kanzleramt für Helmut Schmidt. Steinbrück wird Minister in Schleswig-Holstein und später in Nordrhein-Westfalen, 2002 dort auch Landesvater. 2005 beruft man ihn zum Bundesminister der Finanzen unter der Regierungsführung von Bundeskanzlerin Angela Merkel. Jetzt tritt er selbst an, um ebendiese Frau Merkel abzulösen. Moin-Moin, Peer Steinbrück, diesen Sonntag zu Gast an der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121021_160000.mp3","published":"Sun, 21 Oct 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Jürgen Vogel","episode":24,"description":"Jürgen wächst mit zwei Schwestern und einem Bruder in Hamburg-Schnelsen auf. Mit 15 verlässt er die Realschule, dreht einen ersten Film und zieht mit 16 nach Berlin. Die Rollen finden Vogel, den jungen Autodidakten, und so kommt es, dass er schon drei Jahre vor seinem sogenannten Durchbruch in \"Kleine Haie\" seinen ersten Filmpreis für \"Rosamunde\" erhält.\n\nEs würde den Rahmen sprengen, hier die zahlreichen Fernseh- und Kinofilme aufzuzählen, an denen er mitwirkte, es sind weit mehr als 100. Der Mann ist eine Marke, seine eigene Marke, mit eigenem Kopf, viel Talent und einem Höchstmaß an Kraft.\n\nWir freuen uns sehr - endlich hat es geklappt und wir konnten ihn in die Hörbar locken...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121014_160000.mp3","published":"Sun, 14 Oct 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Zum Tod von Dirk Bach (Wiederholung vom 05.10.03)","episode":25,"description":"Dirk Bach kam als Kölner auf die Welt und das war weiß Gott nicht zu überhören. Der 110 Kilo-Teddybär blieb in der Schule dreimal sitzen und war eine bekennende Couch-Kartoffel. Für die entsprechende Fernsehunterhaltung sorgte er am liebsten selbst, mit der \"Dirk-Bach-Show\", als Comedy-Serie \"Lukas\", für die er den Deutschen Comedypreis und die Goldene Kamera erhielt. Ob als bissiger Dschungelcampmoderator oder als \"Kleiner Mönch\". \n\nDie Schauspielschule hatte Dirk Bach nach der mittleren Reife ganz einfach übersprungen und ist gleich mutig auf die Bühne geklettert. Alfred Biolek entdeckte ihn in den 80er Jahren. Seinen Durchbruch feierte Bach in der \"Geierwally\" im Kölner Theater in der Filmdose und tobte wenig später als knubbeliger \"Puck\" durch Shakespeares Sommernachtstraum. Den letzten deutschen Filmpreis moderierte er ganz locker im roten Abendkleid. \n\nInsgeheim wünschte er sich aber immer noch eine Gastrolle in der Lindenstraße.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20121007_160000.mp3","published":"Sun, 07 Oct 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Enie van de Meiklokjes","episode":26,"description":"1974 kommt in Potsdam Doreen Grochowski zur Welt, ein munteres, kreatives Mädchen. Nach der mittleren Reife lässt sie sich zur Dekorateurin ausbilden, fängt an zu Modeln und wird von ihrer Agentur zum Fernsehsender VIVA geschickt. Dort moderiert sie bald verschiedene Sendungen und übernimmt 1999 für 2 Jahre \"Bravo TV\". Seitdem taucht Enie regelmäßig in unterschiedlichen Sendern mit unterschiedlichen Formaten auf, mal geht's um Frauen, mal ums Malen, aktuell ums Backen.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120930_160000.mp3","published":"Sun, 30 Sep 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Daniel Brühl","episode":27,"description":"\"Olé, da bist Du ja\", riefen die Barcelonesen aus, als Daniel Martin César im Sommer '78 zur Welt kommt. Die Familie zieht nach Köln, Daniel wird 2-sprachig erzogen und übernimmt mit 8 seine erste Rolle - in einem Hörspiel. Mit 15 arbeitet er vor der Kamera und nach Abitur und Zivildienst kommt die große Film-Welle für Brühl ins Rollen. Spätestens als 2003 \"Good Bye, Lenin\" in die Kinos kommt, verliert der Schauspieler seinen Geheimtipp-Status. Jetzt hat er ein Buch über seine Heimatstadt Barcelona geschrieben und in Kreuzberg eine Tapas-Bar eröffnet.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120923_140000.mp3","published":"Sun, 23 Sep 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Claudia Michelsen","episode":28,"description":"Claudia kommt in Dresden zur Welt. Schon früh verbringt sie mit ihrer Freundin Tine viel Zeit im Theater. Mit knapp 16 Jahren sprechen beide an der Ernst Busch Schauspielschule in Berlin vor und dürfen studieren. Bald arbeitet Michelsen mit Castorf, Hübchen, Godard und Müller. Sie heiratet, zieht für fast sieben Jahre nach Los Angeles und pendelt, so gut es eben geht, denn deutsche Kino- und Fernsehregisseure bieten ihr immer wieder exzellente Rollen an, die Claudia nicht ablehnen kann. Seit 2001 wohnt die zweifache Mutter wieder in Berlin, obwohl sie lieber gern am Meer leben würde. Zur Zeit kann man sie wieder in der 3. Staffel von \"Flemming\" im ZDF sehen oder demnächst im ARD-Zweiteiler \"Der Turm\" am 3./4. Oktober. \n\nTrotz ihrer knapp bemessenen Zeit engagiert sich für das Kinder- und Jugendwerk \"Die Arche\" und schenkte uns diesen Sonntag zwei Stunden ihres Lebens und die dazugehörigen Geschichten.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120916_140000.mp3","published":"Sun, 16 Sep 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Anna Fischer","episode":29,"description":"Anna kommt in Hohenschönhausen zur Welt. Mit ihrer Familie lebt sie in einer Plattenbausiedlung und ist mit drei Jahren definitiv zu jung, um auf den Fall der Mauer anzustoßen. Das Mädchen singt für sein Leben gern, wird Teil einer Girlgroup, gründet mit elf eine Band und wird 15jährig von Regisseur Hans-Christian Schmidt zu einem Casting bestellt.\n\nJetzt geht alles sehr schnell: In \"Lichter\" brilliert die Autodidaktin, bekommt weitere Aufsehen erregende Rollen und räumt innerhalb kürzester Zeit alle möglichen Nachwuchspreise ab. Parallel dazu ist sie Frontfrau der Band \"Panda\"...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120909_140000.mp3","published":"Sun, 09 Sep 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Bjarne Mädel","episode":30,"description":"Bevor uns dieser Mann mit seinen Fähigkeiten um den Finger wickeln kann, muss er erstmal eine Jungs-Kindheit mit dem Nachnamen \"Mädel\" überstehen. Bjarne spielt super Fußball, geht mit seinem Vater, einem Bauingenieur, für ein Jahr nach Afrika, macht in Deutschland Abitur und jobbt dann in den USA. Nach zwei Jahren kehrt er zurück, studiert Schauspiel in Potsdam, wird an renommierten Theatern engagiert und bekommt die Rolle des \"Ernie\" in der Serie Stromberg. Seitdem ist sein ganzes Leben ein Rausch - ob \"Mord mit Aussicht\" oder \"Der Tatortreiniger\", Bjarne wird für seine Rollen gefeiert, hofiert, gelobt, geliebt und eingeladen - nun ist er bei uns...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120902_160000.mp3","published":"Sun, 02 Sep 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Zeitreise durch 10 Jahre \"Hörbar Rust\"","episode":31,"description":"Zum Jubiläum präsentiert Radioeins Gesprächs-Ausschnitte in einer zweistündigen Sonderausgabe, durch die Moderator Jörg Thadeusz in gewohnt charmanter Art navigiert. Die unterhaltsame Zeitreise durch das erste Jahrzehnt \"Hörbar Rust\" erinnert an Begegnungen mit Judy Winter, Egon Bahr, Blixa Bargeld, David Garrett, Fritz Karl, Radiolegende Lord Knud und Peter Scholl-Latour.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120826_160000.mp3","published":"Sun, 26 Aug 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Maike Rosa Vogel","episode":32,"description":"Maike wächst in einem sozialistisch geprägten Haushalt auf. Ihre Eltern hören deutsche Protestsongs, daher ist es für die Tochter später selbstverständlich, in ihrer Sprache zu singen. Nach der 12. Klasse bricht Maike die Schule ab, jobbt hier und da und schreibt sich schließlich an der Pop-Akademie Baden-Württemberg ein. 2008 erscheint ihr erstes Album, 2011 das 2., produziert von Sven Regener, wie auch das 3., das quasi noch taufrisch ist. Die vielseitige Frau Vogel macht selten Kompromisse und Musik für Filme, Bühne und das Theater. Mit sympathischem Sprechgesang zur kantigen Protestgitarre erzählt Sie Geschichten aus dem Alltag: Liebeslieder in kalten Zeiten, ironisch eingefärbte Gesellschaftskritik, charmant, ehrlich und immer gerade heraus.\n\nWir sind gespannt, welche Songs Ihr Leben prägten: Maike Rosa Vogel zu Gast an der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3","published":"Sun, 19 Aug 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Hörbar Rust mit Maike Rosa Vogel (Zusammenschnitt ohne Musik)","episode":33,"description":"","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120819_160000.mp3","published":"Sun, 19 Aug 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Marusha Aphrodite Gleiß","episode":34,"description":"Die Nürnbergerin wächst in Griechenland, bei der Oma, auf. Mit fünf kommt sie zurück nach Deutschland, geht hier zur Schule und macht eine Lehre zur Industriekauffrau.\n\n1989 gründet sie in Nürnberg den ersten Techno-Club der Stadt, zieht nach Berlin und moderiert bei verschiedenen Radio-Sendern u.a. 17 Jahre \"Rave Satellite\" bei Fritz! Ihre Techno-Cover-Version von \"Somewhere over the Rainbow\" von 1994 verkauft sich über 500.000 mal und die Frau mit den - damals - grünen Augenbrauen wird zur Königin der Loveparade-Gemeinde.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120812_160000.mp3","published":"Sun, 12 Aug 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Thea Dorn","episode":35,"description":"Thea wird in Offenbach geboren. Noch während der Schulzeit beginnt sie mit einer Gesangsausbildung und studiert nach dem Abitur Philosophie. Fünf Jahre unterrichtet sie an der FU in Berlin als wissenschaftliche Mitarbeiterin mit Schwerpunkt \"Moralphilosophie\". Während des Studiums erscheint Dorns erster Roman \"Berliner Aufklärung\", dem zahlreiche Veröffentlichungen folgen. Sie arbeitet als Moderatorin und ist dafür bekannt, ihre Positionen klar und unmissverständlich zu vertreten.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120617_140000.mp3","published":"Sun, 17 Jun 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Michi Beck","episode":36,"description":"Der gebürtige Stuttgarter spielt mit 14 in seiner 1. Band Keyboard und auch der Job als DJ bringt ihn der Musik näher. So nahe, daß er nach der 11. Klasse die Schule verlassen muß und eine Lehre zum Groß- und Außenhandelskaufmann machen wird. Doch längst hat das Schicksal neue Karten auf den Tisch gelegt: Durch die Gründung der \"Fantastischen Vier\" beginnt die atemberaubende Erfolgsgeschichte einer sehr erfolgreichen, deutschen Hiphop-Formation und er ist dabei. Zudem kennt man ihn als die eine Hälfte der \"Turntablerocker\".","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120610_160000.mp3","published":"Sun, 10 Jun 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Johnny Haeusler","episode":37,"description":"Der gebürtige Berliner interessiert sich schon früh für das damals noch revolutionäre Faszinosum \"Computer\" und für - Punk. 1984 gründet er die Band \"Plan B\", die sich 12 Jahre später, nach mehreren Alben und Erfolgen als Vorband für \"The Clash\", die Ramones oder Duran Duran, auflöst. Johnny arbeitet als Moderator bei SFB2, bei Radio 4U, später \"Fritz\". Er gründet eine Multimedia-Agentur und hebt 2002 den bis heute höchst erfolgreichen Blog \"Spreeblick\" aus der Taufe. Aktuell wird die Wiederauferstehung von \"Plan B\" gefeiert - immer in Bewegung, der Mann. Wir konnten ihn einfangen - Johnny Haeusler, zu Gast an der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120603_140000.mp3","published":"Sun, 03 Jun 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Lisa Bassenge","episode":38,"description":"Lisa wächst als Tochter einer Iranerin und eines Deutschen in Zehlendorf auf. Im \"Haus der Jugend\" stößt sie auf viele junge Musiker, die sich - genau wie sie - ausprobieren und zu Bands wie \"Seeed\" oder den \"Lemonbabies\" formieren. Nach dem Abitur absolviert sie ein Studium an der Hochschule für Musik \"Hanns Eisler\", gründet das \"Lisa-Bassenge-Trio\" und arbeitet mit den Jahren parallel an Musik-Projekten wie \"Micatone\", \"Nylon\" und \"Re:Jazz\". Mit ihrer unverwechselbaren Stimme bewegt sie sich bewusst zwischen verschiedenen Genres, ohne festgelegt werden zu wollen. Diesen Sonntag bewegt sich die junge zweifache Mutter zu uns nach Potsdam-Babelsberg und erzählt die Geschichten zum Soundtrack ihres Lebens.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120520_160000.mp3","published":"Sun, 20 May 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Sönke Wortmann","episode":39,"description":"Geboren und aufgewachsen im westfälischen Marl wollte Sönke nach dem Abi zunächst Fußball-Profi beim damaligen Zweitligisten Westfalia Herne werden, doch für die Kicker-Karriere fehlte der Ehrgeiz. So brach er 1983 die Laufbahn zugunsten eines Regiestudiums an der Münchner Hochschule für Film und Fernsehen ab, verbrachte einige Zeit am Londoner Royal College of Art und jobbte als Taxifahrer und Schauspieler. 1991 gelangt ihm der Durchbruch mit der WG-Komödie „Allein unter Frauen“, gefolgt von „Kleine Haie“, „Der bewegte Mann“ und „Das Superweib\".\n\nSönke Wortmanns Popularität stieg mit jedem Film, es hagelte Preise und klingelnde Kinokassen wie für die WM-Doku „Deutschland. Ein Sommermärchen“, \"Die Päpstin\" und \"Das Wunder von Bern\". Zuletzt inszenierte der dreifache Vater im Berliner Grips Theater das Elternabendstück „Frau Müller muss weg“. Und nun kommt sein neuer Film „Das Hochzeitsvideo“ in die Kinos.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120513_140000.mp3","published":"Sun, 13 May 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Catherine von Fürstenberg-Dussmann","episode":40,"description":"Catherine kommt im US-Bundesstaat Missouri zur Welt. Sie studiert englische Literatur und lässt sich am Drama Studio in London ausbilden, um in L.A. als Schauspielerin zu arbeiten. 1982 heiratet sie den deutschen Groß-Unternehmer Peter Dussmann, bekommt eine Tochter und führt ein zufriedenes Leben an der Seite eines erfolgreichen Mannes. Als ihr Gatte 2008 einen schweren Schlaganfall erleidet, nimmt sie seinen Platz ein und führt seitdem einen Konzern mit mehr als 1,5 Mrd Euro Jahres-Umsatz. Die ungewöhnliche Geschichte einer sicherlich ungewöhnlichen Frau - Catherine von Fürstenberg-Dussmann zu Gast an der Hörbar auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120506_140000.mp3","published":"Sun, 06 May 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Patricia Kaas","episode":41,"description":"Das Kind einer deutschen Mutter und eines französischen Vaters nimmt bereits mit acht Jahren an zahlreichen Gesangswettbewerben teil, mit 13 bekommt sie schon ihr erstes Engagement. 1987 hat Patricia Kaas mit \"Mademoiselle chante le Blues\" ihren ersten Hit. Der Blues bleibt an ihrer Seite, denn bald stirbt die geliebte Mutter, die nun nicht mehr mitverfolgen kann, wie aus ihrem jüngsten Kind ein internationaler Star wird. Mehr als 15 Millionen Tonträger wurden bis heute verkauft. Sie sang mit Größen wie Charles Aznavour oder Yves Montand und nicht nur Alain Delon war in sie verliebt. Wir sind gespannt auf ihre Geschichten und die Musik ihres Leben. Bienvenue! Patricia Kaas zu Gast an der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120429_140000.mp3","published":"Sun, 29 Apr 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Michael Ballhaus","episode":42,"description":"Es ist August in Berlin, als Michael dort 1935 das Licht der Welt erblickt, ohne Einfluß auf die Blende nehmen zu können. Als der Krieg tobt, ziehen seine Eltern nach Coburg und gründen wenig später ein Theater. Ballhaus macht eine Lehre zum Fotografen, arbeitet als Kamera-Assistent, dreht 1968 seinen ersten Kinofilm und trifft Ende der 60er schicksalsträchtig auf Rainer Werner Fassbinder, mit dem er 17 Filme dreht. Hollywood ruft an, wirklich, und Ballhaus folgt dem Ruf, dreht mit den größten Regisseuren und Schauspielern Filme wie \"Good Fellas\", \"Zeit der Unschuld\" oder \"Bram Stroker's Dracula\". Angeblich hat sich der Meister jetzt zur Ruhe gesetzt - aber glauben wir's? Wir sind gespannt Michael Ballhaus diesen Sonntag zu Gast an der Hörbar auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120422_160000.mp3","published":"Sun, 22 Apr 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Jürgen Domian","episode":43,"description":"Jürgen kommt in Gummersbach zur Welt. Dem Einzelkind wird eine christlich geprägte Erziehung zuteil, die sein Leben für viele Jahre deutlich beeinflusst. Er studiert Germanistik, Philosophie und Politikwissenschaft in Köln und moderiert ab 1993 die WDR-Radiosendung \"Die heisse Nummer\", bevor das Talkformat von Eins Live sowohl im Fernsehen, als auch im Radio unter dem Titel \"Domian\" ausgestrahlt wird. Und das wird sie bis heute, der Moderator spricht dienstags bis samstags von ein bis zwei Uhr nachts mit Anrufern. Diesen Sonntag sind wir mal dran, dann ist Jürgen Domian zu Gast an der Hörbar auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120415_160000.mp3","published":"Sun, 15 Apr 2012 16:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Dr. Karl ter Horst","episode":44,"description":"Dr. Karl Wilhelm ter Horst oder kurz Pastor Kalle, 62, evangelischer Theologe. Ter Horst wächst im niedersächsischen Bentheim auf. Neben Evangelischer Theologie, die er gleich nach dem 1. Semester wieder aufgibt, studiert er Philosophie, Soziologie, Psychologie und Pädagogik. Er sympathisiert mit den 68ern, wird Mitglied der DKP, fliegt dort raus, organisiert zahlreiche Bürgerproteste, unterrichtet an Unis und Hochschulen und wird schließlich doch wieder von der Theologie beseelt. Heute leitet der streitbare Pfarrer eine Gemeinde in Schüttdorf, ruft seit vielen Jahren amerikanische Soldaten zum Desertieren auf und taufte nicht zuletzt Nina Hagen, wodurch ihm auch eine größere Öffentlichkeit zuteil wurde. Pastor Kalle, Ostersonntag zu Gast an der Hörbar Rust auf radioeins.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120408_140000.mp3","published":"Sun, 08 Apr 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Jenny Schily","episode":45,"description":"Jenny kommt in Berlin zur Welt. Ihr Mutter Christine Hellwag studiert Theaterwissenschaften, der Vater, Otto Schily, arbeitet als Rechtsanwalt. Die Eltern trennen sich. Vater Otto wird zum Star-Anwalt der linken Szene. Nach dem Abitur studiert Jenny Slawistik und beginnt erst mit Anfang 20, einen Weg als Schauspielerin einzuschlagen. Nach Theater-Engagements in Dresden und Frankfurt am Main spielt sie neben Christoph Waltz in \"Du bist nicht allein\". Spätestens seit der Hauptrolle in \"Die Stille nach dem Schuss\" von Volker Schlöndorff im Jahr 2000 gehört sie zu den gefragtesten deutschen Schauspielern.","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20120401_140000.mp3","published":"Sun, 01 Apr 2012 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Bettina Wulff","episode":46,"description":"Sie wächst im idyllischen Großburgwedel auf. Ein großes, sportliches Mädchen, das Basketball spielt und nach dem Abitur ins 20 km entfernte Hannover zieht. Dort studiert Bettina - damals noch Körner - bis 1998 Angewandte Medienwissenschaften und Medienrecht. Im Anschluss arbeitet sie in einer Internetagentur, als PR-Referentin und bekommt ihren ersten Sohn, Leander. 2006 lernt sie in Südafrika den niedersächsischen Ministerpräsidenten Christian Wulff kennen. Die beiden verlieben sich, heiraten und bekommen 2008 ihren Sohn Linus. Im Juni 2010 wird Bettina Wulffs Ehemann zum 10. Deutschen Bundespräsidenten gewählt und die Familie zieht nach Berlin. Unsere First Lady engagiert sich als Schirmherrin verschiedenster Projekte wie in der Stiftung \"Eine Chance für Kinder\", der Deutschen Kinder- und Jugend Stiftung sowie UNICEF Deutschland und übernimmt die Schirmherrschaft des Müttergenesungswerks...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110529.mp3","published":"Sun, 29 May 2011 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Dennis Gastmann","episode":47,"description":"In Osnabrück scheint bestimmt die Sonne, als unser heutiger Gast dort zur Welt kommt. Über seine Kindheit und Jugend ist nicht viel bekannt, außer, daß \"Oma die Beste\" ist und die Familie nach Holland in den Urlaub fährt. Nach dem Abitur studiert Dennis in Hamburg Politik und Journalistik, schreibt für Zeitungen, volontiert 2003 beim NDR und wird dort Autor der Satire-Sendung \"Extra 3\". Seit 2009 reist er für das Magazin \"Weltbilder\" als Reporter quer durch alle Kontinente und stellt vor Ort Fragen wie \"Woran starb das Tote Meer\" oder \"Wie libre ist Cuba wirklich?\" Dafür hagelt es Lob und Auszeichnungen. Für uns machte er sich aus dem verhältnismäßig nahen Hamburg auf die Reise... ","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110522.mp3","published":"Sun, 22 May 2011 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Thomas Hampson","episode":48,"description":"Thomas wächst in Spokane, im Bundesstaat Washington, auf. Das Musizieren gehört in seiner Familie zum Alltag. Dennoch wählt er eine ganze Reihe anderer Studienfächer, bevor ihm klar wird: er muss die Musik einfach zum Beruf machen. Thomas Hampson lässt sich bei einigen höchst profilierten Lehrern zum Sänger ausbilden, feiert 1981 in Düsseldorf sein Europa-Debüt und wird seitdem als einer der besten Baritone weltweit gefeiert. Zudem ist er Ehrenmitglied der Royal Academy of Music. Neben der Musik gilt seine große Liebe übrigens der deutschen Sprache...","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110515.mp3","published":"Sun, 15 May 2011 14:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":44100,"title":"Dirk Stermann","episode":49,"description":"Dirk Stermann wird in Duisburg geboren, ein Vorgang, den der eigene Vater mit \"der erste Schritt zum Tod\" kommentiert. Der Hang zum morbid-melancholischen setzt sich durch, denn nach Abitur und Zivildienst zieht es ihn 1987 nach Wien, wo er vorübergehend Theaterwissenschaften studiert. Bald jobbt Dirk Stermann beim Jugendradio des ORF und lernt dort Christoph Grissemann kennen, mit dem er u.a. die wöchentliche Sendung \"Salon Helga\" moderiert. Seit 1997 wird das Duo mit der \"Show Royale\" auch bei radioeins gefeiert und gefürchtet. Letztes Jahr nun legte er seinen ersten Roman mit dem Titel \"6 Österreicher unter den ersten 5\" vor. ","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/mp3/hoerbar_rust/hr20110508.mp3","published":"Sun, 08 May 2011 16:00:00 +0200","bitRate":128,"contentLength":0}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.radioeins.de/archiv/podcast/hoerbar_rust.feed.podcast.xml","displaySubDomaine":"hoerbarrust","recentTitles":["Thimon von Berlepsch","Stefan Kretzschmar","Michael Tsokos","Henry Hübchen","Johann von Bülow","Kirsten Bruhn","Rebecca Immanuel","Konstantin Gropper","Hajo Schumacher","Klaus Maria Brandauer","Ursula Karven","Volker Wieprecht","Christian Tramitz und Annette Frier","The BossHoss","Tom Schilling","Kai Havaii","Florian David Fitz","Fritz J. Raddatz","Claus Kleber","Dr. med. Michael de Ridder","Johanna Adorjan","Michael Gwisdek","Ronald Zehrfeld","Peer Steinbrück","Jürgen Vogel","Zum Tod von Dirk Bach (Wiederholung vom 05.10.03)","Enie van de Meiklokjes","Daniel Brühl","Claudia Michelsen","Anna Fischer","Bjarne Mädel","Zeitreise durch 10 Jahre \"Hörbar Rust\"","Maike Rosa Vogel","Hörbar Rust mit Maike Rosa Vogel (Zusammenschnitt ohne Musik)","Marusha Aphrodite Gleiß","Thea Dorn","Michi Beck","Johnny Haeusler","Lisa Bassenge","Sönke Wortmann","Catherine von Fürstenberg-Dussmann","Patricia Kaas","Michael Ballhaus","Jürgen Domian","Dr. Karl ter Horst","Jenny Schily","Bettina Wulff","Dennis Gastmann","Thomas Hampson","Dirk Stermann"],"idType":7,"descriptionPodcast":"Jeden Sonntag von 14.00 bis 16.00 Uhr lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein. Dieser stellt sich in der Sendung vor und die Musik, die in seinem Leben von Bedeutung war und erzählt dazu die passenden Geschichten zum Soundtrack seines Lebens - alte Mixtapes werden rausgekramt - die erste Platte - intime Töne oder peinliche Songs mit persönlichen Erinnerungen des jeweiligen Gastes. Zwei Stunden voller Musik und toller Geschichten - Promis privat in der Hörbar Rust - immer sonntags von 14.00 - 16.00 Uhr. Die Highlights der jeweiligen Sendung können Sie hier downloaden.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.radioeins.de/archiv/podcast/hoerbar_rust.html","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/9371_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/9371_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":9371,"picture1TransUrl":"http://static.radio.de/images/broadcasts/9371_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/9371_5_1.png","author":"","title":"Hörbar Rust","picture4Url":"http://static.radio.de/images/broadcasts/9371_4.jpeg","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Musik","_country":"Deutschland","_genre":"Podcast","_city":"Potsdam","_family":"radioeins","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"radioeins - Hörbar Rust","picture3Url":"","streamUrl":"http://www.radio.de/playlists/hoerbarrust.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/9371_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/9371_5.jpeg","subdomain":"hoerbarrust","streamUrls":[{"sampleRate":44100,"id":2461939,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","streamFormat":"ICECAST","streamUrl":"http://download.radioeins.de/podcast/hoerbar_rust/hr_20130331_160000.mp3","idBroadcast":9371,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f06b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"hoerbarrust", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"9371", play:"hoerbarrust"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("hoerbarrust"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("39"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Musik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("25"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("18"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/hoerbarrust/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „radioeins - Hörbar Rust“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/9371_4.jpeg" alt="radioeins - Hörbar Rust" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("hoerbarrust"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("39"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Musik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("25"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("18"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">radioeins - Hörbar Rust</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Potsdam,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.radioeins.de/archiv/podcast/hoerbar_rust.html'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „radioeins - Hörbar Rust“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Jeden Sonntag lädt Bettina Rust einen prominenten Gast in die Hörbar Rust ein, der Geschichten zum Soundtrack seines Lebens erzählt. Alte Mixtapes, erste Platten und intime Tönen werden da gespielt und schöne Anekdoten aufgetischt.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„radioeins - Hörbar Rust“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'9371', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">0</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">0</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'9371', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star0-0"
+stars="0-0"
+title="„radioeins - Hörbar Rust“ bewerten?"
+content="0.0">
+</a>
+<span class="big-rate-text">radioeins - Hörbar Rust&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „radioeins - Hörbar Rust“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„radioeins - Hörbar Rust“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „radioeins - Hörbar Rust“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17703005">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>THIMON VON BERLEPSCH</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17703005', 'broadcast':'9371'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Die ersten 22 Jahre seines Lebens verbringt Thimon mit seinen 3 Brüdern auf dem elterlichen Schloss Berlepsch im hessischen Witzenhausen. Thimon lernt Goldschmied, geht für ein halbes Jahr auf die Philippinen, macht Zivildienst und widmet sich seinem Kindheitstraum: der Zauberei - mit wachsendem Erfolg. Seit einigen Jahren gehört der schlaue Smart-Guy nun schon zur Zauberer-Elite Deutschlands. Ohne Karnickel im Zylinder, aber mit viel "aaah" und "ohh".</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17701195">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>STEFAN KRETZSCHMAR</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17701195', 'broadcast':'9371'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Vater Peter trainiert die DDR-Nationalmannschaft im Handball, Mutter Waltraud holt dreimal den Weltmeistertitel. Klar, dass auch ihr Sohn bald zum Ball greift. 
+
+Ab 1993 spielt er in der Bundesliga für den VfL Gummersbach, wird 2001 mit Magdeburg Deutscher Meister, holt 2004 mit der Nationalmannschaft bei den Olympischen Spielen Silber. Kretsche absolviert 218 Länderspiele und erzielt 1694 Bundesliga-Tore. 
+
+Eine feine Bilanz, aber da gibt's noch viel mehr - für MTV moderierte er zwei Jahre die Sendung MTV Sushi, spielte in einigen Filmen mit und Radio hat er auch schon mal gemacht. Wir sind gespannt auf die Musik und Geschichten seines Lebens...</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699785">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>MICHAEL TSOKOS</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699785', 'broadcast':'9371'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Der gebürtige Kieler kommt als Sohn einer Ärztin und eines Schiffsoffiziers zur Welt. Um bei der Bundeswehr zwei freie Tage zu ergattern, lässt er sich zur Teilnahme des sogenannten Medizinertests überreden, schneidet hervorragend ab und beschließt, Arzt zu werden. Die Rechtsmedizin greift mit ihren kalten, rätselhaften Klauen nach dem jungen Mann, der seine Berufung findet, Karriere macht und u.a. seit 2007 das Institut für Rechtsmedizin an der Charité leitet. Zudem schreibt er Bücher über seine Arbeit und von diesen Geschichten profitieren wir bestimmt auch diesen Sonntag - dann ist Michael Tsokos zu Gast in der Hörbar auf radioeins.</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699271">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>HENRY HÜBCHEN</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699271', 'broadcast':'9371'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Geb. 1947 in West-Berlin erhält der gebürtige Charlottenburger mit 10 bereits erste Rollen vor der Kamera, er ist 14, als die Mauer kommt. Hübchen studiert nach dem Abitur kurz Physik, bevor ihn das Schicksal unauffällig zum Schauspiel-Studium führt. Er spielt Theater in Magdeburg, reüssiert in "Jakob der Lügner", dem einzigen DDR-Film, der jemals für einen Oscar nominiert wurde, geht an die Volksbühne (zuerst zu Besson, später zu Castorf) und gehört nach der Wende zu den Schauspielern, deren Erfolg eher zu-, als abnimmt. Spätestens seit seiner Rolle in "Alles auf Zucker", "Sonnenallee" oder "Whisky mit Wodka" heißt es: Alle lieben Henry. Und wir freuen uns. Henry Hübchen, jetzt zu Gast an der Hörbar Rust auf radioeins.</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17697530">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>JOHANN VON BÜLOW</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17697530', 'broadcast':'9371'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Der Schauspieler entstammt dem mecklenburgischen Uradelsgeschlecht derer von Bülow, so steht es geschrieben, kam jedoch in München zur Welt. Johann studiert an der Otto-Falckenberg-Schule Schauspiel und debütiert 1995 neben Franka Potente in "Nach Fünf im Urwald", bevor er sich recht konstant dem Theater verschreibt. Seit sechs/sieben Jahren regiert der wandelbare Schauspieler aber den Bildschirm, taucht in unterschiedlichsten Produktionen auf, wird gefeiert und man fragt sich: Wo war dieser Mann in all den Jahren davor?</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „radioeins - Hörbar Rust“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffirmenportraet.radio.de'}" bcastid="11316" title="„Deutschlandfunk - Firmenporträt“ hören" id="currentlyPlayedStation_11316">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11316_1.jpeg" alt="„Deutschlandfunk - Firmenporträt“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenonlinetalk.radio.de'}" bcastid="11347" title="„DRadio Wissen - Online Talk“ hören" id="currentlyPlayedStation_11347">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11347_1.jpeg" alt="„DRadio Wissen - Online Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturmediengespraech.radio.de'}" bcastid="11403" title="„Deutschlandradio Kultur - Mediengespräch“ hören" id="currentlyPlayedStation_11403">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11403_1.jpeg" alt="„Deutschlandradio Kultur - Mediengespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenredaktion.radio.de'}" bcastid="11344" title="„DRadio Wissen - Redaktionskonferenz“ hören" id="currentlyPlayedStation_11344">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11344_1.jpeg" alt="„DRadio Wissen - Redaktionskonferenz“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://scalakinotipp.radio.de'}" bcastid="3773" title="„WDR 5 - Scala Kinotipp“ hören" id="currentlyPlayedStation_3773">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3773_1.gif" alt="„WDR 5 - Scala Kinotipp“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfinterviewdwoche.radio.de'}" bcastid="11320" title="„Deutschlandfunk - Interview der Woche“ hören" id="currentlyPlayedStation_11320">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11320_1.jpeg" alt="„Deutschlandfunk - Interview der Woche“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioberlininterview.radio.de'}" bcastid="8673" title="„radioBERLIN 88,8 Das Interview der Woche“ hören" id="currentlyPlayedStation_8673">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8673_1.jpeg" alt="„radioBERLIN 88,8 Das Interview der Woche“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2bahnreisen.radio.de'}" bcastid="9286" title="„NDR 2 - Bahn-Reisen“ hören" id="currentlyPlayedStation_9286">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9286_1.jpeg" alt="„NDR 2 - Bahn-Reisen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://kleineanfrage.radio.de'}" bcastid="3812" title="„WDR 5 - Kleine Anfrage“ hören" id="currentlyPlayedStation_3812">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3812_1.gif" alt="„WDR 5 - Kleine Anfrage“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturfwt.radio.de'}" bcastid="11380" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" id="currentlyPlayedStation_11380">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11380_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://presseclub.radio.de'}" bcastid="3734" title="„WDR 5 - Presseclub“ hören" id="currentlyPlayedStation_3734">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3734_1.gif" alt="„WDR 5 - Presseclub“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfzurdiskussion.radio.de'}" bcastid="11393" title="„Deutschlandfunk - Zur Diskussion“ hören" id="currentlyPlayedStation_11393">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11393_1.jpeg" alt="„Deutschlandfunk - Zur Diskussion“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://quintessenztipp.radio.de'}" bcastid="3788" title="„WDR 2 - Quintessenz Tipps und Trends“ hören" id="currentlyPlayedStation_3788">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3788_1.png" alt="„WDR 2 - Quintessenz Tipps und Trends“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturthema.radio.de'}" bcastid="11374" title="„DRadio Kultur - Thema“ hören" id="currentlyPlayedStation_11374">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11374_1.jpeg" alt="„DRadio Kultur - Thema“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffirmenportraet.radio.de'}" bcastid="11316" title="„Deutschlandfunk - Firmenporträt“ hören" id="currentlyPlayedStation2_11316">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11316_1.jpeg" alt="„Deutschlandfunk - Firmenporträt“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenonlinetalk.radio.de'}" bcastid="11347" title="„DRadio Wissen - Online Talk“ hören" id="currentlyPlayedStation2_11347">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11347_1.jpeg" alt="„DRadio Wissen - Online Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturmediengespraech.radio.de'}" bcastid="11403" title="„Deutschlandradio Kultur - Mediengespräch“ hören" id="currentlyPlayedStation2_11403">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11403_1.jpeg" alt="„Deutschlandradio Kultur - Mediengespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dwissenredaktion.radio.de'}" bcastid="11344" title="„DRadio Wissen - Redaktionskonferenz“ hören" id="currentlyPlayedStation2_11344">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11344_1.jpeg" alt="„DRadio Wissen - Redaktionskonferenz“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://scalakinotipp.radio.de'}" bcastid="3773" title="„WDR 5 - Scala Kinotipp“ hören" id="currentlyPlayedStation2_3773">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3773_1.gif" alt="„WDR 5 - Scala Kinotipp“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfinterviewdwoche.radio.de'}" bcastid="11320" title="„Deutschlandfunk - Interview der Woche“ hören" id="currentlyPlayedStation2_11320">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11320_1.jpeg" alt="„Deutschlandfunk - Interview der Woche“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://radioberlininterview.radio.de'}" bcastid="8673" title="„radioBERLIN 88,8 Das Interview der Woche“ hören" id="currentlyPlayedStation2_8673">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8673_1.jpeg" alt="„radioBERLIN 88,8 Das Interview der Woche“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2bahnreisen.radio.de'}" bcastid="9286" title="„NDR 2 - Bahn-Reisen“ hören" id="currentlyPlayedStation2_9286">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9286_1.jpeg" alt="„NDR 2 - Bahn-Reisen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://kleineanfrage.radio.de'}" bcastid="3812" title="„WDR 5 - Kleine Anfrage“ hören" id="currentlyPlayedStation2_3812">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3812_1.gif" alt="„WDR 5 - Kleine Anfrage“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturfwt.radio.de'}" bcastid="11380" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" id="currentlyPlayedStation2_11380">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11380_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://presseclub.radio.de'}" bcastid="3734" title="„WDR 5 - Presseclub“ hören" id="currentlyPlayedStation2_3734">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3734_1.gif" alt="„WDR 5 - Presseclub“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfzurdiskussion.radio.de'}" bcastid="11393" title="„Deutschlandfunk - Zur Diskussion“ hören" id="currentlyPlayedStation2_11393">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11393_1.jpeg" alt="„Deutschlandfunk - Zur Diskussion“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://quintessenztipp.radio.de'}" bcastid="3788" title="„WDR 2 - Quintessenz Tipps und Trends“ hören" id="currentlyPlayedStation2_3788">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3788_1.png" alt="„WDR 2 - Quintessenz Tipps und Trends“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturthema.radio.de'}" bcastid="11374" title="„DRadio Kultur - Thema“ hören" id="currentlyPlayedStation2_11374">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11374_1.jpeg" alt="„DRadio Kultur - Thema“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_4000" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„radioeins - Die Profis - Marias Haushaltstipps“ hören" linkobject="{'url':'http://radioeinshaushalt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„radioeins - Die Profis - Marias Haushaltstipps“ hören" href="http://radioeinshaushalt.radio.de">radioeins - Die Profis - Marias Haushaltstipps</a></span>
+<span class="title_4000 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Marias Haushaltstipps Nr. 346</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11316" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Firmenporträt“ hören" linkobject="{'url':'http://dlffirmenportraet.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Firmenporträt“ hören" href="http://dlffirmenportraet.radio.de">Deutschlandfunk - Firmenporträt</a></span>
+<span class="title_11316 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Ziegel und Co. vom Niederrhein - Teil 1 der Sendereihe "Alte Baustoffe"</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11347" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Wissen - Online Talk“ hören" linkobject="{'url':'http://dwissenonlinetalk.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Wissen - Online Talk“ hören" href="http://dwissenonlinetalk.radio.de">DRadio Wissen - Online Talk</a></span>
+<span class="title_11347 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: NETZREPORTER XL - Das Netz als Lebensraum</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11403" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandradio Kultur - Mediengespräch“ hören" linkobject="{'url':'http://dkulturmediengespraech.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandradio Kultur - Mediengespräch“ hören" href="http://dkulturmediengespraech.radio.de">Deutschlandradio Kultur - Mediengespräch</a></span>
+<span class="title_11403 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Die etwas anderen News: TV-Nachrichten in Nordkorea und Russland</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11344" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Wissen - Redaktionskonferenz“ hören" linkobject="{'url':'http://dwissenredaktion.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Wissen - Redaktionskonferenz“ hören" href="http://dwissenredaktion.radio.de">DRadio Wissen - Redaktionskonferenz</a></span>
+<span class="title_11344 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kendo - Schneller als das Auge</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3773" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Scala Kinotipp“ hören" linkobject="{'url':'http://scalakinotipp.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Scala Kinotipp“ hören" href="http://scalakinotipp.radio.de">WDR 5 - Scala Kinotipp</a></span>
+<span class="title_3773 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Kinotipps: Dieser Podcast wird eingestellt!</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11320" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Interview der Woche“ hören" linkobject="{'url':'http://dlfinterviewdwoche.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Interview der Woche“ hören" href="http://dlfinterviewdwoche.radio.de">Deutschlandfunk - Interview der Woche</a></span>
+<span class="title_11320 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Weidmann will Banken abwicklen können - Bundesbankpräsident fordert Lehren aus der Zypern-Krise</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8673" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„radioBERLIN 88,8 Das Interview der Woche“ hören" linkobject="{'url':'http://radioberlininterview.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„radioBERLIN 88,8 Das Interview der Woche“ hören" href="http://radioberlininterview.radio.de">radioBERLIN 88,8 Das Interview der Woche</a></span>
+<span class="title_8673 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Udo im Interview</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9286" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 - Bahn-Reisen“ hören" linkobject="{'url':'http://ndr2bahnreisen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 - Bahn-Reisen“ hören" href="http://ndr2bahnreisen.radio.de">NDR 2 - Bahn-Reisen</a></span>
+<span class="title_9286 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Schwere volle Batterie</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3812" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Kleine Anfrage“ hören" linkobject="{'url':'http://kleineanfrage.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Kleine Anfrage“ hören" href="http://kleineanfrage.radio.de">WDR 5 - Kleine Anfrage</a></span>
+<span class="title_3812 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Die Kleine Anfrage: Wasserfall und Autobahn (21.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11380" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" linkobject="{'url':'http://dkulturfwt.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik“ hören" href="http://dkulturfwt.radio.de">DRadio Kultur - Radiofeuilleton-Wissenschaft-Technik</a></span>
+<span class="title_11380 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Gingko statt Kastanie - Neue Bäume für die Städte</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3734" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Presseclub“ hören" linkobject="{'url':'http://presseclub.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Presseclub“ hören" href="http://presseclub.radio.de">WDR 5 - Presseclub</a></span>
+<span class="title_3734 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Presseclub: Vom Kalten Krieg zum grenzenlosen Kapitalismus-wie gerecht ist die neue Weltord. (24.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11393" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Zur Diskussion“ hören" linkobject="{'url':'http://dlfzurdiskussion.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Zur Diskussion“ hören" href="http://dlfzurdiskussion.radio.de">Deutschlandfunk - Zur Diskussion</a></span>
+<span class="title_11393 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Die EU zwischen Integration und Spaltung</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3788" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 2 - Quintessenz Tipps und Trends“ hören" linkobject="{'url':'http://quintessenztipp.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 2 - Quintessenz Tipps und Trends“ hören" href="http://quintessenztipp.radio.de">WDR 2 - Quintessenz Tipps und Trends</a></span>
+<span class="title_3788 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 2 Tipps und Trends: Quintessenz 12.12.2012</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11374" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Thema“ hören" linkobject="{'url':'http://dkulturthema.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Thema“ hören" href="http://dkulturthema.radio.de">DRadio Kultur - Thema</a></span>
+<span class="title_11374 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der erstaunliche Lebensweg der Emotion-Herausgeberin Katarzyna Mol-Wolf</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<div id="broadcast-info-broadcast-family">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+<div id="broadcast-info-broadcast-family-loading" class="content-headline-loader"></div>
+<p class="h3">
+Weitere Inhalte
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="content-list">
+
+<div class="content-list-body">
+
+
+
+
+
+
+
+
+</div>
+<div class="content-list-pageitems">
+5 |
+<a class="change-list-size-15" title="15 Sender pro Seite anzeigen">15</a> |
+<a class="change-list-size-25" title="25 Sender pro Seite anzeigen">25</a> |
+<a class="change-list-size-50" title="50 Sender pro Seite anzeigen">50</a>
+</div>
+</div>
+
+
+
+</div>
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „radioeins - Hörbar Rust“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/RadioEins" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach RadioEins suchen" tag="RadioEins">RadioEins</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Musik" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Musik suchen" tag="Musik">Musik</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Podcast" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Podcast suchen" tag="Podcast">Podcast</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/BerlinBrandenburg" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach BerlinBrandenburg suchen" tag="BerlinBrandenburg">BerlinBrandenburg</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Potsdam" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Potsdam suchen" tag="Potsdam">Potsdam</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Berlin" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach Berlin suchen" tag="Berlin">Berlin</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Bettina" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach Bettina suchen" tag="Bettina">Bettina</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „radioeins - Hörbar Rust“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'9371', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „radioeins - Hörbar Rust“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://hoerbarrust.radio.de" class="js-link-external" linkobject="{'url':'http://hoerbarrust.radio.de'}" title="„radioeins - Hörbar Rust“ hören" target="_blank">
+http://hoerbarrust.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fhoerbarrust.radio.de&amp;notes=&amp;tags=&amp;title=radioeins - Hörbar Rust;'}" class="icon-delicious js-link-external" title="„radioeins - Hörbar Rust“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fhoerbarrust.radio.de&amp;bm_notice=&amp;bm_description=radioeins - Hörbar Rust&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„radioeins - Hörbar Rust“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fhoerbarrust.radio.de&amp;title=radioeins - Hörbar Rust'}" class="icon-stumble js-link-external" title="„radioeins - Hörbar Rust“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fhoerbarrust.radio.de&amp;bodytext=&amp;tags=&amp;title=radioeins - Hörbar Rust'}" class="icon-digg js-link-external" title="„radioeins - Hörbar Rust“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fhoerbarrust.radio.de&amp;title=radioeins - Hörbar Rust&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„radioeins - Hörbar Rust“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+	
+						
+							
+								Über 5000 Radioprogramme mit nur einem Klick hören. radioeins - Hörbar Rust ist einer von unzähligen Internetradio Sendern die Sie kostenlos hören können. Nutzen Sie die Vielfalt der Webradio Welt und lassen Sie sich neue hörenswerte Sender und Podcast empfehlen. radioeins - Hörbar Rust ist nur der Anfang.
+							
+							
+
+
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("hoerbarrust"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("39"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Musik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("25"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("18"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">radioeins - Hörbar Rust</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radioeinshaushalt.radio.de/" class="channel-link" title="„radioeins - Die Profis - Marias Haushaltstipps“ hören">
+<span class="broadcast-name">radioeins - Die Profis - Marias Haushaltstipps</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlffirmenportraet.radio.de/" class="channel-link" title="„Deutschlandfunk - Firmenporträt“ hören">
+<span class="broadcast-name">Deutschlandfunk - Firmenporträt</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dwissenonlinetalk.radio.de/" class="channel-link" title="„DRadio Wissen - Online Talk“ hören">
+<span class="broadcast-name">DRadio Wissen - Online Talk</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturmediengespraech.radio.de/" class="channel-link" title="„Deutschlandradio Kultur - Mediengespräch“ hören">
+<span class="broadcast-name">Deutschlandradio Kultur - Mediengespräch</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dwissenredaktion.radio.de/" class="channel-link" title="„DRadio Wissen - Redaktionskonferenz“ hören">
+<span class="broadcast-name">DRadio Wissen - Redaktionskonferenz</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://scalakinotipp.radio.de/" class="channel-link" title="„WDR 5 - Scala Kinotipp“ hören">
+<span class="broadcast-name">WDR 5 - Scala Kinotipp</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfinterviewdwoche.radio.de/" class="channel-link" title="„Deutschlandfunk - Interview der Woche“ hören">
+<span class="broadcast-name">Deutschlandfunk - Interview der Woche</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://radioberlininterview.radio.de/" class="channel-link" title="„radioBERLIN 88,8 Das Interview der Woche“ hören">
+<span class="broadcast-name">radioBERLIN 88,8 Das Interview der Woche</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2bahnreisen.radio.de/" class="channel-link" title="„NDR 2 - Bahn-Reisen“ hören">
+<span class="broadcast-name">NDR 2 - Bahn-Reisen</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://kleineanfrage.radio.de/" class="channel-link" title="„WDR 5 - Kleine Anfrage“ hören">
+<span class="broadcast-name">WDR 5 - Kleine Anfrage</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("hoerbarrust"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("39"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Musik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("25"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("18"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("hoerbarrust"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("39"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Musik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("25"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("18"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("hoerbarrust"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("39"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Musik"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("25"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("18"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("5"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704390",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+      "testResult":null,
+      "name":"Folge 132 – Teilchendetektoren",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703025",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik131.mp3",
+      "testResult":null,
+      "name":"Folge 131 – Fliegende Sternwarte SOFIA",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703026",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik130.mp3",
+      "testResult":null,
+      "name":"Folge 130 – Elektrosmog",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703027",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik129.mp3",
+      "testResult":null,
+      "name":"Folge 129 – Extrasolare Planeten",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694472",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik128.mp3",
+      "testResult":null,
+      "name":"Folge 128 – Größe des Protons",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694473",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik127.mp3",
+      "testResult":null,
+      "name":"Folge 127 – Galaxien",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687101",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik126.mp3",
+      "testResult":null,
+      "name":"Folge 126 – Klänge im Südpolarmeer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683353",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik125.mp3",
+      "testResult":null,
+      "name":"Folge 125 – Kosmologisches Prinzip",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683354",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik124.mp3",
+      "testResult":null,
+      "name":"Folge 124 – Positronenspektroskopie",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683355",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik123.mp3",
+      "testResult":null,
+      "name":"Folge 123 – Nobelpreis für Physik 2012",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683356",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik122.mp3",
+      "testResult":null,
+      "name":"Folge 122 – Gammastrahlenausbrüche",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683357",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik121.mp3",
+      "testResult":null,
+      "name":"Folge 121 – Pumpspeicherkraftwerke",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683358",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik120.mp3",
+      "testResult":null,
+      "name":"Folge 120 – Molekularelektronik",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683359",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik119.mp3",
+      "testResult":null,
+      "name":"Folge 119 – APEX und ALMA",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683360",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik118.mp3",
+      "testResult":null,
+      "name":"Folge 118 – Moderne Seismologie",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683361",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik117.mp3",
+      "testResult":null,
+      "name":"Folge 117 – Physik der menschlichen Stimme",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683362",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik116.mp3",
+      "testResult":null,
+      "name":"Folge 116 – Erdkernuntersuchung mit Synchrotronstrahlung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683363",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik115.mp3",
+      "testResult":null,
+      "name":"Folge 115 – Versteckte Photonen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683364",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik114.mp3",
+      "testResult":null,
+      "name":"Folge 114 – Frequenzkämme",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683365",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik113_01.mp3",
+      "testResult":null,
+      "name":"Folge 113 – Cochlea-Implantate",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683366",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik112.mp3",
+      "testResult":null,
+      "name":"Folge 112 – Sonnenteleskop GREGOR",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683367",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik111.mp3",
+      "testResult":null,
+      "name":"Folge 111 – Stahlforschung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683368",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik110.mp3",
+      "testResult":null,
+      "name":"Folge 110 – Retina-Implantate",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683369",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik109.mp3",
+      "testResult":null,
+      "name":"Folge 109 – Skyrmionen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683370",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik108.mp3",
+      "testResult":null,
+      "name":"Folge 108 – Schallschutz im Meer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683371",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik107.mp3",
+      "testResult":null,
+      "name":"Folge 107 – Quantencomputer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683372",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik106.mp3",
+      "testResult":null,
+      "name":"Folge 106 – Erforschung des Carinanebels",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683373",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik105.mp3",
+      "testResult":null,
+      "name":"Folge 105 – Mobile autonome Roboter",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683374",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik104.mp3",
+      "testResult":null,
+      "name":"Folge 104 – Terahertzstrahlung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683375",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik103.mp3",
+      "testResult":null,
+      "name":"Folge 103 – Experimente mit Antiwasserstoff",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683376",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik102.mp3",
+      "testResult":null,
+      "name":"Folge 102 – Ringlaser messen Erdrotation",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683377",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik101.mp3",
+      "testResult":null,
+      "name":"Folge 101 – Elektrischer Widerstand",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683378",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik100_01.mp3",
+      "testResult":null,
+      "name":"Folge 100 – Simulation von Fußgängern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683379",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik099_02.mp3",
+      "testResult":null,
+      "name":"Folge 99 – Versauerung der Ozeane",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683380",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik098.mp3",
+      "testResult":null,
+      "name":"Folge 98 – Vermessung des Universums",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683381",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik097.mp3",
+      "testResult":null,
+      "name":"Folge 97 – Neutrino-Experiment GERDA",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683382",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik096.mp3",
+      "testResult":null,
+      "name":"Folge 96 – Flugzeuge der Zukunft",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683383",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik95.mp3",
+      "testResult":null,
+      "name":"Folge 95 – Monsterwellen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683384",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik94.mp3",
+      "testResult":null,
+      "name":"Folge 94 – Kosmische Strahlung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683385",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik93.mp3",
+      "testResult":null,
+      "name":"Folge 93 – Umkehr des Erdmagnetfelds",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683386",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik92.mp3",
+      "testResult":null,
+      "name":"Folge 92 – Überlichtschnelle Neutrinos?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683387",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik091.mp3",
+      "testResult":null,
+      "name":"Folge 91 – Tag der Luft- und Raumfahrt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683388",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik90.mp3",
+      "testResult":null,
+      "name":"Folge 90 – Flüssiges Wasser auf dem Mars",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683389",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik89.mp3",
+      "testResult":null,
+      "name":"Folge 89 – Nanoroboter",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683390",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik88.mp3",
+      "testResult":null,
+      "name":"Folge 88 – Universalität des freien Falls",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683391",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik87.mp3",
+      "testResult":null,
+      "name":"Folge 87 – Asteroiden und die Mission Dawn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683392",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik86.mp3",
+      "testResult":null,
+      "name":"Folge 86 – Energy Harvesting",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683393",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik85.mp3",
+      "testResult":null,
+      "name":"Folge 85 – Desinfektion mit kaltem Plasma",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683394",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik84.mp3",
+      "testResult":null,
+      "name":"Folge 84 – Vulkanausbrüche",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683395",
+      "author":"",
+      "stream":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik83.mp3",
+      "testResult":null,
+      "name":"Folge 83 – Plasmabeschleuniger",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"Welt der Physik - Podcast",
+    "seoTitle":"Welt der Physik - heute schon geforscht? ",
+    "subDomaine":"weltderphysik",
+    "relayDisabled":false,
+    "rank":2186,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Jede Woche veröffentlichen Physiker in Fachzeitschriften und auf Kongressen abertausende von Forschungsergebnissen. Im Podcast von \"Welt der Physik\" wird alle 14 Tage eine kleine Auswahl der spannendsten Projekte präsentiert - leicht verständlich dargestellt. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/16846_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/16846_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/16846_6.png",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Im Podcast von \"Welt der Physik\" wird alle 14 Tage eine kleine Auswahl der spannendsten Projekte präsentiert.",
+    "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 132 – Teilchendetektoren",
+        "episode":0,
+        "description":"Schwerpunkt: Georg Steinbrück von der Universität Hamburg über bessere Detektoren für die Teilchenphysik || Nachrichten: Kristalline Schicht zwischen zwei Flüssigkeiten vermessen | Neues Haftprinzip für chirurgisches Pflaster | Hundert der produktivsten Galaxien genauer lokalisiert || Veranstaltungen: Greifswald | Göttingen | Duisburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "published":"Thu, 18 Apr 2013 17:17:50 +0200",
+        "bitRate":80,
+        "contentLength":10013377
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 131 – Fliegende Sternwarte SOFIA",
+        "episode":1,
+        "description":"Schwerpunkt: Helmut Wiesemeyer vom Max-Planck-Institut für Radioastronomie über das Stratosphären Observatorium für Infrarot-Astronomie, kurz SOFIA || Nachrichten: Neue Ergebnisse bei der Suche nach Antimaterie im Weltraum | Flexible Flügel machen Hummeln stärker | Quantenmagnetismus – Forscher legen Basis für ultraschnelle Festplatten || Veranstaltungen: Frankfurt | Heidelberg | Darmstadt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik131.mp3",
+        "published":"Thu, 04 Apr 2013 10:53:36 +0200",
+        "bitRate":80,
+        "contentLength":9739592
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 130 – Elektrosmog",
+        "episode":2,
+        "description":"Schwerpunkt: Alois Loidl von der Universität Augsburg über die elektromagnetische Strahlung, die unsere moderne Technik mit sich bringt || Nachrichten: Bessere 3D-Displays dank geschickter Mikrostrukturen | Röntgenbeobachtungen liefern neue Informationen über Keplers Supernova | ALMA beobachtet Sternentstehung im frühen Universum || Veranstaltungen: Husum | Hamburg | Dresden",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik130.mp3",
+        "published":"Thu, 21 Mar 2013 15:27:39 +0100",
+        "bitRate":80,
+        "contentLength":8715474
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 129 – Extrasolare Planeten",
+        "episode":3,
+        "description":"Schwerpunkt: Lisa Kaltenegger vom Max-Planck-Institut für Astronomie in Heidelberg über die Suche nach einer zweiten Erde || Nachrichten: Neues vom Higgs || Veranstaltungen: Berlin | Regensburg | Hannover",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik129.mp3",
+        "published":"Thu, 07 Mar 2013 15:15:34 +0100",
+        "bitRate":80,
+        "contentLength":9625310
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 128 – Größe des Protons",
+        "episode":4,
+        "description":"Schwerpunkt: Randolf Pohl vom Max-Planck-Institut für Quantenoptik über neue Messungen, in denen der Ladungsradius des Protons kleiner ausfällt als gewohnt || Nachrichten: Fischflossen liefern Vortrieb durch Verwirbelung | Der bislang kleinste Exoplanet | Zerstörungsfreier Röntgenblick in die Photosynthese || Veranstaltungen: Jena | Hamburg | Dresden\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik128.mp3",
+        "published":"Thu, 21 Feb 2013 14:45:49 +0100",
+        "bitRate":80,
+        "contentLength":9181266
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 127 – Galaxien",
+        "episode":5,
+        "description":"Schwerpunkt: Thorsten Naab vom Max-Planck-Institut für Astrophysik in Garching über die Entstehung und Entwicklung von Galaxien || Nachrichten: Extremer Materieverlust kurz vor der Explosion einer Supernova | Faser ändert beim Dehnen die Farbe | Farbspaltung verdoppelt Lichtempfindlichkeit bei Digitalkameras || Veranstaltungen: Heidelberg | Hannover | Bochum",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik127.mp3",
+        "published":"Thu, 07 Feb 2013 16:19:00 +0100",
+        "bitRate":80,
+        "contentLength":9308227
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 126 – Klänge im Südpolarmeer",
+        "episode":6,
+        "description":"Schwerpunkt: Lars Kindermann vom Alfred-Wegener-Institut für Polar und Meeresforschung über das Experiment PALAOA, mit dem Wissenschaftler die Geräuschkulisse im antarktischen Ozean aufzeichnen || Nachrichten: Magnetische Zöpfe heizen aktive Sonnenkorona | Weltatlas für Solar- und Windenergie | Kalte Halbleiter dank Laserstrahlung || Veranstaltungen: Bayreuth | Gießen | Hamburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik126.mp3",
+        "published":"Thu, 24 Jan 2013 14:55:45 +0100",
+        "bitRate":80,
+        "contentLength":9894361
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 125 – Kosmologisches Prinzip",
+        "episode":7,
+        "description":"Schwerpunkt: Hans Böhringer vom Max-Planck-Institut für extraterrestrische Physik in Garching über die großräumigen Strukturen im Weltall und das kosmologische Prinzip || Nachrichten: Atomares Gas mit negativer absoluter Temperatur | Leben auf Exomonden möglich || Veranstaltungen: Würzburg | Bremerhaven | Berlin",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik125.mp3",
+        "published":"Thu, 10 Jan 2013 16:13:53 +0100",
+        "bitRate":80,
+        "contentLength":10148864
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 124 – Positronenspektroskopie",
+        "episode":8,
+        "description":"Schwerpunkt: Christoph Hugenschmidt von der TU München über das Positron als nanoskopisches Sondenteilchen, mit dem man selbst einzelne fehlende Atome in einem Kristall nachweisen kann || Nachrichten: Higgs-Daten lassen nicht mehr als zwölf Materieteilchen zu | Wie Licht durch winzige Löcher dringt | Entstehung des Sonnensystems ohne Supernova? || Veranstaltungen: München | Hamburg | Mainz\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik124.mp3",
+        "published":"Thu, 20 Dec 2012 10:52:28 +0100",
+        "bitRate":80,
+        "contentLength":9698858
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 123 – Nobelpreis für Physik 2012",
+        "episode":9,
+        "description":"Spezial: Christian Ospelkaus vom Institut für Quantenoptik an der Universität Hannover und von der Physikalisch-Technischen Bundesanstalt in Braunschweig über die bahnbrechenden Experimente von David Wineland und Serge Haroche, die 2012 den Nobelpreis für Physik erhielten || Veranstaltungen: München | Hamburg | Mainz",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik123.mp3",
+        "published":"Mon, 10 Dec 2012 13:59:14 +0100",
+        "bitRate":80,
+        "contentLength":10195447
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 122 – Gammastrahlenausbrüche",
+        "episode":10,
+        "description":"Schwerpunkt: Jochen Greiner vom Max-Planck-Institut für extraterrestrische Physik in Garching über die stärksten Explosionen im Universum || Nachrichten: Solarenergie mit Rost speichern | Planet ohne Sonnensystem | Röntgenlaser schießt 36 Elektronen aus einem Atom || Veranstaltungen: Dresden | Hamburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik122.mp3",
+        "published":"Thu, 15 Nov 2012 13:16:24 +0100",
+        "bitRate":80,
+        "contentLength":10605665
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 121 – Pumpspeicherkraftwerke",
+        "episode":11,
+        "description":"Schwerpunkt: Thomas Mohringer vom Karlsruher Institut für Technologie erklärt, wie er Pumpspeicherkraftwerke mithilfe von Computermodellen und Laborexperimenten optimiert || Nachrichten: Supernova in einer Entfernung von zwölf Milliarden Lichtjahren | DNA als Klebstoff für neue Materialien | Sedimentproben zeugen von Tsunami im Genfer See || Veranstaltungen: Freiburg | Karlsruhe | Bochum",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik121.mp3",
+        "published":"Thu, 01 Nov 2012 13:44:53 +0100",
+        "bitRate":80,
+        "contentLength":8853999
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 120 – Molekularelektronik",
+        "episode":12,
+        "description":"Schwerpunkt: Joachim Reichert von der TU München über elektrische Bauelemente aus einzelnen Molekülen || Nachrichten: Exoplanet in unmittelbarer Nachbarschaft entdeckt | Kolibrizungen passen sich an die Zähigkeit des Nektars an | Pulsare als Detektoren für Gravitationswellen || Veranstaltungen: Oberpfaffenhofen | Darmstadt | Augsburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik120.mp3",
+        "published":"Thu, 18 Oct 2012 15:47:31 +0200",
+        "bitRate":80,
+        "contentLength":9198230
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 119 – APEX und ALMA",
+        "episode":13,
+        "description":"Schwerpunkt: Frank Bertoldi vom Argelander-Institut für Astronomie in Bonn über die Teleskope APEX und ALMA, die den Himmel im bisher wenig erforschten Submillimeterbereich abbilden || Nachrichten: Lithium-Akkus zum Aufwickeln | Marsrover Curiosity entdeckt altes Flussbett | Weiterer Erfolg für Alternative zur Dunklen Materie || Veranstaltungen: Bad Münstereifel | Heidelberg | Berlin",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik119.mp3",
+        "published":"Thu, 04 Oct 2012 16:59:02 +0200",
+        "bitRate":80,
+        "contentLength":10779710
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 118 – Moderne Seismologie",
+        "episode":14,
+        "description":"Schwerpunkt: Thomas Forbriger vom Geowissenschaftlichen Gemeinschaftsobservatorium in Schiltach über moderne Seismologie und die Struktur der Erde || Nachrichten: Rekordmaterial für mehr Strom aus Abwärme | Gravitationslinse macht Galaxie im jungen Kosmos sichtbar | Chemische Bindungen sichtbar gemacht || Veranstaltungen: Göttingen | Hamburg | Ulm",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik118.mp3",
+        "published":"Thu, 20 Sep 2012 16:44:30 +0200",
+        "bitRate":80,
+        "contentLength":11199432
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 117 – Physik der menschlichen Stimme",
+        "episode":15,
+        "description":"Schwerpunkt: Michael Döllinger von der Universität Erlangen über die Physik der menschlichen Stimme || Nachrichten: Teufelstreppe zur Epidemieprognose | Weiße Flecken auf der Mondoberfläche || Veranstaltung: Highlights der Physik in Göttingen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik117.mp3",
+        "published":"Fri, 07 Sep 2012 15:02:00 +0200",
+        "bitRate":80,
+        "contentLength":8177937
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 116 – Erdkernuntersuchung mit Synchrotronstrahlung",
+        "episode":16,
+        "description":"Schwerpunkt: Michael Krisch von der ESRF über Erdkernanalyse mit Synchrotronstrahlung || Nachrichten: Oberflächenbindung | Aerogel | Quantenbitauslese || Veranstaltungen: Hamburg | Bremen | Göttingen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik116.mp3",
+        "published":"Thu, 23 Aug 2012 15:52:00 +0200",
+        "bitRate":80,
+        "contentLength":9210440
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 115 – Versteckte Photonen",
+        "episode":17,
+        "description":"Schwerpunkt: Günter Wiedemann von der Universität Hamburg über die Suche nach bisher hypothetischen Elementarteilchen, den versteckten Photonen || Nachrichten: Die ersten Tage von „Curiosity“ auf dem Mars | Laserstrahl ermöglicht Quantennetzwerk mit mehreren Kanälen | Wie riesige Sterne entstehen || Veranstaltungen: Hamburg | Darmstadt | Remscheid",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik115.mp3",
+        "published":"Thu, 09 Aug 2012 15:02:24 +0200",
+        "bitRate":80,
+        "contentLength":9328743
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 114 – Frequenzkämme",
+        "episode":18,
+        "description":"Schwerpunkt: Tobias Wilken vom Max-Planck-Institut für Quantenoptik in Garching über die Funktionsweise und die vielfältigen Einsatzmöglichkeiten von Frequenzkämmen || Nachrichten: Schillerndes Perlmutt aus der Retorte | Schaumkronen: Fäden und Blasen erzeugen Sprühnebel | Neuer Transistortyp lässt sich über Spannungspulse steuern || Veranstaltungen: Oldenburg | Berlin | Bad Münstereifel",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik114.mp3",
+        "published":"Thu, 26 Jul 2012 15:16:34 +0200",
+        "bitRate":80,
+        "contentLength":10736760
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 113 – Cochlea-Implantate",
+        "episode":19,
+        "description":"Schwerpunkt: Tobias Moser von der Universitätsmedizin in Göttingen über neuartige Implantate für das Innenohr, mit denen sich bestimmte Formen des Hörverlusts beheben lassen || Nachrichten: Gravitationslinse aus dem frühen Kosmos entdeckt | Mikrolamellen reagieren auf äußere Reize | Wo die Nordlichter klingen || Veranstaltungen: Hamburg | Braunschweig | Heidelberg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik113_01.mp3",
+        "published":"Thu, 12 Jul 2012 15:07:08 +0200",
+        "bitRate":80,
+        "contentLength":11023137
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 112 – Sonnenteleskop GREGOR",
+        "episode":20,
+        "description":"Schwerpunkt: Carsten Denker vom Leibniz–Institut für Astrophysik in Potsdam über das neue Sonnenteleskop GREGOR || Nachrichten: Fensterfronten als Stromspeicher | Aerosole verändern in der Luft ihre Struktur | Erhitzen magnetische Tornados die Sonnenkorona? || Veranstaltungen: Braunschweig | Jena | Augsburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik112.mp3",
+        "published":"Thu, 28 Jun 2012 16:27:35 +0200",
+        "bitRate":80,
+        "contentLength":9966655
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 111 – Stahlforschung",
+        "episode":21,
+        "description":"Schwerpunkt: Dierk Raabe vom Max-Planck-Institut für Eisenforschung kombiniert theoretische und experimentelle Methoden, um Stahl weiter zu verbessern || Nachrichten: Physiker bauen Röntgenlaser in Tischgröße | Erdähnliche Planeten auch bei Sternen mit geringem Anteil an schweren Elementen | Vorbild Urknall-Analyse: Neue Methode erlaubt 3D-Blick auf Atome || Veranstaltungen: Greifswald | Würzburg | Tübingen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik111.mp3",
+        "published":"Thu, 14 Jun 2012 16:44:28 +0200",
+        "bitRate":80,
+        "contentLength":9662238
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 110 – Retina-Implantate",
+        "episode":22,
+        "description":"Schwerpunkt: Walter Wrobel von der Retina Implant AG in Reutlingen über lichtempfindliche Chips, die erblindeten Menschen einen Teil des Sehvermögens zurückgeben || Nachrichten: Zentrum der Milchstraße war noch in jüngerer Zeit aktiv | Laser-Frequenzkämme machen astronomische Spektrografen genauer | Wachsende Kristalle im Magma sollen Vorhersage von Vulkanausbrüchen verbessern || Veranstaltungen: Bremerhaven | Bochum | Dresden",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik110.mp3",
+        "published":"Thu, 31 May 2012 15:27:02 +0200",
+        "bitRate":80,
+        "contentLength":10652330
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 109 – Skyrmionen",
+        "episode":23,
+        "description":"Schwerpunkt: Christian Pfleiderer von der TU München über magnetische Wirbelstrukturen, sogenannte Skyrmionen, als zukünftige Datenspeicher || Nachrichten: Strom erzeugen mit Viren | Schwarze Löcher heizen dem Universum ein | Forschungsschiff SONNE misst Ausbruch eines Unterwasservulkans || Veranstaltungen: Chemnitz | München | Hamburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik109.mp3",
+        "published":"Thu, 17 May 2012 10:02:00 +0200",
+        "bitRate":80,
+        "contentLength":9076014
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 108 – Schallschutz im Meer",
+        "episode":24,
+        "description":"Schwerpunkt: Stephan Lippert von der Technischen Universität Hamburg-Harburg über Schallschutzsysteme für den Bau von Offshore-Windparks || Nachrichten: GPS der Brieftauben sitzt im Hirn | Schwarzes Loch zerreißt Roten Riesenstern | Entdeckten die alten Ägypter den ersten veränderlichen Stern? || Veranstaltungen: Augsburg | Berlin | Darmstadt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik108.mp3",
+        "published":"Thu, 03 May 2012 16:18:58 +0200",
+        "bitRate":80,
+        "contentLength":9547307
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 107 – Quantencomputer",
+        "episode":25,
+        "description":"Schwerpunkt: Rainer Blatt von der Universität Innsbruck über Quantencomputer || Nachrichten: Ursprung der kosmischen Strahlung bleibt rätselhaft | Pinguinzählung aus dem All | Kunststoff mit Formgedächtnis reagiert auf Ultraschall || Veranstaltungen: Dortmund | Rostock | Mainz",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik107.mp3",
+        "published":"Thu, 19 Apr 2012 18:59:48 +0200",
+        "bitRate":80,
+        "contentLength":11578750
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 106 – Erforschung des Carinanebels",
+        "episode":26,
+        "description":"Schwerpunkt: Thomas Preibisch von der Universitätssternwarte der LMU München über die Erforschung des Carinanebels || Nachrichten: Eine Solarzelle zum Knittern, Rollen und Dehnen | Mikroben wandeln Treibhausgas in flüssige Treibstoffe | Gezeitenkräfte zerreißen Gasriesen || Veranstaltungen: Heidelberg | München | Dresden\n",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik106.mp3",
+        "published":"Thu, 05 Apr 2012 16:25:12 +0200",
+        "bitRate":80,
+        "contentLength":9747026
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 105 – Mobile autonome Roboter",
+        "episode":27,
+        "description":"Schwerpunkt: Marc Ronthaler vom Robotics Innovation Center des Deutschen Forschungszentrums für Künstliche Intelligenz über mobile autonome Robotersysteme || Nachrichten: Venedig sinkt weiter und kippt | Dünner als ein Haar: Schärfste Zähne machten Zubeißen kraftvoll | Saturnmond Titan: Dunstglocke hebt und senkt sich um über hundert Kilometer || Veranstaltungen: Berlin | Hamburg | Bad Münstereifel",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik105.mp3",
+        "published":"Thu, 22 Mar 2012 14:46:23 +0100",
+        "bitRate":80,
+        "contentLength":9079169
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 104 – Terahertzstrahlung",
+        "episode":28,
+        "description":"Schwerpunkt: Michael Feiginov von der TU Darmstadt über die Erzeugung und den Einsatz von Terahertzstrahlung || Nachrichten: Geigensaiten aus Spinnenseide | Astronomen finden Leben – auf der Erde | Erstes Spektrum von Antimaterie rückt näher || Veranstaltungen: Bochum | Braunschweig | Stuttgart",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik104.mp3",
+        "published":"Thu, 08 Mar 2012 16:03:50 +0100",
+        "bitRate":80,
+        "contentLength":9144448
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 103 – Experimente mit Antiwasserstoff",
+        "episode":29,
+        "description":"Schwerpunkt: Yasunori Yamazaki vom japanischen Forschungszentrum RIKEN über Experimente mit Antiwasserstoff || Nachrichten: Venus dreht sich langsamer | Überlichtschnelle Neutrinos: Forscher identifizieren mögliche Fehlerquellen bei OPERA | Was Muskeln elastisch macht || Veranstaltungen: Bremerhaven | Würzburg | Göttingen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik103.mp3",
+        "published":"Thu, 23 Feb 2012 16:24:59 +0100",
+        "bitRate":80,
+        "contentLength":9859863
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 102 – Ringlaser messen Erdrotation",
+        "episode":30,
+        "description":"Schwerpunkt: Ulrich Schreiber vom Geodätischen Observatorium Wettzell über die Vermessung der Erdrotation mit Ringlasern || Nachrichten: Neu entdeckte Super-Erde ist möglicherweise bewohnbar | Wie Asien und Amerika zum Superkontinent Amasia verschmelzen | Röntgenlicht macht Eisenkerne durchsichtig || Veranstaltungen: Darmstadt | Bremen | Hamburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik102.mp3",
+        "published":"Thu, 09 Feb 2012 13:36:23 +0100",
+        "bitRate":80,
+        "contentLength":10580129
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 101 – Elektrischer Widerstand",
+        "episode":31,
+        "description":"Schwerpunkt: Thomas Elsässer, Klaus Reimann und Michael Wörner vom Max-Born-Institut über den elektrischen Widerstand || Nachrichten: Magnetische Seife soll Umwelt schützen | Kalte Ionen hüllen die Erde ein | Erster Röntgenlaser auf Atombasis || Veranstaltungen: Dresden | Hamburg | Würzburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik101.mp3",
+        "published":"Thu, 26 Jan 2012 16:05:14 +0100",
+        "bitRate":80,
+        "contentLength":9336513
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 100 – Simulation von Fußgängern",
+        "episode":32,
+        "description":"Schwerpunkt: Gregor Lämmel über das Verhalten von Fußgängern – im Modell || Nachrichten: Alle Sterne besitzen Planeten | Erstmals fotografiert: Das kosmische Netz der Dunklen Materie | Rekord: Vier Atome breite Leiterbahnen || Veranstaltungen: Münster | Augsburg | Bremen",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik100_01.mp3",
+        "published":"Thu, 12 Jan 2012 17:24:40 +0100",
+        "bitRate":80,
+        "contentLength":9497510
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 99 – Versauerung der Ozeane",
+        "episode":33,
+        "description":"Schwerpunkt: Hermann Bange vom Leibniz-Institut für Meereswissenschaften in Kiel über die Versauerung der Ozeane || Nachrichten: Fassadenfarbe als Solarkraftwerk | Lebendes Display aus leuchtenden Bakterien | Jupiters löslicher Kern || Veranstaltungen: Bochum | Konstanz | Hamburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik099_02.mp3",
+        "published":"Thu, 29 Dec 2011 15:31:19 +0100",
+        "bitRate":80,
+        "contentLength":9511040
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 98 – Vermessung des Universums",
+        "episode":34,
+        "description":"Schwerpunkt: Jochen Weller von der Universitätssternwarte der LMU München über die Vermessung des Universums || Nachrichten: Licht kontrolliert mikroskopisch kleinen Roboterarm | Sonnenstürme tragen auf dem Mond Tonnen von Materie ab | Durchsichtige Schutzschichten aus Kerzenruß || Veranstaltungen: Münster | Jena | Wuppertal",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik098.mp3",
+        "published":"Mon, 12 Dec 2011 00:00:00 +0100",
+        "bitRate":80,
+        "contentLength":9975017
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 97 – Neutrino-Experiment GERDA",
+        "episode":35,
+        "description":"Schwerpunkt: Peter Grabmayr von der Universität Tübingen über das Experiment GERDA und die Frage: Sind Neutrinos ihre eigenen Antiteilchen? || Nachrichten: Forscher finden den wahren Gefrierpunkt von Wasser | Erste komplette Beschreibung eines Schwarzen Lochs | Metall fast so leicht wie Luft || Veranstaltungen: Pforzheim | Karlsruhe | Braunschweig",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik097.mp3",
+        "published":"Mon, 28 Nov 2011 00:00:00 +0100",
+        "bitRate":80,
+        "contentLength":9095841
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 96 – Flugzeuge der Zukunft",
+        "episode":36,
+        "description":"Schwerpunkt: Volker Gollnick vom Institut für Lufttransportsysteme in Hamburg-Harburg über die Flugzeuge der Zukunft || Nachrichten: Neutronenstern stellt neue Rekorde auf | Nano-Auto mit elektrischem Allradantrieb | Wie entstand das Magnetfeld des jungen Mondes? || Veranstaltungen: Dortmund | Hamburg | Jena",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik096.mp3",
+        "published":"Mon, 14 Nov 2011 00:00:00 +0100",
+        "bitRate":80,
+        "contentLength":10332369
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 95 – Monsterwellen",
+        "episode":37,
+        "description":"Schwerpunkt: Norbert Hoffmann von der Technischen Universität Hamburg-Harburg über Monsterwellen || Nachrichten: Laptop-Displays als Solarkraftwerk | Vereiste Gase lassen Zwergplaneten Eris ungewöhnlich hell strahlen | Heiße Akkus für zehnfache Strommengen || Veranstaltungen: Chemnitz | Bremerhaven | Bochum",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik95.mp3",
+        "published":"Mon, 31 Oct 2011 00:00:00 +0100",
+        "bitRate":80,
+        "contentLength":10127819
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 94 – Kosmische Strahlung",
+        "episode":38,
+        "description":"Schwerpunkt: Johannes Blümer vom Karlsruher Institut für Technologie über energiereiche kosmische Strahlung || Nachrichten: Neues Material ist hart wie Diamant, aber amorph wie Glas | Künstliche Muskeln aus Nanoröhrchen | Warum manche Sterne länger jung bleiben || Veranstaltungen: Dortmund | Dresden | Hamburg",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik94.mp3",
+        "published":"Thu, 20 Oct 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":9533444
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 93 – Umkehr des Erdmagnetfelds",
+        "episode":39,
+        "description":"Schwerpunkt: Valerian Bachtadse von der LMU München über die Umkehr des Erdmagnetfelds || Nachrichten: Physiknobelpreis 2011 | Blutzucker messen per Laser | Ewiger Schnee auf Enceladus || Veranstaltungen: Garching | Heidelberg | Köln",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik93.mp3",
+        "published":"Mon, 10 Oct 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":9909237
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 92 – Überlichtschnelle Neutrinos?",
+        "episode":40,
+        "description":"Schwerpunkt:Caren Hagner von der Universität Hamburg über das Experiment, in dem Neutrinos vielleicht schneller als Licht reisen || Nachrichten: Neue Messlatte für kosmische Entfernungen | Fleischfressende Pflanze als Vorbild für selbstreinigende Oberflächen | Der Antimagnet - Tarnkappe für magnetische Felder || Veranstaltungen: Heidelberg, Bochum und Rostock",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik92.mp3",
+        "published":"Thu, 29 Sep 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":11503940
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 91 – Tag der Luft- und Raumfahrt",
+        "episode":41,
+        "description":"Reportage vom Tag der Luft- und Raumfahrt: Airbus A380, ISS, Rosetta, Erderkundung\nVeranstaltungshinweis: Highlights der Physik, 27.9.-2.10. in Rostock",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik091.mp3",
+        "published":"Tue, 20 Sep 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":6259155
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 90 – Flüssiges Wasser auf dem Mars",
+        "episode":42,
+        "description":"Schwerpunkt: Nicolas Thomas von der Universität Bern über flüssiges Wasser und Leben auf dem Mars || Nachrichten: Laserstrahlen als Regenmacher | Nanobeschichtung schützt Textilien vor dem Entflammen | Sternvorläufer in Sonnennähe || Veranstaltungen: Frankfurt | München | Stuttgart",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik90.mp3",
+        "published":"Fri, 09 Sep 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":10334436
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 89 – Nanoroboter",
+        "episode":43,
+        "description":"Schwerpunkt: Michael Weigel-Jech von der Universität Oldenburg über zukünftige Nanoroboter || Nachrichten: Sternexplosion bereits wenige Stunden nach Ausbruch beobachtet | Meteoriten stammen von steinigen Asteroiden | Mikroben können sich mit dem Wind interkontinental ausbreiten || Veranstaltungen: Geesthacht | Bad Münstereifel | Katlenburg-Lindau",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik89.mp3",
+        "published":"Mon, 29 Aug 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":10237765
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 88 – Universalität des freien Falls",
+        "episode":44,
+        "description":"Schwerpunkt: Achim Peters von der Humboldt Universität zu Berlin über die Universalität des freien Falls || Nachrichten: Leben auf der Erde auch ohne Mond möglich | Elektronisches Tattoo überwacht Körperfunktionen | Neuer Klimaatlas des Deutschen Wetterdienstes || Veranstaltungen: Hamburg | Darmstadt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik88.mp3",
+        "published":"Thu, 18 Aug 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":9963294
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 87 – Asteroiden und die Mission Dawn",
+        "episode":45,
+        "description":"Schwerpunkt: Ulrich Christensen vom Max-Planck-Institut für Sonnensystemforschung über Asteroiden und die Mission Dawn || Nachrichten: Tropenpflanze mit Schallreflektor | Kreisten einst zwei Monde um die Erde? | Symmetrie zwischen Materie und Antimaterie erneut bestätigt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik87.mp3",
+        "published":"Fri, 05 Aug 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":7710158
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 86 – Energy Harvesting",
+        "episode":46,
+        "description":"Schwerpunkt: Norbert Schwesinger von der Technischen Universität München über Energy Harvesting || Nachrichten: Radioaktivität liefert Hälfte der Erdwärme | Forscher drucken Solarzellen auf Papier | Vierten Mond um Pluto entdeckt || Veranstaltungen: Bad Münstereifel | Berlin",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik86.mp3",
+        "published":"Thu, 21 Jul 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":8932339
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 85 – Desinfektion mit kaltem Plasma",
+        "episode":47,
+        "description":"Schwerpunkt: Gregor Morfill vom Max-Planck-Institut für extraterrestrische Physik über Desinfektion und Wundheilung mit kaltem Plasma || Nachrichten: Am Flughafen regnet es häufiger | Eine Million Beobachtungen mit Hubble-Teleskop | Gefiedermuster der ältesten Vögel enthüllt || Veranstaltungen: Göttingen | Bayreuth | Stuttgart",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik85.mp3",
+        "published":"Thu, 07 Jul 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":10425011
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 84 – Vulkanausbrüche",
+        "episode":48,
+        "description":"Schwerpunkt: Bärbel Langmann von der Universität Hamburg über Vulkanausbrüche || Nachrichten: Warum Haare zu Berge stehen | Neutrinooszillation nachgewiesen | Quelle von Fontänen auf Saturnmond Enceladus eingegrenzt || Veranstaltungen: Heidelberg | Augsburg | München",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik84.mp3",
+        "published":"Mon, 27 Jun 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":8076469
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Folge 83 – Plasmabeschleuniger",
+        "episode":49,
+        "description":"Schwerpunkt: Jens Osterhoff von der Uni Hamburg über Plasmabeschleuniger || Nachrichten: Neue Art explodierender Sterne entdeckt | Auch Bio-Kunststoffe belasten Umwelt | Pinguine - Wärme durch dynamische Gruppenbewegung || Veranstaltungen: Trebur | Karlsruhe | Hannover",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik83.mp3",
+        "published":"Thu, 16 Jun 2011 00:00:00 +0200",
+        "bitRate":80,
+        "contentLength":10421973
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":80,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+    "displaySubDomaine":"weltderphysik",
+    "recentTitles":
+    [
+      "Folge 132 – Teilchendetektoren",
+      "Folge 131 – Fliegende Sternwarte SOFIA",
+      "Folge 130 – Elektrosmog",
+      "Folge 129 – Extrasolare Planeten",
+      "Folge 128 – Größe des Protons",
+      "Folge 127 – Galaxien",
+      "Folge 126 – Klänge im Südpolarmeer",
+      "Folge 125 – Kosmologisches Prinzip",
+      "Folge 124 – Positronenspektroskopie",
+      "Folge 123 – Nobelpreis für Physik 2012",
+      "Folge 122 – Gammastrahlenausbrüche",
+      "Folge 121 – Pumpspeicherkraftwerke",
+      "Folge 120 – Molekularelektronik",
+      "Folge 119 – APEX und ALMA",
+      "Folge 118 – Moderne Seismologie",
+      "Folge 117 – Physik der menschlichen Stimme",
+      "Folge 116 – Erdkernuntersuchung mit Synchrotronstrahlung",
+      "Folge 115 – Versteckte Photonen",
+      "Folge 114 – Frequenzkämme",
+      "Folge 113 – Cochlea-Implantate",
+      "Folge 112 – Sonnenteleskop GREGOR",
+      "Folge 111 – Stahlforschung",
+      "Folge 110 – Retina-Implantate",
+      "Folge 109 – Skyrmionen",
+      "Folge 108 – Schallschutz im Meer",
+      "Folge 107 – Quantencomputer",
+      "Folge 106 – Erforschung des Carinanebels",
+      "Folge 105 – Mobile autonome Roboter",
+      "Folge 104 – Terahertzstrahlung",
+      "Folge 103 – Experimente mit Antiwasserstoff",
+      "Folge 102 – Ringlaser messen Erdrotation",
+      "Folge 101 – Elektrischer Widerstand",
+      "Folge 100 – Simulation von Fußgängern",
+      "Folge 99 – Versauerung der Ozeane",
+      "Folge 98 – Vermessung des Universums",
+      "Folge 97 – Neutrino-Experiment GERDA",
+      "Folge 96 – Flugzeuge der Zukunft",
+      "Folge 95 – Monsterwellen",
+      "Folge 94 – Kosmische Strahlung",
+      "Folge 93 – Umkehr des Erdmagnetfelds",
+      "Folge 92 – Überlichtschnelle Neutrinos?",
+      "Folge 91 – Tag der Luft- und Raumfahrt",
+      "Folge 90 – Flüssiges Wasser auf dem Mars",
+      "Folge 89 – Nanoroboter",
+      "Folge 88 – Universalität des freien Falls",
+      "Folge 87 – Asteroiden und die Mission Dawn",
+      "Folge 86 – Energy Harvesting",
+      "Folge 85 – Desinfektion mit kaltem Plasma",
+      "Folge 84 – Vulkanausbrüche",
+      "Folge 83 – Plasmabeschleuniger"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Jede Woche veröffentlichen Physiker tausende neuer Ergebnisse in Fachzeitschriften und auf Kongressen. Welt der Physik präsentiert jede Woche eine kleine Auswahl der spannendsten Themen aus den Laboren rund um den Globus. Leicht verständlich formuliert können Sie in die Welt der Physik eintauchen. Und falls Sie mehr wissen wollen, dann besuchen Sie doch eine von uns vorgestellte Physik-Veranstaltung oder besuchen Sie unsere Website, www.weltderphysik.de",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.weltderphysik.de/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/16846_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/16846_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":16846,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/16846_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/16846_5_1.png",
+    "author":"",
+    "title":"Welt der Physik - heute schon geforscht?",
+    "picture4Url":"http://static.radio.de/images/broadcasts/16846_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Bildung, Wissen",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Welt der Physik - heute schon geforscht? ",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/weltderphysik.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/16846_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/16846_5.png",
+    "subdomain":"weltderphysik",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463829,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://www.weltderphysik.de/fileadmin/podcasts/WeltDerPhysik132.mp3",
+        "idBroadcast":16846,
+        "bitRate":80
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

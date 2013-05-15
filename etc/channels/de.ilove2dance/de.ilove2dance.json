@@ -1,0 +1,246 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://87.230.53.70/iloveradio2.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"I LOVE 2 DANCE - ",
+    "subDomaine":"ilove2dance",
+    "relayDisabled":false,
+    "rank":55,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"I LOVE 2 DANCE, der neue Dance-Sender von I LOVE RADIO aus Köln. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/11583_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/11583_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/11583_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"I LOVE 2 DANCE, der neue Dance-Sender von I LOVE RADIO aus Köln. ",
+    "metaDataUrl":"http://87.230.53.70/iloveradio2.mp3",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://87.230.53.70/iloveradio2.mp3",
+    "displaySubDomaine":"ilove2dance",
+    "recentTitles":
+    [
+      "IDA CORR MEETS FEDDE LE GRAND - LET ME THINK ABOUT IT",
+      "RIHANNA - DIAMONDS (THE BIMBO JONES VOCAL REMIX)",
+      "SWEDISH HOUSE MAFIA - DON\'T YOU WORRY CHILD",
+      "NICKI MINAJ - POUND THE ALARM",
+      "TJR - ODE TO OI",
+      "AVICII VS. NICKY ROMERO - I COULD BE THE ONE",
+      "MIKE CANDYS - ONE NIGHT IN IBIZA",
+      "CHRIS BROWN - DON\'T WAKE ME UP",
+      "NE-YO - FOREVER NOW",
+      "ARASH - SHE MAKES ME GO (FEAT. SEAN PAUL)",
+      "AVICII - SILHOUETTES",
+      "PROFESSOR GREEN FEAT. EMELI SANDE - READ ALL ABOUT IT (CAHILL REMIX)",
+      "CALVIN HARRIS - I NEED YOUR LOVE (FEAT. ELLIE GOULDING)",
+      "THE WANTED - CHASING THE SUN",
+      "SAK NOEL - LOCA PEOPLE (WHAT THE F**K!)",
+      "USHER - SCREAM",
+      "DJANE HOUSEKAT - ALL THE TIME",
+      "DAVID GUETTA - PLAY HARD (NEW EDIT)",
+      "JACK BACK - WILD ONE TWO (JAYWALKER REMIX)",
+      "LUMIDEE & FATMAN SCOOP - DANCE! (VOODOO & SERANO REMIX)",
+      "DJ ANTOINE - BELLA VITA",
+      "IVAN GOUGH - IN MY MIND (AXWELL MIX)",
+      "CARLY RAE JEPSEN - CALL ME MAYBE (MANHATTAN CLIQUE REMIX)",
+      "BINGO PLAYERS - GET UP (RATTLE) (FEAT. FAR EAST MOVEMENT)",
+      "AFROJACK - AS YOUR FRIEND (FEAT. CHRIS BROWN)",
+      "CALVIN HARRIS - LET\'S GO (FEAT. NE-YO)",
+      "SWEDISH HOUSE MAFIA - DON\'T YOU WORRY CHILD (PROMISE LAND REMIX)",
+      "WILL.I.AM - SCREAM & SHOUT (FEAT. BRITNEY SPEARS)",
+      "TAIO CRUZ - HANGOVER (HARDWELL REMIX)",
+      "RIHANNA - WE FOUND LOVE",
+      "OTTO KNOWS - MILLION VOICES",
+      "DAFT PUNK - GET LUCKY (PINK FLUID BOOTLEG)",
+      "DJ ANTOINE - MA CHERIE",
+      "KE$HA - DIE YOUNG",
+      "ICONA POP - I LOVE IT",
+      "NE-YO - LET ME LOVE YOU (UNTIL YOU LEARN TO LOVE YOURSELF)",
+      "FLO RIDA - WILD ONES (GUY SCHEIMAN VOCAL MIX)",
+      "JACK HOLIDAY & MIKE CANDYS - THE RIDDLE ANTHEM",
+      "THE SATURDAYS - WHAT ABOUT US (FEAT. SEAN PAUL)",
+      "DAVID GUETTA - SHE WOLF (MICHAEL CALFAN REMIX)",
+      "CHRIS BROWN - DON\'T JUDGE ME (DAVE AUDE MIX)",
+      "WILL.I.AM - #THATPOWER (FEAT. JUSTIN BIEBER)",
+      "DUCK SAUCE - BARBRA STREISAND",
+      "JASON DERULO - BREATHING (MICHAEL MIND PROJECT REMIX)",
+      "DADA LIFE - KICK OUT THE EPIC MOTHERF**KER",
+      "OLLY MURS - TROUBLEMAKER (FEAT. FLO RIDA) (CUTMORE CLUB MIX)",
+      "SANDRO SILVA & QUINTINO - EPIC",
+      "LOREEN - EUPHORIA (ALEX MORENO REMIX)",
+      "CALVIN HARRIS - SWEET NOTHING (FEAT. FLORENCE WELCH)",
+      "WILL.I.AM - THIS IS LOVE (JAMES EGBERT REMIX)",
+      "ALESSO VS. ONEREPUBLIC - IF I LOSE MYSELF",
+      "NICKI MINAJ - STARSHIPS",
+      "LANA DEL REY - SUMMERTIME SADNESS (CEDRIC GERVAIS REMIX)",
+      "DAVID GUETTA  - WHO\'S THAT CHICK (FEAT. RIHANNA)",
+      "TAIO CRUZ - HANGOVER (LAIDBACK LUKE REMIX)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.iloveradio.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/11583_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/11583_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":11583,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/11583_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/11583_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/11583_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Club, Dance",
+      "_city":"Köln",
+      "_family":"I LOVE RADIO",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"I LOVE 2 DANCE",
+    "picture3Url":"",
+    "streamUrl":"http://87.230.53.70/iloveradio2.mp3",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/11583_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/11583_5.jpeg",
+    "subdomain":"ilove2dance",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":9787,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.230.53.70/iloveradio2.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://87.230.53.70/iloveradio2.mp3",
+        "idBroadcast":11583,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

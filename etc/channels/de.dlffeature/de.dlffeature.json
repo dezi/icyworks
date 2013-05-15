@@ -1,0 +1,1046 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703389",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+      "testResult":null,
+      "name":"Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703390",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_2005_fdc765a8.mp3",
+      "testResult":null,
+      "name":"Netz-Gespinste - Eine kleine Kulturgeschichte der Spinne",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703391",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1915_87dfe6bb.mp3",
+      "testResult":null,
+      "name":"Russische Kulturkämpfe, Ein Moskauer Gerichtsdrama",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701746",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_2005_915bb66a.mp3",
+      "testResult":null,
+      "name":"Music Matters - 20.05 Uhr: Ein Allegro Vivo mit Sophie Hunger und Peter Herbert",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701748",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/26/dlf_20130326_1915_3c34c507.mp3",
+      "testResult":null,
+      "name":"\"Wer spekuliert, trägt das Risiko\" - Der etwas andere Rettungsschirm der Isländer",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700078",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/22/dlf_20130322_2010_01a7e8b1.mp3",
+      "testResult":null,
+      "name":"Vom Duft der Flüsse - Elbe und Yamuna als Kunstwerke der Natur",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700079",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/19/dlf_20130319_1915_f61d9051.mp3",
+      "testResult":null,
+      "name":"Die Handelsinvasoren kommen - Eine Geschichte aus Indien von Gewinnern und Verlierern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698327",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/15/dlf_20130315_2010_db2782e0.mp3",
+      "testResult":null,
+      "name":"\"KZ-Dachau, eine Welt ohne Gott\" - Besuch im Kloster Münsterschwarzach",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698328",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/15/dlf_20130315_1915_4bb7e74b.mp3",
+      "testResult":null,
+      "name":"Die Lücke an der Wand - Der Mythos von der unpolitischen Künstlerkolonie Worpswede",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698329",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/12/dlf_20130312_1915_6ad2971d.mp3",
+      "testResult":null,
+      "name":"\"Halts Maul, du lügst\" - Verdingkinder in der Schweiz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696615",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/08/dlf_20130308_2010_27adec2d.mp3",
+      "testResult":null,
+      "name":"Roismans Rezept - Antidrogenkampf im Ural",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696616",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/05/dlf_20130305_1915_6ad651c1.mp3",
+      "testResult":null,
+      "name":"Der Fall Lynne Stewart - Eine amerikanische Geschichte",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696617",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_2005_3aa3fee6.mp3",
+      "testResult":null,
+      "name":"Der Bohème-Faktor - Oder: das Recht auf Stadt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694774",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/01/dlf_20130301_2010_1150171c.mp3",
+      "testResult":null,
+      "name":"Drei Körper - Schmerzen, Agressionen, Traumata: Wenn der Körper zum Feind wird",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694775",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/01/dlf_20130301_1915_5e892fb2.mp3",
+      "testResult":null,
+      "name":"Zweierlei Maß? - Die Berichterstattung über Russland und die USA",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694776",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/26/dlf_20130226_1915_fac5782e.mp3",
+      "testResult":null,
+      "name":"Der Held aus Quirnbach - Die späte Ehrung des Lothar Hermann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693111",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/22/dlf_20130222_2010_74b6dfd1.mp3",
+      "testResult":null,
+      "name":"Deutsch geht fremd - Ein Liebesdrama in drei Akten",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693113",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/19/dlf_20130219_1914_987ce9ec.mp3",
+      "testResult":null,
+      "name":"Ich bin mit meiner Angst allein - Der Brecht-Schüler Martin Pohl in den Zeiten des Kalten Krieges",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694778",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/15/dlf_20130215_2010_83c3d2a6.mp3",
+      "testResult":null,
+      "name":"Ghosts - Abschied vom Geistesleben",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691091",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/15/dlf_20130215_1915_1e521b0a.mp3",
+      "testResult":null,
+      "name":"Krank oder bloß ganz anders? - Schizophrenie. Eine Vergangenheitsbefragung",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691092",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/12/dlf_20130212_1915_042ee763.mp3",
+      "testResult":null,
+      "name":"Rohstoff-Roulette",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691093",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_2006_b43fd47b.mp3",
+      "testResult":null,
+      "name":"Mit den Ohren sehen - Die Soundwelt des Kinos",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689280",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/08/dlf_20130208_2010_cb319ec1.mp3",
+      "testResult":null,
+      "name":"Lin und Eberhard- Die Geschichte einer großen Liebe",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689281",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/05/dlf_20130205_1915_377c1ced.mp3",
+      "testResult":null,
+      "name":"Kindermord und Ordnungswahn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689282",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_2005_fa99af15.mp3",
+      "testResult":null,
+      "name":"Drei Farben Russland - Eine Gesellschaft bricht auf",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687393",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/01/dlf_20130201_2010_473a72bf.mp3",
+      "testResult":null,
+      "name":"Theater und Revolution - Judith Malina",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687394",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/01/dlf_20130201_1915_475e4796.mp3",
+      "testResult":null,
+      "name":"Der Hacker Wau Holland oder Der Kampf ums Netz",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687395",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/29/dlf_20130129_1915_ce27cc50.mp3",
+      "testResult":null,
+      "name":"Der Brokdorf-Komplex - Kampfhandlungen in der Wilstermarsch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687396",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_2006_e7068508.mp3",
+      "testResult":null,
+      "name":"Latex - Weißes Gold und schwarzes Gummi",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685560",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/25/dlf_20130125_2010_f0679eb2.mp3",
+      "testResult":null,
+      "name":"Zwischen Shakespeare und Stalin - Der legendäre Schauspieler Solomon Michoels",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Feature",
+    "seoTitle":"Deutschlandfunk - Feature, dradio, d-radio, Deutschlandradio, dlf, ",
+    "subDomaine":"dlffeature",
+    "relayDisabled":false,
+    "rank":2270,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10246_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10246_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10246_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"",
+    "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...",
+        "episode":0,
+        "description":"<img src=\"http://www.dradio.de/images/90390/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Wer mit Kamal Abu Aita, Kamal Abbas oder anderen ägyptischen Gewerkschaftsführern spricht, erfährt schnell: Jetzt geht es um alles. Sich noch einmal dem Joch einer Einheitsgewerkschaft zu unterwerfen, kommt nicht infrage. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "published":"Tue, 09 Apr 2013 17:15:03 GMT",
+        "bitRate":64,
+        "contentLength":20945184
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Netz-Gespinste - Eine kleine Kulturgeschichte der Spinne",
+        "episode":1,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Freistil<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_2005_fdc765a8.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_2005_fdc765a8.mp3",
+        "published":"Sun, 07 Apr 2013 18:05:48 GMT",
+        "bitRate":64,
+        "contentLength":24752832
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Russische Kulturkämpfe, Ein Moskauer Gerichtsdrama",
+        "episode":2,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Dossier<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1915_87dfe6bb.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1915_87dfe6bb.mp3",
+        "published":"Fri, 05 Apr 2013 17:15:03 GMT",
+        "bitRate":64,
+        "contentLength":20968688
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Music Matters - 20.05 Uhr: Ein Allegro Vivo mit Sophie Hunger und Peter Herbert",
+        "episode":3,
+        "description":"<img src=\"http://www.dradio.de/images/68932/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Seit es Menschen gibt, gibt es Musik. Wir wissen nicht genau, warum Menschen Musik machen, obwohl bildgebende Verfahren inzwischen erstaunliche Erkenntnisse darüber bringen, wie Musik auf unser Gehirn wirkt. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_2005_915bb66a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_2005_915bb66a.mp3",
+        "published":"Fri, 29 Mar 2013 19:05:33 GMT",
+        "bitRate":64,
+        "contentLength":51072909
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Wer spekuliert, trägt das Risiko\" - Der etwas andere Rettungsschirm der Isländer",
+        "episode":4,
+        "description":"<img src=\"http://www.dradio.de/images/67339/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Als der isländische Premierminister Geir Haarde im Oktober 2008 seine Rede an die kleine Nation mit \"Gott schütze Island\" beendete, hatte er seine Landsleute gerade darüber informiert, dass Island und damit alle 300.000 Isländer pleite waren<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/26/dlf_20130326_1915_3c34c507.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/26/dlf_20130326_1915_3c34c507.mp3",
+        "published":"Tue, 26 Mar 2013 18:15:17 GMT",
+        "bitRate":64,
+        "contentLength":41885565
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Vom Duft der Flüsse - Elbe und Yamuna als Kunstwerke der Natur",
+        "episode":5,
+        "description":"<img src=\"http://www.dradio.de/images/67074/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Das schwarze Wasser schlägt Methanblasen und es riecht nach faulen Eiern am Ufer der Yamuna in Delhi. Sie gilt als heilig und darf frei mäandern, ist aber in weiten Teilen biologisch tot. Das Elbwasser im Hamburger Hafen ist sauber, doch der Fluss wird in ein strenges Deichkorsett gezwängt.<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/22/dlf_20130322_2010_01a7e8b1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/22/dlf_20130322_2010_01a7e8b1.mp3",
+        "published":"Fri, 22 Mar 2013 19:10:11 GMT",
+        "bitRate":64,
+        "contentLength":47487543
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Handelsinvasoren kommen - Eine Geschichte aus Indien von Gewinnern und Verlierern",
+        "episode":6,
+        "description":"<img src=\"http://www.dradio.de/images/91074/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">\"Die EU-Handelspolitik erinnert uns an die alte East-India-Company, die vor 300 Jahren unsere Kolonialisierung eingeleitet hat\", sagt die Inderin Sagari Ramdas. Sie muss es wissen: Seit vielen Jahrzehnten betreut sie Kleinbauern und Straßenhändler im Bundesstaat Andhra Pradesh. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/19/dlf_20130319_1915_f61d9051.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/19/dlf_20130319_1915_f61d9051.mp3",
+        "published":"Tue, 19 Mar 2013 18:15:06 GMT",
+        "bitRate":64,
+        "contentLength":42027345
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"KZ-Dachau, eine Welt ohne Gott\" - Besuch im Kloster Münsterschwarzach",
+        "episode":7,
+        "description":"<img src=\"http://www.dradio.de/images/75963/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im Sommer 2011, kurz vor seinem Besuch des ehemaligen Konzentrationslagers Dachau, reist der Schriftsteller Reinhold Batberger nach Münsterschwarzach. Ihn zieht es nicht zu einem der gefragten spirituellen Kurse für Manager, die dort im Benediktinerkloster vom berühmten Pater Anselm Grün abgehalten werden, sondern in die Klosterbibliothek. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/15/dlf_20130315_2010_db2782e0.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/15/dlf_20130315_2010_db2782e0.mp3",
+        "published":"Fri, 15 Mar 2013 19:10:08 GMT",
+        "bitRate":64,
+        "contentLength":47639748
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Lücke an der Wand - Der Mythos von der unpolitischen Künstlerkolonie Worpswede",
+        "episode":8,
+        "description":"<img src=\"http://www.dradio.de/images/9961/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Künstlerkolonie Worpswede wurde 1889 im malerischen Teufelsmoor bei Bremen gegründet. Die Worpsweder Maler der ersten Generation wie Fritz Mackensen oder Otto Modersohn galten schon bald als Meister der Landschaftsmalerei. \n<br clear=\"all\"><br>Deutschlandfunk, Dossier<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/15/dlf_20130315_1915_4bb7e74b.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/15/dlf_20130315_1915_4bb7e74b.mp3",
+        "published":"Fri, 15 Mar 2013 18:15:00 GMT",
+        "bitRate":64,
+        "contentLength":41918508
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Halts Maul, du lügst\" - Verdingkinder in der Schweiz",
+        "episode":9,
+        "description":"<img src=\"http://www.dradio.de/images/42913/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Hunderttausende Waisen- und Scheidungskinder, uneheliche und sogenannte milieugeschädigte Kinder wurden in der Schweiz \"verdingt\". Sie wurden ihren Eltern - häufig gegen deren Willen - von der Waisen- oder Armenbehörde weggenommen und zumeist bei Bauernfamilien in Pflege gegeben, die dafür Kostgeld bekamen. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/12/dlf_20130312_1915_6ad2971d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/12/dlf_20130312_1915_6ad2971d.mp3",
+        "published":"Tue, 12 Mar 2013 18:15:18 GMT",
+        "bitRate":64,
+        "contentLength":41858877
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Roismans Rezept - Antidrogenkampf im Ural",
+        "episode":10,
+        "description":"<img src=\"http://www.dradio.de/images/80610/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Igor aus Sankt Petersburg war 33, schon jahrelang heroinabhängig, als ihn seine verzweifelte Mutter zu einem Rehazentrum nach Jekaterinburg brachte, ihre letzte Hoffnung. Dort streitet Evgeni Roisman mittels der von ihm gegründeten Stiftung für eine \"Stadt ohne Drogen\". \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/08/dlf_20130308_2010_27adec2d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/08/dlf_20130308_2010_27adec2d.mp3",
+        "published":"Fri, 08 Mar 2013 19:10:00 GMT",
+        "bitRate":64,
+        "contentLength":47736909
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Fall Lynne Stewart - Eine amerikanische Geschichte",
+        "episode":11,
+        "description":"<img src=\"http://www.dradio.de/images/69104/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im April 2002, sieben Monate nach 9/11, wird die Bürgerrechtsanwältin Lynne Stewart in New York  der Beihilfe zum Terrorismus bezichtigt. Sie war die Verteidigerin des \"Blinden Scheichs\" Omar Abdel-Rahman, der in den USA als Mastermind für den ersten Anschlag auf das World Trade Center zu lebenslanger Haft verurteilt worden war.<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/05/dlf_20130305_1915_6ad651c1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/05/dlf_20130305_1915_6ad651c1.mp3",
+        "published":"Tue, 05 Mar 2013 18:15:00 GMT",
+        "bitRate":64,
+        "contentLength":41799663
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Bohème-Faktor - Oder: das Recht auf Stadt",
+        "episode":12,
+        "description":"<img src=\"http://www.dradio.de/images/84885/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Aufstieg der kreativen Klasse wird die Welt verändern, sagt der US-Ökonom Richard Florida. Eine Transformation, die er für dramatischer hält als den Übergang vom Agraralter ins industrielle Zeitalter. Nur diejenigen Städte werden weiter wachsen, die die Kreativen anziehen. \n<br clear=\"all\"><br>Deutschlandfunk, Freistil<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_2005_3aa3fee6.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_2005_3aa3fee6.mp3",
+        "published":"Sun, 03 Mar 2013 19:05:27 GMT",
+        "bitRate":64,
+        "contentLength":51860205
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Drei Körper - Schmerzen, Agressionen, Traumata: Wenn der Körper zum Feind wird",
+        "episode":13,
+        "description":"<img src=\"http://www.dradio.de/images/41317/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Schriftsteller Tim Parks hat chronische Schmerzen im Beckenboden. Vergeblich durchläuft er sämtliche medizinische Untersuchungen, bis er merkt, dass er sich \"in ein Gebäude von Worten eingesperrt hat\". Widerwillig versucht der Skeptiker durch Meditation und Entspannungstechniken Kontakt mit seinem Körper aufzunehmen. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/01/dlf_20130301_2010_1150171c.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/01/dlf_20130301_2010_1150171c.mp3",
+        "published":"Fri, 01 Mar 2013 19:10:10 GMT",
+        "bitRate":64,
+        "contentLength":47563437
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Zweierlei Maß? - Die Berichterstattung über Russland und die USA",
+        "episode":14,
+        "description":"<img src=\"http://www.dradio.de/images/51968/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">2012 war ein Jahr mit Präsidentschaftswahlen in zwei weltpolitisch bedeutenden Staaten - Russland im März, die USA im November. Wie wird über die Kandidaten vor dem Hintergrund der politischen Verhältnisse vor Ort in deutschen Medien berichtet? <br clear=\"all\"><br>Deutschlandfunk, Dossier<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/01/dlf_20130301_1915_5e892fb2.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/01/dlf_20130301_1915_5e892fb2.mp3",
+        "published":"Fri, 01 Mar 2013 18:15:03 GMT",
+        "bitRate":64,
+        "contentLength":41676231
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Held aus Quirnbach - Die späte Ehrung des Lothar Hermann",
+        "episode":15,
+        "description":"<img src=\"http://www.dradio.de/images/65171/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im August 2012 wollte die jüdische Gemeinde von Buenos Aires ihn endlich feierlich ehren: Lothar Hermann, der Sohn eines jüdischen Viehhändlers aus Quirnbach und einstiger KZ-Häftling, war der erste Hinweisgeber auf den Aufenthaltsort des Kriegsverbrechers Adolf Eichmann. \n<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/26/dlf_20130226_1915_fac5782e.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/26/dlf_20130226_1915_fac5782e.mp3",
+        "published":"Tue, 26 Feb 2013 18:15:26 GMT",
+        "bitRate":64,
+        "contentLength":41241300
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Deutsch geht fremd - Ein Liebesdrama in drei Akten",
+        "episode":16,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/22/dlf_20130222_2010_74b6dfd1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/22/dlf_20130222_2010_74b6dfd1.mp3",
+        "published":"Fri, 22 Feb 2013 19:10:00 GMT",
+        "bitRate":64,
+        "contentLength":47753172
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ich bin mit meiner Angst allein - Der Brecht-Schüler Martin Pohl in den Zeiten des Kalten Krieges",
+        "episode":17,
+        "description":"<img src=\"http://www.dradio.de/images/90980/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Am 22. Februar 1953 wurde ein 22-jähriger Mann in seiner Wohnung, Breite Straße 4 B in Berlin-Pankow, von der Staatssicherheit verhaftet. Er hieß Martin Pohl, war Meisterschüler bei Bertolt Brecht.<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/19/dlf_20130219_1914_987ce9ec.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/19/dlf_20130219_1914_987ce9ec.mp3",
+        "published":"Tue, 19 Feb 2013 18:14:43 GMT",
+        "bitRate":64,
+        "contentLength":41973135
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ghosts - Abschied vom Geistesleben",
+        "episode":18,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/15/dlf_20130215_2010_83c3d2a6.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/15/dlf_20130215_2010_83c3d2a6.mp3",
+        "published":"Fri, 15 Feb 2013 19:10:00 GMT",
+        "bitRate":64,
+        "contentLength":47602218
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Krank oder bloß ganz anders? - Schizophrenie. Eine Vergangenheitsbefragung",
+        "episode":19,
+        "description":"<img src=\"http://www.dradio.de/images/89169/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Dorothea Buck aus Hamburg ist 95 Jahre alt und hat in ihrem Leben mehrere psychotische Schübe erlebt. Nach ihrem ersten Schub wurde sie als junge Frau in der Nazizeit zwangssterilisiert. Im Laufe der Jahrzehnte hat sie die psychiatrischen Methoden, mit Schizophrenie umzugehen, buchstäblich am eigenen Leib erlebt.<br clear=\"all\"><br>Deutschlandfunk, Dossier<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/15/dlf_20130215_1915_1e521b0a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/15/dlf_20130215_1915_1e521b0a.mp3",
+        "published":"Fri, 15 Feb 2013 18:15:00 GMT",
+        "bitRate":64,
+        "contentLength":41915589
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Rohstoff-Roulette",
+        "episode":20,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/12/dlf_20130212_1915_042ee763.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/12/dlf_20130212_1915_042ee763.mp3",
+        "published":"Tue, 12 Feb 2013 18:15:18 GMT",
+        "bitRate":64,
+        "contentLength":41737113
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Mit den Ohren sehen - Die Soundwelt des Kinos",
+        "episode":21,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Freistil<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_2006_b43fd47b.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_2006_b43fd47b.mp3",
+        "published":"Sun, 10 Feb 2013 19:06:00 GMT",
+        "bitRate":64,
+        "contentLength":25745408
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Lin und Eberhard- Die Geschichte einer großen Liebe",
+        "episode":22,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/08/dlf_20130208_2010_cb319ec1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/08/dlf_20130208_2010_cb319ec1.mp3",
+        "published":"Fri, 08 Feb 2013 19:10:00 GMT",
+        "bitRate":64,
+        "contentLength":23818288
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kindermord und Ordnungswahn",
+        "episode":23,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/05/dlf_20130205_1915_377c1ced.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/05/dlf_20130205_1915_377c1ced.mp3",
+        "published":"Tue, 05 Feb 2013 18:15:00 GMT",
+        "bitRate":64,
+        "contentLength":20946224
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Drei Farben Russland - Eine Gesellschaft bricht auf",
+        "episode":24,
+        "description":"<img src=\"http://www.dradio.de/images/12408/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Blau, Weiß, Rot. In der französischen Trikolore stehen die Farben für \"Freiheit, Gleichheit, Brüderlichkeit\". Weiß, Blau, Rot. In der russischen Fahne könnte man etwas anderes herauslesen: unten Rot, Farbe der Sowjetunion. \n<br clear=\"all\"><br>Deutschlandfunk, Freistil<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_2005_fa99af15.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_2005_fa99af15.mp3",
+        "published":"Sun, 03 Feb 2013 19:05:58 GMT",
+        "bitRate":64,
+        "contentLength":24068304
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Theater und Revolution - Judith Malina",
+        "episode":25,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/01/dlf_20130201_2010_473a72bf.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/01/dlf_20130201_2010_473a72bf.mp3",
+        "published":"Fri, 01 Feb 2013 19:10:10 GMT",
+        "bitRate":64,
+        "contentLength":23741328
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Hacker Wau Holland oder Der Kampf ums Netz",
+        "episode":26,
+        "description":"<img src=\"http://www.dradio.de/images/91462/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Wau Holland, eigentlich: Herwart Holland-Moritz, war Mitbegründer des Chaos Computer Clubs. Zuletzt unterrichtete er an der Technischen Universität Ilmenau Informatik. Er starb 2001, 49-jährig. Holland hat maßgeblich das Bild des Hackers geprägt - und zwar im Sinne des guten Piraten.<br clear=\"all\"><br>Deutschlandfunk, Dossier<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/01/dlf_20130201_1915_475e4796.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/01/dlf_20130201_1915_475e4796.mp3",
+        "published":"Fri, 01 Feb 2013 18:15:00 GMT",
+        "bitRate":64,
+        "contentLength":20812896
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Brokdorf-Komplex - Kampfhandlungen in der Wilstermarsch",
+        "episode":27,
+        "description":"<img src=\"http://www.dradio.de/images/47507/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der eine hat als Schütze im Wasserwerfer gesessen, der andere hat mit einem Bolzenschneider versucht, den Bauzaun zu zerstückeln. Die Interessenlagen konnten nicht gegensätzlicher sein. Die Kampfhandlungen der Jahre 1976/77 rund um den Bauplatz am Elbufer gehören zu den Demonstrationen, die die Bundesrepublik nachhaltig geprägt haben.<br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/29/dlf_20130129_1915_ce27cc50.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/29/dlf_20130129_1915_ce27cc50.mp3",
+        "published":"Tue, 29 Jan 2013 18:15:23 GMT",
+        "bitRate":64,
+        "contentLength":20845344
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Latex - Weißes Gold und schwarzes Gummi",
+        "episode":28,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Freistil<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_2006_e7068508.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_2006_e7068508.mp3",
+        "published":"Sun, 27 Jan 2013 19:06:02 GMT",
+        "bitRate":64,
+        "contentLength":24771552
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Zwischen Shakespeare und Stalin - Der legendäre Schauspieler Solomon Michoels",
+        "episode":29,
+        "description":"<img src=\"http://www.dradio.de/images/37687/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Moskau, Januar 1920. Eine Truppe leidenschaftlicher Schauspieler gründet um ersten Mal in der Geschichte ein jüdisches Staatstheater. Das Ensemble spielt auf jiddisch. \"Die größte Errungenschaft der sowjetischen Kunst\" jubelt die Presse. <br clear=\"all\"><br>Deutschlandfunk, Das Feature<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/25/dlf_20130125_2010_f0679eb2.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/25/dlf_20130125_2010_f0679eb2.mp3",
+        "published":"Fri, 25 Jan 2013 19:10:08 GMT",
+        "bitRate":64,
+        "contentLength":23746528
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+    "displaySubDomaine":"dlffeature",
+    "recentTitles":
+    [
+      "Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...",
+      "Netz-Gespinste - Eine kleine Kulturgeschichte der Spinne",
+      "Russische Kulturkämpfe, Ein Moskauer Gerichtsdrama",
+      "Music Matters - 20.05 Uhr: Ein Allegro Vivo mit Sophie Hunger und Peter Herbert",
+      "\"Wer spekuliert, trägt das Risiko\" - Der etwas andere Rettungsschirm der Isländer",
+      "Vom Duft der Flüsse - Elbe und Yamuna als Kunstwerke der Natur",
+      "Die Handelsinvasoren kommen - Eine Geschichte aus Indien von Gewinnern und Verlierern",
+      "\"KZ-Dachau, eine Welt ohne Gott\" - Besuch im Kloster Münsterschwarzach",
+      "Die Lücke an der Wand - Der Mythos von der unpolitischen Künstlerkolonie Worpswede",
+      "\"Halts Maul, du lügst\" - Verdingkinder in der Schweiz",
+      "Roismans Rezept - Antidrogenkampf im Ural",
+      "Der Fall Lynne Stewart - Eine amerikanische Geschichte",
+      "Der Bohème-Faktor - Oder: das Recht auf Stadt",
+      "Drei Körper - Schmerzen, Agressionen, Traumata: Wenn der Körper zum Feind wird",
+      "Zweierlei Maß? - Die Berichterstattung über Russland und die USA",
+      "Der Held aus Quirnbach - Die späte Ehrung des Lothar Hermann",
+      "Deutsch geht fremd - Ein Liebesdrama in drei Akten",
+      "Ich bin mit meiner Angst allein - Der Brecht-Schüler Martin Pohl in den Zeiten des Kalten Krieges",
+      "Ghosts - Abschied vom Geistesleben",
+      "Krank oder bloß ganz anders? - Schizophrenie. Eine Vergangenheitsbefragung",
+      "Rohstoff-Roulette",
+      "Mit den Ohren sehen - Die Soundwelt des Kinos",
+      "Lin und Eberhard- Die Geschichte einer großen Liebe",
+      "Kindermord und Ordnungswahn",
+      "Drei Farben Russland - Eine Gesellschaft bricht auf",
+      "Theater und Revolution - Judith Malina",
+      "Der Hacker Wau Holland oder Der Kampf ums Netz",
+      "Der Brokdorf-Komplex - Kampfhandlungen in der Wilstermarsch",
+      "Latex - Weißes Gold und schwarzes Gummi",
+      "Zwischen Shakespeare und Stalin - Der legendäre Schauspieler Solomon Michoels"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dradio.de/podcast/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10246_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10246_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10246,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10246_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10246_5_1.png",
+    "author":"",
+    "title":"Deutschlandradio Logo",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10246_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Geschichte, Gesellschaft",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Köln",
+      "_family":"dradio",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Deutschlandfunk - Feature",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/dlffeature.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10246_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10246_5.jpeg",
+    "subdomain":"dlffeature",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463211,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1915_c91c859d.mp3",
+        "idBroadcast":10246,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

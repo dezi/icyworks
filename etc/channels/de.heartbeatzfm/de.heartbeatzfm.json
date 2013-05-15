@@ -1,0 +1,247 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://heartbeatz.fm:8008/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"heartbeatz.fm",
+    "subDomaine":"heartbeatzfm",
+    "relayDisabled":false,
+    "rank":949,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Romantisches für den erhöhten Herzschlag.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9494_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9494_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9494_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Romantisches für den erhöhten Herzschlag.",
+    "metaDataUrl":"http://heartbeatz.fm:8008/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://heartbeatz.fm:8008/",
+    "displaySubDomaine":"heartbeatzfm",
+    "recentTitles":
+    [
+      "Blue Zone U.K. - One Kiss",
+      "Atlantic Starr - My Love is Real",
+      "Anita Baker - No One In The World",
+      "Benny Mardones - Into The Night",
+      "Vanessa Williams - And If I Ever",
+      "Michael Jackson - Earth Song",
+      "Chicago - Hard To Say I\'m Sorry",
+      "Bobby Brown - All Day All Night",
+      "Rebecca Lavelle - The man I loved",
+      "George Benson - Lady love me (one more time)",
+      "Marit Larsen - This Is Me, This Is You",
+      "Nelly - Just A Dream",
+      "The Spinners - Can I Depend On You",
+      "New Edition - With You All The Way",
+      "Freddie Jackson - Tasty Love",
+      "Keni Burke - Risin\' To The Top",
+      "Leona Lewis - Happy",
+      "Mary J Blige - I Am",
+      "Phil Collins - All of My Life",
+      "Whitney Houston - If You Say My Eyes Are Beautiful",
+      "Bonnie Bianco - Miss You So",
+      "Natalie Walker - Colorblind",
+      "Anastacia - One More Chance",
+      "Cher  Sonny - I Got You Babe",
+      "Boyz II Men - Boomerang",
+      "Natalie Cole - I Wanna Be That Woman",
+      "Bonfire - Rivers Of Glory",
+      "Mariah Carey - Open Arms",
+      "Donna Summer - Sweetest Romance",
+      "Aloha From Hell - Walk Away",
+      "Pink  Nate Ruess - One Heart",
+      "Boy Meets Girl - Waiting for a star to fall",
+      "All-4-One - Perfect",
+      "Leo Sayer - I Can\'t Stop Loving You",
+      "Chris Daughtry - What About Now",
+      "Billy Ocean - Rose",
+      "Melissa Manchester  Peabo Bry - Lovers After All",
+      "Tamia - Rain On Me",
+      "Ashford  Simpson - Is It Still Good To Ya",
+      "Elliott Yamin - Wait For You",
+      "Tim Owens - What She Wants",
+      "James Ingram - Somewhere Out There",
+      "Chris Brown - With You",
+      "The Whispers - Is It Good To You",
+      "Glen Hansard  Markéta Irglová - Falling Slowly",
+      "Fleetwood Mac - Leather And Lace",
+      "Elton John - Your Song",
+      "A-HA - Hunting High And Low",
+      "Bee Gees - More Than a Woman",
+      "Dave Stewart  Candy Dulfe - Lily Was Here",
+      "Whitney Houston/Jermaine Jackson - Nobody Loves Me Like You Do",
+      "Johnny Gill - Lady Dujour",
+      "Janet Jackson - Im Here",
+      "Smokey Robinson - Being with you",
+      "Regina Belle - It Doesn\'t Hurt Anymore",
+      "Puff Johnson - Some Kind Of Miracle"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.heartbeatz.fm",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9494_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9494_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9494,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9494_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9494_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9494_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Oldies, Pop",
+      "_city":"Lüneburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"heartbeatz.fm",
+    "picture3Url":"",
+    "streamUrl":"http://heartbeatz.fm:8008/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9494_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9494_5.jpeg",
+    "subdomain":"heartbeatzfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":5740,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://heartbeatz.fm:8008/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://heartbeatz.fm:8008/",
+        "idBroadcast":9494,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

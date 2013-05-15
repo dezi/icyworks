@@ -1,0 +1,1046 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703499",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+      "testResult":null,
+      "name":"Die deutsch-britische Begegnung zwischen Berti Vogts und Kevin Keegan - Buch beschreibt ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703500",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1539_8b91e4eb.mp3",
+      "testResult":null,
+      "name":"Der Schnulzensänger aus den Bergen - Der Schweizer Dagobert  im Corsogespräch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703501",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1525_bb38bae9.mp3",
+      "testResult":null,
+      "name":"Hörerrätsel, 11.04.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703502",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1519_3877c338.mp3",
+      "testResult":null,
+      "name":"Tanzkunst in der U-Bahn von Los Angeles - \"Red Line Time\" ertanzt den Untergrund",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703503",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1510_1b4e5b42.mp3",
+      "testResult":null,
+      "name":"Neue Kunst in alter Schaubude - Performancekünstler mischen den Hamburger Dom auf",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703504",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1552_382fe580.mp3",
+      "testResult":null,
+      "name":"Knollen- oder Stupsnase? - Die algerische Comic-Szene",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703505",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1540_a7fe79e5.mp3",
+      "testResult":null,
+      "name":"\"Als Heavy-Metal-Musiker wird Ai Weiwei  noch Furore machen\" - Corso-Gespräch mit ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703506",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1520_48125669.mp3",
+      "testResult":null,
+      "name":"\"Reibekuchen sind gut für die Völkerverständigung\" - Ein Rheinländer ist Israels ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703507",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1510_e83b3045.mp3",
+      "testResult":null,
+      "name":"Familienmelodram, Jugendfilm und Science-Fiction-Abenteuer - Neue Filme im Kino",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703508",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1552_f7c82b1f.mp3",
+      "testResult":null,
+      "name":"\"O Superman höre ich ganz oft zum Einschlafen\" - Mein Klassiker: Bibiana Beglau über ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703509",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1539_a51c05b3.mp3",
+      "testResult":null,
+      "name":"Melancholische Töne auf Solopfaden - Peter Plate im Corsogespräch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703510",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1518_d2656838.mp3",
+      "testResult":null,
+      "name":"Pendlerin zwischen den Welten - Die australische Musikerin Sarah Blasko auf Europatournee",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703511",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1510_95089e6b.mp3",
+      "testResult":null,
+      "name":"\"Das Ergebnis europäischer Wohltätigkeit\" - Deutsch-kenianische Theaterproduktion ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703512",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1552_67d0d0f1.mp3",
+      "testResult":null,
+      "name":"Mexikanische Freistilkämpfer im Berliner Gorki-Theater",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703513",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1539_71ddd9e5.mp3",
+      "testResult":null,
+      "name":"Die Königin des satirischen Endreims - Sarah Hakenberg im Corso-Gespräch",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703514",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1510_8173043f.mp3",
+      "testResult":null,
+      "name":"Berliner Hipster, aufgepasst! - Leipzig macht Berlin das Image der Hipster-Hochburg streitig",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703515",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1543_0868355d.mp3",
+      "testResult":null,
+      "name":"Vordergründige Leichtigkeit - \"Alone Abroad The Ark\" - das neue Album der Leisure Society",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703516",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1522_95a824ab.mp3",
+      "testResult":null,
+      "name":"Blick zurück auf Grateful Dead - Neu überarbeitet: \"The Grateful Dead Movie\"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703517",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1511_f5a71ddd.mp3",
+      "testResult":null,
+      "name":"Überraschende Avantgarde-Momente - \"English Electric\": das neue Werk von OMD",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703518",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1530_b7f6857d.mp3",
+      "testResult":null,
+      "name":"\"Ich bin irgendwie schon romantisch\" - Corsogespräch: James Blake über sein neues ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703519",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1538_8859ef1a.mp3",
+      "testResult":null,
+      "name":"\"Formel Eins\" hatte vor 30 Jahren Premiere - Corso-Gespräch mit dem Moderator Kai ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703520",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1526_585a970f.mp3",
+      "testResult":null,
+      "name":"Is was?! - Der satirische Wochenrückblick",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703521",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1517_d83269a3.mp3",
+      "testResult":null,
+      "name":"Schiller neu vertont - Reinhardt Repke arrangiert mit seinem \"Club der toten Dichter\" ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703522",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1509_c6c60935.mp3",
+      "testResult":null,
+      "name":"Sein Lob war so wichtig wie ein \"Oscar\" - Zum Tod des US-Filmkritikers Roger Ebert",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703523",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1538_c521326a.mp3",
+      "testResult":null,
+      "name":"\"Facebook macht blöd, blind und erfolglos\" - Corso-Gespräch mit der selbst ernannten ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703524",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1518_04ecdcc1.mp3",
+      "testResult":null,
+      "name":"Kluge Kompilation - Neu auf CD: \"Auf dem Dach der Welt: Frei nach Alexander Kluge\"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703525",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1506_11936123.mp3",
+      "testResult":null,
+      "name":"Chanson des Monats April: \"Sie hassen uns wieder\" - Thomas Pigor singt bei Corso",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703526",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1552_11db5cc1.mp3",
+      "testResult":null,
+      "name":"Zarte Liebesbande vor Massakerkulisse - Filmkritik: \"The Flowers of War\"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703527",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1539_61833d5f.mp3",
+      "testResult":null,
+      "name":"Verbindung zwischen Europäern schaffen - Corsogespräch mit Senne Dehandschutter von \"Hello ...",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703528",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1520_81c001ce.mp3",
+      "testResult":null,
+      "name":"Ausfliegen mit virtueller Hilfe - Freizeit- und Ausflugsplanung mit visity.de",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Die Beiträge der Sendung Corso",
+    "seoTitle":"Deutschlandfunk - Corso, dradio, d-radio, Deutschlandradio, dlf, ",
+    "subDomaine":"dlfcorso",
+    "relayDisabled":false,
+    "rank":2189,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das junge Kulturmagazin mit dem Ohr am Puls der Zeit.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4215_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4215_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/4215_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das junge Kulturmagazin mit dem Ohr am Puls der Zeit.",
+    "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Die deutsch-britische Begegnung zwischen Berti Vogts und Kevin Keegan - Buch beschreibt ...",
+        "episode":0,
+        "description":"<img src=\"http://www.dradio.de/images/93285/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Guardian-Redakteur Philip Oltermann ist in Schleswig-Holstein aufgewachsen und als Teenager nach London gezogen. In Dichter und Denker, Spinner und Banker erzählt er die Geschichte beider Länder anhand von Begegnungen, zum Beispiel zwischen Helmut Kohl und Margaret Thatcher oder Berti Vogts und Kevin Keegan.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "published":"Thu, 11 Apr 2013 13:52:22 GMT",
+        "bitRate":64,
+        "contentLength":1775488
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Schnulzensänger aus den Bergen - Der Schweizer Dagobert  im Corsogespräch",
+        "episode":1,
+        "description":"<img src=\"http://www.dradio.de/images/93298/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Er umgibt sich mit der Aura des Geheimnisvollen: der 30-jährige Musiker Dagobert. Morgen erscheint sein Debütalbum, das genauso heißt, wie er sich nennt. Es umfasst elf Songs, ausschließlich Liebeslieder in einer Mischung aus Volksmusik und Synthiepop.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1539_8b91e4eb.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1539_8b91e4eb.mp3",
+        "published":"Thu, 11 Apr 2013 13:39:11 GMT",
+        "bitRate":64,
+        "contentLength":4250480
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hörerrätsel, 11.04.2013",
+        "episode":2,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1525_bb38bae9.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1525_bb38bae9.mp3",
+        "published":"Thu, 11 Apr 2013 13:25:53 GMT",
+        "bitRate":64,
+        "contentLength":1447680
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Tanzkunst in der U-Bahn von Los Angeles - \"Red Line Time\" ertanzt den Untergrund",
+        "episode":3,
+        "description":"<img src=\"http://www.dradio.de/images/91009/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Los Angeles ist eigentlich die Stadt der Autofahrer. Dabei gibt es in der Stadt auch eine U-Bahn. Die Betreiber haben jetzt erstmals eine Tanz-Performance in den Stationen der \"Red Line\", der roten U-Bahn-Linie, erlaubt.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1519_3877c338.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1519_3877c338.mp3",
+        "published":"Thu, 11 Apr 2013 13:19:29 GMT",
+        "bitRate":64,
+        "contentLength":1649232
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Neue Kunst in alter Schaubude - Performancekünstler mischen den Hamburger Dom auf",
+        "episode":4,
+        "description":"<img src=\"http://www.dradio.de/images/93290/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Jahrmarktunterhaltung muss nicht immer kunstfern sein: Die beiden Hamburger Performancekunst-Gruppen \"Geheimagentur\" und \"random people\" haben gemeinsam mit der Theaterfabrik Kampnagel auf dem Hamburger Dom eine alte Schaubude aufgebaut und zeigen Unterhaltungsshows abseits des Mainstreams.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1510_1b4e5b42.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1510_1b4e5b42.mp3",
+        "published":"Thu, 11 Apr 2013 13:10:58 GMT",
+        "bitRate":64,
+        "contentLength":2187120
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Knollen- oder Stupsnase? - Die algerische Comic-Szene",
+        "episode":5,
+        "description":"<img src=\"http://www.dradio.de/images/93269/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Während in der arabischen Welt viele Länder im Rahmen der Arabellion von sich Reden machten, bleibt die Demokratische Volksrepublik Algerien weiter abgeschottet. Kaum einer würde wohl ausgerechnet hier eine lebendige Comic-Szene vermuten.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1552_382fe580.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1552_382fe580.mp3",
+        "published":"Wed, 10 Apr 2013 13:52:03 GMT",
+        "bitRate":64,
+        "contentLength":1195168
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Als Heavy-Metal-Musiker wird Ai Weiwei  noch Furore machen\" - Corso-Gespräch mit ...",
+        "episode":6,
+        "description":"<img src=\"http://www.dradio.de/images/93243/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Journalist Christian Y. Schmidt berichtet aus China, in Büchern und zum Beispiel in der \"taz\". In seinem neuen Buch \"Im Jahr des Hasendrachen\" nimmt er insbesondere die deutsche Berichterstattung über China aufs Korn. Die Angst in Europa vor China wächst, glaubt Schmidt.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1540_a7fe79e5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1540_a7fe79e5.mp3",
+        "published":"Wed, 10 Apr 2013 13:40:36 GMT",
+        "bitRate":64,
+        "contentLength":3828032
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Reibekuchen sind gut für die Völkerverständigung\" - Ein Rheinländer ist Israels ...",
+        "episode":7,
+        "description":"<img src=\"http://www.dradio.de/images/93235/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vor acht Jahren wanderte er nach Israel aus und konvertierte zum Judentum. Jetzt ist Tom Franz in seiner neuen Heimat ein Star. In der populären TV-Show \"Israels Masterchef\" hat er mit seiner koscheren Küche begeistert. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1520_48125669.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1520_48125669.mp3",
+        "published":"Wed, 10 Apr 2013 13:20:22 GMT",
+        "bitRate":64,
+        "contentLength":2281760
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Familienmelodram, Jugendfilm und Science-Fiction-Abenteuer - Neue Filme im Kino",
+        "episode":8,
+        "description":"<img src=\"http://www.dradio.de/images/93137/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Ein erschreckend plattes Familienmelodram ist Nina Grosses Filmadaption von Bernhard Schlinks \"Das Wochenende\". Sally Potters Coming-of-Age-Drama \"Ginger Rosa\" überzeugt mit exzellenter Darstellerriege, und in \"Oblivion\" kämpft sich Tom Cruise durch einen hanebüchenen Sciene-Fiction-Film.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1510_e83b3045.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/10/dlf_20130410_1510_e83b3045.mp3",
+        "published":"Wed, 10 Apr 2013 13:10:54 GMT",
+        "bitRate":64,
+        "contentLength":2377232
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"O Superman höre ich ganz oft zum Einschlafen\" - Mein Klassiker: Bibiana Beglau über ...",
+        "episode":9,
+        "description":"<img src=\"http://www.dradio.de/images/93185/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Bibiana Beglau ist eine der großen deutschen Schauspielerinnen, sie hat den Grimme-Preis bekommen und den Silbernen Bären, für den Europäischen Filmpreis war sie nominiert. Bekannt wurde Bibiana Beglau mit der Hauptrolle in Volker Schlöndorffs \"Die Stille nach dem Schuss\".\n<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1552_f7c82b1f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1552_f7c82b1f.mp3",
+        "published":"Tue, 09 Apr 2013 13:52:33 GMT",
+        "bitRate":64,
+        "contentLength":1566656
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Melancholische Töne auf Solopfaden - Peter Plate im Corsogespräch",
+        "episode":10,
+        "description":"<img src=\"http://www.dradio.de/images/93186/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Peter Plate ist bekannt als Teil des Duos Rosenstolz. Nach 20 Jahren gemeinsamer Bühnenkarriere mit Anna R., zwölf Studioalben, obersten Chart-Platzierungen und ungezählten Auftritten hat er nun mit \"Schüchtern ist mein Glück\" seine erste Solo-Platte herausgebracht.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1539_a51c05b3.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1539_a51c05b3.mp3",
+        "published":"Tue, 09 Apr 2013 13:39:38 GMT",
+        "bitRate":64,
+        "contentLength":4540016
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Pendlerin zwischen den Welten - Die australische Musikerin Sarah Blasko auf Europatournee",
+        "episode":11,
+        "description":"<img src=\"http://www.dradio.de/images/93187/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Pop, Folk, Singer-Songwriter-Genre - es fällt schwer, die Musik von Sarah Blasko einzuordnen. Mit \"I Awake\" legt die 36 Jahre alte Australierin nun schon ihr fünftes Soloalbum vor. Unter den zwölf Stücken ist auch eine Arbeit mit dem Bulgarian Symphony Orchestra. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1518_d2656838.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1518_d2656838.mp3",
+        "published":"Tue, 09 Apr 2013 13:18:22 GMT",
+        "bitRate":64,
+        "contentLength":2326896
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Das Ergebnis europäischer Wohltätigkeit\" - Deutsch-kenianische Theaterproduktion ...",
+        "episode":12,
+        "description":"<img src=\"http://www.dradio.de/images/93200/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Europäische Altkleiderspenden für Afrikaner werden auf Suaheli \"Mitumba\" genannt. Die Kleider werden oft auf afrikanischen Märkten teuer verkauft und zerstören die eigene Textilindustrie. Die Perversität dieses Warentransfers beleuchtet das deutsch-afrikanische Tanz-Theater-Happening \"Mitumba\".<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1510_95089e6b.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/09/dlf_20130409_1510_95089e6b.mp3",
+        "published":"Tue, 09 Apr 2013 13:10:14 GMT",
+        "bitRate":64,
+        "contentLength":1896960
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Mexikanische Freistilkämpfer im Berliner Gorki-Theater",
+        "episode":13,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1552_67d0d0f1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1552_67d0d0f1.mp3",
+        "published":"Mon, 08 Apr 2013 13:52:58 GMT",
+        "bitRate":64,
+        "contentLength":1635504
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Königin des satirischen Endreims - Sarah Hakenberg im Corso-Gespräch",
+        "episode":14,
+        "description":"<img src=\"http://www.dradio.de/images/93157/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Von Lacan zu Florian Silbereisen und von der Armabtrennung zur Spracherkennung ist es bei der Kabarettistin Sarah Hakenberg nur ein Wimpernschlag. Details aus ihrem aktuellen Programm \"Struwelpeter reloaded\" verrät sie im Corsogespräch.\n<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1539_71ddd9e5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1539_71ddd9e5.mp3",
+        "published":"Mon, 08 Apr 2013 13:39:26 GMT",
+        "bitRate":64,
+        "contentLength":4745104
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Berliner Hipster, aufgepasst! - Leipzig macht Berlin das Image der Hipster-Hochburg streitig",
+        "episode":15,
+        "description":"<img src=\"http://www.dradio.de/images/93154/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Hipster ist in Berlin schon zahlreich vertreten, nun soll er auch in Leipzig auf dem Vormarsch sein. Eine klare Definition für ihn gibt es nicht, aber eins ist er sicher nicht: beliebt. Angeblich ist er reich, treibt die Mieten in die Höhe und schwimmt stets im Strom. Eine Bestandsaufnahme vor Ort.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1510_8173043f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/08/dlf_20130408_1510_8173043f.mp3",
+        "published":"Mon, 08 Apr 2013 13:10:18 GMT",
+        "bitRate":64,
+        "contentLength":2218736
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Vordergründige Leichtigkeit - \"Alone Abroad The Ark\" - das neue Album der Leisure Society",
+        "episode":16,
+        "description":"<img src=\"http://www.dradio.de/images/11591/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Schon seit ihrer Gründung 2009 standen The Leisure Society unter besonderer Beobachtung der britischen Musikkritiker. Ihre beiden ersten Alben wurden gefeiert und es gelang ein kleiner Ausflug in die UK-Hitparade. Für ihr neues Album hat sich die Band ein bisschen mehr Zeit gelassen. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1543_0868355d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1543_0868355d.mp3",
+        "published":"Sat, 06 Apr 2013 13:43:57 GMT",
+        "bitRate":64,
+        "contentLength":1964352
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Blick zurück auf Grateful Dead - Neu überarbeitet: \"The Grateful Dead Movie\"",
+        "episode":17,
+        "description":"<img src=\"http://www.dradio.de/images/26325/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Band Grateful Dead war immer anders: Konzerte konnten mitgeschnitten werden, sie verteilten LSD-Pillen, sie wirkten mit ihrem Anhang wie eine Familie. Der 1974 entstandene \"Grateful Dead Movie\" ist jetzt neu erschienen.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1522_95a824ab.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1522_95a824ab.mp3",
+        "published":"Sat, 06 Apr 2013 13:22:21 GMT",
+        "bitRate":64,
+        "contentLength":1920672
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Überraschende Avantgarde-Momente - \"English Electric\": das neue Werk von OMD",
+        "episode":18,
+        "description":"<img src=\"http://www.dradio.de/images/93132/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Orchestral Manoeuvres In The Dark, kurz OMD, weisen eine stolze Bilanz von zwölf Alben und 33 Singles auf. Ihr musikalischer Ansatz hat sich auch nach 35 Jahren kaum verändert. Das Duo kultiviert weiter seinen \"Retro-Futurismus. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1511_f5a71ddd.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/06/dlf_20130406_1511_f5a71ddd.mp3",
+        "published":"Sat, 06 Apr 2013 13:11:43 GMT",
+        "bitRate":64,
+        "contentLength":2664480
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Ich bin irgendwie schon romantisch\" - Corsogespräch: James Blake über sein neues ...",
+        "episode":19,
+        "description":"<img src=\"http://www.dradio.de/images/93128/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">James Blake wird oft als musikalisches Wunderkind bezeichnet. Sein Debütalbum begeisterte vor zwei Jahren durch souligen R´n´B Gesang, verschmolzen mit bassigem Dubstep. Sein neues Album Overgrown spielt gekonnt mit Nähe und Distanz - weil oder obwohl Blake bis über beide Ohren verliebt ist. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1530_b7f6857d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1530_b7f6857d.mp3",
+        "published":"Sat, 06 Apr 2013 13:05:39 GMT",
+        "bitRate":64,
+        "contentLength":4203888
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Formel Eins\" hatte vor 30 Jahren Premiere - Corso-Gespräch mit dem Moderator Kai ...",
+        "episode":20,
+        "description":"<img src=\"http://www.dradio.de/images/93117/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vor 30 Jahren startete in den dritten Programmen die Sendung \"Formel Eins\". Mit ihr kamen auch Musikvideos nach Deutschland. Kai Böcking hat die Sendung insgesamt 120 Mal moderiert und blickt auf Stars und schrillen Outfits zurück. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1538_8859ef1a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1538_8859ef1a.mp3",
+        "published":"Fri, 05 Apr 2013 13:38:58 GMT",
+        "bitRate":64,
+        "contentLength":4474496
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Is was?! - Der satirische Wochenrückblick",
+        "episode":21,
+        "description":"<img src=\"http://www.dradio.de/images/24876/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Scharfe Fotos einer dem Meer entstiegenen Heidi Klum, die ihren Sohn aus den Wellen rettet: Die gab es leider nicht zu sehen. Stattdessen konnte man Angela Merkel im Badeanzug bewundern. Nicht an Kleidern, aber an Kugeln sparte dafür die Lottoziehung, und auch bei Kim Jong-un in Nordkorea geht\'s nur um Gewinne.  <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1526_585a970f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1526_585a970f.mp3",
+        "published":"Fri, 05 Apr 2013 13:26:20 GMT",
+        "bitRate":64,
+        "contentLength":1315184
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schiller neu vertont - Reinhardt Repke arrangiert mit seinem \"Club der toten Dichter\" ...",
+        "episode":22,
+        "description":"<img src=\"http://www.dradio.de/images/20452/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Erst Heine, dann Wilhelm Busch, Rainer Maria Rilke und jetzt Friedrich Schiller. Beim Projekt \"Club der toten Dichter\" ist der Name Programm. Seit 2005 vertont Reinhardt Repke mit seinem \"Club\" und wechselnden Sängern deutsche Lyrik verschiedener Epochen.\n<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1517_d83269a3.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1517_d83269a3.mp3",
+        "published":"Fri, 05 Apr 2013 13:17:09 GMT",
+        "bitRate":64,
+        "contentLength":2680496
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Sein Lob war so wichtig wie ein \"Oscar\" - Zum Tod des US-Filmkritikers Roger Ebert",
+        "episode":23,
+        "description":"<img src=\"http://www.dradio.de/images/93102/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Ein \"Daumen Hoch\"-Zeichen von Filmkritiker Roger Ebert war über Jahrzehnte mit das Wichtigste in Hollywood: Der amerikanische Kritikerpapst, der durch seine unzähligen Filmbesprechungen selbst zum Star wurde, starb im Alter von 70 Jahren.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1509_c6c60935.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/05/dlf_20130405_1509_c6c60935.mp3",
+        "published":"Fri, 05 Apr 2013 13:09:57 GMT",
+        "bitRate":64,
+        "contentLength":1325584
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"\"Facebook macht blöd, blind und erfolglos\" - Corso-Gespräch mit der selbst ernannten ...",
+        "episode":24,
+        "description":"<img src=\"http://www.dradio.de/images/80561/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Zu viel virtuell, zu wenig real, mehr offline, weniger online. Das fordert und lehrt Anitra Eggler. Nachdem sie schon unseren zeitverschwendenden Umgang mit E-Mails in Vorträgen und einem Buch sehr amüsant analysiert hat, nimmt sie sich jetzt die weltweite Freundschaftsbörse Facebook vor.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1538_c521326a.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1538_c521326a.mp3",
+        "published":"Thu, 04 Apr 2013 13:38:41 GMT",
+        "bitRate":64,
+        "contentLength":9161490
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kluge Kompilation - Neu auf CD: \"Auf dem Dach der Welt: Frei nach Alexander Kluge\"",
+        "episode":25,
+        "description":"<img src=\"http://www.dradio.de/images/75751/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">\"Auf dem Dach der Welt: Frei nach Alexander Kluge\" ist eine musikalische Verbeugung vor einem der prominentesten Intellektuellen unserer Zeit. Jedes der 13 Hörstücke von Künstlern wie Michaela Melián, Peter Brötzmann, David Grubbs, Sophie Rois oder Helge Schneider nimmt Bezug auf einen Text Kluges. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1518_04ecdcc1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1518_04ecdcc1.mp3",
+        "published":"Thu, 04 Apr 2013 13:18:02 GMT",
+        "bitRate":64,
+        "contentLength":3885189
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Chanson des Monats April: \"Sie hassen uns wieder\" - Thomas Pigor singt bei Corso",
+        "episode":26,
+        "description":"<img src=\"http://www.dradio.de/images/93041/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Thomas Pigor ist ein deutscher Kabarettist, Liedermacher, Buchautor und Komponist. Pigor ist seit Ende der 1970er-Jahre als Musikkabarettist mit verschiedenen Bühnenprogrammen unterwegs. Seine Texte beziehen sich vorzugsweise auf aktuelle Ereignisse und er gilt als einer der Erneuerer des deutschen Chansons.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1506_11936123.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/04/dlf_20130404_1506_11936123.mp3",
+        "published":"Thu, 04 Apr 2013 13:06:14 GMT",
+        "bitRate":64,
+        "contentLength":3549921
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Zarte Liebesbande vor Massakerkulisse - Filmkritik: \"The Flowers of War\"",
+        "episode":27,
+        "description":"<img src=\"http://www.dradio.de/images/21159/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Im Dezember 1937 wurden im chinesischen Nanking über 200.000 Menschen ermordet. \"Flowers of War\" thematisiert dieses Massaker während des Zweiten Japanisch-Chinesischen Krieges. Leider hat Regisseur Zhang Yimou dem amerikanische Heldentum bei seiner Story etwas zu viel Platz eingeräumt.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1552_11db5cc1.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1552_11db5cc1.mp3",
+        "published":"Wed, 03 Apr 2013 13:52:21 GMT",
+        "bitRate":64,
+        "contentLength":3845157
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Verbindung zwischen Europäern schaffen - Corsogespräch mit Senne Dehandschutter von \"Hello ...",
+        "episode":28,
+        "description":"<img src=\"http://www.dradio.de/images/51407/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Mit dem geplanten Projekt \"Hello Europe\" sollen große Bildschirme in verschiedenen Metropolen Europas aufgestellt werden. Der Regisseur und Initiator des Projektes Senne Dehandschutter möchte damit einen Rahmen schaffen, in dem Menschen miteinander in Kontakt treten können.<br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1539_61833d5f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1539_61833d5f.mp3",
+        "published":"Wed, 03 Apr 2013 13:39:47 GMT",
+        "bitRate":64,
+        "contentLength":8385453
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ausfliegen mit virtueller Hilfe - Freizeit- und Ausflugsplanung mit visity.de",
+        "episode":29,
+        "description":"<img src=\"http://www.dradio.de/images/73269/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Noch ist das Ausflugsportal visity.de ein Idealistenprojekt und nur im Raum Berlin-Brandenburg aktiv. Bekannte, aber auch außergewöhnliche Ausflugsziele werden dort gesammelt und übersichtlich sortiert. Nutzerkommentare sorgen außerdem für Austausch und neue Anregungen. <br clear=\"all\"><br>Deutschlandfunk, Corso<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1520_81c001ce.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/03/dlf_20130403_1520_81c001ce.mp3",
+        "published":"Wed, 03 Apr 2013 13:20:01 GMT",
+        "bitRate":64,
+        "contentLength":4912677
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+    "displaySubDomaine":"dlfcorso",
+    "recentTitles":
+    [
+      "Die deutsch-britische Begegnung zwischen Berti Vogts und Kevin Keegan - Buch beschreibt ...",
+      "Der Schnulzensänger aus den Bergen - Der Schweizer Dagobert  im Corsogespräch",
+      "Hörerrätsel, 11.04.2013",
+      "Tanzkunst in der U-Bahn von Los Angeles - \"Red Line Time\" ertanzt den Untergrund",
+      "Neue Kunst in alter Schaubude - Performancekünstler mischen den Hamburger Dom auf",
+      "Knollen- oder Stupsnase? - Die algerische Comic-Szene",
+      "\"Als Heavy-Metal-Musiker wird Ai Weiwei  noch Furore machen\" - Corso-Gespräch mit ...",
+      "\"Reibekuchen sind gut für die Völkerverständigung\" - Ein Rheinländer ist Israels ...",
+      "Familienmelodram, Jugendfilm und Science-Fiction-Abenteuer - Neue Filme im Kino",
+      "\"O Superman höre ich ganz oft zum Einschlafen\" - Mein Klassiker: Bibiana Beglau über ...",
+      "Melancholische Töne auf Solopfaden - Peter Plate im Corsogespräch",
+      "Pendlerin zwischen den Welten - Die australische Musikerin Sarah Blasko auf Europatournee",
+      "\"Das Ergebnis europäischer Wohltätigkeit\" - Deutsch-kenianische Theaterproduktion ...",
+      "Mexikanische Freistilkämpfer im Berliner Gorki-Theater",
+      "Die Königin des satirischen Endreims - Sarah Hakenberg im Corso-Gespräch",
+      "Berliner Hipster, aufgepasst! - Leipzig macht Berlin das Image der Hipster-Hochburg streitig",
+      "Vordergründige Leichtigkeit - \"Alone Abroad The Ark\" - das neue Album der Leisure Society",
+      "Blick zurück auf Grateful Dead - Neu überarbeitet: \"The Grateful Dead Movie\"",
+      "Überraschende Avantgarde-Momente - \"English Electric\": das neue Werk von OMD",
+      "\"Ich bin irgendwie schon romantisch\" - Corsogespräch: James Blake über sein neues ...",
+      "\"Formel Eins\" hatte vor 30 Jahren Premiere - Corso-Gespräch mit dem Moderator Kai ...",
+      "Is was?! - Der satirische Wochenrückblick",
+      "Schiller neu vertont - Reinhardt Repke arrangiert mit seinem \"Club der toten Dichter\" ...",
+      "Sein Lob war so wichtig wie ein \"Oscar\" - Zum Tod des US-Filmkritikers Roger Ebert",
+      "\"Facebook macht blöd, blind und erfolglos\" - Corso-Gespräch mit der selbst ernannten ...",
+      "Kluge Kompilation - Neu auf CD: \"Auf dem Dach der Welt: Frei nach Alexander Kluge\"",
+      "Chanson des Monats April: \"Sie hassen uns wieder\" - Thomas Pigor singt bei Corso",
+      "Zarte Liebesbande vor Massakerkulisse - Filmkritik: \"The Flowers of War\"",
+      "Verbindung zwischen Europäern schaffen - Corsogespräch mit Senne Dehandschutter von \"Hello ...",
+      "Ausfliegen mit virtueller Hilfe - Freizeit- und Ausflugsplanung mit visity.de"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dradio.de/dlf/sendungen/dlfpodcast/523594/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4215_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4215_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4215,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4215_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4215_5_1.png",
+    "author":"",
+    "title":"Deutschlandradio Logo",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4215_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Kultur",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Deutschlandfunk - Corso",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/dlfcorso.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4215_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4215_5.jpeg",
+    "subdomain":"dlfcorso",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463219,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/11/dlf_20130411_1552_7bb4a903.mp3",
+        "idBroadcast":4215,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

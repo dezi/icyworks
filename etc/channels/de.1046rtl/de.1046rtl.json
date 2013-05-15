@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://4123.live.streamtheworld.com:80/RTL_AIR_SC",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"104.6 RTL Berlin hören - Radio RTL, RTL Hitradio, RTL Charts, Radio 104.6, 1046 - ",
+    "subDomaine":"1046rtl",
+    "relayDisabled":false,
+    "rank":21,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"104.6 Radio RTL ist das Hitradio von Berlin mit den besten Hits und neuesten Charts und purer Abwechslung. 104.6 RTL ist auch das Zuhause von Berlins lustigster Morgensendung „Arno und die Morgencrew\" und bekannt für die größten Gewinnspiele, spektakulärsten Promotions und beliebtesten Comedies der Stadt.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9013_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9013_3_1.png",
+    "longitude":13.4114,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9013_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"104.6 Radio RTL ist das Hitradio von Berlin mit den besten Hits und Charts und purer Abwechslung mit Arnos Morgencrew und jeder Menge Unterhaltung am Tag.",
+    "metaDataUrl":"http://4123.live.streamtheworld.com:80/RTL_AIR_SC",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":52.523405,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://4123.live.streamtheworld.com:80/RTL_AIR_SC",
+    "displaySubDomaine":"1046rtl",
+    "recentTitles":
+    [
+      "S?HNE MANNHEIMS  XAVIER NAIDOO - DEIN LEBEN",
+      "SWEDISH HOUSE MAFIA - DON\'T YOU WORRY CHILD",
+      "PINK - BLOW ME (ONE LAST KISS)",
+      "WWW.104.6RTL.COM - BERLINS HIT-RADIO",
+      "STANFOUR/JILL - IN YOUR ARMS",
+      "CARLY RAE JEPSEN - CALL ME MAYBE",
+      "GLEICH GEHT\'S WEITER ... - BERLINS HIT-RADIO",
+      "RUFUS / CHAKA KHAN - AIN\'T NOBODY",
+      "PASSENGER - LET HER GO",
+      "OLLY MURS - HEART SKIPS A BEAT",
+      "LYKKE LI - I FOLLOW RIVERS (REMIX)",
+      "TAIO CRUZ FEAT. KYLIE MINOGUE - HIGHER",
+      "ONE REPUBLIC - IF I LOSE MYSELF",
+      "SILBERMOND - HIMMEL AUF",
+      "BRUNO MARS - WHEN I WAS YOUR MAN",
+      "FOSTER THE PEOPLE - PUMPED UP KICKS",
+      "CALVIN HARRIS FEAT. ELLIE GOUL - I NEED YOUR LOVE",
+      "TOPLOADER - DANCING IN THE MOONLIGHT",
+      "PINK - TRY",
+      "POINTER SISTERS - I\'M SO EXCITED",
+      "JUSTIN TIMBERLAKE - MIRRORS",
+      "ADELE - SOMEONE LIKE YOU",
+      "LESLIE CLIO - I COULDN\'T CARE LESS",
+      "THE RASMUS - IN THE SHADOWS",
+      "THE LUMINEERS - HO HEY",
+      "DAVID GUETTA FEAT. SIA - TITANIUM",
+      "RIHANNA FEAT. MIKKY EKKO - STAY",
+      "TAIO CRUZ - TROUBLEMAKER",
+      "AVRIL LAVIGNE - HERE\'S TO NEVER GROWING UP",
+      "XAVIER NAIDOO - ALLES KANN BESSER WERDEN",
+      "WILL.I.AM FEAT. BRITNEY SPEARS - SCREAM & SHOUT",
+      "POLICE - EVERY BREATH YOU TAKE",
+      "PINK & NATE RUESS - JUST GIVE ME A REASON",
+      "SUNRISE AVENUE - HOLLYWOOD HILLS",
+      "THE SCRIPT - HALL OF FAME",
+      "SILBERMOND - DAS BESTE",
+      "PITBULL & CHRISTINA AGUILERA - FEEL THIS MOMENT",
+      "LINKIN\' PARK - BURN IT DOWN",
+      "ONE-T/COOL-T - THE MAGIC KEY",
+      "CHRISTINA ST?RMER - MILLIONEN LICHTER",
+      "THE BOSSHOSS - DON\'T GIMME THAT",
+      "LENA - NEON (LONLEY PEOPLE)",
+      "DISCO BOYS / MANFRED MANN - FOR YOU",
+      "EMELI SAND? - READ ALL ABOUT IT (PART III)",
+      "TEARS FOR FEARS - SHOUT",
+      "WILL.I.AM FEAT. JUSTIN BIEBER - #THAT POWER",
+      "ALEX CLARE - TOO CLOSE",
+      "LENKA - EVERYTHING AT ONCE",
+      "DAVID GUETTA, KID CUDI - MEMORIES",
+      "ELLIE GOULDING - LIGHTS",
+      "COLDPLAY - PARADISE"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://104.6rtl.com/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9013_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9013_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9013,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9013_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9013_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9013_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Pop",
+      "_city":"Berlin",
+      "_family":"104.6 RTL",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"104.6 RTL Berlins Hit-Radio",
+    "picture3Url":"",
+    "streamUrl":"http://4123.live.streamtheworld.com:80/RTL_AIR_SC",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9013_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9013_5.jpeg",
+    "subdomain":"1046rtl",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":14615,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://4123.live.streamtheworld.com:80/RTL_AIR_SC",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://4123.live.streamtheworld.com:80/RTL_AIR_SC",
+        "idBroadcast":9013,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

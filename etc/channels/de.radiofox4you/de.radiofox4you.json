@@ -1,0 +1,276 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://80.237.158.41:8100",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://80.237.158.41:8100",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Fox4You - ",
+    "subDomaine":"radiofox4you",
+    "relayDisabled":false,
+    "rank":711,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Der Lieblingssound für jedermann - ob brandaktuelle Foxhits oder Discofoxklassiker. Das ganze 7 Tage die Woche - 24 Stunden lang!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/11555_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/11555_3_1.png",
+    "longitude":14.966525,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/11555_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Der Lieblingssound für jedermann - ob brandaktuelle Foxhits oder Discofoxklassiker. Das ganze 7 Tage die Woche - 24 Stunden lang!",
+    "metaDataUrl":"http://80.237.158.41:8100",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":51.335709,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://80.237.158.41:8100",
+    "displaySubDomaine":"radiofox4you",
+    "recentTitles":
+    [
+      "Tyler Bonnie - Tell Me The Truth",
+      "Olaf Henning - Dieser DJ ist \'ne Pfeife",
+      "Romina Valentin - Gänsehaut",
+      "Oliver Haidt - Der Himmel schickt mir einen Teufel",
+      "Sandra - Secret Land (Reverse Mix)",
+      "Stefan Peters - Kein bisschen Frieden",
+      "Bernhard Brink - Verlorene Träume",
+      "Klaus Wendel - Der Sommer ist zurückgekommen",
+      "TQ - Let\'s Go to Tokyo (Axel Remix)",
+      "Hansi Süssenbach - Glück gehabt (Fox Mix)",
+      "Jack\'s Project - Shy Shy Sugarman (12\" Version)",
+      "Destivo - Sempre Sempre (Du bist mein Leben)",
+      "Aneka - Little Lady",
+      "C.C. Catch - Fire of Love",
+      "Michael Micheiloff - Schau in mein Herz (Maxi)",
+      "DJ Happy Vibes feat. Jazzmin - Man sollte nie (Radio)",
+      "Magic Lauster - Greatest Hits von Elvis (DJ-Mix)",
+      "Andreas Martin - Denn so bist Du",
+      "Nico Gemba - Rock mein Herz",
+      "Touche - Step By Step",
+      "Jürgen Drews - Für einen Tag",
+      "Christian Lais - Nur mit Dir",
+      "Denise und Mike Bauhaus - How Do You Do (Tanz Mix)",
+      "Julian Frank - Te quiero mas",
+      "Tony Turn - Cherry Chery",
+      "Touche - It\'s Okay",
+      "Hazell Dean - Shattered Glass Yisraelee Everlasting 80\'s Mix",
+      "Sandra - Stop For A Minute (Extended Version)",
+      "Tom Reichel feat. Fresh Fox - This is Magic",
+      "Simone - 15 Minuten",
+      "Laura Wilde - Ich sehe was was Du nicht siehst (Fox Mix)",
+      "Sandra - Around My Heart (Extended Version)",
+      "Die Traumprinzen - Ich zeig Dir die Sterne",
+      "Eddy Huntington - U.S.S.R.",
+      "K.B. Caps - Julia (Extended)",
+      "Simone - Heisskalter Engel",
+      "Peter Schilling - Ich vermisse dich",
+      "Mary Roos - Heiß und kalt",
+      "Jörg Schulte - So einfach stirbt die Liebe nicht (Club Mix)",
+      "T.m.-Joy - Tell Me Why (Album Edit)",
+      "Nik. P - Aus den Augen",
+      "Caesar - Jetzt gibt es kein zurück mehr (3select Rmx)",
+      "Oliver Thomas - Was will denn dieser Typ von dir",
+      "Sandra - Innocent Love (Extended Version)",
+      "T.m.-Joy - I Miss You (Album Edit)",
+      "Fantasy - Wenn Du Kein Engel Wärst",
+      "Allessa - Der Himmel weint heute Nacht",
+      "Three Lion´s Club - Bella Italia Mix 2k13 (JN vs MB Rmx)",
+      "Tommy Zanko - Nur für Dich",
+      "Marianne Rosenberg - Frage niemals",
+      "Neue Zeiten - Der verliebte Astronaut",
+      "Facs  Fiction - Give me the night (Maxi Version)",
+      "Tom Reichel - Du bist alles was ich will",
+      "Norman Langen - Mit dir will ich am Abgrund stehen",
+      "Simone - Megamix",
+      "Claudia Jung - Mein Plan Fürs Nächste Leben",
+      "Blue System - History",
+      "1st Heavenue - Take your Chance"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.fox4you.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/11555_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/11555_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":11555,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/11555_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/11555_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/11555_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"80er, Discofox",
+      "_city":"Görlitz",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Fox4You",
+    "picture3Url":"",
+    "streamUrl":"http://80.237.158.41:8100",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/11555_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/11555_5.jpeg",
+    "subdomain":"radiofox4you",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2462055,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://80.237.158.41:8100",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://80.237.158.41:8100",
+        "idBroadcast":11555,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":20883,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://80.237.158.41:8100",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://80.237.158.41:8100",
+        "idBroadcast":11555,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

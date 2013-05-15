@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699907",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+      "testResult":null,
+      "name":"Schwer war\'s ... - 22.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699908",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxH52gP/130321_0900_Die-Fruehaufdreher_Viel-Emotionen.mp3",
+      "testResult":null,
+      "name":"Viel Emotionen - 21.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699909",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axc5-Ff/130320_0500_Die-Fruehaufdreher_Gratulation.mp3",
+      "testResult":null,
+      "name":"Gratulation! - 20.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699910",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5yxc/130319_0500_Die-Fruehaufdreher_Osterraetsel.mp3",
+      "testResult":null,
+      "name":"Osterrätsel - 19.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699911",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp_yv6/130318_0500_Die-Fruehaufdreher_Wie-schoen-.mp3",
+      "testResult":null,
+      "name":"Wie schön ... - 18.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698165",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akg5-vd/130315_0900_Die-Fruehaufdreher_Der-Ohrwurm---das-seltsame-Wesen.mp3",
+      "testResult":null,
+      "name":"Der Ohrwurm - das seltsame Wesen... - 15.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698166",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akf9-Ff/130314_0900_Die-Fruehaufdreher_Habemus-Papam.mp3",
+      "testResult":null,
+      "name":"Habemus Papam - 14.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698167",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akf_-8p/130313_0900_Die-Fruehaufdreher_Intensiverlebnis.mp3",
+      "testResult":null,
+      "name":"Intensiverlebnis - 13.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698168",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_ybP/130312_0900_Die-Fruehaufdreher_Aufstieg-und-Fall-.mp3",
+      "testResult":null,
+      "name":"Aufstieg und Fall ... - 12.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698169",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP5-86/130311_0500_Die-Fruehaufdreher_Disney-oder-Tiefschnee-.mp3",
+      "testResult":null,
+      "name":"Disney oder Tiefschnee ... - 11.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696467",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ak69A86/130308_0900_Die-Fruehaufdreher_Tanz-der-Sinne.mp3",
+      "testResult":null,
+      "name":"Tanz der Sinne - 08.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696468",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ak652Nc/130307_0900_Die-Fruehaufdreher_Ortsnamen-Remix.mp3",
+      "testResult":null,
+      "name":"Ortsnamen-Remix - 07.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696469",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH_y8c/130306_0900_Die-Fruehaufdreher_Fastenzeit.mp3",
+      "testResult":null,
+      "name":"Fastenzeit - 06.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696470",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akc5A4P/130305_0900_Die-Fruehaufdreher_Moderne-Zeiten.mp3",
+      "testResult":null,
+      "name":"Moderne Zeiten - 05.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696471",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akp9-F6/130304_0900_Die-Fruehaufdreher_Sonne-getankt.mp3",
+      "testResult":null,
+      "name":"Sonne getankt! - 04.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694625",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_ANd52kc/130301_0900_Die-Fruehaufdreher_Der-Moment.mp3",
+      "testResult":null,
+      "name":"Der Moment - 01.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694626",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg5yrP/130228_0900_Die-Fruehaufdreher_Netter-Zugbegleiter.mp3",
+      "testResult":null,
+      "name":"Netter Zugbegleiter - 28.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694627",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg_-gc/130227_0900_Die-Fruehaufdreher_Erfolgsgeschichten.mp3",
+      "testResult":null,
+      "name":"Erfolgsgeschichten - 27.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694628",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_-gf/130226_0900_Die-Fruehaufdreher_Heiter-bis-gluecklich.mp3",
+      "testResult":null,
+      "name":"Heiter bis glücklich - 26.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694629",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANy5-N6/130225_0900_Die-Fruehaufdreher_Angekommen-.mp3",
+      "testResult":null,
+      "name":"Angekommen ... - 25.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692912",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANP_Ag6/130222_0900_Die-Fruehaufdreher_Hochbeglueckt.mp3",
+      "testResult":null,
+      "name":"Hochbeglückt - 22.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692913",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANG5Av6/130221_0900_Die-Fruehaufdreher_Alles-Eule.mp3",
+      "testResult":null,
+      "name":"Alles Eule - 21.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692914",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN65A86/130220_0900_Die-Fruehaufdreher_Das-neue-Grinsen.mp3",
+      "testResult":null,
+      "name":"Das neue Grinsen - 20.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692915",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN6_2xf/130219_0900_Die-Fruehaufdreher_Achtung-Fieber.mp3",
+      "testResult":null,
+      "name":"Achtung, Fieber! - 19.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692916",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH_Arf/130218_0500_Die-Fruehaufdreher_Fastenzeit.mp3",
+      "testResult":null,
+      "name":"Fastenzeit - 18.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689123",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8f_Akc/130208_0500_Die-Fruehaufdreher_Vorentscheid.mp3",
+      "testResult":null,
+      "name":"Vorentscheid - 08.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689124",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8y_-Nd/130207_0500_Die-Fruehaufdreher_Weiberfasching.mp3",
+      "testResult":null,
+      "name":"Weiberfasching - 07.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689125",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8P_A4f/130206_0500_Die-Fruehaufdreher_Gluecksboten.mp3",
+      "testResult":null,
+      "name":"Glücksboten - 06.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689126",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G5yxc/130205_0500_Die-Fruehaufdreher_Ein-Kueken-.mp3",
+      "testResult":null,
+      "name":"Ein Küken ... - 05.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689127",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A865AvP/130204_0500_Die-Fruehaufdreher_Vorsicht.mp3",
+      "testResult":null,
+      "name":"Vorsicht! - 04.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687247",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H_-46/130201_0500_Die-Fruehaufdreher_Fleischis-Fruehstueck.mp3",
+      "testResult":null,
+      "name":"Fleischis Frühstück - 01.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687248",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8c_y8f/130131_0500_Die-Fruehaufdreher_Ein-bisschen.mp3",
+      "testResult":null,
+      "name":"Ein bisschen... - 31.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687249",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8p_yN6/130130_0900_Die-Fruehaufdreher_Endspurt.mp3",
+      "testResult":null,
+      "name":"Endspurt - 30.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687250",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd52r6/130129_0900_Die-Fruehaufdreher_Genialer-Morgen.mp3",
+      "testResult":null,
+      "name":"Genialer Morgen - 29.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687251",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFg9Ax6/130128_0900_Die-Fruehaufdreher_Schenk-ein-bisschen-Glueck.mp3",
+      "testResult":null,
+      "name":"Schenk ein bißchen Glück! - 28.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685419",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFf524f/130125_0900_Die-Fruehaufdreher_Bon-Jovi-Spezial.mp3",
+      "testResult":null,
+      "name":"Bon Jovi-Spezial - 25.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685420",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFy5ykP/130124_0900_Die-Fruehaufdreher_Tag-der-Komplimente.mp3",
+      "testResult":null,
+      "name":"Tag der Komplimente - 24.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685421",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFy_-4c/130123_0900_Die-Fruehaufdreher_Beziehungsprobleme.mp3",
+      "testResult":null,
+      "name":"Beziehungsprobleme - 23.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685422",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_2rf/130122_0900_Die-Fruehaufdreher_Wintermatsch.mp3",
+      "testResult":null,
+      "name":"Wintermat(s)ch - 22.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685423",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG_2xf/130121_0500_Die-Fruehaufdreher_Weltknuddeltag.mp3",
+      "testResult":null,
+      "name":"Weltknuddeltag - 21.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683582",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFH9-x6/130118_0900_Die-Fruehaufdreher_Weekendfeeling.mp3",
+      "testResult":null,
+      "name":"Weekendfeeling - 18.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683583",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFH_2gP/130117_0500_Die-Fruehaufdreher_Grosse-Freude.mp3",
+      "testResult":null,
+      "name":"Große Freude - 17.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683584",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFc_yNf/130116_0900_Die-Fruehaufdreher_Prokrastination.mp3",
+      "testResult":null,
+      "name":"Prokrastination - 16.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683585",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52xd/130115_0900_Die-Fruehaufdreher_Unwort-des-Jahres.mp3",
+      "testResult":null,
+      "name":"Unwort des Jahres - 15.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683586",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4d9Av6/130114_0900_Die-Fruehaufdreher_Volles-Engagement.mp3",
+      "testResult":null,
+      "name":"Volles Engagement - 14.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681659",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4g9-xc/130111_0900_Die-Fruehaufdreher_Gut-gelaunt-ins-Wochenende.mp3",
+      "testResult":null,
+      "name":"Gut gelaunt ins Wochenende! - 11.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681660",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4g_Avf/130110_0900_Die-Fruehaufdreher_Floetentoene.mp3",
+      "testResult":null,
+      "name":"Flötentöne - 10.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681661",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4f5-bP/130109_0900_Die-Fruehaufdreher_Kindermund-Geschichten.mp3",
+      "testResult":null,
+      "name":"Kindermund-Geschichten - 09.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681662",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y52F6/130108_0900_Die-Fruehaufdreher_Kinheitserinnerungen.mp3",
+      "testResult":null,
+      "name":"Kinheitserinnerungen - 08.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17681663",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y_2Fd/130107_0500_Die-Fruehaufdreher_Sie-sind-wieder-da.mp3",
+      "testResult":null,
+      "name":"Sie sind wieder da! - 07.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Ein Download-Angebot des Bayerischen Rundfunks",
+    "seoTitle":"Bayern 3 - Die Frühaufdreher",
+    "subDomaine":"bayern3fruehaufdreher",
+    "relayDisabled":false,
+    "rank":2044,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die BAYERN 3-Frühaufdreher zwischen 5.00 und 9.00 Uhr morgens ist garantiert nie langweilig! Außerdem im Podcast: der tägliche BAYERN 3-Anrufbeantworter mit \"Promis\" wie dem bayerischen Ministerpräsidenten, Oliver Kahn, der Lichtgestalt etc. Viel Spaß!",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/7875_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/7875_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/7875_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Der neue Morgen in BAYERN 3 garantiert nie langweilig! Außerdem: der tägliche BAYERN 3-Anrufbeantworter mit \"Promis\" wie Olli Kahn.",
+    "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Schwer war\'s ... - 22.03.2013",
+        "episode":0,
+        "description":"... das heutige Osterrätsel. Aber Ralph hat es gelöst!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "published":"Fri, 22 Mar 2013 07:00:01 +0100",
+        "bitRate":128,
+        "contentLength":15648007
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Viel Emotionen - 21.03.2013",
+        "episode":1,
+        "description":"Bei den Frühaufdrehern war es heute sehr emotional ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxH52gP/130321_0900_Die-Fruehaufdreher_Viel-Emotionen.mp3",
+        "published":"Thu, 21 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":12738594
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gratulation! - 20.03.2013",
+        "episode":2,
+        "description":"Es gibt einen Grund zu feiern, denn Fleischi hat heute Geburtstag. Alles Gute!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axc5-Ff/130320_0500_Die-Fruehaufdreher_Gratulation.mp3",
+        "published":"Wed, 20 Mar 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":9851749
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Osterrätsel - 19.03.2013",
+        "episode":3,
+        "description":"Das Osterrätsel der Frühaufdreher war gar nicht so einfach. Aber die Hörer haben gut aufgepasst und es gelöst!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5yxc/130319_0500_Die-Fruehaufdreher_Osterraetsel.mp3",
+        "published":"Tue, 19 Mar 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":12834306
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wie schön ... - 18.03.2013",
+        "episode":4,
+        "description":"... sind Frauen und Männer. Hängt Attraktivität wirklich vom Alter ab? Die Frühaufdreher wollten es wissen. Hören Sie doch einfach selbst.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp_yv6/130318_0500_Die-Fruehaufdreher_Wie-schoen-.mp3",
+        "published":"Mon, 18 Mar 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":12127119
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Ohrwurm - das seltsame Wesen... - 15.03.2013",
+        "episode":5,
+        "description":"... feiert heute Jubiläum. Fleischi präsentiert heute seinen 1.000sten und erlebt eine süße Überraschung. Außerdem geht\'s in der Frühaufdreherstube sportlich und spannend zu: Wer gewinnt \"Diefschnee\" und wer in der Championsleague.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akg5-vd/130315_0900_Die-Fruehaufdreher_Der-Ohrwurm---das-seltsame-Wesen.mp3",
+        "published":"Fri, 15 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":16451325
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Habemus Papam - 14.03.2013",
+        "episode":6,
+        "description":"Er hat das Rennen gemacht: Franziskus aus Argentinien ist der neue Papst. Doch was ist bei den Frühaufdrehern sonst noch los? Da glitzert die Discokugel mit dem \"Diefschnee\" um die Wette und \"skandalöse\" Nachrichten gehen rund.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akf9-Ff/130314_0900_Die-Fruehaufdreher_Habemus-Papam.mp3",
+        "published":"Thu, 14 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":6964905
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Intensiverlebnis - 13.03.2013",
+        "episode":7,
+        "description":"Die Frühaufdreher beschäftigen sich auch heute wieder mit einem außergewöhnlichen und schier unaussprechlichen Ortsnamen\". Außerdem spielen die drei \"Disney oder Diefschnee\" und hören in die Postillon-Nachrichten rein.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akf_-8p/130313_0900_Die-Fruehaufdreher_Intensiverlebnis.mp3",
+        "published":"Wed, 13 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":10002215
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Aufstieg und Fall ... - 12.03.2013",
+        "episode":8,
+        "description":"... des früheren Ministers Theodor zu Guttenberg läuft ab Donnerstag als Satire im Kino. Frühaufdreher Axel hat ihn schon gesehen. Hören Sie wie seine Stilkritik ausfällt.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_ybP/130312_0900_Die-Fruehaufdreher_Aufstieg-und-Fall-.mp3",
+        "published":"Tue, 12 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8151492
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Disney oder Tiefschnee ... - 11.03.2013",
+        "episode":9,
+        "description":".. das ist hier die Frage! Einfach mitspielen und einen Traumurlaub gewinnen!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP5-86/130311_0500_Die-Fruehaufdreher_Disney-oder-Tiefschnee-.mp3",
+        "published":"Mon, 11 Mar 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":13676076
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Tanz der Sinne - 08.03.2013",
+        "episode":10,
+        "description":"Ab nächste Woche lädt BAYERN 3 Sie und Ihre Familie zu einem unvergesslichen Traum-Trip ein. \"Disney oder Diefschnee\" heißt es da und unsere Frühaufdreher fangen schon mal an zu träumen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ak69A86/130308_0900_Die-Fruehaufdreher_Tanz-der-Sinne.mp3",
+        "published":"Fri, 08 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":9575896
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ortsnamen-Remix - 07.03.2013",
+        "episode":11,
+        "description":"Bayerns munterste Aufsteh-WG liefert auch heute wieder mehr Meinung und Durchblick am Morgen und macht gute Laune ... vor allem mit unaussprechlichen Ortsnamen, die sich herrlich für einen musikalischen Remix eignen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ak652Nc/130307_0900_Die-Fruehaufdreher_Ortsnamen-Remix.mp3",
+        "published":"Thu, 07 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":13621741
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Fastenzeit - 06.03.2013",
+        "episode":12,
+        "description":"Heute vor drei Wochen hat die Fastenzeit begonnen. Aber wie standhaft sind die Bayern? Wer hat durchgehalten - wer hat aufgegeben und wie können wir eigentlich unseren inneren Schweinehund überwinden, noch bis Ostern unseren guten Vorsätzen treu zu bleiben?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH_y8c/130306_0900_Die-Fruehaufdreher_Fastenzeit.mp3",
+        "published":"Wed, 06 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":11252749
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Moderne Zeiten - 05.03.2013",
+        "episode":13,
+        "description":"Wie lernen Kinder den Umgang mit Geld am besten? Im Moment haben in Bayern 360.000 Minderjährige ein Taschengeldkonto mit EC-Karte. Ist das modern? Ist es auch sinnvoll? Die Frühaufdreher fragen nach.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akc5A4P/130305_0900_Die-Fruehaufdreher_Moderne-Zeiten.mp3",
+        "published":"Tue, 05 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":18139462
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Sonne getankt! - 04.03.2013",
+        "episode":14,
+        "description":"Sonne ist doch ein \"Gute-Laune-Faktor\" und ganz Bayern hat sie am Wochenende in vollen Zügen genossen. Auch die Ministerpräsidenten ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akp9-F6/130304_0900_Die-Fruehaufdreher_Sonne-getankt.mp3",
+        "published":"Mon, 04 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8588677
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Moment - 01.03.2013",
+        "episode":15,
+        "description":"Es ist 5.00 Uhr, es ist dunkel, es ist kalt, die ersten Bayern machen sich auf den Weg in die Arbeit. Glücklicherweise sind die Frühaufdreher schon zu hören. Sie erzählen von ihren \"liebsten Lieblingen\", vom BAYERN 3-Kultabend mit Thomas Gottschalk am Sonntag und schicken einen Hörer zum exklusiven Depeche Mode Clubkonzert nach Wien.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_ANd52kc/130301_0900_Die-Fruehaufdreher_Der-Moment.mp3",
+        "published":"Fri, 01 Mar 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":9794071
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Netter Zugbegleiter - 28.02.2013",
+        "episode":16,
+        "description":"Fleischi macht Sie heute Morgen glücklich! Er ist im Zug unterwegs und beschenkt Sie mit BAYERN 3-Glücksbrezn, Kaffee und außergewöhnlichen Durchsagen :-) Außerdem gibt es Nachrichten vom Petersplatz in Rom. BR-Korrespondent Philipp Greiner spricht mit Claudia und Axel über den endgültigen Abschied von Papst Benedikt XVI.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg5yrP/130228_0900_Die-Fruehaufdreher_Netter-Zugbegleiter.mp3",
+        "published":"Thu, 28 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":15129320
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Erfolgsgeschichten - 27.02.2013",
+        "episode":17,
+        "description":"Was fängt dramatisch an und endet glücklich? Der \"Liebling des Morgens\": Eine Frau, die sich gerade noch aus einem brennenden Haus retten konnte! Das Interview, das sie danach gegeben hat, wurde zum Song produziert und zum Internetrenner. Noch eine Erfolgsgeschichte: Unser heutiger Gewinner der Tickets fürs DFB-Pokalspiel FC Bayern gegen Borussia Dortmund. Herzlichen Glückwunsch!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg_-gc/130227_0900_Die-Fruehaufdreher_Erfolgsgeschichten.mp3",
+        "published":"Wed, 27 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":12699723
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Heiter bis glücklich - 26.02.2013",
+        "episode":18,
+        "description":"Drei Frühaufdreher, ein Morgen! Wer sich das Glück diese Woche gesichert hat und zu Zehnt in Schuhbecks \"Teatro\" schlemmen darf oder wie kreativ die Postillon-Nachrichten heute klingen, das erfahren Sie hier.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_-gf/130226_0900_Die-Fruehaufdreher_Heiter-bis-gluecklich.mp3",
+        "published":"Tue, 26 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":7919106
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Angekommen ... - 25.02.2013",
+        "episode":19,
+        "description":"... bei den Frühaufdrehern und im Morgen nach der Oscarnacht. Außerdem Willkommen! in einer Woche voller Überraschungen, die mit unvergesslichen Events zu Ihrer Glückswoche werden kann.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANy5-N6/130225_0900_Die-Fruehaufdreher_Angekommen-.mp3",
+        "published":"Mon, 25 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":11711668
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hochbeglückt - 22.02.2013",
+        "episode":20,
+        "description":"Die Frühaufdreher präsentieren Ihnen die Trends des heutigen Morgens ;) Da gibt es kriminell lustige \"Lieblinge der Woche\"; Schneeverliebtheit und die Chance vom FC Bayern Bus abgeholt zu werden ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANP_Ag6/130222_0900_Die-Fruehaufdreher_Hochbeglueckt.mp3",
+        "published":"Fri, 22 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":7675018
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Alles Eule - 21.02.2013",
+        "episode":21,
+        "description":"Hinter dem Kühlergrill eines Autos leuchten zwei gelbe Augen - hellwach, furchtlos! Kein Witz, sondern der Liebling des Morgens bei den Frühaufdrehern ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANG5Av6/130221_0900_Die-Fruehaufdreher_Alles-Eule.mp3",
+        "published":"Thu, 21 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":4825372
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Das neue Grinsen - 20.02.2013",
+        "episode":22,
+        "description":"Auch heute sorgen die Frühaufdreher wieder für mehr Meinung und Durchblick am Morgen und machen gute Laune ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN65A86/130220_0900_Die-Fruehaufdreher_Das-neue-Grinsen.mp3",
+        "published":"Wed, 20 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":13757160
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Achtung, Fieber! - 19.02.2013",
+        "episode":23,
+        "description":"Bayern hat Fieber. Viele sind krank und liegen mit 40 Grad im Bett - was Sie noch nicht über Fieber wussten erfahren Sie heute bei den Frühaufdrehern. Außerdem gibt es neuste Postillon-Nachrichten und ein fröhliches \"Guten Morgen\" aus Bayreuth.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN6_2xf/130219_0900_Die-Fruehaufdreher_Achtung-Fieber.mp3",
+        "published":"Tue, 19 Feb 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8308644
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Fastenzeit - 18.02.2013",
+        "episode":24,
+        "description":"Kein Fleisch, keinen Alkohol und nichts Süßes - darauf verzichten die meisten während der Fastenzeit. Aber manch einer fastet eher ungewöhnlich, die Frühaufdreher haben sich mal umgehört.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH_Arf/130218_0500_Die-Fruehaufdreher_Fastenzeit.mp3",
+        "published":"Mon, 18 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":9664504
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Vorentscheid - 08.02.2013",
+        "episode":25,
+        "description":"Alles neu - zumindest beim Vorentscheid für den Eurovision-Song-Contest - da haben die Frühaufdreher mal bei Anke Engelke nachgefragt, die die Sendung moderiert.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8f_Akc/130208_0500_Die-Fruehaufdreher_Vorentscheid.mp3",
+        "published":"Fri, 08 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":13408164
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Weiberfasching - 07.02.2013",
+        "episode":26,
+        "description":"Heute ist Weiberfasching und Claudia steht mit ihrer Schere ganz frustriert im Studio, denn keiner ihrer Kollegen hat eine Krawatte. Aber zum Glück gibt\'s online die BAYERN 3 - Frühaufdreher - Krawatte zum Ausdrucken... ...und schon kommt Claudia samt Schere zum Einsatz.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8y_-Nd/130207_0500_Die-Fruehaufdreher_Weiberfasching.mp3",
+        "published":"Thu, 07 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":10990270
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Glücksboten - 06.02.2013",
+        "episode":27,
+        "description":"Die Frühaufdreher sind heute als Glücksboten unterwegs und bringen ein bisschen Glück zu Ihnen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8P_A4f/130206_0500_Die-Fruehaufdreher_Gluecksboten.mp3",
+        "published":"Wed, 06 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":7567603
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ein Küken ... - 05.02.2013",
+        "episode":28,
+        "description":".. entzweit die Geister. Die einen hören darin schon \"den\" Faschingshit 2013, die anderen wollen das Lied am liebsten gar nicht mehr hören. Aber bilden Sie sich sich doch Ihre eigene Meinung und hören einfach selbst.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G5yxc/130205_0500_Die-Fruehaufdreher_Ein-Kueken-.mp3",
+        "published":"Tue, 05 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8378025
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Vorsicht! - 04.02.2013",
+        "episode":29,
+        "description":"Vorsicht vor den bösen Schnupfenviren, denn die haben fast alle Frühaufdreher voll im Griff.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A865AvP/130204_0500_Die-Fruehaufdreher_Vorsicht.mp3",
+        "published":"Mon, 04 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":24481575
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Fleischis Frühstück - 01.02.2013",
+        "episode":30,
+        "description":"Heute macht Fleischi ganz in der Früh viele Schichtarbeiter glücklich mit seinem persönlichen Fleisch(i)-Frühstück. Und damit er nicht so alleine ist, hat er die BAYERN 3 - Band mit dabei.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H_-46/130201_0500_Die-Fruehaufdreher_Fleischis-Fruehstueck.mp3",
+        "published":"Fri, 01 Feb 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":13489248
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Ein bisschen... - 31.01.2013",
+        "episode":31,
+        "description":"Ein bisschen Postillon, ein wenig Liebling des Tages dazu noch eine Prise Verhörhammer und fast ist er fertig, der heutige Frühaufdreher-Podcast. Probieren sie doch mal!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8c_y8f/130131_0500_Die-Fruehaufdreher_Ein-bisschen.mp3",
+        "published":"Thu, 31 Jan 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":6474639
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Endspurt - 30.01.2013",
+        "episode":32,
+        "description":"BAYERN 3 bewegt - jeden Tag versuchen wir mit unserer neuen Aktion Ihnen ein Lächeln zu schenken. Jetzt ganz neu mit der BAYERN 3-Glücksbotschaft - zum Ausdrucken unter bayern3.de. Die Frühaufdreher sagen, wie\'s geht. Außerdem berichten die drei über den Endspurt beim Volksentscheid gegen Studiengebühren in Bayern und über große Probleme mit Behörden bei den anstehenden Faschingsumzügen in Bayern.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8p_yN6/130130_0900_Die-Fruehaufdreher_Endspurt.mp3",
+        "published":"Wed, 30 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":15981121
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Genialer Morgen - 29.01.2013",
+        "episode":33,
+        "description":"Sagen Sie jetzt nichts - Lächeln Sie einfach. Mit Humortrainer und Lachtherapeut Christoph Emmelmann aus München. Er ist heute Gast bei den Frühaufdrehern. Mit spannenden und lustigen Experimenten zum Lachen und er verspricht: Er wird uns alle zum Lachen bringen. Außerdem eine neue Social Media-Idee wie sich Mann und Frau finden, obwohl sie sich vielleicht nur ganz kurz im Zug oder auf dem Bahnsteig gesehen haben.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd52r6/130129_0900_Die-Fruehaufdreher_Genialer-Morgen.mp3",
+        "published":"Tue, 29 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":16062205
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schenk ein bißchen Glück! - 28.01.2013",
+        "episode":34,
+        "description":"Heute startet die Aktion \"BAYERN 3 bewegt\". Wir sorgen dafür, dass es in Bayern noch freundlicher zugeht. Denn mit einem Lächeln auf den Lippen ist das Leben bekanntlich schöner und macht zudem auch mehr Spaß. Frühaufdreher Fleischi hat sich schon mal auf den Weg gemacht und sich unters Volk gemischt ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFg9Ax6/130128_0900_Die-Fruehaufdreher_Schenk-ein-bisschen-Glueck.mp3",
+        "published":"Mon, 28 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":11721281
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Bon Jovi-Spezial - 25.01.2013",
+        "episode":35,
+        "description":"Heute ist der Spaß-bei-der-Arbeit-Tag und die Frühaufdreher freuen sich schon auf jede Menge Chef-Witze. Außerdem gehen die MegaStarWochen zu Ende - dafür aber mit einem Bon-Jovi-Spezial ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFf524f/130125_0900_Die-Fruehaufdreher_Bon-Jovi-Spezial.mp3",
+        "published":"Fri, 25 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":18684481
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Tag der Komplimente - 24.01.2013",
+        "episode":36,
+        "description":"Wer bekommt nicht gerne mal ein Kompliment. Nur - was zuviel ist, ist zuviel, finden die Frühaufdreher. Nicht genug bekommen unsere Hörer aber vom Ticketalarm - und das zu Recht. Denn am letzten Tag der BAYERN 3-Megastarwochen hauen die drei mit Freude die letzten Tickets raus und halten dabei noch ein Highlight für Freitag bereit.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFy5ykP/130124_0900_Die-Fruehaufdreher_Tag-der-Komplimente.mp3",
+        "published":"Thu, 24 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":12707665
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Beziehungsprobleme - 23.01.2013",
+        "episode":37,
+        "description":"Wann hat sich Ihr Partner das letzte Mal bei Ihnen für etwas bedankt? Wer wenig schläft, wird mürrisch und undankbar und das führt schlußendlich zu Liebesentzug - so das Ergebnis einer wissenschaftlichen Studie. Da haben die BAYERN 3-Frühaufdreher aber ein Wörtchen mitzureden und ziehen ihr Fazit - Schlaf hin oder her, einfach öfter mal \"Danke\" sagen ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFy_-4c/130123_0900_Die-Fruehaufdreher_Beziehungsprobleme.mp3",
+        "published":"Wed, 23 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":9899397
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wintermat(s)ch - 22.01.2013",
+        "episode":38,
+        "description":"Wie unfreundlich sind wir Deutsche zu Kindern? Dazu gibt es jetzt eine Studie und die Frühaufdreher sprechen mit Ihnen darüber. Abgesehen davon macht sich Fleischi noch Gedanken zum \"Schnee schippen\" ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFP_2rf/130122_0900_Die-Fruehaufdreher_Wintermatsch.mp3",
+        "published":"Tue, 22 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8976961
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Weltknuddeltag - 21.01.2013",
+        "episode":39,
+        "description":"Heute am Weltknuddeltag wird bei den Frühaufdrehern mal so richtig geknuddelt, das hebt definitiv die Laune.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG_2xf/130121_0500_Die-Fruehaufdreher_Weltknuddeltag.mp3",
+        "published":"Mon, 21 Jan 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":7263746
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Weekendfeeling - 18.01.2013",
+        "episode":40,
+        "description":"Was ist nur mit Frühaufdreher Axel los. Der verwechselt heute erstmal oben und unten beim Mikrofon. Das könnte fast ein Liebling der Woche werden findet Fleischi. Dschungelcamp und \"Löwen für Eilige\" setzen die Bauchmuskeln dann aber mindestens ebenso heftig in Bewegung ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFH9-x6/130118_0900_Die-Fruehaufdreher_Weekendfeeling.mp3",
+        "published":"Fri, 18 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":14885232
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Große Freude - 17.01.2013",
+        "episode":41,
+        "description":"Große Freude herrscht bei Gabi und Andreas, denn beide haben heute bei den Megastar-Wochen Tickets für ihr Lieblingskonzert gewonnen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFH_2gP/130117_0500_Die-Fruehaufdreher_Grosse-Freude.mp3",
+        "published":"Thu, 17 Jan 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8169882
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Prokrastination - 16.01.2013",
+        "episode":42,
+        "description":"Top-Thema bei den Frühaufdrehern heute: Die Prokrastination oder auch \"Aufschieberitis\". Das ist tatsächlich eine Krankheit und löst Gesprächsbedarf bei unserem Bundesjogi Löw aus ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFc_yNf/130116_0900_Die-Fruehaufdreher_Prokrastination.mp3",
+        "published":"Wed, 16 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8439465
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Unwort des Jahres - 15.01.2013",
+        "episode":43,
+        "description":"Lieblinge des Morgens sind für Fleischi die \"Küchendesigner\" und das Unwort des Jahres 2012 wird gesucht, neben \"Wulffen\" und \"Schleckerfrauen, gibt\'s noch jede Menge seltsamer Vorschläge. Das lässt unsere drei etwas ratlos zurück ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52xd/130115_0900_Die-Fruehaufdreher_Unwort-des-Jahres.mp3",
+        "published":"Tue, 15 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":15064536
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Volles Engagement - 14.01.2013",
+        "episode":44,
+        "description":"Hinein - in die zweite Megastarwoche: Täglich verschenken wir von früh bis spät Konzerttickets. Die Frühaufdreher sind schon gespannt, wer die nächsten Karten bekommt. Sie haben außerdem die neuen Postillion-Comedynachrichten dabei, küren einen geklauten Fisch zum \"Liebling des Morgens\", wagen einen Blick ins Dschungelcamp und natürlich auf die Golden-Globe-Verleihung. Wer hat das Rennen gemacht?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4d9Av6/130114_0900_Die-Fruehaufdreher_Volles-Engagement.mp3",
+        "published":"Mon, 14 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":10439818
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gut gelaunt ins Wochenende! - 11.01.2013",
+        "episode":45,
+        "description":"Frühaufdreher Fleischi sorgt für gute Stimmung mit einem Tusch; \"Postillion\" Thies Neubert hat schräge Nachrichten dabei und auch sonst gibt\'s jede Menge zu bereden ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4g9-xc/130111_0900_Die-Fruehaufdreher_Gut-gelaunt-ins-Wochenende.mp3",
+        "published":"Fri, 11 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":16135348
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Flötentöne - 10.01.2013",
+        "episode":46,
+        "description":"Die Frühaufdreher spielen Blockflöte - \"am Tag der Blockflöten\". Sie reden über den neuen Film\"Der Schlussmacher\" von Matthias Schweighöfer und über den Trend, Beziehungen per SMS zu beenden. Außerdem gibt es wieder einen Liebling des Morgens: Eine Holländerin, die auf dem Rastplatz \"vergessen\" wurde ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4g_Avf/130110_0900_Die-Fruehaufdreher_Floetentoene.mp3",
+        "published":"Thu, 10 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":16509003
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kindermund-Geschichten - 09.01.2013",
+        "episode":47,
+        "description":"Die Frühaufdreher heute mit: dem Liebling des Morgens, der diesmal aus Norwegen kommt; lustigen Geschichten, die arglos aus Kindermündern geplaudert werden und natürlich dem Ticketalarm. Viel Spaß!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4f5-bP/130109_0900_Die-Fruehaufdreher_Kindermund-Geschichten.mp3",
+        "published":"Wed, 09 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":15276860
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kinheitserinnerungen - 08.01.2013",
+        "episode":48,
+        "description":"Die deutsche Sesamstraße wird heute 40 und die Frühaufdreher werfen einen amüsierten Blick auf Ernie und Bert und ihre Mitbewohner. Außerdem heißt es bei den drei auch heute wieder - aufgepaßt und mitgemacht, bei den BAYERN 3-MegaStarWochen ...",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y52F6/130108_0900_Die-Fruehaufdreher_Kinheitserinnerungen.mp3",
+        "published":"Tue, 08 Jan 2013 09:00:01 +0100",
+        "bitRate":128,
+        "contentLength":8580318
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Sie sind wieder da! - 07.01.2013",
+        "episode":49,
+        "description":"Die Frühaufdreher sind wieder da. Total erholt kommen die Drei aus dem Urlaub zurück und schon gibt\'s wieder Geschenke für die Hörer, denn heute starten die Mega-Star-Wochen!!!!",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y_2Fd/130107_0500_Die-Fruehaufdreher_Sie-sind-wieder-da.mp3",
+        "published":"Mon, 07 Jan 2013 05:00:01 +0100",
+        "bitRate":128,
+        "contentLength":10339926
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.br-online.de/podcast/bayern3-fruehaufdreher/cast.xml",
+    "displaySubDomaine":"bayern3fruehaufdreher",
+    "recentTitles":
+    [
+      "Schwer war\'s ... - 22.03.2013",
+      "Viel Emotionen - 21.03.2013",
+      "Gratulation! - 20.03.2013",
+      "Osterrätsel - 19.03.2013",
+      "Wie schön ... - 18.03.2013",
+      "Der Ohrwurm - das seltsame Wesen... - 15.03.2013",
+      "Habemus Papam - 14.03.2013",
+      "Intensiverlebnis - 13.03.2013",
+      "Aufstieg und Fall ... - 12.03.2013",
+      "Disney oder Tiefschnee ... - 11.03.2013",
+      "Tanz der Sinne - 08.03.2013",
+      "Ortsnamen-Remix - 07.03.2013",
+      "Fastenzeit - 06.03.2013",
+      "Moderne Zeiten - 05.03.2013",
+      "Sonne getankt! - 04.03.2013",
+      "Der Moment - 01.03.2013",
+      "Netter Zugbegleiter - 28.02.2013",
+      "Erfolgsgeschichten - 27.02.2013",
+      "Heiter bis glücklich - 26.02.2013",
+      "Angekommen ... - 25.02.2013",
+      "Hochbeglückt - 22.02.2013",
+      "Alles Eule - 21.02.2013",
+      "Das neue Grinsen - 20.02.2013",
+      "Achtung, Fieber! - 19.02.2013",
+      "Fastenzeit - 18.02.2013",
+      "Vorentscheid - 08.02.2013",
+      "Weiberfasching - 07.02.2013",
+      "Glücksboten - 06.02.2013",
+      "Ein Küken ... - 05.02.2013",
+      "Vorsicht! - 04.02.2013",
+      "Fleischis Frühstück - 01.02.2013",
+      "Ein bisschen... - 31.01.2013",
+      "Endspurt - 30.01.2013",
+      "Genialer Morgen - 29.01.2013",
+      "Schenk ein bißchen Glück! - 28.01.2013",
+      "Bon Jovi-Spezial - 25.01.2013",
+      "Tag der Komplimente - 24.01.2013",
+      "Beziehungsprobleme - 23.01.2013",
+      "Wintermat(s)ch - 22.01.2013",
+      "Weltknuddeltag - 21.01.2013",
+      "Weekendfeeling - 18.01.2013",
+      "Große Freude - 17.01.2013",
+      "Prokrastination - 16.01.2013",
+      "Unwort des Jahres - 15.01.2013",
+      "Volles Engagement - 14.01.2013",
+      "Gut gelaunt ins Wochenende! - 11.01.2013",
+      "Flötentöne - 10.01.2013",
+      "Kindermund-Geschichten - 09.01.2013",
+      "Kinheitserinnerungen - 08.01.2013",
+      "Sie sind wieder da! - 07.01.2013"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Die BAYERN 3-Frühaufdreher Claudia Conrath, Axel Robert Müller und Bernhard \"Fleischi\" Fleischmann: Eine \"zuagroaste\" Saarländerin, ein immer hungriger Unterfranke und ein ohrwurmverrückter Niederbayer. Mit diesem Trio wird es wochentags zwischen 5.00 und 9.00 Uhr garantiert nie langweilig! Hier können Sie sich die Highlights der Show jeden Tag bequem runterladen und anhören!",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.br-online.de/podcast/mp3-download/bayern3/mp3-download-podcast-bayern3-fruehaufdreher.shtml",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/7875_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/7875_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":7875,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/7875_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/7875_5_1.png",
+    "author":"",
+    "title":"Download & Podcast: Die BAYERN 3-Frühaufdreher - BAYERN 3 © BR",
+    "picture4Url":"http://static.radio.de/images/broadcasts/7875_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Comedy, Region",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Podcast",
+      "_city":"München",
+      "_family":"Bayern 3",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Bayern 3 - Die Frühaufdreher",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/bayern3fruehaufdreher.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/7875_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/7875_5.jpeg",
+    "subdomain":"bayern3fruehaufdreher",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458681,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax6_AF6/130322_0700_Die-Fruehaufdreher_Schwer-wars-.mp3",
+        "idBroadcast":7875,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

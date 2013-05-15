@@ -1,0 +1,3216 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+NDR Info - ZeitZeichen Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="NDR Info - ZeitZeichen (128kbps) - ZeitZeichen erinnert täglich an Personen und Ereignisse der Vergangenheit und macht Geschichte erfahrbar, um das Gegenwartsbewusstsein zu schärfen. Die Sendung erinnert an Ereignisse der Weltgeschichte." />
+<meta property="og:title" content="NDR Info - ZeitZeichen"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/3793_4.gif"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://ndrzeitzeichen.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://ndrzeitzeichen.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366770998283" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366770998283" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://ndrzeitzeichen.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "ndrzeitzeichen",
+	
+	pageRequestUrl : "http://ndrzeitzeichen.radio.de/broadcast_info.jsf",
+	pageDomain : "ndrzeitzeichen.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17702970","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","testResult":null,"name":"Der Todestag des Journalisten Egon Erwin Kisch","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702971","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130330-0949-1142.mp3","testResult":null,"name":"Geburtstag des Malers Vincent van Gogh","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702534","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130329-0950-0542.mp3","testResult":null,"name":"Todestag des Unternehmers Johann Jakob Astor","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702535","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130328-0959-5942.mp3","testResult":null,"name":"Der Todestag des russischen Komponisten Sergej Rachmaninow","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702536","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130327-1002-3942.mp3","testResult":null,"name":"Geburtstag Agnes Windeck","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702537","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130326-1002-4742.mp3","testResult":null,"name":"Geburtstag Gert Bastian","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702538","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130325-0947-2242.mp3","testResult":null,"name":"Geburtstag Adalbert Czerny","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702539","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130324-1018-1642.mp3","testResult":null,"name":"Pink Floyds Album The dark side of the moon","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17702540","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130323-0959-1442.mp3","testResult":null,"name":"Verabschiedung von Hitlers Ermächtigungsgesetz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700981","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130322-0957-5742.mp3","testResult":null,"name":"Todestag Cilly Aussem","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700982","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130321-1018-3242.mp3","testResult":null,"name":"Geburtstag des Dichters Jean Paul","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700983","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130320-1002-3542.mp3","testResult":null,"name":"Der Beginn des Irakkriegs","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700984","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130319-1007-5242.mp3","testResult":null,"name":"Geburtstag Josef Albers","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700985","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130318-1007-1942.mp3","testResult":null,"name":"Geburtstag Friedrich Hebbel","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700986","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130317-0959-5242.mp3","testResult":null,"name":"Verstaatlichung der Ostindien-Kompanie","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17700987","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130316-0943-3942.mp3","testResult":null,"name":"Todestag George Bähr","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699231","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130315-0952-5442.mp3","testResult":null,"name":"Tod Sir Henry Bessemer","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699232","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130314-0949-5742.mp3","testResult":null,"name":"Geburtstag Diane Arbus","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699233","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130313-0957-5942.mp3","testResult":null,"name":"Der Anschluss Österreichs an das Deutsche Reich","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699234","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130312-1019-5542.mp3","testResult":null,"name":"Geburtstag André Le Notre","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699235","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130311-1009-2942.mp3","testResult":null,"name":"Giovanni de Medici wird Papst","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699236","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130310-0948-2542.mp3","testResult":null,"name":"Geburtstag Bix Beiderbecke","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17698023","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-1511-2642.mp3","testResult":null,"name":"Todestag Cyril N. Parkinson","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697480","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130308-1026-3942.mp3","testResult":null,"name":"Der Militärputsch in Syrien","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697481","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130307-0949-3042.mp3","testResult":null,"name":"Todestag des Carl Diercke","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697482","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130306-0951-5642.mp3","testResult":null,"name":"Geburtstag von Therese Giehse","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697483","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-0947-2142.mp3","testResult":null,"name":"Todestag Josef Stalin","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697484","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130304-1253-4642.mp3","testResult":null,"name":"Todestag Ossip K. Flechtheim","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697485","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130303-0958-0042.mp3","testResult":null,"name":"Friedensvertrag Brest-Litowsk","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17697486","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130302-0953-2142.mp3","testResult":null,"name":"Uraufführung von \"King Kong\"","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695654","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130301-0955-0342.mp3","testResult":null,"name":"Todestag Gabriele d'Annunzio","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695655","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130228-0957-5342.mp3","testResult":null,"name":"Das Bundeskleingartengesetz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695656","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130227-1020-4542.mp3","testResult":null,"name":"Geburtstag Alfred Hrdlicka","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695657","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130226-1004-3142.mp3","testResult":null,"name":"Die Augsburger Puppenkiste","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695658","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130225-1001-5242.mp3","testResult":null,"name":"Geburtstag von George Harrison","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17695659","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130224-0951-5542.mp3","testResult":null,"name":"Physiker Werner Heisenberg","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694151","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130223-0958-4242.mp3","testResult":null,"name":"Geburtstag Kasimir Malewitsch","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693957","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130222-0954-4142.mp3","testResult":null,"name":"Das Stuyvenberg-Abkommen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693958","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130221-1003-3042.mp3","testResult":null,"name":"Todestag Papst Julius II.","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693959","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130220-0957-4642.mp3","testResult":null,"name":"Der Stellvertreter, R.Hochhuth","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693960","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130219-1023-4842.mp3","testResult":null,"name":"Geburtstag Luigi Boccherini","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693961","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130218-0959-4742.mp3","testResult":null,"name":"Geburtstag von Louis C. Tiffany","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693962","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130217-1000-2042.mp3","testResult":null,"name":"Todestag des Schriftstellers Ernst Jünger","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692686","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130216-1002-0542.mp3","testResult":null,"name":"Deutsches Jugendgerichtsgesetz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692169","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130215-0951-3342.mp3","testResult":null,"name":"Pflichtjahr für Frauen","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692170","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130214-1401-4342.mp3","testResult":null,"name":"Liechtensteiner Steueraffäre","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692171","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130213-1101-5242.mp3","testResult":null,"name":"Geburtstag F. I. Schaljapin","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692172","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130212-1006-1042.mp3","testResult":null,"name":"Psychotherapeuten-Gesetz","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692173","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130211-0944-5742.mp3","testResult":null,"name":"Kölner Rosenmontagszug","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17692174","author":"","stream":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130210-0953-5142.mp3","testResult":null,"name":"Frieden von Paris","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"Die Sendung erinnert an Menschen und Ereignisse der Weltgeschichte.","seoTitle":"NDR Info - ZeitZeichen","subDomaine":"ndrzeitzeichen","relayDisabled":false,"rank":1858,"playableStateString":"FREE","idTeaser":0,"description":"ZeitZeichen erinnert täglich an Personen und Ereignisse der Vergangenheit und macht Geschichte erfahrbar, um das Gegenwartsbewusstsein zu schärfen. Die Sendung erinnert an Ereignisse der Weltgeschichte.","picture2TransUrl":"http://static.radio.de/images/broadcasts/3793_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/3793_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/3793_6.gif","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Die Sendung erinnert an Ereignisse der Weltgeschichte.","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","podcastUrls":[{"sampleRate":48000,"title":"Der Todestag des Journalisten Egon Erwin Kisch","episode":0,"description":"Stichtag 31. März 1948: Der Todestag des Journalisten Egon Erwin Kisch","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","published":"Sun, 31 Mar 2013 10:00:00 +0200","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag des Malers Vincent van Gogh","episode":1,"description":"Stichtag 30. März 1853: Der Geburtstag des niederländischen Malers Vincent van Gogh\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130330-0949-1142.mp3","published":"Sat, 30 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag des Unternehmers Johann Jakob Astor","episode":2,"description":"Stichtag 29. März 1848: Der Todestag des Unternehmers Johann Jakob Astor\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130329-0950-0542.mp3","published":"Fri, 29 Mar 2013 09:46:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Der Todestag des russischen Komponisten Sergej Rachmaninow","episode":3,"description":"Stichtag 28. März 1943: Der Todestag des russischen Komponisten Sergej Rachmaninow","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130328-0959-5942.mp3","published":"Thu, 28 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Agnes Windeck","episode":4,"description":"Stichtag 27. März 1888: Der Geburtstag der Schauspielerin Agnes Windeck","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130327-1002-3942.mp3","published":"Wed, 27 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Gert Bastian","episode":5,"description":"Stichtag 26. März 1923: Der Geburtstag des Generals und Politikers Gert Bastian","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130326-1002-4742.mp3","published":"Tue, 26 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Adalbert Czerny","episode":6,"description":"Stichtag 25. März 1863: Der Geburtstag des Kinderarztes Adalbert Czerny","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130325-0947-2242.mp3","published":"Mon, 25 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Pink Floyds Album The dark side of the moon","episode":7,"description":"Stichtag 24. März 1973: Pink Floyd veröffentlicht das Album \"The dark side of the moon\"\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130324-1018-1642.mp3","published":"Sun, 24 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Verabschiedung von Hitlers Ermächtigungsgesetz","episode":8,"description":"Stichtag 23. März 1933: Der Reichstag verabschiedet das Ermächtigungsgesetz Hitlers","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130323-0959-1442.mp3","published":"Sat, 23 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag Cilly Aussem","episode":9,"description":"Stichtag 22. März 1963: Der Todestag der Tennisspielerin Cilly Aussem.","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130322-0957-5742.mp3","published":"Fri, 22 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag des Dichters Jean Paul","episode":10,"description":"Stichtag 21. März 1763: Der Geburtstag des deutschen Schriftstellers Jean Paul, der als Johann Paul Friedrich Richter in Franken geboren wurde","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130321-1018-3242.mp3","published":"Thu, 21 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Der Beginn des Irakkriegs","episode":11,"description":"Stichtag 20. März 2003 . Der Beginn des Irakkriegs","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130320-1002-3542.mp3","published":"Wed, 20 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Josef Albers","episode":12,"description":"Stichtag 19. März 1888: Der Geburtstag des Malers Josef Albers","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130319-1007-5242.mp3","published":"Tue, 19 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Friedrich Hebbel","episode":13,"description":"Stichtag 18. März 1813: Der Geburtstag des Schriftstellers Friedrich Hebbel","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130318-1007-1942.mp3","published":"Mon, 18 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Verstaatlichung der Ostindien-Kompanie","episode":14,"description":"Stichtag 17. März 1798: Die Niederländische Ostindien-Kompanie wird verstaatlicht.","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130317-0959-5242.mp3","published":"Sun, 17 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag George Bähr","episode":15,"description":"Stichtag 16. März 1738: Der Todestag des deutschen Baumeisters George Bähr\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130316-0943-3942.mp3","published":"Sat, 16 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Tod Sir Henry Bessemer","episode":16,"description":"Stichtag 15. März 1898: Der Todestag des britischen Erfinders Sir Henry Bessemer","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130315-0952-5442.mp3","published":"Fri, 15 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Diane Arbus","episode":17,"description":"Stichtag 14. März 1923: Der Geburtstag der amerikanischen Fotografin Diane Arbus","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130314-0949-5742.mp3","published":"Thu, 14 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Der Anschluss Österreichs an das Deutsche Reich","episode":18,"description":"Stichtag 13. März 1938: Der Anschluss Österreichs an das Deutsche Reich","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130313-0957-5942.mp3","published":"Wed, 13 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag André Le Notre","episode":19,"description":"Stichtag 12. März 1613: der Geburtstag des französchen Gartanarchitekten André Le Notre","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130312-1019-5542.mp3","published":"Tue, 12 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Giovanni de Medici wird Papst","episode":20,"description":"Stichtag 11. März 1513: Giovanni de Medici wird Papst Leo X.\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130311-1009-2942.mp3","published":"Mon, 11 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Bix Beiderbecke","episode":21,"description":"Stichtag 10. März 1903: Der Geburtstag des amerikanischen Kornettisten Bix Beiderbecke","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130310-0948-2542.mp3","published":"Sun, 10 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag Cyril N. Parkinson","episode":22,"description":"Stichtag 9. März 1993 : Der Todestag des Soziologen Cyril N. Parkinson","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-1511-2642.mp3","published":"Sat, 09 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Der Militärputsch in Syrien","episode":23,"description":"Stichtag 8. März 1963: Der Militärputsch in Syrien","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130308-1026-3942.mp3","published":"Fri, 08 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag des Carl Diercke","episode":24,"description":"Stichtag 07. März 1913: Der Todestag des deutschen Kartografen Carl Diercke","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130307-0949-3042.mp3","published":"Thu, 07 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag von Therese Giehse","episode":25,"description":"Stichtag 06. März 1898: Der Geburtstag der Schauspielerin Therese Giehse","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130306-0951-5642.mp3","published":"Wed, 06 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag Josef Stalin","episode":26,"description":"Stichtag 5. März 1953: Der Todestag von Josef Stalin","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130305-0947-2142.mp3","published":"Tue, 05 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag Ossip K. Flechtheim","episode":27,"description":"Stichtag 04. März 1998: Der Todestag des Zukunftsforschers Ossip K. Flechtheim","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130304-1253-4642.mp3","published":"Mon, 04 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Friedensvertrag Brest-Litowsk","episode":28,"description":"Stichtag 3. März 1918: Deutschland und Russland unterzeichnen den Friedensvertrag von Brest-Litowsk\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130303-0958-0042.mp3","published":"Sun, 03 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Uraufführung von \"King Kong\"","episode":29,"description":"Stichtag 02. März 1933: Die Uraufführung des Films \"King Kong\"","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130302-0953-2142.mp3","published":"Sat, 02 Mar 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag Gabriele d'Annunzio","episode":30,"description":"Stichtag 01.März 1938: Der Todestag des italienischen Dichters Gabriele d'Annunzio.","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130301-0955-0342.mp3","published":"Fri, 01 Mar 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Das Bundeskleingartengesetz","episode":31,"description":"Stichtag 28. Februar 1983: Das Bundeskleingartengesetz wird erlassen","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130228-0957-5342.mp3","published":"Thu, 28 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Alfred Hrdlicka","episode":32,"description":"Stichtag 27. Februar 1928: Der Geburtstag des österreichischen Künstlers Alfred Hrdlicka\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130227-1020-4542.mp3","published":"Wed, 27 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Die Augsburger Puppenkiste","episode":33,"description":"Stichtag 26. Februar 1948: Die Eröffnung der Augsburger Puppenkiste","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130226-1004-3142.mp3","published":"Tue, 26 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag von George Harrison","episode":34,"description":"Stichtag 25. Februar 1943: Der Geburtstag des britischen Musikers George Harrison","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130225-1001-5242.mp3","published":"Mon, 25 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Physiker Werner Heisenberg","episode":35,"description":"Stichtag 24. Februar 1958: Der Physiker Werner Heisenberg stellt seine Weltformel vor","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130224-0951-5542.mp3","published":"Sun, 24 Feb 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Kasimir Malewitsch","episode":36,"description":"Stichtag 23. Februar 1878: Der Geburtstag des russischen Malers Kasimir Sewerinowitsch Malewitsch.\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130223-0958-4242.mp3","published":"Sat, 23 Feb 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Das Stuyvenberg-Abkommen","episode":37,"description":"Stichtag 22. Februar 1978: Das Stuyvenberg-Abkommen soll in Belgien zum Ausgleich zwischen Flamen und Wallonen führen","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130222-0954-4142.mp3","published":"Fri, 22 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag Papst Julius II.","episode":38,"description":"1513: Der Todestag von Papst Julius II.","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130221-1003-3042.mp3","published":"Thu, 21 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Der Stellvertreter, R.Hochhuth","episode":39,"description":"1963: Die Uraufführung des Theaterstücks \"Der Stellvertreter\" von Rolf Hochhuth","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130220-0957-4642.mp3","published":"Wed, 20 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag Luigi Boccherini","episode":40,"description":"Stichtag 19. Februar 1743: Der Geburtstag des italienischen Komponisten Luigi Boccherini","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130219-1023-4842.mp3","published":"Tue, 19 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag von Louis C. Tiffany","episode":41,"description":"Stichtag 18. Februar 1848: Der Geburtstag des amerikanischen Malers und Glaskünstlers Louis Comfort Tiffany\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130218-0959-4742.mp3","published":"Mon, 18 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Todestag des Schriftstellers Ernst Jünger","episode":42,"description":"Stichtag 17. Februar 1998: Der Todestag des Schriftstellers Ernst Jünger","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130217-1000-2042.mp3","published":"Sun, 17 Feb 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Deutsches Jugendgerichtsgesetz","episode":43,"description":"Stichtag 16. Februar 1923: Das erste deutsche Jugendgerichtsgesetz wird erlassen","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130216-1002-0542.mp3","published":"Sat, 16 Feb 2013 19:05:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Pflichtjahr für Frauen","episode":44,"description":"Stichtag 15. Februar 1938: Das Pflichtjahr für Frauen wird eingeführt","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130215-0951-3342.mp3","published":"Fri, 15 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Liechtensteiner Steueraffäre","episode":45,"description":"Stichtag 14. Februar 2008: Die Liechtensteiner Steueraffäre wird bekannt","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130214-1401-4342.mp3","published":"Thu, 14 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Geburtstag F. I. Schaljapin","episode":46,"description":"Stichtag 13. Februar 1873: der Geburtstag des russischen Sängers Fedor Iwanowitsch Schaljapin","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130213-1101-5242.mp3","published":"Wed, 13 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Psychotherapeuten-Gesetz","episode":47,"description":"Stichtag 12. Februar 1998:  Das Psychotherapeutengesetz wird verabschiedet.","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130212-1006-1042.mp3","published":"Tue, 12 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Kölner Rosenmontagszug","episode":48,"description":"Im Februar 1953 wird der Kölner Rosenmontagszug erstmals live im Fernsehen übertragen.","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130211-0944-5742.mp3","published":"Mon, 11 Feb 2013 20:15:00 +0100","bitRate":128,"contentLength":0},{"sampleRate":48000,"title":"Frieden von Paris","episode":49,"description":"Stichtag 10. Februar 1763: Im Frieden von Paris erringt Großbritannien die Vorherrschaft in Nordamerika\n","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130210-0953-5142.mp3","published":"Sun, 10 Feb 2013 19:05:00 +0100","bitRate":128,"contentLength":0}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.ndr.de/info/podcast3010.xml","displaySubDomaine":"ndrzeitzeichen","recentTitles":["Der Todestag des Journalisten Egon Erwin Kisch","Geburtstag des Malers Vincent van Gogh","Todestag des Unternehmers Johann Jakob Astor","Der Todestag des russischen Komponisten Sergej Rachmaninow","Geburtstag Agnes Windeck","Geburtstag Gert Bastian","Geburtstag Adalbert Czerny","Pink Floyds Album The dark side of the moon","Verabschiedung von Hitlers Ermächtigungsgesetz","Todestag Cilly Aussem","Geburtstag des Dichters Jean Paul","Der Beginn des Irakkriegs","Geburtstag Josef Albers","Geburtstag Friedrich Hebbel","Verstaatlichung der Ostindien-Kompanie","Todestag George Bähr","Tod Sir Henry Bessemer","Geburtstag Diane Arbus","Der Anschluss Österreichs an das Deutsche Reich","Geburtstag André Le Notre","Giovanni de Medici wird Papst","Geburtstag Bix Beiderbecke","Todestag Cyril N. Parkinson","Der Militärputsch in Syrien","Todestag des Carl Diercke","Geburtstag von Therese Giehse","Todestag Josef Stalin","Todestag Ossip K. Flechtheim","Friedensvertrag Brest-Litowsk","Uraufführung von \"King Kong\"","Todestag Gabriele d'Annunzio","Das Bundeskleingartengesetz","Geburtstag Alfred Hrdlicka","Die Augsburger Puppenkiste","Geburtstag von George Harrison","Physiker Werner Heisenberg","Geburtstag Kasimir Malewitsch","Das Stuyvenberg-Abkommen","Todestag Papst Julius II.","Der Stellvertreter, R.Hochhuth","Geburtstag Luigi Boccherini","Geburtstag von Louis C. Tiffany","Todestag des Schriftstellers Ernst Jünger","Deutsches Jugendgerichtsgesetz","Pflichtjahr für Frauen","Liechtensteiner Steueraffäre","Geburtstag F. I. Schaljapin","Psychotherapeuten-Gesetz","Kölner Rosenmontagszug","Frieden von Paris"],"idType":7,"descriptionPodcast":"Die Sendung erinnert an Menschen und Ereignisse der Weltgeschichte.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.ndr.de/info/podcast3010.html","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/3793_1.gif","picture6TransUrl":"http://static.radio.de/images/broadcasts/3793_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":3793,"picture1TransUrl":"http://static.radio.de/images/broadcasts/3793_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/3793_5_1.png","author":"","title":"Seiten eines Kalenders","picture4Url":"http://static.radio.de/images/broadcasts/3793_4.gif","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Geschichte","_country":"Deutschland","_genre":"","_city":"Hamburg","_family":"NDR Info","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"NDR Info - ZeitZeichen","picture3Url":"","streamUrl":"http://www.radio.de/playlists/ndrzeitzeichen.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/3793_4_1.png","sampleRate":48000,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/3793_5.gif","subdomain":"ndrzeitzeichen","streamUrls":[{"sampleRate":48000,"id":2461063,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","streamFormat":"ICECAST","streamUrl":"http://media.ndr.de/download/podcasts/podcast3010/AU-20130331-0955-2042.mp3","idBroadcast":3793,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05b 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"ndrzeitzeichen", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"3793", play:"ndrzeitzeichen"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("13"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("13"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("44"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("1"));
+document.write ("&amp;age_20_29=" + escape("14"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/ndrzeitzeichen/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „NDR Info - ZeitZeichen“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/3793_4.gif" alt="NDR Info - ZeitZeichen" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("13"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("13"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("44"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("1"));
+document.write ("&amp;age_20_29=" + escape("14"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">NDR Info - ZeitZeichen</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Hamburg,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.ndr.de/info/podcast3010.html'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „NDR Info - ZeitZeichen“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+ZeitZeichen erinnert täglich an Personen und Ereignisse der Vergangenheit und macht Geschichte erfahrbar, um das Gegenwartsbewusstsein zu schärfen. Die Sendung erinnert an Ereignisse der Weltgeschichte.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„NDR Info - ZeitZeichen“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'3793', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">3</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">3.67</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'3793', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star3-5"
+stars="3-5"
+title="„NDR Info - ZeitZeichen“ bewerten?"
+content="3.66666666666667">
+</a>
+<span class="big-rate-text">NDR Info - ZeitZeichen&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „NDR Info - ZeitZeichen“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„NDR Info - ZeitZeichen“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „NDR Info - ZeitZeichen“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17702970">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>DER TODESTAG DES JOURNALISTEN EGON ERWIN KISCH</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17702970', 'broadcast':'3793'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Stichtag 31. März 1948: Der Todestag des Journalisten Egon Erwin Kisch</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17702971">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEBURTSTAG DES MALERS VINCENT VAN GOGH</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17702971', 'broadcast':'3793'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Stichtag 30. März 1853: Der Geburtstag des niederländischen Malers Vincent van Gogh
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17702534">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>TODESTAG DES UNTERNEHMERS JOHANN JAKOB ASTOR</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17702534', 'broadcast':'3793'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Stichtag 29. März 1848: Der Todestag des Unternehmers Johann Jakob Astor
+</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17702535">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>DER TODESTAG DES RUSSISCHEN KOMPONISTEN SERGEJ RACHMANINOW</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17702535', 'broadcast':'3793'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Stichtag 28. März 1943: Der Todestag des russischen Komponisten Sergej Rachmaninow</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17702536">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>GEBURTSTAG AGNES WINDECK</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17702536', 'broadcast':'3793'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Stichtag 27. März 1888: Der Geburtstag der Schauspielerin Agnes Windeck</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „NDR Info - ZeitZeichen“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://zeitgeschichte.radio.de'}" bcastid="3792" title="„NDR Info - Zeitgeschichte“ hören" id="currentlyPlayedStation_3792">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3792_1.gif" alt="„NDR Info - Zeitgeschichte“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://geschichten.radio.de'}" bcastid="3718" title="„WDR 5 - Erlebte Geschichten“ hören" id="currentlyPlayedStation_3718">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3718_1.gif" alt="„WDR 5 - Erlebte Geschichten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2zeitwort.radio.de'}" bcastid="5701" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" id="currentlyPlayedStation_5701">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5701_1.jpeg" alt="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stichtag.radio.de'}" bcastid="3716" title="„WDR 2 - Stichtag“ hören" id="currentlyPlayedStation_3716">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3716_1.png" alt="„WDR 2 - Stichtag“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2archivradio.radio.de'}" bcastid="7383" title="„SWR2 - Archivradio“ hören" id="currentlyPlayedStation_7383">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7383_1.jpeg" alt="„SWR2 - Archivradio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdrzeitzeichen.radio.de'}" bcastid="3717" title="„WDR - ZeitZeichen“ hören" id="currentlyPlayedStation_3717">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3717_1.gif" alt="„WDR - ZeitZeichen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hamburghaiti.radio.de'}" bcastid="3797" title="„Zwischen Hamburg und Haiti“ hören" id="currentlyPlayedStation_3797">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3797_1.gif" alt="„Zwischen Hamburg und Haiti“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffeature.radio.de'}" bcastid="10246" title="„Deutschlandfunk - Feature“ hören" id="currentlyPlayedStation_10246">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10246_1.jpeg" alt="„Deutschlandfunk - Feature“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrlogo.radio.de'}" bcastid="9309" title="„NDR Info - Logo“ hören" id="currentlyPlayedStation_9309">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9309_1.gif" alt="„NDR Info - Logo“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dertalk.radio.de'}" bcastid="3770" title="„NDR Info - Der Talk“ hören" id="currentlyPlayedStation_3770">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3770_1.gif" alt="„NDR Info - Der Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2campus.radio.de'}" bcastid="5689" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" id="currentlyPlayedStation_5689">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5689_1.jpeg" alt="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dasforum.radio.de'}" bcastid="3763" title="„NDR Info - Das Forum“ hören" id="currentlyPlayedStation_3763">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3763_1.gif" alt="„NDR Info - Das Forum“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2stimmts.radio.de'}" bcastid="9289" title="„NDR 2 - Stimmt's?“ hören" id="currentlyPlayedStation_9289">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9289_1.jpeg" alt="„NDR 2 - Stimmt's?“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" bcastid="11364" title="„DRadio Kultur - Zeitfragen“ hören" id="currentlyPlayedStation_11364">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11364_1.jpeg" alt="„DRadio Kultur - Zeitfragen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dasfrauenforum.radio.de'}" bcastid="3767" title="„NDR Info - Das Frauenforum“ hören" id="currentlyPlayedStation_3767">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3767_1.gif" alt="„NDR Info - Das Frauenforum“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://zeitgeschichte.radio.de'}" bcastid="3792" title="„NDR Info - Zeitgeschichte“ hören" id="currentlyPlayedStation2_3792">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3792_1.gif" alt="„NDR Info - Zeitgeschichte“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://geschichten.radio.de'}" bcastid="3718" title="„WDR 5 - Erlebte Geschichten“ hören" id="currentlyPlayedStation2_3718">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3718_1.gif" alt="„WDR 5 - Erlebte Geschichten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2zeitwort.radio.de'}" bcastid="5701" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" id="currentlyPlayedStation2_5701">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5701_1.jpeg" alt="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stichtag.radio.de'}" bcastid="3716" title="„WDR 2 - Stichtag“ hören" id="currentlyPlayedStation2_3716">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3716_1.png" alt="„WDR 2 - Stichtag“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2archivradio.radio.de'}" bcastid="7383" title="„SWR2 - Archivradio“ hören" id="currentlyPlayedStation2_7383">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/7383_1.jpeg" alt="„SWR2 - Archivradio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdrzeitzeichen.radio.de'}" bcastid="3717" title="„WDR - ZeitZeichen“ hören" id="currentlyPlayedStation2_3717">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3717_1.gif" alt="„WDR - ZeitZeichen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://hamburghaiti.radio.de'}" bcastid="3797" title="„Zwischen Hamburg und Haiti“ hören" id="currentlyPlayedStation2_3797">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3797_1.gif" alt="„Zwischen Hamburg und Haiti“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffeature.radio.de'}" bcastid="10246" title="„Deutschlandfunk - Feature“ hören" id="currentlyPlayedStation2_10246">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10246_1.jpeg" alt="„Deutschlandfunk - Feature“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrlogo.radio.de'}" bcastid="9309" title="„NDR Info - Logo“ hören" id="currentlyPlayedStation2_9309">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9309_1.gif" alt="„NDR Info - Logo“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dertalk.radio.de'}" bcastid="3770" title="„NDR Info - Der Talk“ hören" id="currentlyPlayedStation2_3770">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3770_1.gif" alt="„NDR Info - Der Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2campus.radio.de'}" bcastid="5689" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" id="currentlyPlayedStation2_5689">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5689_1.jpeg" alt="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dasforum.radio.de'}" bcastid="3763" title="„NDR Info - Das Forum“ hören" id="currentlyPlayedStation2_3763">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3763_1.gif" alt="„NDR Info - Das Forum“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndr2stimmts.radio.de'}" bcastid="9289" title="„NDR 2 - Stimmt's?“ hören" id="currentlyPlayedStation2_9289">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/9289_1.jpeg" alt="„NDR 2 - Stimmt's?“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" bcastid="11364" title="„DRadio Kultur - Zeitfragen“ hören" id="currentlyPlayedStation2_11364">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11364_1.jpeg" alt="„DRadio Kultur - Zeitfragen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dasfrauenforum.radio.de'}" bcastid="3767" title="„NDR Info - Das Frauenforum“ hören" id="currentlyPlayedStation2_3767">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3767_1.gif" alt="„NDR Info - Das Frauenforum“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_3792" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Zeitgeschichte“ hören" linkobject="{'url':'http://zeitgeschichte.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Zeitgeschichte“ hören" href="http://zeitgeschichte.radio.de">NDR Info - Zeitgeschichte</a></span>
+<span class="title_3792 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Zeitgeschichte 16.3.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3718" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Erlebte Geschichten“ hören" linkobject="{'url':'http://geschichten.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Erlebte Geschichten“ hören" href="http://geschichten.radio.de">WDR 5 - Erlebte Geschichten</a></span>
+<span class="title_3718 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Erlebte Geschichten: Sendung vom 14.04.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5701" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" linkobject="{'url':'http://swr2zeitwort.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" href="http://swr2zeitwort.radio.de">SWR2 Zeitwort - Erinnerung an historische Daten</a></span>
+<span class="title_5701 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: SWR2 Zeitwort am 30.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3716" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 2 - Stichtag“ hören" linkobject="{'url':'http://stichtag.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 2 - Stichtag“ hören" href="http://stichtag.radio.de">WDR 2 - Stichtag</a></span>
+<span class="title_3716 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 2 Stichtag: 12. Dezember 2002: Todestag des Schriftstellers Dee Brown</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_7383" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 - Archivradio“ hören" linkobject="{'url':'http://swr2archivradio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 - Archivradio“ hören" href="http://swr2archivradio.radio.de">SWR2 - Archivradio</a></span>
+<span class="title_7383 songtitle showPrefix">
+
+</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3717" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR - ZeitZeichen“ hören" linkobject="{'url':'http://wdrzeitzeichen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR - ZeitZeichen“ hören" href="http://wdrzeitzeichen.radio.de">WDR - ZeitZeichen</a></span>
+<span class="title_3717 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 3/WDR 5 ZeitZeichen: Im Februar 1498 vollendet Leonardo da Vinci sein Gemälde "Das letzte Abendmahl"</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3797" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Zwischen Hamburg und Haiti“ hören" linkobject="{'url':'http://hamburghaiti.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Zwischen Hamburg und Haiti“ hören" href="http://hamburghaiti.radio.de">Zwischen Hamburg und Haiti</a></span>
+<span class="title_3797 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Haiti Magazin am 24. Februar</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_10246" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Feature“ hören" linkobject="{'url':'http://dlffeature.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Feature“ hören" href="http://dlffeature.radio.de">Deutschlandfunk - Feature</a></span>
+<span class="title_10246 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9309" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Logo“ hören" linkobject="{'url':'http://ndrlogo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Logo“ hören" href="http://ndrlogo.radio.de">NDR Info - Logo</a></span>
+<span class="title_9309 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Logo - Das Wissenschaftsmagazin</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3770" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Der Talk“ hören" linkobject="{'url':'http://dertalk.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Der Talk“ hören" href="http://dertalk.radio.de">NDR Info - Der Talk</a></span>
+<span class="title_3770 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Sebastian Herzog im Gespräch</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5689" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" linkobject="{'url':'http://swr2campus.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Campus - Neues aus Wissenschaft und Forschung “ hören" href="http://swr2campus.radio.de">SWR2 Campus - Neues aus Wissenschaft und Forschung </a></span>
+<span class="title_5689 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Prostatakrebs - bestrahlen oder operieren?</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3763" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Das Forum“ hören" linkobject="{'url':'http://dasforum.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Das Forum“ hören" href="http://dasforum.radio.de">NDR Info - Das Forum</a></span>
+<span class="title_3763 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Zypern zwischen Rettung und Euro-Aus</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_9289" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR 2 - Stimmt's?“ hören" linkobject="{'url':'http://ndr2stimmts.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR 2 - Stimmt's?“ hören" href="http://ndr2stimmts.radio.de">NDR 2 - Stimmt's?</a></span>
+<span class="title_9289 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kaffeemaschinen</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11364" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Zeitfragen“ hören" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Zeitfragen“ hören" href="http://dkulturzeitfragen.radio.de">DRadio Kultur - Zeitfragen</a></span>
+<span class="title_11364 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Lass es krachen! Die Kunst der politischen Provokation</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3767" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Das Frauenforum“ hören" linkobject="{'url':'http://dasfrauenforum.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Das Frauenforum“ hören" href="http://dasfrauenforum.radio.de">NDR Info - Das Frauenforum</a></span>
+<span class="title_3767 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Norddeutsche Ordensschwestern</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<div id="broadcast-info-broadcast-family">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+<div id="broadcast-info-broadcast-family-loading" class="content-headline-loader"></div>
+<p class="h3">
+Weitere Inhalte
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="content-list">
+
+<div class="content-list-body">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row1"  editobject="{editIconId : 'edit-icon-2348-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_2348">
+
+
+
+<a class="content-list-favorite"
+title="„NDR Info“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=1&loaderId=broadcast-info-broadcast-family-loading&broadcastId=2348', 
+							account:'', 
+							broadcastId:'2348',
+							targetClass:'listfavorite_2348',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://ndrinfo.radio.de'}" class="content-list-image js-link" rowId="row1" title="„NDR Info“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/2348_6.jpeg" alt="NDR Info" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://ndrinfo.radio.de'}" class="js-link" rowId="row1" title="„NDR Info“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-5" stars="4-5"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://ndrinfo.radio.de" rowId="row1" title="„NDR Info“ hören">NDR Info</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Nachrichten
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Stets umfassend informiert bleiben. NDR Info liefert die Hintergrundinformationen zu Politik und Zeitgeschehen.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_2348 showPrefix ">
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-2348" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row2"  editobject="{editIconId : 'edit-icon-3757-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3757">
+
+
+
+<a class="content-list-favorite"
+title="„NDR Info - Aktuell“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=2&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3757', 
+							account:'', 
+							broadcastId:'3757',
+							targetClass:'listfavorite_3757',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://aktuell.radio.de'}" class="content-list-image js-link" rowId="row2" title="„NDR Info - Aktuell“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3757_6.gif" alt="NDR Info - Aktuell" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://aktuell.radio.de'}" class="js-link" rowId="row2" title="„NDR Info - Aktuell“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-0" stars="4-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://aktuell.radio.de" rowId="row2" title="„NDR Info - Aktuell“ hören">NDR Info - Aktuell</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Nachrichten
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Die Nachrichten auf NDR Info - täglich neu ab 12.20 und 16.20 Uhr </div>
+<div class="content-list-information-nowplaying">
+<span class="title_3757 showPrefix content-list-podcast">
+
+
+Folge: Nachrichten 15 Uhr
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3757" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row3"  editobject="{editIconId : 'edit-icon-3759-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3759">
+
+
+
+<a class="content-list-favorite"
+title="„NDR Info - Auf ein Wort“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=3&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3759', 
+							account:'', 
+							broadcastId:'3759',
+							targetClass:'listfavorite_3759',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://aufeinwort.radio.de'}" class="content-list-image js-link" rowId="row3" title="„NDR Info - Auf ein Wort“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3759_6.gif" alt="NDR Info - Auf ein Wort" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://aufeinwort.radio.de'}" class="js-link" rowId="row3" title="„NDR Info - Auf ein Wort“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star3-0" stars="3-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://aufeinwort.radio.de" rowId="row3" title="„NDR Info - Auf ein Wort“ hören">NDR Info - Auf ein Wort</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Gesellschaft, Wissen
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Die Glosse des Tages auf NDR Info. Aktuelle Themen des Zeitgeschehens werden mit einem Augenzwinkern humorvoll-feuilletonistisch beleuchtet.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3759 showPrefix content-list-podcast">
+
+
+Folge: Koalitionspläne verängstigen Atheisten
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3759" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row4"  editobject="{editIconId : 'edit-icon-3760-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3760">
+
+
+
+<a class="content-list-favorite"
+title="„NDR Info - Bildungsreport“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=4&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3760', 
+							account:'', 
+							broadcastId:'3760',
+							targetClass:'listfavorite_3760',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://bildungsreport.radio.de'}" class="content-list-image js-link" rowId="row4" title="„NDR Info - Bildungsreport“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3760_6.gif" alt="NDR Info - Bildungsreport" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://bildungsreport.radio.de'}" class="js-link" rowId="row4" title="„NDR Info - Bildungsreport“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star4-0" stars="4-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://bildungsreport.radio.de" rowId="row4" title="„NDR Info - Bildungsreport“ hören">NDR Info - Bildungsreport</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Bildung
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Die Sendung verfolgt neue Entwicklungen in Schulen und Hochschulen. Ferner befasst sie sich mit alltäglichen Fragen der Erziehung.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3760 showPrefix content-list-podcast">
+
+
+Folge: Bildungsreport 30.03.2013
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3760" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-list-row" id="row5"  editobject="{editIconId : 'edit-icon-3787-4'}">
+
+<div class="content-list-favorite-wrapper listfavorite_3787">
+
+
+
+<a class="content-list-favorite"
+title="„NDR Info - Blickpunkt: Diesseits“ als Favorit speichern"
+favoritesobject="{ 
+							isFavorite:false,
+							dataUrlToRender:'/elements/content-list-favorite-star.jsp?starId=5&loaderId=broadcast-info-broadcast-family-loading&broadcastId=3787', 
+							account:'', 
+							broadcastId:'3787',
+							targetClass:'listfavorite_3787',
+							loadingIndicator:'broadcast-info-broadcast-family-loading' 
+						}">&nbsp;</a>
+
+
+</div>
+<a linkobject="{'url':'http://diesseits.radio.de'}" class="content-list-image js-link" rowId="row5" title="„NDR Info - Blickpunkt: Diesseits“ hören">
+<div class="content-list-image-image">
+
+
+<img  src="http://static.radio.de/images/broadcasts/3787_6.gif" alt="NDR Info - Blickpunkt: Diesseits" width="44" height="44" />
+
+
+
+
+</div>
+<div class="content-list-image-border">&nbsp;</div>
+
+</a>
+<div class="content-list-contentwrapper">
+<div class="content-list-actions-floater">
+<div class="content-list-actions">
+<div class="content-list-playbutton"><a linkobject="{'url':'http://diesseits.radio.de'}" class="js-link" rowId="row5" title="„NDR Info - Blickpunkt: Diesseits“ hören"><span style="text-decoration:none !important;">HÖREN</span></a></div>
+</div>
+<div class="content-list-ranking"><a class="rate star0-0" stars="0-0"></a></div>
+</div>
+<div class="content-list-stationtitle"><a href="http://diesseits.radio.de" rowId="row5" title="„NDR Info - Blickpunkt: Diesseits“ hören">NDR Info - Blickpunkt: Diesseits</a>
+<span>
+
+Aus Deutschland: 
+
+
+
+Gesellschaft, Religion
+</span>
+</div>
+<div class="content-list-information">
+<div class="content-list-information-description">Das wöchentliche Magazin aus Religion und Gesellschaft mit Berichten, Reportagen, Interviews und Kommentaren.</div>
+<div class="content-list-information-nowplaying">
+<span class="title_3787 showPrefix content-list-podcast">
+
+
+Folge: Blickpunkt Diesseits
+
+
+</span>
+</div>
+
+
+<div id="content-list-tags-3787" class="content-list-tags-micro-wrapper">
+
+</div>
+</div>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+
+
+
+
+</div>
+<div class="content-list-pageitems">
+5 |
+<a class="change-list-size-15" title="15 Sender pro Seite anzeigen">15</a> |
+<a class="change-list-size-25" title="25 Sender pro Seite anzeigen">25</a> |
+<a class="change-list-size-50" title="50 Sender pro Seite anzeigen">50</a>
+</div>
+</div>
+
+
+
+</div>
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „NDR Info - ZeitZeichen“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Geschichte" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Geschichte suchen" tag="Geschichte">Geschichte</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Magazin1" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Magazin1 suchen" tag="Magazin1">Magazin1</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Hamburg" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Hamburg suchen" tag="Hamburg">Hamburg</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NDRInfo" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach NDRInfo suchen" tag="NDRInfo">NDRInfo</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „NDR Info - ZeitZeichen“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'3793', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „NDR Info - ZeitZeichen“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://ndrzeitzeichen.radio.de" class="js-link-external" linkobject="{'url':'http://ndrzeitzeichen.radio.de'}" title="„NDR Info - ZeitZeichen“ hören" target="_blank">
+http://ndrzeitzeichen.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fndrzeitzeichen.radio.de&amp;notes=&amp;tags=&amp;title=NDR Info - ZeitZeichen;'}" class="icon-delicious js-link-external" title="„NDR Info - ZeitZeichen“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fndrzeitzeichen.radio.de&amp;bm_notice=&amp;bm_description=NDR Info - ZeitZeichen&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„NDR Info - ZeitZeichen“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fndrzeitzeichen.radio.de&amp;title=NDR Info - ZeitZeichen'}" class="icon-stumble js-link-external" title="„NDR Info - ZeitZeichen“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fndrzeitzeichen.radio.de&amp;bodytext=&amp;tags=&amp;title=NDR Info - ZeitZeichen'}" class="icon-digg js-link-external" title="„NDR Info - ZeitZeichen“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fndrzeitzeichen.radio.de&amp;title=NDR Info - ZeitZeichen&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„NDR Info - ZeitZeichen“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+
+
+NDR Info - ZeitZeichen Internetradio kostenlos hören und vieles mehr. radio.de bietet Ihnen die ganze Welt des Webradio mit ein paar Klicks. Finden Sie die Sender die zu Ihnen passen und erweitern Sie Ihren Horizont mit Radiosendern wie NDR Info - ZeitZeichen und weiteren Favoriten.
+
+
+
+							
+							
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("13"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("13"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("44"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("1"));
+document.write ("&amp;age_20_29=" + escape("14"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">NDR Info - ZeitZeichen</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://zeitgeschichte.radio.de/" class="channel-link" title="„NDR Info - Zeitgeschichte“ hören">
+<span class="broadcast-name">NDR Info - Zeitgeschichte</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://geschichten.radio.de/" class="channel-link" title="„WDR 5 - Erlebte Geschichten“ hören">
+<span class="broadcast-name">WDR 5 - Erlebte Geschichten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://swr2zeitwort.radio.de/" class="channel-link" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören">
+<span class="broadcast-name">SWR2 Zeitwort - Erinnerung an historische Daten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://stichtag.radio.de/" class="channel-link" title="„WDR 2 - Stichtag“ hören">
+<span class="broadcast-name">WDR 2 - Stichtag</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://swr2archivradio.radio.de/" class="channel-link" title="„SWR2 - Archivradio“ hören">
+<span class="broadcast-name">SWR2 - Archivradio</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://wdrzeitzeichen.radio.de/" class="channel-link" title="„WDR - ZeitZeichen“ hören">
+<span class="broadcast-name">WDR - ZeitZeichen</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://hamburghaiti.radio.de/" class="channel-link" title="„Zwischen Hamburg und Haiti“ hören">
+<span class="broadcast-name">Zwischen Hamburg und Haiti</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlffeature.radio.de/" class="channel-link" title="„Deutschlandfunk - Feature“ hören">
+<span class="broadcast-name">Deutschlandfunk - Feature</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndrlogo.radio.de/" class="channel-link" title="„NDR Info - Logo“ hören">
+<span class="broadcast-name">NDR Info - Logo</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dertalk.radio.de/" class="channel-link" title="„NDR Info - Der Talk“ hören">
+<span class="broadcast-name">NDR Info - Der Talk</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("13"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("13"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("44"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("1"));
+document.write ("&amp;age_20_29=" + escape("14"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("13"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("13"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("44"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("1"));
+document.write ("&amp;age_20_29=" + escape("14"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("ndrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("13"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("13"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("44"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("1"));
+document.write ("&amp;age_20_29=" + escape("14"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

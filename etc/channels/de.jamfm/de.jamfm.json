@@ -1,0 +1,321 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://edge.audio.3qsdn.com/XqVrkTdYPbJMfC6",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://static.src.88.cdn.3qsdn.com/jam-bnd-mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://static.src.88.cdn.3qsdn.com/jam-bnd-mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://www.jam.fm/streams/jam-bnd-mp3.asx",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"WMA",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"93,6 JAM Berlin, Black and Dance Radio - ",
+    "subDomaine":"jamfm",
+    "relayDisabled":false,
+    "rank":16,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"JAM FM hat den Sound von Black Music in Deutschland geprägt. Auch im JAM FM Webradio trifft alles zusammen, was zusammen gehört. Die JAM FM Playlist reicht von Motown bis heute: Soul, R&B, HipHop, Reggae und Jazz rund um die Uhr per Stream.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2251_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2251_3_1.png",
+    "longitude":13.41053,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2251_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"JAM FM hat den Sound von Black Music in Deutschland geprägt. Hier trifft alles zusammen, was zusammen gehört. Die JAM FM Playlist reicht von Motown bis heute.",
+    "metaDataUrl":"http://edge.audio.3qsdn.com/XqVrkTdYPbJMfC6",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":52.52437,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://edge.audio.3qsdn.com/XqVrkTdYPbJMfC6",
+    "displaySubDomaine":"jamfm",
+    "recentTitles":
+    [
+      "Arash feat Sean Paul - She Makes Me Go",
+      "BOB feat. Hayley WIlliams - Airplanes",
+      "Justin Timberlake feat Jay-Z - Suit & Tie",
+      "Nicki Minaj - Starships",
+      "Renault - \"05/13 Renault Bu/30s\"",
+      "Conor Maynard - Animal",
+      "Sean Paul feat. Keyshia Cole - (When You Gonna) Give It Up To me",
+      "Swedish House Mafia - Don\'t You Worry Child",
+      "David Guetta feat. Kid Cudi - Memories",
+      "The Black Eyed Peas - My Humps",
+      "Sean Paul feat. Pitbull - She Doesn\'t Mind (Remix)",
+      "BUNDESMINISTERIU - \"19/13 NEU Bundes/35s\"",
+      "Virtual Night - \"19.03.2013 P2B Media virtualnight com\"",
+      "K + B Fitness - \"2040213 Skyfit Berlin\"",
+      "FISCHERWERKE - \"Fischer_bayrisch/20s\"",
+      "DJ Antoine vs. Mad Mark 2k13 - Bella Vita",
+      "Chris Brown - Don\'t Judge Me",
+      "The Pussycat Dolls feat. Busta Rhymes - Don\'t Cha",
+      "Flo Rida - I Cry",
+      "Snoop Dogg & Wiz Khalifa feat Bruno Mars - Young Wild & Free",
+      "Bingo Players feat. Far East Movement - Get Up (Rattle)",
+      "Sean Paul - So Fine",
+      "Streetlife - \"Spot2 Maxxim-QueensNight-Allg-HEUTE 20sek (master)\"",
+      "Will.I.Am feat. Justin Bieber - #ThatPower",
+      "Alicia Keys feat Nicki Minaj - Girl On Fire",
+      "Taio Cruz - Dynamite",
+      "Pitbull feat Christina Aguilera - Feel This Moment",
+      "Justin Timberlake - Sexy Back",
+      "Rihanna - Where Have You Been",
+      "Flo Rida - Whistle",
+      "ALLTOURS FLUGREI - \"SF1113_Vergleich/20s\"",
+      "Spreequell - \"201204_ClubCola_Perspektive\"",
+      "DT. LUFTHANSA - \"26_13_LH_Berlin_/30s\"",
+      "Felix - \"spot we love saturdays april diesen samstag\"",
+      "Avicii vs Nicky Romero - I Could Be The One",
+      "Nelly - Just A Dream",
+      "DJ Antoine vs. Timati feat. Kalenna - Welcome To St. Tropez",
+      "Flo Rida feat Jennifer Lopez - Sweet Spot",
+      "MADCON - BEGGIN",
+      "Will.I.Am feat. Britney Spears - Scream & Shout",
+      "MCDONALDS - \"McD Flurry Durch/21s\"",
+      "DAS TELEFONBUCH - \"48496 Navi 22/22s\"",
+      "BergWerk Berlin - \"bergwerk 4\"",
+      "Asphalt - \"spot asphalt ab 23 uhr neu morgen\"",
+      "Nelly - Hey Porsche",
+      "REWE (HANDEL) - \"52517 Mix Gerani/25s\"",
+      "DT. LUFTHANSA - \"25_13_LH_Berlin_/30s\"",
+      "Diddy- Dirty Money feat Skylar Grey - Coming Home",
+      "Stromae - Alors On Danse"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2.5,
+    "streamContentFormat":"MP3",
+    "link":"http://www.jamfm.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2251_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2251_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2251,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2251_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2251_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2251_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"Internetradio",
+      "_country":"Deutschland",
+      "_genre":"Hip-Hop, R\'n\'B",
+      "_city":"Berlin",
+      "_family":"Jam FM",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"93,6 JAM FM Berlin – Black & Dance Radio",
+    "picture3Url":"",
+    "streamUrl":"http://edge.audio.3qsdn.com/XqVrkTdYPbJMfC6",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2251_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2251_5.jpeg",
+    "subdomain":"jamfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458306,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://static.src.88.cdn.3qsdn.com/jam-bnd-mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://static.src.88.cdn.3qsdn.com/jam-bnd-mp3",
+        "idBroadcast":2251,
+        "bitRate":192
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":20849,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://static.src.88.cdn.3qsdn.com/jam-bnd-mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://static.src.88.cdn.3qsdn.com/jam-bnd-mp3",
+        "idBroadcast":2251,
+        "bitRate":192
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":15923,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://edge.audio.3qsdn.com/XqVrkTdYPbJMfC6",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://edge.audio.3qsdn.com/XqVrkTdYPbJMfC6",
+        "idBroadcast":2251,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":0,
+        "id":14847,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"WMA",
+        "metaDataUrl":"http://www.jam.fm/streams/jam-bnd-mp3.asx",
+        "streamFormat":"WMA",
+        "streamUrl":"http://www.jam.fm/streams/jam-bnd-mp3.asx",
+        "idBroadcast":2251,
+        "bitRate":0
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

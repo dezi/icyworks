@@ -1,0 +1,245 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream-relay.tiahost.de:8020",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio PARALAX - ",
+    "subDomaine":"paralax",
+    "relayDisabled":false,
+    "rank":1745,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Zwischen Chillout und Super Nintendo ist dieser Sender unbedingt ungewöhnlich. Gemafreie Musik und Kunstwerke aus dem alten C64 machen das Programm des Senders aus.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3131_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3131_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"Zwischen Chillout und Super Nintendo ist dieser Sender unbedingt ungewöhnlich. Gemafreie Musik und Kunstwerke aus dem alten C64 machen das Programm aus.",
+    "metaDataUrl":"http://stream-relay.tiahost.de:8020",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream-relay.tiahost.de:8020",
+    "displaySubDomaine":"paralax",
+    "recentTitles":
+    [
+      "Eco - Try to explain (Pianola remix)",
+      "Gustav Taxen - Human Race 4 (2002 mix)",
+      "Cerror - Ping flood",
+      "Romeo Knight - Alleykat",
+      "BS - Fire",
+      "Eiz - WARP",
+      "Malmen - Paper Jet",
+      "DJ Mystix - Revenge of Shinobi - Eternal Tears OC ReMix",
+      "Awesome-A - Katakis (Trance mix 2K4)",
+      "CZ-Tunes - Wings of death - Title remix",
+      "Peter W - Albedo (The 80s mix)",
+      "Das Karl Werk Projekt - Phobia",
+      "D`One vs. JanceX - Running for satisfaction (Club force remix)",
+      "pixietricks zircon - Final Fantasy VII Deliverance of the Heart OC ReMix",
+      "Rayza - Top Gear 2 - Rolling start OC ReMix",
+      "Tim Forsyth - Ghouls and Ghosts - Level 4",
+      "Mitch van Hayden - Rubicon (Elemental mix)",
+      "Mustin Kassie JAXX - Secret of Mana Secret of Spram (8 Bells Mix) OC ReMix",
+      "Buzzer - Thunder Force (Lazy days mix)",
+      "8 Bit Instrumental - Donkey Kong Country 3 - Joe Elm (Crazy Calypso)",
+      "Eric Jadi - Marvel vs. Capcom Chun-Li (Nemesis mix) OC ReMix",
+      "The SoundWavers - The Human race (Bando alle Seghe) [DHS]",
+      "Skeletronic - Final Level",
+      "Psychnerd - Desert Dream (Dream remix)",
+      "Radix - The Mission (Malmen Dance Mission remix)",
+      "Dan Tootill - Bastard (Tune 2)",
+      "Flexstyle - Dark Cloud 2 - Before everything happened OC ReMix",
+      "Sensible Sound - Bomb Jack 2",
+      "CZ-Tunes - Double Dragon - Title remix",
+      "Kraku - Speedball (Remix 2004)",
+      "Peter W - Nemesis (The Arcade remix)",
+      "Dragor vs CJoe - Adam Szabo- Altra (Dragor 3xOSC vs CJoe Heart of Asia edit)",
+      "Deportrance - Always and Forever",
+      "J Krafft - Exploding Fist (Bad September remix)",
+      "Reptile  Sky - Outrun - Magical Sound shower (Spacesynth remix)",
+      "TeeKay aka StevenR - The Big Deal 2008",
+      "Terminal Storm - Chordian (Re-chorded radio edit)",
+      "Dafunk - Hardcore Power",
+      "Red Devil - Shavitt No.7",
+      "Makke - Anarchy - In the kitchen",
+      "Dr Awesome - Space Delerium",
+      "Crono - Jim Power",
+      "Flexstyle vs. Jason Covenant - Donkey Kong Country 3 - Banana Revolution (Flexstyle`s Slam-the-Breaks edit)",
+      "Slaygon - The last V8",
+      "Hazel - Loved by my dreams",
+      "X-form Z - Comic Bakery (Trancy version)",
+      "Attila Heger - Pinball FX2 - Mars Table - Main Theme",
+      "zoledian - Vixen (Android mix)",
+      "Mordi - Gem`X",
+      "Petter Carlsson - Storm (Tungsten 186 mix)",
+      "Buzzer of Brainstorm - 80`s once again",
+      "Chronblom - Wizardry (Brightn shiny version)",
+      "Ramiro Vaca - Radio PARALAX anthem - Song 1",
+      "halc - Pilotwings - Liftoff (Get high) OC ReMix"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"http://static.radio.de/images/broadcasts/3131_2.jpeg",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-paralax.de/index1.html",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3131_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3131_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3131,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3131_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3131_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3131_4.gif",
+    "picture6Set":false,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Ambient, Chillout",
+      "_city":"Wuppertal",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio PARALAX",
+    "picture3Url":"http://static.radio.de/images/broadcasts/3131_3.jpeg",
+    "streamUrl":"http://stream-relay.tiahost.de:8020",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":true,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3131_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":true,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3131_5.jpeg",
+    "subdomain":"paralax",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":15998,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream-relay.tiahost.de:8020",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://stream-relay.tiahost.de:8020",
+        "idBroadcast":3131,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

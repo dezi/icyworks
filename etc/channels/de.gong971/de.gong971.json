@@ -1,0 +1,234 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://webradio.gong971.de:8000",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Gong 97.1",
+    "subDomaine":"gong971",
+    "relayDisabled":false,
+    "rank":265,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Bei Gong 97.1 gibt es eine Bestauswahl aus Pop und Rock, Nachrichten aus der Welt und der Region und natürlich Sport. Das Herz schlägt mit dem Club.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1600_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1600_3_1.png",
+    "longitude":11.06833,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1600_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"Bei Gong 97.1 gibt es eine Bestauswahl aus Pop und Rock, Nachrichten aus der Welt und der Region und natürlich Sport. Das Herz schlägt mit dem Club.",
+    "metaDataUrl":"http://webradio.gong971.de:8000",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.44778,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://webradio.gong971.de:8000",
+    "displaySubDomaine":"gong971",
+    "recentTitles":
+    [
+      "STEVE WINWOOD -  Higher Love",
+      "ROD STEWART -  Hot Legs",
+      "KENNY LOGGINS -  Danger Zone",
+      "UGLY KID JOE -  Everything About You",
+      "LYNYRD SKYNYRD -  Sweet Home Alabama",
+      "HUEY LEWIS -  I Want A New Drug",
+      "MARILLION -  Kayleigh",
+      "EAGLE-EYE CHERRY -  Save Tonight",
+      "QUEEN -  Crazy Little Thing Called Love",
+      "KINGS OF LEON -  Sex On Fire",
+      "MIKE OLDFIELD/ROGER CHAPMAN -  Shadow On The Wall",
+      "DEEP PURPLE -  Smoke On The Water",
+      "AC/DC -  Back In Black",
+      "R.E.M. -  Leaving New York",
+      "GUNS N ROSES -  Paradise City (edit)",
+      "ERIC CLAPTON -  I Shot The Sheriff",
+      "BRUCE SPRINGSTEEN -  Born In The Usa",
+      "MICK JAGGER/DAVID BOWIE -  Dancing In The Street",
+      "BILLY SQUIER -  The Stroke",
+      "ROBERT PALMER -  Bad Case Of Loving You",
+      "BLOODHOUND GANG -  The Bad Touch",
+      "DIRE STRAITS -  Money For Nothing",
+      "GREEN DAY -  Basket Case",
+      "BOB SEGER -  Old Time Rock  Roll",
+      "MELISSA ETHERIDGE -  Like The Way I Do",
+      "THE OFFSPRING -  Self Esteem",
+      "BON JOVI -  Bad Medicine",
+      "STATUS QUO -  Rockin  All Over The Worl",
+      "MICHAEL JACKSON -  Dirty Diana",
+      "COLDPLAY -  Clocks",
+      "ERIC CLAPTON -  Cocaine",
+      "KELLY CLARKSON -  Since U Been Gone",
+      "JUDAS PRIEST -  Turbo Lover",
+      "CHEAP TRICK -  I Want You To Want Me",
+      "ZZ TOP -  Legs",
+      "METALLICA -  The Unforgiven",
+      "TOM PETTY -  Free Fallin",
+      "RAINBOW -  Since You Ve Been Gone",
+      "AC/DC -  You Shook Me All Night Long",
+      "GREEN DAY -  21 Guns (single-edit)",
+      "BRUCE SPRINGSTEEN -  Dancing In The Dark",
+      "PETER GABRIEL -  Solsbury Hill",
+      "EVERLAST -  What It S Like"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.gong971.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1600_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1600_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1600,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1600_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1600_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1600_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Pop, Rock",
+      "_city":"Nürnberg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Gong 97.1",
+    "picture3Url":"",
+    "streamUrl":"http://webradio.gong971.de:8000",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1600_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1600_5.jpeg",
+    "subdomain":"gong971",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":18364,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://webradio.gong971.de:8000",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://webradio.gong971.de:8000",
+        "idBroadcast":1600,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

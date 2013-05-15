@@ -1,0 +1,246 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://1live-diggi.akacast.akamaistream.net/7/965/119435/v1/gnl.akacast.akamaistream.net/1live-diggi",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"1LIVE diggi",
+    "subDomaine":"1livediggi",
+    "relayDisabled":false,
+    "rank":13,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"1LIVE diggi ist das digitale Zusatzangebot von 1LIVE. Aktuelle Hits aus HipHop, R\'n\'B, Dance, Rock und Pop mit stündlichen Infos - ohne Moderationen und ohne Werbung.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1383_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1383_3_1.png",
+    "longitude":6.95,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1383_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Dies ist das digitale Zusatzangebot von 1LIVE. Aktuelle Hits aus HipHop, R\'n\'B, Dance, Rock & Pop mit stündl. Infos - ohne Moderationen und ohne Werbung.",
+    "metaDataUrl":"http://1live-diggi.akacast.akamaistream.net/7/965/119435/v1/gnl.akacast.akamaistream.net/1live-diggi",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":50.93333,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.wdr.de/wdrlive/media/einslivedigi.m3u",
+    "displaySubDomaine":"1livediggi",
+    "recentTitles":
+    [
+      "Katy Perry mit Teenage dream",
+      "Pitbull feat. Christina Aguilera mit Feel This Moment",
+      "Cro mit Hi Kids",
+      "Duke Dumont mit Need U",
+      "Justin Timberlake mit Mirrors",
+      "Conor Maynard feat. Wiley mit Animal",
+      "Linkin Park mit Burn it down",
+      "Macklemore & Ryan Lewis mit Can`t hold us",
+      "Black Eyed Peas mit Rock That Body",
+      "Wax mit Rosana",
+      "Bruno Mars mit When I was your man",
+      "Kelis mit Milkshake",
+      "Sean Kingston feat. Chris Brown & Wiz Khalifa mit Beat it",
+      "The Wanted mit Chasing The Sun",
+      "Gentleman mit You remember",
+      "Casper mit Auf und davon",
+      "David Guetta feat. Ne-Yo & Akon mit Play Hard",
+      "Asaf Avidan mit One day",
+      "Lary mit System",
+      "Yolanda Be Cool & DCUP mit We no speak americano",
+      "Taylor Swift mit I knew you were trouble",
+      "ZEDD feat. Foxes mit Clarity",
+      "Marteria feat. Yasha & Miss Platnum mit Feuer",
+      "Nelly mit Hey Porsche",
+      "Swedish House Mafia mit One",
+      "Paramore mit Still into you",
+      "Seeed mit Deine Zeit",
+      "Jessie J feat. B.o.B. mit Price tag",
+      "Armin van Buuren feat. Trevor Guthrie mit This is what it feels like",
+      "Flo Rida mit I cry",
+      "50 Cent feat Eminem and Adam Levine mit My life",
+      "Jason Derulo mit Whatcha Say",
+      "Macklemore & Ryan Lewis mit Thrift Shop",
+      "Rihanna feat. Mikky Ekko mit Stay",
+      "Fettes Brot mit Kuss Kuss Kuss",
+      "OutKast mit Roses",
+      "Will.I.Am feat. Justin Bieber mit #thatPOWER",
+      "Labrinth mit Express yourself",
+      "Rudimental feat. John Newman mit Feel the Love",
+      "James Arthur mit Impossible",
+      "Katy Perry feat. Snoop Dogg mit California gurls",
+      "Avicii feat. Nicky Romero mit I could be the one",
+      "Luniz mit I got 5 on it",
+      "Daft Punk feat. Pharrell mit Get Lucky",
+      "DJ Fresh feat. Rita Ora mit Hot Right Now",
+      "Chakuza feat. Sebastian Madsen mit Notlandung auf Berlin",
+      "Taio Cruz mit Troublemaker",
+      "Calvin Harris feat. Ellie Goulding mit I need your love",
+      "Marteria feat. Yasha & Miss Platnum mit Lila Wolken",
+      "Chris Brown mit Fine China",
+      "Sebastian Ingrosso mit Calling",
+      "Linkin Park mit Castle of Glass",
+      "PSY mit Gangnam Style",
+      "Capital Cities mit Safe and Sound",
+      "A«ap Rocky feat Skrillex mit Wild for the night"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.einslive.de/multimedia/diggi/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1383_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1383_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1383,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1383_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1383_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1383_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"Internetradio",
+      "_country":"Deutschland",
+      "_genre":"Dance, Mainstream",
+      "_city":"Köln",
+      "_family":"1LIVE",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"1LIVE diggi",
+    "picture3Url":"",
+    "streamUrl":"http://www.wdr.de/wdrlive/media/einslivedigi.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1383_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1383_5.gif",
+    "subdomain":"1livediggi",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458223,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://1live-diggi.akacast.akamaistream.net/7/965/119435/v1/gnl.akacast.akamaistream.net/1live-diggi",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://1live-diggi.akacast.akamaistream.net/7/965/119435/v1/gnl.akacast.akamaistream.net/1live-diggi",
+        "idBroadcast":1383,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

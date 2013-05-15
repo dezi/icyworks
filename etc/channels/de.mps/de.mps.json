@@ -1,0 +1,243 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://www.mps-radio.de:1008/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"MPS Radio - ",
+    "subDomaine":"mps",
+    "relayDisabled":false,
+    "rank":1002,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Auf MPS Radio hört Ihr Gothic, Mittelalter, Metal und vieles mehr. In der großen Community könnt Ihr Euch mit anderen Gleichgesinnten austauschen und live während der Sendungen mit den Moderatoren und Hörern chatten.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/18022_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/18022_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/18022_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Auf MPS Radio hört Ihr Gothic, Mittelalter, Metal und vieles mehr.",
+    "metaDataUrl":"http://www.mps-radio.de:1008/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.mps-radio.de:1008/",
+    "displaySubDomaine":"mps",
+    "recentTitles":
+    [
+      "Feuerschwanz - Monogamie",
+      "Cuirina - Blauer Drache",
+      "Mediaeval Baebes - The Blacksmiths",
+      "Celtic Woman - Isle Of Hope, Isle Of Tears",
+      "The Moors - Guth Na Torainn",
+      "Freiwild - Auf einen Neuanfang",
+      "Arcana Obscura - Hall Of Mirrors",
+      "Lupus Vagabundus - Antikoagulanz",
+      "Ralf Der Rabe - Der Drache Fangdorn (Die Ballade)",
+      "Young Dubliners - Saints And Sinners",
+      "Rey Don Alonso - Kol Libi - Sarband - Calvi, Calvi",
+      "The Dolmen - Mid Winter Dances",
+      "Ordo Equitum Solis - Argenta Imago",
+      "Qntal - Spiegelglass",
+      "Die Galgenvogel - Der Bauch Des Spielmanns",
+      "Badic - When I\'m Up I Can\'t Get Down",
+      "Estampie /  L\'ham De Foc - A Virgen",
+      "Orplid - Jenseits Von Hier",
+      "Golden Bough - Saong Of The Swan Maiden",
+      "Julie Fowlis - Touch The Sky",
+      "omnia - FIDHE RA HURI",
+      "Omnia - Lughnasoh",
+      "Wardruna - Algir - Stien Klarnar",
+      "Capella Antique Bambergensis - Danse Real",
+      "Veitzfluch - Chanoconetta Da Virgen",
+      "Frei.Wild - Weil Du Mich Nur Verarscht Hast (Outro)",
+      "Nightwish - Dead To The World",
+      "Amaranthe - Amaranthine",
+      "Within Temptation - Apologize",
+      "Hotze Knasterbart - Schuldig aus Prinzip",
+      "Fummelfips - Mein Stammbaum ist ein Kreis",
+      "Jan Hegenberg - Die Horde rennt",
+      "Hasenscheisse - Orkenbraten",
+      "Saor Patrol - Men o´ Galloway",
+      "Schelmish - For the clansmen",
+      "Schandmaul - Dein Anblick",
+      "Saltatio Mortis - Spielmannsschwur",
+      "Ignis Fatuu - Spiel des Lebens",
+      "Impius Mundi - Lasst Den Leib Am Galgen Hängen",
+      "Rabenschrey - Puppenspieler",
+      "Metusa - Weltenwanderer",
+      "Mr Hurley  Die Pulveraffen - Blau wie das Meer (feat. Snorre Snoerkelfrey)",
+      "Versengold - Drey Weyber",
+      "Rapalje - The Banks of Ponchertrain",
+      "SkalTrian - Minne",
+      "Faun feat. Santiano - Tanz mit mir",
+      "Cromdale - I Know I Have To Die",
+      "Der Münzer - Herr Mannelig",
+      "Ragnaröek - Knochenschiff",
+      "Ingrimm - Letzte Reise",
+      "Ignis Fatuu - Sehnsucht",
+      "Des Koenigs Halunken - Wunschpunsch"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.mps-radio.de/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/18022_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/18022_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":18022,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/18022_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/18022_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/18022_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Gothic, Metal",
+      "_city":"Krefeld",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"MPS Radio ",
+    "picture3Url":"",
+    "streamUrl":"http://www.mps-radio.de:1008/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":false,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/18022_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"",
+    "subdomain":"mps",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":19947,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://www.mps-radio.de:1008/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://www.mps-radio.de:1008/",
+        "idBroadcast":18022,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

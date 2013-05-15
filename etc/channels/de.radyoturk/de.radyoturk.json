@@ -1,0 +1,270 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://listen.radyoturk.de:2222/radyoturk",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://listen.radyoturk.de:4444/radyoturk",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"RadyoTürk.de, Radyo Türk -",
+    "subDomaine":"radyoturk",
+    "relayDisabled":false,
+    "rank":498,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"RadyoTürk.de ist ein 24-stündiges Radiospartenprogramm mit dem Schwerpunkt türkische Musik verschiedener Genres in Deutschland. Neben Live-Übertragungen von Konzerten aus der Türkei werden auch\r\nalle wichtigen Spiele der türkischen \"Superliga\" übertragen.\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/13061_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/13061_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/13061_6.png",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"RadyoTürk.de ist ein 24-stündiges Radiospartenprogramm mit dem Schwerpunkt türkische Musik verschiedener Genres in Deutschland.",
+    "metaDataUrl":"http://listen.radyoturk.de:2222/radyoturk",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://listen.radyoturk.de:2222/radyoturk",
+    "displaySubDomaine":"radyoturk",
+    "recentTitles":
+    [
+      "Ajda Pekkan - Arada Sirada (Remix)",
+      "Hande Yener - Hasta",
+      "Gulsen - Yatcaz Kalkcaz Ordayim",
+      "Tan - Ilk Bilen Sen Ol (Versiyon)",
+      "Yusuf Guney - Git Bedenim Buralardan",
+      "Sertab Erener - Iyilesiyorum",
+      "Murat Dalkilic - Bir Hayli",
+      "Anadolu Universitesi - 27 Yildir Avrupada",
+      "Sinan Akcil - Dev Dalga",
+      "Demet Akalin feat. Ersay Uner - Yilan",
+      "Halil Sezai - Yangin Var",
+      "Zeynep Dizdar - Vazgec Gonul",
+      "Gulsen - Irgalamaz Beni",
+      "Nilufer  Emre Aydin - Son Perde",
+      "Tugba Ozerk - Ilan",
+      "Seksendort - Soyle",
+      "Zakkum - Teslim Ol",
+      "Multitap - Bir Sey Mi Var",
+      "Nil Karaibrahimgil - Resmen Asigim",
+      "Oguz Berkay Fidan feat. Murat Boz - Olmuyor",
+      "Mehmet Erdem - Herkes Ayni Hayatta",
+      "Nedim Zeper - Oysa Sen",
+      "Koro - Batsin Bu Dunya",
+      "Bengu - Yarali",
+      "Ayten Alpman - Memleketim",
+      "Teoman - Gonulcelen",
+      "Tarkan - Tas",
+      "Ferhat Gocer - Ayrilsak Oluruz Biz",
+      "Demet Akalin - Giderli Sarkilar",
+      "Selim Gulgoren - Cennet",
+      "Sila - Zor Sevdigimden",
+      "Gokhan Ozen - Budala",
+      "Yalin - Dadadadan",
+      "Tan - Sevda",
+      "Gripin - Yalnizligin Caresini Bulmuslar",
+      "Demet Akalin - Turkan",
+      "Gokhan Tepe - Uc Kelime",
+      "Cici Kizlar - Delisin",
+      "Yalin - Aslinda",
+      "Gokhan Ozen - Budala (Akustik)",
+      "Sila - Leyla",
+      "Hande Yener - Bir Bela",
+      "Ziynet Sali ft. Huseyin Karadayi - Sevenler Aglarmis",
+      "Cem Yilmaz - Orgeneral",
+      "Tarkan - Arada Bir",
+      "Gulden Mutlu - Unutamam Dedin",
+      "Gulsen - Kardan Adam",
+      "Yalin - Olmasada Olur",
+      "Fettah Can - Bu Askin Katili Sensin",
+      "Sila - Aslan Gibi",
+      "Sezen Aksu - Seni Yerler",
+      "Alisan - Seni Biraz Fazla Sevdim"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radyoturk.de ",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/13061_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/13061_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":13061,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/13061_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/13061_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/13061_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"90er, Folk",
+      "_city":"Siegburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Türkisch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"RadyoTürk.de ",
+    "picture3Url":"",
+    "streamUrl":"http://listen.radyoturk.de:2222/radyoturk",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/13061_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/13061_5.png",
+    "subdomain":"radyoturk",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":12068,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"AAC",
+        "metaDataUrl":"http://listen.radyoturk.de:4444/radyoturk",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://listen.radyoturk.de:4444/radyoturk",
+        "idBroadcast":13061,
+        "bitRate":32
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":13144,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://listen.radyoturk.de:2222/radyoturk",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://listen.radyoturk.de:2222/radyoturk",
+        "idBroadcast":13061,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

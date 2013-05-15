@@ -1,0 +1,2655 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+Bayern 2 - Das Kalenderblatt Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="Bayern 2 - Das Kalenderblatt (128kbps) - Wissen Sie, wer den Reißverschluss erfand oder wie Albert Einstein durch eine Prüfung fiel? Sie erfahren es im &#034;Kalenderblatt&#034; - ein Wissenskompendium für jeden Tag. Ein akustischer Abreißkalender: So bunt wie das Leben! So informativ wie ein Lexikon! Und dabei unterhaltsam bis witzig!" />
+<meta property="og:title" content="Bayern 2 - Das Kalenderblatt"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/4158_4.jpeg"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://kalenderblatt.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://kalenderblatt.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366769200885" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366769200885" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://kalenderblatt.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "kalenderblatt",
+	
+	pageRequestUrl : "http://kalenderblatt.radio.de/broadcast_info.jsf",
+	pageDomain : "kalenderblatt.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17699879","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","testResult":null,"name":"Karl May spricht vor Wiener Akademikern (22.03.1912) - 22.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699880","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yxf/130321_0905_radioWissen_Bismarcks-Erhebung-in-den-Fuerstenstand-210.mp3","testResult":null,"name":"Bismarcks Erhebung in den Fürstenstand (21.03.1871) - 21.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699881","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH5-kP/130320_0905_radioWissen_Daniel-Dunglas-Home-geboren-Medium-20031833.mp3","testResult":null,"name":"Daniel Dunglas Home geboren, Medium (20.03.1833) - 20.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699882","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_Agd/130319_0905_radioWissen_Franz-Senn-geboren-Fremdenverkehrsbegruende.mp3","testResult":null,"name":"Franz Senn geboren, Fremdenverkehrsbegründer (19.03.1831) - 19.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699883","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yxP/130318_0905_radioWissen_Die-Scharfrichterdynastie-Sanson-erlischt-1.mp3","testResult":null,"name":"Die Scharfrichterdynastie Sanson erlischt (18.03.1847) - 18.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699884","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5Ax6/130315_0905_radioWissen_Erstes-Sechstagerennen-in-Europa-15031909.mp3","testResult":null,"name":"Erstes Sechstagerennen in Europa (15.03.1909) - 15.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699885","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yNd/130314_0905_radioWissen_Strindbergs-Fraeulein-Julie-uraufgefuehrt-1.mp3","testResult":null,"name":"Strindbergs \"Fräulein Julie\" uraufgeführt (14.03.1889) - 14.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699886","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH5-F6/130313_0905_radioWissen_Tennessee-verbietet-Evolutionslehre-1303192.mp3","testResult":null,"name":"Tennessee verbietet Evolutionslehre (13.03.1925) - 13.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699887","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9Axc/130312_0905_radioWissen_Coca-Cola-erstmals-in-Flaschen-abgefuellt-1.mp3","testResult":null,"name":"Coca-Cola erstmals in Flaschen abgefüllt (12.03.1894) - 12.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17699888","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-xc/130311_0905_radioWissen_384912-Jahre-Haft-fuer-Brieftraeger-geforde.mp3","testResult":null,"name":"384.912 Jahre Haft für Briefträger gefordert (11.03.1972) - 11.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696446","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-k6/130308_0905_radioWissen_Raymonde-de-Laroche-besteht-Pilotenpruefung.mp3","testResult":null,"name":"Raymonde de Laroche besteht Pilotenprüfung (08.03.1910) - 08.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696447","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yNc/130307_0905_radioWissen_Emile-Poubelles-Verordnung-ueber-Abfalleime.mp3","testResult":null,"name":"Emile Poubelles Verordnung über Abfalleimer (07.03.1884) - 07.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696448","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-Nf/130306_0905_radioWissen_Norfolkinsel-wird-Strafgefangenen-Siedlung-.mp3","testResult":null,"name":"Norfolkinsel wird Strafgefangenen-Siedlung (06.03.1788) - 06.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696449","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_Agf/130305_0905_radioWissen_Musterschutz-fuer-blonden-Steiff-Baeren-050.mp3","testResult":null,"name":"Musterschutz für blonden Steiff-Bären (05.03.1904) - 05.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17696450","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2xd/130304_0905_radioWissen_Murnaus-Nosferatu-uraufgefuehrt-04031922.mp3","testResult":null,"name":"Murnaus \"Nosferatu\" uraufgeführt (04.03.1922) - 04.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694604","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-Nc/130301_0905_radioWissen_Erster-Fallschirmsprung-aus-einem-Flugzeug-.mp3","testResult":null,"name":"Erster Fallschirmsprung aus einem Flugzeug (1.3.1912) - 01.03.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694605","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-8d/130228_0905_radioWissen_Franz-von-Anhalt-Dessau-besteigt-den-Vesuv-.mp3","testResult":null,"name":"Franz von Anhalt-Dessau besteigt den Vesuv (28.02.1766) - 28.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694606","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_AgP/130227_0905_radioWissen_Erste-Frauenzeitschrift-der-Welt-erscheint-.mp3","testResult":null,"name":"Erste Frauenzeitschrift der Welt erscheint (27.02.1693) - 27.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694607","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp5yrc/130226_0905_radioWissen_Goldener-Baer-fuer-Sinn-und-Sinnlichkeit-26.mp3","testResult":null,"name":"\"Goldener Bär\" für \"Sinn und Sinnlichkeit\" (26.02.1996) - 26.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694608","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2xf/130225_0905_radioWissen_Kaiser-Franz-Joseph-hilft-Tiroler-Tueftler-.mp3","testResult":null,"name":"Kaiser Franz Joseph hilft Tiroler Tüftler (25.02.1867) - 25.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17693999","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5Axc/130222_0905_radioWissen_Frank-W-Woolworth-macht-sich-selbststaendig.mp3","testResult":null,"name":"Frank W. Woolworth macht sich selbstständig (22.02.1879) - 22.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694000","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52vP/130221_0905_radioWissen_Juana-Ines-de-la-Cruz-tritt-in-Orden-ein-21.mp3","testResult":null,"name":"Juana Inés de la Cruz tritt in Orden ein (21.02.1669) - 21.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694001","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2x6/130220_0905_radioWissen_Alphonse-Bertillon-identifiziert-Straftaete.mp3","testResult":null,"name":"Alphonse Bertillon identifiziert Straftäter (20.02.1883) - 20.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694002","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5AkP/130219_0905_radioWissen_Marie-Juchacz-spricht-vor-Parlament-1902191.mp3","testResult":null,"name":"Marie Juchacz spricht vor Parlament (19.02.1919) - 19.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17694003","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2kP/130218_0905_radioWissen_Goethe-haelt-Trauerrede-auf-Wieland-1802181.mp3","testResult":null,"name":"Goethe hält Trauerrede auf Wieland (18.02.1813) - 18.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690883","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2g6/130215_0905_radioWissen_Schlachtschiff-USS-Maine-explodiert-1502189.mp3","testResult":null,"name":"Schlachtschiff \"USS Maine\" explodiert (15.02.1898) - 15.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690884","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9ANP/130214_0905_radioWissen_James-Cook-wird-getoetet-14-2-1779.mp3","testResult":null,"name":"James Cook wird getötet (14. 2. 1779) - 14.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690885","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52vc/130213_0905_radioWissen_Feuersbrunst-in-Muenchen-13021327.mp3","testResult":null,"name":"Feuersbrunst in München (13.02.1327) - 13.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690886","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5ANd/130212_0905_radioWissen_Goldrausch-in-Australien-12021851.mp3","testResult":null,"name":"Goldrausch in Australien (12.02.1851) - 12.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690887","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5Ag6/130211_0905_radioWissen_Mysterioeser-Tod-des-Britannicus-110255.mp3","testResult":null,"name":"Mysteriöser Tod des Britannicus (11.02.55) - 11.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690888","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/9Axg_-OS/130208_0905_radioWissen_Mendel-veroeffentlicht-Kreuzungsversuche-08.mp3","testResult":null,"name":"Mendel veröffentlicht Kreuzungsversuche (08.02.1865) - 08.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690889","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52gf/130207_0905_radioWissen_Ende-der-grossen-Tulpenmanie-07021637.mp3","testResult":null,"name":"Ende der großen Tulpenmanie (07.02.1637) - 07.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690890","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y5ybd/130206_0905_radioWissen_Flugunglueck-mit-Manchester-United-Spielern.mp3","testResult":null,"name":"Flugunglück mit Manchester United-Spielern (06.02.1958) - 06.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690891","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9AN6/130205_0905_radioWissen_Toyotomi-Hideyoshi-laesst-Christen-hinricht.mp3","testResult":null,"name":"Toyotomi Hideyoshi lässt Christen hinrichten (05.02.1597) - 05.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690892","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5ANf/130204_0905_radioWissen_Bankraeuber-Lugmeier-springt-aus-dem-Fenste.mp3","testResult":null,"name":"Bankräuber Lugmeier springt aus dem Fenster (04.02.1976) - 04.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690893","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9A8d/130201_0905_radioWissen_Der-Brandtaucher-wird-getestet-01021851.mp3","testResult":null,"name":"Der \"Brandtaucher\" wird getestet (01.02.1851) - 01.02.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690894","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52gc/130131_0905_radioWissen_Ken-Wilber-geboren-Integraler-Psychologe-31.mp3","testResult":null,"name":"Ken Wilber geboren, \"Integraler Psychologe\" (31.01.1949) - 31.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690895","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9A8f/130130_0905_radioWissen_Rubik-erhaelt-das-Patent-auf-den-Zauberwuer.mp3","testResult":null,"name":"Rubik erhält das Patent auf den \"Zauberwürfel\" (30.01.1975) - 30.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690896","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y5yrd/130129_0905_radioWissen_Philip-Henry-Gosse-sammelt-Meerestiere-2901.mp3","testResult":null,"name":"Philip Henry Gosse sammelt Meerestiere (29.01.1852) - 29.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690897","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_Abg5y8c/130128_0905_radioWissen_Andreas-Hofer-wird-verhaftet-28011810.mp3","testResult":null,"name":"Andreas Hofer wird verhaftet (28.01.1810) - 28.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690898","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5y4f/130125_0905_radioWissen_Erdbeben-und-Pest-in-Sueddeutschland-250113.mp3","testResult":null,"name":"Erdbeben und Pest in Süddeutschland (25.01.1348) - 25.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690899","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52xP/130124_0905_radioWissen_Katharina-Daschkowa-wird-Akademie-Direktori.mp3","testResult":null,"name":"Katharina Daschkowa wird Akademie-Direktorin (24.01.1783) - 24.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690900","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Ary_24c/130123_0905_radioWissen_Patent-auf-den-Wuerfelzucker-23011843.mp3","testResult":null,"name":"Patent auf den Würfelzucker (23.01.1843) - 23.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690901","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_Abg5yFd/130122_0905_radioWissen_Elsie-Leach-stirbt-Cary-Grants-Mutter-22011.mp3","testResult":null,"name":"Elsie Leach stirbt, Cary Grants Mutter (22.01.1973) - 22.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17690902","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5ybd/130121_0905_radioWissen_Friedrich-der-Grosse-verbietet-Kaffee-Roest.mp3","testResult":null,"name":"Friedrich der Große verbietet Kaffee-Rösten - 21.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683540","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5yb6/130118_0905_radioWissen_Marie-die-Adlerin-aus-Bayern-stirbt-1801192.mp3","testResult":null,"name":"Marie, die \"Adlerin aus Bayern\", stirbt (18.01.1925) - 18.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683541","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y5yrf/130117_0905_radioWissen_Erster-lebender-Quastenflosser-entdeckt-170.mp3","testResult":null,"name":"Erster lebender Quastenflosser entdeckt (17.01.1987) - 17.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683542","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_Abg5yF6/130116_0905_radioWissen_Kalman-Mikszath-geboren-ungarischer-Erzaehl.mp3","testResult":null,"name":"Kálmán Mikszáth geboren, ungarischer Erzähler (16.01.1847) - 16.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683543","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5yrc/130115_0905_radioWissen_Soldatenhandel-unter-Landgraf-Friedrich-II-.mp3","testResult":null,"name":"Soldatenhandel unter Landgraf Friedrich II. (15.01.1776) - 15.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683544","author":"","stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Ary_2bf/130114_0905_radioWissen_Hiasl-Matthias-Klostermayr-festgenommen-140.mp3","testResult":null,"name":"\"Hiasl\" Matthias Klostermayr festgenommen (14.01.1771) - 14.01.2013","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"Ein Download-Angebot des Bayerischen Rundfunks","seoTitle":"Bayern 2 - Das Kalenderblatt","subDomaine":"kalenderblatt","relayDisabled":false,"rank":2143,"playableStateString":"FREE","idTeaser":0,"description":"Wissen Sie, wer den Reißverschluss erfand oder wie Albert Einstein durch eine Prüfung fiel? Sie erfahren es im \"Kalenderblatt\" - ein Wissenskompendium für jeden Tag. Ein akustischer Abreißkalender: So bunt wie das Leben! So informativ wie ein Lexikon! Und dabei unterhaltsam bis witzig!","picture2TransUrl":"http://static.radio.de/images/broadcasts/4158_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/4158_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"http://static.radio.de/images/broadcasts/4158_6.jpeg","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"ALWAYS","hasJingle":false,"shortDescription":"Ein Wissenskompendium für jeden Tag. So bunt wie das Leben! So informativ wie ein Lexikon! Und dabei unterhaltsam bis witzig!","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","podcastUrls":[{"sampleRate":44100,"title":"Karl May spricht vor Wiener Akademikern (22.03.1912) - 22.03.2013","episode":0,"description":"Das Leben hat es lange nicht gut gemeint mit Karl May, dem späteren Autor der Geschichten um Winnetou und Old Shatterhand. Kurz vor seinem Tod hielt er am 22. März 1912 den Vortrag \"Empor ins Reich der Edelmenschen\". Autor: Christian Feldmann","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","published":"Fri, 22 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4228527},{"sampleRate":44100,"title":"Bismarcks Erhebung in den Fürstenstand (21.03.1871) - 21.03.2013","episode":1,"description":"Otto von Bismarck hatte aus dem preußischen König Wilhelm I. den deutschen Kaiser Wilhelm I. gemacht. Dafür wurde er am 21. März 1871 zum Reichskanzler ernannt und in den Fürstenstand erhoben. Autorin: Brigitte Kohn","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yxf/130321_0905_radioWissen_Bismarcks-Erhebung-in-den-Fuerstenstand-210.mp3","published":"Thu, 21 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3698136},{"sampleRate":44100,"title":"Daniel Dunglas Home geboren, Medium (20.03.1833) - 20.03.2013","episode":2,"description":"Konnte er nun schweben oder nicht? An den übernatürlichen Fähigkeiten des Schotten Daniel Dunglas Home schieden sich die Geister seiner Zeit. Am 20. März 1833 wurde er geboren. Autor: Xaver Frühbeis","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH5-kP/130320_0905_radioWissen_Daniel-Dunglas-Home-geboren-Medium-20031833.mp3","published":"Wed, 20 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4353914},{"sampleRate":44100,"title":"Franz Senn geboren, Fremdenverkehrsbegründer (19.03.1831) - 19.03.2013","episode":3,"description":"Franz Senn, geboren als Bauernsohn am 19. März 1831, trieb es hoch hinaus, jedenfalls gemessen in Höhenmetern der Tiroler Bergwelt. Als Gletscherpfarrer wurde er zum Gründer des Deutschen Alpenvereins. Autor: Herbert Becker","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_Agd/130319_0905_radioWissen_Franz-Senn-geboren-Fremdenverkehrsbegruende.mp3","published":"Tue, 19 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3645056},{"sampleRate":44100,"title":"Die Scharfrichterdynastie Sanson erlischt (18.03.1847) - 18.03.2013","episode":4,"description":"Am Anfang war es Liebe! Die Liebe eines Leutnants zu einem Mädchen begründete die französische Scharfrichterdynastie der Sanson. Generationen später gab der letzte Sanson am 18. März 1847 seine Guillotine auf. Autor: Xaver Frühbeis","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yxP/130318_0905_radioWissen_Die-Scharfrichterdynastie-Sanson-erlischt-1.mp3","published":"Mon, 18 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4378156},{"sampleRate":44100,"title":"Erstes Sechstagerennen in Europa (15.03.1909) - 15.03.2013","episode":5,"description":"Wilder Beifall von den Stehplätzen bis zur Ehrenloge, obwohl schon damals kaum jemand die Regeln verstand - beim ersten Sechstagerennen Europas, das am 15. März 1909 in Berlin begann. Autor: Michael Wagner","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5Ax6/130315_0905_radioWissen_Erstes-Sechstagerennen-in-Europa-15031909.mp3","published":"Fri, 15 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3918819},{"sampleRate":44100,"title":"Strindbergs \"Fräulein Julie\" uraufgeführt (14.03.1889) - 14.03.2013","episode":6,"description":"Die Zeit ist aus den Fugen, die Figuren des Dramatikers August Strindbergs sind es auch. Seine \"Fräulein Julie\" durfte am 14. März 1889 nur im Rahmen einer geschlossenen Veranstaltung uraufgeführt werden. Autorin: Brigitte Kohn","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yNd/130314_0905_radioWissen_Strindbergs-Fraeulein-Julie-uraufgefuehrt-1.mp3","published":"Thu, 14 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4208047},{"sampleRate":44100,"title":"Tennessee verbietet Evolutionslehre (13.03.1925) - 13.03.2013","episode":7,"description":"Evolutionslehre nein danke! Am 13. März 1925 wurde im US-Bundesstaat Tennessee der \"Butler Act\" verabschiedet. Danach war es strafbar, in der Schule Darwins Evolutionslehre zu unterrichten. Autorin: Christiane Neukirch","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH5-F6/130313_0905_radioWissen_Tennessee-verbietet-Evolutionslehre-1303192.mp3","published":"Wed, 13 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3976497},{"sampleRate":44100,"title":"Coca-Cola erstmals in Flaschen abgefüllt (12.03.1894) - 12.03.2013","episode":8,"description":"Ob teuflisches Getränk oder \"The Real Thing\" - über Coca-Cola streiten ganze Weltanschauungen. Am 12. März 1894 wird das Getränk erstmals in Flaschen abgefüllt. Autor: Herbert Becker","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9Axc/130312_0905_radioWissen_Coca-Cola-erstmals-in-Flaschen-abgefuellt-1.mp3","published":"Tue, 12 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4283697},{"sampleRate":44100,"title":"384.912 Jahre Haft für Briefträger gefordert (11.03.1972) - 11.03.2013","episode":9,"description":"Fast 43.000 Briefe hatte der spanische Briefträger Gabriel March Granados unterschlagen. Der Staatsanwalt forderte am 11. März 1972 eine Strafe für jeden einzelnen Brief - hochgerechnet 384.912 Jahre Haft! Autor: Herbert Becker","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-xc/130311_0905_radioWissen_384912-Jahre-Haft-fuer-Brieftraeger-geforde.mp3","published":"Mon, 11 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4061761},{"sampleRate":44100,"title":"Raymonde de Laroche besteht Pilotenprüfung (08.03.1910) - 08.03.2013","episode":10,"description":"Die Baronin Raymonde de Laroche war zwar nicht adlig, aber unerschrocken. Am 8. März 1910 bestand sie in Frankreich als erste Frau der Welt eine Pilotenprüfung. Autorin: Ulrike Rückert","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-k6/130308_0905_radioWissen_Raymonde-de-Laroche-besteht-Pilotenpruefung.mp3","published":"Fri, 08 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4002411},{"sampleRate":44100,"title":"Emile Poubelles Verordnung über Abfalleimer (07.03.1884) - 07.03.2013","episode":11,"description":"Das mondäne Paris war ein Paradies für Ratten, bis Eugène-René Poubelle am 7. März 1884 per Dekret die ersten Abfalleimer in Umlauf brachte. Eine Großtat, vive la France! Autorin: Julia Devlin","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5yNc/130307_0905_radioWissen_Emile-Poubelles-Verordnung-ueber-Abfalleime.mp3","published":"Thu, 07 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3774205},{"sampleRate":44100,"title":"Norfolkinsel wird Strafgefangenen-Siedlung (06.03.1788) - 06.03.2013","episode":12,"description":"Der britische Kapitalismus boomte und sorgte für eine satte Kriminalitätsrate. Doch wohin mit den Sträflingen? Am besten möglichst weit weg! Am 6. März 1788 wurde die Norfolkinsel im Pazifik zum Strafgefangenenlager. Autor: Andreas Miekisch","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-Nf/130306_0905_radioWissen_Norfolkinsel-wird-Strafgefangenen-Siedlung-.mp3","published":"Wed, 06 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3469513},{"sampleRate":44100,"title":"Musterschutz für blonden Steiff-Bären (05.03.1904) - 05.03.2013","episode":13,"description":"Das erste niedliche Filz-Tier aus der Manufaktur von Margarete Steiff war ein Elefant als Nadelkissen. Doch der große Kuschel-Erfolg kam mit dem Teddybären. Am 5. März 1904 wurde der berühmte 35 PB zum Musterschutz angemeldet. Autorin: Prisca Straub","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_Agf/130305_0905_radioWissen_Musterschutz-fuer-blonden-Steiff-Baeren-050.mp3","published":"Tue, 05 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4239812},{"sampleRate":44100,"title":"Murnaus \"Nosferatu\" uraufgeführt (04.03.1922) - 04.03.2013","episode":14,"description":"Nosferatu war ein Sauger von grauenerregender Größe, ein Meister des Vampirgeschäfts. Am 4. März 1922 hatte ihn Regisseur Friedrich Wilhelm Murnau in Berlin auf das Publikum losgelassen. Autorin: Susi Weichselbaumer","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2xd/130304_0905_radioWissen_Murnaus-Nosferatu-uraufgefuehrt-04031922.mp3","published":"Mon, 04 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":4585046},{"sampleRate":44100,"title":"Erster Fallschirmsprung aus einem Flugzeug (1.3.1912) - 01.03.2013","episode":15,"description":"Er war ein echter Aussteiger. Alber Berry, Captain bei der US-Army, stieg als erster Mensch mit einem Fallschirm aus einem Flugzeug aus und wartete ab, ob sich der Fallschirm öffnen würde. Autor: Thomas Grasberger","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-Nc/130301_0905_radioWissen_Erster-Fallschirmsprung-aus-einem-Flugzeug-.mp3","published":"Fri, 01 Mar 2013 09:05:01 +0100","bitRate":128,"contentLength":3586959},{"sampleRate":44100,"title":"Franz von Anhalt-Dessau besteigt den Vesuv (28.02.1766) - 28.02.2013","episode":16,"description":"Der Blick über den Kraterrand des kochenden Vesuvs am 28. Februar 1766 ließ Franz von Anhalt-Dessau nicht mehr los. Zurück zu Hause ließ er sich einen künstlichen Vulkan im heutigen \" Wörlitzer Park\" errichten. Autor: Xaver Frühbeis","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8d5-8d/130228_0905_radioWissen_Franz-von-Anhalt-Dessau-besteigt-den-Vesuv-.mp3","published":"Thu, 28 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3856125},{"sampleRate":44100,"title":"Erste Frauenzeitschrift der Welt erscheint (27.02.1693) - 27.02.2013","episode":17,"description":"Eigentlich eine schöne Idee des Londoner Buchhändler John Dunton. Am 27. Februar 1693 gab er \"The Ladies Mercury\" heraus, die erste Frauenzeitschrift der Welt. Autorin: Anja Mösing","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_AgP/130227_0905_radioWissen_Erste-Frauenzeitschrift-der-Welt-erscheint-.mp3","published":"Wed, 27 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3839825},{"sampleRate":44100,"title":"\"Goldener Bär\" für \"Sinn und Sinnlichkeit\" (26.02.1996) - 26.02.2013","episode":18,"description":"Jane Austen beschrieb das Land- und Liebesleben gehobener Kreise um 1800 in England. Am 26. Februar 1996 erhielt der Regisseur Ang Lee den \"Goldenen Bären\" für seine Austen-Verfilmung \"Sinn und Sinnlichkeit\". Autorin: Prisca Straub","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp5yrc/130226_0905_radioWissen_Goldener-Baer-fuer-Sinn-und-Sinnlichkeit-26.mp3","published":"Tue, 26 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4055492},{"sampleRate":44100,"title":"Kaiser Franz Joseph hilft Tiroler Tüftler (25.02.1867) - 25.02.2013","episode":19,"description":"Ein hoffnungsvoller Anfang: Am 25. Februar 1867 spendierte Kaiser Franz Joseph dem Tüftler Peter Mitterhofer 200 Gulden für die Entwicklung seiner Schreibmaschine. Tolle Idee, aber schlechter Zeitpunkt. Autor: Armin Strohmeyr","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2xf/130225_0905_radioWissen_Kaiser-Franz-Joseph-hilft-Tiroler-Tueftler-.mp3","published":"Mon, 25 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4185059},{"sampleRate":44100,"title":"Frank W. Woolworth macht sich selbstständig (22.02.1879) - 22.02.2013","episode":20,"description":"Kann ein Kaufmann steinreich werden, obwohl er nur Ladenhüter im Sortiment hat? Frank Winfield Woolworth fand heraus, wie es geht. Am 22. Februar 1879 machte er sich selbstständig. Autorin: Carola Zinner","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5Axc/130222_0905_radioWissen_Frank-W-Woolworth-macht-sich-selbststaendig.mp3","published":"Fri, 22 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3987364},{"sampleRate":44100,"title":"Juana Inés de la Cruz tritt in Orden ein (21.02.1669) - 21.02.2013","episode":21,"description":"Schon als Jugendliche bestand Juana Inés de la Cruz gegen die besten Gelehrten Mexikos. Um ihrer Liebe zum Wissen treu bleiben zu können, trat sie am 21. Februar 1669 in den Orden der Hieronymitinnen ein. Autor: Christian Feldmann","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52vP/130221_0905_radioWissen_Juana-Ines-de-la-Cruz-tritt-in-Orden-ein-21.mp3","published":"Thu, 21 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4055909},{"sampleRate":44100,"title":"Alphonse Bertillon identifiziert Straftäter (20.02.1883) - 20.02.2013","episode":22,"description":"Keine zwei Menschen haben genau dieselben Körpermaße, wusste Alphonse Bertillon und begann, Straftäter zu vermessen, um sie im Bedarfsfall schnell wieder zu finden. Am 20. Februar 1883 gelang der \"Bertillonage\" der erste Erfolg. Autorin: Christiane Neukirch","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2x6/130220_0905_radioWissen_Alphonse-Bertillon-identifiziert-Straftaete.mp3","published":"Wed, 20 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4341794},{"sampleRate":44100,"title":"Marie Juchacz spricht vor Parlament (19.02.1919) - 19.02.2013","episode":23,"description":"Mit 14 Jahren arbeitete Marie Juchacz als Dienstmädchen, später kämpfte sie für die politischen Rechte der Arbeiter und Frauen. Am 19. Februar 1919 hielt sie als erste Frau eine Rede vor einem deutschen Parlament. Autorin: Birgit Magiera","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5AkP/130219_0905_radioWissen_Marie-Juchacz-spricht-vor-Parlament-1902191.mp3","published":"Tue, 19 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4084331},{"sampleRate":44100,"title":"Goethe hält Trauerrede auf Wieland (18.02.1813) - 18.02.2013","episode":24,"description":"Der Tod - kein Goethe-Thema. Trotzdem hält Goethe am 18. Februar 1813 die Trauerrede auf seinen Dichterkollegen Christoph Martin Wieland. Die beiden hatte viel mehr verbunden als nur die Literatur. Autorin: Gabriele Bondy","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2kP/130218_0905_radioWissen_Goethe-haelt-Trauerrede-auf-Wieland-1802181.mp3","published":"Mon, 18 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4430819},{"sampleRate":44100,"title":"Schlachtschiff \"USS Maine\" explodiert (15.02.1898) - 15.02.2013","episode":25,"description":"Spanien und die USA ließen auf Kuba die Muskeln spielen. Wer würde sich auf der Insel durchsetzen können? Da explodierte am 15. Februar 1898 das US-Schlachtschiff \"Main\" im Hafen von Havanna. Autor: Herbert Becker","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_2g6/130215_0905_radioWissen_Schlachtschiff-USS-Maine-explodiert-1502189.mp3","published":"Fri, 15 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4055909},{"sampleRate":44100,"title":"James Cook wird getötet (14. 2. 1779) - 14.02.2013","episode":26,"description":"Hielten die Hawaiianer den Entdecker James Cook für ihren Gott Lono? Auf jeden Fall scheint am 14. Februar 1779 ein schweres Missverständnis den britischen Kapitän das Leben gekostet zu haben. Autor: Herbert Becker","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9ANP/130214_0905_radioWissen_James-Cook-wird-getoetet-14-2-1779.mp3","published":"Thu, 14 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3903354},{"sampleRate":44100,"title":"Feuersbrunst in München (13.02.1327) - 13.02.2013","episode":27,"description":"Die meisten Dächer Münchens waren noch mit Holzschindeln gedeckt und viele Häuser noch nicht aus Stein gebaut. Ideale Bedingungen für den verheerenden Stadtbrand vom 13. Februar 1327. Autorin: Birgit Magiera","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52vc/130213_0905_radioWissen_Feuersbrunst-in-Muenchen-13021327.mp3","published":"Wed, 13 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3539730},{"sampleRate":44100,"title":"Goldrausch in Australien (12.02.1851) - 12.02.2013","episode":28,"description":"Ein kleiner Ritt ins Gelände veränderte schlagartig Australiens Geschichte. Am 12. Februar 1851 fand der junge Engländer Edward Hammond Hargraves Gold in Neusüdwales. Autorin: Brigitte Kohn","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5ANd/130212_0905_radioWissen_Goldrausch-in-Australien-12021851.mp3","published":"Tue, 12 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3238799},{"sampleRate":44100,"title":"Mysteriöser Tod des Britannicus (11.02.55) - 11.02.2013","episode":29,"description":"Kurz vor seinem 14. Geburtstag starb Britannicus, der Sohn des Kaisers Claudius, während des Abendessens. Was ist wirklich passiert an diesem 11. Februar 55 n. Chr.? Autor: Rainer Tautenhahn","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5Ag6/130211_0905_radioWissen_Mysterioeser-Tod-des-Britannicus-110255.mp3","published":"Mon, 11 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4264053},{"sampleRate":44100,"title":"Mendel veröffentlicht Kreuzungsversuche (08.02.1865) - 08.02.2013","episode":30,"description":"Der junge Pater Gregor Mendel wunderte sich über ein eher gewöhnliches Gemüse, die Erbse, und begann mit Kreuzungsversuchen. Am 8. Februar 1865 stellte er seine Ergebnisse vor und wurde zum Stammvater der Genetik. Autorin: Susanne Tölke","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/9Axg_-OS/130208_0905_radioWissen_Mendel-veroeffentlicht-Kreuzungsversuche-08.mp3","published":"Fri, 08 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4016203},{"sampleRate":44100,"title":"Ende der großen Tulpenmanie (07.02.1637) - 07.02.2013","episode":31,"description":"Eine frisch gepflanzte Blumenzwiebel hat den Wert eines Hauses in Amsterdam, die Niederländer haben das Spekulieren mit Tulpen entdeckt. Doch am 7. Februar 1637 platzt die Blase, und die frischen Vermögen verblühen über Nacht. Autorin: Susi Weichselbaumer","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52gf/130207_0905_radioWissen_Ende-der-grossen-Tulpenmanie-07021637.mp3","published":"Thu, 07 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4311283},{"sampleRate":44100,"title":"Flugunglück mit Manchester United-Spielern (06.02.1958) - 06.02.2013","episode":32,"description":"Bei einer Zwischenlandung in München am 6. Februar 1958 kam ein Großteil der Fußballmannschaft von Manchester United ums Leben. Das tragische Unglück ist bis heute unvergessen. Autor: Thomas Grasberger","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y5ybd/130206_0905_radioWissen_Flugunglueck-mit-Manchester-United-Spielern.mp3","published":"Wed, 06 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3662192},{"sampleRate":44100,"title":"Toyotomi Hideyoshi lässt Christen hinrichten (05.02.1597) - 05.02.2013","episode":33,"description":"Wollten die Portugiesen und Spanier sein Japan unterwandern, mit Heilsversprechungen und süßem Kuchen? Am 5. Februar 1597 ließ Fürst Toyotomi Hideyoshi zur Abschreckung 26 Christen kreuzigen. Autorin: Isabella Arcucci","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9AN6/130205_0905_radioWissen_Toyotomi-Hideyoshi-laesst-Christen-hinricht.mp3","published":"Tue, 05 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":4361020},{"sampleRate":44100,"title":"Bankräuber Lugmeier springt aus dem Fenster (04.02.1976) - 04.02.2013","episode":34,"description":"Ludwig Lugmeier galt als cleverster Ganove im ganzen Land. Nachdem er geschnappt wurde, sprang er am 4. Februar 1976 während seines Prozesses einfach aus dem Fenster - und entkam. Autorin: Prisca Straub","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd5ANf/130204_0905_radioWissen_Bankraeuber-Lugmeier-springt-aus-dem-Fenste.mp3","published":"Mon, 04 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3391772},{"sampleRate":44100,"title":"Der \"Brandtaucher\" wird getestet (01.02.1851) - 01.02.2013","episode":35,"description":"Ein bayerischer Artillerie-Unteroffizier baute das erste deutsche Unterseeboot. \"Brandtaucher\" nannte Wilhelm Bauer sein gusseisernes Gefährt, mit dem er am 1. Februar 1851 die erste Testfahrt unternahm. Autor: Florian Hildebrand","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9A8d/130201_0905_radioWissen_Der-Brandtaucher-wird-getestet-01021851.mp3","published":"Fri, 01 Feb 2013 09:05:01 +0100","bitRate":128,"contentLength":3608275},{"sampleRate":44100,"title":"Ken Wilber geboren, \"Integraler Psychologe\" (31.01.1949) - 31.01.2013","episode":36,"description":"Wer sich Ken Wilbers Integraler Psychologie widmet, bekommt es mit einer Theorie von allem zu tun, zum Beispiel mit der integralen Vision einer transpersonalen Morgendämmerung. Am 31. Januar 1949 wurde er geboren. Autorin: Gabriele Bondy","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52gc/130131_0905_radioWissen_Ken-Wilber-geboren-Integraler-Psychologe-31.mp3","published":"Thu, 31 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3795521},{"sampleRate":44100,"title":"Rubik erhält das Patent auf den \"Zauberwürfel\" (30.01.1975) - 30.01.2013","episode":37,"description":"Der Ungar Ernö Rubik konnte nicht ahnen, was er anrichtete, als er am 30. Januar 1975 das Patent für seinen Zauberwürfel erhielt, den berüchtigten \"Rubik´s Cube\": eine Grenzerfahrung. Autor: Markus Mähner","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9A8f/130130_0905_radioWissen_Rubik-erhaelt-das-Patent-auf-den-Zauberwuer.mp3","published":"Wed, 30 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":4036683},{"sampleRate":44100,"title":"Philip Henry Gosse sammelt Meerestiere (29.01.1852) - 29.01.2013","episode":38,"description":"Philip Henry Gosse, ein Herr im schwarzen Anzug, stochert am 29. Januar 1852 im Schlick der Meeresbrandung von Devonshire. Eine Großtat, denn aus ihr wird das Aquarium hervorgehen. Autorin: Prisca Straub","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y5yrd/130129_0905_radioWissen_Philip-Henry-Gosse-sammelt-Meerestiere-2901.mp3","published":"Tue, 29 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3869082},{"sampleRate":44100,"title":"Andreas Hofer wird verhaftet (28.01.1810) - 28.01.2013","episode":39,"description":"Wer Andreas Hofer wirklich war, lässt sich heute kaum noch rekonstruieren, so übermächtig ist die legendäre Tradition, die sich um den Tiroler Volkshelden gebildet hat. Am 28. Januar 1810 wurde er verhaftet. Autor: Herbert Becker","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_Abg5y8c/130128_0905_radioWissen_Andreas-Hofer-wird-verhaftet-28011810.mp3","published":"Mon, 28 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":4320478},{"sampleRate":44100,"title":"Erdbeben und Pest in Süddeutschland (25.01.1348) - 25.01.2013","episode":40,"description":"Die Pest rafft große Teile der bayerischen Bevölkerung dahin. Die Ursachen sind unbekannt, aber hatte es nicht Vorzeichen gegeben, vor allem das Erdbeben, das am 25. Januar 1348 Süddeutschland erschütterte? Autorin: Birgit Magiera","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5y4f/130125_0905_radioWissen_Erdbeben-und-Pest-in-Sueddeutschland-250113.mp3","published":"Fri, 25 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3499606},{"sampleRate":44100,"title":"Katharina Daschkowa wird Akademie-Direktorin (24.01.1783) - 24.01.2013","episode":41,"description":"Katharina Daschkowa interessierte sich für alles, sie half beim Staatsstreich in Russland und war Gast bei den führenden Intellektuellen Europas. Am 24. Januar 1783 wurde sie Direktorin der Petersburger Akademie der Wissenschaften. Autorin: Ulrike Rückert","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFp52xP/130124_0905_radioWissen_Katharina-Daschkowa-wird-Akademie-Direktori.mp3","published":"Thu, 24 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3780892},{"sampleRate":44100,"title":"Patent auf den Würfelzucker (23.01.1843) - 23.01.2013","episode":42,"description":"Ein Haushaltsunfall seiner Frau war schuld, dass Christoph Rad den Würfelzucker erfand. Am 23. Januar 1843 erhielt dieser Held des Alltags das Patent auf seine schöne Erfindung. Autorin: Silvia Topf","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Ary_24c/130123_0905_radioWissen_Patent-auf-den-Wuerfelzucker-23011843.mp3","published":"Wed, 23 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":4019547},{"sampleRate":44100,"title":"Elsie Leach stirbt, Cary Grants Mutter (22.01.1973) - 22.01.2013","episode":43,"description":"Als der Junge von der Schule heimkam, war die Mutter verschwunden. Erst viele Jahre später erfährt der Hollywood-Star Cary Grant was mit seiner Mutter damals passiert ist. Am 22. Januar 1973 ist Elsie Leach gestorben. Autorin: Julia Devlin","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_Abg5yFd/130122_0905_radioWissen_Elsie-Leach-stirbt-Cary-Grants-Mutter-22011.mp3","published":"Tue, 22 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3758323},{"sampleRate":44100,"title":"Friedrich der Große verbietet Kaffee-Rösten - 21.01.2013","episode":44,"description":"Abtasten und Abriechen der Damen war erlaubt. Die königlichen Kaffee-Schnüffler kannten keine Gnade, wenn sie nach Kaffee-Sünderinnen fahndeten. Am 21. Januar 1781 hatte Friedrich der Große ein Kaffee-Röstverbot erlassen. Autorin: Brigitte Kohn","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5ybd/130121_0905_radioWissen_Friedrich-der-Grosse-verbietet-Kaffee-Roest.mp3","published":"Mon, 21 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3495008},{"sampleRate":44100,"title":"Marie, die \"Adlerin aus Bayern\", stirbt (18.01.1925) - 18.01.2013","episode":45,"description":"Garibaldi will Italien einen und gerät dabei ausgerechnet an Marie, die Königin von Neapel-Sizilien, einem echten Bayerischen Wildfang. Am 18. Januar 1925 ist die Adlerin aus Bayern gestorben. Autorin: Isabella Arucci","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5yb6/130118_0905_radioWissen_Marie-die-Adlerin-aus-Bayern-stirbt-1801192.mp3","published":"Fri, 18 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":4068866},{"sampleRate":44100,"title":"Erster lebender Quastenflosser entdeckt (17.01.1987) - 17.01.2013","episode":46,"description":"Der Verdacht war klar: Es schien noch lebende Quastenflosser geben, Ur-Fische, verwandt mit den ersten Tieren, die das Land eroberten. Am 17. Januar 1987 schwamm so ein Exemplar tatsächlich zwei Studenten im Tauchboot vor die Luke. Autor: Florian Hildebrand","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A4y5yrf/130117_0905_radioWissen_Erster-lebender-Quastenflosser-entdeckt-170.mp3","published":"Thu, 17 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3474946},{"sampleRate":44100,"title":"Kálmán Mikszáth geboren, ungarischer Erzähler (16.01.1847) - 16.01.2013","episode":47,"description":"Der ungarische Schriftsteller Kálmán Mikszáth hat über Leidenschaften und Verwicklungen geschrieben. Aber auch sein eigenes Leben wäre eine Liebesgeschichte wert. Autorin: Katalin Fischer","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_Abg5yF6/130116_0905_radioWissen_Kalman-Mikszath-geboren-ungarischer-Erzaehl.mp3","published":"Wed, 16 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":4091018},{"sampleRate":44100,"title":"Soldatenhandel unter Landgraf Friedrich II. (15.01.1776) - 15.01.2013","episode":48,"description":"Tyrannenwillkür? Am 15. Januar 1776 schickte der hessische Landgraf Friedrich II. den Briten Truppen, die gegen die aufständischen Amerikaner in der Neuen Welt kämpfen sollten. Friedrich Schiller war empört. Autor: Armin Strohmeyr","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AJS/_AbG5yrc/130115_0905_radioWissen_Soldatenhandel-unter-Landgraf-Friedrich-II-.mp3","published":"Tue, 15 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3974407},{"sampleRate":44100,"title":"\"Hiasl\" Matthias Klostermayr festgenommen (14.01.1771) - 14.01.2013","episode":49,"description":"Ein blöder Witz zu viel, und Matthias Klostermayr, der \"Bayerische Hiasl\", musste sich nach einer neuen Arbeit umsehen. Ausgerechnet Wilderer. Am 14. Januar des Jahres 1771 wurde er festgenommen. Autorin: Carola Zinner","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_AiS/_Ary_2bf/130114_0905_radioWissen_Hiasl-Matthias-Klostermayr-festgenommen-140.mp3","published":"Mon, 14 Jan 2013 09:05:01 +0100","bitRate":128,"contentLength":3898339}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":128,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://www.br-online.de/podcast/kalenderblatt/cast.xml","displaySubDomaine":"kalenderblatt","recentTitles":["Karl May spricht vor Wiener Akademikern (22.03.1912) - 22.03.2013","Bismarcks Erhebung in den Fürstenstand (21.03.1871) - 21.03.2013","Daniel Dunglas Home geboren, Medium (20.03.1833) - 20.03.2013","Franz Senn geboren, Fremdenverkehrsbegründer (19.03.1831) - 19.03.2013","Die Scharfrichterdynastie Sanson erlischt (18.03.1847) - 18.03.2013","Erstes Sechstagerennen in Europa (15.03.1909) - 15.03.2013","Strindbergs \"Fräulein Julie\" uraufgeführt (14.03.1889) - 14.03.2013","Tennessee verbietet Evolutionslehre (13.03.1925) - 13.03.2013","Coca-Cola erstmals in Flaschen abgefüllt (12.03.1894) - 12.03.2013","384.912 Jahre Haft für Briefträger gefordert (11.03.1972) - 11.03.2013","Raymonde de Laroche besteht Pilotenprüfung (08.03.1910) - 08.03.2013","Emile Poubelles Verordnung über Abfalleimer (07.03.1884) - 07.03.2013","Norfolkinsel wird Strafgefangenen-Siedlung (06.03.1788) - 06.03.2013","Musterschutz für blonden Steiff-Bären (05.03.1904) - 05.03.2013","Murnaus \"Nosferatu\" uraufgeführt (04.03.1922) - 04.03.2013","Erster Fallschirmsprung aus einem Flugzeug (1.3.1912) - 01.03.2013","Franz von Anhalt-Dessau besteigt den Vesuv (28.02.1766) - 28.02.2013","Erste Frauenzeitschrift der Welt erscheint (27.02.1693) - 27.02.2013","\"Goldener Bär\" für \"Sinn und Sinnlichkeit\" (26.02.1996) - 26.02.2013","Kaiser Franz Joseph hilft Tiroler Tüftler (25.02.1867) - 25.02.2013","Frank W. Woolworth macht sich selbstständig (22.02.1879) - 22.02.2013","Juana Inés de la Cruz tritt in Orden ein (21.02.1669) - 21.02.2013","Alphonse Bertillon identifiziert Straftäter (20.02.1883) - 20.02.2013","Marie Juchacz spricht vor Parlament (19.02.1919) - 19.02.2013","Goethe hält Trauerrede auf Wieland (18.02.1813) - 18.02.2013","Schlachtschiff \"USS Maine\" explodiert (15.02.1898) - 15.02.2013","James Cook wird getötet (14. 2. 1779) - 14.02.2013","Feuersbrunst in München (13.02.1327) - 13.02.2013","Goldrausch in Australien (12.02.1851) - 12.02.2013","Mysteriöser Tod des Britannicus (11.02.55) - 11.02.2013","Mendel veröffentlicht Kreuzungsversuche (08.02.1865) - 08.02.2013","Ende der großen Tulpenmanie (07.02.1637) - 07.02.2013","Flugunglück mit Manchester United-Spielern (06.02.1958) - 06.02.2013","Toyotomi Hideyoshi lässt Christen hinrichten (05.02.1597) - 05.02.2013","Bankräuber Lugmeier springt aus dem Fenster (04.02.1976) - 04.02.2013","Der \"Brandtaucher\" wird getestet (01.02.1851) - 01.02.2013","Ken Wilber geboren, \"Integraler Psychologe\" (31.01.1949) - 31.01.2013","Rubik erhält das Patent auf den \"Zauberwürfel\" (30.01.1975) - 30.01.2013","Philip Henry Gosse sammelt Meerestiere (29.01.1852) - 29.01.2013","Andreas Hofer wird verhaftet (28.01.1810) - 28.01.2013","Erdbeben und Pest in Süddeutschland (25.01.1348) - 25.01.2013","Katharina Daschkowa wird Akademie-Direktorin (24.01.1783) - 24.01.2013","Patent auf den Würfelzucker (23.01.1843) - 23.01.2013","Elsie Leach stirbt, Cary Grants Mutter (22.01.1973) - 22.01.2013","Friedrich der Große verbietet Kaffee-Rösten - 21.01.2013","Marie, die \"Adlerin aus Bayern\", stirbt (18.01.1925) - 18.01.2013","Erster lebender Quastenflosser entdeckt (17.01.1987) - 17.01.2013","Kálmán Mikszáth geboren, ungarischer Erzähler (16.01.1847) - 16.01.2013","Soldatenhandel unter Landgraf Friedrich II. (15.01.1776) - 15.01.2013","\"Hiasl\" Matthias Klostermayr festgenommen (14.01.1771) - 14.01.2013"],"idType":7,"descriptionPodcast":"Wissen Sie, wer den Reißverschluss erfunden hat, und weshalb der Satz von Pythagoras nicht von Pythagoras stammt? Sie erfahren es im Kalenderblatt: Gewichtiges und Abseitiges für jeden Tag - so bunt wie das Leben - so informativ wie ein Lexikon.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.br-online.de/podcast/kalenderblatt/cast.xml","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/4158_1.jpeg","picture6TransUrl":"http://static.radio.de/images/broadcasts/4158_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":4158,"picture1TransUrl":"http://static.radio.de/images/broadcasts/4158_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/4158_5_1.png","author":"","title":"Download & Podcast: Das Kalenderblatt - Bayern 2 © BR","picture4Url":"http://static.radio.de/images/broadcasts/4158_4.jpeg","picture6Set":true,"tagsForDisplay":{"_type":"Podcast","_topic":"Geschichte, Wissen","_country":"Deutschland","_genre":"","_city":"München","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"Bayern 2 - Das Kalenderblatt","picture3Url":"","streamUrl":"http://www.radio.de/playlists/kalenderblatt.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/4158_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/4158_5.jpeg","subdomain":"kalenderblatt","streamUrls":[{"sampleRate":44100,"id":2446790,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","streamFormat":"ICECAST","streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Aky_Avd/130322_0905_radioWissen_Karl-May-spricht-vor-Wiener-Akademikern-220.mp3","idBroadcast":4158,"bitRate":128}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05a 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"kalenderblatt", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"4158", play:"kalenderblatt"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("kalenderblatt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("18"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte:Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("21"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("11"));
+document.write ("&amp;age_60_69=" + escape("15"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/kalenderblatt/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „Bayern 2 - Das Kalenderblatt“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/4158_4.jpeg" alt="Bayern 2 - Das Kalenderblatt" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("kalenderblatt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("18"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte:Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("21"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("11"));
+document.write ("&amp;age_60_69=" + escape("15"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">Bayern 2 - Das Kalenderblatt</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ München,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.br-online.de/podcast/kalenderblatt/cast.xml'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „Bayern 2 - Das Kalenderblatt“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Wissen Sie, wer den Reißverschluss erfand oder wie Albert Einstein durch eine Prüfung fiel? Sie erfahren es im &#034;Kalenderblatt&#034; - ein Wissenskompendium für jeden Tag. Ein akustischer Abreißkalender: So bunt wie das Leben! So informativ wie ein Lexikon! Und dabei unterhaltsam bis witzig!
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„Bayern 2 - Das Kalenderblatt“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'4158', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">0</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">0</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'4158', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star0-0"
+stars="0-0"
+title="„Bayern 2 - Das Kalenderblatt“ bewerten?"
+content="0.0">
+</a>
+<span class="big-rate-text">Bayern 2 - Das Kalenderblatt&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „Bayern 2 - Das Kalenderblatt“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„Bayern 2 - Das Kalenderblatt“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „Bayern 2 - Das Kalenderblatt“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17699879">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>KARL MAY SPRICHT VOR WIENER AKADEMIKERN (22.03.1912) - 22.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17699879', 'broadcast':'4158'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Das Leben hat es lange nicht gut gemeint mit Karl May, dem späteren Autor der Geschichten um Winnetou und Old Shatterhand. Kurz vor seinem Tod hielt er am 22. März 1912 den Vortrag "Empor ins Reich der Edelmenschen". Autor: Christian Feldmann</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699880">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>BISMARCKS ERHEBUNG IN DEN FÜRSTENSTAND (21.03.1871) - 21.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699880', 'broadcast':'4158'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Otto von Bismarck hatte aus dem preußischen König Wilhelm I. den deutschen Kaiser Wilhelm I. gemacht. Dafür wurde er am 21. März 1871 zum Reichskanzler ernannt und in den Fürstenstand erhoben. Autorin: Brigitte Kohn</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699881">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>DANIEL DUNGLAS HOME GEBOREN, MEDIUM (20.03.1833) - 20.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699881', 'broadcast':'4158'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Konnte er nun schweben oder nicht? An den übernatürlichen Fähigkeiten des Schotten Daniel Dunglas Home schieden sich die Geister seiner Zeit. Am 20. März 1833 wurde er geboren. Autor: Xaver Frühbeis</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699882">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>FRANZ SENN GEBOREN, FREMDENVERKEHRSBEGRÜNDER (19.03.1831) - 19.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699882', 'broadcast':'4158'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Franz Senn, geboren als Bauernsohn am 19. März 1831, trieb es hoch hinaus, jedenfalls gemessen in Höhenmetern der Tiroler Bergwelt. Als Gletscherpfarrer wurde er zum Gründer des Deutschen Alpenvereins. Autor: Herbert Becker</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17699883">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>DIE SCHARFRICHTERDYNASTIE SANSON ERLISCHT (18.03.1847) - 18.03.2013</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17699883', 'broadcast':'4158'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Am Anfang war es Liebe! Die Liebe eines Leutnants zu einem Mädchen begründete die französische Scharfrichterdynastie der Sanson. Generationen später gab der letzte Sanson am 18. März 1847 seine Guillotine auf. Autor: Xaver Frühbeis</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „Bayern 2 - Das Kalenderblatt“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://iqwissenschaft.radio.de'}" bcastid="4157" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" id="currentlyPlayedStation_4157">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4157_1.jpeg" alt="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://einszueins.radio.de'}" bcastid="4361" title="„Bayern 2 - Eins zu Eins. Der Talk“ hören" id="currentlyPlayedStation_4361">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4361_1.jpeg" alt="„Bayern 2 - Eins zu Eins. Der Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturthema.radio.de'}" bcastid="11374" title="„DRadio Kultur - Thema“ hören" id="currentlyPlayedStation_11374">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11374_1.jpeg" alt="„DRadio Kultur - Thema“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://nachtstudio.radio.de'}" bcastid="4301" title="„Bayern 2 - nachtstudio.kleinformat“ hören" id="currentlyPlayedStation_4301">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4301_1.jpeg" alt="„Bayern 2 - nachtstudio.kleinformat“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2zeitwort.radio.de'}" bcastid="5701" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" id="currentlyPlayedStation_5701">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5701_1.jpeg" alt="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffeature.radio.de'}" bcastid="10246" title="„Deutschlandfunk - Feature“ hören" id="currentlyPlayedStation_10246">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10246_1.jpeg" alt="„Deutschlandfunk - Feature“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://artmixgespraech.radio.de'}" bcastid="4363" title="„Bayern 2 - artmix.gespräch“ hören" id="currentlyPlayedStation_4363">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4363_1.jpeg" alt="„Bayern 2 - artmix.gespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://perspektiven.radio.de'}" bcastid="4308" title="„Bayern 2 - Evangelische Perspektiven“ hören" id="currentlyPlayedStation_4308">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4308_1.jpeg" alt="„Bayern 2 - Evangelische Perspektiven“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfstudiozeit.radio.de'}" bcastid="11386" title="„Deutschlandfunk - Studiozeit“ hören" id="currentlyPlayedStation_11386">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11386_1.jpeg" alt="„Deutschlandfunk - Studiozeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturelektronischewelten.radio.de'}" bcastid="11346" title="„Deutschlandradio Kultur - Elektronische Welten“ hören" id="currentlyPlayedStation_11346">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11346_1.jpeg" alt="„Deutschlandradio Kultur - Elektronische Welten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturpolitfeuilleton.radio.de'}" bcastid="11394" title="„DRadio Kultur - Politisches Feuilleton“ hören" id="currentlyPlayedStation_11394">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11394_1.jpeg" alt="„DRadio Kultur - Politisches Feuilleton“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" bcastid="11364" title="„DRadio Kultur - Zeitfragen“ hören" id="currentlyPlayedStation_11364">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11364_1.jpeg" alt="„DRadio Kultur - Zeitfragen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturweltzeit.radio.de'}" bcastid="11373" title="„DRadio Kultur - Weltzeit“ hören" id="currentlyPlayedStation_11373">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11373_1.jpeg" alt="„DRadio Kultur - Weltzeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2dokublog.radio.de'}" bcastid="5690" title="„SWR2 Dokublog“ hören" id="currentlyPlayedStation_5690">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5690_1.jpeg" alt="„SWR2 Dokublog“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturimgespraech.radio.de'}" bcastid="11390" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" id="currentlyPlayedStation_11390">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11390_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://iqwissenschaft.radio.de'}" bcastid="4157" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" id="currentlyPlayedStation2_4157">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4157_1.jpeg" alt="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://einszueins.radio.de'}" bcastid="4361" title="„Bayern 2 - Eins zu Eins. Der Talk“ hören" id="currentlyPlayedStation2_4361">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4361_1.jpeg" alt="„Bayern 2 - Eins zu Eins. Der Talk“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturthema.radio.de'}" bcastid="11374" title="„DRadio Kultur - Thema“ hören" id="currentlyPlayedStation2_11374">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11374_1.jpeg" alt="„DRadio Kultur - Thema“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://nachtstudio.radio.de'}" bcastid="4301" title="„Bayern 2 - nachtstudio.kleinformat“ hören" id="currentlyPlayedStation2_4301">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4301_1.jpeg" alt="„Bayern 2 - nachtstudio.kleinformat“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2zeitwort.radio.de'}" bcastid="5701" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" id="currentlyPlayedStation2_5701">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5701_1.jpeg" alt="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlffeature.radio.de'}" bcastid="10246" title="„Deutschlandfunk - Feature“ hören" id="currentlyPlayedStation2_10246">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/10246_1.jpeg" alt="„Deutschlandfunk - Feature“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://artmixgespraech.radio.de'}" bcastid="4363" title="„Bayern 2 - artmix.gespräch“ hören" id="currentlyPlayedStation2_4363">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4363_1.jpeg" alt="„Bayern 2 - artmix.gespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://perspektiven.radio.de'}" bcastid="4308" title="„Bayern 2 - Evangelische Perspektiven“ hören" id="currentlyPlayedStation2_4308">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/4308_1.jpeg" alt="„Bayern 2 - Evangelische Perspektiven“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dlfstudiozeit.radio.de'}" bcastid="11386" title="„Deutschlandfunk - Studiozeit“ hören" id="currentlyPlayedStation2_11386">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11386_1.jpeg" alt="„Deutschlandfunk - Studiozeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturelektronischewelten.radio.de'}" bcastid="11346" title="„Deutschlandradio Kultur - Elektronische Welten“ hören" id="currentlyPlayedStation2_11346">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11346_1.jpeg" alt="„Deutschlandradio Kultur - Elektronische Welten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturpolitfeuilleton.radio.de'}" bcastid="11394" title="„DRadio Kultur - Politisches Feuilleton“ hören" id="currentlyPlayedStation2_11394">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11394_1.jpeg" alt="„DRadio Kultur - Politisches Feuilleton“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" bcastid="11364" title="„DRadio Kultur - Zeitfragen“ hören" id="currentlyPlayedStation2_11364">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11364_1.jpeg" alt="„DRadio Kultur - Zeitfragen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturweltzeit.radio.de'}" bcastid="11373" title="„DRadio Kultur - Weltzeit“ hören" id="currentlyPlayedStation2_11373">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11373_1.jpeg" alt="„DRadio Kultur - Weltzeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2dokublog.radio.de'}" bcastid="5690" title="„SWR2 Dokublog“ hören" id="currentlyPlayedStation2_5690">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5690_1.jpeg" alt="„SWR2 Dokublog“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://dkulturimgespraech.radio.de'}" bcastid="11390" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" id="currentlyPlayedStation2_11390">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/11390_1.jpeg" alt="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_4157" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" linkobject="{'url':'http://iqwissenschaft.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören" href="http://iqwissenschaft.radio.de">Bayern 2 - IQ - Wissenschaft und Forschung</a></span>
+<span class="title_4157 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Wie wird man 100 Jahre alt - Die Erforschung der Langlebigkeit - 28.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4361" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - Eins zu Eins. Der Talk“ hören" linkobject="{'url':'http://einszueins.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - Eins zu Eins. Der Talk“ hören" href="http://einszueins.radio.de">Bayern 2 - Eins zu Eins. Der Talk</a></span>
+<span class="title_4361 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Maite Kelly, Sängerin - 28.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11374" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Thema“ hören" linkobject="{'url':'http://dkulturthema.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Thema“ hören" href="http://dkulturthema.radio.de">DRadio Kultur - Thema</a></span>
+<span class="title_11374 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der erstaunliche Lebensweg der Emotion-Herausgeberin Katarzyna Mol-Wolf</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4301" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - nachtstudio.kleinformat“ hören" linkobject="{'url':'http://nachtstudio.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - nachtstudio.kleinformat“ hören" href="http://nachtstudio.radio.de">Bayern 2 - nachtstudio.kleinformat</a></span>
+<span class="title_4301 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der steinerne Gast. Ein philosophisch-literarischer Abend - 01.04.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5701" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" linkobject="{'url':'http://swr2zeitwort.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" href="http://swr2zeitwort.radio.de">SWR2 Zeitwort - Erinnerung an historische Daten</a></span>
+<span class="title_5701 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: SWR2 Zeitwort am 30.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_10246" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Feature“ hören" linkobject="{'url':'http://dlffeature.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Feature“ hören" href="http://dlffeature.radio.de">Deutschlandfunk - Feature</a></span>
+<span class="title_10246 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Freiheit, Brot und soziale Gerechtigkeit - Der Widerstand der ägyptischen Gewerkschaften gegen ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4363" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - artmix.gespräch“ hören" linkobject="{'url':'http://artmixgespraech.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - artmix.gespräch“ hören" href="http://artmixgespraech.radio.de">Bayern 2 - artmix.gespräch</a></span>
+<span class="title_4363 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Über transaxélectroacoustique - Mit Jan St. Werner, Thomas Knoefel, Valdir Jovenal - 22.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_4308" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Bayern 2 - Evangelische Perspektiven“ hören" linkobject="{'url':'http://perspektiven.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Bayern 2 - Evangelische Perspektiven“ hören" href="http://perspektiven.radio.de">Bayern 2 - Evangelische Perspektiven</a></span>
+<span class="title_4308 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Jeden Tag ist Auferstehung - 01.04.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11386" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandfunk - Studiozeit“ hören" linkobject="{'url':'http://dlfstudiozeit.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandfunk - Studiozeit“ hören" href="http://dlfstudiozeit.radio.de">Deutschlandfunk - Studiozeit</a></span>
+<span class="title_11386 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Kapitalismus, Demokratie und Sozialstaat</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11346" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„Deutschlandradio Kultur - Elektronische Welten“ hören" linkobject="{'url':'http://dkulturelektronischewelten.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„Deutschlandradio Kultur - Elektronische Welten“ hören" href="http://dkulturelektronischewelten.radio.de">Deutschlandradio Kultur - Elektronische Welten</a></span>
+<span class="title_11346 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Virus verlangt Geld - Der BKA-Trojaner</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11394" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Politisches Feuilleton“ hören" linkobject="{'url':'http://dkulturpolitfeuilleton.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Politisches Feuilleton“ hören" href="http://dkulturpolitfeuilleton.radio.de">DRadio Kultur - Politisches Feuilleton</a></span>
+<span class="title_11394 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: "Negerkönig" oder "Südseekönig" - Über Kinderbücher und Sprache</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11364" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Zeitfragen“ hören" linkobject="{'url':'http://dkulturzeitfragen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Zeitfragen“ hören" href="http://dkulturzeitfragen.radio.de">DRadio Kultur - Zeitfragen</a></span>
+<span class="title_11364 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Lass es krachen! Die Kunst der politischen Provokation</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11373" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Weltzeit“ hören" linkobject="{'url':'http://dkulturweltzeit.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Weltzeit“ hören" href="http://dkulturweltzeit.radio.de">DRadio Kultur - Weltzeit</a></span>
+<span class="title_11373 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der Umweltschutz in Sambia hat viele Gesichter - Weniger Müll, sauberes Trinkwasser, Ende ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5690" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Dokublog“ hören" linkobject="{'url':'http://swr2dokublog.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Dokublog“ hören" href="http://swr2dokublog.radio.de">SWR2 Dokublog</a></span>
+<span class="title_5690 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: SWR2 DOKUBLOG: Eiszeit in Groenland</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_11390" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" linkobject="{'url':'http://dkulturimgespraech.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„DRadio Kultur - Radiofeuilleton - Im Gespräch“ hören" href="http://dkulturimgespraech.radio.de">DRadio Kultur - Radiofeuilleton - Im Gespräch</a></span>
+<span class="title_11390 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Frühlingserwachen: Gärtnerlust und Gärtnerfrust - Gäste: Gabriella Pape, Gartengestalterin, und ...</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „Bayern 2 - Das Kalenderblatt“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Geschichte" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Geschichte suchen" tag="Geschichte">Geschichte</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Wissen" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Wissen suchen" tag="Wissen">Wissen</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Wissenschaft1" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Wissenschaft1 suchen" tag="Wissenschaft1">Wissenschaft1</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Bayern" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Bayern suchen" tag="Bayern">Bayern</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/München" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach München suchen" tag="München">München</a>, 
+</li>
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Wissenschaft" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Wissenschaft suchen" tag="Wissenschaft">Wissenschaft</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „Bayern 2 - Das Kalenderblatt“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'4158', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „Bayern 2 - Das Kalenderblatt“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://kalenderblatt.radio.de" class="js-link-external" linkobject="{'url':'http://kalenderblatt.radio.de'}" title="„Bayern 2 - Das Kalenderblatt“ hören" target="_blank">
+http://kalenderblatt.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fkalenderblatt.radio.de&amp;notes=&amp;tags=&amp;title=Bayern 2 - Das Kalenderblatt;'}" class="icon-delicious js-link-external" title="„Bayern 2 - Das Kalenderblatt“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fkalenderblatt.radio.de&amp;bm_notice=&amp;bm_description=Bayern 2 - Das Kalenderblatt&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„Bayern 2 - Das Kalenderblatt“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fkalenderblatt.radio.de&amp;title=Bayern 2 - Das Kalenderblatt'}" class="icon-stumble js-link-external" title="„Bayern 2 - Das Kalenderblatt“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fkalenderblatt.radio.de&amp;bodytext=&amp;tags=&amp;title=Bayern 2 - Das Kalenderblatt'}" class="icon-digg js-link-external" title="„Bayern 2 - Das Kalenderblatt“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fkalenderblatt.radio.de&amp;title=Bayern 2 - Das Kalenderblatt&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„Bayern 2 - Das Kalenderblatt“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+
+
+Genießen Sie den kostenlosen Komfort von radio.de und hören Sie Bayern 2 - Das Kalenderblatt einfach per Internetradio. Auf dieser Seite finden Sie ein umfassende Auswahl von Webradio Sendern und Livestreams aus der ganzen Welt. Hier können Sie neben Bayern 2 - Das Kalenderblatt noch viele weitere Lieblingssender entdecken.
+
+
+
+							
+											
+						
+	
+						
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 128kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("kalenderblatt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("18"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte:Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("21"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("11"));
+document.write ("&amp;age_60_69=" + escape("15"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">Bayern 2 - Das Kalenderblatt</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://iqwissenschaft.radio.de/" class="channel-link" title="„Bayern 2 - IQ - Wissenschaft und Forschung“ hören">
+<span class="broadcast-name">Bayern 2 - IQ - Wissenschaft und Forschung</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://einszueins.radio.de/" class="channel-link" title="„Bayern 2 - Eins zu Eins. Der Talk“ hören">
+<span class="broadcast-name">Bayern 2 - Eins zu Eins. Der Talk</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturthema.radio.de/" class="channel-link" title="„DRadio Kultur - Thema“ hören">
+<span class="broadcast-name">DRadio Kultur - Thema</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://nachtstudio.radio.de/" class="channel-link" title="„Bayern 2 - nachtstudio.kleinformat“ hören">
+<span class="broadcast-name">Bayern 2 - nachtstudio.kleinformat</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://swr2zeitwort.radio.de/" class="channel-link" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören">
+<span class="broadcast-name">SWR2 Zeitwort - Erinnerung an historische Daten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlffeature.radio.de/" class="channel-link" title="„Deutschlandfunk - Feature“ hören">
+<span class="broadcast-name">Deutschlandfunk - Feature</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://artmixgespraech.radio.de/" class="channel-link" title="„Bayern 2 - artmix.gespräch“ hören">
+<span class="broadcast-name">Bayern 2 - artmix.gespräch</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://perspektiven.radio.de/" class="channel-link" title="„Bayern 2 - Evangelische Perspektiven“ hören">
+<span class="broadcast-name">Bayern 2 - Evangelische Perspektiven</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dlfstudiozeit.radio.de/" class="channel-link" title="„Deutschlandfunk - Studiozeit“ hören">
+<span class="broadcast-name">Deutschlandfunk - Studiozeit</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://dkulturelektronischewelten.radio.de/" class="channel-link" title="„Deutschlandradio Kultur - Elektronische Welten“ hören">
+<span class="broadcast-name">Deutschlandradio Kultur - Elektronische Welten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("kalenderblatt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("18"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte:Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("21"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("11"));
+document.write ("&amp;age_60_69=" + escape("15"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("kalenderblatt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("18"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte:Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("21"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("11"));
+document.write ("&amp;age_60_69=" + escape("15"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("0"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape(""));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("kalenderblatt"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("18"));
+document.write ("&amp;age_70_79=" + escape("1"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte:Wissen:Wissenschaft"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("100"));
+document.write ("&amp;age_50_59=" + escape("21"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("32"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("11"));
+document.write ("&amp;age_60_69=" + escape("15"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

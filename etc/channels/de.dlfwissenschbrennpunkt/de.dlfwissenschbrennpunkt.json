@@ -1,0 +1,1046 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704049",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+      "testResult":null,
+      "name":"Sternzeit 07. April 2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704050",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3",
+      "testResult":null,
+      "name":"Die Entmüllung der Meere - Strategien gegen Plastik im Ozean",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704051",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3",
+      "testResult":null,
+      "name":"Venus im Großen Bären",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704052",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3",
+      "testResult":null,
+      "name":"Der Traum vom aufrechten Gang - Exoskelette im Praxistest",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704053",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3",
+      "testResult":null,
+      "name":"Hase, Lamm, Ei",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17704054",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1630_6819d93e.mp3",
+      "testResult":null,
+      "name":"Schön alt - Wie man mit über 100 gut leben kann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702895",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1657_ca81cc22.mp3",
+      "testResult":null,
+      "name":"Sternzeit 29. März 2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702896",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1630_9781ffd4.mp3",
+      "testResult":null,
+      "name":"Wörter, Kriege, Emotionen - Datenschürfen im Kulturgut",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702075",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1657_0a79b927.mp3",
+      "testResult":null,
+      "name":"Pink Floyd und die Dunkle Seite des Mondes",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702076",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1630_0e909a8f.mp3",
+      "testResult":null,
+      "name":"Die süße Revolution - Kluge Zucker erobern Medizin und Biotechnologie",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700453",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1657_5a6de863.mp3",
+      "testResult":null,
+      "name":"Mond, Planet, Stern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17700454",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1630_bbbcf716.mp3",
+      "testResult":null,
+      "name":"Schöne neue Biologie - Wie Gentechnik und Molekularbiologie unser Leben verändern",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698702",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1657_9d730fbe.mp3",
+      "testResult":null,
+      "name":"Eichendorffs Mondnacht",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698703",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1630_c73f2c7c.mp3",
+      "testResult":null,
+      "name":"Dosis der Angst - Über die Wirkung schwacher radioaktiver Strahlung ",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696988",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1657_5d6526f2.mp3",
+      "testResult":null,
+      "name":"Drei Körper, ein Problem",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696989",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1630_347e83b5.mp3",
+      "testResult":null,
+      "name":"Kalter Krieg am Campus - Der Streit um die Zivilklausel an deutschen Hochschulen",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695150",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1657_1698b0f5.mp3",
+      "testResult":null,
+      "name":"Kein Oscar für den Weltraum",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17695151",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1630_2d622dea.mp3",
+      "testResult":null,
+      "name":"Der Arzt in Dir - Wie der Geist den Körper heilt",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693487",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1657_a68e3a95.mp3",
+      "testResult":null,
+      "name":"Dreifacher Abschied vom Dreigestirn",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17693488",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1630_e9e3fa65.mp3",
+      "testResult":null,
+      "name":"Quantenzirkus mit Licht und Atomen - Forscher simulieren Materie",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691457",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1657_1787be27.mp3",
+      "testResult":null,
+      "name":"Seltener Gast am Abend",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17691458",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1630_d6b93710.mp3",
+      "testResult":null,
+      "name":"Gene unterwegs - Fremde DNA in unserem Erbgut",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689663",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1657_8696e186.mp3",
+      "testResult":null,
+      "name":"Österreich fliegt zum Mars",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689664",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1630_c745d088.mp3",
+      "testResult":null,
+      "name":"Störungswahn? - Psychiater streiten um die Zukunft ihres Fachs",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687770",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1657_1ca8f323.mp3",
+      "testResult":null,
+      "name":"Der Dreh mit dem Mond",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687771",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1630_ed43bbf3.mp3",
+      "testResult":null,
+      "name":"Preisrevolution - Über den Wert von Krebsmedikamenten",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685919",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1657_6c91d546.mp3",
+      "testResult":null,
+      "name":"Higgs hilft nicht weiter",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685920",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1630_89535455.mp3",
+      "testResult":null,
+      "name":"Vergessen - Gedächtnisforscher lernen von Amnesiepatienten",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684106",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1657_9c8c5fb5.mp3",
+      "testResult":null,
+      "name":"Der Stern mit der ewigen Jugend?",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17684107",
+      "author":"podcast@dradio.de",
+      "stream":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1630_a04bc32e.mp3",
+      "testResult":null,
+      "name":"Böen ins Netz! - Wie die Stromversorgung für die Erneuerbaren umgebaut werden kann",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Die Beiträge der Sendung Wissenschaft im Brennpunkt",
+    "seoTitle":"Deutschlandfunk - Wissenschaft im Brennpunkt, dradio, d-radio, Deutschlandradio, dlf, ",
+    "subDomaine":"dlfwissenschbrennpunkt",
+    "relayDisabled":false,
+    "rank":2092,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Berichterstattung über neue Forschungsergebnisse, technische und wissenschaftliche Hintergründe, Reportagen aus Laboratorien. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8181_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8181_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8181_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Berichterstattung über neue Forschungsergebnisse, technische und wissenschaftliche Hintergründe, Reportagen aus Laboratorien. ",
+    "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Sternzeit 07. April 2013",
+        "episode":0,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "published":"Sun, 07 Apr 2013 14:57:15 GMT",
+        "bitRate":64,
+        "contentLength":1094080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Entmüllung der Meere - Strategien gegen Plastik im Ozean",
+        "episode":1,
+        "description":"<img src=\"http://www.dradio.de/images/92875/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Kunststoffmüll dringt bis in die fernsten Winkel der Weltmeere, wird dort zum Risiko für Tiere, Ökosysteme und den Menschen. Ausmaß und Effekte der marinen Vermüllung werden noch erforscht, doch längst ist klar: Die Produktion steigt, und Jahr für Jahr gelangt mehr Müll in Flüsse, Seen und Ozeane. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1630_05d7098b.mp3",
+        "published":"Sun, 07 Apr 2013 14:30:04 GMT",
+        "bitRate":64,
+        "contentLength":13005824
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Venus im Großen Bären",
+        "episode":2,
+        "description":"<img src=\"http://www.dradio.de/images/92922/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute Abend bietet das Firmament einen ganz besonders schönen Anblick: Venus steht als strahlender Abendstern mitten im Großen Wagen, während am Westhimmel die abnehmende Mondsichel in den Schatten der Erde tritt und uns eine Mondfinsternis beschert.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1657_e748dcdc.mp3",
+        "published":"Mon, 01 Apr 2013 14:57:18 GMT",
+        "bitRate":64,
+        "contentLength":2193420
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Traum vom aufrechten Gang - Exoskelette im Praxistest",
+        "episode":3,
+        "description":"<img src=\"http://www.dradio.de/images/93229/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">18 Jahre lang war sie seit einem Unfall auf ihren Rollstuhl angewiesen. Jetzt könnte Nicole Holland wieder laufen lernen - mit einem Exoskelett. Solche Roboteranzüge sollen nicht nur Soldaten und Arbeitern neue Kräfte verleihen, sondern auch Querschnittsgelähmten. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/01/dlf_20130401_1630_cad0dc65.mp3",
+        "published":"Mon, 01 Apr 2013 14:30:05 GMT",
+        "bitRate":64,
+        "contentLength":26095443
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Hase, Lamm, Ei",
+        "episode":4,
+        "description":"<img src=\"http://www.dradio.de/images/92722/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Weihnachtsgeschichte ist ohne den legendären Stern von Bethlehem kaum vorstellbar. Doch rund um Ostern gibt es kaum Berichte mit himmlischem Bezug - allenfalls vage Hinweise auf eine Mondfinsternis.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1657_0a840dba.mp3",
+        "published":"Sun, 31 Mar 2013 14:57:28 GMT",
+        "bitRate":64,
+        "contentLength":2193420
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schön alt - Wie man mit über 100 gut leben kann",
+        "episode":5,
+        "description":"<img src=\"http://www.dradio.de/images/78565/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Zahl der über Hundertjährigen steigt. Und erstaunlich viel Hochbetagte haben trotz vieler Einschränkungen und Verluste noch Spaß am Leben, nicht selten sogar Ziele. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1630_6819d93e.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/31/dlf_20130331_1630_6819d93e.mp3",
+        "published":"Sun, 31 Mar 2013 14:30:05 GMT",
+        "bitRate":64,
+        "contentLength":26251818
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Sternzeit 29. März 2013",
+        "episode":6,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1657_ca81cc22.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1657_ca81cc22.mp3",
+        "published":"Fri, 29 Mar 2013 15:57:18 GMT",
+        "bitRate":64,
+        "contentLength":2188833
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wörter, Kriege, Emotionen - Datenschürfen im Kulturgut",
+        "episode":7,
+        "description":"<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1630_9781ffd4.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/29/dlf_20130329_1630_9781ffd4.mp3",
+        "published":"Fri, 29 Mar 2013 15:30:04 GMT",
+        "bitRate":64,
+        "contentLength":26110455
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Pink Floyd und die Dunkle Seite des Mondes",
+        "episode":8,
+        "description":"<img src=\"http://www.dradio.de/images/92124/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Vor genau 40 Jahren hat die englische Rockband Pink Floyd ihr legendäres Album \"Dark Side of the Moon\" veröffentlicht. Der Titel bedeutet \"Dunkle Seite des Mondes\".<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1657_0a79b927.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1657_0a79b927.mp3",
+        "published":"Sun, 24 Mar 2013 15:57:22 GMT",
+        "bitRate":64,
+        "contentLength":2185080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die süße Revolution - Kluge Zucker erobern Medizin und Biotechnologie",
+        "episode":9,
+        "description":"<img src=\"http://www.dradio.de/images/73267/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Welt ist voller Zucker: das Holz der Bäume, die Panzer der Insekten bestehen aus Zucker. Jede Zelle ist in einen Zuckerpelz gehüllt, der wichtige Informationen übermittelt - kein Wunder, dass auch Krankheitserreger und Parasiten diese Zucker nutzen, um Zellen zu infizieren.\n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1630_0e909a8f.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/24/dlf_20130324_1630_0e909a8f.mp3",
+        "published":"Sun, 24 Mar 2013 15:30:05 GMT",
+        "bitRate":64,
+        "contentLength":26170086
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Mond, Planet, Stern",
+        "episode":10,
+        "description":"<img src=\"http://www.dradio.de/images/92121/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute Abend bilden unser Mond, Jupiter und Aldebaran im Stier ein markantes Dreieck am Südwesthimmel. Der strahlend helle Jupiter steht ein Stück links oberhalb des Mondes - der etwas schwächere Aldebaran befindet sich auf gleicher Höhe wie der Mond.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1657_5a6de863.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1657_5a6de863.mp3",
+        "published":"Sun, 17 Mar 2013 15:57:30 GMT",
+        "bitRate":64,
+        "contentLength":2193420
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schöne neue Biologie - Wie Gentechnik und Molekularbiologie unser Leben verändern",
+        "episode":11,
+        "description":"<img src=\"http://www.dradio.de/images/3984/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Normalerweise ist naturwissenschaftliche Forschung ein Fall für Profis in gut ausgestatteten Labors. Doch im Feld der Biologie tummeln sich seit einiger Zeit vermehrt auch Amateure. Mit selbst gebastelten Gerätschaften sequenzieren sie Gene auf dem Küchentisch, experimentieren im Wohnzimmer mit gefährlichen Keimen oder suchen nach einem Mittel gegen Krebs. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1630_bbbcf716.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/17/dlf_20130317_1630_bbbcf716.mp3",
+        "published":"Sun, 17 Mar 2013 15:30:02 GMT",
+        "bitRate":64,
+        "contentLength":28765911
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Eichendorffs Mondnacht",
+        "episode":12,
+        "description":"<img src=\"http://www.dradio.de/images/83375/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute vor 225 Jahren kam in Oberschlesien Joseph Freiherr von Eichendorff zur Welt. Er gehört zu den bedeutendsten deutschen Dichtern der Romantik und so verwundert es nicht, dass etliche seiner Gedichte einen Bezug zum Weltraum haben.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1657_9d730fbe.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1657_9d730fbe.mp3",
+        "published":"Sun, 10 Mar 2013 15:57:20 GMT",
+        "bitRate":64,
+        "contentLength":2193420
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dosis der Angst - Über die Wirkung schwacher radioaktiver Strahlung ",
+        "episode":13,
+        "description":"<img src=\"http://www.dradio.de/images/64890/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der 11. März 2011 veränderte das Leben vieler Japaner für immer. Nicht nur, dass ein Erdbeben und ein Tsunami weite Bereiche der Küste von Honshu verwüsteten: Durch die Naturkatastrophe gerieten in Fukushima Daiichi drei Reaktoren außer Kontrolle, in einem vierten wurde das Abklingbecken stark zerstört. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1630_c73f2c7c.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/10/dlf_20130310_1630_c73f2c7c.mp3",
+        "published":"Sun, 10 Mar 2013 15:30:06 GMT",
+        "bitRate":64,
+        "contentLength":26183013
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Drei Körper, ein Problem",
+        "episode":14,
+        "description":"<img src=\"http://www.dradio.de/images/91549/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Unser Mond umkreist die Erde in einer mittleren Entfernung von 384.000 Kilometern. Zwar spürt er dabei auch die Anziehungskraft der Sonne, doch wird seine Bewegung in erster Linie vom Schwerefeld der Erde bestimmt.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1657_5d6526f2.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1657_5d6526f2.mp3",
+        "published":"Sun, 03 Mar 2013 15:57:22 GMT",
+        "bitRate":64,
+        "contentLength":2193420
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kalter Krieg am Campus - Der Streit um die Zivilklausel an deutschen Hochschulen",
+        "episode":15,
+        "description":"<img src=\"http://www.dradio.de/images/25778/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Streng vertrauliche Projekte des Verteidungsministeriums, Drittmittel von Rüstungskonzernen, zweifelhafte Forschungsziele  Friedensgruppen warnen vor einer schleichenden Militarisierung der Hochschulen. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1630_347e83b5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/03/03/dlf_20130303_1630_347e83b5.mp3",
+        "published":"Sun, 03 Mar 2013 15:30:05 GMT",
+        "bitRate":64,
+        "contentLength":26154240
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Kein Oscar für den Weltraum",
+        "episode":16,
+        "description":"<img src=\"http://www.dradio.de/images/65417/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Filmwelt blickt heute wieder gebannt nach Los Angeles, wo die Academy-Awards verteilt werden. Es waren zwar hin und wieder berühmte Filme nominiert, die irgendwie den Weltraum zum Thema hatten - doch bei den Oscars in den wichtigen Kategorien gingen sie stets leer aus. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1657_1698b0f5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1657_1698b0f5.mp3",
+        "published":"Sun, 24 Feb 2013 15:57:18 GMT",
+        "bitRate":64,
+        "contentLength":2191752
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Arzt in Dir - Wie der Geist den Körper heilt",
+        "episode":17,
+        "description":"<img src=\"http://www.dradio.de/images/86399/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Menschen verfügen über innere Ressourcen, mit denen sie die eigene Schmerzwahrnehmung kontrollieren können. Das hat die Placeboforschung inzwischen eindrucksvoll bewiesen - allerdings meist an Gesunden. Dass dieselben psychologischen Mechanismen auch bei Kranken einen Behandlungserfolg erzielen können, belegen erst jetzt einige große Studien, die derzeit kurz vor ihrem Abschluss stehen.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1630_2d622dea.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/24/dlf_20130224_1630_2d622dea.mp3",
+        "published":"Sun, 24 Feb 2013 15:30:04 GMT",
+        "bitRate":64,
+        "contentLength":26109621
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Dreifacher Abschied vom Dreigestirn",
+        "episode":18,
+        "description":"<img src=\"http://www.dradio.de/images/90904/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Nach Einbruch der Dunkelheit nähert sich der zunehmende Halbmond wieder dem Planeten Jupiter, der derzeit im Sternbild Stier leuchtet. Jupiter steht heute ein Stück links oberhalb des Mondes und links von Jupiter zeigt sich das rötliche Stierauge Aldebaran.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1657_a68e3a95.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1657_a68e3a95.mp3",
+        "published":"Sun, 17 Feb 2013 15:57:23 GMT",
+        "bitRate":64,
+        "contentLength":2191752
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Quantenzirkus mit Licht und Atomen - Forscher simulieren Materie",
+        "episode":19,
+        "description":"<img src=\"http://www.dradio.de/images/898/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Physiknobelpreisträger und Visionär Richard Feynman hielt 1981 einen viel beachteten Vortrag. Darin schlug er vor, neuartige Rechenmaschinen zu bauen, so genannte Quantensimulatoren, um mit deren Hilfe endlich das Verhalten komplexer Materialien zu begreifen. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1630_e9e3fa65.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/17/dlf_20130217_1630_e9e3fa65.mp3",
+        "published":"Sun, 17 Feb 2013 15:30:00 GMT",
+        "bitRate":64,
+        "contentLength":26265162
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Seltener Gast am Abend",
+        "episode":20,
+        "description":"<img src=\"http://www.dradio.de/images/90248/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Der Planet Merkur gehört zu den schwierigeren Beobachtungsobjekten unter den Geschwistern der Erde. Doch in den nächsten Tagen gibt er wieder einmal ein kurzes Gastspiel am Abendhimmel.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1657_1787be27.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1657_1787be27.mp3",
+        "published":"Sun, 10 Feb 2013 15:57:15 GMT",
+        "bitRate":64,
+        "contentLength":1093248
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gene unterwegs - Fremde DNA in unserem Erbgut",
+        "episode":21,
+        "description":"<img src=\"http://www.dradio.de/images/80592/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Unsere Gene haben wir von unseren Eltern und die haben sie von ihren Eltern. So funktioniert biologische Vererbung, von Generation zu Generation. Doch es geht auch anders. Gene von außen können in einen anderen Körper gelangen, in das Erbgut eindringen und zu einem Teil des Organismus werden. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1630_d6b93710.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/10/dlf_20130210_1630_d6b93710.mp3",
+        "published":"Sun, 10 Feb 2013 15:30:04 GMT",
+        "bitRate":64,
+        "contentLength":13028704
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Österreich fliegt zum Mars",
+        "episode":22,
+        "description":"<img src=\"http://www.dradio.de/images/90240/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">In diesem Monat führt das Österreichische Weltraumforum eine bemannte Mission zum Planeten Mars durch - natürlich nur in einer Simulation. Als Trainingsumgebung dient eine Wüstengegend in Marokko, wo viele geologische Strukturen der Landschaft auf dem Roten Planeten ähneln.\n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1657_8696e186.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1657_8696e186.mp3",
+        "published":"Sun, 03 Feb 2013 15:57:25 GMT",
+        "bitRate":64,
+        "contentLength":1093248
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Störungswahn? - Psychiater streiten um die Zukunft ihres Fachs",
+        "episode":23,
+        "description":"<img src=\"http://www.dradio.de/images/85179/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">In einigen Monaten erscheint das neue  amerikanische Handbuch zur Diagnose psychiatrischer Krankheiten, das \"DSM-5\". Aber schon heute erzeugt es heftigen Streit. Denn das \"DSM-5\" wird die Entwicklung der Psychiatrie auf Jahre hinaus wesentlich beeinflussen. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1630_c745d088.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/02/03/dlf_20130203_1630_c745d088.mp3",
+        "published":"Sun, 03 Feb 2013 15:30:05 GMT",
+        "bitRate":64,
+        "contentLength":13070512
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Dreh mit dem Mond",
+        "episode":24,
+        "description":"<img src=\"http://www.dradio.de/images/52635/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Heute erhellt der silbrig glänzende Mond die lange Winternacht. Wie immer blicken wir ihm genau ins Gesicht, denn der Mond weist uns stets dieselbe Seite zu.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1657_1ca8f323.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1657_1ca8f323.mp3",
+        "published":"Sun, 27 Jan 2013 15:57:14 GMT",
+        "bitRate":64,
+        "contentLength":1094080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Preisrevolution - Über den Wert von Krebsmedikamenten",
+        "episode":25,
+        "description":"<img src=\"http://www.dradio.de/images/63222/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Mehrere Tausend Euro im Monat kostet das Medikament, das der krebskranke Wolfgang B. bekommt. Ob es sein Leben verlängert oder nur sein Leiden, kann allerdings niemand sagen. B. hat Nierenkrebs in fortgeschrittenem Stadium. Bis vor wenigen Jahren gab es für Patienten wie ihn kaum Behandlungsmöglichkeiten. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1630_ed43bbf3.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/27/dlf_20130127_1630_ed43bbf3.mp3",
+        "published":"Sun, 27 Jan 2013 15:30:04 GMT",
+        "bitRate":64,
+        "contentLength":13039936
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Higgs hilft nicht weiter",
+        "episode":26,
+        "description":"<img src=\"http://www.dradio.de/images/89436/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Zu den großen wissenschaftlichen Ereignissen des vergangenen Jahres gehörte die Entdeckung des Higgs-Teilchens. Die Forscherteams am LHC-Beschleuniger in Genf hatten das bis dahin hypothetische Teilchen aufgespürt, das allen Bausteinen der Natur ihre Masse verleiht.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1657_6c91d546.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1657_6c91d546.mp3",
+        "published":"Sun, 20 Jan 2013 15:57:17 GMT",
+        "bitRate":64,
+        "contentLength":1094080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Vergessen - Gedächtnisforscher lernen von Amnesiepatienten",
+        "episode":27,
+        "description":"<img src=\"http://www.dradio.de/images/60919/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Erinnerung an die erste Liebe, die Fähigkeit, schreiben zu können, das Wissen, wer ich bin, - all das ist im Gedächtnis gespeichert. Wie aus Sinneseindrücken, Gefühlen und Denkprozessen Erinnerungen werden, versuchen Forscher nun schon seit Jahrzehnten zu verstehen. Dabei zeichnet sich ab: Es sind die Amnesiepatienten, die die  Forschung einen großen Schritt voranbringen können. <br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1630_89535455.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/20/dlf_20130120_1630_89535455.mp3",
+        "published":"Sun, 20 Jan 2013 15:30:01 GMT",
+        "bitRate":64,
+        "contentLength":13046800
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Der Stern mit der ewigen Jugend?",
+        "episode":28,
+        "description":"<img src=\"http://www.dradio.de/images/89427/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Kugelsternhaufen sind Ansammlungen von zigtausend Sternen in einem Bereich von nur einigen Hundert Lichtjahren Durchmesser. Sie sind schon sehr früh in der Geschichte einer Galaxie entstanden.<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1657_9c8c5fb5.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1657_9c8c5fb5.mp3",
+        "published":"Sun, 13 Jan 2013 15:57:24 GMT",
+        "bitRate":64,
+        "contentLength":1094080
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Böen ins Netz! - Wie die Stromversorgung für die Erneuerbaren umgebaut werden kann",
+        "episode":29,
+        "description":"<img src=\"http://www.dradio.de/images/86991/landscape/133,0/\" height=\"100\" width=\"133\" border=\"0\" align=\"left\" hspace=\"4\" vspace=\"4\">Die Energiepolitik in Berlin bietet derzeit das Bild vom Zauberkünstler, der die Geister nicht mehr los wird, die er rief: Vor einem Jahr läutete die konservative Regierung die Energiewende ein, indem sie die Laufzeitverlängerung für Atomkraftwerke zurücknahm. Seitdem ist klar: Schon die nahe Zukunft gehört den Erneuerbaren. \n<br clear=\"all\"><br>Deutschlandfunk, Wissenschaft im Brennpunkt<br><a href=\"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1630_a04bc32e.mp3\">Direkter Link zur Audiodatei</a><br><p><br></p>",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/01/13/dlf_20130113_1630_a04bc32e.mp3",
+        "published":"Sun, 13 Jan 2013 15:30:20 GMT",
+        "bitRate":64,
+        "contentLength":12939888
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+    "displaySubDomaine":"dlfwissenschbrennpunkt",
+    "recentTitles":
+    [
+      "Sternzeit 07. April 2013",
+      "Die Entmüllung der Meere - Strategien gegen Plastik im Ozean",
+      "Venus im Großen Bären",
+      "Der Traum vom aufrechten Gang - Exoskelette im Praxistest",
+      "Hase, Lamm, Ei",
+      "Schön alt - Wie man mit über 100 gut leben kann",
+      "Sternzeit 29. März 2013",
+      "Wörter, Kriege, Emotionen - Datenschürfen im Kulturgut",
+      "Pink Floyd und die Dunkle Seite des Mondes",
+      "Die süße Revolution - Kluge Zucker erobern Medizin und Biotechnologie",
+      "Mond, Planet, Stern",
+      "Schöne neue Biologie - Wie Gentechnik und Molekularbiologie unser Leben verändern",
+      "Eichendorffs Mondnacht",
+      "Dosis der Angst - Über die Wirkung schwacher radioaktiver Strahlung ",
+      "Drei Körper, ein Problem",
+      "Kalter Krieg am Campus - Der Streit um die Zivilklausel an deutschen Hochschulen",
+      "Kein Oscar für den Weltraum",
+      "Der Arzt in Dir - Wie der Geist den Körper heilt",
+      "Dreifacher Abschied vom Dreigestirn",
+      "Quantenzirkus mit Licht und Atomen - Forscher simulieren Materie",
+      "Seltener Gast am Abend",
+      "Gene unterwegs - Fremde DNA in unserem Erbgut",
+      "Österreich fliegt zum Mars",
+      "Störungswahn? - Psychiater streiten um die Zukunft ihres Fachs",
+      "Der Dreh mit dem Mond",
+      "Preisrevolution - Über den Wert von Krebsmedikamenten",
+      "Higgs hilft nicht weiter",
+      "Vergessen - Gedächtnisforscher lernen von Amnesiepatienten",
+      "Der Stern mit der ewigen Jugend?",
+      "Böen ins Netz! - Wie die Stromversorgung für die Erneuerbaren umgebaut werden kann"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Feed provided by Deutschlandradio. Click to visit.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dradio.de/dlf/sendungen/dlfpodcast/503552/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8181_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8181_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8181,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8181_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8181_5_1.png",
+    "author":"",
+    "title":"Deutschlandradio Logo",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8181_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Wissen, Wissenschaft",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Köln",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Deutschlandfunk - Wissenschaft im Brennpunkt",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/dlfwissenschbrennpunkt.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8181_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8181_5.jpeg",
+    "subdomain":"dlfwissenschbrennpunkt",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463271,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://podcast-mp3.dradio.de/podcast/2013/04/07/dlf_20130407_1657_974f1f9d.mp3",
+        "idBroadcast":8181,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

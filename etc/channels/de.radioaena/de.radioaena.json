@@ -1,0 +1,270 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://85.214.100.217:8055/dslTest",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://85.214.100.217:8055/WAP",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio AENA, Mittelalter Musik Radio",
+    "subDomaine":"radioaena",
+    "relayDisabled":false,
+    "rank":876,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das Mittelalter Radio aus Straubing mit den schönsten Klängen aus der Vergangenheit.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8350_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8350_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8350_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das Mittelalter Radio aus Straubing mit den schönsten Klängen aus der Vergangenheit.",
+    "metaDataUrl":"http://85.214.100.217:8055/dslTest",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://85.214.100.217:8055/dslTest",
+    "displaySubDomaine":"radioaena",
+    "recentTitles":
+    [
+      "Adivarius by Radio~AENA - Samba (Radio-AENA (Server2))",
+      "NT: Radio~AENA - Passt auf jedes Ohr (Radio-AENA (Server2))",
+      "NT: Radio~AENA - Mittelalter",
+      "NT: Radio~AENA - Die Nr.1 wenn es ums Mittelalter geht (Radio-AENA (Server2))",
+      "Contradanza by Radio~AENA - El a񯠤el cometa (Radio-AENA (Server2))",
+      "Eilean by Radio~AENA - Seacht Suᩬci na Maighdine Muire (Radio-AENA (Server2))",
+      "The Aberloure\'s by Radio~AENA - Wicklow Mountain (Radio-AENA (Server2))",
+      "C鬩ne Magrini by Radio~AENA - Na Maria (Radio-AENA (Server2))",
+      "Blackmore\'s Night by Radio~AENA - Fayre Thee Well (Radio-AENA (Server2))",
+      "Jonny Robels by Radio~AENA - Traubentritt (Radio-AENA (Server2))",
+      "Vermaledeyt by Radio~AENA - Vino Gratias (Radio-AENA (Server2))",
+      "Thomas Lukassek by Radio~AENA - Jack`䨠t (Radio-AENA (Server2))",
+      "Pestilenzia by Radio~AENA - Tanzwut (Radio-AENA (Server2))",
+      "Qntal by Radio~AENA - Ozymandias II (Radio-AENA (Server2))",
+      "Ab Inferis by Radio~AENA - Das Morgenland (Radio-AENA (Server2))",
+      "An Cat Dubh by Radio~AENA - Cumbrian Dream (Radio-AENA (Server2))",
+      "Die Irrlichter by Radio~AENA - Der Fischer (Radio-AENA (Server2))",
+      "Ohrenpeyn  by Radio~AENA - Gaitanischer Tanz (Radio-AENA (Server2))",
+      "Johnny Flesh & The Redneck Zombies by Radio~AENA - Broadway Of Dixie (Radio-AENA (Server2))",
+      "Cobblestones by Radio~AENA - Blarney Roses (Radio-AENA (Server2))",
+      "Wolfenmond by Radio~AENA - O virgio splendens (Radio-AENA (Server2))",
+      "Saitenweise by Radio~AENA - Feiere Dein Leben (Radio-AENA (Server2))",
+      "Psalteria by Radio~AENA - Scalerica d\'Oro (Radio-AENA (Server2))",
+      "Die Rabenbrüder by Radio~AENA - Geteert und gefedert ~ Rock~Version (Radio-AENA (Server2))",
+      "Wirr Wahr by Radio~AENA - Edelmann (Radio-AENA (Server2))",
+      "Priscilla Hernandez by Radio~AENA - Storm (Radio-AENA (Server2))",
+      "Versengold by Radio~AENA - Buntes Volk (Radio-AENA (Server2))",
+      "Unto Ashes by Radio~AENA - Mor Te O Merce (Radio-AENA (Server2))",
+      "Festival Mediaval 06.09 - 08.09.2013 - Festival Mediaval 06.09 - 08.09.2013 in Selb (Radio-AENA (Server2))",
+      "Volkstrott by Radio~AENA - Maskenball (Radio-AENA (Server2))",
+      "Whistling To The Bird by Radio~AENA - Indiana (Radio-AENA (Server2))",
+      "Vroudenspil by Radio~AENA - Medley (Radio-AENA (Server2))",
+      "Tibetr顠by Radio~AENA - Call of the sirens (Radio-AENA (Server2))",
+      "Patapan by Radio~AENA - Land Of Harmony (Radio-AENA (Server2))",
+      "Ataraxia by Radio~AENA - Elldamaar - part 2 (Radio-AENA (Server2))",
+      "Glenfiddle by Radio~AENA - Song of Indecision (Radio-AENA (Server2))",
+      "Ougenweide by Radio~AENA - Einem Lieben (Radio-AENA (Server2))",
+      "Silk & Lute by Radio~AENA - Verflucht (Radio-AENA (Server2))",
+      "*www.zauberfeder-verlag.de - Zauberfeder-Verlag* (Radio-AENA (Server2))",
+      "INGRIMM by Radio~AENA - Die Pest (Radio-AENA (Server2))",
+      "Wild Silk by Radio~AENA - Are ye sleeping Maggie (Radio-AENA (Server2))",
+      "Saltatio Mortis by Radio~AENA - Sehnsucht (Radio-AENA (Server2))",
+      "Bardic by Radio~AENA - Somewhere (Radio-AENA (Server2))",
+      "Unis Cornus by Radio~AENA - Over the Hills (Radio-AENA (Server2))",
+      "Sarband by Radio~AENA - O virgo splendens (choral",
+      "Schattenweber by Radio~AENA - Gn der Lieder (Radio-AENA (Server2))",
+      "The Sandsacks by Radio~AENA - Molly Malone (Radio-AENA (Server2))",
+      "Rabenschrey by Radio~AENA - Puppenspieler (Radio-AENA (Server2))",
+      "Van Langen by Radio~AENA - Ich will (Radio-AENA (Server2))",
+      "Sagenhaft by Radio~AENA - So ist`s heute",
+      "Dazkarieh by Radio~AENA - Tempo Ch㯠(Radio-AENA (Server2))",
+      "*www.larpzeit.de - LARP-Zeit - Das Liverollenspiel-Magazin* (Radio-AENA (Server2))"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-aena.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8350_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8350_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8350,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8350_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8350_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8350_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Volksmusik",
+      "_city":"Straubing",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Aena",
+    "picture3Url":"",
+    "streamUrl":"http://85.214.100.217:8055/dslTest",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8350_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8350_5.gif",
+    "subdomain":"radioaena",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":15507,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://85.214.100.217:8055/dslTest",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://85.214.100.217:8055/dslTest",
+        "idBroadcast":8350,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":15508,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://85.214.100.217:8055/WAP",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://85.214.100.217:8055/WAP",
+        "idBroadcast":8350,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

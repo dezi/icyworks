@@ -1,0 +1,2678 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+
+<meta property="fb:admins" content="1179767829,755758005,100002938341650,1434636041" />
+<meta property="fb:app_id" content="134422566578943" />
+
+
+
+
+
+
+
+
+
+<title>
+
+
+WDR - ZeitZeichen Internetradio & Radio online hören auf radio.de
+
+
+
+</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+<meta name="description" content="WDR - ZeitZeichen (64kbps) - Ob Staatsgründung oder Machtverfall, Lebensdaten großer Frauen und Männer, Wendepunkte der Menschheitsgeschichte, Friedensverträge und Katastrophen, Erfindungen und Entdeckungen - im ZeitZeichen auf WDR 5 wird Geschichte lebendig." />
+<meta property="og:title" content="WDR - ZeitZeichen"/>
+<meta property="og:site_name" content="radio.de"/>
+<meta property="og:image" content="http://static.radio.de/images/broadcasts/3717_4.gif"/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="http://wdrzeitzeichen.radio.de"/>
+
+
+
+
+
+
+<meta name="robots" content="noodp" />
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="/" />
+
+
+
+
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+
+djConfig = {
+isDebug: false,
+//locale: 'en-us',
+//baseUrl : "http://radio.de/js/dojo-1.7.3/dojo/",
+dojoIframeHistoryUrl: "http://wdrzeitzeichen.radio.de/js/dojo-1.7.3/dojo/resources/iframe_history.html",
+preventBackButtonFix: false,
+/*
+modulePaths:{
+"dojo": "http://radio.de/js/dojo-1.7.3/dojo",
+"dojox":"http://radio.de/js/dojo-1.7.3/dojox",
+"dijit":"http://radio.de/js/dojo-1.7.3/dijit"
+},
+*/
+disableFlashStorage: true,
+parseOnLoad: true,
+async: true
+};
+/*]]>*/
+</script>
+
+
+<link href="http://static.radio.de/css/radio-min.css?1366769200885" rel="stylesheet" type="text/css" />
+
+<link href="http://static.radio.de/inc/css/de.css?1366769200885" rel="stylesheet" type="text/css" />
+
+
+
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/dojo.js"></script>
+<script type="text/javascript" src="http://static.radio.de/dojo-1.7.3/dojo/radio-dojo.js"></script>
+
+<script type="text/javascript">
+require(["dojo",
+"dijit/layout/ContentPane",
+"dijit/form/ValidationTextBox",
+"dojo/_base/fx",
+"dojo/fx",
+"dojo/back"], function(dojo){
+});
+</script>
+
+
+<script type="text/javascript">
+/*<![CDATA[*/
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+window.radio={};
+}
+// festlegen von Serverseitigen Strings:
+require(["dojo"], function() {
+dojo.mixin(window.radio.jsp,{
+pageRequestUrl : "http://wdrzeitzeichen.radio.de/broadcast_info.jsf",
+relativeRequestUrl : "/broadcast_info.jsf",
+pageReferrerUrl : document.referrer
+});
+});
+/*]]>*/
+</script>
+
+<script type="text/javascript">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//create window.radio Object
+if(window.radio == undefined || window.radio == null) {
+	window.radio={};
+}
+//festlegen von Serverseitigen Strings:
+if(window.radio.jsp == null || window.radio.jsp == undefined) radio.jsp = {};
+
+window.radio.jsp = {
+	applicationStateAlert : 'In der Seite ist ein Fehler aufgetreten. Das Ziel der Aktualisierung ist undefiniert.',
+	HomeURL : "/home.jsf",
+	getDetailURL : "/radiosenderdetailliert.jsf",
+	webcontext : "/",
+	pageConfigServerSite : "radio.de",
+	staticUrl : "http://static.radio.de",
+	pageSubdomain : "wdrzeitzeichen",
+	
+	pageRequestUrl : "http://wdrzeitzeichen.radio.de/broadcast_info.jsf",
+	pageDomain : "wdrzeitzeichen.radio.de",
+	bookmarksInclude : "0",
+	requestGetRequestURL : document.referrer, 
+	create_account_optional : "/",
+	localTracker_setVar : "radio.de",
+	create_account_feedback : "/konto_anlegen_rueckmeldung.jsf",
+	changeAccount : "mein-profil.jsf",
+	changeAccountOptional : "mein-profil-optionale-angaben.jsf",
+	deleteAccount : "konto_loeschen.jsf",
+	suggestBroadcast : "sender_vorschlagen.jsf",
+	forgot_password_success : "passwort_vergessen_erfolg.jsf",
+	subscribeNewsletter : "newsletter.jsf",
+	searchUrl : '/sendersuche.jsf',
+	broadcastlist : "/senderliste.jsf",
+	broadcastinfo : "/senderinformation.jsf",
+	broadcast_template_edit : "sender_vorlage_veraendern.jsf",
+	savetag : "tag_speichern.jsf",
+	recommendBroadcastService : "freund_benachrichtigen_aktion.jsf",
+	getLastSearchSetting:'',
+	userLoggedIn : false,
+    loginURL: "login.jsf",
+    titleUpdateHTML_titlePrefix: 'Jetzt:',
+    titleUpdateHTML_noTitle: 'Zur Zeit keine Information verfügbar',
+	sidebarShowMore : 'Mehr anzeigen',
+	sidebarShowLess : 'Weniger anzeigen',
+	currentlyPlayedListen : 'hören',
+	currentlyPlayedFrom : 'Aus',
+	currentlyPlayedNow  : 'Jetzt: ',
+	currentlyPlayedInfo : 'Keine Information verfügbar',
+	currentlyPlayedNowPodcast : 'Folge:',
+	currentlyPlayedInfoPodcast : 'Kein Folgentitel verfügbar',
+	listen: '„{0}“ hören',
+	listenWithoutParam: 'hören',
+	quote_start : '„',
+	quote_end: '“',
+	genre: [
+			'Alternative',
+			'HipHop',
+			'Jazz',
+			'Klassik',
+			'Lounge',
+			'Oldies',
+			'Pop',
+			'Rock',
+			'Schlager',
+			'Country',
+			'Techno'
+			],
+	topic: [
+			'Kinder',
+			'Wirtschaft',
+			'Kultur',
+			'Nachrichten',
+			'Sport'
+			],
+	videoAds : {
+				noticeText : 'Nach nur einem Spot geht es weiter, noch _countdown_ Sekunden'
+			   }		
+};
+
+//tracking vars
+if(window.radio.tracking == null || window.radio.tracking == undefined) radio.tracking = {};
+window.radio.tracking = {
+	// google analytics
+
+
+	gaGlobal : 'UA-5777361-1',
+
+
+
+	gaLocal : 'UA-1457128-1',
+	gaDomainName: 'radio.de',
+	// tracking pixel
+trackingImage : 'http://radiode.ivwbox.de/cgi-bin/ivw/CP/',
+
+
+
+	last : 'empty'
+};
+
+
+if(typeof rmsi_zone=='undefined'){rmsi_zone='entertainment'};
+
+</script>
+
+<script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script>
+
+<script src="http://static.radio.de/radio.de-130417034208827min.js" type="text/javascript"></script>
+
+
+
+<script type="text/javascript">if(typeof(wl13015camp)!="undefined"){if(wl13015camp>0){WLRCMD+="rect=1;";}}if(typeof(wl13016camp)!="undefined"){if(wl13016camp>0){WLRCMD+="lead=1;";}}if(typeof(wl13027camp)!="undefined"){if(wl13027camp>0){WLRCMD+="sky=1;";}}if(typeof(wl13028camp)!="undefined"){if(wl13028camp>0){WLRCMD+="wall=1;";}}if(typeof(wl13029camp)!="undefined"){if(wl13029camp>0){WLRCMD+="layer=1;";}}if(typeof(wl13030camp)!="undefined"){if(wl13030camp>0){WLRCMD+="band=1;";}}if(typeof(wl13032camp)!="undefined"){if(wl13032camp>0){WLRCMD+="half=1;";}}if(typeof(wl13031camp)!="undefined"){if(wl13031camp>0){WLRCMD+="tandem=1;";}}if(typeof(wl13019camp)!="undefined"){if(wl13019camp>0){WLRCMD+="p1=1;";}}if(typeof(wl13020camp)!="undefined"){if(wl13020camp>0){WLRCMD+="p2=1;";}}if(typeof(wl13021camp)!="undefined"){if(wl13021camp>0){WLRCMD+="p3=1;";}}if(typeof(wl13023camp)!="undefined"){if(wl13023camp>0){WLRCMD+="bill=1;";}}if(typeof(wl13024camp)!="undefined"){if(wl13024camp>0){WLRCMD+="eWp=1;";}}if(typeof(wl13025camp)!="undefined"){if(wl13025camp>0){WLRCMD+="eSk=1;";}}if(typeof(wl13017camp)!="undefined"){if(wl13017camp>0){WLRCMD+="eSb=1;";}}if(typeof(wl13018camp)!="undefined"){if(wl13018camp>0){WLRCMD+="t_hp=1;";}}WLRCMD=WLRCMD+segQS;</script>
+
+
+<script type="text/javascript">
+if (window.radio==null  || window.radio==undefined){window.radio={};}
+if (window.radio.inlineplayerfunctions==null || window.radio.inlineplayerfunctions==undefined) {
+    window.radio.inlineplayerfunctions=new function(){
+        var _getPlayerConfig=function() {return {"minutesUntilStop":2,"senderAddress":"","captchaURL":"/Captcha.jpg","codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","sliceRequired":false,"minutesUntilReload":10,"shop4Config":{"id":4,"enabled":false,"title":"","icon2":"","icon1":"","urlTemplate":""},"codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"><\/script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n<\/script>","minutesUntilRefreshSenderInfo":1440,"startPlayOnLoad":true,"defaultSorting":"related","shop1Config":{"id":1,"enabled":true,"title":"amazonmp3.de","icon2":"/inc/img/shops/amazonmp3_64x17.jpg","icon1":"/inc/img/shops/amazonmp3_16x16.png","urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"},"relayDisabledGlobally":false,"sliceLengthMillis":9984,"volume":100,"shop2Config":{"id":2,"enabled":true,"title":"iTunes","icon2":"/inc/img/shops/itunes_64x17.jpg","icon1":"/inc/img/shops/itunes_16x16.gif","urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"},"maxBroadcasts":10,"crossFadeURL":"-","sendAFriendMessage":"Mitteilung Send-A-Friend","welcomeURL":"http://www.radio.de/audioads/gateway.mp3","shop3Config":{"id":3,"enabled":true,"title":"musicload","icon2":"/inc/img/shops/musicload_64x17.jpg","icon1":"/inc/img/shops/musicload_16x16.gif","urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"}};}
+        var _getPlaylist=function() {return [{"overlayGraficUrl":"","id":"17689031","author":"","stream":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: Im Februar 1498 vollendet Leonardo da Vinci sein Gemälde \"Das letzte Abendmahl\"","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689032","author":"","stream":"http://medien.wdr.de/m/1360229753/radio/zeitzeichen/WDR5_Zeitzeichen_20130207_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 7. Februar 1788: Das letzte Lebenszeichen des Weltumseglers Lapérouse","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689033","author":"","stream":"http://medien.wdr.de/m/1359457450/radio/zeitzeichen/WDR5_Zeitzeichen_20130206_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 6. Februar 1918: Der Todestag des österreichischen Malers Gustav Klimt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689034","author":"","stream":"http://medien.wdr.de/m/1359457282/radio/zeitzeichen/WDR5_Zeitzeichen_20130205_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 5. Februar 1878: Geb. des französischen Autokonstrukteurs André Gustav Citroën","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689035","author":"","stream":"http://medien.wdr.de/m/1359457116/radio/zeitzeichen/WDR5_Zeitzeichen_20130204_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 4. Februar 1913: Der Geburtstag der schwedischen Publizistin Birgitta Wolf","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688870","author":"","stream":"http://medien.wdr.de/m/1359456947/radio/zeitzeichen/WDR5_Zeitzeichen_20130203_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 3. Februar 1468: Der Todestag des Buchdruck-Erfinders Johannes Gutenberg","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688871","author":"","stream":"http://medien.wdr.de/m/1359456779/radio/zeitzeichen/WDR5_Zeitzeichen_20130202_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 2. Februar 1903: Der Geburtstag des Publizisten Eugen Kogon","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688872","author":"","stream":"http://medien.wdr.de/m/1359456614/radio/zeitzeichen/WDR5_Zeitzeichen_20130201_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 1. Februar 1933: Der Geburtstag der Edelprostituierten Rosemarie Nitribitt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17689036","author":"","stream":"http://medien.wdr.de/m/1359989440/radio/zeitzeichen/WDR5_Zeitzeichen_20130131_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 31. Januar 1933: Der Mössinger Generalstreik nach der Machtübernahme Hitlers","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688874","author":"","stream":"http://medien.wdr.de/m/1358850622/radio/zeitzeichen/WDR5_Zeitzeichen_20130130_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 30. Januar 1863: Die Gründung der Farbwerke Hoechst AG","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688875","author":"","stream":"http://medien.wdr.de/m/1358850409/radio/zeitzeichen/WDR5_Zeitzeichen_20130129_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 29. Januar 1763: Der Geburtstag des Schriftstellers Johann Gottfried Seume","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17688876","author":"","stream":"http://medien.wdr.de/m/1358850197/radio/zeitzeichen/WDR5_Zeitzeichen_20130128_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 28. Januar 1988: Der Todestag des Kernphysikers und Atomspions Klaus Fuchs","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17687097","author":"","stream":"http://medien.wdr.de/m/1359304704/radio/zeitzeichen/WDR5_Zeitzeichen_20130127_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 27. Januar 1973: Das Abkommen über das Ende des Vietnamkriegs wird unterzeichnet","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686868","author":"","stream":"http://medien.wdr.de/m/1358849791/radio/zeitzeichen/WDR5_Zeitzeichen_20130126_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 26. Januar 1833: Der Geburtstag der Bildhauerin Elisabet Ney","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686869","author":"","stream":"http://medien.wdr.de/m/1358847754/radio/zeitzeichen/WDR5_Zeitzeichen_20130125_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 25. Januar 1938: Der Geburtstag des russischen Liedermachers Wladimir Wyssotzki","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686870","author":"","stream":"http://medien.wdr.de/m/1358848004/radio/zeitzeichen/WDR5_Zeitzeichen_20130124_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 24. Januar 1928: Der Geburtstag des britischen Verhaltensforschers Desmond Morri","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686871","author":"","stream":"http://medien.wdr.de/m/1358250404/radio/zeitzeichen/WDR5_Zeitzeichen_20130123_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 23. Januar 1783: Der Geburtstag des französischen Schriftstellers Stendhal","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686872","author":"","stream":"http://medien.wdr.de/m/1358250238/radio/zeitzeichen/WDR5_Zeitzeichen_20130122_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 22. Januar 1963: Die Unterzeichnung des Deutsch-Französischen Vertrags","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686873","author":"","stream":"http://medien.wdr.de/m/1358250068/radio/zeitzeichen/WDR5_Zeitzeichen_20130121_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: Im Januar 1953 stellt die DGzRS den Seenotkreuzer \"Bremen\" in Dienst","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17686874","author":"","stream":"http://medien.wdr.de/m/1358249397/radio/zeitzeichen/WDR5_Zeitzeichen_20130120_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 20. Januar 1813: Der Todestag des Dichters Christoph Martin Wieland","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685046","author":"","stream":"http://medien.wdr.de/m/1358249900/radio/zeitzeichen/WDR5_Zeitzeichen_20130119_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 19. Jan 1978: In Emden läuft der letzte in Europa hergestellte VW Käfer vom Band","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685047","author":"","stream":"http://medien.wdr.de/m/1358249731/radio/zeitzeichen/WDR5_Zeitzeichen_20130118_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 18. Januar 1913: Der Geburtstag des amerikanischen Schauspielers Danny Kaye","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685048","author":"","stream":"http://medien.wdr.de/m/1358249565/radio/zeitzeichen/WDR5_Zeitzeichen_20130117_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 17. Januar 1463: Der Geburtstag des sächsischen Kurfürsten Friedrichs III.","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685049","author":"","stream":"http://medien.wdr.de/m/1357657012/radio/zeitzeichen/WDR5_Zeitzeichen_20130116_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 16. Januar 2003: Der letzte Start der Raumfähre \"Columbia\"","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685050","author":"","stream":"http://medien.wdr.de/m/1357656373/radio/zeitzeichen/WDR5_Zeitzeichen_20130115_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 15. Januar 1908: Der Geburtstag des Physikers Edward Teller","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17685051","author":"","stream":"http://medien.wdr.de/m/1357656057/radio/zeitzeichen/WDR5_Zeitzeichen_20130114_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 14. Januar 1963: Der Todestag des Schriftstellers und Journalisten Gustav Regler","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683318","author":"","stream":"http://medien.wdr.de/m/1357655582/radio/zeitzeichen/WDR5_Zeitzeichen_20130113_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 13. Januar 1753: Der Geburtstag des Mediziners Johann Christian Stark","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683045","author":"","stream":"http://medien.wdr.de/m/1357655414/radio/zeitzeichen/WDR5_Zeitzeichen_20130112_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 12. Januar 1528: Gustav I. Wasa wird zum König von Schweden gekrönt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683046","author":"","stream":"http://medien.wdr.de/m/1357655248/radio/zeitzeichen/WDR5_Zeitzeichen_20130111_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 11. Januar 1753: Der Geburtstag der Goethe-Freundin Charlotte Buff","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683047","author":"","stream":"http://medien.wdr.de/m/1357655078/radio/zeitzeichen/WDR5_Zeitzeichen_20130110_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 10. Januar 1778: Der Todestag des schwedischen Naturforschers Carl von Linné","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683048","author":"","stream":"http://medien.wdr.de/m/1357124333/radio/zeitzeichen/WDR5_Zeitzeichen_20130109_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 9. Januar 1913: Der Geburtstag des amerikanischen Präsidenten Richard Nixon","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683049","author":"","stream":"http://medien.wdr.de/m/1357124327/radio/zeitzeichen/WDR5_Zeitzeichen_20130108_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 8. Januar 1948: Der Todestag des Sängers Richard Tauber","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17683050","author":"","stream":"http://medien.wdr.de/m/1357124323/radio/zeitzeichen/WDR5_Zeitzeichen_20130107_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 7. Januar 1943: Der Todestag des Physikers und Erfinders Nikola Tesla","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681573","author":"","stream":"http://medien.wdr.de/m/1357124317/radio/zeitzeichen/WDR5_Zeitzeichen_20130106_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 6. Januar 1933: Der Geburtstag des Schweizer Kabarettisten Emil Steinberger","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681353","author":"","stream":"http://medien.wdr.de/m/1357124314/radio/zeitzeichen/WDR5_Zeitzeichen_20130105_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 5. Januar 1933: Der Baubeginn der Golden-Gate-Bridge","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681354","author":"","stream":"http://medien.wdr.de/m/1357124308/radio/zeitzeichen/WDR5_Zeitzeichen_20130104_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 4. Januar 1968: Die Premiere des Films \"Zur Sache Schätzchen\"","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681355","author":"","stream":"http://medien.wdr.de/m/1357124303/radio/zeitzeichen/WDR5_Zeitzeichen_20130103_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 3. Januar 1893: Der Geburtstag des französischen Schriftstellers Pierre Drieu La","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681356","author":"","stream":"http://medien.wdr.de/m/1357124299/radio/zeitzeichen/WDR5_Zeitzeichen_20130102_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 2. Januar 1793: Die Uraufführung des \"Requiems\" von Wolfgang Amadeus Mozart","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681357","author":"","stream":"http://medien.wdr.de/m/1357124295/radio/zeitzeichen/WDR5_Zeitzeichen_20130101_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 1. Januar 1683: Die Gründung der ersten deutschen Kolonie in Afrika","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681358","author":"","stream":"http://medien.wdr.de/m/1357209922/radio/zeitzeichen/WDR5_Zeitzeichen_20121231_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 31. Dezember 1612: Im Jahr 1612 entdeckt Lord Thomas West die erste Steueroase der Welt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681359","author":"","stream":"http://medien.wdr.de/m/1357209889/radio/zeitzeichen/WDR5_Zeitzeichen_20121230_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 30. Dezember 1947: Der Kälte- und Hungerwinter 1947","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17681360","author":"","stream":"http://medien.wdr.de/m/1357213551/radio/zeitzeichen/WDR5_Zeitzeichen_20121229_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 29. Dezember 1872: Rudolf Virchow gibt Vorsitz ab","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17679879","author":"","stream":"http://medien.wdr.de/m/1355921139/radio/zeitzeichen/WDR5_Zeitzeichen_20121228_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 28. Dezember 1922: Der Geburtstag des Atlantik-Überquerers Hannes Lindemann","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17679880","author":"","stream":"http://medien.wdr.de/m/1355920969/radio/zeitzeichen/WDR5_Zeitzeichen_20121227_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 27. Dezember 537: Die Weihe der Hagia Sophia in Konstantinopel","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17679881","author":"","stream":"http://medien.wdr.de/m/1355920798/radio/zeitzeichen/WDR5_Zeitzeichen_20121226_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 26. Dezember 1952: Die Tagesschau wird erstmals ausgestrahlt","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17679882","author":"","stream":"http://medien.wdr.de/m/1356017331/radio/zeitzeichen/WDR5_Zeitzeichen_20121225_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 25. Dezember 1977: Der Todestag von Charlie Chaplin","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17679883","author":"","stream":"http://medien.wdr.de/m/1355841137/radio/zeitzeichen/WDR5_Zeitzeichen_20121224_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 24. Dezember 1837: Der Geburtstag der Kaiserin Elisabeth von Österreich","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17678776","author":"","stream":"http://medien.wdr.de/m/1355840512/radio/zeitzeichen/WDR5_Zeitzeichen_20121223_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 23. Dezember 2007: Der Todestag des Jazzpianisten Oscar Peterson","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17678563","author":"","stream":"http://medien.wdr.de/m/1355840342/radio/zeitzeichen/WDR5_Zeitzeichen_20121222_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 22. Dezember 1902: Der Todestag des Psychiaters  Richard von Krafft-Ebing","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""},{"overlayGraficUrl":"","id":"17678564","author":"","stream":"http://medien.wdr.de/m/1355840174/radio/zeitzeichen/WDR5_Zeitzeichen_20121221_0920.mp3","testResult":null,"name":"WDR 3/WDR 5 ZeitZeichen: 21. Dezember 1972: Der Grundlagenvertrag zwischen der Bundesrepublik und der DDR","advertisement":false,"audioAdId":"","streamFormat":"","type":"STATIC_FILE","overlayClickUrl":""}];}
+        var _getBroadcast=function() {return {"requestMetaData":true,"typeAsInteger":7,"epg":"","streamFormat":"ICECAST","hasLinkingAgreement":false,"validated":true,"subTitle":"","seoTitle":"WDR - ZeitZeichen","subDomaine":"wdrzeitzeichen","relayDisabled":false,"rank":2212,"playableStateString":"FREE","idTeaser":0,"description":"Ob Staatsgründung oder Machtverfall, Lebensdaten großer Frauen und Männer, Wendepunkte der Menschheitsgeschichte, Friedensverträge und Katastrophen, Erfindungen und Entdeckungen - im ZeitZeichen auf WDR 5 wird Geschichte lebendig.","picture2TransUrl":"http://static.radio.de/images/broadcasts/3717_2_1.png","picture3TransUrl":"http://static.radio.de/images/broadcasts/3717_3_1.png","longitude":0,"locallyEnabled":true,"enabled":true,"picture6Url":"","metaDataAvailable":false,"globallyEnabled":true,"streamThrough":"BYDEMAND","hasJingle":false,"shortDescription":"Geschichte wird lebendig im ZeitZeichen auf WDR5.","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","podcastUrls":[{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: Im Februar 1498 vollendet Leonardo da Vinci sein Gemälde \"Das letzte Abendmahl\"","episode":0,"description":"Es ist wohl das berühmteste Abendessen der Menschheitsgeschichte und plötzlich fällt ein Satz, der alle in Aufruhr bringt: \"Einer von euch wird mich verraten.\" Das ist genau der Moment, den Leonardo da Vinci in seinem \"Abendmahl\" festgehalten hat. Wahrscheinlich hat der Maler zwei bis drei Jahre für das große Wandgemälde im Speisesaal des Dominikanerklosters Maria delle Grazie in Mailand gebraucht. Heute gilt es als eines seiner Hauptwerke. Autorin: Anke Rebbert © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","published":"Fri, 08 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":7060897},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 7. Februar 1788: Das letzte Lebenszeichen des Weltumseglers Lapérouse","episode":1,"description":"\"Haben wir Nachricht von Monsieur de Lapérouse?\" soll Ludwig XVI noch auf dem Schafott gefragt haben. Seit fünf Jahren waren zu diesem Zeitpunkt der Kapitän der beiden Expeditionsschiffe mit über 200 Seeleuten und Wissenschaftlern bereits spurlos im Pazifik verschollen. Die große Weltumseglung zur Vervollständigung der vom legendären James Cook erstellten Karten und zur friedlichen Kontaktaufnahme mit fremden Völkern hatte kurz vor ihrem Abschluss gestanden, als die Schiffe im Sturm auf einem Korallenriff vor der Insel Vanikoro strandeten. Autorin: Sabine Mann © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1360229753/radio/zeitzeichen/WDR5_Zeitzeichen_20130207_0920.mp3","published":"Thu, 07 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":7011365},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 6. Februar 1918: Der Todestag des österreichischen Malers Gustav Klimt","episode":2,"description":"Zu Lebzeiten war Gustav Klimt einer der umstrittensten, aber auch beliebtesten Künstler der Jahrhundertwende. Die Wiener Gesellschaft hofierte und suchte ihn, vor allem wegen der erotischen Ausstrahlung seiner weiblichen Porträts. Dennoch wurde sein Werk in der deutschsprachigen Kunstkritik der ersten Hälfte des 20. Jahrhunderts teilweise völlig ignoriert und sogar als reine Dekorationsmalerei abgetan. Autoren: Veronika Bock und Ulrich Biermann © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359457450/radio/zeitzeichen/WDR5_Zeitzeichen_20130206_0920.mp3","published":"Wed, 06 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":6930011},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 5. Februar 1878: Geb. des französischen Autokonstrukteurs André Gustav Citroën","episode":3,"description":"Der kleine Mann ging ein letztes Mal durch die Fabrikhallen an der Seine, seine waren es nicht mehr. Durch den randlosen Kneifer sah André Citroën den Arbeitern zu. Sie schraubten dort den Traction Avant zusammen, ein sehr modernes Auto mit Frontantrieb, selbsttragendem Rahmen, toller Straßenlage und erstaunlich viel Platz. Die Idee war gut, doch der Preis für Entwicklung und Produktion war viel zu hoch. Citroen war Pleite. Sechs Jahre zuvor verdiente das Unternehmen gutes Geld und war der größte Autohersteller Europas. Autor: Arndt Brunnert © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359457282/radio/zeitzeichen/WDR5_Zeitzeichen_20130205_0920.mp3","published":"Tue, 05 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":6999489},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 4. Februar 1913: Der Geburtstag der schwedischen Publizistin Birgitta Wolf","episode":4,"description":"\"Du hast mir geholfen, den Winter zu überstehen\", schreibt der Häftling an Birgitta Wolf, \"weil Du mir geschrieben hast, dass die Tage nach dem 21. Dezember wieder länger werden.\" Nur ein simpler Hinweis? Eher die Botschaft eines Lebens: Birgitta Wolf kämpft dafür, dass Gefangene, Obdachlose, die Gescheiterten der Gesellschaft eine neue Chance erhalten, ihre Tage wieder länger werden. Autorin: Edda Dammmüller © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359457116/radio/zeitzeichen/WDR5_Zeitzeichen_20130204_0920.mp3","published":"Mon, 04 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":7000459},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 3. Februar 1468: Der Todestag des Buchdruck-Erfinders Johannes Gutenberg","episode":5,"description":"Johannes Gutenbergs Erfindung hat die Welt verändert. Dabei klingt die Idee so einfach: Statt in Schreibstuben mühsam Buchstabe für Buchstabe abzupinseln bis ein Buch kopiert ist, es einfach mit Hilfe von beweglichen Lettern in Massen zu drucken. Diese Erfindung die Eintrittskarte in ein neues Universum - die Gutenberg-Galaxie! Autor: Marko Rösseler © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359456947/radio/zeitzeichen/WDR5_Zeitzeichen_20130203_0920.mp3","published":"Sun, 03 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":7054413},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 2. Februar 1903: Der Geburtstag des Publizisten Eugen Kogon","episode":6,"description":"Publizist des Widerstands, Augenzeuge des Grauens  und Kritiker des satten Nachkriegsdeutschlands. Eugen Kogon  profilierte sich als früher Gegner des Nationalsozialismus und musste diese Haltung mit einer sechsjährigen Internierung im KZ Buchenwald bezahlen, aus dem er 1945  kurz vor seiner geplanten Erschießung fliehen konnte.  Seine Aufarbeitung des NS-Regimes, das Buch \"Der SS-Staat\", gilt bis heute als eine der wichtigsten Analysen des Unrechtsregimes. Autor: Jörg Beuthner © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359456779/radio/zeitzeichen/WDR5_Zeitzeichen_20130202_0920.mp3","published":"Sat, 02 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":6545257},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 1. Februar 1933: Der Geburtstag der Edelprostituierten Rosemarie Nitribitt","episode":7,"description":"\"Irgendwann schlägt mir noch einer den Schädel ein\", soll sie wenige Wochen vor ihrem Tod gesagt und dabei gelacht haben. Rosemarie Nitribitt war im Frankfurt der Wirtschaftswunderzeit stadtbekannt: Ihr schwarzer Mercedes 190 SL mit den roten Ledersitzen, ihre Pelze und ihr Schmuck zeugten davon, dass man es auch im horizontalen Gewerbe zu beachtlichen Einkünften bringen konnte. Die Nitribitt war ein Callgirl der Luxus-Klasse, mit Freiern, die zur Crème de la Crème in Politik und Wirtschaft gehörten. Autorin: Christiane Kopka © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359456614/radio/zeitzeichen/WDR5_Zeitzeichen_20130201_0920.mp3","published":"Fri, 01 Feb 2013 09:20:00 +0100","bitRate":64,"contentLength":6991753},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 31. Januar 1933: Der Mössinger Generalstreik nach der Machtübernahme Hitlers","episode":8,"description":"Ganz Deutschland nahm die Ernennung Adolf Hitlers zum Reichskanzler widerstandslos hin. Ganz Deutschland? Nein, im schwäbischen Örtchen Mössingen folgten die Genossen der KPD dem Aufruf ihrer Partei tatsächlich und versammelten sich am Tag nach der Machtübernahme an der Turnhalle. In zwei Betrieben konnten sie die Werktätigen mehr oder weniger freiwillig zum Streiken bewegen, am dritten war schon Schluss. Denn Polizei aus Reutlingen war angerückt. Autor: Heiner Wember © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359989440/radio/zeitzeichen/WDR5_Zeitzeichen_20130131_0920.mp3","published":"Thu, 31 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6786759},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 30. Januar 1863: Die Gründung der Farbwerke Hoechst AG","episode":9,"description":"Auf einer grünen Wiese am Mainufer der kleinen Stadt Hoechst nimmt die \"Teerfarbenfabrik Meister, Lucius & Co.\" mit fünf Arbeitern, einem Chemiker und einem Kontoristen am 30. Januar 1863 den Betrieb auf. Ende der 1980er Jahre erreicht die Hoechst AG mit über 170.000 Beschäftigten und einem Jahresumsatz von 46 Milliarden DM ihre größte Ausdehnung. Dann beginnt unter dem Motto \"Hoechst Aufbruch 1994\" eine radikale Umstrukturierung des Konzerns, die letztlich den Beginn des Untergangs des einst weltgrößten Chemie- und Pharmakonzerns Hoechst einleitet. Autorin: Martina Meißner © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358850622/radio/zeitzeichen/WDR5_Zeitzeichen_20130130_0920.mp3","published":"Wed, 30 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6724955},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 29. Januar 1763: Der Geburtstag des Schriftstellers Johann Gottfried Seume","episode":10,"description":"\"Der allgemeine Charakter der Deutschen ist Dummheit und Niederträchtigkeit\". Er teilte gerne aus, der Schriftsteller Johann Gottfried Seume, voller Genuss und voller Zorn. Unruhe bestimmte sein Leben: Immer wieder brach er unvermittelt auf, zu Reisen und Wanderungen, mehrmals wurde er zum Militärdienst gepresst. Er schrieb über seine Erfahrungen, kritisch und wach. Er starb früh, mit 47 Jahren - der erste politische Reiseschriftsteller der Neuzeit. Autorin: Jutta Duhm-Heitzmann © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358850409/radio/zeitzeichen/WDR5_Zeitzeichen_20130129_0920.mp3","published":"Tue, 29 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7020985},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 28. Januar 1988: Der Todestag des Kernphysikers und Atomspions Klaus Fuchs","episode":11,"description":"Wer sich im 20. Jahrhundert mit Kernphysik beschäftigte, geriet schnell in einen Zwiespalt: Was erforsche ich, wer profitiert davon und wie gefährlich ist das für die Welt? Klaus Fuchs wurde zu einem gefragten Kernphysiker, er war Stipendiat des Nobelpreisträgers Max Born in Großbritannien. Dort promovierte er auch und lernte 1942 Ruth Werner kennen, die Spionin Stalins. Er ging nach New York und beteiligte sich an der Entwicklung einer Plutoniumbombe. Aus den einstigen Alliierten wurden gegnerische Supermächte. Für Klaus Fuchs bedeutete dies: Eine friedliche Welt kann es nur geben, wenn keine Seite über einen Vorsprung an tödlichen Waffen verfügt. Autor: Thomas Klug © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358850197/radio/zeitzeichen/WDR5_Zeitzeichen_20130128_0920.mp3","published":"Mon, 28 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7031561},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 27. Januar 1973: Das Abkommen über das Ende des Vietnamkriegs wird unterzeichnet","episode":12,"description":"Obwohl der Krieg zwischen den USA und Nordvietnam mit äußerster Brutalität geführt wurde, gab es schon seit Jahren Friedensverhandlungen. In Paris trafen sich immer wieder der amerikanische Gesandte Henry Kissinger und der Nordvietnamese Le Duc Tho zu Friedensgesprächen. Nach langem Tauziehen besiegelten schließlich die Unterschriften beider Politiker das Ende dieses martialischen Krieges. Zwei Monate später verließen die letzten amerikanischen Soldaten die südvietnamesische Hauptstadt Saigon. Autor: Wolfram Stahl © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1359304704/radio/zeitzeichen/WDR5_Zeitzeichen_20130127_0920.mp3","published":"Sun, 27 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6991325},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 26. Januar 1833: Der Geburtstag der Bildhauerin Elisabet Ney","episode":13,"description":"Elisabet Ney wusste immer, was sie wollte: Schon früh beschloss die Tochter eines Steinmetzes aus Münster, Bildhauerin zu werden und die Großen der Welt kennenzulernen. Äußerst zielstrebig arbeitete sie an ihrer Karriere: Sie besuchte als erste Frau eine Bildhauerklasse, lernte beim berühmten Christian Daniel Rauch in Berlin und wählte ihre Modelle nach der Berühmtheit aus. So fertigte sie Skulpturen von Schopenhauer und seinem Pudel, von Otto von Bismarck, dem scheuen Märchen-König Ludwig II. oder dem Freiheitskämpfer Garibaldi. Autorin: Christiane Kopka © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358849791/radio/zeitzeichen/WDR5_Zeitzeichen_20130126_0920.mp3","published":"Sat, 26 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6958505},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 25. Januar 1938: Der Geburtstag des russischen Liedermachers Wladimir Wyssotzki","episode":14,"description":"Eine raue Stimme zur verstimmten Gitarre war sein Markenzeichen. \"Ich hab mein Leben nicht vollendet, werd mein Lied nicht fertig singen. Bin weggefegt wie eine Feder im Orkan.\" Schnell aufgezehrt war das Leben des russischen Schauspielers und Liedermachers Wladimir Wyssotzki: Arbeitswut und Alkoholexzesse raubten ihm die Gesundheit. In zahllosen Tonbandkopien kursierten seine Lieder im Untergrund. Als er 1980 in Moskau stirbt, preist Bulat Okudshawa Wyssotzkis Dichtkunst als \"beste Waffe im Kampf gegen Ignoranz und Lüge\". Autorin: Hildburg Heider © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358847754/radio/zeitzeichen/WDR5_Zeitzeichen_20130125_0920.mp3","published":"Fri, 25 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7063151},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 24. Januar 1928: Der Geburtstag des britischen Verhaltensforschers Desmond Morri","episode":15,"description":"Das Tier im Menschen - das ist es, was den britischen Zoologen und Verhaltensforscher Desmond Morris seit Jahrzehnten brennend interessiert. Das Buch \"Der nackte Affe\" macht ihn 1967 weltberühmt. Aus der Perspektive des Zoologen nähert sich Morris der Spezies Mensch und entlarvt uns als Affen ohne Fell: Von der Aufzucht der Nachkommen bis zum exzessiven Fußballfankult ist unser Handeln - trotz allem technologischen Fortschritt - primär von biologischen Trieben bestimmt. Autorin: Daniela Wakonigg © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358848004/radio/zeitzeichen/WDR5_Zeitzeichen_20130124_0920.mp3","published":"Thu, 24 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6797847},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 23. Januar 1783: Der Geburtstag des französischen Schriftstellers Stendhal","episode":16,"description":"\"Visse, scrisse, amò - er lebte, schrieb, liebte.\" Für den eigenen Grabstein weiß ein Schriftsteller am besten selbst die richtigen Worte zu finden. Das Wesentliche auf den Begriff zu bringen, ohne viel Firlefanz - das war die Stärke von Henri Beyle, der sich Stendhal nannte. In der Jugend sehr schüchtern, wird Stendhal mit den Jahren zu einem richtigen Salonlöwen. In Mailand packt ihn die Leidenschaft zu einer Dame der Gesellschaft, Mathilde Dembowska. Eine unglückliche Liebe, die den Mann aus Grenoble zur Verzweiflung bringt. Autorin: Monika Buschey © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358250404/radio/zeitzeichen/WDR5_Zeitzeichen_20130123_0920.mp3","published":"Wed, 23 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6599517},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 22. Januar 1963: Die Unterzeichnung des Deutsch-Französischen Vertrags","episode":17,"description":"Eine Ehe mit Höhen und Tiefen nennt man sie oft: die Freundschaft zwischen Franzosen und Deutschen. Heute vor 50 Jahren kamen Konrad Adenauer und Charles de Gaulle im Pariser Élysée-Palast zusammen. Mit Kuss und Unterschrift besiegelten sie die Aussöhnung zwischen den einstigen Erbfeinden. Aber die beiden Staatsmänner sahen sich auch als Visionäre: Sie wollten den Grundstein legen für den Bau eines geeinten Europa. Das ist gelungen, Krise hin oder her. Autorin: Almut Finck © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358250238/radio/zeitzeichen/WDR5_Zeitzeichen_20130122_0920.mp3","published":"Tue, 22 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7032821},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: Im Januar 1953 stellt die DGzRS den Seenotkreuzer \"Bremen\" in Dienst","episode":18,"description":"Die \"Bremen\" war ein Wunderwerk der Technik, entwickelt von der Deutschen Gesellschaft zur Rettung Schiffbrüchiger. Schneller, unbegrenzt hochseetüchtig und auch in Flachwassergebieten einsetzbar und als sogenannter Selbstaufrichter konstruiert. Vor 60 Jahren, im Januar 1953, lief die \"Bremen\" als Versuchs-Seenotkreuzer vom Stapel und bewährte sich in der Praxis so gut, dass die DGzRS bis heute alle Schiffe nach dem Prinzip als Selbstaufrichter mit Tochterboot bauen lässt. Autorin: Heide Soltau © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358250068/radio/zeitzeichen/WDR5_Zeitzeichen_20130121_0920.mp3","published":"Mon, 21 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7040141},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 20. Januar 1813: Der Todestag des Dichters Christoph Martin Wieland","episode":19,"description":"In den Jahren nach 1772 befand sich der Dichter Christoph Martin Wieland auf dem Höhepunkt seines Ruhms: Er war ein deutscher Autor von europäischem Rang, Übersetzer antiker Autoren sowie der Werke Shakespeares, Herausgeber einer populären literarischen Zeitschrift, Erzieher des Prinzen Carl August am Hof in Weimar, Librettist deutscher Singspiele und nicht zuletzt Vater von 14 Kindern. Wieland verfasste den ersten deutschen Fortsetzungsroman; er begeisterte seine gebildeten Leserinnen und Leser mit seiner eleganten Sprache voll Wortwitz und Ironie. Autor: Walter Liedtke © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358249397/radio/zeitzeichen/WDR5_Zeitzeichen_20130120_0920.mp3","published":"Sun, 20 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6961047},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 19. Jan 1978: In Emden läuft der letzte in Europa hergestellte VW Käfer vom Band","episode":20,"description":"Er ist ein Zeitgenosse der jüngeren deutschen Geschichte, ein Vorzeigestück deutscher Ingenieursgabe, Symbol und Wegbegleiter der Wirtschaftswunderjahre: der Käfer von VW. Angestoßen durch Hitlers Forderung nach einem bezahlbaren Auto für die reichsdeutsche Familie entwarf Ferdinand Porsche die legendäre Grundform mit Buckeldesign und luftgekühltem Motor hinten. Der Kriegsausbruch 1939 stoppte die Serienproduktion. Nach dem Zweiten Weltkrieg war der Käfer für viele Deutsche der unvergessene erste Wagen und erreichte in den 60er Jahren Rekordzahlen bei der Produktion. Der Kultwagen lief und lief und lief ...  Autor: Kay Bandermann © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358249900/radio/zeitzeichen/WDR5_Zeitzeichen_20130119_0920.mp3","published":"Sat, 19 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6878617},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 18. Januar 1913: Der Geburtstag des amerikanischen Schauspielers Danny Kaye","episode":21,"description":"Anders als viele andere Komiker, die jenseits der Bühne nicht gerade lustig sind, war der Amerikaner Danny Kaye auch privat fröhlich und suchte immer die Nähe zu Menschen. Trotz seiner großen Erfolge am Broadway und in Hollywood, verschrieb er sich der Menschlichkeit: Kaye setze sich für benachteiligte Kinder in aller Welt ein; so spielte er ihnen als Clown etwas vor, um sie während der notwendigen Impfungen abzulenken. Autorin: Andrea Klasen © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358249731/radio/zeitzeichen/WDR5_Zeitzeichen_20130118_0920.mp3","published":"Fri, 18 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7021745},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 17. Januar 1463: Der Geburtstag des sächsischen Kurfürsten Friedrichs III.","episode":22,"description":"Ausgerechnet ein glühender Katholik hat die Ausbreitung von Martin Luthers aufmüpfigen Ideen in Sachsen am meisten gefördert. Friedrich III. hatte viele Gründe dafür, seine Hand schützend über den waghalsigen Reformator zu halten. Vom päpstlichen Gesandten wurde Kurfürst Friedrich wegen seiner Leibesfülle spöttisch als \"fettes Murmeltier\" bezeichnet, doch die Nachwelt hat ihn mit dem Beinahmen \"der Weise\" gerechter beurteilt. Und das nicht nur, weil er die Universität Wittenberg gründete. Autorin: Maren Gottschalk © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1358249565/radio/zeitzeichen/WDR5_Zeitzeichen_20130117_0920.mp3","published":"Thu, 17 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6951585},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 16. Januar 2003: Der letzte Start der Raumfähre \"Columbia\"","episode":23,"description":"Im Januar 2003 wurde die \"Columbia\" zum 28. Mal auf die Rampe geschoben, an Bord sieben Astronauten. Kurz nach dem Abheben löste sich ein Stück Schaumstoff vom Außentank und prallte auf die linke Tragfläche der Raumfähre. Die NASA wusste von dem Vorfall, nahm ihn aber nicht ernst genug. Das Problem: Der Hitzeschild der Raumfähre war beschädigt und als die Columbia zwei Wochen später wieder in die Erdatmosphäre eintauchte, hielt der Schild nicht. Die Columbia zerbrach. Die sieben Crew-Mitglieder zahlten die Fehleinschätzung der NASA mit Ihrem Leben. Autor: Sven Preger © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357657012/radio/zeitzeichen/WDR5_Zeitzeichen_20130116_0920.mp3","published":"Wed, 16 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6997213},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 15. Januar 1908: Der Geburtstag des Physikers Edward Teller","episode":24,"description":"Die einen sahen hinter seinem Kreuzzug für militärische Aufrüstung die Kraft eines Churchill, anderen schien sein extravaganter Größenwahn nur gefährlich. Edward Teller, Vater der Atombombe und Pate des \"Star-Wars-Programms\". Präsident Reagan vertraute ihm, während Eisenhower gewarnt hatte, elitäre Naturwissenschaftler wie Teller könnten sich der politischen Entscheidungsgewalt bemächtigen. Edward Teller polarisiert - kalt lässt er niemand. Autor: Wolfgang Burgmer © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357656373/radio/zeitzeichen/WDR5_Zeitzeichen_20130115_0920.mp3","published":"Tue, 15 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7061485},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 14. Januar 1963: Der Todestag des Schriftstellers und Journalisten Gustav Regler","episode":25,"description":"Die Meldung von Gustav Reglers Hirnschlag kam aus  Indien. Dort habe der Saarländer - wie schon 1936 im Spanischen Bürgerkrieg - eine Internationale Brigade zusammenstellen wollen, um in den Grenzkonflikt mit Rot-China einzugreifen. Die Nachricht bestätigte das Bild, das Gustav Regler in seinem autobiographischen Bestseller \"Das Ohr des Malchus\" selbst skizziert hatte: das Bild vom engagierten Schriftsteller, der für seine Ideen auch zur Waffe greift. Doch traf es 1963 noch zu? Autor: Christoph Vormweg © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357656057/radio/zeitzeichen/WDR5_Zeitzeichen_20130114_0920.mp3","published":"Mon, 14 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6919541},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 13. Januar 1753: Der Geburtstag des Mediziners Johann Christian Stark","episode":26,"description":"Johann Christian Stark war im Herzen ein klassenlos denkender Landarzt, ein Mediziner für jedermann oder besser \"jederfrau\". Denn es ist die Geburtsheilkunde, die ihn besonders interessierte. Er stellte seine Dienste jeder Frau zur Verfügung egal ob mittellose Magd oder Schillers Gattin. Und er engagierte sich für die Einrichtung einer Krankenkasse zur Versorgung der armen Bevölkerung. 1783 gelang Stark erstmals erfolgreich eine Kaiserschnittentbindung. Autorinnen: Anja und Doris Arp © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357655582/radio/zeitzeichen/WDR5_Zeitzeichen_20130113_0920.mp3","published":"Sun, 13 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6942777},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 12. Januar 1528: Gustav I. Wasa wird zum König von Schweden gekrönt","episode":27,"description":"Er war einer jener jungen Rebellen, die für Überzeugungen ihr Leben riskierten. Und er war deshalb ständig auf der Flucht. Schweden gehörte seit dem 14. Jahrhundert zur Kalmarer Union. Anfang des 16. Jahrhunderts regierte der dänische König Christian II. diese mit harter Hand. Schon früh schloss sich der junge schwedische Adelige Gustav Eriksson deshalb der heimischen Befreiungsbewegung an. Autorin: Andrea Kath © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357655414/radio/zeitzeichen/WDR5_Zeitzeichen_20130112_0920.mp3","published":"Sat, 12 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7034769},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 11. Januar 1753: Der Geburtstag der Goethe-Freundin Charlotte Buff","episode":28,"description":"Er trat durch die Tür und schmolz dahin: der Gerichtspraktikant Johann Wolfgang Goethe sah eine bildhübsche Neunzehnjährige, die im Kreis ihrer zehn jüngeren Geschwister stand und Brot schnitt. So sehr die am 11. Januar 1753 in Wetzlar geborene Charlotte Buff die Bewunderung des jungen Mannes auch genoss - geheiratet hat sie einen anderen. Gleichzeitig wurde sie weltberühmt durch den Roman, in dem Goethe sich etwas später seinen Liebeskummer von der Seele schrieb: \"Die Leiden des jungen Werthers\". Autorin: Jutta Duhm-Heitzmann © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357655248/radio/zeitzeichen/WDR5_Zeitzeichen_20130111_0920.mp3","published":"Fri, 11 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7035003},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 10. Januar 1778: Der Todestag des schwedischen Naturforschers Carl von Linné","episode":29,"description":"Er war so etwas wie ein Erbsenzähler, nur im ganz großen Stil. Carl von Linné, Botaniker und Naturforscher, geboren 1707, zu Beginn des Zeitalters, das heute das \"enzyklopädische2 heißt. Geboren in Südschweden als Sohn eines Pfarrers und Pflanzenliebhabers, hatte Linné sich vorgenommen, die auf allen Kontinenten versammelten Pflanzen in ihrer Vielfalt zu ordnen und zu benennen. Autorin: Almut Finck © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357655078/radio/zeitzeichen/WDR5_Zeitzeichen_20130110_0920.mp3","published":"Thu, 10 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7034761},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 9. Januar 1913: Der Geburtstag des amerikanischen Präsidenten Richard Nixon","episode":30,"description":"Ein schmutziger Name klebt an ihm: Watergate. Der größte Politskandal der Nachkriegszeit stürzte die USA in die Sinnkrise -  Richard Nixon brach sie das politische Genick. Der 37. US-Präsident ist der einzige, der je von seinem Amt zurücktreten musste - als Preis für die legendäre Schnüffelaktion in der Parteizentrale der Demokraten. Eine von etlichen Machenschaften, mit denen \"Tricky Dick\" seine Gegner auszuschalten pflegte. Autorin: Antje Passenheim © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124333/radio/zeitzeichen/WDR5_Zeitzeichen_20130109_0920.mp3","published":"Wed, 09 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6924835},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 8. Januar 1948: Der Todestag des Sängers Richard Tauber","episode":31,"description":"Wahrscheinlich war seine berühmteste Aufnahme so erfolgreich, weil jede Frau vom Stubenmädel bis zur perlengeschmückten Grande Dame das Lied auf sich beziehen konnte. \"Dein ist mein ganzes Herz\" aus Franz Lehárs Operette \"Das Land des Lächelns\" machte den Tenor Richard Tauber 1929 weltberühmt. Mit seinem Repertoire von Mozart bis Puccini gastierte Tauber an den großen Opernhäusern, trat in Konzerten und Filmen auf. 1938 musste er als Jude Österreich verlassen, mit erst 56 Jahren starb er in einem Londoner Krankenhaus an Lungenkrebs. Autor: Michael Struck-Schloen © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124327/radio/zeitzeichen/WDR5_Zeitzeichen_20130108_0920.mp3","published":"Tue, 08 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6921693},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 7. Januar 1943: Der Todestag des Physikers und Erfinders Nikola Tesla","episode":32,"description":"Er ist einer der bekanntesten Unbekannten der Moderne: Nikola Tesla umgibt die Aura des vergessenen Technik-Genies, Esoteriker wie Verschwörungstheoretiker berufen sich auf seine Ideen der drahtlosen Energieübertragung und seine Überlegungen zur \"freien Energie\", zur Lösung aller Energieprobleme der Welt. Seinen Entwicklungen ist es zu verdanken, dass Wechselstrom heute Standard ist. Autor: Martin Herzog © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124323/radio/zeitzeichen/WDR5_Zeitzeichen_20130107_0920.mp3","published":"Mon, 07 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7051191},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 6. Januar 1933: Der Geburtstag des Schweizer Kabarettisten Emil Steinberger","episode":33,"description":"Ursprünglich war Emil Steinberger Postbeamter. Danach machte er eine Grafikerausbildung und eröffnete ein Werbebüro. Nebenbei trat er als Kabarettist auf, gründete in seiner Heimatstadt Luzern ein Kleinkunsttheater und ein Kino. Bis 1987 ging Steinberger mit seinem \"Emil-Programm\" auf Tournee, dann beendete er seine Karriere abrupt und tauchte in New York unter. Erst 12 Jahre später kehrte er zurück in die Schweiz und auf die Bühne. Heute wird Emil Steinberger 80 Jahre alt. Autorin: Ariane Hoffmann © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124317/radio/zeitzeichen/WDR5_Zeitzeichen_20130106_0920.mp3","published":"Sun, 06 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6942819},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 5. Januar 1933: Der Baubeginn der Golden-Gate-Bridge","episode":34,"description":"Sie gilt als Symbol eines ganzen Lebensgefühls, ist eine der längsten Hängebrücken der Welt und das Wahrzeichen San Franciscos: Die Golden Gate Bridge. Am 5.Januar 1933 begann der Bau, \"nach zwei Jahrzehnten und 2000 Millionen Worten\" Diskussion, wie Chefingenieur Joseph B. Strauss sagte. Nur vier Jahre später wurde die Golden Gate Bridge fertig gestellt  und brach in vieler Hinsicht Rekorde: Die damals längste Hängebrücke, mit den höchsten Pfeilern, längsten Kabelsträngen und größten Unterwasserfundamenten der Welt. Autorin: Anna Osius © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124314/radio/zeitzeichen/WDR5_Zeitzeichen_20130105_0920.mp3","published":"Sat, 05 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6898547},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 4. Januar 1968: Die Premiere des Films \"Zur Sache Schätzchen\"","episode":35,"description":"\"Ich möchte kein verstaubtes Kino machen\", erklärte die junge Regisseurin May Spils zu ihrem Regiedebüt, der schrägen Filmkomödie \"Zur Sache Schätzchen\". In dem Überraschungs-Hit von 1968 werden 24 Stunden aus dem Leben des \"Gammlers\" Martin - gespielt von Werner Enke - in München-Schwabing gezeigt. Der Held ist kein Ideologe oder Revolutionär, sondern eine Art Vorläufer der Null-Bock-Generation. Autorin: Martina Meißner © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124308/radio/zeitzeichen/WDR5_Zeitzeichen_20130104_0920.mp3","published":"Fri, 04 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6394553},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 3. Januar 1893: Der Geburtstag des französischen Schriftstellers Pierre Drieu La","episode":36,"description":"2012 sorgte Pierre Drieu La Rochelle postum noch einmal für einen Aufschrei in den Pariser Feuilletons. In der luxuriösen, auf Bibelpapier gedruckten Pléiade-Ausgabe war ein Band mit Romanen und Erzählungen von ihm erschienen. Warum wird ein Faschist, Antisemit und Nazi-Kollaborateur, so die Frage vieler Franzosen, in \"unseren Pantheon der Literatur\" aufgenommen? Das Problem: Pierre Drieu La Rochelle war nicht immer rechtsradikal. Autor: Christoph Vormweg © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124303/radio/zeitzeichen/WDR5_Zeitzeichen_20130103_0920.mp3","published":"Thu, 03 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6906757},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 2. Januar 1793: Die Uraufführung des \"Requiems\" von Wolfgang Amadeus Mozart","episode":37,"description":"Kein Werk der Musikgeschichte hat die Nachwelt zu so vielen Legenden und Spekulationen angeregt wie Wolfgang Amadeus Mozarts \"Requiem\". Mozart hatte den Auftrag durch einen geheimnisvollen Boten erhalten und starb mit 35 Jahren über der Arbeit an der Totenmesse. Schnell war von Giftmord die Rede, von Verschwörung, von dunklen Mächten aus dem Jenseits. Der anonyme Auftraggeber ist längst identifiziert: Graf Franz von Walsegg-Stuppach wollte die Totenmesse unter eigenem Namen für seine verstorbene Frau aufführen. Autor: Christian Kosfeld © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124299/radio/zeitzeichen/WDR5_Zeitzeichen_20130102_0920.mp3","published":"Wed, 02 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":7047311},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 1. Januar 1683: Die Gründung der ersten deutschen Kolonie in Afrika","episode":38,"description":"Die brandenburgische Kolonie Groß-Friedrichsburg - in Westafrika auf dem Gebiet des heutigen Ghana - bestand nur gut 30 Jahre. Niederländer und Briten kontrollierten die Goldküste, Brandenburg konnte sich nicht durchsetzen. Der Großen Kurfürst Friedrich Wilhelm hatte nach dem Dreißigjährigen Krieg nach neuen Geldquellen gesucht. Der Überseehandel mit einer eigenen Kolonie sollte den erhofften Reichtum bringen. Autor: Tobias Mayer © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357124295/radio/zeitzeichen/WDR5_Zeitzeichen_20130101_0920.mp3","published":"Tue, 01 Jan 2013 09:20:00 +0100","bitRate":64,"contentLength":6550999},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 31. Dezember 1612: Im Jahr 1612 entdeckt Lord Thomas West die erste Steueroase der Welt","episode":39,"description":"Warum ist gerade der US-Bundesstaat Delaware mit ca. 620.000 Briefkastenfirmen - weit vor Liechtenstein oder den Cayman Islands - die wichtigste Steueroase der Welt ? Wieso haben Tea-Party-Vertreter und auch sonst so viele US-Amerikaner eine regelrechte Allergie gegen das Zahlen von Steuern? Und weshalb ist das Wappentier von Delaware ausgerechnet das \"Delaware Squirrel\", das seine Eicheln an besonders verschwiegenen Orten versteckt ? Wie so oft, hilft bei der Beantwortung solcher Fragen auch hier ein Blick zurück in die Geschichte ... (Wiederholung des Zeitzeichens vom 1.4.2012) Autor: Thomas Pfaff © WDR 2013","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357209922/radio/zeitzeichen/WDR5_Zeitzeichen_20121231_0920.mp3","published":"Mon, 31 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":6820707},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 30. Dezember 1947: Der Kälte- und Hungerwinter 1947","episode":40,"description":"Kein Fett, kein Fleisch, kein Gemüse, kein Obst. Die meisten Marken der Lebensmittelkarten bleiben im Winter 1947 ungenutzt, denn die Versorgungslage im Nachkriegsdeutschland ist prekär. Schon der Winter zuvor hat mit Kälterekorden an den Kräften der Menschen gezehrt. Das ganze Jahr über kommt es immer wieder zu Hungerdemonstrationen und Streiks. Knapp zwei Jahre nach der Befreiung vom Faschismus dichtet der Volksmund: \"Deutschland, Deutschland ohne alles. Ohne Butter, ohne Speck.\" Autoren: Veronika Bock und Ulrich Biermann © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357209889/radio/zeitzeichen/WDR5_Zeitzeichen_20121230_0920.mp3","published":"Sun, 30 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":6810497},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 29. Dezember 1872: Rudolf Virchow gibt Vorsitz ab","episode":41,"description":"Im Jahr 1872 gibt Rudolf Virchow erstmals den Vorsitz der Berliner Gesellschaft für Anthropologie, Ethnologie und Urgeschichte ab.Eigentlich hat Rudolf Virchow alles erreicht im Leben, wovon andere nur träumen können. Er ist Universitätsprofessor, Chef der Pathologie an der Berliner Charité, Parteivorsitzender und obendrein Abgeordneter. Aber das genügt dem Mann nicht. Er gräbt. Heute gilt Virchow als Begründer der Ur- und Frühgeschichtswissenschaft in Deutschland. Autorin: Heide Schwochow © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1357213551/radio/zeitzeichen/WDR5_Zeitzeichen_20121229_0920.mp3","published":"Sat, 29 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":7056663},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 28. Dezember 1922: Der Geburtstag des Atlantik-Überquerers Hannes Lindemann","episode":42,"description":"60 Lebensmittelkonserven, 96 Milch- und 72 Bierdosen, verstaut in einem handelsüblichen, 5,20m Meter langen Faltboot - reicht das, um über den Atlantik zu kommen? Rein setzen, rüber fahren, einfach so? Der Arzt Hannes Lindemann hat es 1955 versucht. Von seinem Plan hatte er zuvor niemandem etwas erzählt - er wollte ja nicht, dass sich jemand um ihn sorgt. Von den kanarischen Inseln aus ist er klammheimlich gestartet. 72 Tage später, mit wundgesessenem Sitzfleisch und 25 Kilo leichter ist er in den niederländischen Antillen angekommen. Autor: Marko Rösseler © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355921139/radio/zeitzeichen/WDR5_Zeitzeichen_20121228_0920.mp3","published":"Fri, 28 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":7042361},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 27. Dezember 537: Die Weihe der Hagia Sophia in Konstantinopel","episode":43,"description":"Sie galt im Mittelalter als achtes Weltwunder. Ein Jahrtausend lang, bis zum Bau des neuen Petersdoms, war die Hagia Sophia die größte Kirche der christlichen Welt. Nur die Kuppel war zu flach konstruiert. Sie stürzte bei Erdbeben in den 550er Jahren zweimal ein. 562 erhielt sie ihre heutige Form. Nach der Eroberung von Konstantinopel 1453 machten die Osmanen die Hagia Sophia zur Moschee. Autor: Tobias Mayer © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355920969/radio/zeitzeichen/WDR5_Zeitzeichen_20121227_0920.mp3","published":"Thu, 27 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":6901633},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 26. Dezember 1952: Die Tagesschau wird erstmals ausgestrahlt","episode":44,"description":"Sie ist die älteste Nachrichtensendung im Deutschen Fernsehen, die noch heute zu sehen ist. Einen Tag nach dem Start des NWDR ging die Tagesschau zum ersten Mal auf Sendung. Frequenz und Zuschauerzahl waren anfangs noch gering: Pro Woche gab es drei Ausgaben, gesehen wurden sie von rund 1000 Zuschauern. Ein kleines Team aus Redakteuren stellte in einem Hamburger Kellergebäude die ersten Sendungen aus Material der Wochenschau zusammen. Autor: Ralf Gödde © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355920798/radio/zeitzeichen/WDR5_Zeitzeichen_20121226_0920.mp3","published":"Wed, 26 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":6671255},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 25. Dezember 1977: Der Todestag von Charlie Chaplin","episode":45,"description":"Es gehört zu den Merkwürdigkeiten im Leben des Charles Spencer Chaplin, dass er nicht nur im selben Monat wie Adolf Hitler geboren wird und wie dieser früh den Vater verliert. Vor allem trägt er dessen markantes \"Zweifingerbärtchen\", als jeder schon das Filmgenie kennt, den \"Tramp\", aber noch nicht den Wahnsinn, der aus Braunau über die Welt kommen wird. Im April 1939 schreibt der britische \"Spectator\" zum 50. Geburtstag der beiden Männer: \"Beide sind Zerrspiegel, der eine zum Guten hin, der andere zum unsagbar Bösen.\" Ein Zufall, dass sich Chaplins größtes seiner über 80 Filmwerke ausgerechnet mit Hitler befasst? Autor: Uwe Schulz © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1356017331/radio/zeitzeichen/WDR5_Zeitzeichen_20121225_0920.mp3","published":"Tue, 25 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":7020211},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 24. Dezember 1837: Der Geburtstag der Kaiserin Elisabeth von Österreich","episode":46,"description":"\"Nicht soll Titania unter Menschen gehen - in diese Welt, wo niemand sie versteht.\" Sie wollte nicht Kaiserin sein, sondern Feenkönigin, und so hat Elisabeth von Österreich sich schon früh dem Hof und all ihren Pflichten entzogen. Dem kaiserlichen Gemahl hat sie eine Geliebte besorgt, die Kinder der Schwiegermutter überlassen. Denn \"Sissi\" hat sich vor allem für sich selbst interessiert: für ihre Schönheit, von der sie geradezu besessen war, für ihre Reisen und die exzessiv betriebenen Hobbys. Autorin: Christiane Kopka © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355841137/radio/zeitzeichen/WDR5_Zeitzeichen_20121224_0920.mp3","published":"Mon, 24 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":7006501},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 23. Dezember 2007: Der Todestag des Jazzpianisten Oscar Peterson","episode":47,"description":"Mit 14 Jahren begann Oscar Petersons professionelle Karriere, nachdem einen nationalen Wettbewerb des öffentlich-rechtlichen kanadischen Rundfunks gewonnen hatte. Er etablierte sich als einer der profiliertesten Jazzpianisten in allen traditionellen Jazzstilen, der mit vielen namhaften Solisten auftrat. Nach einem Schlaganfall übte Peterson so lange, bis er wieder mit einer Hand spielen konnte. Schließlich wollte er spielen, bis er vom Hocker falle. Autor: Thomas Mau © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355840512/radio/zeitzeichen/WDR5_Zeitzeichen_20121223_0920.mp3","published":"Sun, 23 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":6623869},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 22. Dezember 1902: Der Todestag des Psychiaters  Richard von Krafft-Ebing","episode":48,"description":"Ein Buch machte ihn weltberühmt: \"Psychopathia sexualis\". Geschrieben für Ärzte und Juristen, um sie über \"die rätselhaften Erscheinungen\" des Sexuallebens aufzuklären, u.a.  über Homosexualität, Fetischismus, Sadismus und Masochismus. Für den Neurologen, Psychiater und Gerichtsgutachter Richard Freiherr von Krafft-Ebing beruhten diese  \"Perversionen\" auf krankhaften Veränderungen. Die Anschauungen Krafft-Ebings blieben nicht unwidersprochen. Autorin: Heide Soltau © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355840342/radio/zeitzeichen/WDR5_Zeitzeichen_20121222_0920.mp3","published":"Sat, 22 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":6902809},{"sampleRate":44100,"title":"WDR 3/WDR 5 ZeitZeichen: 21. Dezember 1972: Der Grundlagenvertrag zwischen der Bundesrepublik und der DDR","episode":49,"description":"Wiedervereinigung oder Westanbindung: Zwischen diesen beiden Polen wurden westdeutsche Politiker in den Nachkriegsjahren schier zerrissen. Beides war politisch dringend gewollt, aber unter den Bedingungen des Kalten Krieges nicht gemeinsam zu erreichen, so glaubten viele. Da entschied sich Kanzler Willy Brandt dazu, die Konfrontation mit der Sowjetunion durch eine neue Strategie zu ersetzen: \"Wandel durch Annäherung\". Autorin: Katrin Brand © WDR 2012","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1355840174/radio/zeitzeichen/WDR5_Zeitzeichen_20121221_0920.mp3","published":"Fri, 21 Dec 2012 09:20:00 +0100","bitRate":64,"contentLength":7011349}],"latitude":0,"streamContentFormatAsString":"MP3","bitRate":64,"configuredBroadcasts":[],"picture1Set":true,"streamUrlOriginal":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","displaySubDomaine":"wdrzeitzeichen","recentTitles":["WDR 3/WDR 5 ZeitZeichen: Im Februar 1498 vollendet Leonardo da Vinci sein Gemälde \"Das letzte Abendmahl\"","WDR 3/WDR 5 ZeitZeichen: 7. Februar 1788: Das letzte Lebenszeichen des Weltumseglers Lapérouse","WDR 3/WDR 5 ZeitZeichen: 6. Februar 1918: Der Todestag des österreichischen Malers Gustav Klimt","WDR 3/WDR 5 ZeitZeichen: 5. Februar 1878: Geb. des französischen Autokonstrukteurs André Gustav Citroën","WDR 3/WDR 5 ZeitZeichen: 4. Februar 1913: Der Geburtstag der schwedischen Publizistin Birgitta Wolf","WDR 3/WDR 5 ZeitZeichen: 3. Februar 1468: Der Todestag des Buchdruck-Erfinders Johannes Gutenberg","WDR 3/WDR 5 ZeitZeichen: 2. Februar 1903: Der Geburtstag des Publizisten Eugen Kogon","WDR 3/WDR 5 ZeitZeichen: 1. Februar 1933: Der Geburtstag der Edelprostituierten Rosemarie Nitribitt","WDR 3/WDR 5 ZeitZeichen: 31. Januar 1933: Der Mössinger Generalstreik nach der Machtübernahme Hitlers","WDR 3/WDR 5 ZeitZeichen: 30. Januar 1863: Die Gründung der Farbwerke Hoechst AG","WDR 3/WDR 5 ZeitZeichen: 29. Januar 1763: Der Geburtstag des Schriftstellers Johann Gottfried Seume","WDR 3/WDR 5 ZeitZeichen: 28. Januar 1988: Der Todestag des Kernphysikers und Atomspions Klaus Fuchs","WDR 3/WDR 5 ZeitZeichen: 27. Januar 1973: Das Abkommen über das Ende des Vietnamkriegs wird unterzeichnet","WDR 3/WDR 5 ZeitZeichen: 26. Januar 1833: Der Geburtstag der Bildhauerin Elisabet Ney","WDR 3/WDR 5 ZeitZeichen: 25. Januar 1938: Der Geburtstag des russischen Liedermachers Wladimir Wyssotzki","WDR 3/WDR 5 ZeitZeichen: 24. Januar 1928: Der Geburtstag des britischen Verhaltensforschers Desmond Morri","WDR 3/WDR 5 ZeitZeichen: 23. Januar 1783: Der Geburtstag des französischen Schriftstellers Stendhal","WDR 3/WDR 5 ZeitZeichen: 22. Januar 1963: Die Unterzeichnung des Deutsch-Französischen Vertrags","WDR 3/WDR 5 ZeitZeichen: Im Januar 1953 stellt die DGzRS den Seenotkreuzer \"Bremen\" in Dienst","WDR 3/WDR 5 ZeitZeichen: 20. Januar 1813: Der Todestag des Dichters Christoph Martin Wieland","WDR 3/WDR 5 ZeitZeichen: 19. Jan 1978: In Emden läuft der letzte in Europa hergestellte VW Käfer vom Band","WDR 3/WDR 5 ZeitZeichen: 18. Januar 1913: Der Geburtstag des amerikanischen Schauspielers Danny Kaye","WDR 3/WDR 5 ZeitZeichen: 17. Januar 1463: Der Geburtstag des sächsischen Kurfürsten Friedrichs III.","WDR 3/WDR 5 ZeitZeichen: 16. Januar 2003: Der letzte Start der Raumfähre \"Columbia\"","WDR 3/WDR 5 ZeitZeichen: 15. Januar 1908: Der Geburtstag des Physikers Edward Teller","WDR 3/WDR 5 ZeitZeichen: 14. Januar 1963: Der Todestag des Schriftstellers und Journalisten Gustav Regler","WDR 3/WDR 5 ZeitZeichen: 13. Januar 1753: Der Geburtstag des Mediziners Johann Christian Stark","WDR 3/WDR 5 ZeitZeichen: 12. Januar 1528: Gustav I. Wasa wird zum König von Schweden gekrönt","WDR 3/WDR 5 ZeitZeichen: 11. Januar 1753: Der Geburtstag der Goethe-Freundin Charlotte Buff","WDR 3/WDR 5 ZeitZeichen: 10. Januar 1778: Der Todestag des schwedischen Naturforschers Carl von Linné","WDR 3/WDR 5 ZeitZeichen: 9. Januar 1913: Der Geburtstag des amerikanischen Präsidenten Richard Nixon","WDR 3/WDR 5 ZeitZeichen: 8. Januar 1948: Der Todestag des Sängers Richard Tauber","WDR 3/WDR 5 ZeitZeichen: 7. Januar 1943: Der Todestag des Physikers und Erfinders Nikola Tesla","WDR 3/WDR 5 ZeitZeichen: 6. Januar 1933: Der Geburtstag des Schweizer Kabarettisten Emil Steinberger","WDR 3/WDR 5 ZeitZeichen: 5. Januar 1933: Der Baubeginn der Golden-Gate-Bridge","WDR 3/WDR 5 ZeitZeichen: 4. Januar 1968: Die Premiere des Films \"Zur Sache Schätzchen\"","WDR 3/WDR 5 ZeitZeichen: 3. Januar 1893: Der Geburtstag des französischen Schriftstellers Pierre Drieu La","WDR 3/WDR 5 ZeitZeichen: 2. Januar 1793: Die Uraufführung des \"Requiems\" von Wolfgang Amadeus Mozart","WDR 3/WDR 5 ZeitZeichen: 1. Januar 1683: Die Gründung der ersten deutschen Kolonie in Afrika","WDR 3/WDR 5 ZeitZeichen: 31. Dezember 1612: Im Jahr 1612 entdeckt Lord Thomas West die erste Steueroase der Welt","WDR 3/WDR 5 ZeitZeichen: 30. Dezember 1947: Der Kälte- und Hungerwinter 1947","WDR 3/WDR 5 ZeitZeichen: 29. Dezember 1872: Rudolf Virchow gibt Vorsitz ab","WDR 3/WDR 5 ZeitZeichen: 28. Dezember 1922: Der Geburtstag des Atlantik-Überquerers Hannes Lindemann","WDR 3/WDR 5 ZeitZeichen: 27. Dezember 537: Die Weihe der Hagia Sophia in Konstantinopel","WDR 3/WDR 5 ZeitZeichen: 26. Dezember 1952: Die Tagesschau wird erstmals ausgestrahlt","WDR 3/WDR 5 ZeitZeichen: 25. Dezember 1977: Der Todestag von Charlie Chaplin","WDR 3/WDR 5 ZeitZeichen: 24. Dezember 1837: Der Geburtstag der Kaiserin Elisabeth von Österreich","WDR 3/WDR 5 ZeitZeichen: 23. Dezember 2007: Der Todestag des Jazzpianisten Oscar Peterson","WDR 3/WDR 5 ZeitZeichen: 22. Dezember 1902: Der Todestag des Psychiaters  Richard von Krafft-Ebing","WDR 3/WDR 5 ZeitZeichen: 21. Dezember 1972: Der Grundlagenvertrag zwischen der Bundesrepublik und der DDR"],"idType":7,"descriptionPodcast":"Ob Staatsgründung oder Machtverfall, Lebensdaten großer Frauen und Männer, Wendepunkte der Menschheitsgeschichte, Friedensverträge und Katastrophen, Erfindungen und Entdeckungen - im ZeitZeichen auf WDR 5 wird Geschichte lebendig.","picture2Url":"","documentBoost":1,"streamContentFormat":"MP3","link":"http://www.wdr.de/radio/home/podcasts/channelausspielung.phtml?channel=zeitzeichen","advertising":false,"picture1Url":"http://static.radio.de/images/broadcasts/3717_1.gif","picture6TransUrl":"http://static.radio.de/images/broadcasts/3717_6_1.png","imported":false,"serviceName":"broadcast","lastSlice":"","id":3717,"picture1TransUrl":"http://static.radio.de/images/broadcasts/3717_1_1.png","picture5TransUrl":"http://static.radio.de/images/broadcasts/3717_5_1.png","author":"","title":"ZeitZeichen im WDR Radio zum Mitnehmen","picture4Url":"http://static.radio.de/images/broadcasts/3717_4.gif","picture6Set":false,"tagsForDisplay":{"_type":"Podcast","_topic":"Geschichte","_country":"Deutschland","_genre":"Podcast","_city":"Köln","_family":"","_continent":"Europa","_language":"Deutsch"},"metaDataOverrideUrl":"","localeCode":"de_DE","broadcastPrograms":[],"name":"WDR - ZeitZeichen","picture3Url":"","streamUrl":"http://www.radio.de/playlists/wdrzeitzeichen.xml","referenceOverwriteDisabled":false,"sourceConnected":"false","averageAmplitude":0,"permissionToCheck":"/radio/broadcasts","picture5Set":true,"picture4Set":true,"currentProgram":null,"picture3Set":false,"picture4TransUrl":"http://static.radio.de/images/broadcasts/3717_4_1.png","sampleRate":44100,"picture2Set":false,"picture5Url":"http://static.radio.de/images/broadcasts/3717_5.gif","subdomain":"wdrzeitzeichen","streamUrls":[{"sampleRate":44100,"id":2375526,"metaDataAvailable":false,"metaDataType":"","streamContentFormat":"MP3","metaDataUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","streamFormat":"ICECAST","streamUrl":"http://medien.wdr.de/m/1360318058/radio/zeitzeichen/WDR5_Zeitzeichen_20130208_0920.mp3","idBroadcast":3717,"bitRate":64}],"relayAvailable":true,"relayForIE":true};}
+    return {"getPlayerConfig":_getPlayerConfig,
+"getPlaylist":_getPlaylist,
+"getBroadcast":_getBroadcast};}}</script>
+
+
+</head>
+<body>
+
+<!-- radio-f05a 3c719af3a402856be3142d40236eeac6c5152c89 FRONTEND 130417034208827 -->
+
+
+
+
+<div id="content-wrapper">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-header">
+<div id="content-header-loginstate" class="content-header-loginstate">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/konto_anlegen.jsf','event':['general/header','navigate','register'], 'callAfterLoad':'radio.content.loadRegistrationInfo()'}"><span class="regteaser"></span>Registrieren</a>
+oder
+<a href="javascript:void(0);" class="js-link" linkobject="{'url':'/login.jsf','event':['general/header','navigate','login']}">Einloggen</a>
+
+</div>
+<div class="content-header-logo">
+<div class="content-header-logo-img">
+<a href="http://www.radio.de" onclick="radio.track.trackEvent('general/header','navigate','home');">
+<img src="http://static.radio.de/inc/img/de/logoRadio.de.gif" alt="Internetradio — Online Radio — Webradio auf radio.de " />
+
+
+
+</a>
+<span class="content-header-logo-claim">Radio online hören</span>
+</div>
+</div>
+<div id="player">
+
+<script type="text/javascript">
+radioConfig = {
+srcdomain:"wdrzeitzeichen", firstplay:"true", isSelfStreamed:"false", streamType:"mp3", idbroadcast:"3717", play:"wdrzeitzeichen"};
+radio.page.initPlayer();
+
+</script>
+
+
+<noscript>
+
+<img src="http://static.radio.de/inc/img/player-noscript.gif" alt="" width="760" height="120" />
+
+
+
+
+
+</noscript>
+
+</div>
+</div>
+
+
+
+
+<div id="playeradresponse" style="display:none;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=27"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("wdrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("12"));
+document.write ("&amp;age_70_79=" + escape("8"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("41"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+<div id="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- tracking code -->
+<div id="tracker">
+
+<div id="trackingcode" code="011-0;/wdrzeitzeichen/broadcast_info.jsf"></div>
+
+
+</div>
+<script type="text/javascript">
+window.radio.track.trackPageview({ga:false});
+</script>
+
+<div id="content-tab">
+<div class="content-tab-navigation">
+<a href="/home.jsf" index="1" linkobject="{loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/home','navigate');" class="href-link"><span>Home</span></a>
+<a href="/senderliste.jsf" index="2" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/menu','navigate');" class="href-link"><span>Senderliste</span></a>
+<a href="senderinformation.jsf" index="3" linkobject="{ loadingIndicator:'tab-loading-indicator', 'callAfterLoad':'radio.content.updateLoginState()'}" onclick="radio.track.trackEvent('tabs/listeningto','navigate');" class="href-link active"><span>Sie hören</span></a>
+
+
+</div>
+<div id="content-tab-search">
+<form action="sendersuche.jsf" id="content-tab-search-form" method="post">
+<a id="content-tab-search-button" class="search-button">Suchen</a>
+<input id="searchtypeuser" type="hidden" name="u" value="all" />
+
+
+
+
+<input id="content-tab-search-field" class="search-field" type="text" name="u" value="" />
+
+
+<div id="tab-loading-indicator"></div>
+</form>
+</div>
+
+
+
+<div id="radio-account-id"></div>
+
+
+</div>
+<div id="content-top"></div>
+<div id="content-body">
+<div id="content-body-main">
+<!-- TODO Markus - Bitte hier ein DIV a la https://redmine.radiolabs.de/attachments/download/309 -->
+<!-- headline + preloader for elements - id="now-playing-loading" MUST be unique! -->
+<div class="content-headline">
+<div id="now-playing-loading" class="content-headline-loader"></div>
+<h2 class="broadcast-name broadcast-info-headline">
+Sie hören: „WDR - ZeitZeichen“
+</h2>
+</div>
+<div class="whitebox-top">&nbsp;</div>
+<div class="whitebox-body">
+<!-- begin: now playing (logged out) -->
+<div id="broadcast-info-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="broadcast-info-m-page" itemscope itemtype="http://data-vocabulary.org/Review-aggregate">
+<div class="broadcast-info-left">
+<div class="white-corners">&nbsp;</div>
+
+
+
+<img class="" src="http://static.radio.de/images/broadcasts/3717_4.gif" alt="WDR - ZeitZeichen" width="175" height="175" itemprop="photo" />
+
+
+
+
+
+
+</div>
+<div class="broadcast-info-ad-rect">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=13"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("wdrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("12"));
+document.write ("&amp;age_70_79=" + escape("8"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("41"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+<div class="clearer"></div>
+<h1 class="broadcast-info-m-page-top-headline" itemprop="itemreviewed">WDR - ZeitZeichen</h1>
+
+<div class="broadcast-info-m-page-top-subheadline">
+
+
+Aus 
+
+
+ Köln,
+
+
+
+
+ Deutschland
+
+
+</div>
+
+<div class="broadcast-info-action-link">
+
+<a linkobject="{'url':'http://www.wdr.de/radio/home/podcasts/channelausspielung.phtml?channel=zeitzeichen'}" class="js-link-external" href="javascript:void(0);" title="Zur Website von „WDR - ZeitZeichen“">Zur Website des Senders</a>
+</div>
+
+<div class="broadcast-info-fb-like">
+
+
+
+
+
+<div style="width: 150px; float: left;overflow: hidden;"><a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-lang="de">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div style="width: 150px; float: left;overflow: hidden;"><fb:like send="false" layout="button_count" width="150" show_faces="false" font="verdana"></fb:like></div>
+<div style="width: 150px; float: left;overflow: hidden;">
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+{lang: 'de'}
+</script>
+<g:plusone size="medium"></g:plusone>
+</div>
+<div class="clearer"></div>
+</div>
+<div class="clearer"></div>
+<div class="broadcast-info-m-page-descr" itemprop="description">
+Ob Staatsgründung oder Machtverfall, Lebensdaten großer Frauen und Männer, Wendepunkte der Menschheitsgeschichte, Friedensverträge und Katastrophen, Erfindungen und Entdeckungen - im ZeitZeichen auf WDR 5 wird Geschichte lebendig.
+</div>
+<div class="broadcast-info-actions">
+<div id="broadcast-info-favorite" class="broadcast-info-action broadcast-info-actions-saved-favorite">
+
+
+
+
+
+
+
+
+
+
+<a
+id="broadcast-info-favorites-save"
+title="„WDR - ZeitZeichen“ als Favorit speichern"
+favoritesobject="{ 
+						isFavorite:false, 
+						dataUrlToRender:'/broadcast-info/broadcast-info-add-to-favorites.jsp', 
+						account:'', 
+						broadcastId:'3717', 
+						targetId:'favorite',
+						loadingIndicator:'broadcast-info-loading-indicator' }">
+<span>Als Favorit speichern</span></a>
+
+
+</div>
+<div id="rating-stars" itemprop="rating" itemscope itemtype="http://data-vocabulary.org/Rating">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="big-rate-text"> Bewertungen </span>
+<span class="big-rate-text" itemprop="votes">3</span>
+<span class="big-rate-text"> Sterne </span>
+<span class="big-rate-text" itemprop="average">4.67</span>
+
+<a href="javascript:void(0);"
+ratingobject="{ 
+			dataUrl:'/broadcast-info/broadcast-info-rate.jsp', 
+			account:'', 
+			rating:'', 
+			broadcastId :'3717', 
+			targetId:'rating-stars', 
+			loadingIndicator:'broadcast-info-loading-indicator' }"
+class="big-rate big-star4-5"
+stars="4-5"
+title="„WDR - ZeitZeichen“ bewerten?"
+content="4.66666666666667">
+</a>
+<span class="big-rate-text">WDR - ZeitZeichen&nbsp;</span>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-integrate" class="js-link" linkobject="{'url':'/integrate_broadcast.jsp'}" title="Player mit „WDR - ZeitZeichen“ in andere Website integrieren">Sender integrieren</a>
+</div>
+<div class="broadcast-info-action">
+<a id="broadcast-info-actions-recommend" class="js-link" linkobject="{'url':'/recommend_broadcast.jsp'}" title="„WDR - ZeitZeichen“ Freunden empfehlen">Sender empfehlen</a>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: now playing -->
+<!-- begin: now-playing-list -->
+
+
+<div id="now-playing-list">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="content-headline">
+
+<div id="now-playing-list-loading" class="content-headline-loader"></div>
+<p class="h3">
+Folgen von „WDR - ZeitZeichen“:
+</p>
+</div>
+<div id ="recentlyPlayedList" class="podcast">
+
+
+
+
+
+
+
+
+
+
+
+<ul class="now-playing-list-body podcast">
+
+
+
+
+<li class="podcast-list-item playing first" id="episode_17689031">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WDR 3/WDR 5 ZEITZEICHEN: IM FEBRUAR 1498 VOLLENDET LEONARDO DA VINCI SEIN GEMÄLDE &#034;DAS LETZTE ABENDMAHL&#034;</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_1" class="playPodcastToggle playing swfobject" podcastobject="{'id':'17689031', 'broadcast':'3717'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Es ist wohl das berühmteste Abendessen der Menschheitsgeschichte und plötzlich fällt ein Satz, der alle in Aufruhr bringt: "Einer von euch wird mich verraten." Das ist genau der Moment, den Leonardo da Vinci in seinem "Abendmahl" festgehalten hat. Wahrscheinlich hat der Maler zwei bis drei Jahre für das große Wandgemälde im Speisesaal des Dominikanerklosters Maria delle Grazie in Mailand gebraucht. Heute gilt es als eines seiner Hauptwerke. Autorin: Anke Rebbert © WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17689032">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WDR 3/WDR 5 ZEITZEICHEN: 7. FEBRUAR 1788: DAS LETZTE LEBENSZEICHEN DES WELTUMSEGLERS LAPÉROUSE</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_2" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17689032', 'broadcast':'3717'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">"Haben wir Nachricht von Monsieur de Lapérouse?" soll Ludwig XVI noch auf dem Schafott gefragt haben. Seit fünf Jahren waren zu diesem Zeitpunkt der Kapitän der beiden Expeditionsschiffe mit über 200 Seeleuten und Wissenschaftlern bereits spurlos im Pazifik verschollen. Die große Weltumseglung zur Vervollständigung der vom legendären James Cook erstellten Karten und zur friedlichen Kontaktaufnahme mit fremden Völkern hatte kurz vor ihrem Abschluss gestanden, als die Schiffe im Sturm auf einem Korallenriff vor der Insel Vanikoro strandeten. Autorin: Sabine Mann © WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17689033">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WDR 3/WDR 5 ZEITZEICHEN: 6. FEBRUAR 1918: DER TODESTAG DES ÖSTERREICHISCHEN MALERS GUSTAV KLIMT</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_3" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17689033', 'broadcast':'3717'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Zu Lebzeiten war Gustav Klimt einer der umstrittensten, aber auch beliebtesten Künstler der Jahrhundertwende. Die Wiener Gesellschaft hofierte und suchte ihn, vor allem wegen der erotischen Ausstrahlung seiner weiblichen Porträts. Dennoch wurde sein Werk in der deutschsprachigen Kunstkritik der ersten Hälfte des 20. Jahrhunderts teilweise völlig ignoriert und sogar als reine Dekorationsmalerei abgetan. Autoren: Veronika Bock und Ulrich Biermann © WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17689034">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WDR 3/WDR 5 ZEITZEICHEN: 5. FEBRUAR 1878: GEB. DES FRANZÖSISCHEN AUTOKONSTRUKTEURS ANDRÉ GUSTAV CITROËN</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_4" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17689034', 'broadcast':'3717'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">Der kleine Mann ging ein letztes Mal durch die Fabrikhallen an der Seine, seine waren es nicht mehr. Durch den randlosen Kneifer sah André Citroën den Arbeitern zu. Sie schraubten dort den Traction Avant zusammen, ein sehr modernes Auto mit Frontantrieb, selbsttragendem Rahmen, toller Straßenlage und erstaunlich viel Platz. Die Idee war gut, doch der Preis für Entwicklung und Produktion war viel zu hoch. Citroen war Pleite. Sechs Jahre zuvor verdiente das Unternehmen gutes Geld und war der größte Autohersteller Europas. Autor: Arndt Brunnert © WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+
+
+
+
+<li class="podcast-list-item" id="episode_17689035">
+<div class="now-playing-list-track-podcast"><a class="now-playing-list-track-podcast-moreinfo">&nbsp;</a><a>WDR 3/WDR 5 ZEITZEICHEN: 4. FEBRUAR 1913: DER GEBURTSTAG DER SCHWEDISCHEN PUBLIZISTIN BIRGITTA WOLF</a></div>
+<div class="now-playing-list-actions-podcast">
+<div id="podcast_arrow_5" class="now-playing-list-actions-podcast-playbutton playPodcastToggle" podcastobject="{'id':'17689035', 'broadcast':'3717'}" flashobject="{'file':'/inc/img/arrows.swf','wmode':'transparent','quality':'high','height':'17','width':'17','version':'7','flashid':'playArrow'}" id="playingFlashAnimation">
+</div>
+
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="clearer">&nbsp;</div>
+<div class="now-playing-list-desc-podcast">"Du hast mir geholfen, den Winter zu überstehen", schreibt der Häftling an Birgitta Wolf, "weil Du mir geschrieben hast, dass die Tage nach dem 21. Dezember wieder länger werden." Nur ein simpler Hinweis? Eher die Botschaft eines Lebens: Birgitta Wolf kämpft dafür, dass Gefangene, Obdachlose, die Gescheiterten der Gesellschaft eine neue Chance erhalten, ihre Tage wieder länger werden. Autorin: Edda Dammmüller © WDR 2013</div>
+<div class="clearer">&nbsp;</div>
+</li>
+
+
+
+</ul>
+<div class="content-list-count">
+<a class="change-list-size-50 last" title="50 Titel anzeigen"><span >50</span></a>
+<a class="change-list-size-25" title="25 Titel anzeigen"><span >25</span></a>
+<a class="change-list-size-15" title="15 Titel anzeigen"><span >15</span></a>
+<a class="change-list-size-5 first" title="5 Titel anzeigen"><span class="active">5</span></a>
+<div class="clearer">&nbsp;</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<!-- end: now-playing-list -->
+<!-- begin: broadcast-info-similar-broadcasts -->
+<div id="broadcast-info-similar-stations-element">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="similar-broadcasts-element">
+<div class="similar-broadcasts-element-headline">
+<div id="similar-broadcasts-element-loading-div"></div>
+<p class="h3">
+Nutzer, die „WDR - ZeitZeichen“ hörten, hörten auch
+</p>
+<div class="clear"></div>
+</div>
+<div id="similar-broadcasts-element-container">
+<div id="similar-broadcasts-element-sliderContainer">
+<div id="similar-broadcasts-element-slider1">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://geschichten.radio.de'}" bcastid="3718" title="„WDR 5 - Erlebte Geschichten“ hören" id="currentlyPlayedStation_3718">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3718_1.gif" alt="„WDR 5 - Erlebte Geschichten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stichtag.radio.de'}" bcastid="3716" title="„WDR 2 - Stichtag“ hören" id="currentlyPlayedStation_3716">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3716_1.png" alt="„WDR 2 - Stichtag“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://servicecomputer.radio.de'}" bcastid="3803" title="„WDR 5 - Service Computer“ hören" id="currentlyPlayedStation_3803">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3803_1.gif" alt="„WDR 5 - Service Computer“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://philosophisch.radio.de'}" bcastid="3778" title="„WDR 5 - Das philosophische Radio“ hören" id="currentlyPlayedStation_3778">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3778_1.gif" alt="„WDR 5 - Das philosophische Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5woche.radio.de'}" bcastid="3711" title="„WDR 5 - Der satirische Wochenrückblick“ hören" id="currentlyPlayedStation_3711">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3711_1.gif" alt="„WDR 5 - Der satirische Wochenrückblick“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2zeitwort.radio.de'}" bcastid="5701" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" id="currentlyPlayedStation_5701">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5701_1.jpeg" alt="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://zeitgeschichte.radio.de'}" bcastid="3792" title="„NDR Info - Zeitgeschichte“ hören" id="currentlyPlayedStation_3792">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3792_1.gif" alt="„NDR Info - Zeitgeschichte“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://presseclub.radio.de'}" bcastid="3734" title="„WDR 5 - Presseclub“ hören" id="currentlyPlayedStation_3734">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3734_1.gif" alt="„WDR 5 - Presseclub“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrzeitzeichen.radio.de'}" bcastid="3793" title="„NDR Info - ZeitZeichen“ hören" id="currentlyPlayedStation_3793">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3793_1.gif" alt="„NDR Info - ZeitZeichen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://leonardo.radio.de'}" bcastid="3813" title="„WDR 5 - Leonardo“ hören" id="currentlyPlayedStation_3813">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3813_1.gif" alt="„WDR 5 - Leonardo“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5politikum.radio.de'}" bcastid="8167" title="„WDR 5 - Politikum“ hören" id="currentlyPlayedStation_8167">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8167_1.gif" alt="„WDR 5 - Politikum“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5funkhaus.radio.de'}" bcastid="3730" title="„WDR 5 - Funkhausgespräche“ hören" id="currentlyPlayedStation_3730">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3730_1.gif" alt="„WDR 5 - Funkhausgespräche“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5gesundheit.radio.de'}" bcastid="3804" title="„WDR 5 - Service Gesundheit“ hören" id="currentlyPlayedStation_3804">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3804_1.gif" alt="„WDR 5 - Service Gesundheit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://quintessenz.radio.de'}" bcastid="3785" title="„WDR 2 - Quintessenz“ hören" id="currentlyPlayedStation_3785">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3785_1.png" alt="„WDR 2 - Quintessenz“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://redezeit.radio.de'}" bcastid="3735" title="„WDR 5 - Redezeit“ hören" id="currentlyPlayedStation_3735">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3735_1.gif" alt="„WDR 5 - Redezeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+<div id="similar-broadcasts-element-slider2">
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://geschichten.radio.de'}" bcastid="3718" title="„WDR 5 - Erlebte Geschichten“ hören" id="currentlyPlayedStation2_3718">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3718_1.gif" alt="„WDR 5 - Erlebte Geschichten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://stichtag.radio.de'}" bcastid="3716" title="„WDR 2 - Stichtag“ hören" id="currentlyPlayedStation2_3716">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3716_1.png" alt="„WDR 2 - Stichtag“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://servicecomputer.radio.de'}" bcastid="3803" title="„WDR 5 - Service Computer“ hören" id="currentlyPlayedStation2_3803">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3803_1.gif" alt="„WDR 5 - Service Computer“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://philosophisch.radio.de'}" bcastid="3778" title="„WDR 5 - Das philosophische Radio“ hören" id="currentlyPlayedStation2_3778">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3778_1.gif" alt="„WDR 5 - Das philosophische Radio“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5woche.radio.de'}" bcastid="3711" title="„WDR 5 - Der satirische Wochenrückblick“ hören" id="currentlyPlayedStation2_3711">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3711_1.gif" alt="„WDR 5 - Der satirische Wochenrückblick“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://swr2zeitwort.radio.de'}" bcastid="5701" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" id="currentlyPlayedStation2_5701">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/5701_1.jpeg" alt="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://zeitgeschichte.radio.de'}" bcastid="3792" title="„NDR Info - Zeitgeschichte“ hören" id="currentlyPlayedStation2_3792">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3792_1.gif" alt="„NDR Info - Zeitgeschichte“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://presseclub.radio.de'}" bcastid="3734" title="„WDR 5 - Presseclub“ hören" id="currentlyPlayedStation2_3734">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3734_1.gif" alt="„WDR 5 - Presseclub“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://ndrzeitzeichen.radio.de'}" bcastid="3793" title="„NDR Info - ZeitZeichen“ hören" id="currentlyPlayedStation2_3793">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3793_1.gif" alt="„NDR Info - ZeitZeichen“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://leonardo.radio.de'}" bcastid="3813" title="„WDR 5 - Leonardo“ hören" id="currentlyPlayedStation2_3813">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3813_1.gif" alt="„WDR 5 - Leonardo“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5politikum.radio.de'}" bcastid="8167" title="„WDR 5 - Politikum“ hören" id="currentlyPlayedStation2_8167">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/8167_1.gif" alt="„WDR 5 - Politikum“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5funkhaus.radio.de'}" bcastid="3730" title="„WDR 5 - Funkhausgespräche“ hören" id="currentlyPlayedStation2_3730">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3730_1.gif" alt="„WDR 5 - Funkhausgespräche“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://wdr5gesundheit.radio.de'}" bcastid="3804" title="„WDR 5 - Service Gesundheit“ hören" id="currentlyPlayedStation2_3804">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3804_1.gif" alt="„WDR 5 - Service Gesundheit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://quintessenz.radio.de'}" bcastid="3785" title="„WDR 2 - Quintessenz“ hören" id="currentlyPlayedStation2_3785">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3785_1.png" alt="„WDR 2 - Quintessenz“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+
+<a class="currentlyPlayed-station js-link" linkobject="{'url':'http://redezeit.radio.de'}" bcastid="3735" title="„WDR 5 - Redezeit“ hören" id="currentlyPlayedStation2_3735">
+<span class="currentlyPlayed-stationLogo">
+<img src="http://static.radio.de/images/broadcasts/3735_1.gif" alt="„WDR 5 - Redezeit“ hören" /></span>
+<span class="currentlyPlayed-activeFrame"> </span>
+</a>
+
+
+</div>
+</div>
+<div id="similar-broadcasts-element-information">
+
+
+
+<div id="titelinformationen_3718" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Erlebte Geschichten“ hören" linkobject="{'url':'http://geschichten.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Erlebte Geschichten“ hören" href="http://geschichten.radio.de">WDR 5 - Erlebte Geschichten</a></span>
+<span class="title_3718 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Erlebte Geschichten: Sendung vom 14.04.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3716" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 2 - Stichtag“ hören" linkobject="{'url':'http://stichtag.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 2 - Stichtag“ hören" href="http://stichtag.radio.de">WDR 2 - Stichtag</a></span>
+<span class="title_3716 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 2 Stichtag: 12. Dezember 2002: Todestag des Schriftstellers Dee Brown</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3803" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Service Computer“ hören" linkobject="{'url':'http://servicecomputer.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Service Computer“ hören" href="http://servicecomputer.radio.de">WDR 5 - Service Computer</a></span>
+<span class="title_3803 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Service Computer: Universität Siegen präsentiert Anti-Schnüffel-App (10.04.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3778" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Das philosophische Radio“ hören" linkobject="{'url':'http://philosophisch.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Das philosophische Radio“ hören" href="http://philosophisch.radio.de">WDR 5 - Das philosophische Radio</a></span>
+<span class="title_3778 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Das philosophische Radio: mit Christoph Schickhardt über Kinderethik (Sendung vom 22.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3711" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Der satirische Wochenrückblick“ hören" linkobject="{'url':'http://wdr5woche.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Der satirische Wochenrückblick“ hören" href="http://wdr5woche.radio.de">WDR 5 - Der satirische Wochenrückblick</a></span>
+<span class="title_3711 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Der Satirische Wochenrückblick: Sendung vom 23.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_5701" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" linkobject="{'url':'http://swr2zeitwort.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören" href="http://swr2zeitwort.radio.de">SWR2 Zeitwort - Erinnerung an historische Daten</a></span>
+<span class="title_5701 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: SWR2 Zeitwort am 30.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3792" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - Zeitgeschichte“ hören" linkobject="{'url':'http://zeitgeschichte.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - Zeitgeschichte“ hören" href="http://zeitgeschichte.radio.de">NDR Info - Zeitgeschichte</a></span>
+<span class="title_3792 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Zeitgeschichte 16.3.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3734" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Presseclub“ hören" linkobject="{'url':'http://presseclub.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Presseclub“ hören" href="http://presseclub.radio.de">WDR 5 - Presseclub</a></span>
+<span class="title_3734 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Presseclub: Vom Kalten Krieg zum grenzenlosen Kapitalismus-wie gerecht ist die neue Weltord. (24.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3793" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„NDR Info - ZeitZeichen“ hören" linkobject="{'url':'http://ndrzeitzeichen.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„NDR Info - ZeitZeichen“ hören" href="http://ndrzeitzeichen.radio.de">NDR Info - ZeitZeichen</a></span>
+<span class="title_3793 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: Der Todestag des Journalisten Egon Erwin Kisch</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3813" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Leonardo“ hören" linkobject="{'url':'http://leonardo.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Leonardo“ hören" href="http://leonardo.radio.de">WDR 5 - Leonardo</a></span>
+<span class="title_3813 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Leonardo - Wissenschaft und mehr: Sendung vom 01.02.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_8167" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Politikum“ hören" linkobject="{'url':'http://wdr5politikum.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Politikum“ hören" href="http://wdr5politikum.radio.de">WDR 5 - Politikum</a></span>
+<span class="title_8167 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Politikum: Sendung vom 21.03.2013</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3730" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Funkhausgespräche“ hören" linkobject="{'url':'http://wdr5funkhaus.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Funkhausgespräche“ hören" href="http://wdr5funkhaus.radio.de">WDR 5 - Funkhausgespräche</a></span>
+<span class="title_3730 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Funkhausgespräche: Streitthema Sitzenbleiben (21.03.2013)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3804" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Service Gesundheit“ hören" linkobject="{'url':'http://wdr5gesundheit.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Service Gesundheit“ hören" href="http://wdr5gesundheit.radio.de">WDR 5 - Service Gesundheit</a></span>
+<span class="title_3804 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Service Gesundheit: Dieser Podcast wird eingestellt!</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3785" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 2 - Quintessenz“ hören" linkobject="{'url':'http://quintessenz.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 2 - Quintessenz“ hören" href="http://quintessenz.radio.de">WDR 2 - Quintessenz</a></span>
+<span class="title_3785 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 2 Quintessenz: Weihnachtspakete (12.12.12) von Michael Westerhoff</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+
+
+<div id="titelinformationen_3735" class="HiddenTeaser">
+<span class="similar-broadcasts-element-link">
+<span class="buttonContainer">
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<a style="text-decoration: none !important;" title="„WDR 5 - Redezeit“ hören" linkobject="{'url':'http://redezeit.radio.de'}" class="button-black js-link">
+<span>HÖREN</span>
+</a>
+</span>
+</span>
+<!-- onmouseover="dojo.query(\'#currentlyPlayed-information\').addClass(\'hover\')" onmouseout="dojo.query(\'#currentlyPlayed-information\').removeClass(\'hover\')" -->
+<span class="similar-broadcasts-element-radioStation">
+<a title="„WDR 5 - Redezeit“ hören" href="http://redezeit.radio.de">WDR 5 - Redezeit</a></span>
+<span class="title_3735 songtitle showPrefix">
+
+
+
+
+
+
+
+Folge: WDR 5 Redezeit: "Pink stinkt" (Sendung vom 23.03.13)</span>
+<span class="stationcountry">Aus
+Deutschland 
+</span>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+<!-- end: broadcast-info-similar-broadcasts -->
+<!-- begin: broadcast-family -->
+
+
+
+<!-- end: broadcast-family -->
+<!-- begin: facebook comments (radio.fr & rad.io) -->
+
+<!-- end: facebook comments (radio.fr) -->
+<!-- begin: now-playing-tags -->
+<div id="broadcast-info-tags">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="broadcast-info-tags-loading" class="content-headline-loader"></div>
+<div id="all-tags-division">
+<div class="content-headline">
+<p class="h3">
+Tags von „WDR - ZeitZeichen“
+</p>
+<a class="broadcast-info-show-user-tags" href="javascript:void(0);">(Meine Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-tags-major no-delete-button">
+
+
+<li>
+<a href="http://www.radio.de/suche/Geschichte" onclick="return false;" class="broadcast-info-tags-one-tag tag100" title="Nach Geschichte suchen" tag="Geschichte">Geschichte</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Köln" onclick="return false;" class="broadcast-info-tags-one-tag tag90" title="Nach Köln suchen" tag="Köln">Köln</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutsch" onclick="return false;" class="broadcast-info-tags-one-tag tag80" title="Nach Deutsch suchen" tag="Deutsch">Deutsch</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Deutschland" onclick="return false;" class="broadcast-info-tags-one-tag tag70" title="Nach Deutschland suchen" tag="Deutschland">Deutschland</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Europa" onclick="return false;" class="broadcast-info-tags-one-tag tag60" title="Nach Europa suchen" tag="Europa">Europa</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NordrheinWestfalen" onclick="return false;" class="broadcast-info-tags-one-tag tag50" title="Nach NordrheinWestfalen suchen" tag="NordrheinWestfalen">NordrheinWestfalen</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Podcast" onclick="return false;" class="broadcast-info-tags-one-tag tag40" title="Nach Podcast suchen" tag="Podcast">Podcast</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/Geschehen" onclick="return false;" class="broadcast-info-tags-one-tag tag30" title="Nach Geschehen suchen" tag="Geschehen">Geschehen</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/NRW" onclick="return false;" class="broadcast-info-tags-one-tag tag20" title="Nach NRW suchen" tag="NRW">NRW</a>, 
+</li>
+
+
+
+
+
+
+<li>
+<a href="http://www.radio.de/suche/WDR" onclick="return false;" class="broadcast-info-tags-one-tag tag10" title="Nach WDR suchen" tag="WDR">WDR</a>
+</li>
+
+<li class="clearer">&nbsp;</li>
+
+</ul>
+</div>
+<div id="user-tags-division" style="display:none">
+
+<div class="content-headline">
+<p class="h3">
+Meine Tags zu „WDR - ZeitZeichen“
+</p>
+<a class="broadcast-info-show-all-tags" href="javascript:void(0);">(Alle Tags anzeigen)</a>
+<div class="clearer">&nbsp;</div>
+</div>
+<!-- @TODO baseline formating (see email to markus on 2008-08-06) -->
+<ul class="broadcast-info-tags-major">
+
+<li>&nbsp;</li>
+<li class="clearer">&nbsp;</li>
+
+
+</ul>
+</div>
+<div class="broadcast-info-tags-tagging">
+<label for="tagging"><strong>Eigene Tags vergeben</strong><br />(komma-getrennt)</label>
+<div class="broadcast-info-tags-tagging-search">
+<form action="#">
+<a id="broadcast-info-tags-save-button"
+taggingobject="{ 
+						dataUrl:'/info/updateusertags', 
+						account:'', 
+						broadcastId :'3717', 
+						targetId:'broadcast-info-tags', 
+						loadingIndicator:'broadcast-info-tags-loading',
+						deleteTag:'false' }" >
+Speichern
+</a>
+<input id="tagging" type="text" />
+</form>
+</div>
+<div class="clearer">&nbsp;</div>
+</div>
+
+</div>
+<!-- end: now-playing-tags -->
+<!-- begin: direct-play-link-->
+<div class="broadcast-info-misc" id="playlink">
+<div class="content-headline">
+<p class="h3">
+Direkter Playlink zu „WDR - ZeitZeichen“
+</p>
+<div class="clearer">&nbsp;</div>
+</div>
+
+<div class="broadcast-info-action-link">
+<a href="http://wdrzeitzeichen.radio.de" class="js-link-external" linkobject="{'url':'http://wdrzeitzeichen.radio.de'}" title="„WDR - ZeitZeichen“ hören" target="_blank">
+http://wdrzeitzeichen.radio.de
+</a>
+</div> 
+</div>
+<!-- end: direct-play-link -->
+<!-- begin: social-networks -->
+<div class="broadcast-info-misc" id="snetworks">
+<div class="content-headline">
+<p class="h3">Social Networks</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<div class="broadcast-info-action-icons">
+
+
+
+
+
+
+
+
+<a linkobject="{'url':'http://del.icio.us/post?v=2&amp;url=http%3A%2F%2Fwdrzeitzeichen.radio.de&amp;notes=&amp;tags=&amp;title=WDR - ZeitZeichen;'}" class="icon-delicious js-link-external" title="„WDR - ZeitZeichen“ bei Delicious bookmarken"></a>
+<a linkobject="{'url':'http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fwdrzeitzeichen.radio.de&amp;bm_notice=&amp;bm_description=WDR - ZeitZeichen&amp;bm_tags='}" class="icon-mrwong js-link-external" title="„WDR - ZeitZeichen“ bei Mister Wong bookmarken"></a>
+<a linkobject="{'url':'http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwdrzeitzeichen.radio.de&amp;title=WDR - ZeitZeichen'}" class="icon-stumble js-link-external" title="„WDR - ZeitZeichen“ bei StumbleUpon bookmarken"></a>
+<a linkobject="{'url':'http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwdrzeitzeichen.radio.de&amp;bodytext=&amp;tags=&amp;title=WDR - ZeitZeichen'}" class="icon-digg js-link-external" title="„WDR - ZeitZeichen“ bei Digg bookmarken"></a>
+
+<a linkobject="{'url':'http://linkarena.com/bookmarks/addlink/?url=http://http%3A%2F%2Fwdrzeitzeichen.radio.de&amp;title=WDR - ZeitZeichen&amp;desc=&amp;tags='}" class="icon-linkarena js-link-external" title="„WDR - ZeitZeichen“ bei LinkARENA bookmarken"></a>
+
+</div>
+</div>
+<!-- end: social-networks -->
+<div class="broadcast-info-misc" id="short-description">
+
+					
+						
+	
+						
+
+
+Internetradio ganz einfach! Auf radio.de können Sie WDR - ZeitZeichen direkt und ohne weiteren Download hören. Darüber hinaus können Sie über 5000 weitere Sender und neue Favoriten im Webradio finden. Bleiben sie mit WDR - ZeitZeichen und vielen anderen Sendern immer gut unterhalten und informiert.
+
+
+
+
+
+</div>
+<!-- begin: broadcast-info-misc -->
+<div class="broadcast-info-misc" id="type">
+<div class="content-headline">
+<div id="broadcast-info-type-loading" class="content-headline-loader"></div>
+<p class="h3">Sendertyp und Format</p>
+<div class="clearer">&nbsp;</div>
+</div>
+<ul class="broadcast-info-type-list">
+
+
+
+<li class="first">Sendertyp:
+
+Podcast
+
+
+</li>
+
+
+<li class="">
+
+
+
+Format: MP3 64kbps
+
+</li>
+</ul>
+</div>
+<!-- end: broadcast-info-misc -->
+
+</div>
+<div class="whitebox-bottom">&nbsp;</div>
+</div>
+<div id="content-body-sidebar">
+<div id="adresponse" style="display:none;margin-bottom:20px;">
+<script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=29"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("wdrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("12"));
+document.write ("&amp;age_70_79=" + escape("8"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("41"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="sidebar-widgets-box">
+
+<div class="sidebar-box-container">
+
+
+<div class="sidebar-loading-indicator">
+<div id="accordion-currently-playing-loading-indicator"></div>
+</div>
+<div id="sidebar-currently-playing-head">
+<p class="sidebar-currently-playing-head-headline">Sie hören</p>
+<p class="sidebar-currently-playing-head-title">
+<span class="sidebar-currently-playing-head-broadcast">WDR - ZeitZeichen</span>
+
+</p>
+
+</div>
+
+<div id="accordion-currently-playing" >
+<div id="accordion-pane-similar-broadcasts" class="sidebarBox firstAccordionBox">
+<div class="sidebar-top">
+Nutzer hörten auch
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://geschichten.radio.de/" class="channel-link" title="„WDR 5 - Erlebte Geschichten“ hören">
+<span class="broadcast-name">WDR 5 - Erlebte Geschichten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://stichtag.radio.de/" class="channel-link" title="„WDR 2 - Stichtag“ hören">
+<span class="broadcast-name">WDR 2 - Stichtag</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://servicecomputer.radio.de/" class="channel-link" title="„WDR 5 - Service Computer“ hören">
+<span class="broadcast-name">WDR 5 - Service Computer</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://philosophisch.radio.de/" class="channel-link" title="„WDR 5 - Das philosophische Radio“ hören">
+<span class="broadcast-name">WDR 5 - Das philosophische Radio</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr5woche.radio.de/" class="channel-link" title="„WDR 5 - Der satirische Wochenrückblick“ hören">
+<span class="broadcast-name">WDR 5 - Der satirische Wochenrückblick</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://swr2zeitwort.radio.de/" class="channel-link" title="„SWR2 Zeitwort - Erinnerung an historische Daten“ hören">
+<span class="broadcast-name">SWR2 Zeitwort - Erinnerung an historische Daten</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://zeitgeschichte.radio.de/" class="channel-link" title="„NDR Info - Zeitgeschichte“ hören">
+<span class="broadcast-name">NDR Info - Zeitgeschichte</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://presseclub.radio.de/" class="channel-link" title="„WDR 5 - Presseclub“ hören">
+<span class="broadcast-name">WDR 5 - Presseclub</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li>
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://ndrzeitzeichen.radio.de/" class="channel-link" title="„NDR Info - ZeitZeichen“ hören">
+<span class="broadcast-name">NDR Info - ZeitZeichen</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li class="last-item">
+
+
+
+</span>
+<span class="accordion-pane-channel-link">
+<a href="http://leonardo.radio.de/" class="channel-link" title="„WDR 5 - Leonardo“ hören">
+<span class="broadcast-name">WDR 5 - Leonardo</span>
+
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+</div> 
+
+
+
+
+
+<div class="sidebar-box-container">
+<div id="accordion-top-ten">
+<div id="accordion-pane-top-ten" class="sidebar-top">
+radio.de Top-10
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://1live.radio.de/" class="channel-link" title="„1LIVE“ hören">
+<span class="channel-link-counter">1.</span>
+<span class="broadcast-name">1LIVE</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://top100station.radio.de/" class="channel-link" title="„Top 100 Station“ hören">
+<span class="channel-link-counter">2.</span>
+<span class="broadcast-name">Top 100 Station</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://swr3.radio.de/" class="channel-link" title="„SWR3“ hören">
+<span class="channel-link-counter">3.</span>
+<span class="broadcast-name">SWR3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://ndr2.radio.de/" class="channel-link" title="„NDR 2“ hören">
+<span class="channel-link-counter">4.</span>
+<span class="broadcast-name">NDR 2</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://radiopaloma.radio.de/" class="channel-link" title="„Radio Paloma“ hören">
+<span class="channel-link-counter">5.</span>
+<span class="broadcast-name">Radio Paloma</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://n-joy.radio.de/" class="channel-link" title="„N-JOY“ hören">
+<span class="channel-link-counter">6.</span>
+<span class="broadcast-name">N-JOY</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://antennebayern.radio.de/" class="channel-link" title="„ANTENNE BAYERN“ hören">
+<span class="channel-link-counter">7.</span>
+<span class="broadcast-name">ANTENNE BAYERN</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://iloveradio.radio.de/" class="channel-link" title="„I LOVE RADIO“ hören">
+<span class="channel-link-counter">8.</span>
+<span class="broadcast-name">I LOVE RADIO</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li >
+<span class="accordion-pane-channel-link">
+<a href="http://bigfm.radio.de/" class="channel-link" title="„bigFM Rheinland-Pfalz“ hören">
+<span class="channel-link-counter">9.</span>
+<span class="broadcast-name">bigFM Rheinland-Pfalz</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+
+<li  class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://bayern3.radio.de/" class="channel-link" title="„Bayern 3“ hören">
+<span class="channel-link-counter">10.</span>
+<span class="broadcast-name">Bayern 3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+
+
+
+</ol>
+</div>
+</div>
+
+
+
+
+<div class="sidebar-box-container">
+
+<div id="recommendations-box" style="height: 216px">
+<div class="sidebar-top">
+Empfohlene Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1046rtl.radio.de/" class="channel-link" title="„104.6 RTL“ hören">
+<span class="broadcast-name">104.6 RTL</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://1069radiogong.radio.de/" class="channel-link" title="„radio gong“ hören">
+<span class="broadcast-name">radio gong</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://polskadiscopolo.radio.de/" class="channel-link" title="„Disco Polo“ hören">
+<span class="broadcast-name">Disco Polo</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioffh.radio.de/" class="channel-link" title="„FFH“ hören">
+<span class="broadcast-name">FFH</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://deutschlandfunk.radio.de/" class="channel-link" title="„Deutschlandfunk“ hören">
+<span class="broadcast-name">Deutschlandfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://charivariregensburg.radio.de/" class="channel-link" title="„Charivari Regensburg“ hören">
+<span class="broadcast-name">Charivari Regensburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hr3.radio.de/" class="channel-link" title="„hr3“ hören">
+<span class="broadcast-name">hr3</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://wdr4.radio.de/" class="channel-link" title="„WDR 4“ hören">
+<span class="broadcast-name">WDR 4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hitradioantenne.radio.de/" class="channel-link" title="„Hitradio Antenne“ hören">
+<span class="broadcast-name">Hitradio Antenne</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://berlinerrundfunk.radio.de/" class="channel-link" title="„Berliner Rundfunk“ hören">
+<span class="broadcast-name">Berliner Rundfunk</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<div class="sidebar-box-container">
+
+
+
+<div id="toprated-box" style="height: 216px" >
+<div class="sidebar-top">
+Beliebte Sender
+</div>
+<div class="accordion-pane-infotext"></div>
+<ol>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://fm4.radio.de/" class="channel-link" title="„fm4“ hören">
+<span class="broadcast-name">fm4</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://electroradio.radio.de/" class="channel-link" title="„Electro Radio“ hören">
+<span class="broadcast-name">Electro Radio</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://dasding.radio.de/" class="channel-link" title="„Das Ding“ hören">
+<span class="broadcast-name">Das Ding</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://hardbasefm.radio.de/" class="channel-link" title="„HardBase FM“ hören">
+<span class="broadcast-name">HardBase FM</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://ndr1niedersachsen.radio.de/" class="channel-link" title="„NDR 1 Niedersachsen“ hören">
+<span class="broadcast-name">NDR 1 Niedersachsen</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://radiohamburg.radio.de/" class="channel-link" title="„Radio Hamburg“ hören">
+<span class="broadcast-name">Radio Hamburg</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://jump.radio.de/" class="channel-link" title="„Jump“ hören">
+<span class="broadcast-name">Jump</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://newyorker.radio.de/" class="channel-link" title="„New Yorker“ hören">
+<span class="broadcast-name">New Yorker</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li>
+<span class="accordion-pane-channel-link">
+<a href="http://rock.radio.de/" class="channel-link" title="„Rock“ hören">
+<span class="broadcast-name">Rock</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+<li class="last-item">
+<span class="accordion-pane-channel-link">
+<a href="http://sunshine-live.radio.de/" class="channel-link" title="„sunshine live“ hören">
+<span class="broadcast-name">sunshine live</span>
+</a>
+</span>
+<span class="clearer"></span>
+</li>
+</ol>
+</div> 
+
+
+
+
+
+</div>
+</div>
+
+
+
+
+
+</div>
+<div class="clearer">&nbsp;</div>
+
+
+
+
+<!-- z. 194 --></div><!-- end -->
+<div id="content-body-footer">
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="content-body-footer-small-new">
+
+
+<p class="colum" style="margin-left:0;">
+<b>Unternehmen</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/ueberuns.html','event':['general/footer','navigate','aboutus']}">&Uuml;ber uns</a><br />
+<a href="http://corporate.radio.de/presse/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','press');">Presse</a><br />
+<a href="http://corporate.radio.de/blog/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','blog');">Blog</a><br />
+<a class="js-link" linkobject="{'url':'/newsletter.jsf','event':['general/footer','navigate','newsletter']}">Newsletter abonnieren</a><br />
+<a href="http://newsletter.radio.de/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','newsletter.radio.de');">Aktueller Newsletter</a><br />
+<a class="js-link" linkobject="{'url':'/kontakt.jsf','event':['general/footer','navigate','contact']}">Kontakt</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/344/radiostreams/jobs.html','event':['general/footer','navigate','jobs']}">Jobs</a><br />
+</p>
+<p class="colum">
+<b>Rechtliches</b>
+<a class="js-link" linkobject="{'url':'/impressum.jsf','event':['general/footer','navigate','imprint']}">Impressum</a><br />
+<a class="js-link" linkobject="{'url':'/agb.jsf','event':['general/footer','navigate','termsAndConditions']}">Nutzungsbedingungen</a><br />
+<a class="js-link" linkobject="{'url':'/datenschutz.jsf','event':['general/footer','navigate','privacy']}">Datenschutzbestimmungen</a><br />
+</p>
+<p class="colum">
+<b>radio.de Apps</b>
+<a href="http://www.radio.de/android" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','androidapp');">Android App</a><br />
+<a href="http://www.radio.de/iphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','iphoneapp');">iPhone App</a><br />
+<a href="http://www.radio.de/ipad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','ipadapp');">iPad App</a><br />
+<a href="http://www.radio.de/windowsphone" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','windowsphoneapp');">Windows Phone App</a><br />
+<a href="http://www.radio.de/hptouchpad" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','hptouchpadapp');">hp Touchpad App</a><br />
+<a href="http://www.radio.de/squeezebox/" target="_blank" onclick="radio.track.trackEvent('general/footer','navigate','squeezeboxapp');">Squeezebox App</a><br />
+
+
+</p>
+<p class="colum" style="width:210px;">
+<b>Media</b>
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/werbung.html','event':['general/footer','navigate','advertiser']}">Vermarktung f&uuml;r Werbetreibende</a><br />
+<a class="js-link-external" linkobject="{'url':'http://corporate.radio.de/sender.html','event':['general/footer','navigate','broadcaster']}">Vermarktung f&uuml;r Sender</a><br />
+</p>
+<div style="clear:both;height:15px;"></div>
+
+<p style="float: left;"><strong>1.13.4-1</strong> | <strong>&copy; 2007-2013 <a href="http://www.radio.de/" title="internet radio" onclick="radio.track.trackEvent('general/footer','navigate','radio.de');">radio.de</a></strong> |  <a class="js-link-external" linkobject="{'url':'http://www.radio.at/','event':['general/footer','navigate','radio.at']}">radio.at</a> | <a class="js-link-external" linkobject="{'url':'http://www.radio.fr/','event':['general/footer','navigate','radio.fr']}">radio.fr</a> | <a class="js-link-external" linkobject="{'url':'http://www.rad.io/','event':['general/footer','navigate','rad.io']}">rad.io</a> | <a class="js-link-external" linkobject="{'url':'http://www.hoerenswert.de/','event':['general/footer','navigate','hoerenswert.de']}">hoerenswert.de</a></p><a class="js-link" linkobject="{'url':'/hilfe.jsf','event':['general/footer','navigate','help']}" style="float:right;"><b>Hilfe</b></a>
+
+
+
+</div>
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+FB.init({appId: '134422566578943', status: true, cookie: true, xfbml: true});
+};
+(function() {
+var e = document.createElement('script'); e.async = true;
+e.src = document.location.protocol +
+'//connect.facebook.net/de_DE/all.js';
+document.getElementById('fb-root').appendChild(e);
+}());
+</script>
+
+</div>
+<div style="clear:both;height:15px;"></div>
+</div>
+
+<!-- Z. 199 start --></div><!-- Z. 199 end -->
+<div id="ads">
+<div id="superbanner"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=1"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("wdrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("12"));
+document.write ("&amp;age_70_79=" + escape("8"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("41"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script> </div>
+<div id="skyscraper"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=21"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("wdrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("12"));
+document.write ("&amp;age_70_79=" + escape("8"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("41"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+<div id="free_zone"><script type='text/javascript'><!--//<![CDATA[
+var m3_u = (location.protocol=='https:'?'https://openx.ip.radio.de/www/delivery/ajs.php':'http://openx.ip.radio.de/www/delivery/ajs.php');
+var m3_r = Math.floor(Math.random()*99999999999);
+if (!document.MAX_used) document.MAX_used = ',';
+document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);document.write ("?zoneid=25"); document.write ('&amp;cb=' + m3_r);
+if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+document.write ("&amp;loc=" + escape(window.location));
+if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+if (document.context) document.write ("&context=" + escape(document.context));
+if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+document.write ("&amp;region=" + escape("HH;Hamburg;"));
+document.write ("&amp;gender_female=" + escape("1"));
+document.write ("&amp;playerType=" + escape(""));
+document.write ("&amp;genres=" + escape("Podcast"));
+document.write ("&amp;toptags=" + escape(""));
+document.write ("&amp;station=" + escape("wdrzeitzeichen"));
+document.write ("&amp;age_80_89=" + escape("0"));
+document.write ("&amp;age_30_39=" + escape("12"));
+document.write ("&amp;age_70_79=" + escape("8"));
+document.write ("&amp;age_10_13=" + escape("0"));
+document.write ("&amp;client_locale=" + escape("de_DE"));
+document.write ("&amp;country=" + escape("DE"));
+document.write ("&amp;client_domain=" + escape("radio.de"));
+document.write ("&amp;topics=" + escape("Geschichte"));
+document.write ("&amp;playerSize=" + escape(""));
+document.write ("&amp;gender_male=" + escape("99"));
+document.write ("&amp;age_50_59=" + escape("14"));
+document.write ("&amp;age_90_120=" + escape("0"));
+document.write ("&amp;age_40_49=" + escape("41"));
+document.write ("&amp;advertiser=" + escape(""));
+document.write ("&amp;age_14_19=" + escape("2"));
+document.write ("&amp;age_20_29=" + escape("10"));
+document.write ("&amp;age_60_69=" + escape("13"));
+document.write ("'><\/scr"+"ipt>");
+//]]>--></script></div>
+</div>
+<script type="text/javascript" src="//asset0.zendesk.com/external/zenbox/v2.4/zenbox.js"></script>
+<style type="text/css" media="screen, projection">
+@import url(//asset0.zendesk.com/external/zenbox/v2.4/zenbox.css);
+#zenbox_tab {
+top: 50% !important;
+width: 30px !important;
+}
+</style>
+<script type="text/javascript">
+if (typeof(Zenbox) !== "undefined") {
+Zenbox.init({
+dropboxID: "20046177",
+url: "https://radio.zendesk.com",
+tabID: "support",
+tabColor: "black",
+tabPosition: "Left"
+});
+}
+</script>
+</body>
+</html>

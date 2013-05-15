@@ -1,0 +1,195 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://54house.stream-balancer.de:80",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"54house.fm - ",
+    "subDomaine":"54house",
+    "relayDisabled":false,
+    "rank":173,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die Zahl 54 ist verbunden mit einem der legendärsten Discotempel der Welt. In einem Tribut ans Studio54 spielt das Internetradio 54house.fm die neuste Clubmusik: House, Electro und Dance. \r\nSeit 2009 stimuliert 54house.fm die Gehörgänge mit Live-Sets von international bekannten DJs  und Newcomern der House-Szene.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/5619_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/5619_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/5619_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"54house.fm spielt die neuste Clubmusik und stimuliert die Gehörgänge mit Live-Sets von international bekannten DJs  und Newcomern der House-Szene.",
+    "metaDataUrl":"http://54house.stream-balancer.de:80",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":256,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://listen.54house.fm/listen.pls",
+    "displaySubDomaine":"54house",
+    "recentTitles":
+    [
+      "Dabruck  Klein in the Mix on 54house.fm - We Play LOUDER",
+      "DBN loves..Radio Show - on 54house.fm",
+      "Boris Roodbwoy in the Mix on 54house.fm - Dance Club Mix Show",
+      "Dan Price in the mix on 54house.fm - Show: Global Control"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.54house.fm",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/5619_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/5619_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":5619,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/5619_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/5619_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/5619_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"Webradio",
+      "_country":"Deutschland",
+      "_genre":"House",
+      "_city":"Bochum",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"54house.fm",
+    "picture3Url":"",
+    "streamUrl":"http://listen.54house.fm/listen.pls",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/5619_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/5619_5.jpeg",
+    "subdomain":"54house",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458269,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://54house.stream-balancer.de:80",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://54house.stream-balancer.de:80",
+        "idBroadcast":5619,
+        "bitRate":256
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

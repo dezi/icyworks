@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703055",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703056",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365633576/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130410.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Filmzitatitis (11.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703057",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365535630/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130409_2121.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703058",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365530380/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130409_2005.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Global Geiss: Star-Gebühr (10.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703059",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365530377/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130409.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Duschen oder Baden (10.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703060",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365442680/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130408_2010.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Jimmy Breuer Radioshow: Osterferienende (09.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703061",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365442374/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130408.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Erwachsen werden (09.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703062",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365266317/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130406_1834.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: 1LIVE Freak: Lottozahlen (07.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703063",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365181442/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130406_0001.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Schroeders Netzwerk: Offshore Leaks (06.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703064",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365181422/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130406_0000.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Die Kebekus: 40 Jahre Handy (06.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703065",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365094335/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130404_1851.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Matze Knop - Der Promi Profi: Hypnose, Monster und Prozente (05.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703066",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365094315/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130404_1849.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Global Geiss: Auf Ischia (05.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703067",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364930046/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130403_2113.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Global Geiss: Bußgeldgeiss (03.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703068",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365007593/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130403_1844.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Jimmy Breuer Radioshow: Justin Bieber (04.04.0213)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703069",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365007569/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130403_1843.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Schroeders Netzwerk: Nordkorea (04.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703070",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1365007590/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130403.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Umzug (04.04.0213)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703071",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364837238/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130402_1918.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Jimmy Breuer Radioshow (88): Championsleague (02.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703072",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364837218/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130402_1912.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Sami und Mesi bei Real Folge 47 (02.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703073",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364836921/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130402.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Kiosk (02.04.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703074",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364673550/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130331_1420.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops: Folge 08 (31.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17703075",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364673531/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130331_0650.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops: Folge 07 (31.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702786",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364569897/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130330_0809.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops Folge 6 (30.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702787",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364565090/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130330_0748.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Die Kebekus: Ostern (30.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17702788",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364564778/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130330_0645.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Schroeders Netzwerk: East Side Gallery (30.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701566",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364508046/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130329_0657.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Matze Knop: Ostermesse, Spritpreise und Jagdfieber (29.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701567",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364507750/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130329_0651.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops: Folge 05 (29.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701568",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364508070/radio/comedy/1live_comedy_aktuell_tonymono_made_by_wdr_20130329.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Tony Mono Wettervorhersong: Max Herre - Ich bring kein Ei (29.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701569",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364412775/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130328_0003.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Nenas Welt: 99 Luftballons (28.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701570",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364412755/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130328_0002.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Jimmy Breuer Radioshow: Ostereier (28.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701571",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364412736/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130328_0000.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops: Folge 04 (28.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701572",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364412733/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130328.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Ostern (28.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701573",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364327893/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130327_0600.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Comedy: Eiercops (27.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701574",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364327597/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130327_0530.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Global Geiss: Osterschmücking (27.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701575",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364327593/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130327.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd (504): Pickel (27.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701576",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364247386/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130326_0534.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Jimmy Breuer Radioshow (86): Kasachstan",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701577",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364247068/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130326_0527.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops: Folge 02 (26.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701578",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364247383/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130326.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd (503): Star Trek rulez (26.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701579",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364151638/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130325_0700.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Global Geiss: Osterferien (25.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701580",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364151422/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130325_0556.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops: Folge 01 (25.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701581",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364151841/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130325.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd (502): Gewinnspiele (25.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701582",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364063819/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130324_0735.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Eiercops-Trailer (24.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701583",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1364063800/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130324_0634.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: 1LIVE Freak: Britt (24.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701020",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363979678/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130323_0512.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Schroeders Netzwerk: Echo (23.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699848",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363974558/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130322_2005.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Die Kebekus: Abitur (23.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699849",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363908737/radio/comedy/1live_comedy_aktuell_tonymono_made_by_wdr_20130322.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Tony Mono Wettervorhersong: Tom Odell - Another Love (22.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699850",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363895424/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130321_2047.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Matze Knop - Der Promi-Profi: Zeitreise nach Kasachstan (22.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699851",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363895405/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130321_2046.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Global Geiss: Tattoo Convention (22.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699852",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363804362/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130320_2000.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Jimmy Breuer Radioshow: Echo (21.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699853",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363804359/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130320.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Noob und Nerd: Portemonnaie verloren (21.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699854",
+      "author":"",
+      "stream":"http://medien.wdr.de/m/1363721890/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130319_2034.mp3",
+      "testResult":null,
+      "name":"1LIVE - Comedy: Schroeders Netzwerk: Zypern (20.03.2013)",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"1LIVE - Comedy",
+    "subDomaine":"1livecomedy",
+    "relayDisabled":false,
+    "rank":1282,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Der Comedy-Podcast von 1 Live.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/3643_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/3643_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/3643_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Der Comedy-Podcast von 1 Live.",
+    "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)",
+        "episode":0,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "published":"Wed, 10 Apr 2013 16:13:00 +0200",
+        "bitRate":64,
+        "contentLength":1156945
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Filmzitatitis (11.04.2013)",
+        "episode":1,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365633576/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130410.mp3",
+        "published":"Wed, 10 Apr 2013 00:00:00 +0200",
+        "bitRate":64,
+        "contentLength":960659
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)",
+        "episode":2,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365535630/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130409_2121.mp3",
+        "published":"Tue, 09 Apr 2013 21:21:00 +0200",
+        "bitRate":64,
+        "contentLength":1002803
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Global Geiss: Star-Gebühr (10.04.2013)",
+        "episode":3,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365530380/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130409_2005.mp3",
+        "published":"Tue, 09 Apr 2013 20:05:00 +0200",
+        "bitRate":64,
+        "contentLength":862613
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Duschen oder Baden (10.04.2013)",
+        "episode":4,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365530377/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130409.mp3",
+        "published":"Tue, 09 Apr 2013 00:00:00 +0200",
+        "bitRate":64,
+        "contentLength":1039293
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Jimmy Breuer Radioshow: Osterferienende (09.04.2013)",
+        "episode":5,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365442680/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130408_2010.mp3",
+        "published":"Mon, 08 Apr 2013 20:10:00 +0200",
+        "bitRate":64,
+        "contentLength":913010
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Erwachsen werden (09.04.2013)",
+        "episode":6,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365442374/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130408.mp3",
+        "published":"Mon, 08 Apr 2013 00:00:00 +0200",
+        "bitRate":64,
+        "contentLength":943193
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: 1LIVE Freak: Lottozahlen (07.04.2013)",
+        "episode":7,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365266317/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130406_1834.mp3",
+        "published":"Sat, 06 Apr 2013 18:34:00 +0200",
+        "bitRate":64,
+        "contentLength":774211
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Schroeders Netzwerk: Offshore Leaks (06.04.2013)",
+        "episode":8,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365181442/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130406_0001.mp3",
+        "published":"Sat, 06 Apr 2013 00:01:00 +0200",
+        "bitRate":64,
+        "contentLength":896745
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Die Kebekus: 40 Jahre Handy (06.04.2013)",
+        "episode":9,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365181422/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130406_0000.mp3",
+        "published":"Sat, 06 Apr 2013 00:00:00 +0200",
+        "bitRate":64,
+        "contentLength":966201
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Matze Knop - Der Promi Profi: Hypnose, Monster und Prozente (05.04.2013)",
+        "episode":10,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365094335/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130404_1851.mp3",
+        "published":"Thu, 04 Apr 2013 18:51:00 +0200",
+        "bitRate":64,
+        "contentLength":980409
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Global Geiss: Auf Ischia (05.04.2013)",
+        "episode":11,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365094315/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130404_1849.mp3",
+        "published":"Thu, 04 Apr 2013 18:49:00 +0200",
+        "bitRate":64,
+        "contentLength":863235
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Global Geiss: Bußgeldgeiss (03.04.2013)",
+        "episode":12,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364930046/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130403_2113.mp3",
+        "published":"Wed, 03 Apr 2013 21:13:00 +0200",
+        "bitRate":64,
+        "contentLength":831415
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Jimmy Breuer Radioshow: Justin Bieber (04.04.0213)",
+        "episode":13,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365007593/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130403_1844.mp3",
+        "published":"Wed, 03 Apr 2013 18:44:00 +0200",
+        "bitRate":64,
+        "contentLength":961262
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Schroeders Netzwerk: Nordkorea (04.04.2013)",
+        "episode":14,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365007569/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130403_1843.mp3",
+        "published":"Wed, 03 Apr 2013 18:43:00 +0200",
+        "bitRate":64,
+        "contentLength":940207
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Umzug (04.04.0213)",
+        "episode":15,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365007590/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130403.mp3",
+        "published":"Wed, 03 Apr 2013 00:00:00 +0200",
+        "bitRate":64,
+        "contentLength":922163
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Jimmy Breuer Radioshow (88): Championsleague (02.04.2013)",
+        "episode":16,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364837238/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130402_1918.mp3",
+        "published":"Tue, 02 Apr 2013 19:18:00 +0200",
+        "bitRate":64,
+        "contentLength":960860
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Sami und Mesi bei Real Folge 47 (02.04.2013)",
+        "episode":17,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364837218/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130402_1912.mp3",
+        "published":"Tue, 02 Apr 2013 19:12:00 +0200",
+        "bitRate":64,
+        "contentLength":692273
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Kiosk (02.04.2013)",
+        "episode":18,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364836921/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130402.mp3",
+        "published":"Tue, 02 Apr 2013 00:00:00 +0200",
+        "bitRate":64,
+        "contentLength":948163
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops: Folge 08 (31.03.2013)",
+        "episode":19,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364673550/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130331_1420.mp3",
+        "published":"Sun, 31 Mar 2013 14:20:00 +0200",
+        "bitRate":64,
+        "contentLength":946423
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops: Folge 07 (31.03.2013)",
+        "episode":20,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364673531/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130331_0650.mp3",
+        "published":"Sun, 31 Mar 2013 06:50:00 +0200",
+        "bitRate":64,
+        "contentLength":914391
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops Folge 6 (30.03.2013)",
+        "episode":21,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364569897/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130330_0809.mp3",
+        "published":"Sat, 30 Mar 2013 08:09:00 +0100",
+        "bitRate":64,
+        "contentLength":889427
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Die Kebekus: Ostern (30.03.2013)",
+        "episode":22,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364565090/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130330_0748.mp3",
+        "published":"Sat, 30 Mar 2013 07:48:00 +0100",
+        "bitRate":64,
+        "contentLength":865097
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Schroeders Netzwerk: East Side Gallery (30.03.2013)",
+        "episode":23,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364564778/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130330_0645.mp3",
+        "published":"Sat, 30 Mar 2013 06:45:00 +0100",
+        "bitRate":64,
+        "contentLength":1036319
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Matze Knop: Ostermesse, Spritpreise und Jagdfieber (29.03.2013)",
+        "episode":24,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364508046/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130329_0657.mp3",
+        "published":"Fri, 29 Mar 2013 06:57:00 +0100",
+        "bitRate":64,
+        "contentLength":925687
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops: Folge 05 (29.03.2013)",
+        "episode":25,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364507750/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130329_0651.mp3",
+        "published":"Fri, 29 Mar 2013 06:51:00 +0100",
+        "bitRate":64,
+        "contentLength":888391
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Tony Mono Wettervorhersong: Max Herre - Ich bring kein Ei (29.03.2013)",
+        "episode":26,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364508070/radio/comedy/1live_comedy_aktuell_tonymono_made_by_wdr_20130329.mp3",
+        "published":"Fri, 29 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1290245
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Nenas Welt: 99 Luftballons (28.03.2013)",
+        "episode":27,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364412775/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130328_0003.mp3",
+        "published":"Thu, 28 Mar 2013 00:03:00 +0100",
+        "bitRate":64,
+        "contentLength":1050647
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Jimmy Breuer Radioshow: Ostereier (28.03.2013)",
+        "episode":28,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364412755/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130328_0002.mp3",
+        "published":"Thu, 28 Mar 2013 00:02:00 +0100",
+        "bitRate":64,
+        "contentLength":953766
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops: Folge 04 (28.03.2013)",
+        "episode":29,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364412736/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130328_0000.mp3",
+        "published":"Thu, 28 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":885271
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Ostern (28.03.2013)",
+        "episode":30,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364412733/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130328.mp3",
+        "published":"Thu, 28 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":959189
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Comedy: Eiercops (27.03.2013)",
+        "episode":31,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364327893/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130327_0600.mp3",
+        "published":"Wed, 27 Mar 2013 06:00:00 +0100",
+        "bitRate":64,
+        "contentLength":899203
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Global Geiss: Osterschmücking (27.03.2013)",
+        "episode":32,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364327597/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130327_0530.mp3",
+        "published":"Wed, 27 Mar 2013 05:30:00 +0100",
+        "bitRate":64,
+        "contentLength":890285
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd (504): Pickel (27.03.2013)",
+        "episode":33,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364327593/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130327.mp3",
+        "published":"Wed, 27 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":873921
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Jimmy Breuer Radioshow (86): Kasachstan",
+        "episode":34,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364247386/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130326_0534.mp3",
+        "published":"Tue, 26 Mar 2013 05:34:00 +0100",
+        "bitRate":64,
+        "contentLength":973096
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops: Folge 02 (26.03.2013)",
+        "episode":35,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364247068/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130326_0527.mp3",
+        "published":"Tue, 26 Mar 2013 05:27:00 +0100",
+        "bitRate":64,
+        "contentLength":872791
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd (503): Star Trek rulez (26.03.2013)",
+        "episode":36,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364247383/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130326.mp3",
+        "published":"Tue, 26 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":993539
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Global Geiss: Osterferien (25.03.2013)",
+        "episode":37,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364151638/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130325_0700.mp3",
+        "published":"Mon, 25 Mar 2013 07:00:00 +0100",
+        "bitRate":64,
+        "contentLength":923973
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops: Folge 01 (25.03.2013)",
+        "episode":38,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364151422/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130325_0556.mp3",
+        "published":"Mon, 25 Mar 2013 05:56:00 +0100",
+        "bitRate":64,
+        "contentLength":866343
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd (502): Gewinnspiele (25.03.2013)",
+        "episode":39,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364151841/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130325.mp3",
+        "published":"Mon, 25 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1028269
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Eiercops-Trailer (24.03.2013)",
+        "episode":40,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364063819/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130324_0735.mp3",
+        "published":"Sun, 24 Mar 2013 07:35:00 +0100",
+        "bitRate":64,
+        "contentLength":728435
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: 1LIVE Freak: Britt (24.03.2013)",
+        "episode":41,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1364063800/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130324_0634.mp3",
+        "published":"Sun, 24 Mar 2013 06:34:00 +0100",
+        "bitRate":64,
+        "contentLength":731143
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Schroeders Netzwerk: Echo (23.03.2013)",
+        "episode":42,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363979678/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130323_0512.mp3",
+        "published":"Sat, 23 Mar 2013 05:12:00 +0100",
+        "bitRate":64,
+        "contentLength":1157973
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Die Kebekus: Abitur (23.03.2013)",
+        "episode":43,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363974558/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130322_2005.mp3",
+        "published":"Fri, 22 Mar 2013 20:05:00 +0100",
+        "bitRate":64,
+        "contentLength":824953
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Tony Mono Wettervorhersong: Tom Odell - Another Love (22.03.2013)",
+        "episode":44,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363908737/radio/comedy/1live_comedy_aktuell_tonymono_made_by_wdr_20130322.mp3",
+        "published":"Fri, 22 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":1395483
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Matze Knop - Der Promi-Profi: Zeitreise nach Kasachstan (22.03.2013)",
+        "episode":45,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363895424/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130321_2047.mp3",
+        "published":"Thu, 21 Mar 2013 20:47:00 +0100",
+        "bitRate":64,
+        "contentLength":740369
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Global Geiss: Tattoo Convention (22.03.2013)",
+        "episode":46,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363895405/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130321_2046.mp3",
+        "published":"Thu, 21 Mar 2013 20:46:00 +0100",
+        "bitRate":64,
+        "contentLength":815617
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Jimmy Breuer Radioshow: Echo (21.03.2013)",
+        "episode":47,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363804362/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130320_2000.mp3",
+        "published":"Wed, 20 Mar 2013 20:00:00 +0100",
+        "bitRate":64,
+        "contentLength":972684
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Noob und Nerd: Portemonnaie verloren (21.03.2013)",
+        "episode":48,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363804359/radio/comedy/1live_comedy_aktuell_noobundneerd_made_by_wdr_20130320.mp3",
+        "published":"Wed, 20 Mar 2013 00:00:00 +0100",
+        "bitRate":64,
+        "contentLength":934051
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"1LIVE - Comedy: Schroeders Netzwerk: Zypern (20.03.2013)",
+        "episode":49,
+        "description":"© WDR 2013",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1363721890/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130319_2034.mp3",
+        "published":"Tue, 19 Mar 2013 20:34:00 +0100",
+        "bitRate":64,
+        "contentLength":1103481
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":64,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+    "displaySubDomaine":"1livecomedy",
+    "recentTitles":
+    [
+      "1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Filmzitatitis (11.04.2013)",
+      "1LIVE - Comedy: Nenas Welt: Kim Jong Omm (10.04.2013)",
+      "1LIVE - Comedy: Global Geiss: Star-Gebühr (10.04.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Duschen oder Baden (10.04.2013)",
+      "1LIVE - Comedy: Jimmy Breuer Radioshow: Osterferienende (09.04.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Erwachsen werden (09.04.2013)",
+      "1LIVE - Comedy: 1LIVE Freak: Lottozahlen (07.04.2013)",
+      "1LIVE - Comedy: Schroeders Netzwerk: Offshore Leaks (06.04.2013)",
+      "1LIVE - Comedy: Die Kebekus: 40 Jahre Handy (06.04.2013)",
+      "1LIVE - Comedy: Matze Knop - Der Promi Profi: Hypnose, Monster und Prozente (05.04.2013)",
+      "1LIVE - Comedy: Global Geiss: Auf Ischia (05.04.2013)",
+      "1LIVE - Comedy: Global Geiss: Bußgeldgeiss (03.04.2013)",
+      "1LIVE - Comedy: Jimmy Breuer Radioshow: Justin Bieber (04.04.0213)",
+      "1LIVE - Comedy: Schroeders Netzwerk: Nordkorea (04.04.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Umzug (04.04.0213)",
+      "1LIVE - Comedy: Jimmy Breuer Radioshow (88): Championsleague (02.04.2013)",
+      "1LIVE - Comedy: Sami und Mesi bei Real Folge 47 (02.04.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Kiosk (02.04.2013)",
+      "1LIVE - Comedy: Eiercops: Folge 08 (31.03.2013)",
+      "1LIVE - Comedy: Eiercops: Folge 07 (31.03.2013)",
+      "1LIVE - Comedy: Eiercops Folge 6 (30.03.2013)",
+      "1LIVE - Comedy: Die Kebekus: Ostern (30.03.2013)",
+      "1LIVE - Comedy: Schroeders Netzwerk: East Side Gallery (30.03.2013)",
+      "1LIVE - Comedy: Matze Knop: Ostermesse, Spritpreise und Jagdfieber (29.03.2013)",
+      "1LIVE - Comedy: Eiercops: Folge 05 (29.03.2013)",
+      "1LIVE - Comedy: Tony Mono Wettervorhersong: Max Herre - Ich bring kein Ei (29.03.2013)",
+      "1LIVE - Comedy: Nenas Welt: 99 Luftballons (28.03.2013)",
+      "1LIVE - Comedy: Jimmy Breuer Radioshow: Ostereier (28.03.2013)",
+      "1LIVE - Comedy: Eiercops: Folge 04 (28.03.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Ostern (28.03.2013)",
+      "1LIVE - Comedy: Comedy: Eiercops (27.03.2013)",
+      "1LIVE - Comedy: Global Geiss: Osterschmücking (27.03.2013)",
+      "1LIVE - Comedy: Noob und Nerd (504): Pickel (27.03.2013)",
+      "1LIVE - Comedy: Jimmy Breuer Radioshow (86): Kasachstan",
+      "1LIVE - Comedy: Eiercops: Folge 02 (26.03.2013)",
+      "1LIVE - Comedy: Noob und Nerd (503): Star Trek rulez (26.03.2013)",
+      "1LIVE - Comedy: Global Geiss: Osterferien (25.03.2013)",
+      "1LIVE - Comedy: Eiercops: Folge 01 (25.03.2013)",
+      "1LIVE - Comedy: Noob und Nerd (502): Gewinnspiele (25.03.2013)",
+      "1LIVE - Comedy: Eiercops-Trailer (24.03.2013)",
+      "1LIVE - Comedy: 1LIVE Freak: Britt (24.03.2013)",
+      "1LIVE - Comedy: Schroeders Netzwerk: Echo (23.03.2013)",
+      "1LIVE - Comedy: Die Kebekus: Abitur (23.03.2013)",
+      "1LIVE - Comedy: Tony Mono Wettervorhersong: Tom Odell - Another Love (22.03.2013)",
+      "1LIVE - Comedy: Matze Knop - Der Promi-Profi: Zeitreise nach Kasachstan (22.03.2013)",
+      "1LIVE - Comedy: Global Geiss: Tattoo Convention (22.03.2013)",
+      "1LIVE - Comedy: Jimmy Breuer Radioshow: Echo (21.03.2013)",
+      "1LIVE - Comedy: Noob und Nerd: Portemonnaie verloren (21.03.2013)",
+      "1LIVE - Comedy: Schroeders Netzwerk: Zypern (20.03.2013)"
+    ],
+    "idType":7,
+    "descriptionPodcast":"Die 1LIVE-Comedys gibt es hier noch einmal zum Nachhören.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.einslive.de/multimedia/podcasts/",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/3643_1.png",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/3643_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":3643,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/3643_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/3643_5_1.png",
+    "author":"",
+    "title":"1LIVE Comedy",
+    "picture4Url":"http://static.radio.de/images/broadcasts/3643_4.png",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Comedy",
+      "_country":"Deutschland",
+      "_genre":"Podcast",
+      "_city":"Köln",
+      "_family":"1LIVE",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"1LIVE - Comedy",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/1livecomedy.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/3643_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/3643_5.jpeg",
+    "subdomain":"1livecomedy",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2462891,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://medien.wdr.de/m/1365603456/radio/comedy/1live_comedy_aktuell_made_by_wdr_20130410_1613.mp3",
+        "idBroadcast":3643,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.m945.mwn.de:80/m945-lq.mp3",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"afk M94.5 - ",
+    "subDomaine":"m945",
+    "relayDisabled":false,
+    "rank":1044,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"M94.5 ist der Aus- und Fortbildungskanal in München. Vom Mediennachwuchs gestaltet, ist er die Plattform für Freiheit und Abenteuer mit vielfältigem Musikprogramm.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1721_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1721_3_1.png",
+    "longitude":11.57549,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1721_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"M94.5 ist der Aus- und Fortbildungskanal in München. Vom Mediennachwuchs gestaltet, ist er die Plattform für Freiheit und Abenteuer.",
+    "metaDataUrl":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":48.13743,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+    "displaySubDomaine":"m945",
+    "recentTitles":
+    [
+      "Lily Allen - Fuck You",
+      "Mark Ronson - Stop Me",
+      "Duffy - Mercy",
+      "Tom Odell - Another Love",
+      "Dexter (ft. Josa Peit) - Pictures",
+      "Alice Russell - To Dust",
+      "Kanye West - Homecoming",
+      "Teststrecke am Nachmittag - Musik",
+      "Daughter - Human",
+      "The Lumineers - Ho Hey",
+      "Mumford & Sons - Little Lion Man",
+      "Valerie June - Pushin\' Against A Stone",
+      "Shaban & Käptn Peng - Sie Mögen Sich",
+      "Fettes Brot - Emanuela",
+      "Mexican Elvis - Jeronimo",
+      "OY - Si tu veux",
+      "Oasis - Live Forever",
+      "Vacation - Splashh",
+      "The Dø - Too Insistent (Trentemøller Remix)",
+      "Lapalux - Walking Words",
+      "Wrongkong - Escape",
+      "Cestladore - Melanie",
+      "Joywave (ft.KOPPS) - Tongues",
+      "Effi - Beach",
+      "The Sweet Serenades - Can\'t Get Enough",
+      "Buke & Gase - Twisting The Lasso Of Truth",
+      "Coco Rosie - After The Afterlife",
+      "The Black Angels - Indigo Meadow",
+      "Dagobert - Ich Bin Verstrahlt",
+      "Monaco Fränzn - Diese Bayern",
+      "Retro Stefson - Time",
+      "Kid Cudi (ft. Father John Misty) - Young Lady",
+      "Belle & Sebastian - Dog On Wheels",
+      "Friska Viljor - Bite Your Head Off",
+      "Harper Simon - Just Like St. Theresa",
+      "Antennas - Heart Of Being Young",
+      "Dear Reader - Down Under",
+      "Jonathan Jeremiah - How Halfheartedly We Behave",
+      "Milky Chance - Stolen Dance",
+      "Frank Turner - Plain Sailing Weather",
+      "Ólafur Arnalds - Old Skin (ft. Arnor Dan)",
+      "Natasha Haws - Stepping Stone",
+      "Vondelpark - Quest",
+      "Major Lazer (ft. Ezra König) - Jessica",
+      "Jimmy Preacher Ellis - Kiddio",
+      "Black Lips (Feat. GZA) - The Drop I Hold",
+      "Teststrecke am Vormittag - Musik",
+      "Conquering Animal Sound - Warn Me",
+      "They Might Be Giants - The Darlings Of Lumberland",
+      "Esther & Sepalot - Wenigstens",
+      "Käptn Peng & Die Tentakel von Delph - Platz Da",
+      "Cajus - Das Ding",
+      "The Dope - Blizzard The Kid",
+      "MGMT - It\'s Working",
+      "The Strokes - Tap Out",
+      "Lo-Fi-Fnk - City",
+      "Maria Minerva - Space 4 u",
+      "The Parlor Mob - Can\'t Keep No Good Boy Down",
+      "Smokestack Lightnin\' (feat. Eddie A - Wondrous Place",
+      "Palais Schaumburg - Telephon",
+      "Pulp - Babies"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.m945.afk.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1721_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1721_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1721,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1721_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1721_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1721_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Eklektisch",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"afk M94.5",
+    "picture3Url":"",
+    "streamUrl":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1721_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1721_5.jpeg",
+    "subdomain":"m945",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463814,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+        "idBroadcast":1721,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":2463815,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.m945.mwn.de:80/m945-lq.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.m945.mwn.de:80/m945-lq.mp3",
+        "idBroadcast":1721,
+        "bitRate":64
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":529,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.m945.mwn.de:80/m945-hq.mp3",
+        "idBroadcast":1721,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

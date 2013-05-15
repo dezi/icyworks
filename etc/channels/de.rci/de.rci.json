@@ -1,0 +1,239 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.radio-cisaria.de:80/stream",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Cisaria International, Cisaria, radio cisaria international, rci, radiocisariainternational, Webstream,",
+    "subDomaine":"rci",
+    "relayDisabled":true,
+    "rank":1792,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Von Rockabilly bis Surf, von Mercybeat bis Mod, von Glamrock bis Funk, von Disco bis Punk, von Wave bis Synthie-Pop, Deutschrock, RockClassics, Jazz, Blues, Country, Soul ... die Jahrzehnte der Rock- und Popgeschichte, begleitet von Moderatoren, die noch etwas zu sagen haben.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9359_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9359_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9359_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Rockabilly, Surf, Mercybeat, Funk, Disco, Punk, Wave, Synthie-Pop, Deutschrock, RockClassics, Jazz, Blues, Country, Soul. Mix, der muss.",
+    "metaDataUrl":"http://stream.radio-cisaria.de:80/stream",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.radio-cisaria.de/stream.m3u",
+    "displaySubDomaine":"rci",
+    "recentTitles":
+    [
+      "30 Seconds to Mars - Kings and Queens",
+      "Coldplay - Viva La Vida",
+      "RCI - Nachrichten",
+      "Bon Jovi - Bad Medicine",
+      "Incubus - Are You In",
+      "Live - Turn My Head",
+      "Sheryl Crow - Soak Up The Sun",
+      "Jason Mraz - I\'m Yours",
+      "Lou Reed - Take a Walk on The Wild Side",
+      "Elvis Presley - Don´t Cry Daddy",
+      "Bruce Springsteen - Hungry Heart",
+      "EMF - Unbelieveable",
+      "Jj Grey & Mofro - Turpentine",
+      "Foster The People - Pumped Up Kicks",
+      "Steely Dan - Do It Again",
+      "Puddle Of Mudd - She Hates Me",
+      "Amy Winehouse - Take The Box",
+      "Birds Of Tokyo - Broken Bones",
+      "Ratcat - Baby Baby",
+      "Red Hot Chili Peppers - Tell Me Baby",
+      "Matthew Good - Indestructible",
+      "30 Seconds To Mars - Closer To The Edge",
+      "Death Cab for Cutie - Meet Me On the Equinox",
+      "Jayhawks - Waiting For The Sun",
+      "Avett Brothers - Sorry Man",
+      "Of Monsters and Men - Little Talks",
+      "Jj Grey & Mofro - She Don\'t Know",
+      "Bon Jovi - Wanted Dead or Alive",
+      "Faith No More - Ashes to Ashes",
+      "Phoenix - 1901",
+      "Prairie Oyster - Unbelievable Love",
+      "Aerosmith - Livin´ on the edge",
+      "Foo Fighters - Walk",
+      "Tonic - Open Up Your Eyes",
+      "Garbage - Cherry Lips (Go Baby Go!)",
+      "Matchbox 20 - Long Day",
+      "Jet - Rollover DJ",
+      "J. Geils Band - Piss On The Wall",
+      "Genesis - Mama (Long Version)",
+      "Baby Animals - Rush You",
+      "Twenty One Pilots - The Run And Go",
+      "Cake - Ain\'t No Good",
+      "Powderfinger - All Of The Dreamers",
+      "Sara Bareilles - Morningside",
+      "Tom Petty & the Heartbreakers - I Won\'t Back Down",
+      "Supergrass - Alright",
+      "28 Days - Goodbye",
+      "Ryan Star - Breathe"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radio-cisaria.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9359_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9359_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9359,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9359_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9359_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9359_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"Musik",
+      "_country":"Deutschland",
+      "_genre":"Classic Rock, Disco",
+      "_city":"Augsburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Cisaria International",
+    "picture3Url":"",
+    "streamUrl":"http://stream.radio-cisaria.de/stream.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9359_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9359_5.jpeg",
+    "subdomain":"rci",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2461850,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.radio-cisaria.de:80/stream",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.radio-cisaria.de:80/stream",
+        "idBroadcast":9359,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

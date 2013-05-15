@@ -1,0 +1,270 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://rs5.stream24.net:80/stream",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://rs25.stream24.net:80/stream",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Charivari München - 95.5, ",
+    "subDomaine":"955charivari",
+    "relayDisabled":false,
+    "rank":93,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"95.5 Charivari ist „Münchens Hitradio“ und damit der Sender für den aktiven und mobilen Münchner ab Mitte 20. Dem Musikmix liegt ein ambitioniertes\r\nFormat mit perfekt positionierten 80ern, 90ern und den besten Hits aus den Charts zugrunde. Von 5 Uhr morgens bis zum verdienten Feierabend begleiten und informieren die Moderatoren ihre Hörer gutgelaunt und unterhaltsam, fröhlich und kultverdächtig.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2318_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2318_3_1.png",
+    "longitude":11.57549,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2318_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"95.5 Charivari ist „Münchens Hitradio“ und damit der Sender für den aktiven und mobilen Münchner ab Mitte 20. \r\n",
+    "metaDataUrl":"http://rs5.stream24.net:80/stream",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":48.13743,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.charivari.de/stream1.pls",
+    "displaySubDomaine":"955charivari",
+    "recentTitles":
+    [
+      "IMAGINE DRAGONS -  ITS TIME",
+      "Radio Charivari 95.5 - ...",
+      "JUSTIN TIMBERLAKE -  MIRRORS",
+      "EROS RAMAZOTTI, TINA TURNER - COSE DELLA VITA (LIVE)",
+      "NELLY - HEY PORSCHE ***NEU***",
+      "MICHAEL JACKSON -  THEY DONT CARE ABOUT US",
+      "2RAUMWOHNUNG - 36 GRAD",
+      "LIGHTHOUSE FAMILIY -  FREE (I WISH I KNEW HOW...",
+      "ARMAND VAN HELDEN Feat. DUANE HARDEN - U DONT KNOW ME",
+      "P!NK - WHO KNEW",
+      "DIANA KING - SHY GUY",
+      "REA GARVEY - WILD LOVE",
+      "ELLIE GOULDING - LIGHTS",
+      "TAIO CRUZ feat. PITBULL - THERE SHE GOES",
+      "MANU CHAO - BONGO BONG",
+      "BROOKE FRASER - SOMETHING IN THE WATER",
+      "ROBBIE WILLIAMS -  LET ME ENTERTAIN YOU (LIVE)",
+      "SONIQUE - IT FEELS SO GOOD",
+      "TRAIN -  DROPS OF JUPITER (Tell me)",
+      "WAX - ROSANA",
+      "PAROV STELAR - ALL NIGHT",
+      "THE NEW RADICALS -  YOU GET WHAT YOU GIVE",
+      "JAMIE LIDELL - ANOTHER DAY ",
+      "DAVID GUETTA  - TITANIUM",
+      "BOB MARLEY -  COULD YOU BE LOVED",
+      "DAFT PUNK  feat. PHARRELL WILLIAMS  - GET LUCKY ",
+      "OLLY MURS - ARMY OF TWO",
+      "SIDO - BILDER IM KOPF",
+      "30 SECONDS TO MARS - KINGS AND QUEENS (LIVE)",
+      "GOTYE feat. KIMBRA - SOMEBODY THAT I USED TO KNOW",
+      "SPORTFREUNDE STILLER - APPLAUS APPLAUS",
+      "LYKKE LI - I FOLLOW RIVERS",
+      "ONE REPUBLIC -  GOOD LIFE",
+      "CORNERSHOP - BRIMFUL OF ASHA",
+      "TAKE THAT -  PATIENCE",
+      "FLO RIDA - WHISTLE",
+      "THELMA HOUSTON - DONT LEAVE ME THIS WAY",
+      "SWEDISH HOUSE MAFIA - DONT YOU WORRY CHILD",
+      "PASSENGER - LET HER GO",
+      "LIGABUE - ERI BELISSIMA",
+      "P!NK feat. NATE RUESS -  JUST GIVE ME A REASON",
+      "ARASH FEAT. SEAN PAUL  - SHE MAKES ME GO",
+      "COLBIE CAILLAT - BUBBLY (LIVE)",
+      "TOM COCHRANE -  LIFE IS A HIGHWAY",
+      "ROMAN LOB - STANDING STILL",
+      "GUSTTAVO LIMA - BALADA",
+      "YOLANDA BE COOL  -  WE NO SPEAK AMERICANO",
+      "BRUNO MARS - WHEN I WAS YOUR MAN",
+      "MADCON feat. KELLY ROWLAND - ONE LIFE ***NEU***",
+      "STEVIE WONDER - SIR DUKE",
+      "SUPERFUNK - LUCKY STAR",
+      "DUFFY - MERCY"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.charivari.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2318_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2318_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2318,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2318_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2318_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2318_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Pop, Rock",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Charivari München",
+    "picture3Url":"",
+    "streamUrl":"http://www.charivari.de/stream1.pls",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2318_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2318_5.jpeg",
+    "subdomain":"955charivari",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2461847,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://rs5.stream24.net:80/stream",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://rs5.stream24.net:80/stream",
+        "idBroadcast":2318,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":2461848,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://rs25.stream24.net:80/stream",
+        "idBroadcast":2318,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

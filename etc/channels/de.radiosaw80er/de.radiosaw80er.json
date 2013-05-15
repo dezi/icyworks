@@ -1,0 +1,272 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.hoerradar.de/saw80er-128",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.radiosaw.de/saw-80er/mp3-128/radiode/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"radio SAW 80er - ",
+    "subDomaine":"radiosaw80er",
+    "relayDisabled":false,
+    "rank":146,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Gute Laune jeden Tag mit den Superhits für Sachsen-Anhalt und Umgebung, spannenden Spielen und Comedies.\r\n",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/2238_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/2238_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/2238_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Gute Laune jeden Tag mit den Superhits für Sachsen-Anhalt und Umgebung, spannenden Spielen und Comedies.\r\n",
+    "metaDataUrl":"http://stream.hoerradar.de/saw80er-128",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":160,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.hoerradar.de/saw80er-128",
+    "displaySubDomaine":"radiosaw80er",
+    "recentTitles":
+    [
+      "GLORIA ESTEFAN & MIAMI SOUND MACHINE - DR.BEAT | radio SAW-80er ",
+      "HOOTERS - ALL YOU ZOMBIES | radio SAW-80er ",
+      "WHAM - CLUB TROPICANA | radio SAW-80er ",
+      "KING - LOVE & PRIDE | radio SAW-80er ",
+      "BLACK - WONDERFUL LIFE | radio SAW-80er ",
+      "STARSHIP - NOTHING\'S GONNA STOP US NOW | radio SAW-80er ",
+      "IMAGINATION - JUST AN ILLUSION | radio SAW-80er ",
+      "EXTRABREIT - HURRA, HURRA DIE SCHULE BRENNT | radio SAW-80er ",
+      "HERBERT GROENEMEYER - WAS SOLL DAS | radio SAW-80er ",
+      "GENESIS - THAT\'S ALL | radio SAW-80er ",
+      "UB 40 - RED RED WINE | radio SAW-80er ",
+      "RICHARD MARX - RIGHT HERE WAITING | radio SAW-80er ",
+      "HOLLY JOHNSON - LOVE TRAIN | radio SAW-80er ",
+      "TEARS FOR FEARS - EVERYBODY WANTS TO RULE THE WORLD | radio SAW-80er ",
+      "COSA ROSA - MILLIONENMAL | radio SAW-80er ",
+      "AC-DC - HELLS BELLS | radio SAW-80er ",
+      "FOX THE FOX - PRECIOUS LITTLE DIAMOND | radio SAW-80er ",
+      "ROD STEWART - EVERYBEAT OF MY HEART | radio SAW-80er ",
+      "WAX - BRIDGE TO YOUR HEART | radio SAW-80er ",
+      "BANGLES - WALK LIKE AN EGYPTIAN | radio SAW-80er ",
+      "EURYTHMICS - LOVE IS A STRANGER | radio SAW-80er ",
+      "DEF LEPPARD - HYSTERIA | radio SAW-80er ",
+      "DEPECHE MODE - I JUST CAN\'T GET ENOUGH | radio SAW-80er ",
+      "ROXETTE - IT MUST HAVE BEEN LOVE | radio SAW-80er ",
+      "ALISON MOYET - IS THIS LOVE ? | radio SAW-80er ",
+      "THE CURE - LOVE CATS | radio SAW-80er ",
+      "MADONNA - MATERIAL GIRL | radio SAW-80er ",
+      "BOOMTOWN RATS - I DON\'T LIKE MONDAYS | radio SAW-80er ",
+      "LAURA BRANIGAN - SELF CONTROL | radio SAW-80er ",
+      "GEORGE HARRISON - THIS IS LOVE | radio SAW-80er ",
+      "WHAM - EVERYTHING SHE WANTS | radio SAW-80er ",
+      "FOREIGNER - WAITING FOR A GIRL LIKE YOU | radio SAW-80er ",
+      "VANESSA PARADIS - JOE LE TAXI | radio SAW-80er ",
+      "BRUCE HORNSBY & THE RANGE - THE VALLEY ROAD | radio SAW-80er ",
+      "JERMAINE JACKSON & PIA ZADORA - WHEN THE RAIN BEGINS TO FALL | radio SAW-80er ",
+      "GLASS TIGER - DIAMOND SUN | radio SAW-80er ",
+      "OFRA HAZA - IM NIN \'ALU | radio SAW-80er ",
+      "MIKE & THE MECHANICS - ALL I NEED IS A MIRACLE | radio SAW-80er ",
+      "CLUB NOUVEAU - LEAN ON ME | radio SAW-80er ",
+      "BRYAN ADAMS - SOMEBODY | radio SAW-80er ",
+      "HUBERT KAH - ROSEMARIE | radio SAW-80er ",
+      "PETER CETERA - GLORY OF LOVE | radio SAW-80er ",
+      "REAL LIFE - SEND ME AN ANGEL | radio SAW-80er ",
+      "MIDNIGHT OIL - THE DEAD HEART | radio SAW-80er ",
+      "SILLY - BATAILLON D\'AMOUR | radio SAW-80er ",
+      "ROD STEWART - RHYTHM OF MY HEART | radio SAW-80er ",
+      "TAYLOR DAYNE - PROVE YOUR LOVE | radio SAW-80er ",
+      "HOOTERS - JOHNNY B. | radio SAW-80er ",
+      "TIME BANDITS - I\'M ONLY SHOOTING LOVE | radio SAW-80er ",
+      "CROSS - HEAVEN FOR EVERYONE | radio SAW-80er ",
+      "ROCKWELL - SOMEBODY\'S WATCHING ME | radio SAW-80er ",
+      "TOTO - ROSANNA | radio SAW-80er ",
+      "LIONEL RICHIE - HELLO | radio SAW-80er ",
+      "HEINZ RUDOLF KUNZE - MIT LEIB UND SEELE | radio SAW-80er "
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://www.saw-musikwelt.de/www/80er/start.php",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/2238_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/2238_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":2238,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/2238_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/2238_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/2238_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"80er, 90er",
+      "_city":"Magdeburg",
+      "_family":"radio SAW",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"radio SAW 80er",
+    "picture3Url":"",
+    "streamUrl":"http://stream.hoerradar.de/saw80er-128",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/2238_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/2238_5.jpeg",
+    "subdomain":"radiosaw80er",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":17774,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.hoerradar.de/saw80er-128",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.hoerradar.de/saw80er-128",
+        "idBroadcast":2238,
+        "bitRate":160
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":1196,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.radiosaw.de/saw-80er/mp3-128/radiode/",
+        "streamFormat":"ICECAST",
+        "streamUrl":" http://stream.radiosaw.de/saw-80er/mp3-128/radiode/",
+        "idBroadcast":2238,
+        "bitRate":160
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://dude.mp3streams.net/dieschlagerwelle",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Die Schlager Welle",
+    "subDomaine":"dieschlagerwelle",
+    "relayDisabled":false,
+    "rank":372,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die SchlagerWelle - das super Schlager Wochenende vom 18. - 20. November 2011 am Weissenhäuser Strand. Mit Mary Roos, den Randfichten, Nik. P, Ireen Sheer, Bernhard Brink, Achim Petry, Truck Stop, Jürgen Drews und vielen mehr. Die besten Schlagerhits hören Sie schon heute bei schlagerwelle.radio.de",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/9481_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/9481_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/9481_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die SchlagerWelle - das super Schlager Wochenende vom 18. - 20. November 2011 am Weissenhäuser Strand.",
+    "metaDataUrl":"http://dude.mp3streams.net/dieschlagerwelle",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":96,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://dude.mp3streams.net/dieschlagerwelle",
+    "displaySubDomaine":"dieschlagerwelle",
+    "recentTitles":
+    [
+      "Bernhard Brink - So oder so",
+      "Helene Fischer - Hundert Prozent",
+      "Bernhard Brink - Sieben Tafeln Schokolade",
+      "Marianne Rosenberg - Marleen",
+      "Andrea J|rgens - Ich hab\' nur ein Herz",
+      "Wencke Myhre - Es wird Nacht",
+      "Dschinghis Khan - Moskau",
+      "Helene Fischer - Ich War Noch Niemals In New York",
+      "Michael Holm - Mendocino",
+      "Michelle - Und Heut\' Nacht Will Ich Tanzen",
+      "Die Flippers - Es wird Nacht",
+      "Howard Carpendale - Ti Amo...",
+      "Hoffmann & Hoffmann - Himbeereis zum Fr|hst|ck",
+      "Nik P. - Come On Let\'s Dance",
+      "Ireen Sheer - Tennessee Waltz",
+      "Roberto Blanco - Ein bisschen Spass muss sein",
+      "Peter Maffay - Moskau",
+      "Mary Roos - Arizona Man",
+      "Roland Kaiser - Sierra Madre",
+      "Helene Fischer - Du Fdngst Mich Auf Und Ldsst Mich Fliegen",
+      "Mary Roos - Nimm deinen Fu_ aus der T|r",
+      "Hildegard Knef - Holzhacken",
+      "Costa Cordalis - Anita",
+      "Michael Holm - Barfu_ im Regen",
+      "Ireen Sheer - Heut\' Abend Hab\' Ich Kopfweh",
+      "Nik P. - Der Mann im Mond",
+      "Ireen Sheer - Als Der Mond In Flammen Stand",
+      "Randfichten - Holzhacken",
+      "Nik P. - Ich Bau Dir Ein Schloss",
+      "De Randfichten - Jetzt Geht Die Party Richtig Los",
+      "Mary Roos - Ich werde geh\'n heute Nacht",
+      "Truck Stop - Grossstadtrevier",
+      "Bata Illic - Michaela",
+      "Andrea Berg - Schwerelos",
+      "Bernhard Brink - Ein Bett im Kornfeld",
+      "Truck Stop - Der Wilde",
+      "Andrea Berg - Diese Nacht Soll Nie Enden",
+      "Mary Roos - Nur die Liebe ldsst uns leben",
+      "Drafi Deutscher - Marmor",
+      "Achim Petry - Maria Maria",
+      "Nicole - Ein bisschen Frieden",
+      "Nik P. - Sieben Fdsser Wein",
+      "Marianne Rosenberg - Sieben Tafeln Schokolade",
+      "Rudi Carrell - Mexican Girl",
+      "Michael Holm - Trdnen L|gen Nicht",
+      "Bernhard Brink - Der Wilde",
+      "Peter Maffay - Mexican Girl",
+      "Mary Roos - Wo sind all\' die Jahre nur geblieben",
+      "Dschinghis Khan - Dschinghis Khan",
+      "Cindy & Bert - Immer wieder Sonntags",
+      "Kristina Bach - Tanz Auf Dem Seil",
+      "J|rgen Marcus - Eine Neue Liebe Ist Wie Ein Neues Leben",
+      "Matthias Reim - Verdammt",
+      "Nik P. - Japanese Boy",
+      "Roland Kaiser - Santa Maria"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":2,
+    "streamContentFormat":"MP3",
+    "link":"http://www.dieschlagerwelle.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/9481_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/9481_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":9481,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/9481_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/9481_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/9481_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Schlager",
+      "_city":"Hamburg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Die Schlager Welle",
+    "picture3Url":"",
+    "streamUrl":"http://dude.mp3streams.net/dieschlagerwelle",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/9481_4_1.png",
+    "sampleRate":32000,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/9481_5.jpeg",
+    "subdomain":"dieschlagerwelle",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":32000,
+        "id":7943,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://dude.mp3streams.net/dieschlagerwelle",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://dude.mp3streams.net/dieschlagerwelle",
+        "idBroadcast":9481,
+        "bitRate":96
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

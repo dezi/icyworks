@@ -1,0 +1,1626 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701612",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+      "testResult":null,
+      "name":"Wie wird man 100 Jahre alt - Die Erforschung der Langlebigkeit - 28.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701613",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy524d/130327_1805_IQ---Wissenschaft-und-Forschung_Magazin---Forschung-im-All.mp3",
+      "testResult":null,
+      "name":"Magazin - Forschung im All - 27.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701614",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxP5-kd/130326_1805_IQ---Wissenschaft-und-Forschung_Supersensor-Nase---Diagnose-und-Therapie-vo.mp3",
+      "testResult":null,
+      "name":"Supersensor Nase - Diagnose und Therapie von Riechstörungen - 26.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17701615",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxG9ANc/130325_1805_IQ---Wissenschaft-und-Forschung_Magazin---Coronavirus.mp3",
+      "testResult":null,
+      "name":"Magazin - Coronavirus - 25.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699898",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax65y4c/130322_1805_IQ---Wissenschaft-und-Forschung_Magazin---Erfolgreiches-Krisenmanagement.mp3",
+      "testResult":null,
+      "name":"Magazin - Erfolgreiches Krisenmanagement - 22.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699899",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axc5Abd/130321_1805_IQ---Wissenschaft-und-Forschung_Aus-fuer-die-Liebe---Von-der-Vermarktung-ei.mp3",
+      "testResult":null,
+      "name":"Aus für die Liebe - Von der Vermarktung eines Gefühls - 21.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699900",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxH_-46/130320_1805_IQ---Wissenschaft-und-Forschung_Magazin---Zensur-im-Netz.mp3",
+      "testResult":null,
+      "name":"Magazin - Zensur im Netz - 20.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699901",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp_A4P/130319_1805_IQ---Wissenschaft-und-Forschung_Klangvolle-Marken---Wie-Konzerne-uns-bei-de.mp3",
+      "testResult":null,
+      "name":"Klangvolle Marken - Wie Konzerne uns bei den Ohren packen - 19.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17699902",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5AFP/130318_1805_IQ---Wissenschaft-und-Forschung_Magazin---Leben-in-der-Tiefsee.mp3",
+      "testResult":null,
+      "name":"Magazin - Leben in der Tiefsee - 18.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698156",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akd_AFc/130315_1805_IQ---Wissenschaft-und-Forschung_Magazin---Erfolg-fuer-Artenschutz.mp3",
+      "testResult":null,
+      "name":"Magazin - Erfolg für Artenschutz - 15.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698157",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP_yrd/130314_1805_IQ---Wissenschaft-und-Forschung_Wohlbefinden-der-Nutztiere---Was-Schweine-g.mp3",
+      "testResult":null,
+      "name":"Wohlbefinden der Nutztiere - Was Schweine glücklich und Rinder zufrieden macht - 14.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698158",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akf5ANP/130313_1805_IQ---Wissenschaft-und-Forschung_Magazin---Marserkundung.mp3",
+      "testResult":null,
+      "name":"Magazin - Marserkundung - 13.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698159",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP_ybd/130312_1805_IQ---Wissenschaft-und-Forschung_Die-Axt-des-Thrax---Schlachtfeldarchaeologi.mp3",
+      "testResult":null,
+      "name":"Die Axt des Thrax - Schlachtfeldarchäologie am Harzrand - 12.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17698160",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP9Ard/130311_1805_IQ---Wissenschaft-und-Forschung_Magazin---Zwei-Jahre-nach-Fukushima.mp3",
+      "testResult":null,
+      "name":"Magazin - Zwei Jahre nach Fukushima - 11.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696459",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkG5-Ff/130308_1805_IQ---Wissenschaft-und-Forschung_Magazin---Alkoholexzesse-bei-Jugendlichen.mp3",
+      "testResult":null,
+      "name":"Magazin - Alkoholexzesse bei Jugendlichen - 08.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696460",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ak6_AgP/130307_1805_IQ---Wissenschaft-und-Forschung_Neuropsychoanalyse---Hirnforscher-erkunden-.mp3",
+      "testResult":null,
+      "name":"Neuropsychoanalyse - Hirnforscher erkunden das Unbewusste - 07.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696461",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH9-8d/130306_1805_IQ---Wissenschaft-und-Forschung_Magazin---Das-leere-Buero.mp3",
+      "testResult":null,
+      "name":"Magazin - Das leere Büro - 06.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696462",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH_ybc/130305_1805_IQ---Wissenschaft-und-Forschung_Aggression-im-Strassenverkehr---Warum-Autof.mp3",
+      "testResult":null,
+      "name":"Aggression im Straßenverkehr - Warum Autofahrer die Nerven verlieren - 05.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696463",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akc_286/130304_1805_IQ---Wissenschaft-und-Forschung_Magazin---Aids-Heilung.mp3",
+      "testResult":null,
+      "name":"Magazin - Aids-Heilung - 04.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17696129",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akp_2N6/130301_1805_IQ---Wissenschaft-und-Forschung_Magazin---Gedankenuebertragung.mp3",
+      "testResult":null,
+      "name":"Magazin - Gedankenübertragung - 01.03.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694617",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg5Ard/130227_1805_IQ---Wissenschaft-und-Forschung_Magazin---MobileWorldCongress.mp3",
+      "testResult":null,
+      "name":"Magazin - MobileWorldCongress - 27.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694618",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_Arc/130226_1805_IQ---Wissenschaft-und-Forschung_Spannungsfeld-Ruecken---Das-Kreuz-mit-dem-K.mp3",
+      "testResult":null,
+      "name":"Spannungsfeld Rücken - Das Kreuz mit dem Kreuz - 26.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17694619",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANy5yg6/130225_1805_IQ---Wissenschaft-und-Forschung_Magazin---Alternsforschung.mp3",
+      "testResult":null,
+      "name":"Magazin - Alternsforschung - 25.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692902",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANP52gf/130222_1805_IQ---Wissenschaft-und-Forschung_Magazin---Raubbau-am-Meer.mp3",
+      "testResult":null,
+      "name":"Magazin - Raubbau am Meer - 22.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692903",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-0S/5-8H5A0S/130221_1805_IQ---Wissenschaft-und-Forschung_Smart-Home---Wenn-das-Haus-intelligent-wird.mp3",
+      "testResult":null,
+      "name":"Smart Home - Wenn das Haus \"intelligent\" wird - 21.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692904",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN69Agc/130220_1805_IQ---Wissenschaft-und-Forschung_Magazin---Elektronische-Schiedsrichter.mp3",
+      "testResult":null,
+      "name":"Magazin - Elektronische Schiedsrichter - 20.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692905",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH_-8c/130219_1805_IQ---Wissenschaft-und-Forschung_Gefaehrlicher-Schnee---Erkenntnisse-der-Law.mp3",
+      "testResult":null,
+      "name":"Gefährlicher Schnee - Erkenntnisse der Lawinenforschung - 19.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17692906",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5-vP/130218_1805_IQ---Wissenschaft-und-Forschung_Magazin---Berichte-von-der-AAAS-Tagung-in-B.mp3",
+      "testResult":null,
+      "name":"Magazin - Berichte von der AAAS-Tagung in Boston - 18.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690913",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANc5-r6/130215_1805_IQ---Wissenschaft-und-Forschung_Magazin---Risikofaktor-Pferdefleisch.mp3",
+      "testResult":null,
+      "name":"Magazin - Risikofaktor Pferdefleisch - 15.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690914",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANp_Avf/130214_1805_IQ---Wissenschaft-und-Forschung_Psychische-Stoerungen-neu-sortiert---Wahnsi.mp3",
+      "testResult":null,
+      "name":"Psychische Störungen neu sortiert - Wahnsinn mit Methode - 14.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690915",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANp_-rf/130213_1805_IQ---Wissenschaft-und-Forschung_Magazin---Asteroid-im-Anflug.mp3",
+      "testResult":null,
+      "name":"Magazin - Asteroid im Anflug - 13.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690916",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g_AN6/130212_1805_IQ---Wissenschaft-und-Forschung_Gartenzwergkunde---Wissenschaft-mit-Zipfel.mp3",
+      "testResult":null,
+      "name":"Gartenzwergkunde - Wissenschaft mit Zipfel - 12.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17690917",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5AN6/130211_1805_IQ---Wissenschaft-und-Forschung_Magazin---Android-Angiffe.mp3",
+      "testResult":null,
+      "name":"Magazin - Android-Angiffe - 11.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689113",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8f_ybd/130208_1805_IQ---Wissenschaft-und-Forschung_Magazin---Trauma-und-Flucht.mp3",
+      "testResult":null,
+      "name":"Magazin - Trauma und Flucht - 08.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689114",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-ZS/_-rc_2kg/130207_1805_IQ---Wissenschaft-und-Forschung_Autoimmunerkrankungen---Wenn-sich-der-Koerp.mp3",
+      "testResult":null,
+      "name":"Autoimmunerkrankungen - Wenn sich der Körper selbst zerstört - 07.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689115",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8P5Axf/130206_1200_IQ---Wissenschaft-und-Forschung_Magazin---Forschungsministerin-ohne-Doktort.mp3",
+      "testResult":null,
+      "name":"Magazin - Forschungsministerin ohne Doktortitel - 06.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689116",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A865-gf/130205_1805_IQ---Wissenschaft-und-Forschung_Schwangerschaft-auf-Probe--Chancen-und-Risi.mp3",
+      "testResult":null,
+      "name":"Schwangerschaft auf Probe?- Chancen und Risiken der pränatalen Diagnostik - 05.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17689117",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_-F6/130204_1805_IQ---Wissenschaft-und-Forschung_Magazin---Die-Pille-danach.mp3",
+      "testResult":null,
+      "name":"Magazin - Die Pille danach - 04.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687238",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H5Axc/130201_1805_IQ---Wissenschaft-und-Forschung_Magazin---Contergan-Spaetschaeden.mp3",
+      "testResult":null,
+      "name":"Magazin - Contergan-Spätschäden - 01.02.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687239",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8p5AF6/130131_1805_IQ---Wissenschaft-und-Forschung_Das-Herz-der-Erde---Forscher-auf-der-Reise-.mp3",
+      "testResult":null,
+      "name":"Das Herz der Erde - Forscher auf der Reise ins Erdinnere - 31.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687240",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8p9-kf/130130_1805_IQ---Wissenschaft-und-Forschung_Magazin---Leben-unter-dem-Eis.mp3",
+      "testResult":null,
+      "name":"Magazin - Leben unter dem Eis? - 30.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687241",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_-xP/130129_1805_IQ---Wissenschaft-und-Forschung_Gefangen-im-Unbewussten---Tiefenpsychologie.mp3",
+      "testResult":null,
+      "name":"Gefangen im Unbewussten? - Tiefenpsychologie des Rassismus in Südafrika - 29.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17687242",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_yvd/130128_1805_IQ---Wissenschaft-und-Forschung_Magazin---Human-Brain-Projekt.mp3",
+      "testResult":null,
+      "name":"Magazin - Human-Brain-Projekt - 28.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685407",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFg_-vc/130125_1805_IQ---Wissenschaft-und-Forschung_Magazin---Das-Anthropozaen.mp3",
+      "testResult":null,
+      "name":"Magazin - Das Anthropozän - 25.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685408",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG5-Fd/130124_1805_IQ---Wissenschaft-und-Forschung_Wenn-Gehoerlose-Kinder-kriegen---Sprachbarr.mp3",
+      "testResult":null,
+      "name":"Wenn Gehörlose Kinder kriegen - Sprachbarrieren und Wege der Verständigung - 24.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685409",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFy5-gc/130123_1805_IQ---Wissenschaft-und-Forschung_Magazin---Der-Fall-Schavan.mp3",
+      "testResult":null,
+      "name":"Magazin - Der Fall Schavan - 23.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685410",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG5-8c/130122_1805_IQ---Wissenschaft-und-Forschung_Das-gehackte-Auto---Wenn-Automation-zum-Ris.mp3",
+      "testResult":null,
+      "name":"Das gehackte Auto - Wenn Automation zum Risiko wird - 22.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17685411",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9-bc/130121_1805_IQ---Wissenschaft-und-Forschung_Magazin---Fruehchen-Stationen.mp3",
+      "testResult":null,
+      "name":"Magazin - Frühchen-Stationen - 21.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683574",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AF65-kd/130118_1805_IQ---Wissenschaft-und-Forschung_Magazin---Riskanter-Turbo-Algorithmus.mp3",
+      "testResult":null,
+      "name":"Magazin - Riskanter Turbo-Algorithmus - 18.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"17683575",
+      "author":"",
+      "stream":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFc5-g6/130117_1805_IQ---Wissenschaft-und-Forschung_Schoepfung-im-Labor---Kuenstliches-Leben-du.mp3",
+      "testResult":null,
+      "name":"Schöpfung im Labor - Künstliches Leben durch synthetische Biologie? - 17.01.2013",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"",
+      "type":"STATIC_FILE",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":7,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"Ein Download-Angebot des Bayerischen Rundfunks",
+    "seoTitle":"Bayern 2 - IQ - Wissenschaft und Forschung",
+    "subDomaine":"iqwissenschaft",
+    "relayDisabled":false,
+    "rank":1817,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"IQ - Neues, Spannendes und Außergewöhnliches aus Natur- und Geisteswissenschaften, aus Medizin und Sozialwissenschaften, aus den Bereichen Computer und Telekommunikation. Von A(stronomie) bis Z(oologie) - ein bunter Themenmix mit Berichten, Interviews, Reportagen und Studiogästen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/4157_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/4157_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/4157_6.jpeg",
+    "metaDataAvailable":false,
+    "globallyEnabled":true,
+    "streamThrough":"ALWAYS",
+    "hasJingle":false,
+    "shortDescription":"Neues, Spannendes und Außergewöhnliches aus Natur- und Geisteswissenschaften, aus Medizin und Sozialwissenschaften, aus Computer und Telekommunikation. ",
+    "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+    "podcastUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "title":"Wie wird man 100 Jahre alt - Die Erforschung der Langlebigkeit - 28.03.2013",
+        "episode":0,
+        "description":"Warum Menschen 100 Jahre und älter werden, das versuchen Forscher in den USA und Europa herauszufinden. Und sie untersuchen auch, warum diese Menschen weniger krank werden als der Durchschnitt. Alles eine Frage der Gene? Autorin: Madeleine Amberger",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "published":"Thu, 28 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22284781
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Forschung im All - 27.03.2013",
+        "episode":1,
+        "description":"Weltraumlabor Columbus - Was die Versuche bisher gebracht haben / Strom aus Gas - Warum ein hocheffizientes Kraftwerk vor dem Aus steht / High-Tech im OP - Wie Herz-Lungen-Maschinen Leben retten / Kampf gegen Krankenhaus-Keime - Wie eine Impfung helfen könnte.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy524d/130327_1805_IQ---Wissenschaft-und-Forschung_Magazin---Forschung-im-All.mp3",
+        "published":"Wed, 27 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22821023
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Supersensor Nase - Diagnose und Therapie von Riechstörungen - 26.03.2013",
+        "episode":2,
+        "description":"Wie wichtig Riechen ist, das merkt man manchmal erst, wenn es nicht mehr richtig klappt. Jeder fünfte Deutsche ist von einer Riechstörung betroffen. Und rund fünf Prozent leiden an \"Anosmie\". Das heißt, sie können gar nichts mehr riechen. Autor: Thomas Kempe",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxP5-kd/130326_1805_IQ---Wissenschaft-und-Forschung_Supersensor-Nase---Diagnose-und-Therapie-vo.mp3",
+        "published":"Tue, 26 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":21992628
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Coronavirus - 25.03.2013",
+        "episode":3,
+        "description":"Corona-Virus in München - Wie gefährlich ist der Erreger? / Chance auf Heilung - Kann eine frühzeitige Therapie HIV langfristig eindämmen? / Neue Standortsuche - Wo die Atommüllendlagersuche Sinn macht / Bitterkalt und lang - Warum der Winter so lange dauert.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxG9ANc/130325_1805_IQ---Wissenschaft-und-Forschung_Magazin---Coronavirus.mp3",
+        "published":"Mon, 25 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23659449
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Erfolgreiches Krisenmanagement - 22.03.2013",
+        "episode":4,
+        "description":"Erfolgreiches Krisenmanagement - Wie man Skandale besser bewältigt / 3D-Drucker für jedermann - Wie ausgereift die \"Fast-alles-Könner\" tatsächlich sind / Schwere Depression - Wie die Elektrokrampftherapie wirkt / Kontraproduktive Schummelei - Warum Eltern ihre Kinder nicht belügen sollten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ax65y4c/130322_1805_IQ---Wissenschaft-und-Forschung_Magazin---Erfolgreiches-Krisenmanagement.mp3",
+        "published":"Fri, 22 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23465934
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Aus für die Liebe - Von der Vermarktung eines Gefühls - 21.03.2013",
+        "episode":5,
+        "description":"Jede dritte Ehe ist im vergangenen Jahr geschieden worden. Zwei von drei Deutschen aber träumen von der großen Liebe - Wunsch und Realität klaffen weit auseinander. Steht die Liebe vor dem Aus? Autorin: Veronika Wawatschek",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axc5Abd/130321_1805_IQ---Wissenschaft-und-Forschung_Aus-fuer-die-Liebe---Von-der-Vermarktung-ei.mp3",
+        "published":"Thu, 21 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22711100
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Zensur im Netz - 20.03.2013",
+        "episode":6,
+        "description":"Bedrohte Meinungsfreiheit - Wenn soziale Netzwerke zensieren / Globale Seuchen - Wie Physiker Epidemien vorhersagen / Gestresste Hautzellen - Wie Mikrochips helfen Chemikalien zu testen / Aufwändige Bodeninventur - Wie fruchtbar deutsches Ackerland ist.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AxH_-46/130320_1805_IQ---Wissenschaft-und-Forschung_Magazin---Zensur-im-Netz.mp3",
+        "published":"Wed, 20 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23885983
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Klangvolle Marken - Wie Konzerne uns bei den Ohren packen - 19.03.2013",
+        "episode":7,
+        "description":"Firmen haben die akustische Markenführung entdeckt, um aus \"Klangsalat\" \"Markenklang\" zu machen. Doch wie entsteht und wirkt eigentlich eine \"Marke für die Ohren\"? Autor: Martin Schramm",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp_A4P/130319_1805_IQ---Wissenschaft-und-Forschung_Klangvolle-Marken---Wie-Konzerne-uns-bei-de.mp3",
+        "published":"Tue, 19 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22559798
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Leben in der Tiefsee - 18.03.2013",
+        "episode":8,
+        "description":"Reges Leben in 11.000 Metern Tiefe - Im Mariannengraben finden Forscher zahlreiche Mikroorganismen / Schädliche Partikel - Eisenteilchen zerstören Nervenzellen im Gehirn / Gesunde Stromstöße - Tiefe Hirnstimulation hilft Parkinsonpatienten / Teamarbeit unter Wasser - Orkas und Buckelwale jagen gemeinsam auf hoher See.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axp5AFP/130318_1805_IQ---Wissenschaft-und-Forschung_Magazin---Leben-in-der-Tiefsee.mp3",
+        "published":"Mon, 18 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23307945
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Erfolg für Artenschutz - 15.03.2013",
+        "episode":9,
+        "description":"Historischer Erfolg? - Bilanz zur Artenschutzkonferenz / Dem Brustkrebs auf der Spur - US-Forscherin King erhält Paul-Ehrlich und Ludwig-Darmstädter-Preis / Zuverlässiger Strom - Physik hilft bei der Steuerung von dezentralen Netzen / Automatisches Lagerhaus - Schwarmroboter organisieren sich selbst.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akd_AFc/130315_1805_IQ---Wissenschaft-und-Forschung_Magazin---Erfolg-fuer-Artenschutz.mp3",
+        "published":"Fri, 15 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23610966
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wohlbefinden der Nutztiere - Was Schweine glücklich und Rinder zufrieden macht - 14.03.2013",
+        "episode":10,
+        "description":"Wohlfühlmassagen fürs Schaf, Psychotests für Schweine oder Streicheleinheiten für Kälber: Die sogenannte Nutztierethologie erforscht das Wohlbefinden und die Gefühle von Nutztieren. Autor: Leslie Rowe",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP_yrd/130314_1805_IQ---Wissenschaft-und-Forschung_Wohlbefinden-der-Nutztiere---Was-Schweine-g.mp3",
+        "published":"Thu, 14 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22513823
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Marserkundung - 13.03.2013",
+        "episode":11,
+        "description":"Marsrover Curiosity - Sonde findet Bausteine des Lebens / Zellen aus dem Drucker - Forscher drucken Stammzellen in 3D / Blutkonserven - US-Forscher zweifeln am gängigem Verfallsdatum / Die Durchblicker - Schwitzen im Computerspiellabor",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akf5ANP/130313_1805_IQ---Wissenschaft-und-Forschung_Magazin---Marserkundung.mp3",
+        "published":"Wed, 13 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23804481
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Die Axt des Thrax - Schlachtfeldarchäologie am Harzrand - 12.03.2013",
+        "episode":12,
+        "description":"Ein Zufallsfund sorgte für den ersten Hinweis. Im Harz, muss ein Römerheer in Kämpfe verwickelt worden sein. Das war der Auftakt zu einem Archäologie-Krimi, der jetzt eine ganze Epoche in neuem Licht erscheinen lässt. Autor: Nicolaus Schröder",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP_ybd/130312_1805_IQ---Wissenschaft-und-Forschung_Die-Axt-des-Thrax---Schlachtfeldarchaeologi.mp3",
+        "published":"Tue, 12 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22147273
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Zwei Jahre nach Fukushima - 11.03.2013",
+        "episode":13,
+        "description":"Zwei Jahre nach Fukushima - Wie hoch ist das Gesundheitsrisiko für die Bevölkerung? / Seltene Erden - Wie nützlich sind sie für die Energiewende? / Unsinnige Vitamine - Warum Nahrungsergänzungsmittel nichts nützen / Der Medizinball - Fluch oder Segen?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkP9Ard/130311_1805_IQ---Wissenschaft-und-Forschung_Magazin---Zwei-Jahre-nach-Fukushima.mp3",
+        "published":"Mon, 11 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23584634
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Alkoholexzesse bei Jugendlichen - 08.03.2013",
+        "episode":14,
+        "description":"Schrumpfendes Gehirn - Wie Alkohol Jugendliche schädigt / Gefräßiger Einwanderer - Wie gefährlich ist der Laubholzbockkäfer für Bayerns Bäume? / Mitwachsendes Korsett - Wie Skoliose sich heilen lässt / Der Besuch des Kometen - Panstarrs ist mit bloßem Auge sichtbar.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkG5-Ff/130308_1805_IQ---Wissenschaft-und-Forschung_Magazin---Alkoholexzesse-bei-Jugendlichen.mp3",
+        "published":"Fri, 08 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23131985
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Neuropsychoanalyse - Hirnforscher erkunden das Unbewusste - 07.03.2013",
+        "episode":15,
+        "description":"Vieles, was wir tun, wird vom Unbewussten gesteuert, sagen Hirnforscher. Aber bis heute ist umstritten, was das Unbewusste genau ist. Gemeinsam mit Therapeuten untersuchen sie daher Sigmund Freuds Modell der Psychoanalyse neu. Autor: Martin Hubert",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Ak6_AgP/130307_1805_IQ---Wissenschaft-und-Forschung_Neuropsychoanalyse---Hirnforscher-erkunden-.mp3",
+        "published":"Thu, 07 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22634613
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Das leere Büro - 06.03.2013",
+        "episode":16,
+        "description":"Das leere Büro - Werden wir künftig unseren Arbeitsplatz selbst bestücken? / Durchblicker: Kampf den Couch-Potatoes - Wie ein Sessel fit halten kann / Neue Rauschmittel auf dem Vormarsch - Warum Chrystal so gefährlich ist.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH9-8d/130306_1805_IQ---Wissenschaft-und-Forschung_Magazin---Das-leere-Buero.mp3",
+        "published":"Wed, 06 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23452141
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Aggression im Straßenverkehr - Warum Autofahrer die Nerven verlieren - 05.03.2013",
+        "episode":17,
+        "description":"Auf Deutschlands Straßen gehört Aggression zum Alltag. Dabei geht es weniger um Mentalität und schlechte Manieren. Experimente zeigen: Unter bestimmten Bedingungen werden viele zum Wüterich. Autorin: Iska Schreglmann",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_AkH_ybc/130305_1805_IQ---Wissenschaft-und-Forschung_Aggression-im-Strassenverkehr---Warum-Autof.mp3",
+        "published":"Tue, 05 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22582368
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Aids-Heilung - 04.03.2013",
+        "episode":18,
+        "description":"Aids-Therapie - Infiziertes Baby in USA geheilt / Verschimmeltes Tierfutter - Welche Gifte schlummern in unserer Nahrung? / Illegaler Nashornhandel - Fördert Verbot die Wilderei? / CEBIT 2013 - Neues von der weltgrößten Computermesse",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akc_286/130304_1805_IQ---Wissenschaft-und-Forschung_Magazin---Aids-Heilung.mp3",
+        "published":"Mon, 04 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23587560
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Gedankenübertragung - 01.03.2013",
+        "episode":19,
+        "description":"Brain-to-Brain-Interface - Erstmals Gedankenübertragung möglich? / \"Stützstrumpf\" für alte Gebäude - Was leistet die Erdbebentapete? / Echte Alternative zu Android und iOS? - Neue Betriebssysteme für Smartphones",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Akp_2N6/130301_1805_IQ---Wissenschaft-und-Forschung_Magazin---Gedankenuebertragung.mp3",
+        "published":"Fri, 01 Mar 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23858816
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - MobileWorldCongress - 27.02.2013",
+        "episode":20,
+        "description":"Technologietreiber bei Smartphones - Handybranche setzt auf Entwicklungsländer / Unkalkulierbares Fracking - Was kann eine Umweltprüfung leisten? / Ökologisch oder konventionell - Klimaschutz auf dem Acker und im Stall / Karte des Gehirns - Wo ticken wir unterschiedlich? /",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANg5Ard/130227_1805_IQ---Wissenschaft-und-Forschung_Magazin---MobileWorldCongress.mp3",
+        "published":"Wed, 27 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":24022238
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Spannungsfeld Rücken - Das Kreuz mit dem Kreuz - 26.02.2013",
+        "episode":21,
+        "description":"Volkskrankheit Rückenschmerzen: Mehr als jeder Zweite leidet mindestens einmal im Jahr darunter, Frauen häufiger als Männer. Die Zahl der Rückenoperationen steigt rasant - aber die helfen nicht immer. Autorin: Sigrun Damas",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANf_Arc/130226_1805_IQ---Wissenschaft-und-Forschung_Spannungsfeld-Ruecken---Das-Kreuz-mit-dem-K.mp3",
+        "published":"Tue, 26 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22270571
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Alternsforschung - 25.02.2013",
+        "episode":22,
+        "description":"Plastische Verbindungen - Wie lernfähig ist das Gehirn im Alter? / Intelligente Wände - Wie sinnvoll ist Technik für Senioren? / Ewiges Leben - Was Forscher von der unsterblichen Hydra lernen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANy5yg6/130225_1805_IQ---Wissenschaft-und-Forschung_Magazin---Alternsforschung.mp3",
+        "published":"Mon, 25 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23445872
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Raubbau am Meer - 22.02.2013",
+        "episode":23,
+        "description":"Kampf dem Beifang - Wie die Überfischung der Meere gestoppt werden soll / Raubbau am Meer - Warum die Ressource Fisch gefährdet ist / Umstrittene Videoüberwachung - Warum das Forschungsprojekt \"Indect\" Kritik auslöst / Lauschangriff auf die Erde - Wie Forscher von Atomwaffen-Warnsystemen profitieren.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANP52gf/130222_1805_IQ---Wissenschaft-und-Forschung_Magazin---Raubbau-am-Meer.mp3",
+        "published":"Fri, 22 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23578783
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Smart Home - Wenn das Haus \"intelligent\" wird - 21.02.2013",
+        "episode":24,
+        "description":"Glaubt man den Herstellern, wird das Haus von morgen vernetzt und intelligent sein. Doch wer bereits jetzt preiswert automatisieren will, ist schnell frustriert. Der Grund: fehlende Standards und mangelnder Wettbewerb. Autor: Martin Schramm",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-0S/5-8H5A0S/130221_1805_IQ---Wissenschaft-und-Forschung_Smart-Home---Wenn-das-Haus-intelligent-wird.mp3",
+        "published":"Thu, 21 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22768360
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Elektronische Schiedsrichter - 20.02.2013",
+        "episode":25,
+        "description":"Elektronische Schiedsrichter - Wie Torlinientechnik den Fußball verändert / Plastik statt Klimakiller - Wie man CO2 intelligent verwerten kann / Umstrittener Routerzwang - Welche Folgen die Entscheidung der Bundesnetzagentur hat / Die Knochen-Detektive - Wie Anthropologen die Überreste von Napoleons Soldaten untersuchen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_AN69Agc/130220_1805_IQ---Wissenschaft-und-Forschung_Magazin---Elektronische-Schiedsrichter.mp3",
+        "published":"Wed, 20 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23970829
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gefährlicher Schnee - Erkenntnisse der Lawinenforschung - 19.02.2013",
+        "episode":26,
+        "description":"Lawinen entstehen, wenn die Schneedecke instabil und der Hang steil genug ist. Klingt einfach - aber damit fangen die Fragen erst an: Welche Rolle spielt das Wetter? Kommt der Schnee von ganz allein ins Rutschen, oder braucht die Lawine einen Auslöser - etwa einen Skiwanderer?",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH_-8c/130219_1805_IQ---Wissenschaft-und-Forschung_Gefaehrlicher-Schnee---Erkenntnisse-der-Law.mp3",
+        "published":"Tue, 19 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22535975
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Berichte von der AAAS-Tagung in Boston - 18.02.2013",
+        "episode":27,
+        "description":"Mein Roboter und ich - US-Psychologin Sherry Turkle warnt vor dem neuen Umgang mit Maschinen / Schlaganfall und dann? - Wie das Gehirn wieder laufen lernt / Medizin - Künstliche Blutgerinnsel gegen schmerzhafte Narben / Woher kam Wirbelsturm Sandy? - Klimaforschung hinter den Schlagzeilen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANH5-vP/130218_1805_IQ---Wissenschaft-und-Forschung_Magazin---Berichte-von-der-AAAS-Tagung-in-B.mp3",
+        "published":"Mon, 18 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23544510
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Risikofaktor Pferdefleisch - 15.02.2013",
+        "episode":28,
+        "description":"Getäuschte Verbraucher - Wenn Pferdefleisch zum Risikofaktor wird / Unbestechlicher Aufklärer - Wie Richard Feynman die Challenger-Katastrophe untersucht hat / Verschärftes Waffenrecht - Wie in den USA die Auswirkungen von Waffengewalt erforscht werden / Redselige Insekten - Welche Rolle akustische Signale im Ameisenstaat spielen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANc5-r6/130215_1805_IQ---Wissenschaft-und-Forschung_Magazin---Risikofaktor-Pferdefleisch.mp3",
+        "published":"Fri, 15 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23610130
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Psychische Störungen neu sortiert - Wahnsinn mit Methode - 14.02.2013",
+        "episode":29,
+        "description":"Wie lassen sich bizarre Symptome wie Stimmungsschwankungen und Wahnideen sinnvoll zu psychischen Störungen zusammenfassen? Das legt das Diagnose-Handbuch DSM fest - das nun nach vielen Kontroversen neu erscheint. Autor: Jochen Paulus",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANp_Avf/130214_1805_IQ---Wissenschaft-und-Forschung_Psychische-Stoerungen-neu-sortiert---Wahnsi.mp3",
+        "published":"Thu, 14 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22616641
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Asteroid im Anflug - 13.02.2013",
+        "episode":30,
+        "description":"Asteroid im Anflug - Wie Astronomen den nahenden Gesteinsbrocken beobachten / Innovative Schallschlucker - Wie Mikroporen vor Lärm schützen / Prionen-Erkrankungen - Was Alzheimer mit dem Rinderwahnsinn verbindet / Dickhäuter gegen Mensch - Wie auf Sri Lanka Elefanten und Menschen friedlich nebeneinander leben sollen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_ANp_-rf/130213_1805_IQ---Wissenschaft-und-Forschung_Magazin---Asteroid-im-Anflug.mp3",
+        "published":"Wed, 13 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23714202
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gartenzwergkunde - Wissenschaft mit Zipfel - 12.02.2013",
+        "episode":31,
+        "description":"Wie pflanzen sie sich eigentlich fort, die bärtigen Zipfelträger? Was weiß man über ihre Vorlieben, ihre Krankheiten? Noch steckt die Gartenzwergkunde - die Nanologie - in den Zwergenschuhen. Doch so manches Geheimnis konnten wir lüften. Autorin: Prisca Straub",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g_AN6/130212_1805_IQ---Wissenschaft-und-Forschung_Gartenzwergkunde---Wissenschaft-mit-Zipfel.mp3",
+        "published":"Tue, 12 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22619149
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Android-Angiffe - 11.02.2013",
+        "episode":32,
+        "description":"Gefahr fürs Smartphone - Android-Schadsoftware auf dem Vormarsch / Alkohol am Steuer - Reaktionstest im Fahrsimulator / Den Rosenkohl mag ich nicht - Geschmacksprägung von Kindern / Klang des Südpolarmeers - Was Forscher aus der Akustik der See lernen wollen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8g5AN6/130211_1805_IQ---Wissenschaft-und-Forschung_Magazin---Android-Angiffe.mp3",
+        "published":"Mon, 11 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":24064034
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Trauma und Flucht - 08.02.2013",
+        "episode":33,
+        "description":"Sprachlos in der Fremde - Wie man traumatisierten Flüchtlingen helfen kann / Sensible Daten - Wie Journalisten und Anwälte sie schützen können / Cyber-Attacken - Was bringt eine EU-Meldepflicht? / Orgelklang - Wie Physiker das Geheimnis der Instrumente suchen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8f_ybd/130208_1805_IQ---Wissenschaft-und-Forschung_Magazin---Trauma-und-Flucht.mp3",
+        "published":"Fri, 08 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23537405
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Autoimmunerkrankungen - Wenn sich der Körper selbst zerstört - 07.02.2013",
+        "episode":34,
+        "description":"Typ-1-Diabetes, Rheuma und Multiple Sklerose - drei unterschiedliche Krankheiten, doch eine gemeinsame Ursache: Der Körper glaubt, gegen schädliche Erreger vorzugehen, aber in Wirklichkeit attackiert er sein eigenes Gewebe. Autorin: Veronika Bräse",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_71S/_-ZS/_-rc_2kg/130207_1805_IQ---Wissenschaft-und-Forschung_Autoimmunerkrankungen---Wenn-sich-der-Koerp.mp3",
+        "published":"Thu, 07 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22716533
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Forschungsministerin ohne Doktortitel - 06.02.2013",
+        "episode":35,
+        "description":"Forschungsministerin ohne Doktortitel - Hat Annette Schavan ein faires Verfahren bekommen? / Risiko Krankenhaus in den USA - Warum Nichtversicherte nach Operationen öfter sterben / Welche Chemikalien sind drin? - Die EU-Kommission bilanziert REACH / Lehrer im Video-Check - Der Durchblicker aus dem Lehrer-Labor.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8P5Axf/130206_1200_IQ---Wissenschaft-und-Forschung_Magazin---Forschungsministerin-ohne-Doktort.mp3",
+        "published":"Wed, 06 Feb 2013 12:00:01 +0100",
+        "bitRate":128,
+        "contentLength":23557467
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schwangerschaft auf Probe?- Chancen und Risiken der pränatalen Diagnostik - 05.02.2013",
+        "episode":36,
+        "description":"Ein paar Tropfen Blut der Mutter und schon kann mit großer Wahrscheinlichkeit festgestellt werden, ob der Fötus das Down-Syndrom hat. Dieser \"PraenaTest\" ist eine der neusten Errungenschaften der pränatalen Diagnostik. Autorin: Anja Seiler",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A865-gf/130205_1805_IQ---Wissenschaft-und-Forschung_Schwangerschaft-auf-Probe--Chancen-und-Risi.mp3",
+        "published":"Tue, 05 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22525944
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Die Pille danach - 04.02.2013",
+        "episode":37,
+        "description":"Die Pille danach - Wie funktioniert sie wirklich? / Gas aus der Erde - Warum die USA auf das umstrittene Fracking setzen / Im Schwarm durchs Erdmagnetfeld - Die ESA-Satellitenmission SWARM / Was passiert unterm Ski? - Ski-Material-Test an der Uni Innsbruck.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8G_-F6/130204_1805_IQ---Wissenschaft-und-Forschung_Magazin---Die-Pille-danach.mp3",
+        "published":"Mon, 04 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23371057
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Contergan-Spätschäden - 01.02.2013",
+        "episode":38,
+        "description":"Contergan-Spätschäden - Betroffene in der Versorgungslücke / Effektiver Bienenschutz? - EU plant Verbot von Pflanzenschutzmitteln / Schatz aus Birkenrinde - Wie eine buddhistische Handschrift rekonstruiert wird / Stratosphären-Ballon - Als Tourist an den Rand des Weltalls.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-JS/_A8H5Axc/130201_1805_IQ---Wissenschaft-und-Forschung_Magazin---Contergan-Spaetschaeden.mp3",
+        "published":"Fri, 01 Feb 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23871772
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Das Herz der Erde - Forscher auf der Reise ins Erdinnere - 31.01.2013",
+        "episode":39,
+        "description":"Wir wissen mehr über den Mars als über das Innere der Erde. Seit Jahrhunderten träumen die Menschen davon, über 6.000 Kilometer zum Mittelpunkt der Erde zu reisen. Autor: Stefan Geier",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8p5AF6/130131_1805_IQ---Wissenschaft-und-Forschung_Das-Herz-der-Erde---Forscher-auf-der-Reise-.mp3",
+        "published":"Thu, 31 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22067443
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Leben unter dem Eis? - 30.01.2013",
+        "episode":40,
+        "description":"Leben unter dem Eis? - Was verbirgt sich in Seen unter der Antarktis? / ADHS und Depressionen - Werden Kinder immer häufiger psychisch krank? / Mobile Payment - Vom Pilotprojekt zum Routineeinsatz / Ende der Higgs-Suche? - Der CERN-Beschleuniger wird aufgerüstet.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_A8p9-kf/130130_1805_IQ---Wissenschaft-und-Forschung_Magazin---Leben-unter-dem-Eis.mp3",
+        "published":"Wed, 30 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":24142192
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Gefangen im Unbewussten? - Tiefenpsychologie des Rassismus in Südafrika - 29.01.2013",
+        "episode":41,
+        "description":"Offiziell ist der Rassismus in Südafrika schon lange beendet. Kaum noch jemand erlaubt sich öffentlich rassistische Äußerungen. Trotzdem scheint das Problem tief in der kollektiven Psyche verwurzelt zu sein. Autorin: Corinna Arndt",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_-xP/130129_1805_IQ---Wissenschaft-und-Forschung_Gefangen-im-Unbewussten---Tiefenpsychologie.mp3",
+        "published":"Tue, 29 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22598669
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Human-Brain-Projekt - 28.01.2013",
+        "episode":42,
+        "description":"Milliardenförderung für Gehirnsimulation - Was bringt das Human-Brain-Projekt? / Jede Art zählt - Kann man Biodiversität vermessen? / Kampf gegen Resistenzen - Brauchen wir neue Antibiotika? / Fluglotse für einen Tag - Simulator für Multitasking.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFd_yvd/130128_1805_IQ---Wissenschaft-und-Forschung_Magazin---Human-Brain-Projekt.mp3",
+        "published":"Mon, 28 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23885565
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Das Anthropozän - 25.01.2013",
+        "episode":43,
+        "description":"Brandgefährliches Kältemittel? - Wenn die Klimaanlage zum Risiko wird / Neues Erdzeitalter? - Warum Forscher das Anthropozän ausrufen / Scharfe Bilder? - Wie Forscher ein revolutionäres Röntgenverfahren entwickeln / Verführerische Düfte? - Wie Gerüche unsere Partnerwahl beeinflussen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFg_-vc/130125_1805_IQ---Wissenschaft-und-Forschung_Magazin---Das-Anthropozaen.mp3",
+        "published":"Fri, 25 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23563318
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Wenn Gehörlose Kinder kriegen - Sprachbarrieren und Wege der Verständigung - 24.01.2013",
+        "episode":44,
+        "description":"Schwangerschaft, Geburt, Kindererziehung - für gehörlose Eltern eine besondere Herausforderung. Dabei bräuchten sie keine spezielle Betreuung, sondern einfach nur Information in Gebärdensprache. Autorin: Stephanie Reinke",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG5-Fd/130124_1805_IQ---Wissenschaft-und-Forschung_Wenn-Gehoerlose-Kinder-kriegen---Sprachbarr.mp3",
+        "published":"Thu, 24 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22495015
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Der Fall Schavan - 23.01.2013",
+        "episode":45,
+        "description":"Kontroverses Prüfverfahren - Wie die Wissenschaft im Fall Schavan streitet / Risikofaktor Akku - Wenn Lithium-Ionen-Batterien gefährlich werden / Problemkind Dreamliner - Mit welchen Herausforderungen Flugzeugbauer kämpfen / Gefräßiger Schädling - Warum Archäologen den Schiffsbohrwurm fürchten.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFy5-gc/130123_1805_IQ---Wissenschaft-und-Forschung_Magazin---Der-Fall-Schavan.mp3",
+        "published":"Wed, 23 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23769790
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Das gehackte Auto - Wenn Automation zum Risiko wird - 22.01.2013",
+        "episode":46,
+        "description":"Das Auto von morgen ist ein rollender, vernetzter Computer. Er wird das Fahren aber nicht nur schöner, leichter und sicherer machen. Er wird auch zum Angriffsziel für Hacker. Autor: Martin Schramm",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG5-8c/130122_1805_IQ---Wissenschaft-und-Forschung_Das-gehackte-Auto---Wenn-Automation-zum-Ris.mp3",
+        "published":"Tue, 22 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22785914
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Frühchen-Stationen - 21.01.2013",
+        "episode":47,
+        "description":"Hochtechnologie für die Kleinsten - Alltag auf einer Frühchen-Station / Ist die Zahl entscheidend? - Ab wie vielen Patienten ist ein Frühchen-Station professionell genug? / Auf der Überholspur - Wie Hochleistungstechnik Autos sicherer macht / Strumpfband und Raute - Was die ersten Bayern trugen.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFG9-bc/130121_1805_IQ---Wissenschaft-und-Forschung_Magazin---Fruehchen-Stationen.mp3",
+        "published":"Mon, 21 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23960380
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Magazin - Riskanter Turbo-Algorithmus - 18.01.2013",
+        "episode":48,
+        "description":"Umstrittener Turbo-Algorithmus - Wenn Computer riskante Börsengeschäfte abwickeln / Heilende Viren - Wie Masernerreger im Kampf gegen Krebs helfen / Vom Haben zum Teilen - Wie die IT die \"Shareconomy\" entdeckt / Mysteriöser Akzent - Wenn Patienten sich plötzlich \"chinesisch\" anhören.",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AF65-kd/130118_1805_IQ---Wissenschaft-und-Forschung_Magazin---Riskanter-Turbo-Algorithmus.mp3",
+        "published":"Fri, 18 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":23871354
+      },
+      
+      {
+        "sampleRate":44100,
+        "title":"Schöpfung im Labor - Künstliches Leben durch synthetische Biologie? - 17.01.2013",
+        "episode":49,
+        "description":"Seit der Antike träumen Menschen von künstlich erschaffenem Leben. Jetzt glauben sich Forscher kurz vor dem Ziel: Mit Hilfe der synthetischen Biologie wollen sie das Erbgut von Organismen umprogrammieren und neues Leben herstellen. Autorin: Daniela Remus",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-iS/_AFc5-g6/130117_1805_IQ---Wissenschaft-und-Forschung_Schoepfung-im-Labor---Kuenstliches-Leben-du.mp3",
+        "published":"Thu, 17 Jan 2013 18:05:01 +0100",
+        "bitRate":128,
+        "contentLength":22795109
+      }
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://www.br-online.de/podcast/iq/cast.xml",
+    "displaySubDomaine":"iqwissenschaft",
+    "recentTitles":
+    [
+      "Wie wird man 100 Jahre alt - Die Erforschung der Langlebigkeit - 28.03.2013",
+      "Magazin - Forschung im All - 27.03.2013",
+      "Supersensor Nase - Diagnose und Therapie von Riechstörungen - 26.03.2013",
+      "Magazin - Coronavirus - 25.03.2013",
+      "Magazin - Erfolgreiches Krisenmanagement - 22.03.2013",
+      "Aus für die Liebe - Von der Vermarktung eines Gefühls - 21.03.2013",
+      "Magazin - Zensur im Netz - 20.03.2013",
+      "Klangvolle Marken - Wie Konzerne uns bei den Ohren packen - 19.03.2013",
+      "Magazin - Leben in der Tiefsee - 18.03.2013",
+      "Magazin - Erfolg für Artenschutz - 15.03.2013",
+      "Wohlbefinden der Nutztiere - Was Schweine glücklich und Rinder zufrieden macht - 14.03.2013",
+      "Magazin - Marserkundung - 13.03.2013",
+      "Die Axt des Thrax - Schlachtfeldarchäologie am Harzrand - 12.03.2013",
+      "Magazin - Zwei Jahre nach Fukushima - 11.03.2013",
+      "Magazin - Alkoholexzesse bei Jugendlichen - 08.03.2013",
+      "Neuropsychoanalyse - Hirnforscher erkunden das Unbewusste - 07.03.2013",
+      "Magazin - Das leere Büro - 06.03.2013",
+      "Aggression im Straßenverkehr - Warum Autofahrer die Nerven verlieren - 05.03.2013",
+      "Magazin - Aids-Heilung - 04.03.2013",
+      "Magazin - Gedankenübertragung - 01.03.2013",
+      "Magazin - MobileWorldCongress - 27.02.2013",
+      "Spannungsfeld Rücken - Das Kreuz mit dem Kreuz - 26.02.2013",
+      "Magazin - Alternsforschung - 25.02.2013",
+      "Magazin - Raubbau am Meer - 22.02.2013",
+      "Smart Home - Wenn das Haus \"intelligent\" wird - 21.02.2013",
+      "Magazin - Elektronische Schiedsrichter - 20.02.2013",
+      "Gefährlicher Schnee - Erkenntnisse der Lawinenforschung - 19.02.2013",
+      "Magazin - Berichte von der AAAS-Tagung in Boston - 18.02.2013",
+      "Magazin - Risikofaktor Pferdefleisch - 15.02.2013",
+      "Psychische Störungen neu sortiert - Wahnsinn mit Methode - 14.02.2013",
+      "Magazin - Asteroid im Anflug - 13.02.2013",
+      "Gartenzwergkunde - Wissenschaft mit Zipfel - 12.02.2013",
+      "Magazin - Android-Angiffe - 11.02.2013",
+      "Magazin - Trauma und Flucht - 08.02.2013",
+      "Autoimmunerkrankungen - Wenn sich der Körper selbst zerstört - 07.02.2013",
+      "Magazin - Forschungsministerin ohne Doktortitel - 06.02.2013",
+      "Schwangerschaft auf Probe?- Chancen und Risiken der pränatalen Diagnostik - 05.02.2013",
+      "Magazin - Die Pille danach - 04.02.2013",
+      "Magazin - Contergan-Spätschäden - 01.02.2013",
+      "Das Herz der Erde - Forscher auf der Reise ins Erdinnere - 31.01.2013",
+      "Magazin - Leben unter dem Eis? - 30.01.2013",
+      "Gefangen im Unbewussten? - Tiefenpsychologie des Rassismus in Südafrika - 29.01.2013",
+      "Magazin - Human-Brain-Projekt - 28.01.2013",
+      "Magazin - Das Anthropozän - 25.01.2013",
+      "Wenn Gehörlose Kinder kriegen - Sprachbarrieren und Wege der Verständigung - 24.01.2013",
+      "Magazin - Der Fall Schavan - 23.01.2013",
+      "Das gehackte Auto - Wenn Automation zum Risiko wird - 22.01.2013",
+      "Magazin - Frühchen-Stationen - 21.01.2013",
+      "Magazin - Riskanter Turbo-Algorithmus - 18.01.2013",
+      "Schöpfung im Labor - Künstliches Leben durch synthetische Biologie? - 17.01.2013"
+    ],
+    "idType":7,
+    "descriptionPodcast":"IQ - Neues, Spannendes und Außergewöhnliches aus Natur- und Geisteswissenschaften, aus Medizin und Sozialwissenschaften, aus den Bereichen Computer und Telekommunikation. Von A(stronomie) bis Z(oologie) - ein bunter Themenmix mit Berichten, Interviews, Reportagen und Studiogästen. IQ - Wissenschaft und Forschung: Jeden Montag und Freitag mit einem aktuellen Magazin. Dienstag, Mittwoch und Donnerstag: Eine monothematische Sendung zu einzelnen Forschungsfragen und ihrem Hintergrund.",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.br-online.de/podcast/iq/cast.xml",
+    "advertising":false,
+    "picture1Url":"http://static.radio.de/images/broadcasts/4157_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/4157_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":4157,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/4157_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/4157_5_1.png",
+    "author":"",
+    "title":"Download & Podcast: IQ - Wissenschaft und Forschung - Bayern 2 © BR",
+    "picture4Url":"http://static.radio.de/images/broadcasts/4157_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Podcast",
+      "_topic":"Technologie, Wissen",
+      "_country":"Deutschland",
+      "_genre":"",
+      "_city":"München",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Bayern 2 - IQ - Wissenschaft und Forschung",
+    "picture3Url":"",
+    "streamUrl":"http://www.radio.de/playlists/iqwissenschaft.xml",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/4157_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/4157_5.jpeg",
+    "subdomain":"iqwissenschaft",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2458680,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://cdn-storage.br.de/mir-live/MUJIuUOVBwQIb71S/iw11MXTPbXPS/_2rc_H1S/_-ZS/_Axy_AFc/130328_1805_IQ---Wissenschaft-und-Forschung_Wie-wird-man-100-Jahre-alt---Die-Erforschun.mp3",
+        "idBroadcast":4157,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

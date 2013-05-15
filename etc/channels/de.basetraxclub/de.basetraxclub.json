@@ -1,0 +1,236 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://81.169.157.246:8100",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"BaseTrax.FM Club - ",
+    "subDomaine":"basetraxclub",
+    "relayDisabled":false,
+    "rank":1118,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Basetrax - 24 Stunden und 7 Tage die Woche die besten Sounds aus der Dance, House, Hands Up, Hardstyle sowie Electro Szene.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/13057_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/13057_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/13057_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Basetrax - 24 Stunden und 7 Tage die Woche die besten Sounds aus der Dance, House, Hands Up, Hardstyle sowie Electro Szene.",
+    "metaDataUrl":"http://81.169.157.246:8100",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":192,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://81.169.157.246:8100",
+    "displaySubDomaine":"basetraxclub",
+    "recentTitles":
+    [
+      "PH Electro - San Francisco (Original Mix)",
+      "Buddy - So Lang Der DJ Nicht Ins Bett Geht (Michael Mind Project Remix)",
+      "Hardwell feat. Mitch Crown - Call Me A Spaceman (Extended Mix)",
+      "HeavyWeight - Neverland Anthem (Original Mix)",
+      "Avicii - Fade Into Darkeness 2k12 (Uberjak`d Mix)",
+      "Tut Tut Child and Kendall Morgan - Made It For Me (Original Mix)",
+      "Beam  Mikro feat. Flip Da Scrip - Rock The Bass (Scotty Remix)",
+      "Bodybangers Feat. Victoria Kern - Gimme More (Extended Mix)",
+      "Fedde Le Grand  Nicky Romero - Sparks (Original Mix)",
+      "Andrew Parsons  Shwann feat. Veela - Blew It (George Acosta Remix)",
+      "Chris Tunes Feat. Dini V. - Mondschein (Godlike Music Port Remix)",
+      "Nicki Minaj - Starships (Funkwell Remix)",
+      "2-4 Grooves - Rockset (Extended Club Mix)",
+      "Cascada - San Francisco (Wideboys Club Mix)",
+      "Yeah Yeah Yeahs - Heads Will Roll (A-Trak Remix)",
+      "Boogie Pimps - Knocking (Tujamo Remix)",
+      "Rob  Chris - Pippi Theme Bootleg (Extended Mix) ",
+      "Anton Wick vs Alice Deejay - That`s Better Of Alone (Bootleg)",
+      "Giorgio Prezioso  Marvin - Song 2",
+      "Basslovers United - Drunken (Max Farenthide Remix)",
+      "Sebjak - Follow Me (Gregori Klosman Remix)",
+      "Lukas Meyer - Cool 2012 (Original Hot Mix)",
+      "Aura Dione - Friends (Bodybangers Remix)",
+      "The Admirals Feat. Seraphina - Bass! Man (Club Mix)",
+      "Zedd - The Legend Of Zelda (Original Mix)",
+      "KG - Polderbaan (Original Mix)",
+      "Calvin Harris feat. Kelis - Bounce (R3hab Remix)",
+      "Denzal Park - Militia (Uberjak`d Mix)",
+      "Mishelle feat. Randi - It Feels So Good (Guenta K. Remix Edit)",
+      "TAITO vs. Benny G - Make A Move (Original Mix)",
+      "Spencer  Hill feat. Ari - Surrender (Original Mix)",
+      "David Guetta feat. Tara McDonald - Delirious (Cherry Coke Remix)",
+      "Keyone Sellers - Outta Pocket (Original Mix)",
+      "Crazy M - Pornoking (Marc Korn Bigroom Remix)",
+      "Qulinez - Troll (Original Mix)",
+      "Diego Conte  Master Freez - Keep On Party (Original Extended)",
+      "Dino  Rocker - Breakfast At Tiffany`s (Movetown Remix)",
+      "Flo Rida feat. Jennifer Lopez - Sweet Spot (Beattraax Remix)",
+      "Buck Lesson, Tricky Play  RockSaw - Revolt (Original Mix)",
+      "Mike Candys feat. Sandra Wild - Sunshine (Fly so high)",
+      "Loreen - Euphoria",
+      "Moonbotica - Iconic (Original Mix)",
+      "Bingo Players - Touch Me (Acid Luke VIP Mix)",
+      "Base Attack Feat. Jay Delano - Love  Music (Max Farenthide Remix)",
+      "Chuckie  Junxterjack - Make Some Noise (Deorro Remix)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.basetrax.fm/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/13057_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/13057_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":13057,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/13057_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/13057_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/13057_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Live Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Club, Dance",
+      "_city":"Buchholz i. d. Nordheide",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"BaseTrax.FM Club",
+    "picture3Url":"",
+    "streamUrl":"http://81.169.157.246:8100",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/13057_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/13057_5.jpeg",
+    "subdomain":"basetraxclub",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":12064,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://81.169.157.246:8100",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://81.169.157.246:8100",
+        "idBroadcast":13057,
+        "bitRate":192
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

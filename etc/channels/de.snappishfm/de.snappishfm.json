@@ -1,0 +1,226 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://streamplus30.leonex.de:27964",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"snappishFM - Electronic Beats Radio 24/7, ",
+    "subDomaine":"snappishfm",
+    "relayDisabled":false,
+    "rank":1873,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"SnappishFM bringt Köpfe zum Nicken und Füße zum Wippen - und das 24/7. Coole Electronic Beats aus der Pfalz. ",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/10413_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/10413_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/10413_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"SnappishFM bringt Köpfe zum Nicken und Füße zum Wippen - und das 24/7. Coole Electronic Beats aus der Pfalz.",
+    "metaDataUrl":"http://streamplus30.leonex.de:27964",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://snappish.de/snappishFM.m3u",
+    "displaySubDomaine":"snappishfm",
+    "recentTitles":
+    [
+      "Alex D`elia  Nihil Young - Low End Theory (Original Mix)",
+      "Lutzenkirchen - Body Nation",
+      "Jose Gonzalez - Nulu Dance (Nulu Dance Mix)",
+      "Hugo Paixao And Jason Fernandes - Intruder (Original Mix)",
+      "Da Fresh, Maverickz - Waterlily (Veerus, Maxie Devine Large Room Mix)",
+      "Wildkickk - Sherlock (Original Mix)",
+      "Funkagenda - Nobody Listens To Techno Feat. Mc Flipside (Original Mix)",
+      "Chistian Smith, John Selway - Work It (Fergie Remix)",
+      "Anthony Attalla - Packs Burn (Subfractal Remix)",
+      "Andres Gil - Pow (Original Mix)",
+      "Oliver Koletzki Feat. Fran - Hypnotized (Dapayk Remix)",
+      "Jay Lumen - On You (Original Mix)",
+      "Rafael Abiramia - Sunrise (Johnny Krazy Afrika Tek Mix)",
+      "Heckmann - Slotmachine (Jesper Dahlback Remix)",
+      "Dustin Zahn  Mark Broom - Leave Me Alone (Edit Select Vs. Gary Beck Remix)",
+      "Bomb The Bass Feat. Paul Conboy - The Infinites (Extrawelt Techno Version)",
+      "Twenty Ten - Cats Eat Dog (Spartaque Mix)",
+      "Hector Couto - Naianea (Supernova Remix)",
+      "Max Cooper - Inhaleexhale (Spektre S Breathe Out Mix)",
+      "Traum Tik - Pushing (Original Mix)",
+      "Alex Kenji - 54 Is Not Dead (Original Mix)",
+      "Roman Sweet - Strawberry (Original Mix)",
+      "Joey Beltram - Slice 2010 (Carl Cox Rerub)",
+      "Daniel Meteo - In The Mood (Abe Duque Remix)",
+      "Marco Bailey - Nevada (Original Mix)",
+      "Sebastien Leger - Plik Plok (Original Mix)",
+      "Alex Bau - Arctica (Original Mix)",
+      "Toolman (Aka F. Grant) - Gold Bunny (Andrea Di Rocco Remix)",
+      "M.I.D.I. - Stroke (Original Mix)",
+      "Threesixty, Jay Ferro - Sparc (Original Mix)",
+      "Chris Liebing And Tommy Four Seven - Bauhaus (Mallet Mix)",
+      "Josh Wink - Hypnoslave (Nic Fanciulli Remix)",
+      "Gui Boratto - Telecaster",
+      "E Royal, Tom Twice - Together (Jay Mocio Remix)",
+      "Toni Rico  Bobkomyns - Go (Original Mix)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.snappish.de",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/10413_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/10413_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":10413,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/10413_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/10413_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/10413_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Webradio",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Electro, Electronica",
+      "_city":"Lambrecht",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"snappishFM",
+    "picture3Url":"",
+    "streamUrl":"http://snappish.de/snappishFM.m3u",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/10413_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/10413_5.jpeg",
+    "subdomain":"snappishfm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2423560,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://streamplus30.leonex.de:27964",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://streamplus30.leonex.de:27964",
+        "idBroadcast":10413,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

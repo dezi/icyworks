@@ -1,0 +1,242 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://webradio.radiof.de:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio F - Radio F 94.5, ",
+    "subDomaine":"radiof",
+    "relayDisabled":false,
+    "rank":393,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Radio F ist der fränkische Gute Laune-Sender mit Herz für die ganze Familie. Schlagerhits, Oldies und Evergreens mit einem Schuss Country.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/1846_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/1846_3_1.png",
+    "longitude":0,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/1846_6.gif",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":true,
+    "shortDescription":"Radio F ist der fränkische Gute Laune-Sender mit Herz für die ganze Familie. Schlagerhits, Oldies und Evergreens mit einem Schuss Country.",
+    "metaDataUrl":"http://webradio.radiof.de:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":0,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://webradio.radiof.de:8000/",
+    "displaySubDomaine":"radiof",
+    "recentTitles":
+    [
+      "CCR -  Bad Moon Risin",
+      "FORTUNES -  Freedom Come Freedom Go  F",
+      "T REX -  Hot Love",
+      "TRIO RIO -  New York-rio-tokyo",
+      "KINCADE -  Shine On Me Woman",
+      "BEACH BOYS -  Sloop John B.",
+      "MIDDLE OF THE ROAD -  Sacramento",
+      "ABBA -  Fernando",
+      "MANFRED MANN -  Mighty Quinn",
+      "KENNY ROGERS -  Ruby Don T Take Your Lov F",
+      "DRIFTERS/SEARCHERS -  Sweets For My Sweet",
+      "FRANKIE GAYE/KIM WESTON -  It Takes Two",
+      "GIANNA NANNINI -  Fotoromanza",
+      "HARPO -  Horoscope",
+      "SANTANA -  Black Magic Woman",
+      "NEW SEEKERS -  You Won T Find Another F F",
+      "BEE GEES (HIT 1987) -  You Win Again",
+      "CHER -  Gypsies, Tramps And Thieves",
+      "SIMON  GAR/ART GARFUNKE -  Mrs. Robinson",
+      "PETER KENT -  It´s A Real Good Feeling",
+      "CARO EMERALD -  A Night Like This",
+      "MARY HOPKIN -  Knock Knock Who S There  C",
+      "STATUS QUO -  Rockin All Over The World",
+      "MONKEES -  Daydream Believer",
+      "BUCKS FIZZ -  Making Your Mind Up",
+      "BILL MEDLEY/JENNIFER WAR -  The Time Of My Life",
+      "BONEY M -  No Woman No Cry",
+      "PERCY SLEDGE -  When A Man Loves A Woman F",
+      "BOB SEGER/WOLFGANG FIERE -  Against The Wind",
+      "SAM COOKE/SPINNERS -  Cupid",
+      "POLICE -  Every Breath You Take",
+      "SMOKIE -  For A Few Dollars More",
+      "VANITY FARE -  Hitchin A Ride",
+      "DAWN -  Candida",
+      "BEATLES(GMF-JUKEBOX) -  Hey Jude",
+      "CARPENTERS -  Please Mr. Postman",
+      "JOHNNY NASH -  I Can See Clearly Now",
+      "CATS -  One Way Wind",
+      "WILLIE NELSON -  On The Road Again",
+      "ALBERT HAMMOND -  The Free Electric Band",
+      "KC  THE SUNSHINE BAND -  Give It Up",
+      "MAMAS  PAPAS -  Dream A Little Dream Of  F",
+      "HOLLIES -  Long Cool Woman",
+      "BETTE MIDLER -  From A Distance",
+      "SUTHERLAND BROTHERS  QU -  Arms Of Mary",
+      "PAUL ANKA -  Diana",
+      "T-REX -  Get It On (bang A Gong)",
+      "BRUCE HORNSBY -  The Way It Is",
+      "SUNRISE -  Call On Me",
+      "THE FOUNDATIONS -  Build Me Up Buttercup",
+      "ABBA -  Mamma Mia"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.radiof.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/1846_1.gif",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/1846_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":1846,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/1846_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/1846_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/1846_4.gif",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Melodie, Oldies",
+      "_city":"Nürnberg",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio F 94.5",
+    "picture3Url":"",
+    "streamUrl":"http://webradio.radiof.de:8000/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/1846_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/1846_5.gif",
+    "subdomain":"radiof",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":705,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://webradio.radiof.de:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://webradio.radiof.de:8000/",
+        "idBroadcast":1846,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

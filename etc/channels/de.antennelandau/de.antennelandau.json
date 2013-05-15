@@ -1,0 +1,263 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.radiogroup.de:8000/ld",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://stream.telvi.de:8000/antenne_landau",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"ICECAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"ICECAST",
+    "hasLinkingAgreement":true,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Antenne Landau - ",
+    "subDomaine":"antennelandau",
+    "relayDisabled":false,
+    "rank":2011,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Die meiste Musik in Landau und ganz Rheinland-Pfalz",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/15016_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/15016_3_1.png",
+    "longitude":8.111301,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/15016_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Die meiste Musik in Landau und ganz Rheinland-Pfalz",
+    "metaDataUrl":"http://stream.radiogroup.de:8000/ld",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":49.197138,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://stream.radiogroup.de:8000/ld",
+    "displaySubDomaine":"antennelandau",
+    "recentTitles":
+    [
+      "ADELE - Rumour has it (94.8 Antenne Landau)",
+      "MAROON 5 - Misery (94.8 Antenne Landau)",
+      "BON JOVI - We weren\'t born to follow (94.8 Antenne Landau)",
+      "ROSENSTOLZ - Gib mir sonne (94.8 Antenne Landau)",
+      "KYLIE MINOGUE - All the lovers (94.8 Antenne Landau)",
+      "A HA - The sun always shines on t.v. (94.8 Antenne Landau)",
+      "LANA DEL REY - Dark paradise (94.8 Antenne Landau)",
+      "SELIG - Wenn ich an dich denke (94.8 Antenne Landau)",
+      "QUEEN - I want it all (94.8 Antenne Landau)",
+      "ONEREPUBLIC - If i lose myself (94.8 Antenne Landau)",
+      "PINK - Blow me (one last kiss) (94.8 Antenne Landau)",
+      "ISRAEL KAMAKAWIWOOLE - Somewhere over the rainbow (94.8 Antenne Landau)",
+      "DAFT PUNK - Get lucky (94.8 Antenne Landau)",
+      "JACK JOHNSON - Sitting",
+      "LENA - Mr arrow key (94.8 Antenne Landau)",
+      "DIE ÄRZTE - Männer sind schweine (94.8 Antenne Landau)",
+      "MIKE & THE MECHANICS - All i need is a miracle (94.8 Antenne Landau)",
+      "MELANIE C - Let there be love (94.8 Antenne Landau)",
+      "COLDPLAY - Charlie brown (94.8 Antenne Landau)",
+      "CALVIN HARRIS - Sweet nothing (94.8 Antenne Landau)",
+      "BRUCE SPRINGSTEEN - Born in the u.s.a. (94.8 Antenne Landau)",
+      "LIGHTHOUSE FAMILY - High (94.8 Antenne Landau)",
+      "RIHANNA FEAT. MIKKY EKKO - Stay (94.8 Antenne Landau)",
+      "MICHAEL BUBLé - Haven\'t met you yet (94.8 Antenne Landau)",
+      "SPORTFREUNDE STILLER - Applaus",
+      "RONAN KEATING - Lovin\' each day (94.8 Antenne Landau)",
+      "SOULSISTER - Through before we started (94.8 Antenne Landau)",
+      "MAKESHIFT INNOCENCE - All you need is love (radio version) (94.8 Antenne Landau)",
+      "MILOW - Never gonna stop (94.8 Antenne Landau)",
+      "CHER - All or nothing (94.8 Antenne Landau)",
+      "AURA DIONE - I will love you monday (365) (94.8 Antenne Landau)",
+      "TIM BENDZKO - Am seidenen faden (94.8 Antenne Landau)",
+      "DAVID GUETTA FEAT SIA - Titanium (94.8 Antenne Landau)",
+      "BRYAN ADAMS - Back to you (94.8 Antenne Landau)",
+      "KATY PERRY - Firework (94.8 Antenne Landau)",
+      "GENTLEMAN - You remember (94.8 Antenne Landau)",
+      "ABBY - Streets (94.8 Antenne Landau)",
+      "BRITNEY SPEARS - Born to make you happy (94.8 Antenne Landau)",
+      "OLLY MURS - Army of two (94.8 Antenne Landau)",
+      "MR. MISTER - Broken wings (94.8 Antenne Landau)",
+      "COLBIE CAILLAT - Fallin\' for you (94.8 Antenne Landau)",
+      "JOHANNES OERDING - Jemanden wie dich (94.8 Antenne Landau)",
+      "ROXETTE - Lover lover lover (94.8 Antenne Landau)",
+      "BIFFY CLYRO - Black chandelier (94.8 Antenne Landau)",
+      "ELO - Calling america (94.8 Antenne Landau)"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.antenne-landau.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/15016_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/15016_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":15016,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/15016_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/15016_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/15016_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Hits, Mainstream",
+      "_city":"Landau",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Antenne Landau",
+    "picture3Url":"",
+    "streamUrl":"http://stream.radiogroup.de:8000/ld",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/15016_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/15016_5.jpeg",
+    "subdomain":"antennelandau",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":14965,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://stream.radiogroup.de:8000/ld",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.radiogroup.de:8000/ld",
+        "idBroadcast":15016,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":14966,
+        "metaDataAvailable":false,
+        "metaDataType":"",
+        "streamContentFormat":"AAC",
+        "metaDataUrl":"http://stream.telvi.de:8000/antenne_landau",
+        "streamFormat":"ICECAST",
+        "streamUrl":"http://stream.telvi.de:8000/antenne_landau",
+        "idBroadcast":15016,
+        "bitRate":64
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}

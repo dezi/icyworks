@@ -1,0 +1,274 @@
+{
+  "config":
+  {
+    "minutesUntilStop":2,
+    "senderAddress":"",
+    "captchaURL":"/Captcha.jpg",
+    "codeSnippletMicro":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "sliceRequired":false,
+    "minutesUntilReload":10,
+    "shop4Config":
+    {
+      "id":4,
+      "enabled":false,
+      "title":"",
+      "icon2":"",
+      "icon1":"",
+      "urlTemplate":""
+    },
+    "codeSnippletEmbedded":"<script type=\"text/javascript\" src=\"http://radiodev.de:80/info/player/player.js\"></script>\n<script type=\"text/javascript\">\nradioConfig = {play:\"@subdomain@\"};\nradioPlayer();\n</script>",
+    "minutesUntilRefreshSenderInfo":1440,
+    "startPlayOnLoad":true,
+    "defaultSorting":"related",
+    "shop1Config":
+    {
+      "id":1,
+      "enabled":true,
+      "title":"amazonmp3.de",
+      "icon2":"/inc/img/shops/amazonmp3_64x17.jpg",
+      "icon1":"/inc/img/shops/amazonmp3_16x16.png",
+      "urlTemplate":"http://www.amazon.de/gp/search?ie=UTF8&keywords=%ARTIST%%20-%20%TITLE%&tag=radiode09-21&index=mp3-downloads&linkCode=ur2&camp=1638&creative=6742"
+    },
+    "relayDisabledGlobally":false,
+    "sliceLengthMillis":9984,
+    "volume":100,
+    "shop2Config":
+    {
+      "id":2,
+      "enabled":true,
+      "title":"iTunes",
+      "icon2":"/inc/img/shops/itunes_64x17.jpg",
+      "icon1":"/inc/img/shops/itunes_16x16.gif",
+      "urlTemplate":"http://clk.tradedoubler.com/click?p=23761&a=1524455&url=http://phobos.apple.com/WebObjects/MZSearch.woa/wa/advancedSearchResults?songTerm=%TITLE%&artistTerm=%ARTIST%&s=143443&partnerId=2003"
+    },
+    "maxBroadcasts":10,
+    "crossFadeURL":"-",
+    "sendAFriendMessage":"Mitteilung Send-A-Friend",
+    "welcomeURL":"http://www.radio.de/audioads/gateway.mp3",
+    "shop3Config":
+    {
+      "id":3,
+      "enabled":true,
+      "title":"musicload",
+      "icon2":"/inc/img/shops/musicload_64x17.jpg",
+      "icon1":"/inc/img/shops/musicload_16x16.gif",
+      "urlTemplate":"http://partners.webmasterplan.com/click.asp?ref=454996&site=3752&type=text&tnb=29&prd=yes&stext=%ARTIST% %TITLE%"
+    }
+  },
+  "playlist":
+  [
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://87.118.110.235:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    },
+    
+    {
+      "overlayGraficUrl":"",
+      "id":"",
+      "author":"",
+      "stream":"http://87.118.110.235:8000/",
+      "testResult":null,
+      "name":"",
+      "advertisement":false,
+      "audioAdId":"",
+      "streamFormat":"SHOUTCAST",
+      "type":"STREAM",
+      "overlayClickUrl":""
+    }
+  ],
+  "broadcast":
+  {
+    "requestMetaData":true,
+    "typeAsInteger":1,
+    "epg":"",
+    "streamFormat":"SHOUTCAST",
+    "hasLinkingAgreement":false,
+    "validated":true,
+    "subTitle":"",
+    "seoTitle":"Radio Lippe Welle Hamm - ",
+    "subDomaine":"radiolippewellehamm",
+    "relayDisabled":false,
+    "rank":516,
+    "playableStateString":"FREE",
+    "idTeaser":0,
+    "description":"Das Lokalradio für die Stadt Hamm mit den aktuellen Hits und Informationen.",
+    "picture2TransUrl":"http://static.radio.de/images/broadcasts/8384_2_1.png",
+    "picture3TransUrl":"http://static.radio.de/images/broadcasts/8384_3_1.png",
+    "longitude":9.35,
+    "locallyEnabled":true,
+    "enabled":true,
+    "picture6Url":"http://static.radio.de/images/broadcasts/8384_6.jpeg",
+    "metaDataAvailable":true,
+    "globallyEnabled":true,
+    "streamThrough":"BYDEMAND",
+    "hasJingle":false,
+    "shortDescription":"Das Lokalradio für die Stadt Hamm mit den aktuellen Hits und Informationen.",
+    "metaDataUrl":"http://87.118.110.235:8000/",
+    "podcastUrls":
+    [
+      
+    ],
+    "latitude":52.1,
+    "streamContentFormatAsString":"MP3",
+    "bitRate":128,
+    "configuredBroadcasts":
+    [
+      
+    ],
+    "picture1Set":true,
+    "streamUrlOriginal":"http://87.118.110.235:8000/",
+    "displaySubDomaine":"radiolippewellehamm",
+    "recentTitles":
+    [
+      "NATALIA KILLS - MIRRORS",
+      "Lippe Welle Hamm - 100% Die Beste Musik",
+      "Radio Lippe Welle Hamm - 100% Die Beste Musik",
+      "ONE REPUBLIC - GOOD LIFE+",
+      "SNAP - RHYTHM IS A DANCER",
+      "CARLY RAE JEPSEN - CALL ME MAYBE",
+      "SUNRISE AVENUE - I DON\'T DANCE",
+      "BLACK - WONDERFUL LIFE",
+      "SIDO - BILDER IM KOPF",
+      "OLLY MURS - TROUBLEMAKER*",
+      "TALK TALK - SUCH A SHAME",
+      "LUMINEERS - HO HEY",
+      "COLDPLAY - CLOCKS",
+      "PITBULL - FEEL THIS MOMENT",
+      "MAROON 5 - THIS LOVE",
+      "PINK - TRY",
+      "JOHN LENNON - IMAGINE",
+      "GOSSIP - PERFECT WORLD",
+      "MILOW - YOU AND ME (IN MY POCKET)",
+      "SWEDISH HOUSE MAFIA - DON\'T YOU WORRY CHILD",
+      "CROWDED HOUSE - DON\'T DREAM IT\'S OVER",
+      "FOSTER THE PEOPLE - PUMPED UP KICKS",
+      "CHERYL COLE - FIGHT FOR THIS LOVE",
+      "KID ROCK - ALL SUMMER LONG+",
+      "WOODKID - I LOVE YOU",
+      "AVICII - LEVELS",
+      "PHIL COLLINS - GROOVY KIND OF LOVE",
+      "REA GARVEY - WILD LOVE",
+      "DUFFY - MERCY",
+      "ISRAEL KAMAKAWIWO\'OLE - OVER THE RAINBOW",
+      "ALANIS MORISSETTE - RECEIVE",
+      "KIM WILDE - YOU KEEP ME HANGING ON",
+      "CRO - EINMAL UM DIE WELT",
+      "ONE REPUBLIC - IF I LOSE MYSELF",
+      "CURE - FRIDAY I\'M IN LOVE",
+      "DAVID GUETTA - TURN ME ON",
+      "NICKELBACK - LULLABY",
+      "HERBERT GROENEMEYER - WAS SOLL DAS",
+      "PASSENGER - LET HER GO",
+      "GOSSIP - MOVE IN THE RIGHT DIRECTION",
+      "ATOMIC KITTEN - WHOLE AGAIN",
+      "SIMPLY RED - HOLDING BACK THE YEARS",
+      "KINGS OF LEON - SEX ON FIRE"
+    ],
+    "idType":1,
+    "descriptionPodcast":"",
+    "picture2Url":"",
+    "documentBoost":1,
+    "streamContentFormat":"MP3",
+    "link":"http://www.lippewelle.de/",
+    "advertising":true,
+    "picture1Url":"http://static.radio.de/images/broadcasts/8384_1.jpeg",
+    "picture6TransUrl":"http://static.radio.de/images/broadcasts/8384_6_1.png",
+    "imported":false,
+    "serviceName":"broadcast",
+    "lastSlice":"",
+    "id":8384,
+    "picture1TransUrl":"http://static.radio.de/images/broadcasts/8384_1_1.png",
+    "picture5TransUrl":"http://static.radio.de/images/broadcasts/8384_5_1.png",
+    "author":"",
+    "title":"",
+    "picture4Url":"http://static.radio.de/images/broadcasts/8384_4.jpeg",
+    "picture6Set":true,
+    "tagsForDisplay":
+    {
+      "_type":"Radiosender",
+      "_topic":"",
+      "_country":"Deutschland",
+      "_genre":"Mainstream, Pop",
+      "_city":"Hamm",
+      "_family":"",
+      "_continent":"Europa",
+      "_language":"Deutsch"
+    },
+    "metaDataOverrideUrl":"",
+    "localeCode":"de_DE",
+    "broadcastPrograms":
+    [
+      
+    ],
+    "name":"Radio Lippe Welle Hamm",
+    "picture3Url":"",
+    "streamUrl":"http://87.118.110.235:8000/",
+    "referenceOverwriteDisabled":false,
+    "sourceConnected":"false",
+    "averageAmplitude":0,
+    "permissionToCheck":"/radio/broadcasts",
+    "picture5Set":true,
+    "picture4Set":true,
+    "currentProgram":null,
+    "picture3Set":false,
+    "picture4TransUrl":"http://static.radio.de/images/broadcasts/8384_4_1.png",
+    "sampleRate":44100,
+    "picture2Set":false,
+    "picture5Url":"http://static.radio.de/images/broadcasts/8384_5.jpeg",
+    "subdomain":"radiolippewellehamm",
+    "streamUrls":
+    [
+      
+      {
+        "sampleRate":44100,
+        "id":2463875,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.118.110.235:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://87.118.110.235:8000/",
+        "idBroadcast":8384,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":2463876,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.118.110.235:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://87.118.110.235:8000/",
+        "idBroadcast":8384,
+        "bitRate":128
+      },
+      
+      {
+        "sampleRate":44100,
+        "id":7230,
+        "metaDataAvailable":true,
+        "metaDataType":"",
+        "streamContentFormat":"MP3",
+        "metaDataUrl":"http://87.118.110.235:8000/",
+        "streamFormat":"SHOUTCAST",
+        "streamUrl":"http://87.118.110.235:8000/",
+        "idBroadcast":8384,
+        "bitRate":128
+      }
+    ],
+    "relayAvailable":true,
+    "relayForIE":true
+  }
+}
