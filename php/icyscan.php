@@ -775,7 +775,7 @@ function open_channel(&$havechannels,&$openchannels,&$deadchannels)
 function put_deadchannel(&$deadchannels,$channeldata,$reason = null,$penalty = 0)
 {
 	$channel  = $channeldata[ "channel" ];
-	$deadfile = "../var/deadchannels/$channel.json";
+	$deadfile = "../var/scanerrors/$channel.json";
 	
 	if ($reason === null)
 	{
