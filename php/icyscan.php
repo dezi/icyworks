@@ -104,7 +104,7 @@ function icy_configure()
 			// Remove playlist.
 			//
 			
-			$playlist = "../var/playlists/$channel.txt";
+			$playlist = "../var/scanlists/$channel.txt";
 			if (file_exists($playlist)) unlink($playlist);
 		}
 		
@@ -998,7 +998,7 @@ function process_channel(&$openchannels,&$deadchannels)
 							  . str_pad($channel,30," ",STR_PAD_RIGHT) 
 							  . " $icy\n";
 						
-						$playlistfile = "../var/playlists/$channel.txt";
+						$playlistfile = "../var/scanlists/$channel.txt";
 						file_put_contents($playlistfile,$line,FILE_APPEND);
 						
 						$response = register_icy($channel,$icy);						
