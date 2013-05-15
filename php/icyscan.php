@@ -735,6 +735,17 @@ function get_channel_config($channel)
 
 function open_channel(&$havechannels,&$openchannels,&$deadchannels)
 {
+	if (isset($GLOBALS[ "kbits" ]))
+	{
+		if ($GLOBALS[ "kbits" ] > 1000) 
+		{
+			if ($GLOBALS[ "actopens" ] > $GLOBALS[ "minopens" ])
+			{
+				$GLOBALS[ "actopens" ] -= 1;
+			}
+		}
+	}
+	
 	if (count($havechannels) == 0) 
 	{
 		$havechannels = get_channels("channels");
@@ -1026,12 +1037,15 @@ function process_channel(&$openchannels,&$deadchannels)
 						$opens = count($openchannels); 
 						$opens = str_pad($opens,2," ",STR_PAD_LEFT); 
 						$deads = count($deadchannels); 
-						$deads = str_pad($deads,3," ",STR_PAD_LEFT); 
+						$deads = str_pad($deads,3," ",STR_PAD_LEFT);
+						
 						$kbits = $GLOBALS[ "downbytes" ] * 10;
 						$kbits = $kbits / (time() - $GLOBALS[ "downstamp" ]);
 						$kbits = (int) ($kbits / 1024);
-						$kbits = str_pad($kbits,5," ",STR_PAD_LEFT); 
-
+						$kbits = str_pad($kbits,5," ",STR_PAD_LEFT);
+						
+						$GLOBALS[ "kbits" ] = $kbits;
+						
 						$line = date("Ymd.His")
 							  . " "
 							  . str_pad($channel,30," ",STR_PAD_RIGHT) 
@@ -1187,7 +1201,7 @@ function process_channel(&$openchannels,&$deadchannels)
 	$itemsknown = 0;
 	$itemsfound = 0;
 	
-	$minopens   = 10;
+	$minopens   =  3;
 	$maxopens   = 40;
 	$actopens   = 20;
 	
