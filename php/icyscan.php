@@ -735,7 +735,22 @@ function get_channel_config($channel)
 
 function open_channel(&$havechannels,&$openchannels,&$deadchannels)
 {
-	if (count($havechannels) == 0) $havechannels = get_channels("channels");
+	if (count($havechannels) == 0) 
+	{
+		$havechannels = get_channels("channels");
+		
+		if ($GLOBALS[ "roundcount" ] > 0)
+		{
+			$round = $GLOBALS[ "roundcount" ];
+			$time  = time() - $GLOBALS[ "roundtime" ];
+			
+			echo "===============================================> $round $time\n";
+		}
+		
+		$GLOBALS[ "roundcount" ] += 1;
+		$GLOBALS[ "roundtime"  ]  = time();
+	}
+	
 	if (count($havechannels) == 0) return;
 	
 	$channel = array_pop($havechannels);
@@ -1119,6 +1134,8 @@ function process_channel(&$openchannels,&$deadchannels)
 	
 	$downbytes  = 0;
 	$downstamp  = time() - 1;
+	$roundcount = 0;
+	$roundtime  = 0;
 	$itemsknown = 0;
 	$itemsfound = 0;
 	
