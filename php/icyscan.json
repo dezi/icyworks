@@ -141,7 +141,7 @@
 	
 		"preg_replace":
 		[
-			"|*|^30 Seconds To|Thirty Seconds To||",
+			"|*|30 Seconds To Mars|Thirty Seconds To Mars||",
 			
 			"|*|^,the -|||",
 			"|*|^, the -|||",

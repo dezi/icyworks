@@ -979,6 +979,8 @@ function process_channel(&$openchannels,&$deadchannels)
 						
 						if ($lasticy == $icy)
 						{
+							$GLOBALS[ "samescan" ][ $channel ] = time();
+							
 							continue;
 						}
 
@@ -1042,8 +1044,16 @@ function process_channel(&$openchannels,&$deadchannels)
 						
 						$got = floor(99 * $GLOBALS[ "itemsknown" ] / $GLOBALS[ "itemsfound" ]);
 						
-						echo "$total $opens/$deads $kbits kbit/s $got% $line";
+						$sscan = isset($GLOBALS[ "samescan" ][ $channel ]) ? (time() - $GLOBALS[ "samescan" ][ $channel ]) : "-"; 
+						$lscan = isset($GLOBALS[ "lastscan" ][ $channel ]) ? (time() - $GLOBALS[ "lastscan" ][ $channel ]) : "-"; 
+
+						$sscan = str_pad($sscan,3," ",STR_PAD_LEFT); 
+						$lscan = str_pad($lscan,3," ",STR_PAD_LEFT); 
+
+						echo "$total $opens/$deads $kbits kbit/s $sscan $lscan $got% $line";
 						
+						$GLOBALS[ "lastscan" ][ $channel ] = time();
+
 						//
 						// Check channel load.
 						//
@@ -1131,6 +1141,9 @@ function process_channel(&$openchannels,&$deadchannels)
 	$havechannels = Array();
 	$openchannels = Array();
 	$deadchannels = Array();
+	
+	$samescan = Array();
+	$lastscan = Array();
 	
 	$downbytes  = 0;
 	$downstamp  = time() - 1;
