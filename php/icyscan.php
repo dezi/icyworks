@@ -792,7 +792,7 @@ function put_deadchannel(&$deadchannels,$channeldata,$reason = null,$penalty = 0
 	$channel  = $channeldata[ "channel" ];
 	$deadfile = "../var/scanerrors/$channel.json";
 	
-	if ($reason === null)
+	if (($reason === null) && ($penalty == 0))
 	{
 		if (file_exists($deadfile)) unlink($deadfile);
 		if (isset($deadchannels[ $channel ])) unset($deadchannels[ $channel ]);
@@ -816,6 +816,8 @@ function put_deadchannel(&$deadchannels,$channeldata,$reason = null,$penalty = 0
 	
 	file_put_contents($deadfile,json_encdat($dump) . "\n");
 
+	if ($penalty < 0) $penalty = $dump[ "retries" ] * -$penalty;
+	
 	$deadchannels[ $channel ] = time() + $penalty;
 }
 
@@ -875,10 +877,10 @@ function process_channel(&$openchannels,&$deadchannels)
 			
 			if ($fd == null) 
 			{
-				put_deadchannel($deadchannels,$openchannels[ $inx ],"timeout",100);
+				put_deadchannel($deadchannels,$openchannels[ $inx ],"timeout",-10);
 				array_splice($openchannels,$inx--,1);
 				
-				echo "--------------------> timeout $streamurl\n";
+				echo "--------------------> timeout $channel $streamurl\n";
 				continue;
 			}
 			
@@ -959,27 +961,28 @@ function process_channel(&$openchannels,&$deadchannels)
 					
 					if (! strlen($icy))
 					{
-						put_deadchannel($deadchannels,$openchannels[ $inx ],"emptyicy",1200);
+						put_deadchannel($deadchannels,$openchannels[ $inx ],"emptyicy",-10);
 					}
 					else
 					{
 						put_deadchannel($deadchannels,$openchannels[ $inx ]);
 						
 						//
-						// Check against last icy string.
+						// Check against last original icy string.
 						//
 
-						$lasticy = "";
+						$lasticytext = "";
+						$lasticyfile = "../var/lasticys/$channel.orig.txt";
 						
-						$lasticyfile = "../var/lasticys/$channel.txt";
 						if (file_exists($lasticyfile))
 						{
-							$lasticy = file_get_contents($lasticyfile);
+							$lasticytext = file_get_contents($lasticyfile);
 						}
 						
-						if ($lasticy == $icy)
+						if ($lasticytext == $icy)
 						{
 							$GLOBALS[ "samescan" ][ $channel ] = time();
+							$deadchannels[ $channel ] = time() + 20;
 							
 							continue;
 						}
@@ -998,6 +1001,25 @@ function process_channel(&$openchannels,&$deadchannels)
 						$icy = nice_artist($icy);
 						
 						if (nuke_icy($channel,$icy)) continue;
+
+						//
+						// Check against last validated icy string.
+						//
+
+						$lasticytext = "";
+						$lasticyfile = "../var/lasticys/$channel.song.txt";
+						
+						if (file_exists($lasticyfile))
+						{
+							$lasticytext = file_get_contents($lasticyfile);
+						}
+						
+						if ($lasticytext == $icy)
+						{
+							continue;
+						}
+
+						file_put_contents($lasticyfile,$icy);
 
 						$total = time() - $start;
 						$total = str_pad($total,2," ",STR_PAD_LEFT); 
@@ -1046,11 +1068,24 @@ function process_channel(&$openchannels,&$deadchannels)
 						
 						$sscan = isset($GLOBALS[ "samescan" ][ $channel ]) ? (time() - $GLOBALS[ "samescan" ][ $channel ]) : "-"; 
 						$lscan = isset($GLOBALS[ "lastscan" ][ $channel ]) ? (time() - $GLOBALS[ "lastscan" ][ $channel ]) : "-"; 
-
+						
+						if ($sscan > 100) $sscan = "-";
+						
 						$sscan = str_pad($sscan,3," ",STR_PAD_LEFT); 
 						$lscan = str_pad($lscan,3," ",STR_PAD_LEFT); 
 
 						echo "$total $opens/$deads $kbits kbit/s $sscan $lscan $got% $line";
+												
+						//
+						// Disable scan of channel for a while.
+						//
+						
+						if (($sscan > 0) && ($lscan > 0))
+						{
+							if ($lscan > 150) $lscan = 150;
+							$wait = $lscan - $sscan;
+							if ($wait > 0) $deadchannels[ $channel ] = time() + $wait;
+						}
 						
 						$GLOBALS[ "lastscan" ][ $channel ] = time();
 
