@@ -4,7 +4,7 @@ include "../php/json.php";
 
 function register_icy($channel,$icy)
 {
-	return null;
+	//return null;
 	
 	$url = "http://dezimac.local:80/register"
 		 . "?channel=" . urlencode($channel)
@@ -737,7 +737,7 @@ function open_channel(&$havechannels,&$openchannels,&$deadchannels)
 {
 	if (isset($GLOBALS[ "kbits" ]))
 	{
-		if ($GLOBALS[ "kbits" ] > 1000) 
+		if ($GLOBALS[ "kbits" ] > 1000000) 
 		{
 			if ($GLOBALS[ "actopens" ] > $GLOBALS[ "minopens" ])
 			{
@@ -1107,7 +1107,7 @@ function process_channel(&$openchannels,&$deadchannels)
 						// Check channel load.
 						//
 						
-						if ($total < 10)
+						if ($total < 5)
 						{
 							if ($GLOBALS[ "actopens" ] < $GLOBALS[ "maxopens" ])
 							{
@@ -1201,9 +1201,9 @@ function process_channel(&$openchannels,&$deadchannels)
 	$itemsknown = 0;
 	$itemsfound = 0;
 	
-	$minopens   =  3;
+	$minopens   =  5;
 	$maxopens   = 40;
-	$actopens   = 20;
+	$actopens   =  5;
 	
 	while (true)
 	{
