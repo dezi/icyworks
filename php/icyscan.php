@@ -1062,6 +1062,8 @@ function process_channel(&$openchannels,&$deadchannels)
 						{
 							if ($response[ "known" ] == "cached" ) $query = "$";
 							if ($response[ "known" ] == "archive") $query = "@";
+							
+							$icy = $response[ "title" ];
 						}
 						
 						$line = date("Ymd.His")
@@ -1071,6 +1073,7 @@ function process_channel(&$openchannels,&$deadchannels)
 						
 						if ($query != '?') $GLOBALS[ "itemsfound" ]++;
 						if ($query == '$') $GLOBALS[ "itemsknown" ]++;
+						if ($query == '@') $GLOBALS[ "itemsknown" ]++;
 						
 						if ($GLOBALS[ "itemsfound" ] > 1000)
 						{
