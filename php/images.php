@@ -158,7 +158,7 @@ include "../php/util.php";
 			
 					$loadme[ "index"   ] = $index;
 					$loadme[ "uri150"  ] = $item[ "coverload" ];
-					$loadme[ "release" ] = $release;
+					$loadme[ "release" ] = $item[ "release"   ];
 			
 					array_push($check,$loadme);
 				}
@@ -424,6 +424,7 @@ include "../php/util.php";
 				find_image($imagename,$imagefile);
 
 				$jpeg = @file_get_contents($uri150,false,$GLOBALS[ "context_api" ]);
+				//$jpeg = @file_get_contents($uri150,false,$GLOBALS[ "context_pix" ]);
 			
 				if (($jpeg === false) || (strlen($jpeg) < 1000)) 
 				{
@@ -455,7 +456,7 @@ include "../php/util.php";
 					}
 					if (substr($header,0,18) == "X-RateLimit-Reset:")
 					{
-						$reset = intval(substr($header,22));
+						$reset = intval(substr($header,18));
 					}
 				}
 				

@@ -53,8 +53,6 @@ function title_exists(&$trackfile)
 	$artist = $artist[ 0 ];
 	
 	$trackfile = "../var/archive/$artist/$title.json";
-	
-	error_log($trackfile);
 
 	return file_exists($trackfile);
 }

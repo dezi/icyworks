@@ -389,7 +389,7 @@ function download_releases($dumpfile)
 	
 	//unpack_releases($dumpfile);
 	
-	//download_releases($dumpfile);
+	download_releases($dumpfile);
 	
 	index_tracks($dumpfile);
 	

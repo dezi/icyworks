@@ -48,96 +48,126 @@ function register_track()
 	// Check if known.
 	//
 	
-	$cached = "../var/cached/$title.json";
+	$cached = "$title.json";
 	$cachedjson = null;
-	
-	if (file_exists($cached))
+
+	if (title_exists($cached))
 	{
-		$result[ "known" ] = "cached";
+		$result[ "title" ] = $title;
+		$result[ "known" ] = "archive";
 		flush_and_close($result);
-			
+		
 		$cachedjson = json_decdat(file_get_contents($cached));
 	}
 	else
 	{
-		if (title_exists($cached))
+		make_final($title);
+	
+		$parts = explode(" - ",$title);
+
+		if (count($parts) == 2)
 		{
-			$result[ "known" ] = "archive";
-			flush_and_close($result);
-			
-			$cachedjson = json_decdat(file_get_contents($cached));
-		}
-		else
-		{
-			make_final($title);
-			
-			$parts = explode(" - ",$title);
-		
-			if (count($parts) == 2)
+			if (file_exists("../var/archive/" . $parts[ 1 ]))
 			{
-				$test = $parts[ 1 ] . " - " . $parts[ 0 ];
-			
-				if (file_exists("../var/cached/$test.json"))
-				{
-					$result[ "known" ] = "cached";
-					flush_and_close($result);
+				error_log(">1<" . $title);
+
+				$test  = $parts[ 1 ] . " - " . $parts[ 0 ];
+				$title = $test;
 				
-					$title = $test;
-					$cached = "../var/cached/$title.json";
+				if (file_exists($cached = "../var/archive/" . $parts[ 1 ] . "/$test.json"))
+				{
+					error_log(">2<" . $title);
+	
+					$result[ "title" ] = $title = $test;
+					$result[ "known" ] = "archive";
+					flush_and_close($result);
+		
 					$cachedjson = json_decdat(file_get_contents($cached));
 				}
 			}
-		
-			if (count($parts) == 3)
+		}
+
+		if (count($parts) == 3)
+		{
+			if (file_exists("../var/archive/" . $parts[ 0 ]))
 			{
-				$test = $parts[ 0 ] . " - " . $parts[ 2 ];
-			
-				if (file_exists("../var/cached/$test.json"))
-				{
-					$result[ "known" ] = "cached";
-					flush_and_close($result);
+				$test = $parts[ 0 ] . " - " . $parts[ 1 ];
 				
-					$title = $test;
-					$cached = "../var/cached/$title.json";
+				if (file_exists($cached = "../var/archive/" . $parts[ 0 ] . "/$test.json"))
+				{					
+					error_log(">3<" . $title);
+
+					$result[ "title" ] = $title = $test;
+					$result[ "known" ] = "archive";
+					flush_and_close($result);
+		
 					$cachedjson = json_decdat(file_get_contents($cached));
 				}
 				else
 				{
 					$test = $parts[ 0 ] . " - " . $parts[ 2 ];
-			
-					if (file_exists("../var/cached/$test.json"))
-					{
-						$result[ "known" ] = "cached";
+	
+					if (file_exists($cached = "../var/archive/" . $parts[ 0 ] . "/$test.json"))
+					{					
+						error_log(">3<" . $title);
+
+						$result[ "title" ] = $title = $test;
+						$result[ "known" ] = "archive";
 						flush_and_close($result);
-				
-						$title = $test;
-						$cached = "../var/cached/$title.json";
+		
 						$cachedjson = json_decdat(file_get_contents($cached));
 					}
 				}
 			}
-		
-			if (count($parts) == 4)
+			else
+			if (file_exists("../var/archive/" . $parts[ 1 ]))
 			{
-				$test = $parts[ 0 ] . " - " . $parts[ 3 ];
-			
-				if (file_exists("../var/cached/$test.json"))
-				{
-					$result[ "known" ] = "cached";
-					flush_and_close($result);
+				$test = $parts[ 1 ] . " - " . $parts[ 2 ];
 				
-					$title = $test;
-					$cached = "../var/cached/$title.json";
+				if (file_exists($cached = "../var/archive/" . $parts[ 1 ] . "/$test.json"))
+				{					
+					error_log(">3<" . $title);
+
+					$result[ "title" ] = $title = $test;
+					$result[ "known" ] = "archive";
+					flush_and_close($result);
+		
 					$cachedjson = json_decdat(file_get_contents($cached));
 				}
+			}
+		}
+
+		if (count($parts) == 4)
+		{
+			$test = $parts[ 0 ] . " - " . $parts[ 3 ];
+	
+			if (file_exists($cached = "../var/archive/" . $parts[ 0 ] . "/$test.json"))
+			{					
+				error_log(">4<" . $title);
+
+				$result[ "title" ] = $title = $test;
+				$result[ "known" ] = "archive";
+				flush_and_close($result);
+
+				$cachedjson = json_decdat(file_get_contents($cached));
 			}
 		}
 	}
 	
 	if ($cachedjson == null)
 	{		
-		$title = $_GET[ "title" ];
-		make_final($title,true);
+		//$title = $_GET[ "title" ];
+		//make_final($title,true);
+		
+		$result[ "title" ] = $title;
+
+		$parts  = explode(" - ",$title);
+		
+		if (file_exists("../var/archive/" . $parts[ 0 ]))
+		{
+			$result[ "known" ] = "artist";
+			flush_and_close($result);
+		}
 
 		$noartist = "../var/noartist/$title.json";
 		$notrack  = "../var/notrack/$title.json";
@@ -145,24 +175,36 @@ function register_track()
 
 		if (file_exists($noartist)) 
 		{
-			$result[ "known" ] = "noartist";
-			flush_and_close($result);
-
-			file_put_contents($noartist,".",FILE_APPEND);
+			if ((! isset($result[ "known" ])) ||
+				($result[ "known" ] != "artist"))
+			{
+				$result[ "known" ] = "noartist";
+				flush_and_close($result);
+			}
+			
+			file_put_contents($notrack,".",FILE_APPEND);
 		}
 		else
 		if (file_exists($notrack)) 
 		{
-			$result[ "known" ] = "notrack";
-			flush_and_close($result);
-
+			if ((! isset($result[ "known" ])) ||
+				($result[ "known" ] != "artist"))
+			{
+				$result[ "known" ] = "notrack";
+				flush_and_close($result);
+			}
+			
 			file_put_contents($notrack,".",FILE_APPEND);
 		}
 		else
 		{
-			$result[ "known" ] = "pending";
-			flush_and_close($result);
-
+			if ((! isset($result[ "known" ])) ||
+				($result[ "known" ] != "artist"))
+			{
+				$result[ "known" ] = "pending";
+				flush_and_close($result);
+			}
+			
 			file_put_contents($pending,".",FILE_APPEND);
 		}
 	}
@@ -195,7 +237,7 @@ function register_track()
 	
 	if ($cachedjson)
 	{
-		if (isset($cachedjson[ "itunes" ]))
+		if (isset($cachedjson[ "itunes" ]) && ! isset($item[ "cover" ]))
 		{
 			foreach ($cachedjson[ "itunes" ] as $collection)
 			{
@@ -206,8 +248,8 @@ function register_track()
 				}
 			}
 		}
-		else
-		if (isset($cachedjson[ "discogs" ]))
+
+		if (isset($cachedjson[ "discogs" ]) && ! isset($item[ "cover" ]))
 		{
 			foreach ($cachedjson[ "discogs" ] as $release)
 			{
@@ -218,7 +260,10 @@ function register_track()
 				}
 			}
 		}
-		else
+
+		if ((! isset($cachedjson[ "itunes"  ])) &&
+			(! isset($cachedjson[ "discogs" ])) &&
+			( ! isset($item[ "cover" ])))
 		{
 			foreach ($cachedjson as $release)
 			{
@@ -242,8 +287,19 @@ function register_track()
 	file_put_contents($playlist,json_encdat($item) . ",\n",FILE_APPEND);	
 	
 	//
+	//	Get stream url.
+	//
+	
+	$channelcont = file_get_contents("../etc/channels/$channel/$channel.json");
+	$channeljson = json_decdat($channelcont);
+	$item[ "streamurl" ] = $channeljson[ "broadcast" ][ "streamUrls" ][ 0 ][ "streamUrl" ];
+	
+	//
 	//	Put into now playing.
 	//
+	
+	$logopath = "../etc/logos/$channel.167x167.png";
+	if (file_exists($logopath)) $item[ "logo" ] = "$channel.167x167.png";
 	
 	$now = time();
 	

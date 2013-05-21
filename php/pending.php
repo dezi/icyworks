@@ -348,7 +348,15 @@ function search_library($workdir,&$library,$minsize,$maxrand,$nodead,$maxage)
 				}
 			}
 		
-			$targetdir = "../var/notrack/$track";
+			$parts = explode(" - ",$track);
+			
+			$targetdir = "../var/noartist/$track";
+
+			if (file_exists("../var/archive/" . $parts[ 0 ]))
+			{
+				$targetdir = "../var/notrack/$track";
+			}
+			
 			if ($pending != $targetdir) rename($pending,$targetdir);
 
 			continue;
@@ -359,6 +367,9 @@ function search_library($workdir,&$library,$minsize,$maxrand,$nodead,$maxage)
 		if (is_array($itunes ) && isset($itunes [ "itunes"  ])) $result[ "itunes"  ] = $itunes [ "itunes"  ];
 		if (is_array($discogs) && isset($discogs[ "discogs" ])) $result[ "discogs" ] = $discogs[ "discogs" ];
 
+		if (! isset($result[ "itunes"  ])) $result[ "itunes"  ] = Array();
+		if (! isset($result[ "discogs" ])) $result[ "discogs" ] = Array();
+		
 		$images  = "../var/doimages/$track";
 		
 		title_put_contents($track,json_encdat($result) . "\n");
@@ -373,7 +384,7 @@ function search_library($workdir,&$library,$minsize,$maxrand,$nodead,$maxage)
 function search_itunes($track)
 {
 	$term   = str_replace(" - "," ",substr($track,0,-5));
-	$search = "https://itunes.apple.com/search?country=de&media=music&entity=song&limit=200&term=" . urlencode($term);
+	$search = "http://itunes.apple.com/search?country=de&media=music&entity=song&limit=200&term=" . urlencode($term);
 	$json   = file_get_contents($search);
 	$data   = json_decdat($json);
 	$count  = $data[ "resultCount" ];
@@ -387,21 +398,12 @@ function search_itunes($track)
 		$term = str_replace("ue","u",$term);
 		$term = str_replace("oe","o",$term);
 		
-		$search = "https://itunes.apple.com/search?country=de&media=music&entity=song&limit=200&term=" . urlencode($term);
+		$search = "http://itunes.apple.com/search?country=de&media=music&entity=song&limit=200&term=" . urlencode($term);
 		$json   = file_get_contents($search);
 		$data   = json_decdat($json);
 		$count  = $data[ "resultCount" ];
 	}
-		
-		/*
-		if (strpos($track,"Nik P.") !== false)
-		{
-			echo $search . "\n";
-			echo json_encdat($data) . "\n";
-			exit(0);
-		}
-		*/
-		
+
 	$compare = substr($track,0,-5);
 	make_final($compare);
 	
@@ -535,7 +537,7 @@ function search_itunes($track)
 		//$library = Array();
 		//$library[] = "Ben Kweller - Wasted & Ready.json";
 
-		if (false)
+		if (true)
 		{
 			$workdir = "../var/pending";
 			$library = get_directory($workdir);
@@ -546,6 +548,10 @@ function search_itunes($track)
 		
 			search_library($workdir,$library,$minsize,$maxrand,$nodead,$maxage);
 		}
+				
+		sleep(1);		
+
+		continue;
 		
 		if (count($notracks) == 0) 
 		{
@@ -563,10 +569,10 @@ function search_itunes($track)
 			
 			foreach ($notracks as $key => $array)
 			{
-				$nocounts[ $key ] = count($array);
+				$nocounts[ $key ] = rand(0,100); //count($array);
 			}
 			
-			//arsort($nocounts);
+			arsort($nocounts);
 		}
 		else
 		{
@@ -580,8 +586,6 @@ function search_itunes($track)
 			
 			search_library($notracksdir,$dosome,0,0,true,2);
 		}
-		
-		sleep(1);		
 	}
 	
 ?>
