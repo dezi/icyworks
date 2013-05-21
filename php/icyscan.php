@@ -6,7 +6,8 @@ function register_icy($channel,$icy)
 {
 	//return null;
 	
-	$url = "http://dezi-home.no-ip.org:8888/register"
+	//$url = "http://dezi-home.no-ip.org:8888/register"
+	$url = "http://xberry.org:80/register"
 		 . "?channel=" . urlencode($channel)
 		 . "&title=" .  urlencode($icy)
 		 . "&host=" .  urlencode(gethostname())
