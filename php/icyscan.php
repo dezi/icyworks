@@ -6,7 +6,7 @@ function register_icy($channel,$icy)
 {
 	//return null;
 	
-	$url = "http://dezimac.local:80/register"
+	$url = "http://dezi-home.no-ip.org:8888/register"
 		 . "?channel=" . urlencode($channel)
 		 . "&title=" .  urlencode($icy)
 		 . "&host=" .  urlencode(gethostname())
@@ -993,7 +993,7 @@ function process_channel(&$openchannels,&$deadchannels)
 						if ($lasticytext == $icy)
 						{
 							$GLOBALS[ "samescan" ][ $channel ] = time();
-							$deadchannels[ $channel ] = time() + 20;
+							$deadchannels[ $channel ] = time() + 10;
 							
 							continue;
 						}
