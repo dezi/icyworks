@@ -4,8 +4,15 @@ include "../php/json.php";
 
 function get_nowplaying()
 {
-	header("Content-Type: text/plain");
-
+	if (isset($_GET[ "rnd" ]))
+	{
+		header("Content-Type: application/javascript");
+	}
+	else
+	{
+		header("Content-Type: text/plain");
+	}
+	
 	$now = time() - 60;
 	
 	$list = Array();
