@@ -1,4 +1,14 @@
 {
+	"metaload":
+	{
+		"de.alsterradio":
+		{
+			"url":"http://www.alsterradio.de/fileadmin/extapp/playlist/titel.txt",
+			"sample":"titel=CALIFORNICATION von RED HOT CHILI PEPPERS",
+			"preg_replace":""
+		}
+	},
+	
 	"fixups":
 	{
 		"str_replace":
